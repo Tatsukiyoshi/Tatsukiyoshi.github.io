@@ -2,9 +2,12 @@
 ##  プラットフォーム
 ### OS
   1.  Windows
-      - [Windows Insider Dev Channel Build 23620](https://aka.ms/DevLatest)
-        <span style="color: red;">*<<2024/01/26 updated from 23619>>*</span>
-        ![デスクトップ](./images/Windows/20240126_Windows11_Build23620.png)
+      - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
+        - for Windows 11 24H2 (Build 26xxx)
+          - Build 26052 <span style="color: red;">*<<2024/02/11 updated from 23620>>*</span>
+            ![デスクトップ](./images/Windows/20240211_Windows11_Build26052.png)
+            ![デスクトップ](./images/Windows/20240211_Windows11_Build26052X.png)
+            ![ZIPフォルダ](./images/Windows/20240211_Windows11_Build26052XZip.png)
         - [履歴](./windows/history.md)
   1.  Windows Subsyatem for Linux
       - [Ubuntu 22.04.3](https://www.releases.ubuntu.com/jammy/)
