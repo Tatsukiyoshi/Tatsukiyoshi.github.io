@@ -1,5 +1,10 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
+    - for Windows 11 24H2 (Build 26xxx)
+      - Build 26052 <span style="color: red;">*<<2024/02/11 updated from 23620>>*</span>
+        ![デスクトップ](../images/Windows/20240211_Windows11_Build26052.png)
+        ![デスクトップ](../images/Windows/20240211_Windows11_Build26052X.png)
+        ![ZIPフォルダ](../images/Windows/20240211_Windows11_Build26052XZip.png)
     - Build 23620 <span style="color: red;">*<<2024/01/26 updated from 23619>>*</span>
       ![デスクトップ](../images/Windows/20240126_Windows11_Build23620.png)
     - Build 23619 <span style="color: red;">*<<2024/01/19 updated from 23615>>*</span>

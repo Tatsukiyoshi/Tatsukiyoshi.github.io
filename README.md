@@ -3,10 +3,8 @@
 ### OS
   - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
-      - Build 26052 <span style="color: red;">*<<2024/02/11 updated from 23620>>*</span>
-        ![デスクトップ](./images/Windows/20240211_Windows11_Build26052.png)
-        ![デスクトップ](./images/Windows/20240211_Windows11_Build26052X.png)
-        ![ZIPフォルダ](./images/Windows/20240211_Windows11_Build26052XZip.png)
+      - Build 26058 <span style="color: red;">*<<2024/02/22 updated from 26052>>*</span>
+        ![デスクトップ](./images/Windows/20240222_Windows11_Build26058.png)
     - [履歴](./windows/history.md)
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
     - WSLバージョンを確認する
@@ -29,7 +27,7 @@
     - [履歴](./chrome/history.md)
   - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 ### ツール
-  - [Visual Studio Code 1.86](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/04 updated from 1.85.2>>*</span> <BR />
+  - [Visual Studio Code 1.86.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/22 updated from 1.86>>*</span> <BR />
     開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
     - Chrome OS Flexではコマンドでアップデート
     ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
