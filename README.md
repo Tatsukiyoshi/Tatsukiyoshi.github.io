@@ -1,7 +1,6 @@
 # リスキリング（プログラミング）
 ##  プラットフォーム
 ### OS
-<<<<<<< HEAD
   - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
       - Build 26058 <span style="color: red;">*<<2024/02/22 updated from 26052>>*</span>
@@ -41,26 +40,6 @@
   - [GitHub Desktop 3.3.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/01/20 updated from 3.3.6>>*</span>
     - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 
-##  言語別ページ
-### [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
-### [Documentation](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Documentation)
-### [Docker](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Docker)
-### [.NET](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/.NET)
-### [Rust](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Rust)
-### [Kotlin](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Kotlin)
-### [Java](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Java)
-### [Dart/flutter](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Flutter)
-### [TypeScript/JavaScript](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/TypeScript)
-### [PHP](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Php)
-### [Go](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Go)
-### [Python](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Python)
-### [Pascal](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#pascal)
-### [Swift](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#swift)
-### [Carbon](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Carbon)
-### [LLVM](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#llvm)
-### [Unity](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Unity)
-### [Exercism](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Exercism)
-
 ##  ノウハウ
 ### Windows
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
@@ -83,55 +62,6 @@
       - PowerShell上でUTF-8(BOMなし)に変更する
         ```shell
         $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
-=======
-  1.  Windows
-      - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
-        - for Windows 11 24H2 (Build 26xxx)
-          - Build 26052 <span style="color: red;">*<<2024/02/11 updated from 23620>>*</span>
-            ![デスクトップ](./images/Windows/20240211_Windows11_Build26052.png)
-            ![デスクトップ](./images/Windows/20240211_Windows11_Build26052X.png)
-            ![ZIPフォルダ](./images/Windows/20240211_Windows11_Build26052XZip.png)
-        - [履歴](./windows/history.md)
-  1.  Windows Subsyatem for Linux
-      - [Ubuntu 22.04.3](https://www.releases.ubuntu.com/jammy/)
-        ![22.04.3 LTS](./images/Windows/20230826_WSL_Ubuntu22.04.3.png)
-        - [履歴](./wsl/history.md)
-        - ディストリビューションのバージョンを確認する
-          ```
-          lsb_release -a
-          ```
-      - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-        - WSLバージョンを確認する
-          ```
-          wsl --version
-          ```
-        - WSLを更新する
-          ```
-          wsl --update
-          ``` 
-  1.  Chrome OS Flex
-      - [Chrome OS Flex 120.0.6099.235](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/01/19 updated from 120.0.6099.203>>*</span>
-        ![Chrome OS Flexバージョン情報](./images/Chrome/20240119_Chrome_OS_Flex_120.0.6099.235.png)
-        - [履歴](./chrome/history.md)
-  1.  その他
-      - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
-### ツール
-  1.  Visual Studio Code
-      - [Visual Studio Code 1.86](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/04 updated from 1.85.2>>*</span> <BR />
-        開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
-        - Chrome OS Flexではコマンドでアップデート
-        ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
-        - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
-  1.  Git
-      - [Git 2.43](https://git-scm.com/download) <span style="color: red;">*<<2023/11/30 updated from 2.42>>*</span>
-        - Windowsでの更新
-          ```
-          git update-git-for-windows
-          ```
-      - [GitHub Desktop 3.3.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/01/20 updated from 3.3.6>>*</span>
-        - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-      - ユーザ設定
->>>>>>> 47e1f52ec62fad44297ffa101c4edc8de86e46f4
         ```
         $ git config --global user.name "John Doe"
         $ git config --global user.email johndoe@example.com
