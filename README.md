@@ -27,6 +27,21 @@
     - [履歴](./chrome/history.md)
   - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 ### ツール
+  1.  Visual Studio Code
+      - [Visual Studio Code 1.86.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/16 updated from 1.86>>*</span> <BR />
+        開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
+        - Chrome OS Flexではコマンドでアップデート
+        ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
+        - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
+  1.  Git
+      - [Git 2.43](https://git-scm.com/download) <span style="color: red;">*<<2023/11/30 updated from 2.42>>*</span>
+        - Windowsでの更新
+          ```
+          git update-git-for-windows
+          ```
+      - [GitHub Desktop 3.3.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/01/20 updated from 3.3.6>>*</span>
+        - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
+      - ユーザ設定
   - [Visual Studio Code 1.86.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/22 updated from 1.86>>*</span> <BR />
     開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
     - Chrome OS Flexではコマンドでアップデート
