@@ -24,14 +24,29 @@
         ```
   - [Chrome OS Flex 121.0.6177.188](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/02/27 updated from 120.0.6099.275>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240119_Chrome_OS_Flex_120.0.6099.235.png)
+    - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
+      ![アップグレード](./images/Chrome/20240226_Chrome_OS_Upgrade.png)
+      ![アップグレードボタン](./images/Chrome/20240226_Chrome_OS_UpgradeToDebian12.png)
+      ![アップグレードウィザード](./images/Chrome/20240227_Chrome_OS_Upgrade_Now1.png)
+      ![アップグレード中１](./images/Chrome/20240227_Chrome_OS_Upgrade_Now2.png)
+      ![アップグレード中２](./images/Chrome/20240227_Chrome_OS_Upgrade_Now3.png)
+      ![アップグレード完了](./images/Chrome/20240227_Chrome_OS_Upgrade_Completed.png)
+      - 確認
+        ```
+        cat /etc/os-release
+        ```
+        ```
+        PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+        NAME="Debian GNU/Linux"
+        VERSION_ID="12"
+        VERSION="12 (bookworm)"
+        VERSION_CODENAME=bookworm
+        ID=debian
+        HOME_URL="https://www.debian.org/"
+        SUPPORT_URL="https://www.debian.org/support"
+        BUG_REPORT_URL="https://bugs.debian.org/"
+        ```
     - [履歴](./chrome/history.md)
-  - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
-    ![アップグレード](./images/Chrome/20240226_Chrome_OS_Upgrade.png)
-    ![アップグレードボタン](./images/Chrome/20240226_Chrome_OS_UpgradeToDebian12.png)
-    ![アップグレードウィザード](./images/Chrome/20240227_Chrome_OS_Upgrade_Now1.png)
-    ![アップグレード中１](./images/Chrome/20240227_Chrome_OS_Upgrade_Now2.png)
-    ![アップグレード中２](./images/Chrome/20240227_Chrome_OS_Upgrade_Now3.png)
-    ![アップグレード完了](./images/Chrome/20240227_Chrome_OS_Upgrade_Completed.png)
   - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 ### ツール
   1.  Visual Studio Code
