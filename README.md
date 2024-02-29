@@ -15,15 +15,31 @@
       ```
       wsl --update
       ``` 
-    - [Ubuntu 22.04.3](https://www.releases.ubuntu.com/jammy/)
-      ![22.04.3 LTS](./images/Windows/20230826_WSL_Ubuntu22.04.3.png)
+    - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
+      ```
+      cat /etc/os-release
+      ```
+      ```
+      PRETTY_NAME="Ubuntu 22.04.4 LTS"
+      NAME="Ubuntu"
+      VERSION_ID="22.04"
+      VERSION="22.04.4 LTS (Jammy Jellyfish)"
+      VERSION_CODENAME=jammy
+      ID=ubuntu
+      ID_LIKE=debian
+      HOME_URL="https://www.ubuntu.com/"
+      SUPPORT_URL="https://help.ubuntu.com/"
+      BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+      PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+      UBUNTU_CODENAME=jammy
+      ```
       - [履歴](./wsl/history.md)
       - ディストリビューションのバージョンを確認する
         ```
         lsb_release -a
         ```
-  - [Chrome OS Flex 121.0.6177.188](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/02/27 updated from 120.0.6099.275>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240119_Chrome_OS_Flex_120.0.6099.235.png)
+  - [Chrome OS Flex 121.0.6167.212](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/02/29 updated from 121.0.6167.188>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240229_Chrome_OS_Flex_121.0.6167.212.png)
     - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
       ![アップグレード](./images/Chrome/20240226_Chrome_OS_Upgrade.png)
       ![アップグレードボタン](./images/Chrome/20240226_Chrome_OS_UpgradeToDebian12.png)
@@ -50,7 +66,7 @@
   - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 ### ツール
   1.  Visual Studio Code
-      - [Visual Studio Code 1.86.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/16 updated from 1.86>>*</span> <BR />
+      - [Visual Studio Code 1.87](https://code.visualstudio.com/) <span style="color: red;">*<<2024/02/29 updated from 1.86.2>>*</span> <BR />
         開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
         - Chrome OS Flexではコマンドでアップデート
         ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
