@@ -38,8 +38,8 @@
         ```
         lsb_release -a
         ```
-  - [Chrome OS Flex 121.0.6177.188](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/02/27 updated from 120.0.6099.275>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240119_Chrome_OS_Flex_120.0.6099.235.png)
+  - [Chrome OS Flex 121.0.6167.212](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/02/29 updated from 121.0.6167.188>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240229_Chrome_OS_Flex_121.0.6167.212.png)
     - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
       ![アップグレード](./images/Chrome/20240226_Chrome_OS_Upgrade.png)
       ![アップグレードボタン](./images/Chrome/20240226_Chrome_OS_UpgradeToDebian12.png)
