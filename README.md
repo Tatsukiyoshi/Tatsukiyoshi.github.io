@@ -15,8 +15,24 @@
       ```
       wsl --update
       ``` 
-    - [Ubuntu 22.04.3](https://www.releases.ubuntu.com/jammy/)
-      ![22.04.3 LTS](./images/Windows/20230826_WSL_Ubuntu22.04.3.png)
+    - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
+      ```
+      cat /etc/os-release
+      ```
+      ```
+      PRETTY_NAME="Ubuntu 22.04.4 LTS"
+      NAME="Ubuntu"
+      VERSION_ID="22.04"
+      VERSION="22.04.4 LTS (Jammy Jellyfish)"
+      VERSION_CODENAME=jammy
+      ID=ubuntu
+      ID_LIKE=debian
+      HOME_URL="https://www.ubuntu.com/"
+      SUPPORT_URL="https://help.ubuntu.com/"
+      BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+      PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+      UBUNTU_CODENAME=jammy
+      ```
       - [履歴](./wsl/history.md)
       - ディストリビューションのバージョンを確認する
         ```
