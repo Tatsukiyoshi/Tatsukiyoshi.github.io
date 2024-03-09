@@ -1,4 +1,28 @@
 # Chrome OS Flex
+- 121.0.6167.212 <span style="color: red;">*<<2024/02/29 updated from 121.0.6167.188>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240229_Chrome_OS_Flex_121.0.6167.212.png)
+  - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
+    ![アップグレード](../images/Chrome/20240226_Chrome_OS_Upgrade.png)
+    ![アップグレードボタン](../images/Chrome/20240226_Chrome_OS_UpgradeToDebian12.png)
+    ![アップグレードウィザード](../images/Chrome/20240227_Chrome_OS_Upgrade_Now1.png)
+    ![アップグレード中１](../images/Chrome/20240227_Chrome_OS_Upgrade_Now2.png)
+    ![アップグレード中２](../images/Chrome/20240227_Chrome_OS_Upgrade_Now3.png)
+    ![アップグレード完了](../images/Chrome/20240227_Chrome_OS_Upgrade_Completed.png)
+    - 確認
+      ```
+      cat /etc/os-release
+      ```
+      ```
+      PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+      NAME="Debian GNU/Linux"
+      VERSION_ID="12"
+      VERSION="12 (bookworm)"
+      VERSION_CODENAME=bookworm
+      ID=debian
+      HOME_URL="https://www.debian.org/"
+      SUPPORT_URL="https://www.debian.org/support"
+      BUG_REPORT_URL="https://bugs.debian.org/"
+      ```
 - 121.0.6177.188 <span style="color: red;">*<<2024/02/27 updated from 120.0.6099.275>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240226_Chrome_OS_Flex_121.0.6167.188.png)
 - 120.0.6099.275 <span style="color: red;">*<<2024/02/27 updated from 120.0.6099.235>>*</span>
