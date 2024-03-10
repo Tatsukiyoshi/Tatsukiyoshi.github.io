@@ -50,12 +50,12 @@
         ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
         - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
   1.  Git
-      - [Git 2.43](https://git-scm.com/download) <span style="color: red;">*<<2023/11/30 updated from 2.42>>*</span>
+      - [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
         - Windowsでの更新
           ```
           git update-git-for-windows
           ```
-      - [GitHub Desktop 3.3.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/01/20 updated from 3.3.6>>*</span>
+      - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
         - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
       - ユーザ設定
 ##  ノウハウ
@@ -71,7 +71,11 @@
     1.  地域の設定ダイアログの「ベータ：ワールドワイド言語サポートでUnicode UTF-8を使用」にチェック
         ![地域の設定](./images/Windows/20230921_SystemLocale3.png)
     1.  再起動するまで変更が有効にならないので、再起動する
-  - PowerShell
+  - PowerShell 7.4.1
+    - インストール
+      ```
+      winget install --id Microsoft.Powershell --source winget
+      ```
     - 環境変数の確認
       ```shell
       $env:Path.Split(";")
@@ -84,7 +88,6 @@
         $ git config --global user.name "John Doe"
         $ git config --global user.email johndoe@example.com
         ```
-
 ##  プログラミング言語
 1.  言語共通
     1.  [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
