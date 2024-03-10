@@ -71,7 +71,7 @@
     1.  地域の設定ダイアログの「ベータ：ワールドワイド言語サポートでUnicode UTF-8を使用」にチェック
         ![地域の設定](./images/Windows/20230921_SystemLocale3.png)
     1.  再起動するまで変更が有効にならないので、再起動する
-  - PowerShell
+  - PowerShell 7.4.1
     - 環境変数の確認
       ```shell
       $env:Path.Split(";")
@@ -84,7 +84,6 @@
         $ git config --global user.name "John Doe"
         $ git config --global user.email johndoe@example.com
         ```
-
 ##  プログラミング言語
 1.  言語共通
     1.  [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
