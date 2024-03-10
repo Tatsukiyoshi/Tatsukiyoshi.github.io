@@ -50,12 +50,12 @@
         ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
         - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
   1.  Git
-      - [Git 2.43](https://git-scm.com/download) <span style="color: red;">*<<2023/11/30 updated from 2.42>>*</span>
+      - [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
         - Windowsでの更新
           ```
           git update-git-for-windows
           ```
-      - [GitHub Desktop 3.3.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/01/20 updated from 3.3.6>>*</span>
+      - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
         - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
       - ユーザ設定
 ##  ノウハウ
