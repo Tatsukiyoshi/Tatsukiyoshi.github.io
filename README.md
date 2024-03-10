@@ -72,6 +72,10 @@
         ![地域の設定](./images/Windows/20230921_SystemLocale3.png)
     1.  再起動するまで変更が有効にならないので、再起動する
   - PowerShell 7.4.1
+    - インストール
+      ```
+      winget install --id Microsoft.Powershell --source winget
+      ```
     - 環境変数の確認
       ```shell
       $env:Path.Split(";")
