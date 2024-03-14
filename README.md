@@ -3,8 +3,8 @@
 ### OS
   - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
-      - Build 26058 <span style="color: red;">*<<2024/02/22 updated from 26052>>*</span>
-        ![デスクトップ](./images/Windows/20240222_Windows11_Build26058.png)
+      - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
+        ![デスクトップ](./images/Windows/20240314_Windows11_Build26080.png)
     - [履歴](./windows/history.md)
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
     - WSLバージョンを確認する
