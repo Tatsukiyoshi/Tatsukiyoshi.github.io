@@ -1,6 +1,5 @@
-# リスキリング（プログラミング）
-##  プラットフォーム
-### OS
+#  プラットフォーム
+## OS
 - [Windows Insider Dev Channel](https://aka.ms/DevLatest)
   - for Windows 11 24H2 (Build 26xxx)
     - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
@@ -43,7 +42,7 @@
   - [履歴](./chrome/history.md)
 - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 
-### ツール
+## ツール
 - Visual Studio Code
   - [Visual Studio Code 1.87.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/03/13 updated from 1.87.1>>*</span> <BR />
     開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
@@ -77,8 +76,8 @@
       $ git config --global user.email johndoe@example.com
       ```
 
-##  ノウハウ
-### Windows
+#  ノウハウ
+## Windows
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
   - システムロケールの変更 <BR>
@@ -91,7 +90,7 @@
         ![地域の設定](./images/Windows/20230921_SystemLocale3.png)
     1.  再起動するまで変更が有効にならないので、再起動する
 
-##  プログラミング言語
+#  プログラミング言語
 - 言語共通
   - [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
   - [Documentation](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Documentation)
