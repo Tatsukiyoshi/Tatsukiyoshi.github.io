@@ -42,6 +42,7 @@
   ![Chrome OS Flexバージョン情報](./images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
   - [履歴](./chrome/history.md)
 - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
+
 ### ツール
 - Visual Studio Code
   - [Visual Studio Code 1.87.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/03/13 updated from 1.87.1>>*</span> <BR />
@@ -75,6 +76,7 @@
       $ git config --global user.name "John Doe"
       $ git config --global user.email johndoe@example.com
       ```
+
 ##  ノウハウ
 ### Windows
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
@@ -88,6 +90,7 @@
     1.  地域の設定ダイアログの「ベータ：ワールドワイド言語サポートでUnicode UTF-8を使用」にチェック
         ![地域の設定](./images/Windows/20230921_SystemLocale3.png)
     1.  再起動するまで変更が有効にならないので、再起動する
+
 ##  プログラミング言語
 - 言語共通
   - [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
