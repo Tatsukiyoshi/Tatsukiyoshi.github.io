@@ -1,7 +1,7 @@
-#  プラットフォーム
 ## OS
-- [Windows Insider Dev Channel](https://aka.ms/DevLatest)
-  - for Windows 11 24H2 (Build 26xxx)
+**独学環境の情報**
+- [Windows Insider](https://aka.ms/DevLatest)
+  - Dev Channel for Windows 11 24H2 (Build 26xxx)
     - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
       ![デスクトップ](./images/Windows/20240314_Windows11_Build26080.png)
     - [履歴](./windows/history.md)
@@ -26,20 +26,20 @@
     ```
     </details>
   - [履歴](./wsl/history.md)
-- [Chrome OS Flex 122.0.6261.100](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) <span style="color: red;">*<<2024/03/09 updated from 121.0.6167.212>>*</span>
-  ![Chrome OS Flexバージョン情報](./images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
+- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+  - バージョン 122.0.6261.100 <span style="color: red;">*<<2024/03/09 updated from 121.0.6167.212>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
   - [履歴](./chrome/history.md)
 - [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
 
 ## ツール
-- Visual Studio Code
-  - [Visual Studio Code 1.87.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/03/13 updated from 1.87.1>>*</span> <BR />
-    開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
-    - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
-- Git
-  - [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
-  - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
-    - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
+**OS/言語を問わず利用するツールの情報**
+- [Visual Studio Code 1.87.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/03/13 updated from 1.87.1>>*</span> <BR />
+  開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](_sub/vscodeExtensions.md)にまとめてあります。<BR />
+  - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
+- [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
+- [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
+  - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - PowerShell 7.4.1
 - [Docker](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Docker)
 
