@@ -55,9 +55,13 @@
       ```
       git update-git-for-windows
       ```
+    - ユーザ設定
+      ```
+      $ git config --global user.name "John Doe"
+      $ git config --global user.email johndoe@example.com
+      ```
   - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
     - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-    - ユーザ設定
 - PowerShell 7.4.1
   - インストール
     ```
@@ -71,9 +75,6 @@
     - PowerShell上でUTF-8(BOMなし)に変更する
       ```shell
       $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
-      ```
-      $ git config --global user.name "John Doe"
-      $ git config --global user.email johndoe@example.com
       ```
 
 #  ノウハウ
