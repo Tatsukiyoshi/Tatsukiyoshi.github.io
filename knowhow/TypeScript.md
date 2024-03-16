@@ -37,8 +37,8 @@
   1. Ubuntu 22.04.3 on Windows 11
       |端末       |環境／FW                             |日付
       |-----------|------------------------------------|----------
-      |IdeaPad    |[Astro 4.0.9](https://astro.build/) |2024/01/03
-      |           |[Bun 1.0.21](https://bun.sh/)       |2024/01/03
+      |IdeaPad    |[Astro 4.5.5](https://astro.build/) |2024/03/16
+      |           |[Bun 1.0.31](https://bun.sh/)       |2024/03/16
       |           |React 18.2.0                        |2024/01/03
       |Mini-S12   |Bun 1.0.19                          |2023/12/23
 
