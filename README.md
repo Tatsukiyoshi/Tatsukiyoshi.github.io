@@ -4,7 +4,7 @@
   - Dev Channel for Windows 11 24H2 (Build 26xxx)
     - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
       ![デスクトップ](./images/Windows/20240314_Windows11_Build26080.png)
-    - [履歴](./windows/history.md)
+    - [履歴](./History/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
     <details>
@@ -25,12 +25,12 @@
     UBUNTU_CODENAME=jammy
     ```
     </details>
-  - [履歴](./wsl/history.md)
+  - [履歴](./History/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 122.0.6261.100 <span style="color: red;">*<<2024/03/09 updated from 121.0.6167.212>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
-  - [履歴](./chrome/history.md)
-- [Oracle Cloud](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/OracleCloud)
+  - [履歴](./History/Chrome.md)
+- [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
@@ -41,28 +41,28 @@
 - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - PowerShell 7.4.1
-- [Docker](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Docker)
+- [Docker](./knowhow/Docker.md)
 
 #  プログラミング言語
 **独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積**
 - 言語共通
-  - [Database & SQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
-  - [Documentation](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Documentation)
-  - [Exercism](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Exercism)
-- [.NET](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/.NET)
-- [Rust](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Rust)
-- [Kotlin](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Kotlin)
-- [Java](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Java)
-- [Dart/Flutter](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Flutter)
-- [TypeScript/JavaScript](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/TypeScript)
-- [PHP](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Php)
-- [Go](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Go)
-- [Python](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Python)
-- [Pascal](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#pascal)
-- [Swift](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#swift)
-- [Carbon](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Carbon)
-- [LLVM](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Others#llvm)
-- [Unity](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Unity)
+  - [Database & SQL](./knowhow/Database.md)
+  - [Documentation](./knowhow/Documentation.md)
+  - [Exercism](./knowhow/Exercism.md)
+- [.NET](./knowhow/NET.md)
+- [Rust](./knowhow/Rust.md)
+- [Kotlin](./knowhow/Kotlin.md)
+- [Java](./knowhow/Java.md)  
+- [Dart/Flutter](./knowhow/Flutter.md)
+- [TypeScript/JavaScript](./knowhow/TypeScript.md)
+- [PHP](./knowhow/Php.md)
+- [Go](./knowhow/Go.md)
+- [Python](./knowhow/Python.md)
+- [Pascal](./knowhow/Others.md#pascal)
+- [Swift](./knowhow/Others.md#swift)
+- [Carbon](./knowhow/Carbon.md)
+- [LLVM](./knowhow/Others.md#llvm)
+- [Unity](./knowhow/Unity.md)
 
 # ノウハウ
 **OSやツールのノウハウは、以下を参照**
