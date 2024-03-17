@@ -1,4 +1,11 @@
 # トップページ
+
+##  ダイジェスト
+**毎週日曜日に更新**
+
+  [最新ダイジェスト（2024/3/11～3/17）](https://note.com/taishow2020/n/n524826153c94)/
+  [一覧](./digest/digestList.md)
+
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)

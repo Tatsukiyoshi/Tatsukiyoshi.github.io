@@ -12,7 +12,7 @@
       |-----------|-----------------------------------------------------------------|----------
       |Mini-S12   |[Rust 1.76](https://www.rust-lang.org/)                          |2024/02/22
       |           |[RustRover 2023.3 EAP Build 12](https://www.jetbrains.com/rust/) |2024/03/07
-      |           |[Tauri 2.0.Beta](https://beta.tauri.app/)                        |2024/03/01
+      |           |[Tauri 2.0.0-beta.11](https://beta.tauri.app/)                   |2024/03/17
       |           |[Tauri 1.6.0](https://tauri.app/)                                |2024/03/01
       |           |[Bevy 0.13](https://bevyengine.org/)                             |2024/03/15
       |IdeaPad    |Rust 1.74.1                                                      |2023/12/23
@@ -308,10 +308,13 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
-  - v2.0 Beta
-    ```
-    yarn create tauri-app --beta
-    ```
+  - V2.0
+    - v2.0 Beta
+      ```
+      yarn create tauri-app --beta
+      ```
+    - V2.0 への移行
+      - [Upgrade from Tauri 1.0](https://beta.tauri.app/guides/upgrade-migrate/from-tauri-1/)
   - npm and yarn
     - [Node.js](https://nodejs.org/ja)インストール
     - yarnインストール
