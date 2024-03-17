@@ -1,4 +1,6 @@
 # Chrome OS Flex
+- 122.0.6261.100 <span style="color: red;">*<<2024/03/09 updated from 121.0.6167.212>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
 - 121.0.6167.212 <span style="color: red;">*<<2024/02/29 updated from 121.0.6167.188>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240229_Chrome_OS_Flex_121.0.6167.212.png)
   - Linux コンテナ（Debianアップグレード（Debian 11 -> 12 へ変更））
