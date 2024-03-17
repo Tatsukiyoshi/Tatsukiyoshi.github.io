@@ -33,7 +33,7 @@
           </component>
         </project>
         ```
-  - [履歴](../History/IntelliIDEA.md)
+  - [履歴](../history/IntelliIDEA.md)
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
     1. PATH環境変数にJDKおよびkotlinのパスを設定する

@@ -12,7 +12,7 @@
   - Dev Channel for Windows 11 24H2 (Build 26xxx)
     - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
       ![デスクトップ](./images/Windows/20240314_Windows11_Build26080.png)
-    - [履歴](./History/Windows.md)
+    - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
     <details>
@@ -33,11 +33,11 @@
     UBUNTU_CODENAME=jammy
     ```
     </details>
-  - [履歴](./History/Wsl.md)
+  - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 122.0.6261.100 <span style="color: red;">*<<2024/03/09 updated from 121.0.6167.212>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240309_Chrome_OS_Flex_122.0.6261.100.png)
-  - [履歴](./History/Chrome.md)
+  - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
