@@ -10,7 +10,7 @@
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
-### 環境更新
+### 環境更新 [on ubuntu 22.04 **@2024/03/16** <span style="color: red;">*Updated!*</span>]
 1.  carbon-explorerを実行
     -   gitからクローン
         *   コマンド
