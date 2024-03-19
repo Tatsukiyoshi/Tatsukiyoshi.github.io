@@ -78,6 +78,7 @@
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
   - [システムロケールの変更](./windows/systemLocale.md)
+  - [フォントの変更](./windows/font.md)
 - WSL
   - WSLバージョンを確認する
     ```
