@@ -2,13 +2,13 @@
 
 ##  環境
 
-  |端末      |環境／FW                                                                                             |日付
-  |----------|----------------------------------------------------------------------------------------------------|----------
-  |IdeaPad   |[PostgreSQL 16](https://www.postgresql.org/download/windows/)                                       |2023/09/18
-  |Mini-S12  |[SQL Server 2022 Developer 16.0.4105.2](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022) |2024/01/14
-  |          |- SQL Server Management Studio 19.3                                                                 |2024/01/14
-  |          |PostgreSQL 16.1                                                                                     |2023/11/26
-  |          |MongoDB 7.1.1                                                                                       |2023/12/10
+  |端末      |環境／FW                                              |最終更新
+  |----------|-----------------------------------------------------|----------
+  |IdeaPad   |[PostgreSQL 16](#postgresql)                         |[2023/09/18](https://www.postgresql.org/download/windows/)
+  |Mini-S12  |[SQL Server 2022 Developer 16.0.4105.2](#sql-server) |[2024/01/14](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
+  |          |- SQL Server Management Studio 19.3                  |2024/01/14
+  |          |PostgreSQL 16.1                                      |2023/11/26
+  |          |MongoDB 7.1.1                                        |2023/12/10
 
 ##  ノウハウ
 ### データベース全般
@@ -85,6 +85,7 @@
       ```
       >grant pg_read_all_data to <User>
       ```
+  - [PHP + Apache + PostgreSQL](./Php.md#postgresql)
 ### MySQL
   - ZIPファイルを任意のディレクトリに展開する
   - my.iniを展開したディレクトリに作成する

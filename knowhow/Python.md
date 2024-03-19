@@ -8,11 +8,11 @@
 
 ##  環境
 
-  |端末       |環境／FW                                                |日付      
-  |-----------|-------------------------------------------------------|----------
-  |IdeaPad    |[Python 3.12](https://www.python.org/downloads/)       |2023/11/03
-  |           |[Django 4.2.7](https://docs.djangoproject.com/ja/4.1)  |2023/11/04
-  |           |[Flet 0.3.2](https://flet.dev/)                        |2023/01/12
+  |端末       |環境／FW                  |最終更新      
+  |-----------|-------------------------|----------
+  |IdeaPad    |[Python 3.12](#python-1) |[2023/11/03](https://www.python.org/downloads/)
+  |           |[Django 4.2.7](#django)  |[2023/11/04](https://docs.djangoproject.com/ja/4.1)
+  |           |[Flet 0.3.2](#flet)      |[2023/01/12](https://flet.dev/)
 
 ##  ノウハウ
 ### Python
@@ -31,47 +31,47 @@
   - Jupyter Notebookを使ってみた
     ![Jupyter Notebook](../images/python/20240102_jupyter_notebook.png)
 ### Django
-    - [Django Tutorial](https://docs.djangoproject.com/ja/4.1/intro/tutorial01/)
-      **@2022/08/27** その７ adminフォームのカスタマイズ <span style="color: red;">*finished*</span>
-    - 日本語に変える方法
-      - https://codor.co.jp/django/how-change-language
-    - Djangoのソースディレクトリを確認する方法
+  - [Django Tutorial](https://docs.djangoproject.com/ja/4.1/intro/tutorial01/)
+    **@2022/08/27** その７ adminフォームのカスタマイズ <span style="color: red;">*finished*</span>
+  - 日本語に変える方法
+    - https://codor.co.jp/django/how-change-language
+  - Djangoのソースディレクトリを確認する方法
+    ```
+    py -c "import django; print(django.__path__)"
+    ```
+  - Djangoのバージョン確認
+    ```
+    py -m django --version
+    ```
+  - Djangoのアップグレード
+    ```
+    py -m pip install --upgrade Django
+    ```
+  - Python/Djangoのテスト
+    ```
+    py -Wa manage.py test
+    ```
+  - チュートリアル
+    - サーバ起動
       ```
-      py -c "import django; print(django.__path__)"
+      python manage.py runserver
       ```
-    - Djangoのバージョン確認
+    - SHELLでの確認
       ```
-      py -m django --version
+      python manage.py shell
       ```
-    - Djangoのアップグレード
+    - テストコードの実行
       ```
-      py -m pip install --upgrade Django
+      python manage.py test polls
       ```
-    - Python/Djangoのテスト
-      ```
-      py -Wa manage.py test
-      ```
-    - チュートリアル
-      - サーバ起動
-        ```
-        python manage.py runserver
-        ```
-      - SHELLでの確認
-        ```
-        python manage.py shell
-        ```
-      - テストコードの実行
-        ```
-        python manage.py test polls
-        ```
-      - URL
-        サイト|パス
-        ------|----
-        投票  |localhost:8000/polls
-        管理  |localhost:8000/admin
+    - URL
+      サイト|パス
+      ------|----
+      投票  |localhost:8000/polls
+      管理  |localhost:8000/admin
 
-      - 管理サイトのパスワード
-        admin / djangoadmin
+    - 管理サイトのパスワード
+      admin / djangoadmin
 ### Flet
   - [Flet-Counter](https://github.com/Tatsukiyoshi/Flet-Counter)
 

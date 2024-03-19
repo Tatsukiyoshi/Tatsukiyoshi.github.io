@@ -8,12 +8,12 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished*
 
 ##  環境
-  |端末       |環境／FW                                                                |日付      
-  |-----------|-----------------------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2023.3.5](https://www.jetbrains.com/ja-jp/idea/)        |2024/03/14
-  |           |Amazon Coretto 21.0.1                                                  |2023/11/10
-  |Mini-S12   |[Android Studio Iguana 2023.2.1](https://developer.android.com/studio) |2024/03/05
-  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                               |2024/01/27
+  |端末       |環境／FW                                           |最終更新      
+  |-----------|--------------------------------------------------|----------
+  |IdeaPad    |[IntelliJ IDEA 2023.3.5](#intellij-idea)          |[2024/03/14](https://www.jetbrains.com/ja-jp/idea/)
+  |           |Amazon Coretto 21.0.1                             |2023/11/10
+  |Mini-S12   |[Android Studio Iguana 2023.2.1](#android-studio) |[2024/03/05](https://developer.android.com/studio)
+  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2          |2024/01/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
