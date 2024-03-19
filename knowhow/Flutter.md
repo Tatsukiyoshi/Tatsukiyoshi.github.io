@@ -11,11 +11,11 @@
   |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2022/10/23|第13回  Flutterではマテリアルデザインを用いたコンポーネントをどう使うのか【テキスト編】 <span style="color: red;">*finished*</span>
 
 ##  環境
-  |端末       |環境／FW                                                                |日付
-  |-----------|-----------------------------------------------------------------------|----------
-  |Mini-S12   |[Flutter 3.19.3](https://docs.flutter.dev/get-started/install)         |2024/03/11
-  |           |[Android Studio Iguana 2023.2.1](https://developer.android.com/studio) |2024/03/05
-  |           |Visual Studio Community 2022 17.9.2                                    |2024/02/29
+  |端末       |環境／FW                                                                  |最終更新
+  |-----------|-------------------------------------------------------------------------|----------
+  |Mini-S12   |Flutter 3.19.3                                                           |[2024/03/11](https://docs.flutter.dev/get-started/install)
+  |           |[Android Studio Iguana 2023.2.1](./Kotlin.md#android-studio)             |[2024/03/05](https://developer.android.com/studio)
+  |           |[Visual Studio Community 2022 17.9.3](./NET.md#visual-studio--プレビュー) |2024/03/13
 
 ##  ノウハウ
   - flutter dev
@@ -76,6 +76,10 @@
     ```
     </details>
 
+  - flutterの更新
+    ```
+    flutter upgrade
+    ```
   - [動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366)
     - [firebase](https://firebase.google.com)
       - firebase（Webサイト）でプロジェクトを作成する
@@ -108,13 +112,8 @@
           - Cloud Schedulerで実行周期を確認
             ![Cloud Scheduler](../images/flutter/20231202_firebase_timer_trigger_functions.png)
     - [flutter icon](https://icons8.jp/icons/set/flutter)
-
-  - flutterの更新
-    ```
-    flutter upgrade
-    ```
-  - 64Kを超えるメソッドを使用する
-    [Multidex Support](https://docs.flutter.dev/deployment/android#enabling-multidex-support)
+    - 64Kを超えるメソッドを使用する
+      [Multidex Support](https://docs.flutter.dev/deployment/android#enabling-multidex-support)
   - カスタムフォントの利用
     [公式ドキュメント](https://docs.flutter.dev/cookbook/design/fonts)
     - Raleway and Roboto Mono(Google Fonts)

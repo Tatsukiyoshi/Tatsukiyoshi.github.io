@@ -17,30 +17,30 @@
 ##  環境
 
   1.  Windows
-      |端末       |FW                                              |日付      
-      |-----------|------------------------------------------------|----------
-      |IdeaPad    |[Node.js 20.0](https://nodejs.org/ja)           |2023/04/25
-      |           |[React 18.2.0](https://ja.react.dev/)           |2022/07/02
-      |           |[Svelte 3.49.0](https://svelte.dev/)            |2022/07/16
-      |           |[Vite 5.0.12](https://vitejs.dev/)              |2024/01/20
-      |           |[Vue 3.4.15](https://jp.vuejs.org/)             |2024/01/20
-      |           |[Deno 1.39.4](https://deno.land/)               |2024/01/21
-      |           |[fresh 1.6.3](https://fresh.deno.dev/)          |2024/01/21
-      |           |[Gluon 0.13.5](https://gluonjs.org/)            |2023/04/29
-      |Mini-S12   |Node.js 18.17.1                                 |2023/09/13
-      |           |React 18.2.0                                    |2023/09/13
-      |           |[Angular 17.0.9](https://angular.io/)           |2024/01/12
-      |           |[Nuxt 3.9.1](https://nuxt.com/)                 |2024/01/13
-      |           |[React Native 0.73.1](https://reactnative.dev/) |2024/01/07
-      |           | for Windows 0.73.2                             |2024/01/07
+      |端末       |FW                  |最終更新      
+      |-----------|--------------------|----------
+      |IdeaPad    |Node.js 20.0        |[2023/04/25](https://nodejs.org/ja)
+      |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
+      |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
+      |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
+      |           |Vue 3.4.15          |[2024/01/20](https://jp.vuejs.org/)
+      |           |Deno 1.39.4         |[2024/01/21](https://deno.land/)
+      |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
+      |           |Gluon 0.13.5        |[2023/04/29](https://gluonjs.org/)
+      |Mini-S12   |Node.js 18.17.1     |2023/09/13
+      |           |React 18.2.0        |2023/09/13
+      |           |Angular 17.0.9      |[2024/01/12](https://angular.io/)
+      |           |Nuxt 3.9.1          |[2024/01/13](https://nuxt.com/)
+      |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
+      |           | for Windows 0.73.2 |2024/01/07
 
   1. Ubuntu 22.04.3 on Windows 11
-      |端末       |環境／FW                             |日付
-      |-----------|------------------------------------|----------
-      |IdeaPad    |[Astro 4.5.5](https://astro.build/) |2024/03/16
-      |           |[Bun 1.0.31](https://bun.sh/)       |2024/03/16
-      |           |React 18.2.0                        |2024/01/03
-      |Mini-S12   |Bun 1.0.19                          |2023/12/23
+      |端末       |環境／FW             |最終更新
+      |-----------|--------------------|----------
+      |IdeaPad    |Astro 4.5.5         |[2024/03/16](https://astro.build/)
+      |           |Bun 1.0.31          |[2024/03/16](https://bun.sh/)
+      |           |React 18.2.0        |2024/01/03
+      |Mini-S12   |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
       |端末       |FW              |日付      

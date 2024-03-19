@@ -8,17 +8,17 @@
 
   ##  環境
   1. Windows 11
-      |端末       |環境／FW                                                          |日付
-      |-----------|-----------------------------------------------------------------|----------
-      |Mini-S12   |[Rust 1.76](https://www.rust-lang.org/)                          |2024/02/22
-      |           |[RustRover 2023.3 EAP Build 12](https://www.jetbrains.com/rust/) |2024/03/07
-      |           |[Tauri 2.0.0-beta.11](https://beta.tauri.app/)                   |2024/03/17
-      |           |[Tauri 1.6.0](https://tauri.app/)                                |2024/03/01
-      |           |[Bevy 0.13](https://bevyengine.org/)                             |2024/03/15
-      |IdeaPad    |Rust 1.74.1                                                      |2023/12/23
-      |           |Tauri 1.5.4                                                      |2023/12/23
-      |           |[Node.js 18.17.1](https://nodejs.org/ja)                         |2023/08/23
-      |           |Svelte 3.57.0                                                    |2023/03/29
+      |端末       |環境／FW                                     |最終更新
+      |-----------|--------------------------------------------|----------
+      |Mini-S12   |[Rust 1.76](#rust-1)                        |[2024/02/22](https://www.rust-lang.org/)  
+      |           |[RustRover 2023.3 EAP Build 12](#rustrover) |[2024/03/07](https://www.jetbrains.com/rust/)
+      |           |Tauri 2.0.0-beta.11                         |[2024/03/17](https://beta.tauri.app/)
+      |           |[Tauri 1.6.0](#tauridesktop-framework)      |[2024/03/01](https://tauri.app/)
+      |           |[Bevy 0.13](#game-engine)                   |[2024/03/15](https://bevyengine.org/)
+      |IdeaPad    |Rust 1.74.1                                 |2023/12/23
+      |           |Tauri 1.5.4                                 |2023/12/23
+      |           |Node.js 18.17.1                             |[2023/08/23](https://nodejs.org/ja)
+      |           |Svelte 3.57.0                               |[2023/03/29](https://svelte.dev/)
 
   1. Ubuntu 22.04.3 on Windows 11
       |端末       |環境／FW      |日付
