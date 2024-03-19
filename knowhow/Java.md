@@ -13,7 +13,7 @@
 
   |端末       |環境／FW                                                                                  |最終更新
   |-----------|-----------------------------------------------------------------------------------------|----------
-  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2023-09.20230907 (Eclipse 4.29)](#pleiades)|[2023/10/21](https://mergedoc.osdn.jp/)
+  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2023-09.20230907 (Eclipse 4.29)](#pleiades)|[2023/10/21](https://willbrains.jp/)
   |           |[Apache Tomcat 10.1.12](#tomcat)                                                         |[2023/08/19](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.220](#h2-database)                                                      |[2023/08/19](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 21.0.1.12                                                                 |[2023/10/21](https://docs.aws.amazon.com/corretto/index.html)
