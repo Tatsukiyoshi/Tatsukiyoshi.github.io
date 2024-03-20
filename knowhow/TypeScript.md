@@ -2,15 +2,15 @@
 
 ##  独学書
 
-  |テキスト|日付      |進捗状況
-  |--------|----------|-------
-  |[Angularアプリケーションプログラミング](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/13)|2023/09/23|*finished*
-  |モダンJavaScriptの基本から始めるReact実践の教科書|2022/07/02|*finished*
+  |テキスト                                         |日付      |進捗状況
+  |------------------------------------------------|----------|-------
+  |Angularアプリケーションプログラミング              |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
+  |モダンJavaScriptの基本から始めるReact実践の教科書  |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
 
 ##  コンテンツ
 
-  |コンテンツ|日付      |進捗状況
-  |--------|----------|-------
+  |コンテンツ                                                                                       |日付      |進捗状況
+  |------------------------------------------------------------------------------------------------|----------|-------
   |[Vercel＋Next.jsを活用したWebアプリケーション開発入門](https://codezine.jp/article/corner/925)      |2022/11/03|第4回 ブログを作りながら学ぶ、Next.jsの便利な4つの機能（グローバル設定、プリレンダリング、動的ルート、サーバーレス）
   |[TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/corner/878)|2024/01/20|第7回 Vue.jsでページを切り替える「Vue Router」の利用法を解説！ TypeScriptの型定義とともに活用しよう <span style="color: red;">*finished*</span>
 

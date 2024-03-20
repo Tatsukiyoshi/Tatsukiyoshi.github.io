@@ -2,12 +2,12 @@
 
 ##  独学書
 
-  |テキスト                                                                                   |日付      |進捗状況
-  |-------------------------------------------------------------------------------------------|----------|--------
-  |[Spring解体新書（第２版）](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/17)  |2022/10/23|8章 MyBatis <span style="color: red;">*finished*</span>
-  |[Spring解体新書（バッチ編）](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/16)|2022/05/07|6章 バッチ実行 <span style="color: red;">*finished*</span>
-  |サーブレット＆JSP入門                                                                     |2022/10/07|*finished*
-  |Java本格入門                                                                              |2022/09/25|*finished*
+  |テキスト                  |日付      |進捗状況
+  |-------------------------|----------|--------
+  |Spring解体新書（第２版）   |2022/10/23|8章 MyBatis <span style="color: red;">*finished*</span>
+  |Spring解体新書（バッチ編） |2022/05/07|6章 バッチ実行 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/java/sts-workspace)
+  |サーブレット＆JSP入門      |2022/10/07|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/java/web-workspace)
+  |Java本格入門              |2022/09/25|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/java/eclipse-workspace)
 
 ##  環境
 
