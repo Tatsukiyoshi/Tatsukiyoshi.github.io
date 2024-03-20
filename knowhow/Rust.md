@@ -309,12 +309,34 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.0
-    - v2.0 Beta
+    - V2.0 Beta
       ```
       yarn create tauri-app --beta
       ```
     - V2.0 への移行
       - [Upgrade from Tauri 1.0](https://beta.tauri.app/guides/upgrade-migrate/from-tauri-1/)
+      - 上記Guideにない事項
+        - on_window_eventクロージャの引数が変更になっている <span style="color: red;">**Added 2024/03/20**</span>
+          - V1.x
+            ```rust
+            .on_window_event(|event| match event.event() {
+              tauri::WindowEvent::CloseRequested { api, .. } => {
+                event.window().hide().unwrap();
+                api.prevent_close();
+              }
+              _ => {}
+            })
+            ```
+          - V2.0 Beta
+            ```rust
+            .on_window_event(|window, event| match event {
+              tauri::WindowEvent::CloseRequested { api, .. } => {
+                window.hide().unwrap();
+                api.prevent_close();
+              }
+              _ => {}
+            })
+            ```
   - npm and yarn
     - [Node.js](https://nodejs.org/ja)インストール
     - yarnインストール
