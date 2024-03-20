@@ -517,6 +517,8 @@
       "distDir": "../public"
     },
     ```
+  - Visual Studio Codeでのデバッグ
+    - [Debugging in VS Code](https://tauri.app/v1/guides/debugging/vs-code/)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
   ### Game Engine
   - [Bevy](https://bevyengine.org/)
