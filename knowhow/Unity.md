@@ -4,7 +4,7 @@
 
   |テキスト                                                                                                |日付      |進捗状況
   |-------------------------------------------------------------------------------------------------------|----------|--------
-  |[Unityによるモバイルゲーム開発](https://github.com/oreilly-japan/mobile-game-development-with-unity-ja)  |2023/01/21|12章 「小惑星とダメージ」 <span style="color: red;">*finished*</span>
+  |[Unityによるモバイルゲーム開発](https://github.com/oreilly-japan/mobile-game-development-with-unity-ja)  |2023/01/21|12章 「小惑星とダメージ」 <span style="color: red;">*finished*</span> ->[Gnome's Well](https://github.com/Tatsukiyoshi/GnomesWell) / [Rockfall](https://github.com/Tatsukiyoshi/Rockfall)
 
 ##  環境
 
@@ -17,8 +17,6 @@
 ##  ノウハウ
   - 「Unityによるモバイルゲーム開発」で学習リスタート
     - [アセット](https://www.oreilly.co.jp/pub/9784873118505/MobileGameDevWithUnity1stEd-master.zip)
-    - [Gnome's Well](https://github.com/Tatsukiyoshi/GnomesWell)
-    - [Rockfall](https://github.com/Tatsukiyoshi/Rockfall)
 
   - [ライティング設定]
     - Window -> Rendering -> Lightingで表示されるダイアログで設定する。

@@ -2,10 +2,10 @@
 
 ##  独学書
 
-  |テキスト                                                               |日付     |進捗状況
-  |----------------------------------------------------------------------|----------|---
-  |[C++ プログラミング入門](http://examples.oreilly.com/core/)             |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
-  |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)                      |2022/07/16|*finished*
+  |テキスト                                                      |日付     |進捗状況
+  |-------------------------------------------------------------|----------|---
+  |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
+  |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  環境
   |端末       |環境／FW                                          |最終更新

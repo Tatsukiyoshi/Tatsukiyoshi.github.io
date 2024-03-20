@@ -4,7 +4,7 @@
 
   |テキスト                                                         |日付      |進捗状況
   |----------------------------------------------------------------|----------|---
-  |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span>
+  |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/PerfectRust)
 
   ##  環境
   1. Windows 11

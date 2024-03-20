@@ -3,7 +3,7 @@
 ##  独学書
   |テキスト                                                                             |日付      |進捗状況
   |------------------------------------------------------------------------------------|----------|---
-  |[動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366) |2023/12/23|Chapter 4 Firebaseとの連携 <span style="color: red;">*finished*</span>
+  |[動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366) |2023/12/23|Chapter 4 Firebaseとの連携 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/flutter/introduction)
 
 ##  コンテンツ
   |コンテンツ                                                                         |日付     |進捗状況

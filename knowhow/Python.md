@@ -4,7 +4,7 @@
 
   |テキスト                                             |日付      |進捗状況
   |-----------------------------------------------------|----------|----
-  |[独学プログラマー](http://theselftaughtprogrammer.io/)|2019/10/05|<span style="color: red;">*finished*</span>
+  |[独学プログラマー](http://theselftaughtprogrammer.io/)|2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
 
 ##  環境
 

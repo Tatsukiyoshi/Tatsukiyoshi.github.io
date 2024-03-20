@@ -3,9 +3,9 @@
 ##  独学書
   |テキスト                                                    |日付      |進捗状況
   |-----------------------------------------------------------|----------|---
-  |Spring解体新書（バッチ編）                                   |2022/08/08|*finished*
-  |Kotlinプログラミング                                        |2019/11/13|*finished*
-  |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished*
+  |Spring解体新書（バッチ編）                                   |2022/08/08|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/spring)
+  |Kotlinプログラミング                                        |2019/11/13|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/programming)
+  |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
   |端末       |環境／FW                                           |最終更新      
