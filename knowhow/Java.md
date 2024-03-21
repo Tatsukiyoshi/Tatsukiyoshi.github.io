@@ -11,16 +11,16 @@
 
 ##  環境
 
-  |端末       |環境／FW                                                                                  |最終更新
-  |-----------|-----------------------------------------------------------------------------------------|----------
-  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2023-09.20230907 (Eclipse 4.29)](#pleiades)|[2023/10/21](https://willbrains.jp/)
-  |           |[Apache Tomcat 10.1.12](#tomcat)                                                         |[2023/08/19](https://tomcat.apache.org/download-10.cgi)
-  |           |[H2 Database 2.2.220](#h2-database)                                                      |[2023/08/19](https://www.h2database.com/html/main.html)
-  |           |Amazon Coretto 21.0.1.12                                                                 |[2023/10/21](https://docs.aws.amazon.com/corretto/index.html)
-  |           |[Jenkins LTS 2.401.3](#jenkins)                                                          |[2023/08/19](https://www.jenkins.io/download/)
-  |Mini-S12   |Open JDK 21.0.1                                                                          |[2023/10/22](https://jdk.java.net/)
-  |ExpertBook |Spring Tool Suite 4.16.0                                                                 |[2022/10/08](https://spring.io/tools)
-  |           |[PostgreSQL 15](./Database.md#postgresql)                                                |[2022/10/15](https://www.postgresql.org/download/windows/)
+  |端末       |環境／FW                                                                          |最終更新
+  |-----------|--------------------------------------------------------------------------------|----------
+  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2023-12 (Eclipse 4.30)](#pleiades)|[2024/03/21](https://willbrains.jp/)
+  |           |[Apache Tomcat 10.1.12](#tomcat)                                                |[2023/08/19](https://tomcat.apache.org/download-10.cgi)
+  |           |[H2 Database 2.2.220](#h2-database)                                             |[2023/08/19](https://www.h2database.com/html/main.html)
+  |           |Amazon Coretto 21.0.1.12                                                        |[2023/10/21](https://docs.aws.amazon.com/corretto/index.html)
+  |           |[Jenkins LTS 2.401.3](#jenkins)                                                 |[2023/08/19](https://www.jenkins.io/download/)
+  |Mini-S12   |Open JDK 21.0.1                                                                 |[2023/10/22](https://jdk.java.net/)
+  |ExpertBook |Spring Tool Suite 4.16.0                                                        |[2022/10/08](https://spring.io/tools)
+  |           |[PostgreSQL 15](./Database.md#postgresql)                                       |[2022/10/15](https://www.postgresql.org/download/windows/)
 
   - **インストールしていたモジュール**
       |端末       |環境／FW                                              |日付
@@ -532,6 +532,8 @@
   </details>
 
 ###  Pleiades
+  - Pleiades 2023-12
+    ![Eclipse 4.30](../images/Java/20240321_2023-12_Eclipse4.30.png)
   - Pleiades 2022-06およびTomcat 10.0.20での対応
     - サーブレット等の作成は、[新規]-[その他]から行う。
   - バージョン移行
