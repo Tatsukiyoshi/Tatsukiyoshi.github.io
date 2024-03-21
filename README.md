@@ -10,8 +10,8 @@
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
   - Dev Channel for Windows 11 24H2 (Build 26xxx)
-    - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
-      ![デスクトップ](./images/Windows/20240314_Windows11_Build26080.png)
+    - Build 26085 <span style="color: red;">*<<2024/03/21 updated from 26080>>*</span>
+      ![デスクトップ](./images/Windows/20240321_Windows11_Build26085.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>

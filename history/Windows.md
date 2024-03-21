@@ -1,6 +1,8 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
+      - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
+        ![デスクトップ](../images/Windows/20240314_Windows11_Build26080.png)
       - Build 26058 <span style="color: red;">*<<2024/02/22 updated from 26052>>*</span>
         ![デスクトップ](../images/Windows/20240222_Windows11_Build26058.png)
       - Build 26052 <span style="color: red;">*<<2024/02/11 updated from 23620>>*</span>
