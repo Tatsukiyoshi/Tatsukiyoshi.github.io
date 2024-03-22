@@ -8,12 +8,12 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末       |環境／FW                                           |最終更新      
-  |-----------|--------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2023.3.5](#intellij-idea)          |[2024/03/14](https://www.jetbrains.com/ja-jp/idea/)
-  |           |Amazon Coretto 21.0.1                             |2023/11/10
-  |Mini-S12   |[Android Studio Iguana 2023.2.1](#android-studio) |[2024/03/05](https://developer.android.com/studio)
-  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2          |2024/01/27
+  |端末       |環境／FW                                                   |最終更新      
+  |-----------|----------------------------------------------------------|----------
+  |IdeaPad    |[IntelliJ IDEA 2023.3.5](#intellij-idea)                  |[2024/03/14](https://www.jetbrains.com/ja-jp/idea/)
+  |           |Amazon Coretto 21.0.1                                     |2023/11/10
+  |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
+  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -74,10 +74,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Iguana | 2023.2.1
+  - Android Studio Iguana | 2023.2.1 Patch 1
     ![Android Studio Iguana](../images/Android/20240305_Android_Studio_Iguana.png)
     ```
-    Build #AI-232.10227.8.2321.11479570, built on February 22, 2024
+    Build #AI-232.10300.40.2321.11567975, built on March 13, 2024
     Runtime version: 17.0.9+0--11185874 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -90,8 +90,8 @@
 
     Non-Bundled Plugins:
         com.intellij.ja (232.307)
-        Dart (232.10286)
-        io.flutter (78.0.2)
+        Dart (232.10305)
+        io.flutter (78.4.1)
     ```
   - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
   - Android Studioの日本語化 <BR>
@@ -117,6 +117,8 @@
     - MySlideshow
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
+  - Iguana Patch 1 対応
+    - Android Gradle Plugin 8.3.0 -> 8.3.1
   - Iguana 対応
     - Android Gradle Plugin 8.2.2 -> 8.3.0
   - Hedgehog Patch 1 対応
