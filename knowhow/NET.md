@@ -11,7 +11,7 @@
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://visualstudio.microsoft.com/ja/vs/preview/)
-  |Mini-S12   |Visual Studio Community 2022 17.9.3              |[2024/03/13](https://visualstudio.microsoft.com/ja/vs/)
+  |Mini-S12   |Visual Studio Community 2022 17.9.4              |[2024/03/22](https://visualstudio.microsoft.com/ja/vs/)
 
 ##  ノウハウ
 ### [Visual Studio](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes) / [プレビュー](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
