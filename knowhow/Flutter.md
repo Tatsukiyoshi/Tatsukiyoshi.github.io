@@ -15,7 +15,7 @@
   |-----------|-------------------------------------------------------------------------|----------
   |Mini-S12   |Flutter 3.19.3                                                           |[2024/03/11](https://docs.flutter.dev/get-started/install)
   |           |[Android Studio Iguana 2023.2.1](./Kotlin.md#android-studio)             |[2024/03/05](https://developer.android.com/studio)
-  |           |[Visual Studio Community 2022 17.9.3](./NET.md#visual-studio--プレビュー) |2024/03/13
+  |           |[Visual Studio Community 2022 17.9.4](./NET.md#visual-studio--プレビュー) |2024/03/22
 
 ##  ノウハウ
   - flutter dev
