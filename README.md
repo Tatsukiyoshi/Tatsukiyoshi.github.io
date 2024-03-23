@@ -6,6 +6,11 @@
   [最新ダイジェスト（2024/3/11～3/17）](https://note.com/taishow2020/n/n524826153c94)/
   [一覧](./digest/digestList.md)
 
+##  創作物
+**知識を形にする**
+- tauriデスクトップアプリケーション
+  - [仕様](./design/tauriApp/tauriApp.md)
+
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
