@@ -3,12 +3,12 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト（2024/3/11～3/17）](https://note.com/taishow2020/n/n524826153c94)/
+  [最新ダイジェスト（2024/3/18～3/24）](https://note.com/taishow2020/n/n0aa1d7326546)/
   [一覧](./digest/digestList.md)
 
 ##  創作物
 **知識を形にする**
-- tauriデスクトップアプリケーション
+- Tauriデスクトップアプリケーション
   - [仕様](./design/tauriApp/tauriApp.md)
 
 ##  OS
