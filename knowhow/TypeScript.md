@@ -23,13 +23,13 @@
       |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
       |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
+      |           |Angular 17.3.1      |[2024/03/23](https://angular.io/)
       |           |Vue 3.4.15          |[2024/01/20](https://jp.vuejs.org/)
       |           |Deno 1.39.4         |[2024/01/21](https://deno.land/)
       |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
       |           |Gluon 0.13.5        |[2023/04/29](https://gluonjs.org/)
       |Mini-S12   |Node.js 18.17.1     |2023/09/13
       |           |React 18.2.0        |2023/09/13
-      |           |Angular 17.0.9      |[2024/01/12](https://angular.io/)
       |           |Nuxt 3.9.1          |[2024/01/13](https://nuxt.com/)
       |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
       |           | for Windows 0.73.2 |2024/01/07
@@ -43,14 +43,14 @@
       |Mini-S12   |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
-      |端末       |FW              |日付      
+      |端末       |FW              |最終更新      
       |-----------|----------------|----------
       |TransBook  |Node.js 18.12.1 |2022/12/13
       |           |Deno 1.29.3     |2023/01/14
       |           |Vite 4.0.1      |2022/12/13
       |           |Vue 3.2.45      |2022/12/13
 
-      |端末       |FW              |日付      
+      |端末       |FW              |最終更新      
       |-----------|----------------|----------
       |TransBook  |Node.js 16.18.1 |2022/12/13
       |           |Nuxt 2.15.8     |
