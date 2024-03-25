@@ -10,11 +10,11 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://visualstudio.microsoft.com/ja/vs/preview/)
-  |Mini-S12   |Visual Studio Community 2022 17.9.4              |[2024/03/22](https://visualstudio.microsoft.com/ja/vs/)
+  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |Mini-S12   |Visual Studio Community 2022 17.9.4              |[2024/03/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
 
 ##  ノウハウ
-### [Visual Studio](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes) / [プレビュー](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
