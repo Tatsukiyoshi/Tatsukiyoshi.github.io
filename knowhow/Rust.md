@@ -8,30 +8,22 @@
 
   ##  環境
   1. Windows 11
-      |端末       |環境／FW                                     |最終更新
-      |-----------|--------------------------------------------|----------
-      |Mini-S12   |[Rust 1.76](#rust-1)                        |[2024/02/22](https://www.rust-lang.org/)  
-      |           |[RustRover 2023.3 EAP Build 12](#rustrover) |[2024/03/07](https://www.jetbrains.com/rust/)
-      |           |Tauri 2.0.0-beta.11                         |[2024/03/17](https://beta.tauri.app/)
-      |           |[Tauri 1.6.0](#tauridesktop-framework)      |[2024/03/01](https://tauri.app/)
-      |           |[Bevy 0.13](#game-engine)                   |[2024/03/15](https://bevyengine.org/)
-      |IdeaPad    |Rust 1.74.1                                 |2023/12/23
-      |           |Tauri 1.5.4                                 |2023/12/23
-      |           |Node.js 18.17.1                             |[2023/08/23](https://nodejs.org/ja)
-      |           |Svelte 3.57.0                               |[2023/03/29](https://svelte.dev/)
+      |端末       |環境／FW                                        |最終更新
+      |-----------|-----------------------------------------------|----------
+      |Mini-S12   |[Rust 1.76](#rust-1)                           |[2024/02/22](https://www.rust-lang.org/)  
+      |           |[RustRover 2023.3 EAP Build 12](#rustrover)    |[2024/03/07](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.0-beta.11](#tauridesktop-framework) |[2024/03/17](https://beta.tauri.app/)
+      |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
-  1. Ubuntu 22.04.3 on Windows 11
+  1. Ubuntu 22.04.4 on Windows 11
       |端末       |環境／FW      |日付
       |-----------|-------------|----------
-      |Mini-S12   |Rust 1.75.0  |2024/01/21
-      |           |Vite 5.0.12  |2024/01/21
-      |           |Bun 1.0.24   |2024/01/21
-      |IdeaPad    |Rust 1.74.1  |2023/12/23
-      |           |Tauri 1.5.2  |2023/11/24
-      |           |Vite 4.5.0   |2023/11/24
+      |Mini-S12   |Rust 1.77.0  |2024/03/27
+      |           |Tauri 1.6.1  |2024/03/27
       |           |React 18.2.38|2023/11/24
+      |           |Vite 5.2.6   |2024/03/27
+      |           |Bun 1.0.35   |2024/03/27
       |           |Bevy 0.10.1  |2023/04/30
-      |           |Bun 1.0.14   |2023/11/24
 
   1. Chrome OS Flex 119.0.6045.192(Official Build)
       |端末       |環境／FW     |日付
