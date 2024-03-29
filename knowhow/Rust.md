@@ -25,14 +25,15 @@
       |           |Bun 1.0.35   |2024/03/27
       |           |Bevy 0.10.1  |2023/04/30
 
-  1. Chrome OS Flex 119.0.6045.192(Official Build)
-      |端末       |環境／FW     |日付
-      |-----------|-------------|----------
-      |TransBook  |Rust 1.74.0  |2023/11/30
-      |           |Tauri 1.5.0  |2023/10/06
-      |           |React 18.2.0 |2022/09/03
-      |           |Vite 3.2.5   |2022/12/13
-      |           |Bevy 0.10.1  |2023/04/01
+  1. Chrome OS Flex 122.0.6261.137(Official Build)
+      |端末       |環境／FW         |日付
+      |-----------|-----------------|----------
+      |TransBook  |Rust 1.77.1      |2024/03/30
+      |           |Tauri 1.6.1      |2024/03/30
+      |           |Node.js 20.12.0  |2024/03/30
+      |           |React 18.2.0     |2022/09/03
+      |           |Vite 5.2.7       |2024/03/30
+      |           |Bevy 0.10.1      |2023/04/01
 
   ##  ノウハウ
   ### Rust
@@ -493,13 +494,34 @@
       ![Tauri-app](../images/rust/20230728_tauri1.4_windows11_wsl.png)
   1.  Chrome OS Flex
       ```
-      Default host: x86_64-unknown-linux-gnu
-      rustup home:  /home/taishow2006/.rustup
+      [✔] Environment
+          - OS: Debian 12.0.0 X64
+          ✔ webkit2gtk-4.0: 2.42.5
+          ✔ rsvg2: 2.54.7
+          ✔ rustc: 1.77.1 (7cf61ebde 2024-03-27)
+          ✔ cargo: 1.77.1 (e52e36006 2024-03-26)
+          ✔ rustup: 1.27.0 (bbb9276d2 2024-03-08)
+          ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
+          - node: 16.19.0
+          - npm: 8.19.3
 
-      stable-x86_64-unknown-linux-gnu (default)
-      rustc 1.71.0 (8ede3aae2 2023-07-12)
+      [-] Packages
+          - tauri [RUST]: 1.6.1
+          - tauri-build [RUST]: 1.5.1
+          - wry [RUST]: 0.24.7
+          - tao [RUST]: 0.16.8
+          - @tauri-apps/api [NPM]: 1.5.3
+          - @tauri-apps/cli [NPM]: 1.5.11
+
+      [-] App
+          - build-type: bundle
+          - CSP: unset
+          - distDir: ../dist
+          - devPath: http://localhost:1420/
+          - framework: React
+          - bundler: Vite
       ```
-      ![Tauri-app](../images/rust/20230729_tauri1.4_chrome_os_flex.png)
+      ![Tauri-app](../images/rust/20240330_Tauri1.6.1_Rust1.77.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {
