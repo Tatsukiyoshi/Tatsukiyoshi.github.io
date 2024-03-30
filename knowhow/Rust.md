@@ -10,9 +10,9 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.76](#rust-1)                           |[2024/02/22](https://www.rust-lang.org/)  
+      |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
       |           |[RustRover 2023.3 EAP Build 12](#rustrover)    |[2024/03/07](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.11](#tauridesktop-framework) |[2024/03/17](https://beta.tauri.app/)
+      |           |[Tauri 2.0.0-beta.13](#tauridesktop-framework) |[2024/03/27](https://beta.tauri.app/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
   1. Ubuntu 22.04.4 on Windows 11
