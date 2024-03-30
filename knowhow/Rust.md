@@ -493,35 +493,43 @@
       ```
       ![Tauri-app](../images/rust/20230728_tauri1.4_windows11_wsl.png)
   1.  Chrome OS Flex
-      ```
-      [✔] Environment
-          - OS: Debian 12.0.0 X64
-          ✔ webkit2gtk-4.0: 2.42.5
-          ✔ rsvg2: 2.54.7
-          ✔ rustc: 1.77.1 (7cf61ebde 2024-03-27)
-          ✔ cargo: 1.77.1 (e52e36006 2024-03-26)
-          ✔ rustup: 1.27.0 (bbb9276d2 2024-03-08)
-          ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
-          - node: 16.19.0
-          - npm: 8.19.3
+      - Tauri環境確認
+        ```
+        npm run tauri info
+        ```
+        ```
+        > tauri-app@0.1.6 tauri
+        > tauri info
 
-      [-] Packages
-          - tauri [RUST]: 1.6.1
-          - tauri-build [RUST]: 1.5.1
-          - wry [RUST]: 0.24.7
-          - tao [RUST]: 0.16.8
-          - @tauri-apps/api [NPM]: 1.5.3
-          - @tauri-apps/cli [NPM]: 1.5.11
 
-      [-] App
-          - build-type: bundle
-          - CSP: unset
-          - distDir: ../dist
-          - devPath: http://localhost:1420/
-          - framework: React
-          - bundler: Vite
-      ```
-      ![Tauri-app](../images/rust/20240330_Tauri1.6.1_Rust1.77.png)
+        [✔] Environment
+            - OS: Debian 12.0.0 X64
+            ✔ webkit2gtk-4.0: 2.42.5
+            ✔ rsvg2: 2.54.7
+            ✔ rustc: 1.77.1 (7cf61ebde 2024-03-27)
+            ✔ cargo: 1.77.1 (e52e36006 2024-03-26)
+            ✔ rustup: 1.27.0 (bbb9276d2 2024-03-08)
+            ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
+            - node: 20.12.0
+            - npm: 10.5.0
+
+        [-] Packages
+            - tauri [RUST]: 1.6.1
+            - tauri-build [RUST]: 1.5.1
+            - wry [RUST]: 0.24.7
+            - tao [RUST]: 0.16.8
+            - @tauri-apps/api [NPM]: 1.5.3
+            - @tauri-apps/cli [NPM]: 1.5.11
+
+        [-] App
+            - build-type: bundle
+            - CSP: unset
+            - distDir: ../dist
+            - devPath: http://localhost:1420/
+            - framework: React
+            - bundler: Vite
+        ```
+        ![Tauri-app](../images/rust/20240330_Tauri1.6.1_Rust1.77.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {
