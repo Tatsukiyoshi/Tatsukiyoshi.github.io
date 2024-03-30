@@ -75,7 +75,7 @@
     cargo run
     ```
   ### RustRover
-  - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
+  - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
@@ -103,6 +103,7 @@
         content = new-element
         ```
   - 履歴
+    - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
     - 2023.3 EAP Build 11(#RR-233.14015.153) <span style="color: red;">**Updated 2024/02/29**</span>
     - 2023.3 EAP Build 9(#RR-233.14015.147) <span style="color: red;">**Updated 2024/02/11**</span>
     - 2023.3 EAP Build 8(#RR-233.13135.127) <span style="color: red;">**Updated 2024/01/25**</span>
