@@ -11,12 +11,24 @@
   |端末       |環境／FW                                                   |最終更新      
   |-----------|----------------------------------------------------------|----------
   |IdeaPad    |[IntelliJ IDEA 2023.3.6](#intellij-idea)                  |[2024/03/29](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 21.0.1                                     |2023/11/10
   |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
+  |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - Intellij IDEA 2023.3.6
+    - Kotlin 1.9.23
+      ```
+      plugins {
+        id("org.springframework.boot") version "3.2.0"
+        id("io.spring.dependency-management") version "1.1.3"
+        kotlin("jvm") version "1.9.23"
+        kotlin("plugin.spring") version "1.8.10"
+      }
+      ```
   - Intellij IDEA 2023.3.4
     - Kotlin 1.9.22
       ![Kotlinコンパイラ](../images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinSetting.png)
@@ -73,6 +85,19 @@
     }
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
+### Androidプログラミング
+  - [Kotlin 1.9.23](https://kotlinlang.org/docs/home.html)
+  - プロジェクト残課題状況
+    - AnimalBook
+      - [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) *Fixed*
+    - MyCountdownTimer *No Problem*
+      - リセット時に3:00に表示が戻らない
+        - リセット後、すぐにカウントダウンするため、2:59になることで問題なし
+    - MyScheduler
+      - [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
+    - MySlideshow
+      - 起動時にNotImplementedErrorで起動できない *Fixed*
+        - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
   - Android Studio Iguana | 2023.2.1 Patch 1
     ![Android Studio Iguana](../images/Android/20240305_Android_Studio_Iguana.png)
@@ -106,17 +131,6 @@
         ```
         path=F:\Program\.android\avd\Nexus_5X_API_28.avd
         ```
-  - プロジェクト残課題状況
-    - AnimalBook
-      - [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) *Fixed*
-    - MyCountdownTimer *No Problem*
-      - リセット時に3:00に表示が戻らない
-        - リセット後、すぐにカウントダウンするため、2:59になることで問題なし
-    - MyScheduler
-      - [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
-    - MySlideshow
-      - 起動時にNotImplementedErrorで起動できない *Fixed*
-        - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
   - Iguana Patch 1 対応
     - Android Gradle Plugin 8.3.0 -> 8.3.1
   - Iguana 対応
