@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                                   |最終更新      
   |-----------|----------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2023.3.5](#intellij-idea)                  |[2024/03/14](https://www.jetbrains.com/ja-jp/idea/)
+  |IdeaPad    |[IntelliJ IDEA 2023.3.6](#intellij-idea)                  |[2024/03/29](https://www.jetbrains.com/ja-jp/idea/)
   |           |Amazon Coretto 21.0.1                                     |2023/11/10
   |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
@@ -57,7 +57,7 @@
     - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
     - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
     - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
-  - [PostgreSQL](https://github.com/Tatsukiyoshi/Weekend_Programming/wiki/Database)
+  - [PostgreSQL](Database.md#postgresql)
 ### Kotlinプログラミング
   - Android
     - Chapter 22 coroutines
