@@ -8,8 +8,7 @@
 
 ##  創作物
 **知識を形にする**
-- Tauriデスクトップアプリケーション
-  - [仕様](./design/tauriApp/tauriApp.md)
+- [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 
 ##  OS
 **独学環境の情報**
