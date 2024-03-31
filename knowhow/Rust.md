@@ -542,6 +542,8 @@
     ```
   - Visual Studio Codeでのデバッグ
     - [Debugging in VS Code](https://tauri.app/v1/guides/debugging/vs-code/)
+  - デスクトップアプリケーションの参考情報
+    - [Tauri(Rust+React+TypeScript) から始めるディスクトップアプリ #4[Menuの実装]](https://zenn.dev/wara0516/articles/5af7ab30483185)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
   ### Game Engine
   - [Bevy](https://bevyengine.org/)
