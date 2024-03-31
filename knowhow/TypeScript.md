@@ -19,7 +19,7 @@
   1.  Windows
       |端末       |FW                  |最終更新      
       |-----------|--------------------|----------
-      |IdeaPad    |Node.js 20.0        |[2023/04/25](https://nodejs.org/ja)
+      |IdeaPad    |Node.js 20.0        |[2023/04/25](https://nodejs.org/en)
       |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
       |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
@@ -32,7 +32,7 @@
       |           |React 18.2.0        |2023/09/13
       |           |Nuxt 3.9.1          |[2024/01/13](https://nuxt.com/)
       |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
-      |           | for Windows 0.73.2 |2024/01/07
+      |           |- for Windows 0.73.2|2024/01/07
 
   1. Ubuntu 22.04.3 on Windows 11
       |端末       |環境／FW             |最終更新
@@ -60,6 +60,27 @@
 ### TypeScript
   - [Visual Studio Code 用 Microsoft Edge DevTools 拡張機能](https://learn.microsoft.com/ja-jp/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension)
   - [Visual Studio Code で TypeScript の開発環境を構築する](https://maku.blog/p/ak7u3h3/)
+  - [node.js](https://nodejs.org/en)/[nvm](https://github.com/nvm-sh/nvm)
+    - インストール
+      - 古いバージョンをアンインストールするなら、下記ディレクトリのライブラリ(node-modules)は整理した後で！（グローバルにインストールしていなければ、問題なし）
+        - ユーザディレクトリのAppData\Roaming\npm
+        - ユーザディレクトリのAppData\Roaming\npm-cache
+    - バージョンアップ
+      - [【Node.js入門】バージョンアップ手順と管理ツールまとめ！](https://www.sejuku.net/blog/82819)
+    - トラブルシューティング
+      - node.js 17以降で実行時エラーとなる（OpenSSL関連）
+        - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える
+          [参考](https://howtojs.io/how-to-solve-digital-envelope-routines-unsupported-or-err_ossl_evp_unsupported-error-when-running-angular-application/)
+        - npx create-react-app "package-name"(npm install)でmissing dependenciesエラー <BR>
+          - 実行時に見つからないパッケージが表示されたら、そのパッケージをインストールする
+          ```sh
+          npm install --save "@xxx"
+          ```
+        - npm startでエラー
+          - 以下のコマンドで解決するらしい
+            ```sh
+            npm config set scripts-prepend-node-path true
+            ```
 ### Runtime/ORM
   - [Bun](https://bun.sh/)
     - Install
@@ -260,25 +281,6 @@
     - React
       - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
       - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
-      - react スタートアップ
-        - node.jsインストール
-          - 古いバージョンをアンインストールするなら、下記ディレクトリのライブラリ(node-modules)は整理した後で！（グローバルにインストールしていなければ、問題なし）
-              1.  ユーザディレクトリのAppData\Roaming\npm
-              1.  ユーザディレクトリのAppData\Roaming\npm-cache 
-      - トラブルシューティング
-        - node.js 17以降で実行時エラーとなる（OpenSSL関連）
-          - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える
-            [参考](https://howtojs.io/how-to-solve-digital-envelope-routines-unsupported-or-err_ossl_evp_unsupported-error-when-running-angular-application/)
-          - npx create-react-app "package-name"(npm install)でmissing dependenciesエラー <BR>
-            - 実行時に見つからないパッケージが表示されたら、そのパッケージをインストールする
-            ```sh
-            npm install --save "@xxx"
-            ```
-          - npm startでエラー
-            - 以下のコマンドで解決するらしい
-              ```sh
-              npm config set scripts-prepend-node-path true
-              ```
     - [Svelte](https://svelte.dev/)
       - [SvelteとReactの基本を比較](https://www.twilio.com/blog/react-svelte-comparing-basics-jp)
       - [Svelteのポート番号変更](https://stackoverflow.com/questions/57578775/how-to-change-the-default-port-5000-in-svelte)

@@ -121,7 +121,6 @@
     - コマンドでアップデート
       ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
     - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
-  - node.js/[nvm](https://github.com/nvm-sh/nvm)
   - トラブルシューティング
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
