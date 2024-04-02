@@ -13,9 +13,9 @@
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
   |-----------|-------------------------------------------------------------------------|----------
-  |Mini-S12   |Flutter 3.19.4                                                           |[2024/03/22](https://docs.flutter.dev/get-started/install)
+  |Mini-S12   |Flutter 3.19.5                                                           |[2024/04/02](https://docs.flutter.dev/get-started/install)
   |           |[Android Studio Iguana 2023.2.1 Patch 1](./Kotlin.md#android-studio)     |[2024/03/05](https://developer.android.com/studio)
-  |           |[Visual Studio Community 2022 17.9.4](./NET.md#visual-studio--プレビュー) |2024/03/22
+  |           |[Visual Studio Community 2022 17.9.5](./NET.md#visual-studio--プレビュー) |2024/04/02
 
 ##  ノウハウ
   - flutter dev
@@ -27,12 +27,12 @@
     <summary>Mini-S12</summary>
 
     ```
-    [√] Flutter (Channel stable, 3.19.4, on Microsoft Windows [Version 10.0.22631.3296], locale ja-JP)
-        • Flutter version 3.19.4 on channel stable at C:\Src\flutter
+    [√] Flutter (Channel stable, 3.19.5, on Microsoft Windows [Version 10.0.22631.3374], locale ja-JP)
+        • Flutter version 3.19.5 on channel stable at C:\Src\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 68bfaea224 (35 hours ago), 2024-03-20 15:36:31 -0700
-        • Engine revision a5c24f538d
-        • Dart version 3.3.2
+        • Framework revision 300451adae (5 days ago), 2024-03-27 21:54:07 -0500
+        • Engine revision e76c956498
+        • Dart version 3.3.3
         • DevTools version 2.31.1
 
     [√] Windows Version (Installed version of Windows is version 10 or higher)
@@ -49,9 +49,9 @@
     [√] Chrome - develop for the web
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.9.4)
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.9.5)
         • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
-        • Visual Studio Community 2022 version 17.9.34714.143
+        • Visual Studio Community 2022 version 17.9.34723.18
         • Windows 10 SDK version 10.0.22621.0
 
     [√] Android Studio (version 2023.2)
@@ -67,9 +67,9 @@
         • Flutter extension version 3.84.0
 
     [√] Connected device (3 available)
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3296]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 122.0.6261.129
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 122.0.2365.92
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3374]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 123.0.6312.86
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 123.0.2420.65
 
     [√] Network resources
         • All expected network resources are available.
