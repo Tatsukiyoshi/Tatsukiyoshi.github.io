@@ -84,13 +84,18 @@
 ### Runtime/ORM
   - [Bun](https://bun.sh/)
     - Install
-      ```sh
-      curl -fsSL https://bun.sh/install | bash
-      ```
-      - unzip is required to install bun (see: https://github.com/oven-sh/bun#unzip-is-required)
-        ```sh
-        sudo apt install unzip
+      - Windows
         ```
+        powershell -c "irm bun.sh/install.ps1 | iex"
+        ```
+      - WSL2
+        ```sh
+        curl -fsSL https://bun.sh/install | bash
+        ```
+        - unzip is required to install bun (see: https://github.com/oven-sh/bun#unzip-is-required)
+          ```sh
+          sudo apt install unzip
+          ```
     - Run
       ```sh
       bun run

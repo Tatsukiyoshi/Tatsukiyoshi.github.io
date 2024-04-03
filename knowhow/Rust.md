@@ -13,6 +13,7 @@
       |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
       |           |[RustRover 2023.3 EAP Build 13](#rustrover)    |[2024/03/30](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.13](#tauridesktop-framework) |[2024/03/27](https://beta.tauri.app/)
+      |           |Bun 1.1.0                                      |[2024/04/03](https://bun.sh/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
   1. Ubuntu 22.04.4 on Windows 11
@@ -21,8 +22,8 @@
       |Mini-S12   |Rust 1.77.0  |2024/03/27
       |           |Tauri 1.6.1  |2024/03/27
       |           |React 18.2.38|2023/11/24
-      |           |Vite 5.2.6   |2024/03/27
-      |           |Bun 1.0.35   |2024/03/27
+      |           |Vite 5.2.7   |2024/04/03
+      |           |Bun 1.1.0    |[2024/04/03](https://bun.sh/)
       |           |Bevy 0.10.1  |2023/04/30
 
   1. Chrome OS Flex 122.0.6261.137(Official Build)
