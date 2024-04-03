@@ -34,11 +34,11 @@
       |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2|2024/01/07
 
-  1. Ubuntu 22.04.3 on Windows 11
+  1. Ubuntu 22.04.4 on Windows 11
       |端末       |環境／FW             |最終更新
       |-----------|--------------------|----------
-      |IdeaPad    |Astro 4.5.5         |[2024/03/16](https://astro.build/)
-      |           |Bun 1.0.31          |[2024/03/16](https://bun.sh/)
+      |IdeaPad    |Astro 4.5.14        |[2024/04/03](https://astro.build/)
+      |           |Bun 1.1.0           |[2024/04/03](https://bun.sh/)
       |           |React 18.2.0        |2024/01/03
       |Mini-S12   |Bun 1.0.19          |2023/12/23
 
