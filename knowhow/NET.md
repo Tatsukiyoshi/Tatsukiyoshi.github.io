@@ -20,6 +20,8 @@
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
     ![Visual Studio Client Detector Utility](../images/VisualStudio/20231006_VisualStudio_ClientDetectorUtility.png)
     -  Visual Studio のインストールを検出して管理するために使用できるツールらしい！
+  - Shift-JISで作成していたはずのソースがUnicodeに変換される？
+    ![読み込み時の変換メッセージ](../images/VisualStudio/20240403_Csharp_convert_unicode.png)
   - 履歴
     - ようこそ画面 (*17.6 Preview 2.0-*)
       ダイアログではなく、IDEにクイックアクションなどをまとめたようこそ画面が。
