@@ -1,6 +1,9 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
+      - Build 26090 <span style="color: red;">*<<2024/03/29 updated from 26085>>*</span>
+        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        ![デスクトップ](../images/Windows/20240329_Windows11_Build26090.png)
       - Build 26085 <span style="color: red;">*<<2024/03/21 updated from 26080>>*</span>
         ![デスクトップ](../images/Windows/20240321_Windows11_Build26085.png)
       - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>

@@ -14,9 +14,9 @@
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
   - Dev Channel for Windows 11 24H2 (Build 26xxx)
-    - Build 26090 <span style="color: red;">*<<2024/03/29 updated from 26085>>*</span>
+    - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-      ![デスクトップ](./images/Windows/20240329_Windows11_Build26090.png)
+      ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
