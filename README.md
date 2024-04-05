@@ -42,6 +42,8 @@
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 123.0.6312.111 <span style="color: red;">*<<2024/04/06 updated from 122.0.6261.137>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240406_Chrome_OS_Flex_123.0.6312.111.png)
+    - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
+      ![フォント設定](./images/Chrome/20240406_VSCode_IPAexMincho.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
