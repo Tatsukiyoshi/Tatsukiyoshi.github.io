@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                                   |最終更新      
   |-----------|----------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2023.3.6](#intellij-idea)                  |[2024/03/29](https://www.jetbrains.com/ja-jp/idea/)
+  |IdeaPad    |[IntelliJ IDEA 2024.1](#intellij-idea)                    |[2024/04/05](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 21.0.1                                     |2023/11/10
   |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
