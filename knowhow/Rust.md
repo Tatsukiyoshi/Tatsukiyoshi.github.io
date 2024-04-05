@@ -11,7 +11,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
-      |           |[RustRover 2023.3 EAP Build 13](#rustrover)    |[2024/03/30](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2023.3 EAP Build 14](#rustrover)    |[2024/04/05](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.13](#tauridesktop-framework) |[2024/03/27](https://beta.tauri.app/)
       |           |Bun 1.1.0                                      |[2024/04/03](https://bun.sh/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
@@ -76,7 +76,7 @@
     cargo run
     ```
   ### RustRover
-  - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
+  - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
@@ -104,6 +104,7 @@
         content = new-element
         ```
   - 履歴
+    - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
     - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
     - 2023.3 EAP Build 11(#RR-233.14015.153) <span style="color: red;">**Updated 2024/02/29**</span>
     - 2023.3 EAP Build 9(#RR-233.14015.147) <span style="color: red;">**Updated 2024/02/11**</span>
