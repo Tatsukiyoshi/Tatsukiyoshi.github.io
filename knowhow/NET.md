@@ -23,6 +23,9 @@
     -  Visual Studio のインストールを検出して管理するために使用できるツールらしい！
   - Shift-JISで作成していたはずのソースがUnicodeに変換される？
     ![読み込み時の変換メッセージ](../images/VisualStudio/20240403_Csharp_convert_unicode.png)
+  - パッケージ管理
+    - NuGetパッケージ管理画面にて、「更新プログラム」に表示されるパッケージを更新する
+    ![NuGetパッケージマネージャ](../images/VisualStudio/20240407_Update_NuGet_Package.png)
   - 履歴
     - ようこそ画面 (*17.6 Preview 2.0-*)
       ダイアログではなく、IDEにクイックアクションなどをまとめたようこそ画面が。
