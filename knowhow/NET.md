@@ -12,6 +12,7 @@
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |Mini-S12   |Visual Studio Community 2022 17.9.5              |[2024/04/02](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
@@ -30,6 +31,7 @@
       単語レベルでの間違いを指摘し、修正候補を提示する。
       ![スペルチェッカ](../images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
+  - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
   - [.NET 9.0 Preview 2](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/03/14* <span style="color: red;">Installed!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
@@ -159,6 +161,16 @@
     https://aka.ms/dotnet/download
   ```
   </details>
+
+### Windows App SDK
+  - NET 8.0
+    - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
+      ```xml
+      <PropertyGroup>
+        ...
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+      </PropertyGroup>
+      ```
 
 ### MAUI
   - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
