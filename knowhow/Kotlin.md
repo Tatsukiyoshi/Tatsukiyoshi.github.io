@@ -15,6 +15,7 @@
   |           |Amazon Coretto 21.0.1                                     |2023/11/10
   |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
+  |           |Android Studio Koala 2024.1.1 Canary 4                    |[2024/04/10](https://developer.android.com/studio/preview)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
 
 ##  ノウハウ
@@ -99,6 +100,21 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
+  - Android Studio Koala | 2024.1.1 Canary 4 / Gemini 1.0 Pro
+    ```
+    Build #AI-241.14494.158.2411.11678081, built on April 6, 2024
+    Runtime version: 17.0.10+0--11609105 amd64
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Windows 11.0
+    GC: G1 Young Generation, G1 Old Generation
+    Memory: 2048M
+    Cores: 4
+    Registry:
+      ide.experimental.ui=true
+    ```
+    ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
+    ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
+    ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
   - Android Studio Iguana | 2023.2.1 Patch 1
     ![Android Studio Iguana](../images/Android/20240305_Android_Studio_Iguana.png)
     ```
