@@ -13,7 +13,7 @@
   |IdeaPad    |[IntelliJ IDEA 2024.1](#intellij-idea)                    |[2024/04/05](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 21.0.1                                     |2023/11/10
-  |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 1](#android-studio) |[2024/03/22](https://developer.android.com/studio)
+  |Mini-S12   |[Android Studio Iguana 2023.2.1 Patch 2](#android-studio) |[2024/04/10](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |           |Android Studio Koala 2024.1.1 Canary 4                    |[2024/04/10](https://developer.android.com/studio/preview)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
@@ -147,6 +147,8 @@
         ```
         path=F:\Program\.android\avd\Nexus_5X_API_28.avd
         ```
+  - Iguana Patch 2 対応
+    - Android Gradle Plugin 8.3.1 -> 8.3.2
   - Iguana Patch 1 対応
     - Android Gradle Plugin 8.3.0 -> 8.3.1
   - Iguana 対応
