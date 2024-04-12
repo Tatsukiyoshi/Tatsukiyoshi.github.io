@@ -10,7 +10,9 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 3.0 |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |           |- .NET 9.0 Preview 2                             |[2024/03/14](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
+  |           |- .NET 8.0.2                                     |
   |Mini-S12   |Visual Studio Community 2022 17.9.6              |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.4                                     |[2024/04/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -27,7 +29,9 @@
   - パッケージ管理
     - NuGetパッケージ管理画面にて、「更新プログラム」に表示されるパッケージを更新する
     ![NuGetパッケージマネージャ](../images/VisualStudio/20240407_Update_NuGet_Package.png)
-  - 履歴
+  - 注目した変更
+    - GitHub Copilot (*17.10 Preview 3.0-*) <BR/>
+      ![GitHub Copilot](../images/VisualStudio/20240412_GitHub_Copilot.png)    
     - ようこそ画面 (*17.6 Preview 2.0-*)
       ダイアログではなく、IDEにクイックアクションなどをまとめたようこそ画面が。
       ![ようこそ](../images/VisualStudio/20230317_VS2022_17.6_Preview2.0_welcome.png)
@@ -61,7 +65,7 @@
 
   ランタイム環境:
   OS Name:     Windows
-  OS Version:  10.0.26080
+  OS Version:  10.0.26100
   OS Platform: Windows
   RID:         win-x64
   Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.2.24157.14\
@@ -77,7 +81,7 @@
   .NET SDKs installed:
     7.0.405 [C:\Program Files\dotnet\sdk]
     8.0.101 [C:\Program Files\dotnet\sdk]
-    8.0.200 [C:\Program Files\dotnet\sdk]
+    8.0.300-preview.24203.14 [C:\Program Files\dotnet\sdk]
     9.0.100-preview.2.24157.14 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
