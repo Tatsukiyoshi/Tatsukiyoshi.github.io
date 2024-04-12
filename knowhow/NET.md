@@ -11,7 +11,8 @@
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 2.0 |[2024/03/14](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
-  |Mini-S12   |Visual Studio Community 2022 17.9.5              |[2024/04/02](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |Mini-S12   |Visual Studio Community 2022 17.9.6              |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |           |- .NET 8.0.4                                     |[2024/04/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
@@ -115,37 +116,59 @@
 
   ```
   .NET SDK:
-  Version:           8.0.101
-  Commit:            6eceda187b
-  Workload version:  8.0.100-manifests.30fce108
+  Version:           8.0.204
+  Commit:            c338c7548c
+  Workload version:  8.0.200-manifests.7d36c14f
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.22631
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\8.0.101\
+  Base Path:   C:\Program Files\dotnet\sdk\8.0.204\
 
   インストール済みの .NET ワークロード:
-  Workload version: 8.0.100-manifests.30fce108
-  表示するインストール済みワークロードはありません。
+  [maui-windows]
+    インストール ソース: VS 17.9.34728.123
+    マニフェストのバージョン:    8.0.7/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.7\WorkloadManifest.json
+    インストールの種類:        FileBased
+
+  [maccatalyst]
+    インストール ソース: VS 17.9.34728.123
+    マニフェストのバージョン:    17.2.8004/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.2.8004\WorkloadManifest.json
+    インストールの種類:        FileBased
+
+  [ios]
+    インストール ソース: VS 17.9.34728.123
+    マニフェストのバージョン:    17.2.8004/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.2.8004\WorkloadManifest.json
+    インストールの種類:        FileBased
+
+  [android]
+    インストール ソース: VS 17.9.34728.123
+    マニフェストのバージョン:    34.0.52/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.52\WorkloadManifest.json
+    インストールの種類:        FileBased
+
 
   Host:
-    Version:      8.0.1
+    Version:      8.0.4
     Architecture: x64
-    Commit:       bf5e279d92
+    Commit:       2d7eea2529
 
   .NET SDKs installed:
-    6.0.418 [C:\Program Files\dotnet\sdk]
-    8.0.101 [C:\Program Files\dotnet\sdk]
+    6.0.421 [C:\Program Files\dotnet\sdk]
+    8.0.204 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
-    Microsoft.AspNetCore.App 6.0.26 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 6.0.26 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 6.0.26 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.AspNetCore.App 6.0.29 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.NETCore.App 6.0.29 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.WindowsDesktop.App 6.0.29 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
@@ -176,19 +199,27 @@
       ```
 
 ### MAUI
-  - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
-  - MAUIワークロードのインストール
-    ```
-    dotnet workload install maui
-    ```
-  - ビルド
-    ```
-    dotnet build -t:Run -f net8.0-android -p:AndroidSdkDirectory=D:\AndroidSdk
-    ```
-  - Androidエミュレータ
-    ```
-    D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
-    ```
+  - Visual Studio
+    - エミュレータを動作させるには、Hyper-Vの有効化が必要 <BR />
+      ![Hyper-V](../images/VisualStudio/20240412_Android_HyperV.png)
+      ![HyperVisorPlatform](../images/VisualStudio/20240412_Android_HyperVisor_Platform.png)
+    - デバイスマネージャーでAndroid Studioで作成したイメージは使えず、新たにイメージを作成
+      ![AndroidDeviceManager](../images/VisualStudio/20240412_Android_Device_Manager.png)
+    - サンプルコードのままでは、Androidターゲットはビルドできない (*2024/04/12*)
+  - Visual Studio Code
+    - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
+    - MAUIワークロードのインストール
+      ```
+      dotnet workload install maui
+      ```
+    - ビルド
+      ```
+      dotnet build -t:Run -f net8.0-android -p:AndroidSdkDirectory=D:\AndroidSdk
+      ```
+    - Androidエミュレータ
+      ```
+      D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
+      ```
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
 ### Azure
