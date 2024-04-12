@@ -199,19 +199,27 @@
       ```
 
 ### MAUI
-  - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
-  - MAUIワークロードのインストール
-    ```
-    dotnet workload install maui
-    ```
-  - ビルド
-    ```
-    dotnet build -t:Run -f net8.0-android -p:AndroidSdkDirectory=D:\AndroidSdk
-    ```
-  - Androidエミュレータ
-    ```
-    D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
-    ```
+  - Visual Studio
+    - エミュレータを動作させるには、Hyper-Vの有効化が必要 <BR />
+      ![Hyper-V](../images/VisualStudio/20240412_Android_HyperV.png)
+      ![HyperVisorPlatform](../images/VisualStudio/20240412_Android_HyperVisor_Platform.png)
+    - デバイスマネージャーでAndroid Studioで作成したイメージは使えず、新たにイメージを作成
+      ![AndroidDeviceManager](../images/VisualStudio/20240412_Android_Device_Manager.png)
+    - サンプルコードのままでは、Androidターゲットはビルドできない (*2024/04/12*)
+  - Visual Studio Code
+    - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
+    - MAUIワークロードのインストール
+      ```
+      dotnet workload install maui
+      ```
+    - ビルド
+      ```
+      dotnet build -t:Run -f net8.0-android -p:AndroidSdkDirectory=D:\AndroidSdk
+      ```
+    - Androidエミュレータ
+      ```
+      D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
+      ```
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
 ### Azure
