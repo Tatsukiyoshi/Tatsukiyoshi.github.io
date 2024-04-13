@@ -149,6 +149,15 @@
         ```
   - Iguana Patch 2 対応
     - Android Gradle Plugin 8.3.1 -> 8.3.2
+    - junit4が廃要素になったための変更（junit-ktx）
+      ```xml
+      dependencies {
+          ...
+          implementation 'androidx.test.ext:junit-ktx:1.1.5'
+          testImplementation 'junit:junit:4.13.2'
+          ...
+      }
+      ```
   - Iguana Patch 1 対応
     - Android Gradle Plugin 8.3.0 -> 8.3.1
   - Iguana 対応
