@@ -100,10 +100,10 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 Canary 4 / Gemini 1.0 Pro
+  - Android Studio Koala | 2024.1.1 Canary 5
     ```
-    Build #AI-241.14494.158.2411.11678081, built on April 6, 2024
-    Runtime version: 17.0.10+0--11609105 amd64
+    Build #AI-241.14494.240.2411.11700778, built on April 11, 2024
+    Runtime version: 17.0.10+0--11679475 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
     GC: G1 Young Generation, G1 Old Generation
@@ -111,10 +111,15 @@
     Cores: 4
     Registry:
       ide.experimental.ui=true
+    Non-Bundled Plugins:
+      com.intellij.ja (241.219)
     ```
-    ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
-    ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
-    ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
+    - Canary 5 対応
+      - Android Gradle Plugin 8.5.0 alpha04 -> 8.5.0 alpha05
+    - Gemini 1.0 Pro
+      ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
+      ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
+      ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
   - Android Studio Iguana | 2023.2.1 Patch 1
     ![Android Studio Iguana](../images/Android/20240305_Android_Studio_Iguana.png)
     ```
