@@ -40,10 +40,11 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 123.0.6312.111 <span style="color: red;">*<<2024/04/06 updated from 122.0.6261.137>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240406_Chrome_OS_Flex_123.0.6312.111.png)
-    - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
-      ![フォント設定](./images/Chrome/20240406_VSCode_IPAexMincho.png)
+  - バージョン 123.0.6312.112 <span style="color: red;">*<<2024/04/13 updated from 123.0.6312.111>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240413_Chrome_OS_Flex_123.0.6312.112.png)
+    - [変更点](https://note.com/taishow2020/n/n2ca56abe2139)
+      - フォントに「IPAmj明朝フォント」が追加
+      - キーボードのショートカットやマウスボタンのカスタマイズが可能
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
@@ -104,25 +105,36 @@
     ```
   - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 - Chrome OS Flex
-  - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
-  - Linux開発環境
-    - [ChromebookのLinux環境(日本語)セットアップ](https://3nmt.com/chromebook_linux_japanese/)
-    - [fcitx.confについて](https://qiita.com/suzuki_sh/items/1319b050ba41e03890f5)
-  - github
-    ```
-    git config --global user.name
-    git config --global user.email
-    sudo apt install gnome-keyring
-    ```
-  - gcc
-    ```
-    sudo apt install build-essential
-    sudo apt install gcc
-    ```
-  - Visual Studio Code
-    - コマンドでアップデート
+  - セットアップ
+    - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
+    - Linux開発環境
+      - [ChromebookのLinux環境(日本語)セットアップ](https://3nmt.com/chromebook_linux_japanese/)
+      - [fcitx.confについて](https://qiita.com/suzuki_sh/items/1319b050ba41e03890f5)
+      - github
+        ```
+        git config --global user.name
+        git config --global user.email
+        sudo apt install gnome-keyring
+        ```
+      - gcc
+        ```
+        sudo apt install build-essential
+        sudo apt install gcc
+        ```
+      - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+  - アップデート
+    - Visual Studio Code
       ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
-    - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+  - カスタマイズ
+    - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
+      ![フォント設定](./images/Chrome/20240406_VSCode_IPAexMincho.png)
+    - キーボードのショートカットのカスタマイズ
+      ![ショートカット表示](./images/Chrome/20240413_Chrome_ShortcutCustomize1.png)
+      ![ショートカット一覧](./images/Chrome/20240413_Chrome_ShortcutCustomize2.png)
+      ![ショートカットカスタマイズ](./images/Chrome/20240413_Chrome_ShortcutCustomize3.png)
+    - マウスボタンのカスタマイズ
+      ![マウスボタンカスタマイズ1](./images/Chrome/20240413_Chrome_MouseCustomize1.png)
+      ![マウスボタンカスタマイズ2](./images/Chrome/20240413_Chrome_MouseCustomize2.png)
   - トラブルシューティング
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
