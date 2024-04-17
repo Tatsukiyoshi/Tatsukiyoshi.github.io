@@ -23,7 +23,7 @@
       |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
       |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
-      |           |Angular 17.3.1      |[2024/03/23](https://angular.io/)
+      |           |Angular 17.3.4      |[2024/04/14](https://angular.io/)
       |           |Vue 3.4.15          |[2024/01/20](https://jp.vuejs.org/)
       |           |Deno 1.39.4         |[2024/01/21](https://deno.land/)
       |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
