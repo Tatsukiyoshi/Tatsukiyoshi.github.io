@@ -76,7 +76,7 @@
 - [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
 - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-- PowerShell 7.4.1
+- PowerShell 7.4.2
 - [Docker](./knowhow/Docker.md)
 
 #  プログラミング言語
