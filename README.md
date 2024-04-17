@@ -19,9 +19,29 @@
       ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+  - [Ubuntu 24.04-beta](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/17 updated from 22.04.4>>*</span>
+    <details>
+    <summary>ディストリビューション・バージョン情報 on IdeaPad</summary>
+
+    ```
+    PRETTY_NAME="Ubuntu Noble Numbat (development branch)"
+    NAME="Ubuntu"
+    VERSION_ID="24.04"
+    VERSION="24.04 LTS (Noble Numbat)"
+    VERSION_CODENAME=noble
+    ID=ubuntu
+    ID_LIKE=debian
+    HOME_URL="https://www.ubuntu.com/"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    UBUNTU_CODENAME=noble
+    LOGO=ubuntu-logo
+    ```
+    </details>
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
     <details>
-    <summary>ディストリビューション・バージョン情報</summary>
+    <summary>ディストリビューション・バージョン情報 on Mini-S12</summary>
 
     ```
     PRETTY_NAME="Ubuntu 22.04.4 LTS"
@@ -56,7 +76,7 @@
 - [Git 2.44](https://git-scm.com/download) <span style="color: red;">*<<2024/03/10 updated from 2.43>>*</span>
 - [GitHub Desktop 3.3.11](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/03/10 updated from 3.3.8>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-- PowerShell 7.4.1
+- PowerShell 7.4.2
 - [Docker](./knowhow/Docker.md)
 
 #  プログラミング言語
@@ -103,6 +123,7 @@
     ```
     lsb_release -a
     ```
+  - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
   - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 - Chrome OS Flex
   - セットアップ
