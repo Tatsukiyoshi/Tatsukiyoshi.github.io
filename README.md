@@ -41,7 +41,7 @@
     </details>
   - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
     <details>
-    <summary>ディストリビューション・バージョン情報</summary>
+    <summary>ディストリビューション・バージョン情報 on Mini-S12</summary>
 
     ```
     PRETTY_NAME="Ubuntu 22.04.4 LTS"
