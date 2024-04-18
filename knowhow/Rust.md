@@ -21,10 +21,19 @@
       |-----------|-------------|----------
       |Mini-S12   |Rust 1.77.0  |2024/03/27
       |           |Tauri 1.6.1  |2024/03/27
-      |           |React 18.2.38|2023/11/24
+      |           |React 18.2.0 |2023/11/24
       |           |Vite 5.2.7   |2024/04/03
       |           |Bun 1.1.0    |[2024/04/03](https://bun.sh/)
       |           |Bevy 0.10.1  |2023/04/30
+
+  1. Ubuntu 24.04-beta on Windows 11
+      |端末       |環境／FW              |最終更新
+      |-----------|---------------------|----------
+      |IdeaPad    |Rust 1.77.2          |2024/04/17
+      |           |Tauri 2.0.0-beta.15  |2024/04/18
+      |           |React 18.2.0         |2024/04/17
+      |           |Vite 5.2.9           |2024/04/17
+      |           |Bun 1.1.4            |2024/04/17
 
   1. Chrome OS Flex 122.0.6261.137(Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -412,6 +421,17 @@
         ```
         cargo tauri dev
         ```
+    - Ubuntu 24.04
+      - tauri 1.x
+        - そもそも、libjavascriptcoregtk-4.1ではなく、libjavascriptcoregtk-4.0を必要としているため、対応不可と判断。
+      - tauri 2.0
+        - 不足するライブラリを追加インストールすることで、実行まで確認
+          ```
+          sudo apt install libjavascriptcoregtk-4.1*
+          sudo apt install libsoup-3.0*
+          sudo apt install libwebkit2gtk-4.1*
+          ```
+          ![Tauri 2.0Beta](../images/rust/20240418_Tauri2.0_Ubuntu24.04.png)
     - Ubuntu 22.04
     1.  必須パッケージインストール
         ```
