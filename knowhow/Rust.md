@@ -12,8 +12,8 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
       |           |[RustRover 2023.3 EAP Build 14](#rustrover)    |[2024/04/05](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.13](#tauridesktop-framework) |[2024/03/27](https://beta.tauri.app/)
-      |           |Bun 1.1.0                                      |[2024/04/03](https://bun.sh/)
+      |           |[Tauri 2.0.0-beta.15](#tauridesktop-framework) |[2024/04/19](https://beta.tauri.app/)
+      |           |Bun 1.1.4                                      |[2024/04/19](https://bun.sh/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
   1. Ubuntu 22.04.4 on Windows 11
