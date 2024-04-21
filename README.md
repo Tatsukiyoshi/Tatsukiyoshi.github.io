@@ -188,6 +188,8 @@
       $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
       ```
 - PenPot
+  - 日本語表示に切り替える<BR />
+    ![Setting](./images/Penpot/20240421_Setting.png)
   - パーツをまとめるには、レイヤーを活用する<BR />
     ![Layer](./images/Penpot/20240421_Layer.png)
   - ファイルに出力する<BR />
