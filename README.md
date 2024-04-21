@@ -3,7 +3,7 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト（2024/4/8～4/14）](https://note.com/taishow2020/n/nbdee027ec3f4)/
+  [最新ダイジェスト（2024/4/15～4/21）](https://note.com/taishow2020/n/nf8d7db72432c)/
   [一覧](./digest/digestList.md)
 
 ##  創作物
