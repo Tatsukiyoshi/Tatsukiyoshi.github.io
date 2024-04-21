@@ -79,6 +79,9 @@
 - PowerShell 7.4.2
 - [Docker](./knowhow/Docker.md)
 
+##  サービス
+- [Penpot 2.0](https://design.penpot.app/)
+
 #  プログラミング言語
 **独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積**
 - 言語共通
@@ -184,5 +187,11 @@
       ```shell
       $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
       ```
+- PenPot
+  - パーツをまとめるには、レイヤーを活用する<BR />
+    ![Layer](./images/Penpot/20240421_Layer.png)
+  - ファイルに出力する<BR />
+    ![Export](./images/Penpot/20240421_Export.png)
+    - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
 [プロフィール](./sub/Profile.md)
