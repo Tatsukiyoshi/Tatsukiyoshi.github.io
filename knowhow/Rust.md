@@ -8,9 +8,9 @@
 
   ##  コンテンツ
 
-  |コンテンツ                                                                                  |日付      |進捗状況
-  |------------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/04/23|第4回 RustとActix Webで投稿アプリにテンプレートエンジンを導入しよう
+  |コンテンツ                                                                                   |日付      |進捗状況
+  |--------------------------------------------------------------------------------------------|----------|-------
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/04/24|第6回 RustとActix Webで投稿アプリにREST APIを導入しよう
 
   ##  環境
   1. Windows 11
@@ -20,6 +20,7 @@
       |           |[RustRover 2023.3 EAP Build 14](#rustrover)    |[2024/04/05](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.15](#tauridesktop-framework) |[2024/04/19](https://beta.tauri.app/)
       |           |Bun 1.1.4                                      |[2024/04/19](https://bun.sh/)
+      |           |[Dioxus 0.4.1](#dioxus)                        |[2024/04/24](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
   1. Ubuntu 22.04.4 on Windows 11
@@ -573,6 +574,20 @@
   - デスクトップアプリケーションの参考情報
     - [Tauri(Rust+React+TypeScript) から始めるディスクトップアプリ #4[Menuの実装]](https://zenn.dev/wara0516/articles/5af7ab30483185)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
+  ### Dioxus(Cross Platform Library)
+  - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
+  - CLIツール
+    ```
+    cargo install dioxus-cli --force
+    ```
+  - wasm32-unknown-unknown(WebAssemblyのビルドターゲット)有効化
+    ```
+    rustup target add wasm32-unknown-unknown
+    ```
+  - 実行
+    ```
+    dx serve
+    ```
   ### Game Engine
   - [Bevy](https://bevyengine.org/)
     - Bevy 0.13
