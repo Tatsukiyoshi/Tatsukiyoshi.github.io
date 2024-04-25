@@ -8,14 +8,14 @@
 ##  コンテンツ
   |コンテンツ                                                                         |日付     |進捗状況
   |----------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2022/10/23|第13回  Flutterではマテリアルデザインを用いたコンポーネントをどう使うのか【テキスト編】 <span style="color: red;">*finished*</span>
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/04/25|第14回 Flutterが採用しているマテリアルデザインを使ったコンポーネントを紹介【ボタン編】<span style="color: red;">*finished*</span>
 
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
   |-----------|-------------------------------------------------------------------------|----------
-  |Mini-S12   |Flutter 3.19.5                                                           |[2024/04/02](https://docs.flutter.dev/get-started/install)
-  |           |[Android Studio Iguana 2023.2.1 Patch 1](./Kotlin.md#android-studio)     |[2024/03/05](https://developer.android.com/studio)
-  |           |[Visual Studio Community 2022 17.9.5](./NET.md#visual-studio--プレビュー) |2024/04/02
+  |Mini-S12   |Flutter 3.19.6                                                           |[2024/04/25](https://docs.flutter.dev/get-started/install)
+  |           |[Android Studio Iguana 2023.2.1 Patch 2](./Kotlin.md#android-studio)     |[2024/04/10](https://developer.android.com/studio)
+  |           |[Visual Studio Community 2022 17.9.6](./NET.md#visual-studio--プレビュー) |2024/04/12
 
 ##  ノウハウ
   - flutter dev
@@ -27,31 +27,31 @@
     <summary>Mini-S12</summary>
 
     ```
-    [√] Flutter (Channel stable, 3.19.5, on Microsoft Windows [Version 10.0.22631.3374], locale ja-JP)
-        • Flutter version 3.19.5 on channel stable at C:\Src\flutter
+    [√] Flutter (Channel stable, 3.19.6, on Microsoft Windows [Version 10.0.22631.3527], locale ja-JP)
+        • Flutter version 3.19.6 on channel stable at C:\Src\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 300451adae (5 days ago), 2024-03-27 21:54:07 -0500
-        • Engine revision e76c956498
-        • Dart version 3.3.3
+        • Framework revision 54e66469a9 (7 days ago), 2024-04-17 13:08:03 -0700
+        • Engine revision c4cd48e186
+        • Dart version 3.3.4
         • DevTools version 2.31.1
 
     [√] Windows Version (Installed version of Windows is version 10 or higher)
 
     [√] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
         • Android SDK at C:\Users\taish\AppData\Local\Android\Sdk
-        • Platform android-UpsideDownCakePrivacySandbox, build-tools 34.0.0
+        • Platform android-VanillaIceCream, build-tools 34.0.0
         • ANDROID_HOME = C:\Users\taish\AppData\Local\Android\Sdk
         • ANDROID_SDK_ROOT = C:\Users\taish\AppData\Local\Android\Sdk
-        • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
-        • Java version OpenJDK Runtime Environment (build 17.0.9+0--11185874)
+        • Java binary at: C:\Program Files\Android\Android Studio Canary\jbr\bin\java
+        • Java version OpenJDK Runtime Environment (build 17.0.10+0--11679475)
         • All Android licenses accepted.
 
     [√] Chrome - develop for the web
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.9.5)
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.9.6)
         • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
-        • Visual Studio Community 2022 version 17.9.34723.18
+        • Visual Studio Community 2022 version 17.9.34728.123
         • Windows 10 SDK version 10.0.22621.0
 
     [√] Android Studio (version 2023.2)
@@ -62,14 +62,22 @@
           https://plugins.jetbrains.com/plugin/6351-dart
         • Java version OpenJDK Runtime Environment (build 17.0.9+0--11185874)
 
-    [√] VS Code (version 1.87.2)
+    [√] Android Studio (version 2024.1)
+        • Android Studio at C:\Program Files\Android\Android Studio Canary
+        • Flutter plugin can be installed from:
+          https://plugins.jetbrains.com/plugin/9212-flutter
+        • Dart plugin can be installed from:
+          https://plugins.jetbrains.com/plugin/6351-dart
+        • Java version OpenJDK Runtime Environment (build 17.0.10+0--11679475)
+
+    [√] VS Code (version 1.88.1)
         • VS Code at C:\Users\taish\AppData\Local\Programs\Microsoft VS Code
-        • Flutter extension version 3.84.0
+        • Flutter extension version 3.86.0
 
     [√] Connected device (3 available)
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3374]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 123.0.6312.86
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 123.0.2420.65
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.3527]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 123.0.6312.106
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 124.0.2478.51
 
     [√] Network resources
         • All expected network resources are available.
