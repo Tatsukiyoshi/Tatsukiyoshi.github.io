@@ -10,14 +10,14 @@
 
   |コンテンツ                                                                                   |日付      |進捗状況
   |--------------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/04/24|第6回 RustとActix Webで投稿アプリにREST APIを導入しよう
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/04/25|第7回 RustとDioxusで投稿アプリのSPAを作ってみよう
 
   ##  環境
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
-      |           |[RustRover 2023.3 EAP Build 14](#rustrover)    |[2024/04/05](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.1 EAP](#rustrover)             |[2024/04/25](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.15](#tauridesktop-framework) |[2024/04/19](https://beta.tauri.app/)
       |           |Bun 1.1.4                                      |[2024/04/19](https://bun.sh/)
       |           |[Dioxus 0.4.1](#dioxus)                        |[2024/04/24](https://dioxuslabs.com/)
@@ -92,7 +92,7 @@
     cargo run
     ```
   ### RustRover
-  - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
+  - 2024.1 EAP Build #RR-241.15989.101 <span style="color: red;">**Updated 2024/04/25**</span>
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
@@ -120,6 +120,7 @@
         content = new-element
         ```
   - 履歴
+    - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
     - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
     - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
     - 2023.3 EAP Build 11(#RR-233.14015.153) <span style="color: red;">**Updated 2024/02/29**</span>
