@@ -19,12 +19,12 @@
       ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  - [Ubuntu 24.04-beta](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/17 updated from 22.04.4>>*</span>
+  - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
     <details>
     <summary>ディストリビューション・バージョン情報 on IdeaPad</summary>
 
     ```
-    PRETTY_NAME="Ubuntu Noble Numbat (development branch)"
+    PRETTY_NAME="Ubuntu 24.04 LTS"
     NAME="Ubuntu"
     VERSION_ID="24.04"
     VERSION="24.04 LTS (Noble Numbat)"
