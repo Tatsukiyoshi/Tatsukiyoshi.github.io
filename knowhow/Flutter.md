@@ -8,7 +8,7 @@
 ##  コンテンツ
   |コンテンツ                                                                         |日付     |進捗状況
   |----------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/04/25|第15回 Flutterのマテリアルデザインを使ったコンポーネントを紹介【入力コンポーネント編】<span style="color: red;">*finished*</span>
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/04/26|第21回 Flutterでのデータ連携・処理について解説！～非同期処理と画面の連携機能を作ろう～<span style="color: red;">*finished*</span>
 
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
