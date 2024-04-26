@@ -19,7 +19,7 @@
       |Mini-S12   |[Rust 1.77.1](#rust-1)                         |[2024/03/30](https://www.rust-lang.org/)  
       |           |[RustRover 2024.1 EAP](#rustrover)             |[2024/04/25](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.15](#tauridesktop-framework) |[2024/04/19](https://beta.tauri.app/)
-      |           |Bun 1.1.4                                      |[2024/04/19](https://bun.sh/)
+      |           |Bun 1.1.5                                      |[2024/04/26](https://bun.sh/)
       |           |[Dioxus 0.4.1](#dioxus)                        |[2024/04/24](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
