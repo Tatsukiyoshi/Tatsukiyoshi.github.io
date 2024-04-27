@@ -13,7 +13,7 @@
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
-  - Dev Channel for Windows 11 24H2 (Build 26xxx)
+  - Dev Channel for Next of Windows 11 24H2 (Build 26xxx)
     - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
         ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
