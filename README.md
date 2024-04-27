@@ -16,7 +16,9 @@
   - Dev Channel for Windows 11 24H2 (Build 26xxx)
     - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-      ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
+        ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
+      - Canary Channel更新により、Dev Channelと再分離 / 24H2はFix / 次の更新待ち <span><<2024/04/27>></span>
+        ![Update to 24H2](./images/Windows/20240427_WindowsUpdate_DevChannel.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
