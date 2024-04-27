@@ -17,7 +17,7 @@
     - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
         ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
-      - Canary Channel更新により、Dev Channelと再分離 / 24H2はFix / 次の更新待ち <span><<2024/04/27>></span>
+      - Canary Channelアップデートにより、Dev Channelと再分離 / 24H2はFix / 次のアップデート配信待ち <span><<2024/04/27>></span>
         ![Update to 24H2](./images/Windows/20240427_WindowsUpdate_DevChannel.png)
     - [履歴](./history/Windows.md)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -62,8 +62,9 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 123.0.6312.112 <span style="color: red;">*<<2024/04/13 updated from 123.0.6312.111>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240413_Chrome_OS_Flex_123.0.6312.112.png)
+  - バージョン 123.0.6312.134 <span style="color: red;">*<<2024/04/27 updated from 123.0.6312.112>>*</span>
+    ![Chrome OS Flexアップデート中](./images/Chrome/20240427_Chrome_OS_Flex_Update.png)<BR />
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240427_Chrome_OS_Flex_123.0.6312.134.png)
     - [変更点](https://note.com/taishow2020/n/n2ca56abe2139)
       - フォントに「IPAmj明朝フォント」が追加
       - キーボードのショートカットやマウスボタンのカスタマイズが可能
