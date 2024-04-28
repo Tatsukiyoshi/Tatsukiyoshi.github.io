@@ -2,17 +2,17 @@
 
 ##  独学書
 
-  |テキスト                                                      |日付     |進捗状況
-  |-------------------------------------------------------------|----------|---
+  |テキスト                                                      |日付      |進捗状況
+  |------------------------------------------------------------|----------|---
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 3.0 |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
-  |           |- .NET 9.0 Preview 2                             |[2024/03/14](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
-  |           |- .NET 8.0.2                                     |
+  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 5.0 |[2024/04/29](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |           |- .NET 9.0 Preview 3                             |[2024/04/29](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
+  |           |- .NET 8.0.4                                     |
   |Mini-S12   |Visual Studio Community 2022 17.9.6              |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.4                                     |[2024/04/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -40,14 +40,14 @@
       ![スペルチェッカ](../images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
-  - [.NET 9.0 Preview 2](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/03/14* <span style="color: red;">Installed!</span>)
+  - [.NET 9.0 Preview 3](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/04/29* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0 Preview 2](../images/VisualStudio/20240314_dotnet9_Preview2.png)
+      ![.NET 9.0 Preview 3](../images/VisualStudio/20240429_dotnet9_Preview3.png)
   - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2023/11/15* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.1](../images/VisualStudio/20240112_dotnet8.0.1.png)
+      ![.NET 8.0.4](../images/VisualStudio/20240429_dotnet8.0.4.png)
 
   - .NET 環境情報
   ```
@@ -58,45 +58,49 @@
 
   ```
   .NET SDK:
-  Version:           9.0.100-preview.2.24157.14
-  Commit:            f7466905f9
-  Workload version:  9.0.100-manifests.04914b26
-  MSBuild version:   17.10.0-preview-24127-03+6f44380e4
+  Version:           9.0.100-preview.3.24204.13
+  Commit:            81f61d8290
+  Workload version:  9.0.100-manifests.77bb7ba9
+  MSBuild version:   17.11.0-preview-24178-16+7ca3c98fa
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.26100
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.2.24157.14\
+  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.3.24204.13\
 
   インストール済みの .NET ワークロード:
   表示するインストール済みワークロードはありません。
 
   Host:
-    Version:      9.0.0-preview.2.24128.5
+    Version:      9.0.0-preview.3.24172.9
     Architecture: x64
-    Commit:       8e5e748c5c
+    Commit:       9e6ba1f68c
 
   .NET SDKs installed:
     7.0.405 [C:\Program Files\dotnet\sdk]
     8.0.101 [C:\Program Files\dotnet\sdk]
+    8.0.204 [C:\Program Files\dotnet\sdk]
     8.0.300-preview.24203.14 [C:\Program Files\dotnet\sdk]
-    9.0.100-preview.2.24157.14 [C:\Program Files\dotnet\sdk]
+    9.0.100-preview.3.24204.13 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.2 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.0-preview.2.24128.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 9.0.0-preview.3.24172.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.0-preview.2.24128.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 9.0.0-preview.3.24172.9 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.0-preview.2.24128.10 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 9.0.0-preview.3.24175.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
