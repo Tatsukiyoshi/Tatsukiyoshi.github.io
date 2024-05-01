@@ -1,4 +1,10 @@
 # Chrome OS Flex
+- バージョン 123.0.6312.134 <span style="color: red;">*<<2024/04/27 updated from 123.0.6312.112>>*</span>
+  ![Chrome OS Flexアップデート中](../images/Chrome/20240427_Chrome_OS_Flex_Update.png)<BR />
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240427_Chrome_OS_Flex_123.0.6312.134.png)
+  - [変更点](https://note.com/taishow2020/n/n2ca56abe2139)
+    - フォントに「IPAmj明朝フォント」が追加
+    - キーボードのショートカットやマウスボタンのカスタマイズが可能
 - バージョン 123.0.6312.112 <span style="color: red;">*<<2024/04/13 updated from 123.0.6312.111>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240413_Chrome_OS_Flex_123.0.6312.112.png)
 - バージョン 123.0.6312.111 <span style="color: red;">*<<2024/04/06 updated from 122.0.6261.137>>*</span>
