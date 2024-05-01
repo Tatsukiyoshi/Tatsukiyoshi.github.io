@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="Dk4LDjs8eoQe2LMqBGMr" name="ページ1">
+        <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" value="Client" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="390" height="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#FFFFFF;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fillColor=#FFFFFF;" vertex="1" parent="11">
+                    <mxGeometry x="30" y="40" width="320" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="7">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="7">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#FFFFFF;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fillColor=#FFFFFF;" vertex="1" parent="11">
+                    <mxGeometry x="30" y="480" width="320" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="17">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="17">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Server" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="40" width="600" height="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Data&lt;br&gt;(JSON)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF66;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry x="480" y="80" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Dioxus [Port=8080]" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="15">
+                    <mxGeometry x="50" y="570" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#66FFB3;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="40" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#66FFB3;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry x="80" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;startArrow=classic;startFill=1;" edge="1" parent="15" source="21" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#66FFB3;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry x="90" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#66FFB3;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry x="80" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;startArrow=classic;startFill=1;" edge="1" parent="15" source="23" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#66FFB3;fontColor=#000000;" vertex="1" parent="15">
+                    <mxGeometry x="90" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#FF3333;startArrow=classic;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="15" source="25" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="GET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32">
+                    <mxGeometry x="0.1053" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Actix-Web [Port=8000]" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="15">
+                    <mxGeometry x="50" y="50" width="200" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeColor=#FF3333;startArrow=classic;startFill=1;" edge="1" parent="1" source="7" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;startArrow=classic;startFill=1;" edge="1" parent="1" source="17" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
