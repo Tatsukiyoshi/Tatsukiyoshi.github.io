@@ -9,7 +9,7 @@
 ##  創作物
 **知識を形にする**
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
-
+- [課題整理 with Dioxus](./design/dioxusApp/system.md)
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
