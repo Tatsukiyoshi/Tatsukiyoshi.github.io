@@ -91,6 +91,24 @@
     ```
     cargo run
     ```
+  ### WASM
+  - [Wasmtime](https://wasmtime.dev/)
+    - Install
+      ```sh
+      curl https://wasmtime.dev/install.sh -sSf | bash
+      ```
+    - ターゲット追加
+      ```sh
+      rustup target add wasm32-wasi
+      ```
+    - コンパイル
+      ```sh
+      rustc hello.rs --target wasm32-wasi
+      ```
+    - 実行
+      ```sh
+      wasmtime hello.wasm
+      ```
   ### RustRover
   - 2024.1 EAP Build #RR-241.15989.101 <span style="color: red;">**Updated 2024/04/25**</span>
   - データベース
