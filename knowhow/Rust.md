@@ -24,14 +24,15 @@
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
   1. Ubuntu 22.04.4 on Windows 11
-      |端末       |環境／FW      |最終更新
-      |-----------|-------------|----------
-      |Mini-S12   |Rust 1.78    |2024/05/04
-      |           |Tauri 1.6.2  |2024/05/04
-      |           |React 18.3.1 |2024/05/04
-      |           |Vite 5.2.11  |2024/05/04
-      |           |Bun 1.1.7    |[2024/05/04](https://bun.sh/)
-      |           |Bevy 0.10.1  |2023/04/30
+      |端末       |環境／FW         |最終更新
+      |-----------|----------------|----------
+      |Mini-S12   |Rust 1.78       |2024/05/04
+      |           |Tauri 1.6.2     |2024/05/04
+      |           |React 18.3.1    |2024/05/04
+      |           |Vite 5.2.11     |2024/05/04
+      |           |Bun 1.1.7       |[2024/05/04](https://bun.sh/)
+      |           |Bevy 0.10.1     |2023/04/30
+      |           |wasmtime 20.0.1 |[2024/05/06](https://wasmtime.dev/)
 
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW              |最終更新
@@ -91,6 +92,24 @@
     ```
     cargo run
     ```
+  ### WASM
+  - [Wasmtime](https://wasmtime.dev/)
+    - Install
+      ```sh
+      curl https://wasmtime.dev/install.sh -sSf | bash
+      ```
+    - ターゲット追加
+      ```sh
+      rustup target add wasm32-wasi
+      ```
+    - コンパイル
+      ```sh
+      rustc hello.rs --target wasm32-wasi
+      ```
+    - 実行
+      ```sh
+      wasmtime hello.wasm
+      ```
   ### RustRover
   - 2024.1 EAP Build #RR-241.15989.101 <span style="color: red;">**Updated 2024/04/25**</span>
   - データベース
