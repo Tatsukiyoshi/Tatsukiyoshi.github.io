@@ -10,9 +10,9 @@
 ##  環境
   |端末       |環境／FW                                                   |最終更新      
   |-----------|----------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.1](#intellij-idea)                    |[2024/04/05](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 21.0.1                                     |2023/11/10
+  |IdeaPad    |[IntelliJ IDEA 2024.1.1](#intellij-idea)                  |[2024/05/08](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 1.9.24                                           |[2024/05/08](https://kotlinlang.org/docs/home.html)
+  |           |Amazon Coretto 22.0.1                                     |2024/05/04
   |Mini-S12   |[Android Studio Jellyfish 2023.3.1](#android-studio)      |[2024/05/01](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
   |           |Android Studio Koala 2024.1.1 Canary 5                    |[2024/04/13](https://developer.android.com/studio/preview)
@@ -20,6 +20,8 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - Intellij IDEA 2024.1.1
+    - Kotlin 1.9.24
   - Intellij IDEA 2023.3.6
     - Kotlin 1.9.23
       ```
