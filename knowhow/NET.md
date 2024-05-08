@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 5.0 |[2024/04/29](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.10.0 Preview 7.0 |[2024/05/08](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 3                             |[2024/04/29](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.4                                     |
   |Mini-S12   |Visual Studio Community 2022 17.9.6              |[2024/04/12](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
@@ -65,7 +65,7 @@
 
   ランタイム環境:
   OS Name:     Windows
-  OS Version:  10.0.26100
+  OS Version:  10.0.26120
   OS Platform: Windows
   RID:         win-x64
   Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.3.24204.13\
