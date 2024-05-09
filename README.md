@@ -20,6 +20,7 @@
       - ダウンロード中 <span><<2024/05/04>></span>
         ![Now Downloading](./images/Windows/20240504_WindowsUpdate_DevChannel.png)
     - [履歴](./history/Windows.md)
+  - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
     <details>
