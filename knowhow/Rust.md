@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.78](#rust-1)                           |[2024/05/04](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.1 EAP](#rustrover)             |[2024/04/25](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.1 EAP Build 2](#rustrover)     |[2024/05/09](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.17](#tauridesktop-framework) |[2024/05/04](https://beta.tauri.app/)
       |           |Bun 1.1.7                                      |[2024/05/04](https://bun.sh/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
@@ -111,7 +111,7 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - 2024.1 EAP Build #RR-241.15989.101 <span style="color: red;">**Updated 2024/04/25**</span>
+  - 2024.1 EAP Build 2(#RR-241.15989.180) <span style="color: red;">**Updated 2024/05/09**</span>
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
@@ -139,6 +139,7 @@
         content = new-element
         ```
   - 履歴
+    - 2024.1 EAP Build (#RR-241.15989.101) <span style="color: red;">**Updated 2024/04/25**</span>
     - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
     - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
     - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
