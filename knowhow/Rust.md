@@ -18,7 +18,7 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.78](#rust-1)                           |[2024/05/04](https://www.rust-lang.org/)  
       |           |[RustRover 2024.1 EAP Build 2](#rustrover)     |[2024/05/09](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.17](#tauridesktop-framework) |[2024/05/04](https://beta.tauri.app/)
+      |           |[Tauri 2.0.0-beta.19](#tauridesktop-framework) |[2024/05/10](https://beta.tauri.app/)
       |           |Bun 1.1.7                                      |[2024/05/04](https://bun.sh/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
@@ -347,6 +347,7 @@
       yarn create tauri-app --beta
       ```
     - V2.0 への移行
+      - Betaの間は、差分コンパイルではなく、全コンパイルが妥当（cargo clean->cargo build->bun tauri dev）
       - [Upgrade from Tauri 1.0](https://beta.tauri.app/guides/upgrade-migrate/from-tauri-1/)
       - 上記Guideにない事項
         - on_window_eventクロージャの引数が変更になっている <span style="color: red;">**Added 2024/03/20**</span>
