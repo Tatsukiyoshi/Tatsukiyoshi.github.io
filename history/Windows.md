@@ -1,6 +1,11 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
+      - Build 26120 (Enablement Package) <span style="color: red;">*<<2024/05/04 updated from 26100>>*</span> 
+        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20240504_Windows11_Build26120.png)
+        - ダウンロード中 <span><<2024/05/04>></span>
+          ![Now Downloading](../images/Windows/20240504_WindowsUpdate_DevChannel.png)
       - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
           ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)

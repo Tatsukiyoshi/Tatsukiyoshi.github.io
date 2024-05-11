@@ -14,11 +14,11 @@
 **独学環境の情報**
 - [Windows Insider](https://aka.ms/DevLatest)
   - Dev Channel for Next of Windows 11 24H2 (Build 26xxx)
-    - Build 26120 (Enablement Package) <span style="color: red;">*<<2024/05/04 updated from 26100>>*</span> 
+    - Build 26120.470 (Cumulative Update) <span style="color: red;">*<<2024/05/11 updated from 26120.461>>*</span> 
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Infomation](./images/Windows/20240504_Windows11_Build26120.png)
-      - ダウンロード中 <span><<2024/05/04>></span>
-        ![Now Downloading](./images/Windows/20240504_WindowsUpdate_DevChannel.png)
+        ![Version Information](./images/Windows/20240511_Windows11_Build26120.png)
+      - Cumulative Update <span><<2024/05/11>></span>
+        ![Cumulative Update](./images/Windows/20240511_WindowsUpdate_DevChannel.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
