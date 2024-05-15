@@ -8,13 +8,13 @@
 ##  コンテンツ
   |コンテンツ                                                                         |日付     |進捗状況
   |----------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/04/26|第21回 Flutterでのデータ連携・処理について解説！～非同期処理と画面の連携機能を作ろう～<span style="color: red;">*finished*</span>
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/05/15|第23回 Flutterでデータを端末に保存する方法は？～Key-Valueでの値の保存とファイルへの保存～<span style="color: red;">*finished*</span>
 
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
   |-----------|-------------------------------------------------------------------------|----------
   |Mini-S12   |Flutter 3.22.0                                                           |[2024/05/14](https://docs.flutter.dev/get-started/install)
-  |           |[Android Studio Jellyfish 2023.3.1](#android-studio)                     |[2024/05/01](https://developer.android.com/studio)
+  |           |[Android Studio Jellyfish 2023.3.1](./Kotlin.md#android-studio)          |[2024/05/01](https://developer.android.com/studio)
   |           |[Visual Studio Community 2022 17.9.6](./NET.md#visual-studio--プレビュー) |2024/04/12
 
 ##  ノウハウ
