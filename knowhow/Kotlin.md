@@ -15,7 +15,7 @@
   |           |Amazon Coretto 22.0.1                                     |2024/05/04
   |Mini-S12   |[Android Studio Jellyfish 2023.3.1](#android-studio)      |[2024/05/01](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
-  |           |Android Studio Koala 2024.1.1 Canary 5                    |[2024/04/13](https://developer.android.com/studio/preview)
+  |           |Android Studio Koala 2024.1.1 Beta 1                      |[2024/05/15](https://developer.android.com/studio/preview)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
 
 ##  ノウハウ
