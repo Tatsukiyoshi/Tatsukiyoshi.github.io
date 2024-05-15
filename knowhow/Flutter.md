@@ -14,7 +14,7 @@
   |端末       |環境／FW                                                                  |最終更新
   |-----------|-------------------------------------------------------------------------|----------
   |Mini-S12   |Flutter 3.22.0                                                           |[2024/05/14](https://docs.flutter.dev/get-started/install)
-  |           |[Android Studio Iguana 2023.2.1 Patch 2](./Kotlin.md#android-studio)     |[2024/04/10](https://developer.android.com/studio)
+  |           |[Android Studio Jellyfish 2023.3.1](#android-studio)                     |[2024/05/01](https://developer.android.com/studio)
   |           |[Visual Studio Community 2022 17.9.6](./NET.md#visual-studio--プレビュー) |2024/04/12
 
 ##  ノウハウ
