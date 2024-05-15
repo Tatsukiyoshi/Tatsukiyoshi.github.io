@@ -102,10 +102,10 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 Canary 5
+  - Android Studio Koala | 2024.1.1 Beta 1
     ```
-    Build #AI-241.14494.240.2411.11700778, built on April 11, 2024
-    Runtime version: 17.0.10+0--11679475 amd64
+    Build #AI-241.15989.150.2411.11801021, built on May 4, 2024
+    Runtime version: 17.0.10+0--11609105 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
     GC: G1 Young Generation, G1 Old Generation
