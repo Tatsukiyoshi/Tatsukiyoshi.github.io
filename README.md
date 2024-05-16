@@ -63,8 +63,8 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 124.0.6367.154 <span style="color: red;">*<<2024/05/10 updated from 124.0.6367.122>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240510_Chrome_OS_Flex_124.0.6367.154.png)
+  - バージョン 124.0.6367.219 <span style="color: red;">*<<2024/05/16 updated from 124.0.6367.154>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240516_Chrome_OS_Flex_124.0.6367.219.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
@@ -73,7 +73,7 @@
 - [Visual Studio Code 1.89.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/05/10 updated from 1.89>>*</span> <BR />
   開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめてあります。<BR />
   - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
-- [Git 2.45](https://git-scm.com/download) <span style="color: red;">*<<2024/05/01 updated from 2.44>>*</span>
+- [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
 - [GitHub Desktop 3.3.14](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/05/01 updated from 3.3.11>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - [PowerShell 7.4.2](https://github.com/PowerShell/PowerShell)
