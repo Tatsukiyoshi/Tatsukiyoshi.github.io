@@ -116,6 +116,10 @@
     Non-Bundled Plugins:
       com.intellij.ja (241.219)
     ```
+    - Beta 1 対応
+      - Android Gradle Plugin 8.5.0 alpha05 -> 8.5.0 beta01
+      - Gradle 8.6 -> 8.7 <BR />
+        ![Update Assistant](../images/Android/20240515_Android_Studio_Koala_Beta1_AGP_Upgrade.png)
     - Canary 5 対応
       - Android Gradle Plugin 8.5.0 alpha04 -> 8.5.0 alpha05
     - Gemini 1.0 Pro
