@@ -8,7 +8,7 @@
 ##  コンテンツ
   |コンテンツ                                                                         |日付     |進捗状況
   |----------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/05/19|第27回 FlutterのCanvasを使ってみよう！ 基本的な使い方から簡単なチャート作成まで解説<span style="color: red;">*finished*</span>
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/05/15|第23回 Flutterでデータを端末に保存する方法は？～Key-Valueでの値の保存とファイルへの保存～<span style="color: red;">*finished*</span>
 
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
