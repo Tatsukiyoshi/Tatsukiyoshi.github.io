@@ -8,15 +8,15 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末       |環境／FW                                                   |最終更新      
-  |-----------|----------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.1.1](#intellij-idea)                  |[2024/05/08](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 1.9.24                                           |[2024/05/08](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 22.0.1                                     |2024/05/04
-  |Mini-S12   |[Android Studio Jellyfish 2023.3.1](#android-studio)      |[2024/05/01](https://developer.android.com/studio)
-  |           |- Kotlin 1.9.23                                           |[2024/03/30](https://kotlinlang.org/docs/home.html)
-  |           |Android Studio Koala 2024.1.1 Beta 1                      |[2024/05/15](https://developer.android.com/studio/preview)
-  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                  |2024/01/27
+  |端末       |環境／FW                                                       |最終更新      
+  |-----------|--------------------------------------------------------------|----------
+  |IdeaPad    |[IntelliJ IDEA 2024.1.1](#intellij-idea)                      |[2024/05/08](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 1.9.24                                               |[2024/05/08](https://kotlinlang.org/docs/home.html)
+  |           |Amazon Coretto 22.0.1                                         |2024/05/04
+  |Mini-S12   |[Android Studio Jellyfish 2023.3.1 Patch 1](#android-studio)  |[2024/05/21](https://developer.android.com/studio)
+  |           |- Kotlin 1.9.23                                               |[2024/03/30](https://kotlinlang.org/docs/home.html)
+  |           |Android Studio Koala 2024.1.1 Beta 1                          |[2024/05/15](https://developer.android.com/studio/preview)
+  |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                      |2024/01/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
