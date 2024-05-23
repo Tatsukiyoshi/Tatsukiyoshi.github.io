@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.78](#rust-1)                           |[2024/05/04](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.1 EAP Build 2](#rustrover)     |[2024/05/09](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.1](#rustrover)                 |[2024/05/23](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.19](#tauridesktop-framework) |[2024/05/10](https://beta.tauri.app/)
       |           |Bun 1.1.7                                      |[2024/05/04](https://bun.sh/)
       |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
@@ -112,7 +112,27 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - 2024.1 EAP Build 2(#RR-241.15989.180) <span style="color: red;">**Updated 2024/05/09**</span>
+  - 2024.1 Build #RR-241.15989.199 <span style="color: red;">**Updated 2024/05/23**</span>
+    ```
+    RustRover 2024.1
+    Build #RR-241.15989.199, built on May 18, 2024
+    Runtime version: 17.0.10+1-b1207.14 amd64
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Windows 11.0
+    GC: G1 Young Generation, G1 Old Generation
+    Memory: 2048M
+    Cores: 4
+    Registry:
+      ide.experimental.ui=true
+      transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=false
+      org.toml.json.schema=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
+    Non-Bundled Plugins:
+      com.intellij.ja (241.230)
+      com.jetbrains.space (241.15989.9)
+      ru.adelf.idea.dotenv (2024.1)
+    ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
@@ -140,6 +160,7 @@
         content = new-element
         ```
   - 履歴
+    - 2024.1 EAP Build 2(#RR-241.15989.180) <span style="color: red;">**Updated 2024/05/09**</span>
     - 2024.1 EAP Build (#RR-241.15989.101) <span style="color: red;">**Updated 2024/04/25**</span>
     - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
     - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
