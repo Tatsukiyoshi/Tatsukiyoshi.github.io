@@ -25,11 +25,11 @@
   1.  Windows
       |端末       |FW                  |最終更新      
       |-----------|--------------------|----------
-      |IdeaPad    |Node.js 20.0        |[2023/04/25](https://nodejs.org/en)
+      |IdeaPad    |Node.js 18.20.3     |[2024/05/24](https://nodejs.org/en)
       |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
       |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
-      |           |Angular 17.3.4      |[2024/04/14](https://angular.io/)
+      |           |Angular 18.0        |[2024/05/24](https://angular.dev/)
       |           |Vue 3.4.15          |[2024/01/20](https://jp.vuejs.org/)
       |           |Deno 1.39.4         |[2024/01/21](https://deno.land/)
       |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
@@ -72,7 +72,7 @@
         - ユーザディレクトリのAppData\Roaming\npm
         - ユーザディレクトリのAppData\Roaming\npm-cache
     - バージョンアップ
-      - [【Node.js入門】バージョンアップ手順と管理ツールまとめ！](https://www.sejuku.net/blog/82819)
+      - [Windowsでnode.jsやnpmのバージョンをアップデート・変更する方法｜バージョンが切り替わらないときの対処法（nodistの使い方）](https://prograshi.com/framework/nodejs/upgrade-or-change-node-version-in-windows/)
     - トラブルシューティング
       - node.js 17以降で実行時エラーとなる（OpenSSL関連）
         - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える
@@ -305,7 +305,7 @@
           "tauri": "tauri"
         },
         ```
-    - [Angular](https://angular.io/)
+    - [Angular](https://angular.dev/)
       - [Angular日本語ドキュメンテーション―ローカル環境とワークスペースのセットアップ](https://angular.jp/guide/setup-local)
       - ノウハウ
         1.  コマンド
@@ -338,6 +338,25 @@
               ↓
               ```
               .angular/cache
+              ```
+        1.  Angular 18対応
+            - [Update Guide](https://angular.dev/update-guide)
+              - プロジェクトのルートで下記を実行する <BR />
+                配下のファイルをリポジトリからチェックアウトした状態で実行すること
+                ```
+                ng update @angular/core@18 @angular/cli@18
+                ```
+            - AbstractControlをFormControlにキャストする
+              ```
+              [formControl]="$any(myForm).controls['mail']"
+              ```
+            - angular-in-memory-web-apiの更新
+              ```json
+              "dependencies": {
+                ...
+                "angular-in-memory-web-api": "^0.18.0",
+                ...
+              },
               ```
         1.  Angular 17対応
             - ライブラリのバージョン変更
