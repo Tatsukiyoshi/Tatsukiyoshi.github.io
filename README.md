@@ -63,8 +63,8 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 124.0.6367.219 <span style="color: red;">*<<2024/05/16 updated from 124.0.6367.154>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240516_Chrome_OS_Flex_124.0.6367.219.png)
+  - バージョン 124.0.6367.225 <span style="color: red;">*<<2024/05/26 updated from 124.0.6367.219>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240526_Chrome_OS_Flex_124.0.6367.225.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
