@@ -11,7 +11,7 @@
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 1.0 |[2024/05/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
-  |           |- .NET 9.0 Preview 3                             |[2024/04/29](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
+  |           |- .NET 9.0 Preview 4                             |[2024/05/27](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.5                                     |
   |Mini-S12   |Visual Studio Community 2022 17.10.0             |[2024/05/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.5                                     |[2024/05/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
@@ -58,49 +58,49 @@
 
   ```
   .NET SDK:
-  Version:           9.0.100-preview.3.24204.13
-  Commit:            81f61d8290
-  Workload version:  9.0.100-manifests.77bb7ba9
-  MSBuild version:   17.11.0-preview-24178-16+7ca3c98fa
+  Version:           9.0.100-preview.4.24267.66
+  Commit:            26d3d259e4
+  Workload version:  9.0.100-manifests.9dc03b27
+  MSBuild version:   17.11.0-preview-24225-01+bd0b1e466
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.26120
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.3.24204.13\
+  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.4.24267.66\
 
   インストール済みの .NET ワークロード:
   表示するインストール済みワークロードはありません。
 
   Host:
-    Version:      9.0.0-preview.3.24172.9
+    Version:      9.0.0-preview.4.24266.19
     Architecture: x64
-    Commit:       9e6ba1f68c
+    Commit:       d0d6fed6c0
 
   .NET SDKs installed:
     7.0.405 [C:\Program Files\dotnet\sdk]
     8.0.101 [C:\Program Files\dotnet\sdk]
     8.0.204 [C:\Program Files\dotnet\sdk]
     8.0.300 [C:\Program Files\dotnet\sdk]
-    9.0.100-preview.3.24204.13 [C:\Program Files\dotnet\sdk]
+    9.0.100-preview.4.24267.66 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.0-preview.3.24172.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 9.0.0-preview.4.24267.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.0-preview.3.24172.9 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 9.0.0-preview.4.24266.19 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 7.0.15 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.0-preview.3.24175.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 9.0.0-preview.4.24267.11 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
