@@ -18,31 +18,22 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.78](#rust-1)                           |[2024/05/04](https://www.rust-lang.org/)  
       |           |[RustRover 2024.1](#rustrover)                 |[2024/05/23](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.19](#tauridesktop-framework) |[2024/05/10](https://beta.tauri.app/)
-      |           |Bun 1.1.7                                      |[2024/05/04](https://bun.sh/)
+      |           |[Tauri 2.0.0-beta.20](#tauridesktop-framework) |[2024/05/28](https://beta.tauri.app/)
+      |           |Bun 1.1.10                                     |[2024/05/28](https://bun.sh/)
       |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
 
-  1. Ubuntu 22.04.4 on Windows 11
-      |端末       |環境／FW         |最終更新
-      |-----------|----------------|----------
-      |Mini-S12   |Rust 1.78       |2024/05/04
-      |           |Tauri 1.6.2     |2024/05/04
-      |           |React 18.3.1    |2024/05/04
-      |           |Vite 5.2.11     |2024/05/04
-      |           |Bun 1.1.7       |[2024/05/04](https://bun.sh/)
-      |           |Bevy 0.10.1     |2023/04/30
-      |           |wasmtime 20.0.1 |[2024/05/06](https://wasmtime.dev/)
-
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |IdeaPad    |Rust 1.78            |2024/05/04
-      |           |Tauri 2.0.0-beta.17  |2024/05/04
+      |Mini-S12   |Rust 1.78            |2024/05/04
+      |           |Tauri 2.0.0-beta.20  |2024/05/28
       |           |React 18.3.1         |2024/05/04
       |           |Vite 5.2.11          |2024/05/04
-      |           |Bun 1.1.7            |2024/05/04
+      |           |Bun 1.1.10           |2024/05/28
+      |           |Bevy 0.10.1          |2023/04/30
+      |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
   1. Chrome OS Flex 124.0.6367.154(Official Build)
       |端末       |環境／FW                                      |最終更新

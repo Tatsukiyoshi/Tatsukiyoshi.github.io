@@ -22,9 +22,11 @@
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+  - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <BR />
+    - <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+    - <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
     <details>
-    <summary>ディストリビューション・バージョン情報 on IdeaPad</summary>
+    <summary>ディストリビューション・バージョン情報</summary>
 
     ```
     PRETTY_NAME="Ubuntu 24.04 LTS"
@@ -40,25 +42,6 @@
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
     UBUNTU_CODENAME=noble
     LOGO=ubuntu-logo
-    ```
-    </details>
-  - [Ubuntu 22.04.4](https://www.releases.ubuntu.com/jammy/) <span style="color: red;">*<<2024/02/29 updated from 22.04.3>>*</span>
-    <details>
-    <summary>ディストリビューション・バージョン情報 on Mini-S12</summary>
-
-    ```
-    PRETTY_NAME="Ubuntu 22.04.4 LTS"
-    NAME="Ubuntu"
-    VERSION_ID="22.04"
-    VERSION="22.04.4 LTS (Jammy Jellyfish)"
-    VERSION_CODENAME=jammy
-    ID=ubuntu
-    ID_LIKE=debian
-    HOME_URL="https://www.ubuntu.com/"
-    SUPPORT_URL="https://help.ubuntu.com/"
-    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=jammy
     ```
     </details>
   - [履歴](./history/Wsl.md)
