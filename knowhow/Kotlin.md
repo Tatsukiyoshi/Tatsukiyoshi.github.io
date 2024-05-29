@@ -11,7 +11,7 @@
   |端末       |環境／FW                                                       |最終更新      
   |-----------|--------------------------------------------------------------|----------
   |IdeaPad    |[IntelliJ IDEA 2024.1.2](#intellij-idea)                      |[2024/05/27](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 1.9.24                                               |[2024/05/08](https://kotlinlang.org/docs/home.html)
+  |           |- Kotlin 2.0.0                                                |[2024/05/28](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                         |2024/05/04
   |Mini-S12   |[Android Studio Jellyfish 2023.3.1 Patch 1](#android-studio)  |[2024/05/21](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                               |[2024/03/30](https://kotlinlang.org/docs/home.html)
@@ -20,6 +20,9 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - Kotlin 2.0.0
+    - Compose Multiplatform
+      ![Compose for Desktop](../images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
   - Intellij IDEA 2024.1.1
     - Kotlin 1.9.24
   - Intellij IDEA 2023.3.6
