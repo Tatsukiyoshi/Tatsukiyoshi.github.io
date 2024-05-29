@@ -15,7 +15,7 @@
   |           |Amazon Coretto 22.0.1                                         |2024/05/04
   |Mini-S12   |[Android Studio Jellyfish 2023.3.1 Patch 1](#android-studio)  |[2024/05/21](https://developer.android.com/studio)
   |           |- Kotlin 1.9.23                                               |[2024/03/30](https://kotlinlang.org/docs/home.html)
-  |           |Android Studio Koala 2024.1.1 Beta 1                          |[2024/05/15](https://developer.android.com/studio/preview)
+  |           |Android Studio Koala 2024.1.1 Beta 2                          |[2024/05/28](https://developer.android.com/studio/preview)
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                      |2024/01/27
 
 ##  ノウハウ
@@ -119,6 +119,11 @@
     Non-Bundled Plugins:
       com.intellij.ja (241.219)
     ```
+    - Beta 2 対応
+      - Android Gradle Plugin 8.5.0 beta01 -> 8.5.0 beta02
+    - Gemini 1.5
+      - 実行時に制限抵触に関する警告メッセージが出て、結果を取得できない
+        ![Gemini Warning](../images/Android/20240528_Gemini1.5_Warning.png)
     - Beta 1 対応
       - Android Gradle Plugin 8.5.0 alpha05 -> 8.5.0 beta01
       - Gradle 8.6 -> 8.7 <BR />
