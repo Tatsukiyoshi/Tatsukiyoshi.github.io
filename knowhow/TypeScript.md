@@ -40,12 +40,12 @@
       |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2|2024/01/07
 
-  1. Ubuntu 22.04.4 on Windows 11
+  1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW             |最終更新
       |-----------|--------------------|----------
-      |IdeaPad    |Astro 4.5.14        |[2024/04/03](https://astro.build/)
-      |           |Bun 1.1.0           |[2024/04/03](https://bun.sh/)
-      |           |React 18.2.0        |2024/01/03
+      |IdeaPad    |Astro 4.9.2         |[2024/05/30](https://astro.build/)
+      |           |Bun 1.1.10          |[2024/05/30](https://bun.sh/)
+      |           |React 18.3.1        |2024/05/30
       |Mini-S12   |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
