@@ -10,9 +10,9 @@
 ##  コンテンツ
 
   |コンテンツ                                                                                       |日付      |進捗状況
-  |------------------------------------------------------------------------------------------------|----------|-------
-  |[Vercel＋Next.jsを活用したWebアプリケーション開発入門](https://codezine.jp/article/corner/925)      |2022/11/03|第4回 ブログを作りながら学ぶ、Next.jsの便利な4つの機能（グローバル設定、プリレンダリング、動的ルート、サーバーレス）
-  |[TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/corner/878)|2024/01/20|第7回 Vue.jsでページを切り替える「Vue Router」の利用法を解説！ TypeScriptの型定義とともに活用しよう <span style="color: red;">*finished*</span>
+  |-----------------------------------------------------------------------------------------------|----------|-------
+  |[Vercel＋Next.jsを活用したWebアプリケーション開発入門](https://codezine.jp/article/corner/925)       |2022/11/03|第4回 ブログを作りながら学ぶ、Next.jsの便利な4つの機能（グローバル設定、プリレンダリング、動的ルート、サーバーレス）
+  |[TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/corner/878)|2024/05/22|第8回 TypeScriptとも相性抜群なライブラリ──Vue.jsで状態管理を行う新定番「Pinia」を解説！ <span style="color: red;">*finished*</span>
 
 ##  環境
 
