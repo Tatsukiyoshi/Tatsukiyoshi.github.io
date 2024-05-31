@@ -46,8 +46,19 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 124.0.6367.225 <span style="color: red;">*<<2024/05/26 updated from 124.0.6367.219>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240526_Chrome_OS_Flex_124.0.6367.225.png)
+  - バージョン 125.0.6422.140 <span style="color: red;">*<<2024/05/31 updated from 124.0.6367.225>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240531_Chrome_OS_Flex_125.0.6422.140.png)
+    - 新機能紹介
+      - ゲームダッシュボード
+        ![新機能１](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction1.png)
+      - ToDoリスト
+        ![新機能２](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction2.png)
+      - GIF形式でのスクリーンキャプチャ
+        ![新機能３](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction3.png)
+      - マウスボタンのカスタマイズ（124系から）
+        ![新機能４](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction4.png)
+      - キーボードショートカット（124系から）
+        ![新機能５](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction5.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
