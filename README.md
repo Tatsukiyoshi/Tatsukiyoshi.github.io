@@ -53,11 +53,11 @@
         ![新機能１](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction1.png)
       - ToDoリスト
         ![新機能２](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction2.png)
-      - 画面録画のGIF作成
+      - GIF形式でのスクリーンキャプチャ
         ![新機能３](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction3.png)
-      - マウスボタンのカスタマイズ
+      - マウスボタンのカスタマイズ（124系から）
         ![新機能４](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction4.png)
-      - キーボードショートカット
+      - キーボードショートカット（124系から）
         ![新機能５](./images/Chrome/20240531_Chrome_OS_Flex_125_NewFunction5.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
