@@ -12,8 +12,8 @@
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 ##  OS
 **独学環境の情報**
-- [Windows Insider](https://aka.ms/DevLatest)
-  - Dev Channel for Next of Windows 11 24H2 (Build 26xxx)
+- [Windows Insider](https://blogs.windows.com/windows-insider/)
+  - [Dev Channel for Next of Windows 11 24H2 (Build 26xxx)](https://aka.ms/DevLatest)
     - Build 26120.670 (Cumulative Update) <span style="color: red;">*<<2024/05/18 updated from 26120.470>>*</span> 
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
         ![Version Information](./images/Windows/20240518_Windows11_Build26120.png)
