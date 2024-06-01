@@ -26,7 +26,6 @@
       |端末       |FW                  |最終更新      
       |-----------|--------------------|----------
       |IdeaPad    |Node.js 18.20.3     |[2024/05/24](https://nodejs.org/en)
-      |           |React 18.2.0        |[2022/07/02](https://ja.react.dev/)
       |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
       |           |Angular 18.0        |[2024/05/24](https://angular.dev/)
@@ -45,7 +44,7 @@
       |-----------|--------------------|----------
       |IdeaPad    |Astro 4.9.2         |[2024/05/30](https://astro.build/)
       |           |Bun 1.1.10          |[2024/05/30](https://bun.sh/)
-      |           |React 18.3.1        |2024/05/30
+      |           |React 18.3.1        |[2024/05/30](https://ja.react.dev/)
       |Mini-S12   |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
@@ -291,6 +290,12 @@
       - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
     - React
       - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
+        - React 18.3.1
+          - browserslistの更新
+            ```
+            bun add update-browserslist-db@latest
+            ```
+          - web-vitals は更新せず
       - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
     - [Svelte](https://svelte.dev/)
       - [SvelteとReactの基本を比較](https://www.twilio.com/blog/react-svelte-comparing-basics-jp)
