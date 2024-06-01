@@ -13,7 +13,7 @@
   |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 1.0 |[2024/05/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 4                             |[2024/05/27](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.5                                     |
-  |Mini-S12   |Visual Studio Community 2022 17.10.0             |[2024/05/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |Mini-S12   |Visual Studio Community 2022 17.10.1             |[2024/06/01](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.5                                     |[2024/05/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
@@ -138,25 +138,25 @@
 
   インストール済みの .NET ワークロード:
   [maui-windows]
-    インストール ソース: VS 17.10.34916.146
+    インストール ソース: VS 17.10.34928.147
     マニフェストのバージョン:    8.0.21/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.21\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [android]
-    インストール ソース: VS 17.10.34916.146
+    インストール ソース: VS 17.10.34928.147
     マニフェストのバージョン:    34.0.95/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.95\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maccatalyst]
-    インストール ソース: VS 17.10.34916.146
+    インストール ソース: VS 17.10.34928.147
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [ios]
-    インストール ソース: VS 17.10.34916.146
+    インストール ソース: VS 17.10.34928.147
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
@@ -168,15 +168,18 @@
     Commit:       087e15321b
 
   .NET SDKs installed:
-    6.0.422 [C:\Program Files\dotnet\sdk]
+    6.0.423 [C:\Program Files\dotnet\sdk]
     8.0.300 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
