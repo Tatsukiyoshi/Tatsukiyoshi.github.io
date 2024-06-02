@@ -13,9 +13,10 @@
   |IdeaPad    |[IntelliJ IDEA 2024.1.2](#intellij-idea)                      |[2024/05/27](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.0                                                |[2024/05/28](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                         |2024/05/04
-  |Mini-S12   |[Android Studio Jellyfish 2023.3.1 Patch 1](#android-studio)  |[2024/05/21](https://developer.android.com/studio)
-  |           |- Kotlin 1.9.23                                               |[2024/03/30](https://kotlinlang.org/docs/home.html)
-  |           |Android Studio Koala 2024.1.1 Beta 2                          |[2024/05/28](https://developer.android.com/studio/preview)
+  |Mini-S12   |[Android Studio Koala 2024.1.1 RC 1](#android-studio)         |[2024/06/02](https://developer.android.com/studio/preview)
+  |           |- Kotlin 2.0.0                                                |[2024/06/02](https://kotlinlang.org/docs/home.html)
+  |           |Android Studio Jellyfish 2023.3.1 Patch 1                     |[2024/05/21](https://developer.android.com/studio)
+  |           |- Kotlin 1.9.23                                               |2024/03/30
   |ExpertBook |Android Studio Hedgehog 2023.1.1 Patch 2                      |2024/01/27
 
 ##  ノウハウ
@@ -105,9 +106,9 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 Beta 1
+  - Android Studio Koala | 2024.1.1 RC 1
     ```
-    Build #AI-241.15989.150.2411.11801021, built on May 4, 2024
+    Build #AI-241.15989.150.2411.11887322, built on May 25, 2024
     Runtime version: 17.0.10+0--11609105 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -115,10 +116,17 @@
     Memory: 2048M
     Cores: 4
     Registry:
+      debugger.new.tool.window.layout=true
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.ja (241.219)
+      com.intellij.ja (241.271)
+      Dart (241.17502)
+      io.flutter (79.2.3)
     ```
+    - RC 1 対応
+      - Kotlin 2.0.0
+        - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler) に従って、Gradle設定ファイルを改修
+      - Android Gradle Plugin 8.5.0 beta02 -> 8.5.0 rc01
     - Beta 2 対応
       - Android Gradle Plugin 8.5.0 beta01 -> 8.5.0 beta02
     - Gemini 1.5
