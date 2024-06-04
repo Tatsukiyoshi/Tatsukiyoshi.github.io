@@ -66,7 +66,7 @@
   開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめてあります。<BR />
   - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
 - [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
-- [GitHub Desktop 3.3.14](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/05/01 updated from 3.3.11>>*</span>
+- [GitHub Desktop 3.4.0](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/05/30 updated from 3.3.14>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - [PowerShell 7.4.2](https://github.com/PowerShell/PowerShell)
 - [Docker](./knowhow/Docker.md)
