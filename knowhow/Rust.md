@@ -359,6 +359,8 @@
       ```
       yarn create tauri-app --beta
       ```
+    - Breaking Change @ Beta.21
+      - [This release contains breaking changes to the tray event structure because of newly added events](https://github.com/tauri-apps/tauri/pull/9777)
     - V2.0 への移行
       - Betaの間は、差分コンパイルではなく、全コンパイルが妥当（cargo clean->cargo build->bun tauri dev）
       - [Upgrade from Tauri 1.0](https://beta.tauri.app/guides/upgrade-migrate/from-tauri-1/)
