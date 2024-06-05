@@ -18,8 +18,8 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.78](#rust-1)                           |[2024/05/04](https://www.rust-lang.org/)  
       |           |[RustRover 2024.1](#rustrover)                 |[2024/05/23](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.20](#tauridesktop-framework) |[2024/05/28](https://beta.tauri.app/)
-      |           |Bun 1.1.10                                     |[2024/05/28](https://bun.sh/)
+      |           |[Tauri 2.0.0-beta.22](#tauridesktop-framework) |[2024/06/05](https://beta.tauri.app/)
+      |           |Bun 1.1.12                                     |[2024/06/05](https://bun.sh/)
       |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
@@ -28,10 +28,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.78            |2024/05/04
-      |           |Tauri 2.0.0-beta.20  |2024/05/28
+      |           |Tauri 2.0.0-beta.22  |2024/06/05
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.2.11          |2024/05/04
-      |           |Bun 1.1.10           |2024/05/28
+      |           |Vite 5.2.12          |2024/06/05
+      |           |Bun 1.1.12           |2024/06/05
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
