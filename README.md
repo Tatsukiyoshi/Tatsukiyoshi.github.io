@@ -62,7 +62,7 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.89.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/05/10 updated from 1.89>>*</span> <BR />
+- [Visual Studio Code 1.90](https://code.visualstudio.com/) <span style="color: red;">*<<2024/06/06 updated from 1.89.1>>*</span> <BR />
   開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめてあります。<BR />
   - 1.82で発生していたデバッグコンソールがクリアできなくなった問題は、1.82.2で解消
 - [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
