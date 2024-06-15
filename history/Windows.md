@@ -1,6 +1,9 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26xxx)
+      - Build 26120.770 (Cumulative Update) <span style="color: red;">*<<2024/06/09 updated from 26120.751>>*</span> 
+        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20240609_Windows11_Build26120.png)
       - Build 26120.751 (Cumulative Update) <span style="color: red;">*<<2024/06/01 updated from 26120.670>>*</span> 
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240601_Windows11_Build26120.png)
@@ -21,9 +24,9 @@
           ![Now Downloading](../images/Windows/20240504_WindowsUpdate_DevChannel.png)
       - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-          ![デスクトップ](./images/Windows/20240404_Windows11_Build26100.png)
+          ![デスクトップ](../images/Windows/20240404_Windows11_Build26100.png)
         - Canary Channelアップデートにより、Dev Channelと再分離 / 24H2はFix / 次のアップデート配信待ち <span><<2024/04/27>></span>
-          ![Update to 24H2](./images/Windows/20240427_WindowsUpdate_DevChannel.png)
+          ![Update to 24H2](../images/Windows/20240427_WindowsUpdate_DevChannel.png)
       - Build 26090 <span style="color: red;">*<<2024/03/29 updated from 26085>>*</span>
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
         ![デスクトップ](../images/Windows/20240329_Windows11_Build26090.png)
