@@ -62,8 +62,8 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.90](https://code.visualstudio.com/) <span style="color: red;">*<<2024/06/06 updated from 1.89.1>>*</span>
-  - 新機能
+- [Visual Studio Code 1.90.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/06/21 updated from 1.90.1>>*</span>
+  - 新機能(1.90)
     - Ctrl + Clickで複数のタブを選択し、移動することが可能に
       [![Multi Tabs Select](./captures/20240606_vscode1.90.png)](./captures/20240606_vscode1.90.mp4)
   - 開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめてあります。<BR />
