@@ -13,13 +13,16 @@
   |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 2.1 |[2024/06/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 5                             |[2024/06/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.6                                     |[2024/06/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |Mini-S12   |Visual Studio Community 2022 17.10.1             |[2024/06/01](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
-  |           |- .NET 8.0.5                                     |2024/05/22
+  |Mini-S12   |Visual Studio Community 2022 17.10.3             |[2024/06/26](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |           |- .NET 8.0.6                                     |2024/06/26
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
-  ![VS2022 17.11 Preview 2.1](../images/VisualStudio/20240622_Update_VS2022_17.11_Preview2.1.png)
+  - Visual Studio 2022 17.11 Preview
+    ![VS2022 17.11 Preview 2.1](../images/VisualStudio/20240622_Update_VS2022_17.11_Preview2.1.png)
+  - Visual Studio 2022 17.10
+    ![VS2022 17.10.3](../images/VisualStudio/20240626_Update_VS2022_17.10.3.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -118,9 +121,9 @@
 
   ```
   .NET SDK:
-  Version:           8.0.300
-  Commit:            326f6e68b2
-  Workload version:  8.0.300-manifests.4e5ea2d8
+  Version:           8.0.302
+  Commit:            ef14e02af8
+  Workload version:  8.0.300-manifests.5273bb1c
   MSBuild version:   17.10.4+10fbfbf2e
 
   ランタイム環境:
@@ -128,53 +131,50 @@
   OS Version:  10.0.22631
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\8.0.300\
+  Base Path:   C:\Program Files\dotnet\sdk\8.0.302\
 
   インストール済みの .NET ワークロード:
-  [maui-windows]
-    インストール ソース: VS 17.10.34928.147
-    マニフェストのバージョン:    8.0.21/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.21\WorkloadManifest.json
-    インストールの種類:        FileBased
-
   [android]
-    インストール ソース: VS 17.10.34928.147
+    インストール ソース: VS 17.10.35013.160
     マニフェストのバージョン:    34.0.95/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.95\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maccatalyst]
-    インストール ソース: VS 17.10.34928.147
+    インストール ソース: VS 17.10.35013.160
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
+  [maui-windows]
+    インストール ソース: VS 17.10.35013.160
+    マニフェストのバージョン:    8.0.40/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.40\WorkloadManifest.json
+    インストールの種類:        FileBased
+
   [ios]
-    インストール ソース: VS 17.10.34928.147
+    インストール ソース: VS 17.10.35013.160
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
 
   Host:
-    Version:      8.0.5
+    Version:      8.0.6
     Architecture: x64
-    Commit:       087e15321b
+    Commit:       3b8b000a0e
 
   .NET SDKs installed:
     6.0.423 [C:\Program Files\dotnet\sdk]
-    8.0.300 [C:\Program Files\dotnet\sdk]
+    8.0.302 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
-    Microsoft.AspNetCore.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.AspNetCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 6.0.30 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.NETCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
@@ -206,12 +206,16 @@
 
 ### MAUI
   - Visual Studio
-    - エミュレータを動作させるには、Hyper-Vの有効化が必要 <BR />
-      ![Hyper-V](../images/VisualStudio/20240412_Android_HyperV.png)
-      ![HyperVisorPlatform](../images/VisualStudio/20240412_Android_HyperVisor_Platform.png)
-    - デバイスマネージャーでAndroid Studioで作成したイメージは使えず、新たにイメージを作成
-      ![AndroidDeviceManager](../images/VisualStudio/20240412_Android_Device_Manager.png)
-    - サンプルコードのままでは、Androidターゲットはビルドできない (*2024/04/12*)
+    - 17.10.3 / MAUI 8.0.40(SP5)
+      - 8.0.40同梱で、Androidエミュレータでの実行確認
+        ![MAUI - Pixel 8](../images/VisualStudio/20240626_VS2022_17.10.3_MAUI_Android.png)
+    - 17.9.6
+      - エミュレータを動作させるには、Hyper-Vの有効化が必要 <BR />
+        ![Hyper-V](../images/VisualStudio/20240412_Android_HyperV.png)
+        ![HyperVisorPlatform](../images/VisualStudio/20240412_Android_HyperVisor_Platform.png)
+      - デバイスマネージャーでAndroid Studioで作成したイメージは使えず、新たにイメージを作成
+        ![AndroidDeviceManager](../images/VisualStudio/20240412_Android_Device_Manager.png)
+      - サンプルコードのままでは、Androidターゲットはビルドできない (*2024/04/12*)
   - Visual Studio Code
     - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
     - MAUIワークロードのインストール
