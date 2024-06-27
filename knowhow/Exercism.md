@@ -17,6 +17,17 @@
 ##  Study
 
 - Rust
+  - armstrong-numbers <span style="color: red;">*finished*</span>
+  - beer-song <span style="color: red;">*finished*</span>
+  - difference-of-squares <span style="color: red;">*finished*</span>
+  - gigasecond  <span style="color: red;">*finished*</span>
+  - grains
+  - hello-world <span style="color: red;">*finished*</span>
+  - leap  <span style="color: red;">*finished*</span>
+  - nth-prime
+  - prime-factors
+  - proverb
+  - reverse-string  <span style="color: red;">*finished*</span>
 
 - kotlin
   - [two-fer](https://exercism.io/my/solutions/aa2de6b105d34450b4750cae4938773a) **@2019/11/17**
