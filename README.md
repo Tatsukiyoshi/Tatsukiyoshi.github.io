@@ -44,12 +44,10 @@
     </details>
   - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 125.0.6422.197  <span style="color: red;">*<<2024/06/26 updated from 125.0.6422.140>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240626_Chrome_OS_Flex_125.0.6422.197.png)
+  - バージョン 126.0.6478.132  <span style="color: red;">*<<2024/06/28 updated from 125.0.6422.197>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
     - 更新中
-      ![](./images/Chrome/20240626_Chrome_OS_Flex_125.0.6422.140_toUpdate197.png)
-    - Gemini等が追加
-      ![シェルフ](./images/Chrome/20240626_Gemini_NotebookLM_Chrome_OS_Flex_125.0.6422.197.png)
+      ![Now Update](./images/Chrome/20240628_Chrome_OS_Flex_Update126.0.6478.132.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
