@@ -1,4 +1,10 @@
 # Chrome OS Flex
+- バージョン 125.0.6422.197  <span style="color: red;">*<<2024/06/26 updated from 125.0.6422.140>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240626_Chrome_OS_Flex_125.0.6422.197.png)
+  - 更新中
+    ![Now Update](../images/Chrome/20240626_Chrome_OS_Flex_125.0.6422.140_toUpdate197.png)
+  - Gemini等が追加
+    ![シェルフ](../images/Chrome/20240626_Gemini_NotebookLM_Chrome_OS_Flex_125.0.6422.197.png)
 - バージョン 125.0.6422.140 <span style="color: red;">*<<2024/05/31 updated from 124.0.6367.225>>*</span>
 ![Chrome OS Flexバージョン情報](../images/Chrome/20240531_Chrome_OS_Flex_125.0.6422.140.png)
   - 新機能紹介
