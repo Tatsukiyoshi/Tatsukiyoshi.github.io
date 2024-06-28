@@ -106,9 +106,9 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 RC 1
+  - Android Studio Koala | 2024.1.1
     ```
-    Build #AI-241.15989.150.2411.11887322, built on May 25, 2024
+    Build #AI-241.15989.150.2411.11948838, built on June 11, 2024
     Runtime version: 17.0.10+0--11609105 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -121,50 +121,12 @@
     Non-Bundled Plugins:
       com.intellij.ja (241.271)
       Dart (241.17502)
-      io.flutter (79.2.3)
-    ```
-    - RC 1 対応
-      - Kotlin 2.0.0
-        - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler) に従って、Gradle設定ファイルを改修
-      - Android Gradle Plugin 8.5.0 beta02 -> 8.5.0 rc01
-    - Beta 2 対応
-      - Android Gradle Plugin 8.5.0 beta01 -> 8.5.0 beta02
-    - Gemini 1.5
-      - 実行時に制限抵触に関する警告メッセージが出て、結果を取得できない
-        ![Gemini Warning](../images/Android/20240528_Gemini1.5_Warning.png)
-    - Beta 1 対応
-      - Android Gradle Plugin 8.5.0 alpha05 -> 8.5.0 beta01
-      - Gradle 8.6 -> 8.7 <BR />
-        ![Update Assistant](../images/Android/20240515_Android_Studio_Koala_Beta1_AGP_Upgrade.png)
-    - Canary 5 対応
-      - Android Gradle Plugin 8.5.0 alpha04 -> 8.5.0 alpha05
-    - Gemini 1.0 Pro
-      ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
-      ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
-      ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
-  - Android Studio Jellyfish | 2023.3.1
-    ![Android Studio Jellyfish](../images/Android/20240501_Android_Studio_Jellyfish.png)
-    ```
-    Build #AI-233.14808.21.2331.11709847, built on April 13, 2024
-    Runtime version: 17.0.10+0--11572160 amd64
-    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
-    Windows 11.0
-    GC: G1 Young Generation, G1 Old Generation
-    Memory: 2048M
-    Cores: 4
-    Registry:
-      debugger.new.tool.window.layout=true
-      ide.experimental.ui=true
-    Non-Bundled Plugins:
-      com.intellij.ja (233.287)
-      Dart (233.15123)
-      io.flutter (79.0.2)
+      io.flutter (80.0.2)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
-    - Android Studioの日本語化 <BR>
-      [JetBrains公式サイト](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)からダウンロードする。
-
+    - Android Studioの日本語化
+      - [JetBrains公式サイト](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)からダウンロードする。
     - Gradle設定
       - Gradleに関する設定は、環境変数GRADLE_USER_HOMEで設定したディレクトリを参照するため、変更したい場合、格納先のディレクトリを設定する
     - Android SDK設定
@@ -185,7 +147,32 @@
           testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.2'
           ```
   - バージョン対応履歴
-    - Jellyfish 対応
+    - Koala 対応
+      - 2024.1 対応
+        - Android Gradle Plugin 8.4.1 -> 8.5.0
+          - Gradle 8.7
+        - Android Gradle Plugin 8.5.0 rc01 -> 8.5.0
+      - RC 1 対応
+        - Kotlin 2.0.0
+          - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler) に従って、Gradle設定ファイルを改修
+        - Android Gradle Plugin 8.5.0 beta02 -> 8.5.0 rc01
+      - Beta 2 対応
+        - Android Gradle Plugin 8.5.0 beta01 -> 8.5.0 beta02
+      - Gemini 1.5
+        - 実行時に制限抵触に関する警告メッセージが出て、結果を取得できない
+          ![Gemini Warning](../images/Android/20240528_Gemini1.5_Warning.png)
+      - Beta 1 対応
+        - Android Gradle Plugin 8.5.0 alpha05 -> 8.5.0 beta01
+        - Gradle 8.6 -> 8.7 <BR />
+          ![Update Assistant](../images/Android/20240515_Android_Studio_Koala_Beta1_AGP_Upgrade.png)
+      - Canary 5 対応
+        - Android Gradle Plugin 8.5.0 alpha04 -> 8.5.0 alpha05
+      - Gemini 1.0 Pro
+        ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
+        ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
+        ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
+    - Jellyfish 対応 <BR />
+      ![Android Studio Jellyfish](../images/Android/20240501_Android_Studio_Jellyfish.png)
       - Android Gradle Plugin 8.3.2 -> 8.4.0
         - Gradle 8.6
     - Iguana Patch 2 対応
