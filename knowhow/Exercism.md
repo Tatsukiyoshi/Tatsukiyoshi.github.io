@@ -16,18 +16,31 @@
 
 ##  Study
 
-- Rust
-  - armstrong-numbers <span style="color: red;">*finished*</span>
-  - beer-song <span style="color: red;">*finished*</span>
-  - difference-of-squares <span style="color: red;">*finished*</span>
-  - gigasecond  <span style="color: red;">*finished*</span>
-  - grains
-  - hello-world <span style="color: red;">*finished*</span>
-  - leap  <span style="color: red;">*finished*</span>
-  - nth-prime
-  - prime-factors
-  - proverb
-  - reverse-string  <span style="color: red;">*finished*</span>
+- [Rust](https://exercism.org/tracks/rust/exercises)
+
+  |名前                   |状態
+  |----------------------|----------
+  |armstrong-numbers     |<span style="color: red;">*finished*</span>
+  |beer-song             |<span style="color: red;">*finished*</span>
+  |difference-of-squares |<span style="color: red;">*finished*</span>
+  |gigasecond            |<span style="color: red;">*finished*</span>
+  |grains
+  |hello-world           |<span style="color: red;">[*finished*](https://exercism.org/tracks/rust/exercises/hello-world)</span>
+  |leap                  |**2024/06/27**  <span style="color: red;">*finished*</span>
+  |nth-prime             |**2024/06/27**  <span style="color: red;">*finished*</span>
+  |prime-factors         |**2024/06/27**  <span style="color: red;">*finished*</span>
+  |proverb               |**2024/06/27**  <span style="color: red;">*finished*</span>
+  |reverse-string        |<span style="color: red;">*finished*</span>
+  |eliuds-eggs
+  |kindergarten-garden
+  |series
+  |diffie-hellman
+  |collatz-conjecture
+  |matching-brackets
+  |high-scores
+  |bob
+  |sum-of-multiples
+  |raindrops
 
 - kotlin
   - [two-fer](https://exercism.io/my/solutions/aa2de6b105d34450b4750cae4938773a) **@2019/11/17**

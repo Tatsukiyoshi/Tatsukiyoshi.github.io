@@ -167,6 +167,15 @@
     ```shell
     $env:Path.Split(";")
     ```
+  - 一覧を時間順で出力
+    - 昇順
+      ```
+      Get-ChildItem . | Sort-Object LastWriteTime
+      ```
+    - 降順
+      ```
+      Get-ChildItem . | Sort-Object LastWriteTime -Descending
+      ```
   - [文字エンコードについて](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-7.3)
     - PowerShell上でUTF-8(BOMなし)に変更する
       ```shell
