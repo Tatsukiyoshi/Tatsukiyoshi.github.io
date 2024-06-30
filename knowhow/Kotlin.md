@@ -127,6 +127,7 @@
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
     - Android Studioの日本語化
       - [JetBrains公式サイト](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)からダウンロードする。
+    - [Android VersionとAPIの対応](https://developer.android.com/guide/topics/manifest/uses-sdk-element#api-level-table)
     - Gradle設定
       - Gradleに関する設定は、環境変数GRADLE_USER_HOMEで設定したディレクトリを参照するため、変更したい場合、格納先のディレクトリを設定する
     - Android SDK設定
@@ -152,6 +153,8 @@
         - Android Gradle Plugin 8.4.1 -> 8.5.0
           - Gradle 8.7
         - Android Gradle Plugin 8.5.0 rc01 -> 8.5.0
+        - Android API 35
+        - Android SDK Built-Tools 35.0.0
       - RC 1 対応
         - Kotlin 2.0.0
           - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler) に従って、Gradle設定ファイルを改修
