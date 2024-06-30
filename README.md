@@ -3,8 +3,9 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新状況（2024/6/23）](https://note.com/taishow2020/n/n632d4310f0fc)/
+  [最新ダイジェスト（2024/6/24～6/30）](https://note.com/taishow2020/n/n15c710629c86)/
   [一覧](./digest/digestList.md)
+  - [突然の充電タイム（2024/6/23）](https://note.com/taishow2020/n/n632d4310f0fc)
 
 ##  創作物
 **知識を形にする**

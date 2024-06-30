@@ -1,6 +1,8 @@
 # ダイジェスト
 - 2024年
   - 6月
+    - [第５週（2024/6/24～6/30）](https://note.com/taishow2020/n/n15c710629c86)
+    - [突然の充電タイム（2024/6/23）](https://note.com/taishow2020/n/n632d4310f0fc)
     - [第１週（2024/5/27～6/2）](https://note.com/taishow2020/n/n0f9d50a873bd)
   - 5月
     - [第４週（2024/5/20～5/26）](https://note.com/taishow2020/n/ncccfe63af8f3)
