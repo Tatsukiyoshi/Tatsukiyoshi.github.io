@@ -26,21 +26,21 @@
   |gigasecond            |<span style="color: red;">*finished*</span>
   |grains
   |hello-world           |<span style="color: red;">[*finished*](https://exercism.org/tracks/rust/exercises/hello-world)</span>
-  |leap                  |**2024/06/27**  <span style="color: red;">*finished*</span>
-  |nth-prime             |**2024/06/27**  <span style="color: red;">*finished*</span>
-  |prime-factors         |**2024/06/27**  <span style="color: red;">*finished*</span>
-  |proverb               |**2024/06/27**  <span style="color: red;">*finished*</span>
+  |leap                  |<span style="color: red;">*finished*</span>
+  |nth-prime             |<span style="color: red;">*finished*</span>
+  |prime-factors         |<span style="color: red;">*finished*</span>
+  |proverb               |<span style="color: red;">*finished*</span>
   |reverse-string        |<span style="color: red;">*finished*</span>
-  |eliuds-eggs
-  |kindergarten-garden
-  |series
+  |eliuds-eggs           |**2024/07/01**  <span style="color: red;">*finished*</span>
+  |kindergarten-garden   |**2024/07/01**  <span style="color: red;">*finished*</span>
+  |series                |**2024/07/01**  <span style="color: red;">*finished*</span>
   |diffie-hellman
-  |collatz-conjecture
-  |matching-brackets
+  |collatz-conjecture    |<span style="color: red;">*finished*</span>
+  |matching-brackets     |**2024/07/01**  <span style="color: red;">*finished*</span>
   |high-scores
-  |bob
+  |bob                   |<span style="color: red;">*finished*</span>
   |sum-of-multiples
-  |raindrops
+  |raindrops             |**2024/07/01**  <span style="color: red;">*finished*</span>
 
 - kotlin
   - [two-fer](https://exercism.io/my/solutions/aa2de6b105d34450b4750cae4938773a) **@2019/11/17**
