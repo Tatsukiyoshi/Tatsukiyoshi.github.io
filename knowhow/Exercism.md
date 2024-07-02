@@ -1,12 +1,19 @@
 # [Exercism](https://exercism.io/my/tracks)
 
-- Start Up
+  Exercism は、Kotlin プログラミングの最後に紹介されている学習サイトである。
+  様々なプログラミング言語に対応した問題を管理し、順次ダウンロードすることで、コードを作成し、テスト実行により回答を確認できるサイト。
+  現状、KotlinおよびRustで実践した状況。
 
-  テキスト３冊（[独学プログラマー](http://theselftaughtprogrammer.io/)、[はじめての Android プログラミング](http://isbn.sbcr.jp/95815)、Kotlin プログラミング）をほぼ終えたため、Kotlin プログラミングの最後に紹介されている学習サイトを取り組む。<BR>
-  Exercism は、様々なプログラミング言語に対応した問題を管理し、順次ダウンロードすることで、コードを作成し、テスト実行により回答を確認できるサイト。
+- Download
 
   ```
   exercism download --exercise=two-fer --track=kotlin
+  ```
+
+- Submit
+
+  ```
+  exercism submit <完成したソース>
   ```
 
 ##  環境
@@ -14,7 +21,7 @@
   |-----------|-------------|----------
   |IdeaPad    |CLI 1.5.3    |2024/06/26
 
-##  Study
+##  実践
 
 - [Rust](https://exercism.org/tracks/rust/exercises)
 
@@ -24,23 +31,23 @@
   |beer-song             |<span style="color: red;">*finished*</span>
   |difference-of-squares |<span style="color: red;">*finished*</span>
   |gigasecond            |<span style="color: red;">*finished*</span>
-  |grains
+  |grains                |<span style="color: yellow;">*suspended*</span>
   |hello-world           |<span style="color: red;">[*finished*](https://exercism.org/tracks/rust/exercises/hello-world)</span>
   |leap                  |<span style="color: red;">*finished*</span>
   |nth-prime             |<span style="color: red;">*finished*</span>
   |prime-factors         |<span style="color: red;">*finished*</span>
   |proverb               |<span style="color: red;">*finished*</span>
   |reverse-string        |<span style="color: red;">*finished*</span>
-  |eliuds-eggs           |**2024/07/01**  <span style="color: red;">*finished*</span>
-  |kindergarten-garden   |**2024/07/01**  <span style="color: red;">*finished*</span>
-  |series                |**2024/07/01**  <span style="color: red;">*finished*</span>
-  |diffie-hellman
+  |eliuds-eggs           |<span style="color: red;">*finished*</span>
+  |kindergarten-garden   |<span style="color: red;">*finished*</span>
+  |series                |<span style="color: red;">*finished*</span>
+  |diffie-hellman        |<span style="color: yellow;">*suspended*</span>
   |collatz-conjecture    |<span style="color: red;">*finished*</span>
-  |matching-brackets     |**2024/07/01**  <span style="color: red;">*finished*</span>
-  |high-scores
+  |matching-brackets     |<span style="color: red;">*finished*</span>
+  |high-scores           |<span style="color: yellow;">*suspended*</span>
   |bob                   |<span style="color: red;">*finished*</span>
-  |sum-of-multiples
-  |raindrops             |**2024/07/01**  <span style="color: red;">*finished*</span>
+  |sum-of-multiples      |**2024/07/02**  <span style="color: red;">*finished*</span>
+  |raindrops             |<span style="color: red;">*finished*</span>
 
 - kotlin
   - [two-fer](https://exercism.io/my/solutions/aa2de6b105d34450b4750cae4938773a) **@2019/11/17**
