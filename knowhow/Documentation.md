@@ -23,6 +23,7 @@
     - Draw.io Integration
     - Marp for Visual Studio Code
   - PlantUML
+    - VSCode Extension 2.18.1 <span style="color: red;">*<<2024/07/06 updated >>*</span>
     - GraphViz Ver2.38
   - mermaid
   - swagger
