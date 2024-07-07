@@ -23,6 +23,11 @@
     ![VS2022 17.11 Preview 2.1](../images/VisualStudio/20240622_Update_VS2022_17.11_Preview2.1.png)
   - Visual Studio 2022 17.10
     ![VS2022 17.10.3](../images/VisualStudio/20240626_Update_VS2022_17.10.3.png)
+    - GitHub Copilotの利用
+      - 早速、無料試用版の利用開始を促される <BR />
+        ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
+      - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
+        ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
