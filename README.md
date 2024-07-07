@@ -54,15 +54,19 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.90.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/06/21 updated from 1.90.1>>*</span>
-  - 新機能(1.90)
-    - Ctrl + Clickで複数のタブを選択し、移動することが可能に
-      [![Multi Tabs Select](./captures/20240606_vscode1.90.png)](./captures/20240606_vscode1.90.mp4)
-  - 開発環境はVisual Studio Codeを中心に使っており、インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめてあります。<BR />
+- [Visual Studio Code 1.91](https://code.visualstudio.com/) <span style="color: red;">*<<2024/07/05 updated from 1.90.2>>*</span>
+  - 新機能(1.91)
+    - 履歴グラフ
+      - 新たに履歴グラフのOn/Offを設定できるようになる
+        ![HistoryGraphSetting](./images/VisualStudioCode/20240706_VSCodeHistoryGraphSetting.png)
+      - 履歴グラフを有効化すると、ソース管理画面に当該ブランチの履歴グラフが確認できる
+        ![HistoryGraph](./images/VisualStudioCode/20240706_VSCodeHistoryGraph.png)
+  - 開発環境は、Visual Studio Codeを中心に使っている。
+  - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
-- [GitHub Desktop 3.4.0](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/05/30 updated from 3.3.14>>*</span>
+- [GitHub Desktop 3.4.2](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/07/06 updated from 3.4.0>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-- [PowerShell 7.4.2](https://github.com/PowerShell/PowerShell)
+- [PowerShell 7.4.3](https://github.com/PowerShell/PowerShell)
 - [Docker](./knowhow/Docker.md)
 
 ##  サービス
