@@ -3,14 +3,14 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト（2024/6/24～6/30）](https://note.com/taishow2020/n/n15c710629c86)/
+  [最新ダイジェスト（2024/7/1～7/7）](https://note.com/taishow2020/n/n7e017b1cfcbf)/
   [一覧](./digest/digestList.md)
-  - [突然の充電タイム（2024/6/23）](https://note.com/taishow2020/n/n632d4310f0fc)
 
 ##  創作物
 **知識を形にする**
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
+
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
