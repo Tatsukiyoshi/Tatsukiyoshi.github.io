@@ -24,30 +24,51 @@
 ##  実践
 
 - [Rust](https://exercism.org/tracks/rust/exercises)
+  <details>
+  <summary>Easy</summary>
 
-  |名前                   |状態
-  |----------------------|----------
-  |armstrong-numbers     |<span style="color: red;">*finished*</span>
-  |beer-song             |<span style="color: red;">*finished*</span>
-  |difference-of-squares |<span style="color: red;">*finished*</span>
-  |gigasecond            |<span style="color: red;">*finished*</span>
-  |grains                |<span style="color: yellow;">*suspended*</span>
-  |hello-world           |<span style="color: red;">[*finished*](https://exercism.org/tracks/rust/exercises/hello-world)</span>
-  |leap                  |<span style="color: red;">*finished*</span>
-  |nth-prime             |<span style="color: red;">*finished*</span>
-  |prime-factors         |<span style="color: red;">*finished*</span>
-  |proverb               |<span style="color: red;">*finished*</span>
-  |reverse-string        |<span style="color: red;">*finished*</span>
-  |eliuds-eggs           |<span style="color: red;">*finished*</span>
-  |kindergarten-garden   |<span style="color: red;">*finished*</span>
-  |series                |<span style="color: red;">*finished*</span>
-  |diffie-hellman        |<span style="color: yellow;">*suspended*</span>
-  |collatz-conjecture    |<span style="color: red;">*finished*</span>
-  |matching-brackets     |<span style="color: red;">*finished*</span>
-  |high-scores           |<span style="color: yellow;">*suspended*</span>
-  |bob                   |<span style="color: red;">*finished*</span>
-  |sum-of-multiples      |**2024/07/02**  <span style="color: red;">*finished*</span>
-  |raindrops             |<span style="color: red;">*finished*</span>
+    |名前                   |状態
+    |----------------------|----------
+    |armstrong-numbers     |<span style="color: red;">*finished*</span>
+    |beer-song             |<span style="color: red;">*finished*</span>
+    |difference-of-squares |<span style="color: red;">*finished*</span>
+    |gigasecond            |<span style="color: red;">*finished*</span>
+    |grains                |<span style="color: yellow;">*suspended*</span>
+    |hello-world           |<span style="color: red;">[*finished*](https://exercism.org/tracks/rust/exercises/hello-world)</span>
+    |leap                  |<span style="color: red;">*finished*</span>
+    |nth-prime             |<span style="color: red;">*finished*</span>
+    |prime-factors         |<span style="color: red;">*finished*</span>
+    |proverb               |<span style="color: red;">*finished*</span>
+    |reverse-string        |<span style="color: red;">*finished*</span>
+    |eliuds-eggs           |<span style="color: red;">*finished*</span>
+    |kindergarten-garden   |<span style="color: red;">*finished*</span>
+    |series                |<span style="color: red;">*finished*</span>
+    |diffie-hellman        |<span style="color: yellow;">*suspended*</span>
+    |collatz-conjecture    |<span style="color: red;">*finished*</span>
+    |matching-brackets     |<span style="color: red;">*finished*</span>
+    |high-scores           |<span style="color: yellow;">*suspended*</span>
+    |bob                   |<span style="color: red;">*finished*</span>
+    |sum-of-multiples      |<span style="color: red;">*finished*</span>
+    |raindrops             |<span style="color: red;">*finished*</span>
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+
+    |名前                   |状態
+    |----------------------|----------
+    |acronym               |**2024/07/11**  <span style="color: red;">*finished*</span>
+    |all-your-base         |**2024/07/11**  <span style="color: red;">*finished*</span>
+    |allergies
+    |alphametics
+    |anagram               |<span style="color: red;">*finished*</span>
+    |binary-search
+    |clock                 |<span style="color: red;">*finished*</span>
+    |luhn                  |<span style="color: red;">*finished*</span>
+    |minesweeper           |<span style="color: yellow;">*suspended*</span>
+    |space-age             |<span style="color: red;">*finished*</span>
+    |sublist               |<span style="color: red;">*finished*</span>
+  </details>
 
 - kotlin
   - [two-fer](https://exercism.io/my/solutions/aa2de6b105d34450b4750cae4938773a) **@2019/11/17**
