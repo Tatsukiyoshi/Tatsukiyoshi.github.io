@@ -13,8 +13,9 @@
   |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 3.0 |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 5                             |[2024/06/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.6                                     |[2024/06/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |Mini-S12   |Visual Studio Community 2022 17.10.3             |[2024/06/26](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
-  |           |- .NET 8.0.6                                     |2024/06/26
+  |Mini-S12   |Visual Studio Community 2022 17.10.4             |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |           |- .NET 8.0.7                                     |2024/07/13
+  |           |- [MAUI 8.0.61(SR6.1)](#maui)                    |[2024/07/13](https://github.com/dotnet/maui)
   |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
@@ -22,12 +23,12 @@
   - Visual Studio 2022 17.11 Preview
     ![VS2022 17.11 Preview 3.0](../images/VisualStudio/20240713_Update_VS2022_17.11_Preview3.0.png)
   - Visual Studio 2022 17.10
-    ![VS2022 17.10.3](../images/VisualStudio/20240626_Update_VS2022_17.10.3.png)
-    - GitHub Copilotの利用
-      - 早速、無料試用版の利用開始を促される <BR />
-        ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
-      - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
-        ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
+    - Visual Studio 2022 17.10.3
+      - GitHub Copilotの利用
+        - 早速、無料試用版の利用開始を促される <BR />
+          ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
+        - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
+          ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -56,7 +57,7 @@
       ![.NET 9.0 Preview 5](../images/VisualStudio/20240622_dotnet9_Preview5.png)
   - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/06/22* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.6](../images/VisualStudio/20240622_dotnet8.0.6.png)
+      ![.NET 8.0.7](../images/VisualStudio/20240713_dotnet8.0.7.png)
 
   - .NET 環境情報
   ```
@@ -126,9 +127,9 @@
 
   ```
   .NET SDK:
-  Version:           8.0.302
-  Commit:            ef14e02af8
-  Workload version:  8.0.300-manifests.5273bb1c
+  Version:           8.0.303
+  Commit:            29ab8e3268
+  Workload version:  8.0.300-manifests.34944930
   MSBuild version:   17.10.4+10fbfbf2e
 
   ランタイム環境:
@@ -136,50 +137,50 @@
   OS Version:  10.0.22631
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\8.0.302\
+  Base Path:   C:\Program Files\dotnet\sdk\8.0.303\
 
   インストール済みの .NET ワークロード:
+  [maui-windows]
+    インストール ソース: VS 17.10.35027.167
+    マニフェストのバージョン:    8.0.61/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.61\WorkloadManifest.json
+    インストールの種類:        FileBased
+
   [android]
-    インストール ソース: VS 17.10.35013.160
+    インストール ソース: VS 17.10.35027.167
     マニフェストのバージョン:    34.0.95/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.95\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maccatalyst]
-    インストール ソース: VS 17.10.35013.160
+    インストール ソース: VS 17.10.35027.167
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
-  [maui-windows]
-    インストール ソース: VS 17.10.35013.160
-    マニフェストのバージョン:    8.0.40/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.40\WorkloadManifest.json
-    インストールの種類:        FileBased
-
   [ios]
-    インストール ソース: VS 17.10.35013.160
+    インストール ソース: VS 17.10.35027.167
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
 
   Host:
-    Version:      8.0.6
+    Version:      8.0.7
     Architecture: x64
-    Commit:       3b8b000a0e
+    Commit:       2aade6beb0
 
   .NET SDKs installed:
-    6.0.423 [C:\Program Files\dotnet\sdk]
-    8.0.302 [C:\Program Files\dotnet\sdk]
+    6.0.424 [C:\Program Files\dotnet\sdk]
+    8.0.303 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
-    Microsoft.AspNetCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 6.0.31 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.AspNetCore.App 6.0.32 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.NETCore.App 6.0.32 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.WindowsDesktop.App 6.0.32 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
@@ -211,7 +212,9 @@
 
 ### MAUI
   - Visual Studio
-    - 17.10.3 / MAUI 8.0.40(SP5)
+    - 17.10.4 / MAUI 8.0.61(SR6.1) / Pixel 8 API 34(Android 14)
+        ![MAUI - Pixel 8 APT 34](../images/VisualStudio/20240713_VS2022_17.10.4_MAUI_Android.png)
+    - 17.10.3 / MAUI 8.0.40(SR5)
       - 8.0.40同梱で、Androidエミュレータでの実行確認
         ![MAUI - Pixel 8](../images/VisualStudio/20240626_VS2022_17.10.3_MAUI_Android.png)
     - 17.9.6
