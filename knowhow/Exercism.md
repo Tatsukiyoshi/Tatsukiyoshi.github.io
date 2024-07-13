@@ -57,12 +57,12 @@
 
     |名前                   |状態
     |----------------------|----------
-    |acronym               |**2024/07/11**  <span style="color: red;">*finished*</span>
-    |all-your-base         |**2024/07/11**  <span style="color: red;">*finished*</span>
-    |allergies
+    |acronym               |<span style="color: red;">*finished*</span>
+    |all-your-base         |<span style="color: red;">*finished*</span>
+    |allergies             |**2024/07/12**  <span style="color: red;">*finished*</span>
     |alphametics
     |anagram               |<span style="color: red;">*finished*</span>
-    |binary-search
+    |binary-search         |**2024/07/12**  <span style="color: red;">*finished* (Except Generic)</span>
     |clock                 |<span style="color: red;">*finished*</span>
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
