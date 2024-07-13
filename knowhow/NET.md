@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 2.1 |[2024/06/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 3.0 |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 5                             |[2024/06/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.6                                     |[2024/06/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |Mini-S12   |Visual Studio Community 2022 17.10.3             |[2024/06/26](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
@@ -20,7 +20,7 @@
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.11 Preview
-    ![VS2022 17.11 Preview 2.1](../images/VisualStudio/20240622_Update_VS2022_17.11_Preview2.1.png)
+    ![VS2022 17.11 Preview 3.0](../images/VisualStudio/20240713_Update_VS2022_17.11_Preview3.0.png)
   - Visual Studio 2022 17.10
     ![VS2022 17.10.3](../images/VisualStudio/20240626_Update_VS2022_17.10.3.png)
     - GitHub Copilotの利用
@@ -89,14 +89,14 @@
     Commit:       a5cc707d97
 
   .NET SDKs installed:
-    8.0.300 [C:\Program Files\dotnet\sdk]
     8.0.302 [C:\Program Files\dotnet\sdk]
+    8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
     9.0.100-preview.5.24307.3 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.0-preview.5.24306.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 9.0.0-preview.5.24306.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]  
     Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 9.0.0-preview.5.24306.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
