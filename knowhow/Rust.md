@@ -35,14 +35,15 @@
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
-  1. Chrome OS Flex 124.0.6367.154(Official Build)
+  1. Chrome OS Flex 126.0.6478.132(Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |TransBook  |Rust 1.78                                    |2024/05/11
-      |           |Tauri 1.6.5                                  |2024/05/11
+      |TransBook  |Rust 1.79                                    |2024/07/14
+      |           |Tauri 1.7.1                                  |2024/07/14
       |           |[Node.js 20.12.0](TypeScript.md#typescript)  |[2024/03/30](https://nodejs.org/en)
+      |           |Bun 1.1.20           |2024/07/14
       |           |React 18.3.1                                 |2024/05/11
-      |           |Vite 5.2.11                                  |2024/05/11
+      |           |Vite 5.3.3                                  |2024/07/14
       |           |Bevy 0.10.1                                  |2023/04/01
 
   ##  ノウハウ
@@ -562,31 +563,28 @@
   1.  Chrome OS Flex
       - Tauri環境確認
         ```
-        npm run tauri info
+        bun tauri info
         ```
         ```
-        > tauri-app@0.1.6 tauri
-        > tauri info
-
-
         [✔] Environment
             - OS: Debian 12.0.0 X64
-            ✔ webkit2gtk-4.0: 2.42.5
+            ✔ webkit2gtk-4.0: 2.44.2
             ✔ rsvg2: 2.54.7
-            ✔ rustc: 1.77.1 (7cf61ebde 2024-03-27)
-            ✔ cargo: 1.77.1 (e52e36006 2024-03-26)
-            ✔ rustup: 1.27.0 (bbb9276d2 2024-03-08)
+            ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+            ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+            ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
             ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
-            - node: 20.12.0
-            - npm: 10.5.0
+            - node: 16.19.0
+            - npm: 8.19.3
+            - bun: 1.1.20
 
         [-] Packages
-            - tauri [RUST]: 1.6.1
-            - tauri-build [RUST]: 1.5.1
-            - wry [RUST]: 0.24.7
+            - tauri [RUST]: 1.7.1
+            - tauri-build [RUST]: 1.5.3
+            - wry [RUST]: 0.24.10
             - tao [RUST]: 0.16.8
-            - @tauri-apps/api [NPM]: 1.5.3
-            - @tauri-apps/cli [NPM]: 1.5.11
+            - @tauri-apps/api [NPM]: 1.6.0
+            - @tauri-apps/cli [NPM]: 1.6.0
 
         [-] App
             - build-type: bundle
@@ -596,7 +594,7 @@
             - framework: React
             - bundler: Vite
         ```
-        ![Tauri-app](../images/rust/20240330_Tauri1.6.1_Rust1.77.png)
+        ![Tauri-app](../images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {
