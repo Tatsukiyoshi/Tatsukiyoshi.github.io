@@ -54,7 +54,7 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.91](https://code.visualstudio.com/) <span style="color: red;">*<<2024/07/05 updated from 1.90.2>>*</span>
+- [Visual Studio Code 1.91.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/07/12 updated from 1.91>>*</span>
   - 新機能(1.91)
     - 履歴グラフ
       - 新たに履歴グラフのOn/Offを設定できるようになる
