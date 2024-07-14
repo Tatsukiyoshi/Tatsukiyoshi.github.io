@@ -3,7 +3,7 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト（2024/7/1～7/7）](https://note.com/taishow2020/n/n7e017b1cfcbf)/
+  [最新ダイジェスト（2024/7/8～7/14）](https://note.com/taishow2020/n/n46c7250f2a6f)/
   [一覧](./digest/digestList.md)
 
 ##  創作物
@@ -22,8 +22,8 @@
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <BR />
-    - <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
-    - <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
+    1.  <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+    1.  <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
     <details>
     <summary>ディストリビューション・バージョン情報</summary>
 
