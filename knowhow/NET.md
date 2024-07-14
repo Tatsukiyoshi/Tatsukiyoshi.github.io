@@ -16,7 +16,7 @@
   |Mini-S12   |Visual Studio Community 2022 17.10.4             |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.7                                     |2024/07/13
   |           |- [MAUI 8.0.61(SR6.1)](#maui)                    |[2024/07/13](https://github.com/dotnet/maui)
-  |           |- Windows App SDK 1.51                           |[2024/04/07](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
@@ -201,6 +201,8 @@
   </details>
 
 ### Windows App SDK
+  - Windows App SDK 1.5.5
+    ![Hello World](../images/VisualStudio/20240714_VS2022_17.10.4_AppSDK1.5.5.png)
   - NET 8.0
     - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
       ```xml
@@ -209,6 +211,101 @@
         <RuntimeIdentifier>win-x64</RuntimeIdentifier>
       </PropertyGroup>
       ```
+  - バージョン確認
+    ```
+    get-appxpackage *appruntime.1.5*
+    ```
+    <details>
+    <summary>Windows App SDK 1.5.5</summary>
+
+    ```
+    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
+    Name                   : Microsoft.WindowsAppRuntime.1.5
+    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    PublisherId            : 8wekyb3d8bbwe
+    Architecture           : X64
+    ResourceId             :
+    Version                : 5001.119.156.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.119.156.0_x64__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.119.156.0_x64__8wekyb3d8bbwe
+    IsFramework            : True
+    PackageUserInformation : {}
+    IsResourcePackage      : False
+    IsBundle               : False
+    IsDevelopmentMode      : False
+    NonRemovable           : False
+    Dependencies           : {}
+    IsPartiallyStaged      : False
+    SignatureKind          : Store
+    Status                 : Ok
+
+    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
+    Name                   : Microsoft.WindowsAppRuntime.1.5
+    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    PublisherId            : 8wekyb3d8bbwe
+    Architecture           : X64
+    ResourceId             :
+    Version                : 5001.159.55.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.159.55.0_x64__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.159.55.0_x64__8wekyb3d8bbwe
+    IsFramework            : True
+    PackageUserInformation : {}
+    IsResourcePackage      : False
+    IsBundle               : False
+    IsDevelopmentMode      : False
+    NonRemovable           : False
+    Dependencies           : {}
+    IsPartiallyStaged      : False
+    SignatureKind          : Store
+    Status                 : Ok
+
+    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
+    Name                   : Microsoft.WindowsAppRuntime.1.5
+    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    PublisherId            : 8wekyb3d8bbwe
+    Architecture           : X86
+    ResourceId             :
+    Version                : 5001.178.1908.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x86__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x86__8wekyb3d8bbw
+                            e
+    IsFramework            : True
+    PackageUserInformation : {}
+    IsResourcePackage      : False
+    IsBundle               : False
+    IsDevelopmentMode      : False
+    NonRemovable           : False
+    Dependencies           : {}
+    IsPartiallyStaged      : False
+    SignatureKind          : Store
+    Status                 : Ok
+
+    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
+    Name                   : Microsoft.WindowsAppRuntime.1.5
+    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    PublisherId            : 8wekyb3d8bbwe
+    Architecture           : X64
+    ResourceId             :
+    Version                : 5001.178.1908.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64__8wekyb3d8bbw
+                            e
+    IsFramework            : True
+    PackageUserInformation : {}
+    IsResourcePackage      : False
+    IsBundle               : False
+    IsDevelopmentMode      : False
+    NonRemovable           : False
+    Dependencies           : {}
+    IsPartiallyStaged      : False
+    SignatureKind          : Store
+    Status                 : Ok
+    ```
+    </details>
 
 ### MAUI
   - Visual Studio
