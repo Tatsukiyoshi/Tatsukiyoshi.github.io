@@ -49,6 +49,8 @@
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
     - 更新中
       ![Now Update](./images/Chrome/20240628_Chrome_OS_Flex_Update126.0.6478.132.png)
+  - Debian 12.6 <span style="color: red;">*<<2024/07/13 updated from 12.5>>*</span>
+    ![Update 12.6](./images/Chrome/20240713_changed_debian_12.6.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
