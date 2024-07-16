@@ -17,9 +17,9 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.79](#rust-1)                           |[2024/06/26](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.1.4](#rustrover)               |[2024/07/11](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.22](#tauridesktop-framework) |[2024/06/05](https://beta.tauri.app/)
-      |           |Bun 1.1.12                                     |[2024/06/05](https://bun.sh/)
+      |           |[RustRover 2024.1.5](#rustrover)               |[2024/07/16](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.0-beta.24](#tauridesktop-framework) |[2024/07/16](https://beta.tauri.app/)
+      |           |Bun 1.1.20                                     |[2024/07/16](https://bun.sh/)
       |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
@@ -27,11 +27,11 @@
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |Mini-S12   |Rust 1.78            |2024/05/04
-      |           |Tauri 2.0.0-beta.22  |2024/06/05
+      |Mini-S12   |Rust 1.79            |2024/07/16
+      |           |Tauri 2.0.0-beta.24  |2024/07/16
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.2.12          |2024/06/05
-      |           |Bun 1.1.12           |2024/06/05
+      |           |Vite 5.3.4           |2024/07/16
+      |           |Bun 1.1.20           |2024/07/16
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -104,25 +104,29 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - 2024.1 Build #RR-241.15989.199 <span style="color: red;">**Updated 2024/05/23**</span>
+  - RustRover 2024.1.5 Build #RR-241.17890.39 <span style="color: red;">**Updated 2024/07/16**</span>
     ```
-    RustRover 2024.1
-    Build #RR-241.15989.199, built on May 18, 2024
-    Runtime version: 17.0.10+1-b1207.14 amd64
+    RustRover 2024.1.5
+    Build #RR-241.17890.39, built on July 12, 2024
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年5月22日 までアクティブです。
+    For non-commercial personal development only.
+    Runtime version: 17.0.11+1-b1207.24 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
     GC: G1 Young Generation, G1 Old Generation
     Memory: 2048M
     Cores: 4
     Registry:
+      debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
       transferSettings.vscode.onlyCargoToml=true
       terminal.new.ui.show.promotion=false
       org.toml.json.schema=false
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.intellij.ja (241.230)
-      com.jetbrains.space (241.15989.9)
+      com.intellij.ja (241.271)
+      com.jetbrains.space (241.17890.8)
       ru.adelf.idea.dotenv (2024.1)
     ```
   - データベース
@@ -151,24 +155,6 @@
         id = 99 &
         content = new-element
         ```
-  - 履歴
-    - 2024.1 EAP Build 2(#RR-241.15989.180) <span style="color: red;">**Updated 2024/05/09**</span>
-    - 2024.1 EAP Build (#RR-241.15989.101) <span style="color: red;">**Updated 2024/04/25**</span>
-    - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
-    - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
-    - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
-    - 2023.3 EAP Build 11(#RR-233.14015.153) <span style="color: red;">**Updated 2024/02/29**</span>
-    - 2023.3 EAP Build 9(#RR-233.14015.147) <span style="color: red;">**Updated 2024/02/11**</span>
-    - 2023.3 EAP Build 8(#RR-233.13135.127) <span style="color: red;">**Updated 2024/01/25**</span>
-    - 2023.3 EAP Build 7(#RR-233.13135.116) <span style="color: red;">**Updated 2024/01/14**</span>
-    - 2023.3 EAP Build 6(#RR-233.11799.306) BugFix Update <span style="color: red;">**Updated 2023/12/20**</span>
-    - 2023.3 EAP Build 5(#RR-233.11799.284) <span style="color: red;">**Updated 2023/12/16**</span>
-    - 2023.3 EAP Build 4(#RR-233.10527.212) <span style="color: red;">**Updated 2023/12/01**</span>
-    - 2023.3 EAP Build #RR-233.10527.39 <span style="color: red;">**Updated 2023/11/11**</span>
-    - 2023.3 EAP 2 <span style="color: red;">**Updated 2023/10/25**</span>
-    - 2023.3 EAP・・・2023.2 EAPが期限切れのため、再セットアップ <span style="color: red;">**Updated 2023/10/14**</span>
-    - 2023.2 EAP <span style="color: red;">**Installed 2023/09/14**</span>
-      ![2023.2 EAP](../images/rust/20230914_RustRover2023.2.png)
   ### Visual Studio Code
   - デバッグ
     - [デバッグについて](https://qiita.com/lechatthecat/items/c5444fdf0656cab6c0e4)
@@ -360,6 +346,97 @@
       ```
       yarn create tauri-app --beta
       ```
+    - Beta.24
+      - Windows 11
+        - Tauri環境確認
+          ```
+          [✔] Environment
+              - OS: Windows 10.0.22631 X64
+              ✔ WebView2: 126.0.2592.102
+              ✔ MSVC: Visual Studio Community 2022
+              ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+              ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+              ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
+              ✔ Rust toolchain: stable-x86_64-pc-windows-msvc (default)
+              - node: 18.17.1
+              - yarn: 1.22.21
+              - npm: 9.6.7
+              - bun: 1.1.20
+
+          [-] Packages
+              - tauri [RUST]: 2.0.0-beta.24
+              - tauri-build [RUST]: 2.0.0-beta.19
+              - wry [RUST]: 0.41.0
+              - tao [RUST]: 0.28.1
+              - @tauri-apps/api [NPM]: 2.0.0-beta.15
+              - @tauri-apps/cli [NPM]: 2.0.0-beta.22
+
+          [-] App
+              - build-type: bundle
+              - CSP: unset
+              - frontendDist: ../public
+              - devUrl: http://localhost:8083/
+              - framework: Svelte
+              - bundler: Rollup
+          ```
+      - Ubuntu 24.04 on Windows 11
+        - Tauri環境確認
+          ```
+          [✔] Environment
+              - OS: Ubuntu 24.04 X64
+              ✔ webkit2gtk-4.1: 2.44.2
+              ✔ rsvg2: 2.58.0
+              ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+              ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+              ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
+              ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
+              - node: 20.11.0
+              - yarn: 1.22.21
+              - npm: 10.2.4
+              - bun: 1.1.20
+
+          [-] Packages
+              - tauri [RUST]: 2.0.0-beta.24
+              - tauri-build [RUST]: 2.0.0-beta.19
+              - wry [RUST]: 0.41.0
+              - tao [RUST]: 0.28.1
+              - @tauri-apps/api [NPM]: 2.0.0-beta.15
+              - @tauri-apps/cli [NPM]: 2.0.0-beta.22
+
+          [-] App
+              - build-type: bundle
+              - CSP: unset
+              - frontendDist: ../dist
+              - devUrl: http://localhost:1420/
+              - framework: React
+              - bundler: Vite
+          ```
+          ![Tauri 2.0Beta](../images/rust/20240716_Tauri2.0_Ubuntu24.04.png)
+        - Compile error happend
+          ```
+            Compiling tauri-plugin v2.0.0-beta.12
+          error[E0061]: this function takes 3 arguments but 2 arguments were supplied
+            --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-plugin-2.0.0-beta.12/src/build/mod.rs:124:7
+              |
+          124 |       acl::build::generate_docs(&permissions, &autogenerated)?;
+              |       ^^^^^^^^^^^^^^^^^^^^^^^^^------------------------------ an argument of type `&str` is missing
+              |
+          note: function defined here
+            --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-utils-2.0.0-beta.19/src/acl/build.rs:240:8
+              |
+          240 | pub fn generate_docs(
+              |        ^^^^^^^^^^^^^
+          help: provide the argument
+              |
+          124 |       acl::build::generate_docs(&permissions, &autogenerated, /* &str */)?;
+              |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          For more information about this error, try `rustc --explain E0061`.
+          error: could not compile `tauri-plugin` (lib) due to 1 previous error
+          warning: build failed, waiting for other jobs to finish...
+          error: script "tauri" exited with code 101
+          ```
+          -> Fixed (tauri-plugin-shell を最新にすることで解決)
     - Breaking Change @ Beta.21
       - [This release contains breaking changes to the tray event structure because of newly added events](https://github.com/tauri-apps/tauri/pull/9777)
     - V2.0 への移行
