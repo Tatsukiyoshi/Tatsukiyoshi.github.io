@@ -24,6 +24,21 @@
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <BR />
     1.  <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+
+        <details>
+        <summary>カーネルバージョン</summary>
+
+        ```
+        WSL バージョン: 2.3.11.0
+        カーネル バージョン: 6.6.36.3-1
+        WSLg バージョン: 1.0.63
+        MSRDC バージョン: 1.2.5326
+        Direct3D バージョン: 1.611.1-81528511
+        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
+        Windows バージョン: 10.0.26120.1252
+        ```
+        </details>
+
     1.  <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
     <details>
     <summary>ディストリビューション・バージョン情報</summary>
