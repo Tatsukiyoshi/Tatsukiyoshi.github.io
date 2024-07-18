@@ -63,14 +63,19 @@
     |alphametics           |<span style="color: yellow;">*suspended*</span>
     |anagram               |<span style="color: red;">*finished*</span>
     |binary-search         |<span style="color: red;">*finished* (Except Generic)</span>
-    |bowling               |**2024/07/16**  <span style="color: red;">*finished*</span>
+    |bowling               |<span style="color: red;">*finished*</span>
     |clock                 |<span style="color: red;">*finished*</span>
-    |dot-dsl
-    |etl
-    |grade-school
-    |hamming
+    |dot-dsl               |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |etl                   |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |grade-school          |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |hamming               |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |isbn-verifier         |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |isogram               |**2024/07/18**  <span style="color: red;">*finished*</span>
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
+    |nucleotide-count
+    |paasio
+    |palindrome-products
     |space-age             |<span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
   </details>
