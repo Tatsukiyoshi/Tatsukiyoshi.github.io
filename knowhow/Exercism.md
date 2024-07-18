@@ -59,11 +59,16 @@
     |----------------------|----------
     |acronym               |<span style="color: red;">*finished*</span>
     |all-your-base         |<span style="color: red;">*finished*</span>
-    |allergies             |**2024/07/12**  <span style="color: red;">*finished*</span>
-    |alphametics
+    |allergies             |<span style="color: red;">*finished*</span>
+    |alphametics           |<span style="color: yellow;">*suspended*</span>
     |anagram               |<span style="color: red;">*finished*</span>
-    |binary-search         |**2024/07/12**  <span style="color: red;">*finished* (Except Generic)</span>
+    |binary-search         |<span style="color: red;">*finished* (Except Generic)</span>
+    |bowling               |**2024/07/16**  <span style="color: red;">*finished*</span>
     |clock                 |<span style="color: red;">*finished*</span>
+    |dot-dsl
+    |etl
+    |grade-school
+    |hamming
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
     |space-age             |<span style="color: red;">*finished*</span>
