@@ -1,0 +1,22 @@
+- 履歴
+  - 2024.1.5 Build #RR-241.17890.39 <span style="color: red;">**Updated 2024/07/16**</span>
+  - 2024.1.4 <span style="color: red;">**Updated 2024/07/11**</span>
+  - 2024.1.3 <span style="color: red;">**Updated 2024/06/26**</span>
+  - 2024.1 Build #RR-241.15989.199 <span style="color: red;">**Updated 2024/05/23**</span>
+  - 2024.1 EAP Build 2(#RR-241.15989.180) <span style="color: red;">**Updated 2024/05/09**</span>
+  - 2024.1 EAP Build (#RR-241.15989.101) <span style="color: red;">**Updated 2024/04/25**</span>
+  - 2023.3 EAP Build 14(#RR-233.15026.24) <span style="color: red;">**Updated 2024/04/05**</span>
+  - 2023.3 EAP Build 13(#RR-233.14475.74) <span style="color: red;">**Updated 2024/03/30**</span>
+  - 2023.3 EAP Build 12(#RR-233.14015.155) <span style="color: red;">**Updated 2024/03/07**</span>
+  - 2023.3 EAP Build 11(#RR-233.14015.153) <span style="color: red;">**Updated 2024/02/29**</span>
+  - 2023.3 EAP Build 9(#RR-233.14015.147) <span style="color: red;">**Updated 2024/02/11**</span>
+  - 2023.3 EAP Build 8(#RR-233.13135.127) <span style="color: red;">**Updated 2024/01/25**</span>
+  - 2023.3 EAP Build 7(#RR-233.13135.116) <span style="color: red;">**Updated 2024/01/14**</span>
+  - 2023.3 EAP Build 6(#RR-233.11799.306) BugFix Update <span style="color: red;">**Updated 2023/12/20**</span>
+  - 2023.3 EAP Build 5(#RR-233.11799.284) <span style="color: red;">**Updated 2023/12/16**</span>
+  - 2023.3 EAP Build 4(#RR-233.10527.212) <span style="color: red;">**Updated 2023/12/01**</span>
+  - 2023.3 EAP Build #RR-233.10527.39 <span style="color: red;">**Updated 2023/11/11**</span>
+  - 2023.3 EAP 2 <span style="color: red;">**Updated 2023/10/25**</span>
+  - 2023.3 EAP・・・2023.2 EAPが期限切れのため、再セットアップ <span style="color: red;">**Updated 2023/10/14**</span>
+  - 2023.2 EAP <span style="color: red;">**Installed 2023/09/14**</span>
+    ![2023.2 EAP](../images/rust/20230914_RustRover2023.2.png)

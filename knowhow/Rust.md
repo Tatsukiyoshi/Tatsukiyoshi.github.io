@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.79](#rust-1)                           |[2024/06/26](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.1.5](#rustrover)               |[2024/07/16](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.2 EAP](#rustrover)             |[2024/07/18](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.24](#tauridesktop-framework) |[2024/07/16](https://beta.tauri.app/)
       |           |Bun 1.1.20                                     |[2024/07/16](https://bun.sh/)
       |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
@@ -104,31 +104,32 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.1.5 Build #RR-241.17890.39 <span style="color: red;">**Updated 2024/07/16**</span>
+  - RustRover 2024.2 EAP Build #RR-242.19890.39 <span style="color: red;">**Updated 2024/07/18**</span>
     ```
-    RustRover 2024.1.5
-    Build #RR-241.17890.39, built on July 12, 2024
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年5月22日 までアクティブです。
-    For non-commercial personal development only.
-    Runtime version: 17.0.11+1-b1207.24 amd64
+    RustRover 2024.2 EAP
+    Build #RR-242.19890.39, built on July 13, 2024
+    ライセンス対象: RustRover EAP user: Shinya Watanabe
+    有効期限: August 12, 2024
+    Runtime version: 21.0.3+13-b509.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
-    GC: G1 Young Generation, G1 Old Generation
+    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 4
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      transferSettings.vscode.onlyCargoToml=true
-      terminal.new.ui.show.promotion=false
+      i18n.locale=
       org.toml.json.schema=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      terminal.new.ui.show.promotion=false
+      transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
-      com.intellij.ja (241.271)
-      com.jetbrains.space (241.17890.8)
-      ru.adelf.idea.dotenv (2024.1)
+      com.jetbrains.space (242.19890.14)
+      ru.adelf.idea.dotenv (2024.2)
     ```
+    - [履歴](../history/RustRover.md)
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
