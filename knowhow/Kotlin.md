@@ -13,7 +13,7 @@
   |IdeaPad    |[IntelliJ IDEA 2024.1.4](#intellij-idea)                 |[2024/06/29](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.0                                           |[2024/05/28](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                    |2024/05/04
-  |Mini-S12   |[Android Studio Koala 2024.1.1](#android-studio)         |[2024/06/28](https://developer.android.com/studio)
+  |Mini-S12   |[Android Studio Koala 2024.1.1 Patch 1](#android-studio) |[2024/07/19](https://developer.android.com/studio)
   |           |- Kotlin 2.0.0                                           |[2024/06/02](https://kotlinlang.org/docs/home.html)
 
 ##  ノウハウ
@@ -103,10 +103,10 @@
       - 起動時にNotImplementedErrorで起動できない *Fixed*
         - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
-  - Android Studio Koala | 2024.1.1
+  - Android Studio Koala | 2024.1.1 Patch 1
     ```
-    Build #AI-241.15989.150.2411.11948838, built on June 11, 2024
-    Runtime version: 17.0.10+0--11609105 amd64
+    Build #AI-241.18034.62.2411.12071903, built on July 11, 2024
+    Runtime version: 17.0.11+0--11852314 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
     GC: G1 Young Generation, G1 Old Generation
@@ -117,7 +117,7 @@
       ide.experimental.ui=true
     Non-Bundled Plugins:
       com.intellij.ja (241.271)
-      Dart (241.17502)
+      Dart (241.18808)
       io.flutter (80.0.2)
     ```
   - バージョン共通
@@ -146,7 +146,9 @@
           ```
   - バージョン対応履歴
     - Koala 対応
-      - 2024.1 対応
+      - 2024.1.1 Patch 1 対応
+        - Android Gradle Plugin 8.5.0 -> 8.5.1
+      - 2024.1.1 対応
         - Android Gradle Plugin 8.4.1 -> 8.5.0
           - Gradle 8.7
         - Android Gradle Plugin 8.5.0 rc01 -> 8.5.0
