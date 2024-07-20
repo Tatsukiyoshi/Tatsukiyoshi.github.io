@@ -108,7 +108,7 @@
 - [Docker](./knowhow/Docker.md)
 
 ##  サービス
-- [Penpot 2.0](https://design.penpot.app/)
+- [Penpot 2.1](https://design.penpot.app/)
 
 #  プログラミング言語
 **独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積**
