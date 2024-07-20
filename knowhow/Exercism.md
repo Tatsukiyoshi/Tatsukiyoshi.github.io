@@ -65,15 +65,15 @@
     |binary-search         |<span style="color: red;">*finished* (Except Generic)</span>
     |bowling               |<span style="color: red;">*finished*</span>
     |clock                 |<span style="color: red;">*finished*</span>
-    |dot-dsl               |**2024/07/18**  <span style="color: red;">*finished*</span>
-    |etl                   |**2024/07/18**  <span style="color: red;">*finished*</span>
-    |grade-school          |**2024/07/18**  <span style="color: red;">*finished*</span>
-    |hamming               |**2024/07/18**  <span style="color: red;">*finished*</span>
-    |isbn-verifier         |**2024/07/18**  <span style="color: red;">*finished*</span>
-    |isogram               |**2024/07/18**  <span style="color: red;">*finished*</span>
+    |dot-dsl               |<span style="color: red;">*finished*</span>
+    |etl                   |<span style="color: red;">*finished*</span>
+    |grade-school          |<span style="color: red;">*finished*</span>
+    |hamming               |<span style="color: red;">*finished*</span>
+    |isbn-verifier         |<span style="color: red;">*finished*</span>
+    |isogram               |<span style="color: red;">*finished*</span>
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
-    |nucleotide-count
+    |nucleotide-count      |**2024/07/19**  <span style="color: red;">*finished*</span>
     |paasio
     |palindrome-products
     |space-age             |<span style="color: red;">*finished*</span>
