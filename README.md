@@ -22,31 +22,11 @@
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <BR />
-    <details>
-    <summary>ディストリビューション・バージョン情報</summary>
-
-    ```
-    PRETTY_NAME="Ubuntu 24.04 LTS"
-    NAME="Ubuntu"
-    VERSION_ID="24.04"
-    VERSION="24.04 LTS (Noble Numbat)"
-    VERSION_CODENAME=noble
-    ID=ubuntu
-    ID_LIKE=debian
-    HOME_URL="https://www.ubuntu.com/"
-    SUPPORT_URL="https://help.ubuntu.com/"
-    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=noble
-    LOGO=ubuntu-logo
-    ```
-    </details>
-
-    1.  IdeaPad <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+  1.  IdeaPad
+      - WSL 2.3.11.0 <span style="color: red;">*<<2024/07/18 updated>>*</span>
 
         <details>
-        <summary>カーネルバージョン</summary>
+        <summary>カーネルバージョン: 6.6.36.3-1</summary>
 
         ```
         WSL バージョン: 2.3.11.0
@@ -59,10 +39,33 @@
         ```
         </details>
 
-    1.  Mini-S12 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
+      - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
 
         <details>
-        <summary>カーネルバージョン</summary>
+        <summary>ディストリビューション・バージョン情報</summary>
+
+        ```
+        PRETTY_NAME="Ubuntu 24.04 LTS"
+        NAME="Ubuntu"
+        VERSION_ID="24.04"
+        VERSION="24.04 LTS (Noble Numbat)"
+        VERSION_CODENAME=noble
+        ID=ubuntu
+        ID_LIKE=debian
+        HOME_URL="https://www.ubuntu.com/"
+        SUPPORT_URL="https://help.ubuntu.com/"
+        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+        UBUNTU_CODENAME=noble
+        LOGO=ubuntu-logo
+        ```
+        </details>
+
+  1.  Mini-S12
+      - WSL 2.2.4.0
+
+        <details>
+        <summary>カーネルバージョン: 5.15.153.1-2</summary>
 
         ```
         WSL バージョン: 2.2.4.0
@@ -75,7 +78,8 @@
         ```
         </details>
 
-  - [履歴](./history/Wsl.md)
+      - Ubuntu 24.04 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
+        - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 126.0.6478.132  <span style="color: red;">*<<2024/06/28 updated from 125.0.6422.197>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
