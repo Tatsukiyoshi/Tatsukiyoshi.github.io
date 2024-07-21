@@ -81,12 +81,10 @@
       - Ubuntu 24.04 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
         - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 126.0.6478.132  <span style="color: red;">*<<2024/06/28 updated from 125.0.6422.197>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
+  - バージョン 126.0.6478.178  <span style="color: red;">*<<2024/07/21 updated from 126.0.6478.132>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240721_Chrome_OS_Flex_126.0.6478.178.png)
     - 更新中
-      ![Now Update](./images/Chrome/20240628_Chrome_OS_Flex_Update126.0.6478.132.png)
-  - Debian 12.6 <span style="color: red;">*<<2024/07/13 updated from 12.5>>*</span>
-    ![Update 12.6](./images/Chrome/20240713_changed_debian_12.6.png)
+      ![Now Update](./images/Chrome/20240721_Chrome_OS_Flex_Update126.0.6478.178.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 

@@ -1,4 +1,10 @@
 # Chrome OS Flex
+- バージョン 126.0.6478.132  <span style="color: red;">*<<2024/06/28 updated from 125.0.6422.197>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
+  - 更新中
+    ![Now Update](../images/Chrome/20240628_Chrome_OS_Flex_Update126.0.6478.132.png)
+- Debian 12.6 <span style="color: red;">*<<2024/07/13 updated from 12.5>>*</span>
+  ![Update 12.6](../images/Chrome/20240713_changed_debian_12.6.png)
 - バージョン 125.0.6422.197  <span style="color: red;">*<<2024/06/26 updated from 125.0.6422.140>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240626_Chrome_OS_Flex_125.0.6422.197.png)
   - 更新中
