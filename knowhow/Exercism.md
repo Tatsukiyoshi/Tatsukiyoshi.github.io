@@ -73,11 +73,17 @@
     |isogram               |<span style="color: red;">*finished*</span>
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
-    |nucleotide-count      |**2024/07/19**  <span style="color: red;">*finished*</span>
-    |paasio
-    |palindrome-products
+    |nucleotide-count      |<span style="color: red;">*finished*</span>
+    |paasio                |<span style="color: yellow;">*suspended*</span>
+    |palindrome-products   |**2024/07/22**  <span style="color: red;">*finished*</span>
+    |pangram               |**2024/07/22**  <span style="color: red;">*finished*</span>
+    |pascals-triangle
+    |perfect-numbers
+    |pig-latin
+    |queen-attack
     |space-age             |<span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
+
   </details>
 
 - kotlin
