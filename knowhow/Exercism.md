@@ -75,12 +75,17 @@
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
     |nucleotide-count      |<span style="color: red;">*finished*</span>
     |paasio                |<span style="color: yellow;">*suspended*</span>
-    |palindrome-products   |**2024/07/22**  <span style="color: red;">*finished*</span>
-    |pangram               |**2024/07/22**  <span style="color: red;">*finished*</span>
-    |pascals-triangle
-    |perfect-numbers
-    |pig-latin
-    |queen-attack
+    |palindrome-products   |<span style="color: red;">*finished*</span>
+    |pangram               |<span style="color: red;">*finished*</span>
+    |pascals-triangle      |**2024/07/23**  <span style="color: red;">*finished*</span>
+    |perfect-numbers       |**2024/07/23**  <span style="color: red;">*finished*</span>
+    |pig-latin             |**2024/07/23**  <span style="color: red;">*finished*</span>
+    |queen-attack          |**2024/07/23**  <span style="color: red;">*finished*</span>
+    |rna-transcription
+    |run-length-encoding
+    |saddle-points
+    |say
+    |scrabble-score
     |space-age             |<span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
 
