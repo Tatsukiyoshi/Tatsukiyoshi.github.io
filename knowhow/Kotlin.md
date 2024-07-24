@@ -89,19 +89,6 @@
     }
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
-### Androidプログラミング
-  - [Kotlin 1.9.23](https://kotlinlang.org/docs/home.html)
-  - プロジェクト残課題状況
-    - AnimalBook
-      - [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) *Fixed*
-    - MyCountdownTimer *No Problem*
-      - リセット時に3:00に表示が戻らない
-        - リセット後、すぐにカウントダウンするため、2:59になることで問題なし
-    - MyScheduler
-      - [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
-    - MySlideshow
-      - 起動時にNotImplementedErrorで起動できない *Fixed*
-        - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
 ### Android Studio
   - Android Studio Koala | 2024.1.1 Patch 1
     ```
@@ -320,18 +307,18 @@
     - Chipmunk 対応
       - Gradle 7.3.3 and Android Gradle Plugin 7.2.0
     - Arctic Fox 対応として吸収すべき課題 **@2021/11/23** <span style="color: red;">*updated!*</span>
-      - Android Studio Arctic Fox 2020.3.1 (based IntelliJ 2020.3) <font color=red><strong>Wrote first at 2021.8.20</strong></font>
+      - Android Studio Arctic Fox 2020.3.1 (based IntelliJ 2020.3) <span style="color: red;">*Wrote first at 2021.8.20*</span>
         - 環境刷新
-          - Kotlln 1.6.0 <font color=red><strong>Update at 2021.11.23</strong></font><BR>
+          - Kotlin 1.6.0 <span style="color: red;">*Update at 2021.11.23*</span><BR>
           Build.gradleでKotlinバージョンを変更
           - Gradle V7.0 <BR>
           Project Referenceで使用するGradleのバージョンを変更
-              - Android Gradle Plugin Version: 7.0.3 <font color=red><strong>Update at 2021.11.23</strong></font>
+              - Android Gradle Plugin Version: 7.0.3 <span style="color: red;">*Update at 2021.11.23*</span>
               - Gradle Version: 7.0.2
           - JDK 11 <BR>
           Android Studioに含まれるJDKがJDK11に変更になり、同じJDKをGradle実行にも使用するため、Gradle SettingでAndroid Studioに含まれるJDKを使用するように変更する
 
-          build.gradle(project) <font color=red><strong>Update at 2021.8.20</strong></font>
+          build.gradle(project) <span style="color: red;">*Update at 2021.8.20*</span>
           ```
           buildscript {
               ext.kotlin_version = '1.5.21'
@@ -345,267 +332,279 @@
               }
           }
           ```
-        - 非互換として吸収すべき課題
-          - SDKバージョン範囲の見直し <font color=red><strong>Update at 2021.8.20</strong></font><BR>
-            ビルド時に下記メッセージが出るため、SDKバージョンを26以上にする
-            * "Invoke-customs are only supported starting with Android O (--min-api 26)"
-            * "Default interface methods are only supported starting with Android N (--min-api 24)
-            * "Static interface methods are only supported starting with Android N (--min-api 24)
-          - マニフェスト <font color=red><strong>Update at 2021.8.20</strong></font>
-            * アクティビティのエクスポート
-              manifestでintent-filerを使っているため、下記を参照して設定。<BR>
-            https://developer.android.com/guide/topics/manifest/activity-element#exported <BR>
-            intent-filterを指定している場合には、android:exportedをtrueにする必要あり
-            ```
-            <activity android:name=".MainActivity" android:exported="true">
-                <intent-filter>
-                ...
-                </intent-filter>
-            </activity>
-            ```
-          - ビューバインディング <BR>
-              Android 3.5までの実装を変更する <BR>
-              https://developer.android.com/topic/libraries/view-binding?hl=ja
-              - ビューバインディングの使用を宣言する <BR>
-              build.gradle(app)
-              ```
-              android {
-                  viewBinding {
-                      enabled = true
-                  }
+### Android
+  - Android 15 (API 35)
+    - Android Studio Koala / Android SDK 35等を配置し、実行確認
+      ![MyApplication](../images/Android/20240724_MyApplication_API35.png)
+    - レイアウトが崩れる事象
+      - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
+  - Android 12 / 非互換として吸収すべき課題
+    - SDKバージョン範囲の見直し <span style="color: red;">*Update at 2021.8.20*</span>
+      - ビルド時に下記メッセージが出るため、SDKバージョンを26以上にする
+        - "Invoke-customs are only supported starting with Android O (--min-api 26)"
+        - "Default interface methods are only supported starting with Android N (--min-api 24)
+        - "Static interface methods are only supported starting with Android N (--min-api 24)
+    - マニフェスト <span style="color: red;">*Update at 2021.8.20*</span>
+      - [アクティビティのエクスポート](https://developer.android.com/guide/topics/manifest/activity-element#exported)
+        - manifestでintent-filterを使っている場合、android:exportedをtrueにする必要あり
+          ```xml
+          <activity android:name=".MainActivity" android:exported="true">
+              <intent-filter>
+              ...
+              </intent-filter>
+          </activity>
+          ```
+    - [ビューバインディング](https://developer.android.com/topic/libraries/view-binding?hl=ja)
+      - Android 3.5までの実装を変更する
+      - ビューバインディングの使用を宣言する <BR>
+        - build.gradle(app)
+          ```json
+          android {
+              viewBinding {
+                  enabled = true
               }
+          }
+          ```
+      - ビューバインディング使用により、不要になるkotlin-android-extensionsプラグインを削除する（削除すると、下記のようになる）
+        ```json
+        plugins {
+            id 'com.android.application'
+            id 'kotlin-android'
+        }
+        ```
+      - 要素に応じた修正を行う
+        1.  アクティビティの場合
+            - アクティビティにバインディングクラスのインスタンス変数を追加する
               ```
-              - ビューバインディング使用により、不要になるkotlin-android-extensionsプラグインを削除する（削除すると、下記のようになる）
-              ```
-              plugins {
-                  id 'com.android.application'
-                  id 'kotlin-android'
-              }
-              ```
-              - アクティビティの場合
-                - アクティビティにバインディングクラスのインスタンス変数を追加する
-                ```
-                class MainActivity : AppCompatActivity() {
-                    private lateinit var binding: ActivityMainBinding
-                    ...
-                }
-                ```
-                - インポートする名前空間を変更する（上記の変数を追加するとIDEからメッセージが出る）
-                  ```
-                  import kotlinx.android.synthetic.main.activity_main.*
-                  ```
-                  ```
-                  import com.example.helloandroid.databinding.ActivityMainBinding
-                  ```
-                - 初期化時にバインディングクラスのインスタンス変数を初期化し、ルートビューへの参照を取得する
-                  ```
-                  override fun onCreate(savedInstanceState: Bundle?) {
-                      super.onCreate(savedInstanceState)
-                      binding = ActivityMainBinding.inflate(layoutInflater)
-                      val view = binding.root
-                      setContentView(view)
-                      ...
-                  }
-                  ```
-                - アクティビティ内の項目へのアクセスを変更する
-                  ```
-                  override fun onCreate(savedInstanceState: Bundle?) {
-                      ...
-                      tapHere.setOnClickListener {
-                          textView.text = "ボタンがタップされました"
-                      }
-                  }
-                  ```
-                  ↓
-                  ```
-                  override fun onCreate(savedInstanceState: Bundle?) {
-                      ...
-                      binding.tapHere.setOnClickListener {
-                          binding.textView.text = "ボタンがタップされました"
-                      }
-                  }
-                  ```
-              - フラグメントの場合
-                - フラグメントにバインディングクラスのインスタンス変数を追加する
-                  ```
-                  private var _binding: ResultProfileBinding? = null
-                  // This property is only valid between onCreateView and
-                  // onDestroyView.
-                  private val binding get() = _binding!!
-                  ```
-                - フラグメントの初期化時にバインディングクラスのインスタンス変数を初期化し、ルートビューへの参照を取得する
-                  ```
-                  override fun onCreateView(
-                      inflater: LayoutInflater,
-                      container: ViewGroup?,
-                      savedInstanceState: Bundle?
-                  ): View {
-                      _binding = ResultProfileBinding.inflate(inflater, container, false)
-                      val view = binding.root
-                      return view
-                  }
-                  ```
-                - フラグメントの破棄時にバインディングクラスのインスタンス変数を解放する
-                  ```
-                  override fun onDestroyView() {
-                      super.onDestroyView()
-                      _binding = null
-                  }
-                  ```
-                - フラグメント内の項目への参照を変更する
-                  ```
-                  name.text = viewModel.name
-                  button.setOnClickListener { viewModel.userClicked() }
-                  ```
-                  ↓
-                  ```
-                  binding.name.text = viewModel.name
-                  binding.button.setOnClickListener { viewModel.userClicked() }
-                  ```
-                - フラグメントをアクティビティ内で機能させる <font color=red><strong>Update at 2021.8.21</strong></font><BR>
-                  https://developer.android.com/guide/fragments/fragmentmanager
-                  - フラグメント生成
-                    ```
-                    val fragment = TitleFragment()
-                    fragment.setTitle("フラグメント動物図鑑")
-                    ```
-                  - フラグメントマネージャーの取得
-                    ```
-                    val fragmentManeger = this.supportFragmentManager
-                    ```
-                  - トランザクション実行 <BR>
-                    下記例では、トランザクション開始～フラグメント追加～トランザクション終了（コミット）を一連のブロック(commitブロック)で実行する
-                    ```
-                    supportFragmentManager.commit {
-                        replace(R.id.fragmentContainerView, fragment)
-                        addToBackStack("name") // name can be null
-                    }
-                    ```
-          - 共有プリファレンス
-            - build.gradle(app)に以下を追加する        
-                ```
-                dependencies {
-                    ...
-                    implemetation 'androidx.preference:preference-ktx:1.1.0'
-                    ...
-                }
-                ```
-            - FragmentStatePagerAdapterの置換 <font color=red><strong>Update at 2021.8.22</strong></font><BR>
-              - アダプタの継承クラスのコンストラクタの継承元をFragmentStateAdapterに置き換える <BR>
-                https://developer.android.com/reference/androidx/fragment/app/FragmentStatePagerAdapter
-                  ```
-                  class MyAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm){
-                      ...
-                      override fun getCount(): Int {
-                          ...
-                      }
-                  }
-                  ```
-                  https://developer.android.com/reference/androidx/viewpager2/adapter/FragmentStateAdapter
-                  ```
-                  class MyAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa){
-                      ...
-                      override fun getItemCount(): Int {
-                          ...
-                      }
-                  }
-                  ```
-              - アクティビティでのアダプタへのアクセスを変更する
-                  ```
-                  binding.pager.adapter = MyAdapter(supportFragmentManager)
-                  ```
-                  ↓
-                  ```
-                  binding.pager.adapter = MyAdapter(this)
-                  ```
-            - タイマ処理におけるハンドラ周りを見直す <font color=red><strong>Update at 2021.8.22</strong></font><BR> 
-              https://developer.android.com/reference/kotlin/android/os/Handler?hl=en
-              - ハンドラ生成の見直し
-                  ```
-                  var handler = Handler()
-                  ```
-                  ↓
-                  ```
-                  Looper.prepare()
-                  val handler = Looper.myLooper()?.let { Handler(it, null) }
-                  ```
-              - ハンドラ利用の見直し（セーフアクセス修飾子）
-                  ```
-                  timer(period = 5000){
-                      handler.post {
-                          ...
-                      }
-                  }
-                  ```
-                  ↓
-                  ```
-                  timer(period = 5000){
-                      handler?.post {
-                          ...
-                      }
-                  }
-                  ```
-            - フラグメント作成後の処理手続きの変更 <font color=red><strong>Update at 2021.8.22</strong></font><BR>
-              onActivityCreatedメソッドでの実行は非推奨となったため、フラグメントのビューをタッチするコードは、onActivityCreatedメソッドの実行直前に呼び出されるonViewCreatedメソッドでの実行に変更。その他の初期化コードは onCreate() 内での実行に変更。
-              ```
-              override fun onActivityCreated(...){
+              class MainActivity : AppCompatActivity() {
+                  private lateinit var binding: ActivityMainBinding
                   ...
+              }
+              ```
+            - インポートする名前空間を変更する（上記の変数を追加するとIDEからメッセージが出る）
+              ```
+              import kotlinx.android.synthetic.main.activity_main.*
+              ```
+              ```
+              import com.example.helloandroid.databinding.ActivityMainBinding
+              ```
+            - 初期化時にバインディングクラスのインスタンス変数を初期化し、ルートビューへの参照を取得する
+              ```
+              override fun onCreate(savedInstanceState: Bundle?) {
+                  super.onCreate(savedInstanceState)
+                  binding = ActivityMainBinding.inflate(layoutInflater)
+                  val view = binding.root
+                  setContentView(view)
+                  ...
+              }
+              ```
+            - アクティビティ内の項目へのアクセスを変更する
+              ```
+              override fun onCreate(savedInstanceState: Bundle?) {
+                  ...
+                  tapHere.setOnClickListener {
+                      textView.text = "ボタンがタップされました"
+                  }
               }
               ```
               ↓
               ```
-              override fun onViewCreated(...){
+              override fun onCreate(savedInstanceState: Bundle?) {
                   ...
+                  binding.tapHere.setOnClickListener {
+                      binding.textView.text = "ボタンがタップされました"
+                  }
               }
               ```
-            - SoundPool(Lollipopで非推奨) <font color=red><strong>Update at 2021.8.25</strong></font><BR>
-              https://developer.android.com/reference/kotlin/android/media/SoundPool?hl=en
+        1.  フラグメントの場合
+            - フラグメントにバインディングクラスのインスタンス変数を追加する
+              ```kt
+              private var _binding: ResultProfileBinding? = null
+              // This property is only valid between onCreateView and
+              // onDestroyView.
+              private val binding get() = _binding!!
               ```
-              soundPool = SoundPool.Builder()
-                          .setMaxStreams(1)
-                          .setAudioAttributes(audioAttributes)
-                          .build()
+            - フラグメントの初期化時にバインディングクラスのインスタンス変数を初期化し、ルートビューへの参照を取得する
+              ```kt
+              override fun onCreateView(
+                  inflater: LayoutInflater,
+                  container: ViewGroup?,
+                  savedInstanceState: Bundle?
+              ): View {
+                  _binding = ResultProfileBinding.inflate(inflater, container, false)
+                  val view = binding.root
+                  return view
+              }
               ```
-            - PendingIntent.getBroadcast <font color=red><strong>Update at 2021.8.25</strong></font><BR>
-              lintでMuttable Flagを指定されていないと指摘されるため、指定するように変更
-            - SimpleDateFormat <font color=red><strong>Update at 2021.8.25</strong></font><BR>
-              lintでロケールを指定するよう指摘されるため、ロケールを指定するように変更
-            - Realm 環境の更新 <font color=red><strong>Update at 2021.8.28</strong></font><BR>
-              https://docs.mongodb.com/realm/sdk/android/install/
-              - build.gradle(project)
+            - フラグメントの破棄時にバインディングクラスのインスタンス変数を解放する
+              ```kt
+              override fun onDestroyView() {
+                  super.onDestroyView()
+                  _binding = null
+              }
+              ```
+            - フラグメント内の項目への参照を変更する
+              ```kt
+              name.text = viewModel.name
+              button.setOnClickListener { viewModel.userClicked() }
+              ```
+              ↓
+              ```kt
+              binding.name.text = viewModel.name
+              binding.button.setOnClickListener { viewModel.userClicked() }
+              ```
+            - [フラグメントをアクティビティ内で機能させる](https://developer.android.com/guide/fragments/fragmentmanager) <span style="color: red;">*Update at 2021.8.21*</span>              
+              - フラグメント生成
+                ```kt
+                val fragment = TitleFragment()
+                fragment.setTitle("フラグメント動物図鑑")
                 ```
-                buildscript {
-                    repositories {
-                        google()
-                        mavenCentral()
-                        jcenter()
-                    }
-                    dependencies {
-                        classpath "com.android.tools.build:gradle:7.0.1"
-                        classpath "io.realm:realm-gradle-plugin:10.7.0"
-                    }
-                }
-                allprojects {
-                    repositories {
-                        google()
-                        mavenCentral()
-                        jcenter()
-                    }
-                    dependencies {
-                    }
-                }
-                task clean(type: Delete) {
-                    delete rootProject.buildDir
-                }
+              - フラグメントマネージャーの取得
+                ```kt
+                val fragmentManeger = this.supportFragmentManager
                 ```
-              - build.gradle(app)
-                ```
-                plugins {
-                    id 'kotlin-kapt'
-                    id 'realm-android'
-                }
+              - トランザクション実行
+                - 下記例では、トランザクション開始～フラグメント追加～トランザクション終了（コミット）を一連のブロック(commitブロック)で実行する
+                  ```kt
+                  supportFragmentManager.commit {
+                      replace(R.id.fragmentContainerView, fragment)
+                      addToBackStack("name") // name can be null
+                  }
+                  ```
+    - 共有プリファレンス
+      - build.gradle(app)に以下を追加する        
+        ```json
+        dependencies {
+            ...
+            implemetation 'androidx.preference:preference-ktx:1.1.0'
+            ...
+        }
+        ```
+      - FragmentStatePagerAdapterの置換 <span style="color: red;">*Update at 2021.8.22*</span>
+        - アダプタの継承クラスのコンストラクタの継承元をFragmentStateAdapterに置き換える
+          - https://developer.android.com/reference/androidx/fragment/app/FragmentStatePagerAdapter
+            ```kt
+            class MyAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm){
                 ...
-                realm {
-                    syncEnabled = true
+                override fun getCount(): Int {
+                    ...
                 }
-                ```
+            }
+            ```
+          - https://developer.android.com/reference/androidx/viewpager2/adapter/FragmentStateAdapter
+            ```kt
+            class MyAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa){
+                ...
+                override fun getItemCount(): Int {
+                    ...
+                }
+            }
+            ```
+        - アクティビティでのアダプタへのアクセスを変更する
+          ```kt
+          binding.pager.adapter = MyAdapter(supportFragmentManager)
+          ```
+          ↓
+          ```kt
+          binding.pager.adapter = MyAdapter(this)
+          ```
+      - [タイマ処理におけるハンドラ周りを見直す](https://developer.android.com/reference/kotlin/android/os/Handler?hl=en) <span style="color: red;">*Update at 2021.8.22*</span>
+        - ハンドラ生成の見直し
+          ```kt
+          var handler = Handler()
+          ```
+          ↓
+          ```kt
+          Looper.prepare()
+          val handler = Looper.myLooper()?.let { Handler(it, null) }
+          ```
+        - ハンドラ利用の見直し（セーフアクセス修飾子）
+          ```kt
+          timer(period = 5000){
+              handler.post {
+                  ...
+              }
+          }
+          ```
+          ↓
+          ```kt
+          timer(period = 5000){
+              handler?.post {
+                  ...
+              }
+          }
+          ```
+      - フラグメント作成後の処理手続きの変更 <span style="color: red;">*Update at 2021.8.22*</span>
+        - onActivityCreatedメソッドでの実行は非推奨となったため、フラグメントのビューをタッチするコードは、onActivityCreatedメソッドの実行直前に呼び出されるonViewCreatedメソッドでの実行に変更。その他の初期化コードは onCreate() 内での実行に変更。
+          ```kt
+          override fun onActivityCreated(...){
+              ...
+          }
+          ```
+          ↓
+          ```kt
+          override fun onViewCreated(...){
+              ...
+          }
+          ```
+      - [SoundPool(Lollipopで非推奨)](https://developer.android.com/reference/kotlin/android/media/SoundPool?hl=en) <span style="color: red;">*Update at 2021.8.25*</span>
+        ```kt
+        soundPool = SoundPool.Builder()
+                    .setMaxStreams(1)
+                    .setAudioAttributes(audioAttributes)
+                    .build()
+        ```
+      - PendingIntent.getBroadcast <span style="color: red;">*Update at 2021.8.25*</span>
+        - lintでMuttable Flagを指定されていないと指摘されるため、指定するように変更
+      - SimpleDateFormat <span style="color: red;">*Update at 2021.8.25*</span>
+        - lintでロケールを指定するよう指摘されるため、ロケールを指定するように変更
+      - [Realm 環境の更新](https://docs.mongodb.com/realm/sdk/android/install/) <span style="color: red;">*Update at 2021.8.28*</span>
+        - build.gradle(project)
+          ```json
+          buildscript {
+              repositories {
+                  google()
+                  mavenCentral()
+                  jcenter()
+              }
+              dependencies {
+                  classpath "com.android.tools.build:gradle:7.0.1"
+                  classpath "io.realm:realm-gradle-plugin:10.7.0"
+              }
+          }
+          allprojects {
+              repositories {
+                  google()
+                  mavenCentral()
+                  jcenter()
+              }
+              dependencies {
+              }
+          }
+          task clean(type: Delete) {
+              delete rootProject.buildDir
+          }
+          ```
+        - build.gradle(app)
+          ```json
+          plugins {
+              id 'kotlin-kapt'
+              id 'realm-android'
+          }
+          ...
+          realm {
+              syncEnabled = true
+          }
+          ```
+### Androidプログラミング
+  - プロジェクト残課題状況
+    - AnimalBook
+      - [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) *Fixed*
+    - MyCountdownTimer *No Problem*
+      - リセット時に3:00に表示が戻らない
+        - リセット後、すぐにカウントダウンするため、2:59になることで問題なし
+    - MyScheduler
+      - [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
+    - MySlideshow
+      - 起動時にNotImplementedErrorで起動できない *Fixed*
+        - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
