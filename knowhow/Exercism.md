@@ -77,12 +77,12 @@
     |paasio                |<span style="color: yellow;">*suspended*</span>
     |palindrome-products   |<span style="color: red;">*finished*</span>
     |pangram               |<span style="color: red;">*finished*</span>
-    |pascals-triangle      |**2024/07/23**  <span style="color: red;">*finished*</span>
-    |perfect-numbers       |**2024/07/23**  <span style="color: red;">*finished*</span>
-    |pig-latin             |**2024/07/23**  <span style="color: red;">*finished*</span>
-    |queen-attack          |**2024/07/23**  <span style="color: red;">*finished*</span>
-    |rna-transcription
-    |run-length-encoding
+    |pascals-triangle      |<span style="color: red;">*finished*</span>
+    |perfect-numbers       |<span style="color: red;">*finished*</span>
+    |pig-latin             |<span style="color: red;">*finished*</span>
+    |queen-attack          |<span style="color: red;">*finished*</span>
+    |rna-transcription     |**2024/07/24**  <span style="color: red;">*finished*</span>
+    |run-length-encoding   |**2024/07/24**  <span style="color: red;">*finished*</span>
     |saddle-points
     |say
     |scrabble-score
