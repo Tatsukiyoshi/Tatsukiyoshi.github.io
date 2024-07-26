@@ -81,11 +81,11 @@
     |perfect-numbers       |<span style="color: red;">*finished*</span>
     |pig-latin             |<span style="color: red;">*finished*</span>
     |queen-attack          |<span style="color: red;">*finished*</span>
-    |rna-transcription     |**2024/07/24**  <span style="color: red;">*finished*</span>
-    |run-length-encoding   |**2024/07/24**  <span style="color: red;">*finished*</span>
-    |saddle-points
-    |say
-    |scrabble-score
+    |rna-transcription     |<span style="color: red;">*finished*</span>
+    |run-length-encoding   |<span style="color: red;">*finished*</span>
+    |saddle-points         |**2024/07/25**  <span style="color: red;">*finished*</span>
+    |say                   |**2024/07/25**  <span style="color: red;">*finished*</span>
+    |scrabble-score        |**2024/07/25**  <span style="color: red;">*finished*</span>
     |space-age             |<span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
 
