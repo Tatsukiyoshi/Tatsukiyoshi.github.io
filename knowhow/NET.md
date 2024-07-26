@@ -3,7 +3,7 @@
 ##  独学書
 
   |テキスト                                                      |日付      |進捗状況
-  |------------------------------------------------------------|----------|---
+  |-------------------------------------------------------------|----------|---
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
@@ -12,9 +12,9 @@
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 4.0 |[2024/07/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 6                             |[2024/07/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
-  |           |- .NET 8.0.6                                     |[2024/06/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |Mini-S12   |Visual Studio Community 2022 17.10.4             |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
-  |           |- .NET 8.0.7                                     |2024/07/13
+  |           |- .NET 8.0.6                                     |2024/06/22
+  |Mini-S12   |Visual Studio Community 2022 17.10.5             |[2024/07/26](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |           |- .NET 8.0.7                                     |[2024/07/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- [MAUI 8.0.61(SR6.1)](#maui)                    |[2024/07/13](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
@@ -23,6 +23,7 @@
   - Visual Studio 2022 17.11 Preview
     ![VS2022 17.11 Preview 4.0](../images/VisualStudio/20240722_Update_VS2022_17.11_Preview4.0.png)
   - Visual Studio 2022 17.10
+    ![VS2022 17.10.5](../images/VisualStudio/20240726_Update_VS2022_17.10.5.png)
     - Visual Studio 2022 17.10.3
       - GitHub Copilotの利用
         - 早速、無料試用版の利用開始を促される <BR />
@@ -54,7 +55,7 @@
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0 Preview 5](../images/VisualStudio/20240723_dotnet9_Preview6.png)
+      ![.NET 9.0 Preview 6](../images/VisualStudio/20240723_dotnet9_Preview6.png)
   - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/06/22* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
       ![.NET 8.0.7](../images/VisualStudio/20240713_dotnet8.0.7.png)
@@ -64,7 +65,7 @@
   dotnet --info
   ```
   <details>
-  <summary>IdeaPad</summary>
+  <summary>Visual Studio 2022 Preview / IdeaPad</summary>
 
   ```
   .NET SDK:
@@ -123,7 +124,7 @@
   ```
   </details>
   <details>
-  <summary>Mini-S12</summary>
+  <summary>Visual Studio 2022 / Mini-S12</summary>
 
   ```
   .NET SDK:
@@ -141,25 +142,25 @@
 
   インストール済みの .NET ワークロード:
   [maui-windows]
-    インストール ソース: VS 17.10.35027.167
+    インストール ソース: VS 17.10.35122.118
     マニフェストのバージョン:    8.0.61/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.61\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [android]
-    インストール ソース: VS 17.10.35027.167
+    インストール ソース: VS 17.10.35122.118
     マニフェストのバージョン:    34.0.95/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.95\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maccatalyst]
-    インストール ソース: VS 17.10.35027.167
+    インストール ソース: VS 17.10.35122.118
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [ios]
-    インストール ソース: VS 17.10.35027.167
+    インストール ソース: VS 17.10.35122.118
     マニフェストのバージョン:    17.2.8053/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.2.8053\WorkloadManifest.json
     インストールの種類:        FileBased
