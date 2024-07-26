@@ -73,11 +73,27 @@
     |isogram               |<span style="color: red;">*finished*</span>
     |luhn                  |<span style="color: red;">*finished*</span>
     |minesweeper           |<span style="color: yellow;">*suspended*</span>
-    |nucleotide-count      |**2024/07/19**  <span style="color: red;">*finished*</span>
-    |paasio
-    |palindrome-products
+    |nucleotide-count      |<span style="color: red;">*finished*</span>
+    |paasio                |<span style="color: yellow;">*suspended*</span>
+    |palindrome-products   |<span style="color: red;">*finished*</span>
+    |pangram               |<span style="color: red;">*finished*</span>
+    |pascals-triangle      |<span style="color: red;">*finished*</span>
+    |perfect-numbers       |<span style="color: red;">*finished*</span>
+    |pig-latin             |<span style="color: red;">*finished*</span>
+    |queen-attack          |<span style="color: red;">*finished*</span>
+    |rna-transcription     |<span style="color: red;">*finished*</span>
+    |run-length-encoding   |<span style="color: red;">*finished*</span>
+    |saddle-points         |<span style="color: red;">*finished*</span>
+    |say                   |<span style="color: red;">*finished*</span>
+    |scrabble-score        |<span style="color: red;">*finished*</span>
+    |sieve                 |**2024/07/26**  <span style="color: red;">*finished*</span>
+    |simple-linked-list
     |space-age             |<span style="color: red;">*finished*</span>
+    |spiral-matrix
     |sublist               |<span style="color: red;">*finished*</span>
+    |tournament
+    |triangle
+
   </details>
 
 - kotlin

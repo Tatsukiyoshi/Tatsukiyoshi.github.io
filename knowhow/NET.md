@@ -10,8 +10,8 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 3.0 |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
-  |           |- .NET 9.0 Preview 5                             |[2024/06/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
+  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 4.0 |[2024/07/22](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |           |- .NET 9.0 Preview 6                             |[2024/07/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.6                                     |[2024/06/22](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |Mini-S12   |Visual Studio Community 2022 17.10.4             |[2024/07/13](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.7                                     |2024/07/13
@@ -21,7 +21,7 @@
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.11 Preview
-    ![VS2022 17.11 Preview 3.0](../images/VisualStudio/20240713_Update_VS2022_17.11_Preview3.0.png)
+    ![VS2022 17.11 Preview 4.0](../images/VisualStudio/20240722_Update_VS2022_17.11_Preview4.0.png)
   - Visual Studio 2022 17.10
     - Visual Studio 2022 17.10.3
       - GitHub Copilotの利用
@@ -50,11 +50,11 @@
       ![スペルチェッカ](../images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
-  - [.NET 9.0 Preview 5](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/06/22* <span style="color: red;">Updated!</span>)
+  - [.NET 9.0 Preview 6](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/07/22* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0 Preview 5](../images/VisualStudio/20240622_dotnet9_Preview5.png)
+      ![.NET 9.0 Preview 5](../images/VisualStudio/20240723_dotnet9_Preview6.png)
   - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/06/22* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
       ![.NET 8.0.7](../images/VisualStudio/20240713_dotnet8.0.7.png)
@@ -68,42 +68,42 @@
 
   ```
   .NET SDK:
-  Version:           9.0.100-preview.5.24307.3
-  Commit:            35b2c21ea6
-  Workload version:  9.0.100-manifests.6407b7e4
-  MSBuild version:   17.11.0-preview-24279-02+b963c24ef
+  Version:           9.0.100-preview.6.24328.19
+  Commit:            ef4c241666
+  Workload version:  9.0.100-manifests.bbb3781c
+  MSBuild version:   17.11.0-preview-24318-05+4a45d5633
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.26120
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.5.24307.3\
+  Base Path:   C:\Program Files\dotnet\sdk\9.0.100-preview.6.24328.19\
 
   インストール済みの .NET ワークロード:
-  Configured to use loose manifests when installing new manifests.
+  新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
   表示するインストール済みワークロードはありません。
 
   Host:
-    Version:      9.0.0-preview.5.24306.7
+    Version:      9.0.0-preview.6.24327.7
     Architecture: x64
-    Commit:       a5cc707d97
+    Commit:       static
 
   .NET SDKs installed:
     8.0.302 [C:\Program Files\dotnet\sdk]
     8.0.400-preview.0.24324.5 [C:\Program Files\dotnet\sdk]
-    9.0.100-preview.5.24307.3 [C:\Program Files\dotnet\sdk]
+    9.0.100-preview.6.24328.19 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.0-preview.5.24306.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]  
+    Microsoft.AspNetCore.App 9.0.0-preview.6.24328.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.0-preview.5.24306.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.0-preview.5.24306.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.NETCore.App 9.0.0-preview.6.24327.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]   
+    Microsoft.WindowsDesktop.App 8.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]       
+    Microsoft.WindowsDesktop.App 8.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]       
+    Microsoft.WindowsDesktop.App 9.0.0-preview.6.24327.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
