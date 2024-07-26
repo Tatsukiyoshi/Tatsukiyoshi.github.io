@@ -1,4 +1,5 @@
 - 履歴
+  - 2024.2 EAP Build #RR-242.19890.39 <span style="color: red;">**Updated 2024/07/18**</span>
   - 2024.1.5 Build #RR-241.17890.39 <span style="color: red;">**Updated 2024/07/16**</span>
   - 2024.1.4 <span style="color: red;">**Updated 2024/07/11**</span>
   - 2024.1.3 <span style="color: red;">**Updated 2024/06/26**</span>

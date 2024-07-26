@@ -104,12 +104,12 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.19890.39 <span style="color: red;">**Updated 2024/07/18**</span>
+  - RustRover 2024.2 EAP Build #RR-242.19890.43 <span style="color: red;">**Updated 2024/07/25**</span>
     ```
     RustRover 2024.2 EAP
-    Build #RR-242.19890.39, built on July 13, 2024
+    Build #RR-242.19890.43, built on July 20, 2024
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: August 12, 2024
+    有効期限: August 19, 2024
     Runtime version: 21.0.3+13-b509.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -121,10 +121,10 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
-      org.toml.json.schema=false
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      terminal.new.ui.show.promotion=false
       transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      org.toml.json.schema=false
     Non-Bundled Plugins:
       com.jetbrains.space (242.19890.14)
       ru.adelf.idea.dotenv (2024.2)
