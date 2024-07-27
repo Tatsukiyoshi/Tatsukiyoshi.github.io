@@ -14,7 +14,7 @@
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26xxx)](https://aka.ms/DevLatest)
+  - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.1252 (Cumulative Update) <span style="color: red;">*<<2024/07/16 updated from 26120.961>>*</span>
       ![Cumulative Update](./images/Windows/20240716_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
@@ -102,7 +102,7 @@
 - [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
 - [GitHub Desktop 3.4.2](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/07/06 updated from 3.4.0>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-- [PowerShell 7.4.3](https://github.com/PowerShell/PowerShell)
+- [PowerShell 7.4.4](https://github.com/PowerShell/PowerShell)
 - [Docker](./knowhow/Docker.md)
 
 ##  サービス
