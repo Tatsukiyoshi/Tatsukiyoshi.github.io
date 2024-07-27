@@ -16,18 +16,18 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.79](#rust-1)                           |[2024/06/26](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP](#rustrover)             |[2024/07/18](https://www.jetbrains.com/rust/)
+      |Mini-S12   |[Rust 1.80](#rust-1)                           |[2024/07/27](https://www.rust-lang.org/)  
+      |           |[RustRover 2024.2 EAP 2](#rustrover)           |[2024/07/25](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-beta.24](#tauridesktop-framework) |[2024/07/16](https://beta.tauri.app/)
       |           |Bun 1.1.20                                     |[2024/07/16](https://bun.sh/)
-      |           |Slint 1.6.0                                    |[2024/05/22](https://slint.dev/)
+      |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
-      |           |[Bevy 0.13](#game-engine)                      |[2024/03/15](https://bevyengine.org/)
+      |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
 
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |Mini-S12   |Rust 1.79            |2024/07/16
+      |Mini-S12   |Rust 1.80            |2024/07/27
       |           |Tauri 2.0.0-beta.24  |2024/07/16
       |           |React 18.3.1         |2024/05/04
       |           |Vite 5.3.4           |2024/07/16
@@ -91,10 +91,15 @@
       ```sh
       curl https://wasmtime.dev/install.sh -sSf | bash
       ```
-    - ターゲット追加
-      ```sh
-      rustup target add wasm32-wasi
-      ```
+    - ターゲット
+      - 一覧出力
+        ```sh
+        rustc --print=target-list
+        ```
+      - 追加
+        ```sh
+        rustup target add wasm32-wasi
+        ```
     - コンパイル
       ```sh
       rustc hello.rs --target wasm32-wasi
@@ -545,9 +550,9 @@
         cargo tauri dev
         ```
     - Ubuntu 24.04
-      - tauri 1.x
+      - Tauri 1.x
         - そもそも、libjavascriptcoregtk-4.1ではなく、libjavascriptcoregtk-4.0を必要としているため、対応不可と判断。
-      - tauri 2.0
+      - Tauri 2.0
         - 不足するライブラリを追加インストールすることで、実行まで確認
           ```
           sudo apt install libjavascriptcoregtk-4.1*
@@ -607,7 +612,7 @@
         ```
         sudo apt install libwebkit2gtk-4.0-dev
         ```
-  - tauri環境のアップデートについて
+  - Tauri環境のアップデートについて
   1.  windows 11 / Chrome OS Flex
       ```
       % cargo update
@@ -687,6 +692,15 @@
   - デスクトップアプリケーションの参考情報
     - [Tauri(Rust+React+TypeScript) から始めるディスクトップアプリ #4[Menuの実装]](https://zenn.dev/wara0516/articles/5af7ab30483185)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
+  ### Slint
+  - Install cargo-generate
+    ```
+    cargo install cargo-generate
+    ```
+  - Set up with the template
+    ```
+    cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
+    ```
   ### Dioxus(Cross Platform Library)
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
   - CLIツール
