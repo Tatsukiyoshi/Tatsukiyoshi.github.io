@@ -15,10 +15,15 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.1252 (Cumulative Update) <span style="color: red;">*<<2024/07/16 updated from 26120.961>>*</span>
-      ![Cumulative Update](./images/Windows/20240716_WindowsUpdate_DevChannel.png)
+    - Build 26120.1330 (Cumulative Update) <span style="color: red;">*<<2024/07/28 updated from 26120.1252>>*</span>
+      ![Cumulative Update](./images/Windows/20240728_WindowsUpdate_DevChannel.png)
+      - タブの複製（エクスプローラー）
+        ![Duplicate Tab](./images/Windows/20240728_Windows11_Build26120_Explorer.png)
+      - ナレーターの改善
+        ![自然な声](./images/Windows/20240728_Windows11_Build26120_Narrator.png)
+        ![音声選択等](./images/Windows/20240728_Windows11_Build26120_Narrator_Configuration.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20240716_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20240728_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -103,6 +108,11 @@
 - [GitHub Desktop 3.4.2](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/07/06 updated from 3.4.0>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - [PowerShell 7.4.4](https://github.com/PowerShell/PowerShell)
+  - 製品版では、ストアアプリとして更新できる一方、Insider Preview環境では、ストアで更新できない。Windowsターミナルに表示されたリンクからダウンロードの上、セットアップする必要あり
+    - Windowsターミナルの表示
+      ![7.4.4 available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
+    - インストーラでのセットアップ
+      ![7.4.4 setup](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 - [Docker](./knowhow/Docker.md)
 
 ##  サービス
