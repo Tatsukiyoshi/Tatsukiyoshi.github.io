@@ -84,12 +84,12 @@
     |rna-transcription     |<span style="color: red;">*finished*</span>
     |run-length-encoding   |<span style="color: red;">*finished*</span>
     |saddle-points         |<span style="color: red;">*finished*</span>
-    |say                   |<span style="color: red;">*finished*</span>
+    |say                   |<span style="color: red;">*finished*</span><br /> but failed on exercism, and requested review
     |scrabble-score        |<span style="color: red;">*finished*</span>
-    |sieve                 |**2024/07/26**  <span style="color: red;">*finished*</span>
-    |simple-linked-list
+    |sieve                 |<span style="color: red;">*finished*</span>
+    |simple-linked-list    |<span style="color: yellow;">*4 tests / 9 tests passed*</span>
     |space-age             |<span style="color: red;">*finished*</span>
-    |spiral-matrix
+    |spiral-matrix         |**2024/07/31**  <span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
     |tournament
     |triangle
