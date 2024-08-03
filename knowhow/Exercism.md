@@ -19,7 +19,7 @@
 ##  環境
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
-  |IdeaPad    |CLI 1.5.3    |2024/06/26
+  |IdeaPad    |CLI 1.5.3    |[2024/06/26](https://exercism.org/docs/using/solving-exercises/working-locally)
 
 ##  実践
 
@@ -89,9 +89,9 @@
     |sieve                 |<span style="color: red;">*finished*</span>
     |simple-linked-list    |<span style="color: yellow;">*4 tests / 9 tests passed*</span>
     |space-age             |<span style="color: red;">*finished*</span>
-    |spiral-matrix         |**2024/07/31**  <span style="color: red;">*finished*</span>
+    |spiral-matrix         |<span style="color: red;">*finished*</span>
     |sublist               |<span style="color: red;">*finished*</span>
-    |tournament
+    |tournament            |**2024/08/03**  <span style="color: red;">*finished*</span>
     |triangle
 
   </details>
