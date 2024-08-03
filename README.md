@@ -86,10 +86,13 @@
       - Ubuntu 24.04 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
         - [履歴](./history/Wsl.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 126.0.6478.178  <span style="color: red;">*<<2024/07/21 updated from 126.0.6478.132>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240721_Chrome_OS_Flex_126.0.6478.178.png)
-    - 更新中
-      ![Now Update](./images/Chrome/20240721_Chrome_OS_Flex_Update126.0.6478.178.png)
+  - バージョン 126.0.6478.222  <span style="color: red;">*<<2024/08/03 updated from 126.0.6478.214>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240803_Chrome_OS_Flex_126.0.6478.222.png)
+    ![Updating](./images/Chrome/20240803_Chrome_OS_Flex_Updating126.0.6478.222.png)
+    ![Reboot](./images/Chrome/20240803_Chrome_OS_Flex_Update126.0.6478.222.png)
+  - バージョン 126.0.6478.214  <span style="color: red;">*<<2024/08/03 updated from 126.0.6478.178>>*</span>
+    ![UpdateCheck](./images/Chrome/20240803_Chrome_OS_Flex_UpdateCheck126.0.6478.214.png)
+    ![Reboot](./images/Chrome/20240803_Chrome_OS_Flex_Update126.0.6478.214.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
@@ -203,6 +206,14 @@
     ```
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
+    ```
+  - ブランチ確認
+    ```
+    git branch --contains
+    ```
+  - ブランチ変更
+    ```
+    git checkout <ブランチ名>
     ```
 - PowerShell
   - インストール
