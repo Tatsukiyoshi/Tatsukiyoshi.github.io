@@ -18,8 +18,8 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.80](#rust-1)                           |[2024/07/27](https://www.rust-lang.org/)  
       |           |[RustRover 2024.2 EAP 2](#rustrover)           |[2024/07/25](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-beta.24](#tauridesktop-framework) |[2024/07/16](https://beta.tauri.app/)
-      |           |Bun 1.1.20                                     |[2024/07/16](https://bun.sh/)
+      |           |[Tauri 2.0.0-rc.0](#tauridesktop-framework)    |[2024/08/03](https://beta.tauri.app/)
+      |           |Bun 1.1.21                                     |[2024/08/03](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -28,10 +28,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.80            |2024/07/27
-      |           |Tauri 2.0.0-beta.24  |2024/07/16
+      |           |Tauri 2.0.0-rc.0     |2024/08/03
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.3.4           |2024/07/16
-      |           |Bun 1.1.20           |2024/07/16
+      |           |Vite 5.3.5           |2024/08/03
+      |           |Bun 1.1.21           |2024/08/03
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -50,7 +50,7 @@
   ### Rust
   - Bug
     - 時差の計算結果が不正(1.72,2023/09/16)
-    ![Duration](../images/rust/20230916_Rust_Duration_Bug.png)
+      ![Duration](../images/rust/20230916_Rust_Duration_Bug.png)
   - インストールおよびドキュメント
     - [Rustのインストール](https://www.rust-lang.org/learn/get-started)
     - [ヘルプドキュメント](https://doc.rust-lang.org/std/all.html)
@@ -348,103 +348,125 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.0
+    - V2.0 RC
+      - Failed to run custom build on Ubuntu 24.04 as follows:
+
+        ```
+        error: failed to run custom build command for `tauri2-beta-app v0.2.7 (/mnt/d/Repository/Weekend_Programming/rust/tauri/tauri-app-wsl2/tauri2-beta-app/src-tauri)`
+
+        Caused by:
+          process didn't exit successfully: `/mnt/d/Repository/Weekend_Programming/rust/tauri/tauri-app-wsl2/tauri2-beta-app/src-tauri/target/debug/build/tauri2-beta-app-70091410f6bc5232/build-script-build` (exit status: 1)
+          --- stdout
+          cargo:rerun-if-env-changed=TAURI_CONFIG
+          cargo:rerun-if-changed=tauri.conf.json
+          cargo:rustc-check-cfg=cfg(desktop)
+          cargo:rustc-cfg=desktop
+          cargo:rustc-check-cfg=cfg(mobile)
+          cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_APP_NAME=dev
+          cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_PREFIX=com_tauri
+          cargo:rustc-check-cfg=cfg(dev)
+          cargo:rustc-cfg=dev
+          cargo:PERMISSION_FILES_PATH=/mnt/d/Repository/Weekend_Programming/rust/tauri/tauri-app-wsl2/tauri2-beta-app/src-tauri/target/debug/build/tauri2-beta-app-b76333ce2e6ee747/out/app-manifest/__app__-permission-files
+          cargo:rerun-if-changed=capabilities
+          Permission path:default not found, expected one of core:app:default, ...
+        ```
     - V2.0 Beta
       ```
       yarn create tauri-app --beta
       ```
-    - Beta.24
-      - Windows 11
-        - Tauri環境確認
-          ```
-          [✔] Environment
-              - OS: Windows 10.0.22631 X64
-              ✔ WebView2: 126.0.2592.102
-              ✔ MSVC: Visual Studio Community 2022
-              ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
-              ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
-              ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
-              ✔ Rust toolchain: stable-x86_64-pc-windows-msvc (default)
-              - node: 18.17.1
-              - yarn: 1.22.21
-              - npm: 9.6.7
-              - bun: 1.1.20
+      - Beta.24
+        - Windows 11
+          - Tauri環境確認
+            ```
+            [✔] Environment
+                - OS: Windows 10.0.22631 X64
+                ✔ WebView2: 126.0.2592.102
+                ✔ MSVC: Visual Studio Community 2022
+                ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+                ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+                ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
+                ✔ Rust toolchain: stable-x86_64-pc-windows-msvc (default)
+                - node: 18.17.1
+                - yarn: 1.22.21
+                - npm: 9.6.7
+                - bun: 1.1.20
 
-          [-] Packages
-              - tauri [RUST]: 2.0.0-beta.24
-              - tauri-build [RUST]: 2.0.0-beta.19
-              - wry [RUST]: 0.41.0
-              - tao [RUST]: 0.28.1
-              - @tauri-apps/api [NPM]: 2.0.0-beta.15
-              - @tauri-apps/cli [NPM]: 2.0.0-beta.22
+            [-] Packages
+                - tauri [RUST]: 2.0.0-beta.24
+                - tauri-build [RUST]: 2.0.0-beta.19
+                - wry [RUST]: 0.41.0
+                - tao [RUST]: 0.28.1
+                - @tauri-apps/api [NPM]: 2.0.0-beta.15
+                - @tauri-apps/cli [NPM]: 2.0.0-beta.22
 
-          [-] App
-              - build-type: bundle
-              - CSP: unset
-              - frontendDist: ../public
-              - devUrl: http://localhost:8083/
-              - framework: Svelte
-              - bundler: Rollup
-          ```
-      - Ubuntu 24.04 on Windows 11
-        - Tauri環境確認
-          ```
-          [✔] Environment
-              - OS: Ubuntu 24.04 X64
-              ✔ webkit2gtk-4.1: 2.44.2
-              ✔ rsvg2: 2.58.0
-              ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
-              ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
-              ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
-              ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
-              - node: 20.11.0
-              - yarn: 1.22.21
-              - npm: 10.2.4
-              - bun: 1.1.20
+            [-] App
+                - build-type: bundle
+                - CSP: unset
+                - frontendDist: ../public
+                - devUrl: http://localhost:8083/
+                - framework: Svelte
+                - bundler: Rollup
+            ```
+        - Ubuntu 24.04 on Windows 11
+          - Tauri環境確認
+            ```
+            [✔] Environment
+                - OS: Ubuntu 24.04 X64
+                ✔ webkit2gtk-4.1: 2.44.2
+                ✔ rsvg2: 2.58.0
+                ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+                ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+                ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
+                ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
+                - node: 20.11.0
+                - yarn: 1.22.21
+                - npm: 10.2.4
+                - bun: 1.1.20
 
-          [-] Packages
-              - tauri [RUST]: 2.0.0-beta.24
-              - tauri-build [RUST]: 2.0.0-beta.19
-              - wry [RUST]: 0.41.0
-              - tao [RUST]: 0.28.1
-              - @tauri-apps/api [NPM]: 2.0.0-beta.15
-              - @tauri-apps/cli [NPM]: 2.0.0-beta.22
+            [-] Packages
+                - tauri [RUST]: 2.0.0-beta.24
+                - tauri-build [RUST]: 2.0.0-beta.19
+                - wry [RUST]: 0.41.0
+                - tao [RUST]: 0.28.1
+                - @tauri-apps/api [NPM]: 2.0.0-beta.15
+                - @tauri-apps/cli [NPM]: 2.0.0-beta.22
 
-          [-] App
-              - build-type: bundle
-              - CSP: unset
-              - frontendDist: ../dist
-              - devUrl: http://localhost:1420/
-              - framework: React
-              - bundler: Vite
-          ```
-          ![Tauri 2.0Beta](../images/rust/20240716_Tauri2.0_Ubuntu24.04.png)
-        - Compile error happend
-          ```
-            Compiling tauri-plugin v2.0.0-beta.12
-          error[E0061]: this function takes 3 arguments but 2 arguments were supplied
-            --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-plugin-2.0.0-beta.12/src/build/mod.rs:124:7
-              |
-          124 |       acl::build::generate_docs(&permissions, &autogenerated)?;
-              |       ^^^^^^^^^^^^^^^^^^^^^^^^^------------------------------ an argument of type `&str` is missing
-              |
-          note: function defined here
-            --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-utils-2.0.0-beta.19/src/acl/build.rs:240:8
-              |
-          240 | pub fn generate_docs(
-              |        ^^^^^^^^^^^^^
-          help: provide the argument
-              |
-          124 |       acl::build::generate_docs(&permissions, &autogenerated, /* &str */)?;
-              |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            [-] App
+                - build-type: bundle
+                - CSP: unset
+                - frontendDist: ../dist
+                - devUrl: http://localhost:1420/
+                - framework: React
+                - bundler: Vite
+            ```
+            ![Tauri 2.0Beta](../images/rust/20240716_Tauri2.0_Ubuntu24.04.png)
+          - Compile error happend
+            ```
+              Compiling tauri-plugin v2.0.0-beta.12
+            error[E0061]: this function takes 3 arguments but 2 arguments were supplied
+              --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-plugin-2.0.0-beta.12/src/build/mod.rs:124:7
+                |
+            124 |       acl::build::generate_docs(&permissions, &autogenerated)?;
+                |       ^^^^^^^^^^^^^^^^^^^^^^^^^------------------------------ an argument of type `&str` is missing
+                |
+            note: function defined here
+              --> /home/taishow/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-utils-2.0.0-beta.19/src/acl/build.rs:240:8
+                |
+            240 | pub fn generate_docs(
+                |        ^^^^^^^^^^^^^
+            help: provide the argument
+                |
+            124 |       acl::build::generate_docs(&permissions, &autogenerated, /* &str */)?;
+                |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          For more information about this error, try `rustc --explain E0061`.
-          error: could not compile `tauri-plugin` (lib) due to 1 previous error
-          warning: build failed, waiting for other jobs to finish...
-          error: script "tauri" exited with code 101
-          ```
-          -> Fixed (tauri-plugin-shell を最新にすることで解決)
-    - Breaking Change @ Beta.21
-      - [This release contains breaking changes to the tray event structure because of newly added events](https://github.com/tauri-apps/tauri/pull/9777)
+            For more information about this error, try `rustc --explain E0061`.
+            error: could not compile `tauri-plugin` (lib) due to 1 previous error
+            warning: build failed, waiting for other jobs to finish...
+            error: script "tauri" exited with code 101
+            ```
+            -> Fixed (tauri-plugin-shell を最新にすることで解決)
+      - Breaking Change @ Beta.21
+        - [This release contains breaking changes to the tray event structure because of newly added events](https://github.com/tauri-apps/tauri/pull/9777)
     - V2.0 への移行
       - Betaの間は、差分コンパイルではなく、全コンパイルが妥当（cargo clean->cargo build->bun tauri dev）
       - [Upgrade from Tauri 1.0](https://beta.tauri.app/guides/upgrade-migrate/from-tauri-1/)
