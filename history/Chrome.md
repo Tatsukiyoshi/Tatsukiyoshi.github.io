@@ -1,4 +1,8 @@
 # Chrome OS Flex
+- バージョン 126.0.6478.178  <span style="color: red;">*<<2024/07/21 updated from 126.0.6478.132>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240721_Chrome_OS_Flex_126.0.6478.178.png)
+  - 更新中
+    ![Now Update](../images/Chrome/20240721_Chrome_OS_Flex_Update126.0.6478.178.png)
 - バージョン 126.0.6478.132  <span style="color: red;">*<<2024/06/28 updated from 125.0.6422.197>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240628_Chrome_OS_Flex_126.0.6478.132.png)
   - 更新中
