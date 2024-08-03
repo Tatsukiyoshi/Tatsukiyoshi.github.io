@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 5.0 |[2024/07/28](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.11.0 Preview 6.0 |[2024/08/02](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 6                             |[2024/07/22](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.6                                     |2024/06/22
   |Mini-S12   |Visual Studio Community 2022 17.10.5             |[2024/07/26](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
@@ -20,8 +20,7 @@
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
-  - Visual Studio 2022 17.11 Preview
-    ![VS2022 17.11 Preview 5.0](../images/VisualStudio/20240728_Update_VS2022_17.11_Preview5.0.png)
+  - Visual Studio 2022 17.11 Preview 6.0
   - Visual Studio 2022 17.10
     ![VS2022 17.10.5](../images/VisualStudio/20240726_Update_VS2022_17.10.5.png)
     - Visual Studio 2022 17.10.3
