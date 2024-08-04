@@ -1,5 +1,7 @@
 # ダイジェスト
 - 2024年
+  - 8月
+    - [第１週（2024/7/29～8/4）](https://note.com/taishow2020/n/n86f2c0db40f3)
   - 7月  
     - [第４週（2024/7/22～7/28）](https://note.com/taishow2020/n/n42130b512659)
     - [第３週（2024/7/15～7/21）](https://note.com/taishow2020/n/ndfdf8cf32cb9)
