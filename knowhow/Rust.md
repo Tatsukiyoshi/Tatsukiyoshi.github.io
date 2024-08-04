@@ -348,7 +348,10 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.0
-    - V2.0 RC
+    - [V2.0 RC](https://v2.tauri.app/blog/tauri-2-0-0-release-candidate/)
+      ```
+      bun create tauri-app --rc
+      ```
       - Failed to run custom build on Ubuntu 24.04 as follows:
 
         ```
@@ -370,6 +373,7 @@
           cargo:rerun-if-changed=capabilities
           Permission path:default not found, expected one of core:app:default, ...
         ```
+        -> Fixed (capabilitiesの記述変更を取り込むことで解決)
     - V2.0 Beta
       ```
       yarn create tauri-app --beta
