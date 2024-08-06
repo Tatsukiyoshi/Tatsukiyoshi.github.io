@@ -15,15 +15,12 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.1330 (Cumulative Update) <span style="color: red;">*<<2024/07/28 updated from 26120.1252>>*</span>
-      ![Cumulative Update](./images/Windows/20240728_WindowsUpdate_DevChannel.png)
-      - タブの複製（エクスプローラー）
-        ![Duplicate Tab](./images/Windows/20240728_Windows11_Build26120_Explorer.png)
-      - ナレーターの改善
-        ![自然な声](./images/Windows/20240728_Windows11_Build26120_Narrator.png)
-        ![音声選択等](./images/Windows/20240728_Windows11_Build26120_Narrator_Configuration.png)
+    - Build 26120.1340 (Cumulative Update) <span style="color: red;">*<<2024/08/06 updated from 26120.1330>>*</span>
+      ![Cumulative Update](./images/Windows/20240806_WindowsUpdate_DevChannel.png)
+      - マウス（BlueTooth）/ ポインタ精度とホイール操作に関する設定追加
+        ![Mouse](./images/Windows/20240806_WindowsUpdate_MouseSetting.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20240728_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20240806_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)

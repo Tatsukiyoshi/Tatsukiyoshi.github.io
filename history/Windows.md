@@ -1,6 +1,15 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26100)
+      - Build 26120.1330 (Cumulative Update) <span style="color: red;">*<<2024/07/28 updated from 26120.1252>>*</span>
+        ![Cumulative Update](../images/Windows/20240728_WindowsUpdate_DevChannel.png)
+        - タブの複製（エクスプローラー）
+          ![Duplicate Tab](../images/Windows/20240728_Windows11_Build26120_Explorer.png)
+        - ナレーターの改善
+          ![自然な声](../images/Windows/20240728_Windows11_Build26120_Narrator.png)
+          ![音声選択等](../images/Windows/20240728_Windows11_Build26120_Narrator_Configuration.png)
+        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20240728_Windows11_Build26120.png)
       - Build 26120.1252 (Cumulative Update) <span style="color: red;">*<<2024/07/16 updated from 26120.961>>*</span>
         ![Cumulative Update](../images/Windows/20240716_WindowsUpdate_DevChannel.png)
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
