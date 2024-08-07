@@ -102,7 +102,7 @@
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.45.1](https://git-scm.com/download) <span style="color: red;">*<<2024/05/16 updated from 2.45>>*</span>
+- [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
 - [GitHub Desktop 3.4.2](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/07/06 updated from 3.4.0>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
 - [PowerShell 7.4.4](https://github.com/PowerShell/PowerShell)
