@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.80](#rust-1)                           |[2024/07/27](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP 2](#rustrover)           |[2024/07/25](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.2 EAP 3](#rustrover)           |[2024/08/09](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-rc.0](#tauridesktop-framework)    |[2024/08/03](https://beta.tauri.app/)
       |           |Bun 1.1.21                                     |[2024/08/03](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
@@ -109,12 +109,12 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.19890.43 <span style="color: red;">**Updated 2024/07/25**</span>
+  - RustRover 2024.2 EAP Build #RR-242.20224.309 <span style="color: red;">**Updated 2024/08/09**</span>
     ```
     RustRover 2024.2 EAP
-    Build #RR-242.19890.43, built on July 20, 2024
+    Build #RR-242.20224.309, built on August 7, 2024
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: August 19, 2024
+    有効期限: September 6, 2024
     Runtime version: 21.0.3+13-b509.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -131,7 +131,7 @@
       llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
     Non-Bundled Plugins:
-      com.jetbrains.space (242.19890.14)
+      com.jetbrains.space (242.20224.155)
       ru.adelf.idea.dotenv (2024.2)
     ```
     - [履歴](../history/RustRover.md)
