@@ -13,8 +13,8 @@
   |IdeaPad    |[IntelliJ IDEA 2024.1.5](#intellij-idea)                 |[2024/08/06](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.0                                           |[2024/05/28](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                    |2024/05/04
-  |Mini-S12   |[Android Studio Koala 2024.1.1 Patch 1](#android-studio) |[2024/07/19](https://developer.android.com/studio)
-  |           |- Kotlin 2.0.0                                           |[2024/06/02](https://kotlinlang.org/docs/home.html)
+  |Mini-S12   |[Android Studio Koala 2024.1.1 Patch 2](#android-studio) |[2024/08/09](https://developer.android.com/studio)
+  |           |- Kotlin 2.0.10                                          |[2024/08/09](https://kotlinlang.org/docs/home.html)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -90,9 +90,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 Patch 1
+  - Android Studio Koala | 2024.1.1 Patch 2
     ```
-    Build #AI-241.18034.62.2411.12071903, built on July 11, 2024
+    Build #AI-241.18034.62.2411.12169540, built on August 1, 2024
     Runtime version: 17.0.11+0--11852314 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -105,7 +105,7 @@
     Non-Bundled Plugins:
       com.intellij.ja (241.271)
       Dart (241.18808)
-      io.flutter (80.0.2)
+      io.flutter (81.0.2)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -133,6 +133,12 @@
           ```
   - バージョン対応履歴
     - Koala 対応
+      - 2024.1.1 Patch 2 対応
+        - Android Gradle Plugin 8.5.1 -> 8.5.2
+        - Kotlin Gradle Plugin 2.0 -> 2.0.10
+      - Gradle ビルドエラー
+        - Gradle 8.8
+          - Gradle 8.7 で metadata.binが見つからないエラーでビルドできないケースがあり、V8.8に更新することで解消
       - 2024.1.1 Patch 1 対応
         - Android Gradle Plugin 8.5.0 -> 8.5.1
       - 2024.1.1 対応
