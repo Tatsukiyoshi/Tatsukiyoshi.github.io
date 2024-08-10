@@ -15,12 +15,10 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.1340 (Cumulative Update) <span style="color: red;">*<<2024/08/06 updated from 26120.1330>>*</span>
-      ![Cumulative Update](./images/Windows/20240806_WindowsUpdate_DevChannel.png)
-      - マウス（BlueTooth）/ ポインタ精度とホイール操作に関する設定追加
-        ![Mouse](./images/Windows/20240806_WindowsUpdate_MouseSetting.png)
+    - Build 26120.1350 (Cumulative Update) <span style="color: red;">*<<2024/08/10 updated from 26120.1340>>*</span>
+      ![Cumulative Update](./images/Windows/20240810_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20240806_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20240810_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
