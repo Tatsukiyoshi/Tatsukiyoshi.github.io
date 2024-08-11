@@ -34,8 +34,11 @@
       |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
       |           |Gluon 0.13.5        |[2023/04/29](https://gluonjs.org/)
       |Mini-S12   |Node.js 18.17.1     |2023/09/13
-      |           |Bun 1.1.12          |[2024/05/30](https://bun.sh/)
       |           |React 19 RC         |[2024/06/08](https://19.react.dev/)
+      |           |- Bun 1.1.12        |[2024/05/30](https://bun.sh/)
+      |           |React 18.3.1        |[2024/05/30](https://ja.react.dev/)
+      |           |- Bun 1.1.22        |2024/08/10
+      |           |- Vite 5.4.0        |2024/08/10
       |           |Nuxt 3.9.1          |[2024/01/13](https://nuxt.com/)
       |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2|2024/01/07
@@ -45,7 +48,7 @@
       |-----------|--------------------|----------
       |IdeaPad    |Astro 4.9.2         |[2024/05/30](https://astro.build/)
       |           |Bun 1.1.12          |2024/05/30
-      |           |React 18.3.1        |[2024/05/30](https://ja.react.dev/)
+      |           |React 18.3.1        |2024/05/30
       |Mini-S12   |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
@@ -328,6 +331,16 @@
         bun add update-browserslist-db@latest
         ```
       - web-vitals は更新せず
+    - [ReactGrid](https://reactgrid.com/) - 表形式でのデータ表示・更新が可能なライブラリ
+      ```
+      bun create vite <Project Name>
+      bun install @silevis/reactgrid
+      ```
+    - [react-chartjs-2](https://react-chartjs-2-two.vercel.app/) - 多彩なグラフ表示が可能なライブラリ
+      ```
+      bun create vite <Project Name>
+      bun add chart.js react-chartjs-2
+      ```
     - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
     - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
   - [Svelte](https://svelte.dev/)
