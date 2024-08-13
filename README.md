@@ -147,6 +147,8 @@
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
       ![CommandLineDeveloperTools](./images/Mac/20240813_CommandLineDeveloperTools.png)
   - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
+  - gitには、PAT(Personal Access Token)を使ってPushする
+    -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
 - WSL
   - WSLバージョンを確認する
     ```
