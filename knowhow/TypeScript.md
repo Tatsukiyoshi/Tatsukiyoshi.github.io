@@ -274,6 +274,10 @@
       - DPS Workflow
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
+    - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
+      ```
+      bun create next-app
+      ```
     - Next.js 13新機能
       - Appフォルダ
         ```
