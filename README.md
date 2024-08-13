@@ -82,6 +82,7 @@
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
   - Sonoma 14.6.1 <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
+    ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 126.0.6478.222  <span style="color: red;">*<<2024/08/03 updated from 126.0.6478.214>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240803_Chrome_OS_Flex_126.0.6478.222.png)
@@ -141,6 +142,11 @@
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
   - [システムロケールの変更](./windows/systemLocale.md)
   - [フォントの変更](./windows/font.md)
+- Mac
+  - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
+    - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
+      ![CommandLineDeveloperTools](./images/Mac/20240813_CommandLineDeveloperTools.png)
+  - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
 - WSL
   - WSLバージョンを確認する
     ```
