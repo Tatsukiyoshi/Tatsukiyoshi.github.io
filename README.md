@@ -23,19 +23,19 @@
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  IdeaPad
-      - WSL 2.3.14.0 <span style="color: red;">*<<2024/08/02 updated>>*</span>
+      - WSL 2.3.17.0 <span style="color: red;">*<<2024/08/13 updated from 2.3.14.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 6.6.36.3-1</summary>
+        <summary>カーネルバージョン: 5.15.153.1-2</summary>
 
         ```
-        WSL バージョン: 2.3.14.0
-        カーネル バージョン: 6.6.36.3-1
+        WSL バージョン: 2.3.17.0
+        カーネル バージョン: 5.15.153.1-2
         WSLg バージョン: 1.0.64
         MSRDC バージョン: 1.2.5326
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.1330
+        Windows バージョン: 10.0.26120.1350
         ```
         </details>
 
