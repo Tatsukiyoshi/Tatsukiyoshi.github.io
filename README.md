@@ -88,6 +88,8 @@
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240815_Chrome_OS_Flex_127.0.6533.114.png)
     - 更新中
     ![Updating](./images/Chrome/20240815_Chrome_OS_Flex_Updating127.0.6533.114.png)
+    - ASUS機に導入しているためか、更新直後にマウスのカスタマイズに関する通知が出た
+      ![ASUS Mouse](./images/Chrome/20240815_Notification_ASUS_MouseCustomize.png)
     - 新機能紹介
       - Microsoft 365へ簡単アクセス
         ![新機能１](./images/Chrome/20240815_Chrome_OS_Flex_127_NewFunction1.png)
