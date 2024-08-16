@@ -23,7 +23,7 @@
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  IdeaPad
-      - WSL 2.3.17.0 <span style="color: red;">*<<2024/08/13 updated from 2.3.14.0>>*</span>
+      - [WSL 2.3.17.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/08/13 updated from 2.3.14.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.153.1-2</summary>
@@ -62,7 +62,7 @@
         </details>
 
   1.  Mini-S12
-      - WSL 2.2.4.0
+      - [WSL 2.2.4.0](https://github.com/microsoft/WSL)
 
         <details>
         <summary>カーネルバージョン: 5.15.153.1-2</summary>
