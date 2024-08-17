@@ -381,6 +381,770 @@
           Permission path:default not found, expected one of core:app:default, ...
         ```
         -> Fixed (capabilitiesの記述変更を取り込むことで解決)
+    - iOS target
+      - Rustターゲットへの追加
+        ```
+        rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim
+        ```
+      - Homebrew / Cocoapodsのインストール
+        ```
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        ```
+        ```
+        brew install cocoapods
+        ```
+      - nodeのインストール -> https://zenn.dev/shichi18/articles/20230325-01-50eb75b9096004
+        - nodebrewをインストール
+          ```
+          brew install nodebrew
+          nodebrew setup
+          ```
+        - nodebrewのPathを反映
+          ```
+          echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
+          source ~/.zshrc
+          ```
+        - インストールしたいnodeのバージョンを確認
+          ```
+          nodebrew ls-remote
+          ```
+        - インストールしたいnodeのバージョンを指定してインストール
+          ```
+          nodebrew install stable
+          ```
+        - iOS ターゲットの初期化
+          ```
+          bun tauri ios init
+          ```
+        - iOS ターゲットのビルド
+          ```
+          bun tauri ios dev
+          ```
+          ![iOS Emulator](../images/Mac/20240817_Tauri2.0RC2_iOS_Target.png)
+
+          - 現状、bun で初期化を行うと、ビルドでエラーとなるため、npm で初期化を行うことで回避する
+            ```
+            npm run tauri ios init
+            ```
+            -> [tauri1.x→tauri2.0(beta.19)migration + iOSアプリ開発(現在エラー発生中 beta.23でNG)](https://zenn.dev/myuna/scraps/618340df8575bb)でも言及されている
+          - difference files which npm init and bun init
+            - src-tauri/gen/apple/project.yml
+              - output which use 'npm init'
+                ```
+                - script: npm run -- tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths "${FRAMEWORK_SEARCH_PATHS:?}" --header-search-paths "${HEADER_SEARCH_PATHS:?}" --gcc-preprocessor-definitions "${GCC_PREPROCESSOR_DEFINITIONS:-}" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}
+                ```
+              - output which use 'bun init'
+                ```
+                - script: bun tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths "${FRAMEWORK_SEARCH_PATHS:?}" --header-search-paths "${HEADER_SEARCH_PATHS:?}" --gcc-preprocessor-definitions "${GCC_PREPROCESSOR_DEFINITIONS:-}" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}
+                ```
+            - src-tauri/gen/apple/tauri-mac-ios-app.xcodeproj/project.pbxproj
+              - output which use 'npm init'
+                ```
+                shellScript = "npm run -- tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:-}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+                ```
+              - output which use 'bun init'
+                ```
+                shellScript = "bun tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:-}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+                ```
+
+          <details>
+          <summary>bunで初期化した場合のビルドエラーログ</summary>
+
+            ```
+          taishow2024@Air2024 tauri-mac-ios-app % bun tauri ios dev    
+          $ tauri ios dev
+          /opt/homebrew/bin/ios-deploy
+              Info package `ios-deploy` present: true
+          Detected iOS simulators:
+            [0] iPad (10th generation)
+            [1] iPad Air 11-inch (M2)
+            [2] iPad Air 13-inch (M2)
+            [3] iPad Pro 11-inch (M4)
+            [4] iPad Pro 13-inch (M4)
+            [5] iPad mini (6th generation)
+            [6] iPhone 15
+            [7] iPhone 15 Plus
+            [8] iPhone 15 Pro
+            [9] iPhone 15 Pro Max
+            [10] iPhone SE (3rd generation)
+            Enter an index for a simulator above.
+          Simulator: 8
+              Info Starting simulator iPhone 15 Pro
+              Warn No code signing certificates found. You must add one and set the certificate development team ID on the `bundle > iOS > developmentTeam` config value or the `APPLE_DEVELOPMENT_TEAM` environment variable. To list the available certificates, run `tauri info`.
+          tauri_mac_ios_app_lib
+              Running BeforeDevCommand (`bun run dev`)
+          $ vite
+
+            VITE v5.4.1  ready in 148 ms
+
+            ➜  Local:   http://localhost:1420/
+              Info detected host target triple "aarch64-apple-darwin"
+          Building app...
+          Command line invocation:
+              /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme tauri-mac-ios-app_iOS -workspace /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app.xcodeproj/project.xcworkspace/ -sdk iphonesimulator -configuration debug -arch arm64-sim -allowProvisioningUpdates build
+
+          User defaults from command line:
+              IDEPackageSupportUseBuiltinSCM = YES
+
+          Build settings from command line:
+              ARCHS = arm64-sim
+              SDKROOT = iphonesimulator17.5
+
+          --- xcodebuild: WARNING: Using the first of multiple matching destinations:
+          { platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+          { platform:iOS Simulator, id:00810BEF-31C9-4141-9D8E-BBBB49D83756, OS:17.5, name:iPad (10th generation) }
+          { platform:iOS Simulator, id:87DB5CB8-D2AA-443A-91F3-1898D1CD5ED5, OS:17.5, name:iPad Air 11-inch (M2) }
+          { platform:iOS Simulator, id:C8A3752C-D116-4F3D-9B71-DE95F9684F7D, OS:17.5, name:iPad Air 13-inch (M2) }
+          { platform:iOS Simulator, id:7DAC59FB-94C8-4DD2-B485-FEDCDB4AB2FD, OS:17.5, name:iPad Pro 11-inch (M4) }
+          { platform:iOS Simulator, id:79B5CFCD-BFDC-452F-94B9-04B4B4192360, OS:17.5, name:iPad Pro 13-inch (M4) }
+          { platform:iOS Simulator, id:49D9DB03-68AF-49B5-B128-3DA7E1B152B7, OS:17.5, name:iPad mini (6th generation) }
+          { platform:iOS Simulator, id:4FA03170-5731-49DC-AEDD-1D05134DFF26, OS:17.5, name:iPhone 15 }
+          { platform:iOS Simulator, id:C9B8FC40-88F7-40B6-8C09-980AD2169571, OS:17.5, name:iPhone 15 Plus }
+          { platform:iOS Simulator, id:74261D67-5D15-40E2-BEDD-A6DB5779F75E, OS:17.5, name:iPhone 15 Pro }
+          { platform:iOS Simulator, id:FA8AE8ED-F0E8-4471-B840-CB136F0379BC, OS:17.5, name:iPhone 15 Pro Max }
+          { platform:iOS Simulator, id:F4B6AB6F-3373-4E45-B549-54E0CFFB437A, OS:17.5, name:iPhone SE (3rd generation) }
+          { platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00008122-001650CC2106001C, name:My Mac }
+          { platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+          Prepare packages
+
+          ComputeTargetDependencyGraph
+          note: Building targets in dependency order
+          note: Target dependency graph (1 target)
+              Target 'tauri-mac-ios-app_iOS' in project 'tauri-mac-ios-app' (no dependencies)
+
+          GatherProvisioningInputs
+
+          CreateBuildDescription
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --version --output-format xml1
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64-sim -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk -x objective-c++ -c /dev/null
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk -x c -c /dev/null
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Assets.xcassets
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64-sim -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk -x c -c /dev/null
+
+          ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+          Build description signature: e7dd0519ded7714945a9bb35ffe4e917
+          Build description path: /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/XCBuildData/e7dd0519ded7714945a9bb35ffe4e917.xcbuilddata
+          ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk /Users/taishow2024/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator17.5-21F77-c098706a9f71eba4e76ae92ab367209a.sdkstatcache
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app.xcodeproj
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator17.5-21F77-c098706a9f71eba4e76ae92ab367209a.sdkstatcache
+
+          note: Run script build phase 'Build Rust Code' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+          ProcessProductPackaging /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app_iOS/tauri-mac-ios-app_iOS.entitlements /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              
+              Entitlements:
+              
+              {
+              "com.apple.security.get-task-allow" = 1;
+          }
+              
+              builtin-productPackagingUtility /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app_iOS/tauri-mac-ios-app_iOS.entitlements -entitlements -format xml -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent
+
+          ProcessProductPackaging /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app_iOS/tauri-mac-ios-app_iOS.entitlements /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              
+              Entitlements:
+              
+              {
+              "application-identifier" = "FAKETEAMID.com.taurirc2.app";
+          }
+              
+              builtin-productPackagingUtility /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app_iOS/tauri-mac-ios-app_iOS.entitlements -entitlements -format xml -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent
+
+          ProcessProductPackagingDER /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent.der (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              /usr/bin/derq query -f xml -i /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent.der --raw
+
+          ProcessProductPackagingDER /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent.der (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              /usr/bin/derq query -f xml -i /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app.xcent.der --raw
+
+          PhaseScriptExecution Build\ Rust\ Code /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Script-5F64848F2C39506EBBF993BE.sh (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export ACTION\=build
+              export AD_HOC_CODE_SIGNING_ALLOWED\=YES
+              export AGGREGATE_TRACKED_DOMAINS\=YES
+              export ALLOW_TARGET_PLATFORM_SPECIALIZATION\=NO
+              export ALTERNATE_GROUP\=staff
+              export ALTERNATE_MODE\=u+w,go-w,a+rX
+              export ALTERNATE_OWNER\=taishow2024
+              export ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES\=YES
+              export ALWAYS_SEARCH_USER_PATHS\=NO
+              export ALWAYS_USE_SEPARATE_HEADERMAPS\=NO
+              export APPLE_INTERNAL_DEVELOPER_DIR\=/AppleInternal/Developer
+              export APPLE_INTERNAL_DIR\=/AppleInternal
+              export APPLE_INTERNAL_DOCUMENTATION_DIR\=/AppleInternal/Documentation
+              export APPLE_INTERNAL_LIBRARY_DIR\=/AppleInternal/Library
+              export APPLE_INTERNAL_TOOLS\=/AppleInternal/Developer/Tools
+              export APPLICATION_EXTENSION_API_ONLY\=NO
+              export APPLY_RULES_IN_COPY_FILES\=NO
+              export APPLY_RULES_IN_COPY_HEADERS\=NO
+              export APP_SHORTCUTS_ENABLE_FLEXIBLE_MATCHING\=YES
+              export ARCHS\=arm64-sim
+              export ARCHS_STANDARD\=arm64\ x86_64
+              export ARCHS_STANDARD_32_64_BIT\=arm64\ i386\ x86_64
+              export ARCHS_STANDARD_32_BIT\=i386
+              export ARCHS_STANDARD_64_BIT\=arm64\ x86_64
+              export ARCHS_STANDARD_INCLUDING_64_BIT\=arm64\ x86_64
+              export ARCHS_UNIVERSAL_IPHONE_OS\=arm64\ i386\ x86_64
+              export ASSETCATALOG_COMPILER_APPICON_NAME\=AppIcon
+              export ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS\=YES
+              export AUTOMATICALLY_MERGE_DEPENDENCIES\=NO
+              export AVAILABLE_PLATFORMS\=appletvos\ appletvsimulator\ driverkit\ iphoneos\ iphonesimulator\ macosx\ watchos\ watchsimulator\ xros\ xrsimulator
+              export AppIdentifierPrefix\=FAKETEAMID.
+              export BITCODE_GENERATION_MODE\=marker
+              export BUILD_ACTIVE_RESOURCES_ONLY\=NO
+              export BUILD_COMPONENTS\=headers\ build
+              export BUILD_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products
+              export BUILD_LIBRARY_FOR_DISTRIBUTION\=NO
+              export BUILD_ROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products
+              export BUILD_STYLE\=
+              export BUILD_VARIANTS\=normal
+              export BUILT_PRODUCTS_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator
+              export BUNDLE_CONTENTS_FOLDER_PATH_deep\=Contents/
+              export BUNDLE_EXECUTABLE_FOLDER_NAME_deep\=MacOS
+              export BUNDLE_EXTENSIONS_FOLDER_PATH\=Extensions
+              export BUNDLE_FORMAT\=shallow
+              export BUNDLE_FRAMEWORKS_FOLDER_PATH\=Frameworks
+              export BUNDLE_PLUGINS_FOLDER_PATH\=PlugIns
+              export BUNDLE_PRIVATE_HEADERS_FOLDER_PATH\=PrivateHeaders
+              export BUNDLE_PUBLIC_HEADERS_FOLDER_PATH\=Headers
+              export CACHE_ROOT\=/var/folders/6k/ffx3pc1j5ql4h8r_hd45bxnm0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode
+              export CCHROOT\=/var/folders/6k/ffx3pc1j5ql4h8r_hd45bxnm0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode
+              export CHMOD\=/bin/chmod
+              export CHOWN\=/usr/sbin/chown
+              export CLANG_ANALYZER_NONNULL\=YES
+              export CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION\=YES_AGGRESSIVE
+              export CLANG_COMPILE_CACHE_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/CompilationCache.noindex
+              export CLANG_CXX_LANGUAGE_STANDARD\=gnu++14
+              export CLANG_CXX_LIBRARY\=libc++
+              export CLANG_ENABLE_EXPLICIT_MODULES\=NO
+              export CLANG_ENABLE_MODULES\=YES
+              export CLANG_ENABLE_OBJC_ARC\=YES
+              export CLANG_ENABLE_OBJC_WEAK\=YES
+              export CLANG_MODULES_BUILD_SESSION_FILE\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+              export CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING\=YES
+              export CLANG_WARN_BOOL_CONVERSION\=YES
+              export CLANG_WARN_COMMA\=YES
+              export CLANG_WARN_CONSTANT_CONVERSION\=YES
+              export CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS\=YES
+              export CLANG_WARN_DIRECT_OBJC_ISA_USAGE\=YES_ERROR
+              export CLANG_WARN_DOCUMENTATION_COMMENTS\=YES
+              export CLANG_WARN_EMPTY_BODY\=YES
+              export CLANG_WARN_ENUM_CONVERSION\=YES
+              export CLANG_WARN_INFINITE_RECURSION\=YES
+              export CLANG_WARN_INT_CONVERSION\=YES
+              export CLANG_WARN_NON_LITERAL_NULL_CONVERSION\=YES
+              export CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF\=YES
+              export CLANG_WARN_OBJC_LITERAL_CONVERSION\=YES
+              export CLANG_WARN_OBJC_ROOT_CLASS\=YES_ERROR
+              export CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER\=YES
+              export CLANG_WARN_RANGE_LOOP_ANALYSIS\=YES
+              export CLANG_WARN_STRICT_PROTOTYPES\=YES
+              export CLANG_WARN_SUSPICIOUS_MOVE\=YES
+              export CLANG_WARN_UNGUARDED_AVAILABILITY\=YES_AGGRESSIVE
+              export CLANG_WARN_UNREACHABLE_CODE\=YES
+              export CLANG_WARN__DUPLICATE_METHOD_MATCH\=YES
+              export CLASS_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/JavaClasses
+              export CLEAN_PRECOMPS\=YES
+              export CLONE_HEADERS\=NO
+              export CODESIGNING_FOLDER_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/tauri-mac-ios-app.app
+              export CODE_SIGNING_ALLOWED\=YES
+              export CODE_SIGNING_REQUIRED\=YES
+              export CODE_SIGN_CONTEXT_CLASS\=XCiPhoneSimulatorCodeSignContext
+              export CODE_SIGN_ENTITLEMENTS\=tauri-mac-ios-app_iOS/tauri-mac-ios-app_iOS.entitlements
+              export CODE_SIGN_IDENTITY\=iPhone\ Developer
+              export CODE_SIGN_INJECT_BASE_ENTITLEMENTS\=YES
+              export CODE_SIGN_STYLE\=Automatic
+              export COLOR_DIAGNOSTICS\=YES
+              export COMBINE_HIDPI_IMAGES\=NO
+              export COMPILATION_CACHE_KEEP_CAS_DIRECTORY\=YES
+              export COMPILER_INDEX_STORE_ENABLE\=Default
+              export COMPOSITE_SDK_DIRS\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/CompositeSDKs
+              export COMPRESS_PNG_FILES\=YES
+              export CONFIGURATION\=debug
+              export CONFIGURATION_BUILD_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator
+              export CONFIGURATION_TEMP_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator
+              export CONTENTS_FOLDER_PATH\=tauri-mac-ios-app.app
+              export CONTENTS_FOLDER_PATH_SHALLOW_BUNDLE_NO\=tauri-mac-ios-app.app/Contents
+              export CONTENTS_FOLDER_PATH_SHALLOW_BUNDLE_YES\=tauri-mac-ios-app.app
+              export COPYING_PRESERVES_HFS_DATA\=NO
+              export COPY_HEADERS_RUN_UNIFDEF\=NO
+              export COPY_PHASE_STRIP\=NO
+              export CORRESPONDING_DEVICE_PLATFORM_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+              export CORRESPONDING_DEVICE_PLATFORM_NAME\=iphoneos
+              export CORRESPONDING_DEVICE_SDK_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk
+              export CORRESPONDING_DEVICE_SDK_NAME\=iphoneos17.5
+              export CP\=/bin/cp
+              export CREATE_INFOPLIST_SECTION_IN_BINARY\=NO
+              export CURRENT_ARCH\=undefined_arch
+              export CURRENT_VARIANT\=normal
+              export DEAD_CODE_STRIPPING\=YES
+              export DEBUGGING_SYMBOLS\=YES
+              export DEBUG_INFORMATION_FORMAT\=dwarf
+              export DEFAULT_COMPILER\=com.apple.compilers.llvm.clang.1_0
+              export DEFAULT_DEXT_INSTALL_PATH\=/System/Library/DriverExtensions
+              export DEFAULT_KEXT_INSTALL_PATH\=/System/Library/Extensions
+              export DEFINES_MODULE\=NO
+              export DEPLOYMENT_LOCATION\=NO
+              export DEPLOYMENT_POSTPROCESSING\=NO
+              export DEPLOYMENT_TARGET_SETTING_NAME\=IPHONEOS_DEPLOYMENT_TARGET
+              export DEPLOYMENT_TARGET_SUGGESTED_VALUES\=12.0\ 12.1\ 12.2\ 12.3\ 12.4\ 13.0\ 13.1\ 13.2\ 13.3\ 13.4\ 13.5\ 13.6\ 14.0\ 14.1\ 14.2\ 14.3\ 14.4\ 14.5\ 14.6\ 14.7\ 15.0\ 15.1\ 15.2\ 15.3\ 15.4\ 15.5\ 15.6\ 16.0\ 16.1\ 16.2\ 16.3\ 16.4\ 16.5\ 16.6\ 17.0\ 17.1\ 17.2\ 17.3\ 17.4\ 17.5
+              export DERIVED_FILES_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/DerivedSources
+              export DERIVED_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/DerivedSources
+              export DERIVED_SOURCES_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/DerivedSources
+              export DEVELOPER_APPLICATIONS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications
+              export DEVELOPER_BIN_DIR\=/Applications/Xcode.app/Contents/Developer/usr/bin
+              export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+              export DEVELOPER_FRAMEWORKS_DIR\=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+              export DEVELOPER_FRAMEWORKS_DIR_QUOTED\=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+              export DEVELOPER_LIBRARY_DIR\=/Applications/Xcode.app/Contents/Developer/Library
+              export DEVELOPER_SDK_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+              export DEVELOPER_TOOLS_DIR\=/Applications/Xcode.app/Contents/Developer/Tools
+              export DEVELOPER_USR_DIR\=/Applications/Xcode.app/Contents/Developer/usr
+              export DEVELOPMENT_LANGUAGE\=en
+              export DIFF\=/usr/bin/diff
+              export DOCUMENTATION_FOLDER_PATH\=tauri-mac-ios-app.app/en.lproj/Documentation
+              export DONT_GENERATE_INFOPLIST_FILE\=NO
+              export DO_HEADER_SCANNING_IN_JAM\=NO
+              export DSTROOT\=/tmp/tauri-mac-ios-app.dst
+              export DT_TOOLCHAIN_DIR\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+              export DWARF_DSYM_FILE_NAME\=tauri-mac-ios-app.app.dSYM
+              export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT\=NO
+              export DWARF_DSYM_FOLDER_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator
+              export DYNAMIC_LIBRARY_EXTENSION\=dylib
+              export EAGER_LINKING\=NO
+              export EFFECTIVE_PLATFORM_NAME\=-iphonesimulator
+              export EMBEDDED_CONTENT_CONTAINS_SWIFT\=NO
+              export EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE\=NO
+              export ENABLE_APP_SANDBOX\=NO
+              export ENABLE_BITCODE\=NO
+              export ENABLE_CODE_COVERAGE\=YES
+              export ENABLE_DEFAULT_HEADER_SEARCH_PATHS\=YES
+              export ENABLE_DEFAULT_SEARCH_PATHS\=YES
+              export ENABLE_HARDENED_RUNTIME\=NO
+              export ENABLE_HEADER_DEPENDENCIES\=YES
+              export ENABLE_ON_DEMAND_RESOURCES\=YES
+              export ENABLE_PREVIEWS\=NO
+              export ENABLE_STRICT_OBJC_MSGSEND\=YES
+              export ENABLE_TESTABILITY\=YES
+              export ENABLE_TESTING_SEARCH_PATHS\=NO
+              export ENABLE_USER_SCRIPT_SANDBOXING\=NO
+              export ENABLE_XOJIT_PREVIEWS\=NO
+              export ENTITLEMENTS_ALLOWED\=NO
+              export ENTITLEMENTS_DESTINATION\=__entitlements
+              export ENTITLEMENTS_REQUIRED\=NO
+              export EXCLUDED_ARCHS\=arm64
+              export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS\=.DS_Store\ .svn\ .git\ .hg\ CVS
+              export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES\=\*.nib\ \*.lproj\ \*.framework\ \*.gch\ \*.xcode\*\ \*.xcassets\ \(\*\)\ .DS_Store\ CVS\ .svn\ .git\ .hg\ \*.pbproj\ \*.pbxproj
+              export EXECUTABLES_FOLDER_PATH\=tauri-mac-ios-app.app/Executables
+              export EXECUTABLE_FOLDER_PATH\=tauri-mac-ios-app.app
+              export EXECUTABLE_FOLDER_PATH_SHALLOW_BUNDLE_NO\=tauri-mac-ios-app.app/MacOS
+              export EXECUTABLE_FOLDER_PATH_SHALLOW_BUNDLE_YES\=tauri-mac-ios-app.app
+              export EXECUTABLE_NAME\=tauri-mac-ios-app
+              export EXECUTABLE_PATH\=tauri-mac-ios-app.app/tauri-mac-ios-app
+              export EXPANDED_CODE_SIGN_IDENTITY\=-
+              export EXPANDED_CODE_SIGN_IDENTITY_NAME\=-
+              export EXTENSIONS_FOLDER_PATH\=tauri-mac-ios-app.app/Extensions
+              export FILE_LIST\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects/LinkFileList
+              export FIXED_FILES_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/FixedFiles
+              export FRAMEWORKS_FOLDER_PATH\=tauri-mac-ios-app.app/Frameworks
+              export FRAMEWORK_FLAG_PREFIX\=-framework
+              export FRAMEWORK_SEARCH_PATHS\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator\ \ \".\"
+              export FRAMEWORK_VERSION\=A
+              export FULL_PRODUCT_NAME\=tauri-mac-ios-app.app
+              export FUSE_BUILD_PHASES\=YES
+              export FUSE_BUILD_SCRIPT_PHASES\=NO
+              export GCC3_VERSION\=3.3
+              export GCC_C_LANGUAGE_STANDARD\=gnu11
+              export GCC_DYNAMIC_NO_PIC\=NO
+              export GCC_INLINES_ARE_PRIVATE_EXTERN\=YES
+              export GCC_NO_COMMON_BLOCKS\=YES
+              export GCC_OBJC_LEGACY_DISPATCH\=YES
+              export GCC_OPTIMIZATION_LEVEL\=0
+              export GCC_PFE_FILE_C_DIALECTS\=c\ objective-c\ c++\ objective-c++
+              export GCC_PREPROCESSOR_DEFINITIONS\=\ DEBUG\=1
+              export GCC_SYMBOLS_PRIVATE_EXTERN\=NO
+              export GCC_TREAT_WARNINGS_AS_ERRORS\=NO
+              export GCC_VERSION\=com.apple.compilers.llvm.clang.1_0
+              export GCC_VERSION_IDENTIFIER\=com_apple_compilers_llvm_clang_1_0
+              export GCC_WARN_64_TO_32_BIT_CONVERSION\=YES
+              export GCC_WARN_ABOUT_RETURN_TYPE\=YES_ERROR
+              export GCC_WARN_UNDECLARED_SELECTOR\=YES
+              export GCC_WARN_UNINITIALIZED_AUTOS\=YES_AGGRESSIVE
+              export GCC_WARN_UNUSED_FUNCTION\=YES
+              export GCC_WARN_UNUSED_VARIABLE\=YES
+              export GENERATED_MODULEMAP_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator
+              export GENERATE_INFOPLIST_FILE\=NO
+              export GENERATE_INTERMEDIATE_TEXT_BASED_STUBS\=YES
+              export GENERATE_MASTER_OBJECT_FILE\=NO
+              export GENERATE_PKGINFO_FILE\=YES
+              export GENERATE_PROFILING_CODE\=NO
+              export GENERATE_TEXT_BASED_STUBS\=NO
+              export GID\=20
+              export GROUP\=staff
+              export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT\=YES
+              export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES\=YES
+              export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS\=YES
+              export HEADERMAP_INCLUDES_PROJECT_HEADERS\=YES
+              export HEADERMAP_USES_FRAMEWORK_PREFIX_ENTRIES\=YES
+              export HEADERMAP_USES_VFS\=NO
+              export HEADER_SEARCH_PATHS\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/include\ 
+              export HIDE_BITCODE_SYMBOLS\=YES
+              export HOME\=/Users/taishow2024
+              export HOST_ARCH\=arm64
+              export HOST_PLATFORM\=macosx
+              export ICONV\=/usr/bin/iconv
+              export INFOPLIST_ENABLE_CFBUNDLEICONS_MERGE\=YES
+              export INFOPLIST_EXPAND_BUILD_SETTINGS\=YES
+              export INFOPLIST_FILE\=tauri-mac-ios-app_iOS/Info.plist
+              export INFOPLIST_OUTPUT_FORMAT\=binary
+              export INFOPLIST_PATH\=tauri-mac-ios-app.app/Info.plist
+              export INFOPLIST_PREPROCESS\=NO
+              export INFOSTRINGS_PATH\=tauri-mac-ios-app.app/en.lproj/InfoPlist.strings
+              export INLINE_PRIVATE_FRAMEWORKS\=NO
+              export INSTALLHDRS_COPY_PHASE\=NO
+              export INSTALLHDRS_SCRIPT_PHASE\=NO
+              export INSTALL_DIR\=/tmp/tauri-mac-ios-app.dst/Applications
+              export INSTALL_GROUP\=staff
+              export INSTALL_MODE_FLAG\=u+w,go-w,a+rX
+              export INSTALL_OWNER\=taishow2024
+              export INSTALL_PATH\=/Applications
+              export INSTALL_ROOT\=/tmp/tauri-mac-ios-app.dst
+              export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+              export IS_UNOPTIMIZED_BUILD\=YES
+              export JAVAC_DEFAULT_FLAGS\=-J-Xms64m\ -J-XX:NewSize\=4M\ -J-Dfile.encoding\=UTF8
+              export JAVA_APP_STUB\=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+              export JAVA_ARCHIVE_CLASSES\=YES
+              export JAVA_ARCHIVE_TYPE\=JAR
+              export JAVA_COMPILER\=/usr/bin/javac
+              export JAVA_FOLDER_PATH\=tauri-mac-ios-app.app/Java
+              export JAVA_FRAMEWORK_RESOURCES_DIRS\=Resources
+              export JAVA_JAR_FLAGS\=cv
+              export JAVA_SOURCE_SUBDIR\=.
+              export JAVA_USE_DEPENDENCIES\=YES
+              export JAVA_ZIP_FLAGS\=-urg
+              export JIKES_DEFAULT_FLAGS\=+E\ +OLDCSO
+              export KEEP_PRIVATE_EXTERNS\=NO
+              export LD_DEPENDENCY_INFO_FILE\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/undefined_arch/tauri-mac-ios-app_dependency_info.dat
+              export LD_ENTITLEMENTS_SECTION\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent
+              export LD_ENTITLEMENTS_SECTION_DER\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent.der
+              export LD_EXPORT_SYMBOLS\=YES
+              export LD_GENERATE_MAP_FILE\=NO
+              export LD_MAP_FILE_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app-LinkMap-normal-undefined_arch.txt
+              export LD_NO_PIE\=NO
+              export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER\=YES
+              export LD_RUNPATH_SEARCH_PATHS\=\ @executable_path/Frameworks
+              export LD_RUNPATH_SEARCH_PATHS_YES\=@loader_path/../Frameworks
+              export LEGACY_DEVELOPER_DIR\=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+              export LEX\=lex
+              export LIBRARY_DEXT_INSTALL_PATH\=/Library/DriverExtensions
+              export LIBRARY_FLAG_NOSPACE\=YES
+              export LIBRARY_FLAG_PREFIX\=-l
+              export LIBRARY_KEXT_INSTALL_PATH\=/Library/Extensions
+              export LIBRARY_SEARCH_PATHS\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator\ 
+              export LINKER_DISPLAYS_MANGLED_NAMES\=NO
+              export LINK_FILE_LIST_normal_arm64-sim\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app.LinkFileList
+              export LINK_OBJC_RUNTIME\=YES
+              export LINK_WITH_STANDARD_LIBRARIES\=YES
+              export LLVM_TARGET_TRIPLE_OS_VERSION\=ios13.0
+              export LLVM_TARGET_TRIPLE_SUFFIX\=-simulator
+              export LLVM_TARGET_TRIPLE_VENDOR\=apple
+              export LM_AUX_CONST_METADATA_LIST_PATH_normal_arm64-sim\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app.SwiftConstValuesFileList
+              export LOCALIZATION_EXPORT_SUPPORTED\=YES
+              export LOCALIZATION_PREFERS_STRING_CATALOGS\=NO
+              export LOCALIZED_RESOURCES_FOLDER_PATH\=tauri-mac-ios-app.app/en.lproj
+              export LOCALIZED_STRING_MACRO_NAMES\=NSLocalizedString\ CFCopyLocalizedString
+              export LOCALIZED_STRING_SWIFTUI_SUPPORT\=YES
+              export LOCAL_ADMIN_APPS_DIR\=/Applications/Utilities
+              export LOCAL_APPS_DIR\=/Applications
+              export LOCAL_DEVELOPER_DIR\=/Library/Developer
+              export LOCAL_LIBRARY_DIR\=/Library
+              export LOCROOT\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export LOCSYMROOT\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export MACH_O_TYPE\=mh_execute
+              export MAC_OS_X_PRODUCT_BUILD_VERSION\=23G93
+              export MAC_OS_X_VERSION_ACTUAL\=140601
+              export MAC_OS_X_VERSION_MAJOR\=140000
+              export MAC_OS_X_VERSION_MINOR\=140600
+              export MAKE_MERGEABLE\=NO
+              export MERGEABLE_LIBRARY\=NO
+              export MERGED_BINARY_TYPE\=none
+              export MERGE_LINKED_LIBRARIES\=NO
+              export METAL_LIBRARY_FILE_BASE\=default
+              export METAL_LIBRARY_OUTPUT_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/tauri-mac-ios-app.app
+              export MODULES_FOLDER_PATH\=tauri-mac-ios-app.app/Modules
+              export MODULE_CACHE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+              export MTL_ENABLE_DEBUG_INFO\=INCLUDE_SOURCE
+              export MTL_FAST_MATH\=YES
+              export NATIVE_ARCH\=arm64
+              export NATIVE_ARCH_32_BIT\=arm
+              export NATIVE_ARCH_64_BIT\=arm64
+              export NATIVE_ARCH_ACTUAL\=arm64
+              export NO_COMMON\=YES
+              export OBJC_ABI_VERSION\=2
+              export OBJECT_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects
+              export OBJECT_FILE_DIR_normal\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal
+              export OBJROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex
+              export ONLY_ACTIVE_ARCH\=NO
+              export OS\=MACOS
+              export OSAC\=/usr/bin/osacompile
+              export PACKAGE_TYPE\=com.apple.package-type.wrapper.application
+              export PASCAL_STRINGS\=YES
+              export PATH\=/Applications/Xcode.app/Contents/SharedFrameworks/XCBuild.framework/Versions/A/PlugIns/XCBBuildService.bundle/Contents/PlugIns/XCBSpecifications.ideplugin/Contents/Resources:/Applications/Xcode.app/Contents/SharedFrameworks/XCBuild.framework/Versions/A/PlugIns/XCBBuildService.bundle/Contents/PlugIns/XCBSpecifications.ideplugin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/appleinternal/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/appleinternal/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/node_modules/.bin:/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/node_modules/.bin:/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/node_modules/.bin:/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/node_modules/.bin:/Users/taishow2024/Documents/Repository/Weekend_Programming/node_modules/.bin:/Users/taishow2024/Documents/Repository/node_modules/.bin:/Users/taishow2024/Documents/node_modules/.bin:/Users/taishow2024/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/taishow2024/.nodebrew/current/bin:/Users/taishow2024/.bun/bin:/Users/taishow2024/.cargo/bin
+              export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES\=/usr/include\ /usr/local/include\ /System/Library/Frameworks\ /System/Library/PrivateFrameworks\ /Applications/Xcode.app/Contents/Developer/Headers\ /Applications/Xcode.app/Contents/Developer/SDKs\ /Applications/Xcode.app/Contents/Developer/Platforms
+              export PBDEVELOPMENTPLIST_PATH\=tauri-mac-ios-app.app/pbdevelopment.plist
+              export PER_ARCH_OBJECT_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/undefined_arch
+              export PER_VARIANT_OBJECT_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal
+              export PKGINFO_FILE_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/PkgInfo
+              export PKGINFO_PATH\=tauri-mac-ios-app.app/PkgInfo
+              export PLATFORM_DEVELOPER_APPLICATIONS_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications
+              export PLATFORM_DEVELOPER_BIN_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin
+              export PLATFORM_DEVELOPER_LIBRARY_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library
+              export PLATFORM_DEVELOPER_SDK_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs
+              export PLATFORM_DEVELOPER_TOOLS_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools
+              export PLATFORM_DEVELOPER_USR_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr
+              export PLATFORM_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform
+              export PLATFORM_DISPLAY_NAME\=iOS\ Simulator
+              export PLATFORM_FAMILY_NAME\=iOS
+              export PLATFORM_NAME\=iphonesimulator
+              export PLATFORM_PREFERRED_ARCH\=x86_64
+              export PLATFORM_PRODUCT_BUILD_VERSION\=21F77
+              export PLIST_FILE_OUTPUT_FORMAT\=binary
+              export PLUGINS_FOLDER_PATH\=tauri-mac-ios-app.app/PlugIns
+              export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR\=YES
+              export PRECOMP_DESTINATION_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/PrefixHeaders
+              export PRESERVE_DEAD_CODE_INITS_AND_TERMS\=NO
+              export PRIVATE_HEADERS_FOLDER_PATH\=tauri-mac-ios-app.app/PrivateHeaders
+              export PROCESSED_INFOPLIST_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/undefined_arch/Processed-Info.plist
+              export PRODUCT_BUNDLE_IDENTIFIER\=com.taurirc2.app
+              export PRODUCT_BUNDLE_PACKAGE_TYPE\=APPL
+              export PRODUCT_MODULE_NAME\=tauri_mac_ios_app
+              export PRODUCT_NAME\=tauri-mac-ios-app
+              export PRODUCT_SETTINGS_PATH\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app_iOS/Info.plist
+              export PRODUCT_TYPE\=com.apple.product-type.application
+              export PROFILING_CODE\=NO
+              export PROJECT\=tauri-mac-ios-app
+              export PROJECT_DERIVED_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/DerivedSources
+              export PROJECT_DIR\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export PROJECT_FILE_PATH\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/tauri-mac-ios-app.xcodeproj
+              export PROJECT_NAME\=tauri-mac-ios-app
+              export PROJECT_TEMP_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build
+              export PROJECT_TEMP_ROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex
+              export PROVISIONING_PROFILE_REQUIRED\=NO
+              export PROVISIONING_PROFILE_REQUIRED_YES_YES\=YES
+              export PROVISIONING_PROFILE_SUPPORTED\=YES
+              export PUBLIC_HEADERS_FOLDER_PATH\=tauri-mac-ios-app.app/Headers
+              export RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET\=12.5
+              export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS\=YES
+              export REMOVE_CVS_FROM_RESOURCES\=YES
+              export REMOVE_GIT_FROM_RESOURCES\=YES
+              export REMOVE_HEADERS_FROM_EMBEDDED_BUNDLES\=YES
+              export REMOVE_HG_FROM_RESOURCES\=YES
+              export REMOVE_STATIC_EXECUTABLES_FROM_EMBEDDED_BUNDLES\=YES
+              export REMOVE_SVN_FROM_RESOURCES\=YES
+              export REZ_COLLECTOR_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/ResourceManagerResources
+              export REZ_OBJECTS_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/ResourceManagerResources/Objects
+              export REZ_SEARCH_PATHS\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator\ 
+              export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES\=NO
+              export SCRIPTS_FOLDER_PATH\=tauri-mac-ios-app.app/Scripts
+              export SCRIPT_INPUT_FILE_COUNT\=0
+              export SCRIPT_INPUT_FILE_LIST_COUNT\=0
+              export SCRIPT_OUTPUT_FILE_0\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Externals/x86_64/debug/libtauri_mac_ios_app_lib.a
+              export SCRIPT_OUTPUT_FILE_1\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Externals/arm64/debug/libtauri_mac_ios_app_lib.a
+              export SCRIPT_OUTPUT_FILE_2\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Externals/arm64-sim/debug/libtauri_mac_ios_app_lib.a
+              export SCRIPT_OUTPUT_FILE_COUNT\=3
+              export SCRIPT_OUTPUT_FILE_LIST_COUNT\=0
+              export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk
+              export SDK_DIR\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk
+              export SDK_DIR_iphonesimulator\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk
+              export SDK_DIR_iphonesimulator17_5\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk
+              export SDK_NAME\=iphonesimulator17.5
+              export SDK_NAMES\=iphonesimulator17.5
+              export SDK_PRODUCT_BUILD_VERSION\=21F77
+              export SDK_STAT_CACHE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData
+              export SDK_STAT_CACHE_ENABLE\=YES
+              export SDK_STAT_CACHE_PATH\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator17.5-21F77-c098706a9f71eba4e76ae92ab367209a.sdkstatcache
+              export SDK_VERSION\=17.5
+              export SDK_VERSION_ACTUAL\=170500
+              export SDK_VERSION_MAJOR\=170000
+              export SDK_VERSION_MINOR\=170500
+              export SED\=/usr/bin/sed
+              export SEPARATE_STRIP\=NO
+              export SEPARATE_SYMBOL_EDIT\=NO
+              export SET_DIR_MODE_OWNER_GROUP\=YES
+              export SET_FILE_MODE_OWNER_GROUP\=NO
+              export SHALLOW_BUNDLE\=YES
+              export SHALLOW_BUNDLE_TRIPLE\=ios-simulator
+              export SHALLOW_BUNDLE_ios_macabi\=NO
+              export SHALLOW_BUNDLE_macos\=NO
+              export SHARED_DERIVED_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/DerivedSources
+              export SHARED_FRAMEWORKS_FOLDER_PATH\=tauri-mac-ios-app.app/SharedFrameworks
+              export SHARED_PRECOMPS_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/PrecompiledHeaders
+              export SHARED_SUPPORT_FOLDER_PATH\=tauri-mac-ios-app.app/SharedSupport
+              export SKIP_INSTALL\=NO
+              export SOURCE_ROOT\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export SRCROOT\=/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              export STRINGSDATA_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/undefined_arch
+              export STRINGSDATA_ROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build
+              export STRINGS_FILE_INFOPLIST_RENAME\=YES
+              export STRINGS_FILE_OUTPUT_ENCODING\=binary
+              export STRIP_BITCODE_FROM_COPIED_FILES\=NO
+              export STRIP_INSTALLED_PRODUCT\=NO
+              export STRIP_STYLE\=all
+              export STRIP_SWIFT_SYMBOLS\=YES
+              export SUPPORTED_DEVICE_FAMILIES\=1,2
+              export SUPPORTED_PLATFORMS\=iphoneos\ iphonesimulator
+              export SUPPORTS_MACCATALYST\=NO
+              export SUPPORTS_ON_DEMAND_RESOURCES\=YES
+              export SUPPORTS_TEXT_BASED_API\=NO
+              export SUPPRESS_WARNINGS\=NO
+              export SWIFT_ACTIVE_COMPILATION_CONDITIONS\=DEBUG
+              export SWIFT_EMIT_LOC_STRINGS\=NO
+              export SWIFT_OPTIMIZATION_LEVEL\=-Onone
+              export SWIFT_PLATFORM_TARGET_PREFIX\=ios
+              export SWIFT_RESPONSE_FILE_PATH_normal_arm64-sim\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app.SwiftFileList
+              export SWIFT_VERSION\=5.0
+              export SYMROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products
+              export SYSTEM_ADMIN_APPS_DIR\=/Applications/Utilities
+              export SYSTEM_APPS_DIR\=/Applications
+              export SYSTEM_CORE_SERVICES_DIR\=/System/Library/CoreServices
+              export SYSTEM_DEMOS_DIR\=/Applications/Extras
+              export SYSTEM_DEVELOPER_APPS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications
+              export SYSTEM_DEVELOPER_BIN_DIR\=/Applications/Xcode.app/Contents/Developer/usr/bin
+              export SYSTEM_DEVELOPER_DEMOS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built\ Examples
+              export SYSTEM_DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+              export SYSTEM_DEVELOPER_DOC_DIR\=/Applications/Xcode.app/Contents/Developer/ADC\ Reference\ Library
+              export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications/Graphics\ Tools
+              export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications/Java\ Tools
+              export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR\=/Applications/Xcode.app/Contents/Developer/Applications/Performance\ Tools
+              export SYSTEM_DEVELOPER_RELEASENOTES_DIR\=/Applications/Xcode.app/Contents/Developer/ADC\ Reference\ Library/releasenotes
+              export SYSTEM_DEVELOPER_TOOLS\=/Applications/Xcode.app/Contents/Developer/Tools
+              export SYSTEM_DEVELOPER_TOOLS_DOC_DIR\=/Applications/Xcode.app/Contents/Developer/ADC\ Reference\ Library/documentation/DeveloperTools
+              export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR\=/Applications/Xcode.app/Contents/Developer/ADC\ Reference\ Library/releasenotes/DeveloperTools
+              export SYSTEM_DEVELOPER_USR_DIR\=/Applications/Xcode.app/Contents/Developer/usr
+              export SYSTEM_DEVELOPER_UTILITIES_DIR\=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+              export SYSTEM_DEXT_INSTALL_PATH\=/System/Library/DriverExtensions
+              export SYSTEM_DOCUMENTATION_DIR\=/Library/Documentation
+              export SYSTEM_EXTENSIONS_FOLDER_PATH\=tauri-mac-ios-app.app/SystemExtensions
+              export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_NO\=tauri-mac-ios-app.app/Library/SystemExtensions
+              export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_YES\=tauri-mac-ios-app.app/SystemExtensions
+              export SYSTEM_KEXT_INSTALL_PATH\=/System/Library/Extensions
+              export SYSTEM_LIBRARY_DIR\=/System/Library
+              export TAPI_DEMANGLE\=YES
+              export TAPI_ENABLE_PROJECT_HEADERS\=NO
+              export TAPI_LANGUAGE\=objective-c
+              export TAPI_LANGUAGE_STANDARD\=compiler-default
+              export TAPI_USE_SRCROOT\=YES
+              export TAPI_VERIFY_MODE\=Pedantic
+              export TARGETED_DEVICE_FAMILY\=1,2
+              export TARGETNAME\=tauri-mac-ios-app_iOS
+              export TARGET_BUILD_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator
+              export TARGET_NAME\=tauri-mac-ios-app_iOS
+              export TARGET_TEMP_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build
+              export TEMP_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build
+              export TEMP_FILES_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build
+              export TEMP_FILE_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build
+              export TEMP_ROOT\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex
+              export TEST_FRAMEWORK_SEARCH_PATHS\=\ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk/Developer/Library/Frameworks
+              export TEST_LIBRARY_SEARCH_PATHS\=\ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib
+              export TOOLCHAINS\=com.apple.dt.toolchain.XcodeDefault
+              export TOOLCHAIN_DIR\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+              export TREAT_MISSING_BASELINES_AS_TEST_FAILURES\=NO
+              export TeamIdentifierPrefix\=FAKETEAMID.
+              export UID\=501
+              export UNINSTALLED_PRODUCTS_DIR\=/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/UninstalledProducts
+              export UNLOCALIZED_RESOURCES_FOLDER_PATH\=tauri-mac-ios-app.app
+              export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_NO\=tauri-mac-ios-app.app/Resources
+              export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_YES\=tauri-mac-ios-app.app
+              export UNSTRIPPED_PRODUCT\=NO
+              export USER\=taishow2024
+              export USER_APPS_DIR\=/Users/taishow2024/Applications
+              export USER_LIBRARY_DIR\=/Users/taishow2024/Library
+              export USE_DYNAMIC_NO_PIC\=YES
+              export USE_HEADERMAP\=YES
+              export USE_HEADER_SYMLINKS\=NO
+              export VALIDATE_DEVELOPMENT_ASSET_PATHS\=YES_ERROR
+              export VALIDATE_PRODUCT\=NO
+              export VALID_ARCHS\=arm64\ \ arm64-sim
+              export VERBOSE_PBXCP\=NO
+              export VERSIONPLIST_PATH\=tauri-mac-ios-app.app/version.plist
+              export VERSION_INFO_BUILDER\=taishow2024
+              export VERSION_INFO_FILE\=tauri-mac-ios-app_vers.c
+              export VERSION_INFO_STRING\=\"@\(\#\)PROGRAM:tauri-mac-ios-app\ \ PROJECT:tauri-mac-ios-app-\"
+              export WRAPPER_EXTENSION\=app
+              export WRAPPER_NAME\=tauri-mac-ios-app.app
+              export WRAPPER_SUFFIX\=.app
+              export WRAP_ASSET_PACKS_IN_SEPARATE_DIRECTORIES\=NO
+              export XCODE_APP_SUPPORT_DIR\=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+              export XCODE_PRODUCT_BUILD_VERSION\=15F31d
+              export XCODE_VERSION_ACTUAL\=1540
+              export XCODE_VERSION_MAJOR\=1500
+              export XCODE_VERSION_MINOR\=1540
+              export XPCSERVICES_FOLDER_PATH\=tauri-mac-ios-app.app/XPCServices
+              export YACC\=yacc
+              export _WRAPPER_CONTENTS_DIR_SHALLOW_BUNDLE_NO\=/Contents
+              export _WRAPPER_PARENT_PATH_SHALLOW_BUNDLE_NO\=/..
+              export _WRAPPER_RESOURCES_DIR_SHALLOW_BUNDLE_NO\=/Resources
+              export __IS_NOT_MACOS\=YES
+              export __IS_NOT_MACOS_macosx\=NO
+              export __IS_NOT_SIMULATOR\=NO
+              export __IS_NOT_SIMULATOR_simulator\=NO
+              export arch\=undefined_arch
+              export diagnostic_message_length\=134
+              export variant\=normal
+              /bin/sh -c /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Script-5F64848F2C39506EBBF993BE.sh
+          $ tauri ios xcode-script -v --platform iOS Simulator --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk --framework-search-paths /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator  "." --header-search-paths /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/include  --gcc-preprocessor-definitions  DEBUG=1 --configuration debug arm64-sim
+              Debug [globset] built glob set; 0 literals, 3 basenames, 0 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 0 regexes
+              Debug [globset] glob converted to regex: Glob { glob: "**/hs_err_pid*", re: "(?-u)^(?:/?|.*/)hs_err_pid[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('h'), Literal('s'), Literal('_'), Literal('e'), Literal('r'), Literal('r'), Literal('_'), Literal('p'), Literal('i'), Literal('d'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: ".vscode/*", re: "(?-u)^\\.vscode/[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([Literal('.'), Literal('v'), Literal('s'), Literal('c'), Literal('o'), Literal('d'), Literal('e'), Literal('/'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/vite.config.ts.timestamp*", re: "(?-u)^(?:/?|.*/)vite\\.config\\.ts\\.timestamp[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('v'), Literal('i'), Literal('t'), Literal('e'), Literal('.'), Literal('c'), Literal('o'), Literal('n'), Literal('f'), Literal('i'), Literal('g'), Literal('.'), Literal('t'), Literal('s'), Literal('.'), Literal('t'), Literal('i'), Literal('m'), Literal('e'), Literal('s'), Literal('t'), Literal('a'), Literal('m'), Literal('p'), ZeroOrMore]) }
+              Debug [globset] built glob set; 4 literals, 14 basenames, 20 extensions, 0 prefixes, 0 suffixes, 2 required extensions, 3 regexes
+              Debug [globset] glob converted to regex: Glob { glob: "**/npm-debug.log*", re: "(?-u)^(?:/?|.*/)npm\\-debug\\.log[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('n'), Literal('p'), Literal('m'), Literal('-'), Literal('d'), Literal('e'), Literal('b'), Literal('u'), Literal('g'), Literal('.'), Literal('l'), Literal('o'), Literal('g'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/yarn-debug.log*", re: "(?-u)^(?:/?|.*/)yarn\\-debug\\.log[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('y'), Literal('a'), Literal('r'), Literal('n'), Literal('-'), Literal('d'), Literal('e'), Literal('b'), Literal('u'), Literal('g'), Literal('.'), Literal('l'), Literal('o'), Literal('g'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/yarn-error.log*", re: "(?-u)^(?:/?|.*/)yarn\\-error\\.log[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('y'), Literal('a'), Literal('r'), Literal('n'), Literal('-'), Literal('e'), Literal('r'), Literal('r'), Literal('o'), Literal('r'), Literal('.'), Literal('l'), Literal('o'), Literal('g'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/pnpm-debug.log*", re: "(?-u)^(?:/?|.*/)pnpm\\-debug\\.log[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('p'), Literal('n'), Literal('p'), Literal('m'), Literal('-'), Literal('d'), Literal('e'), Literal('b'), Literal('u'), Literal('g'), Literal('.'), Literal('l'), Literal('o'), Literal('g'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/lerna-debug.log*", re: "(?-u)^(?:/?|.*/)lerna\\-debug\\.log[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, Literal('l'), Literal('e'), Literal('r'), Literal('n'), Literal('a'), Literal('-'), Literal('d'), Literal('e'), Literal('b'), Literal('u'), Literal('g'), Literal('.'), Literal('l'), Literal('o'), Literal('g'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: ".vscode/*", re: "(?-u)^\\.vscode/[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([Literal('.'), Literal('v'), Literal('s'), Literal('c'), Literal('o'), Literal('d'), Literal('e'), Literal('/'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/*.ntvs*", re: "(?-u)^(?:/?|.*/)[^/]*\\.ntvs[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, ZeroOrMore, Literal('.'), Literal('n'), Literal('t'), Literal('v'), Literal('s'), ZeroOrMore]) }
+              Debug [globset] glob converted to regex: Glob { glob: "**/*.sw?", re: "(?-u)^(?:/?|.*/)[^/]*\\.sw[^/]$", opts: GlobOptions { case_insensitive: false, literal_separator: true, backslash_escape: true, empty_alternates: false }, tokens: Tokens([RecursivePrefix, ZeroOrMore, Literal('.'), Literal('s'), Literal('w'), Any]) }
+              Debug [globset] built glob set; 1 literals, 6 basenames, 5 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 8 regexes
+              Debug [globset] built glob set; 2 literals, 0 basenames, 0 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 0 regexes
+              Debug [globset] built glob set; 0 literals, 3 basenames, 0 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 0 regexes
+              Debug [ignore::walk] ignoring /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Externals: Ignore(IgnoreMatch(Gitignore(Glob { from: Some("/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/.gitignore"), original: "Externals/", actual: "**/Externals", is_whitelist: false, is_only_dir: true })))
+              Debug [ignore::walk] ignoring /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/.gitignore: Ignore(IgnoreMatch(Hidden))
+          thread '<unnamed>' panicked at src/helpers/app_paths.rs:105:5:
+          Couldn't recognize the current folder as a Tauri project. It must contain a `tauri.conf.json`, `tauri.conf.json5` or `Tauri.toml` file in any subfolder.
+          note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+          CompileStoryboard /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/LaunchScreen.storyboard (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module tauri_mac_ios_app --output-partial-info-plist /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 13.0 --output-format human-readable-text --compilation-directory /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/LaunchScreen.storyboard
+
+          Ld /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/tauri-mac-ios-app.app/tauri-mac-ios-app normal (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+              cd /Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-sim-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk -O0 -L/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/EagerLinkingTBDs/debug-iphonesimulator -L/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator -L/Users/taishow2024/Documents/Repository/Weekend_Programming/rust/tauri/tauri-app-mac/tauri-mac-ios-app/src-tauri/gen/apple/Externals/arm64-sim/debug -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk/usr/lib/swift -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphonesimulator -F/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/EagerLinkingTBDs/debug-iphonesimulator -F/Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator -F. -filelist /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -stdlib\=libc++ -fobjc-arc -fobjc-link-runtime -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/tauri-mac-ios-app.app-Simulated.xcent.der -ltauri_mac_ios_app_lib -framework CoreGraphics -framework Metal -framework MetalKit -framework QuartzCore -framework Security -framework UIKit -framework WebKit -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Intermediates.noindex/tauri-mac-ios-app.build/debug-iphonesimulator/tauri-mac-ios-app_iOS.build/Objects-normal/arm64-sim/tauri-mac-ios-app_dependency_info.dat -o /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/tauri-mac-ios-app.app/tauri-mac-ios-app
+          ld: library 'tauri_mac_ios_app_lib' not found
+          clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+          ** BUILD FAILED **
+
+
+          The following build commands failed:
+                  Ld /Users/taishow2024/Library/Developer/Xcode/DerivedData/tauri-mac-ios-app-fkgghnkfowwavudpzidsempidwnk/Build/Products/debug-iphonesimulator/tauri-mac-ios-app.app/tauri-mac-ios-app normal (in target 'tauri-mac-ios-app_iOS' from project 'tauri-mac-ios-app')
+          (1 failure)
+              Error command ["xcodebuild"] exited with code 65
+          error: script "tauri" exited with code 1
+          ```
+          </details>
     - V2.0 Beta
       ```
       yarn create tauri-app --beta
