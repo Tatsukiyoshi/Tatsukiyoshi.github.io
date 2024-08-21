@@ -88,21 +88,10 @@
   - Sonoma 14.6.1 <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
     ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 127.0.6533.114  <span style="color: red;">*<<2024/08/15 updated from 126.0.6478.222>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240815_Chrome_OS_Flex_127.0.6533.114.png)
+  - バージョン 127.0.6533.132  <span style="color: red;">*<<2024/08/21 updated from 127.0.6533.114>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240821_Chrome_OS_Flex_127.0.6533.132.png)
     - 更新中
-    ![Updating](./images/Chrome/20240815_Chrome_OS_Flex_Updating127.0.6533.114.png)
-    - ASUS機に導入しているためか、更新直後にマウスのカスタマイズに関する通知が出た
-      ![ASUS Mouse](./images/Chrome/20240815_Notification_ASUS_MouseCustomize.png)
-    - 新機能紹介
-      - Microsoft 365へ簡単アクセス
-        ![新機能１](./images/Chrome/20240815_Chrome_OS_Flex_127_NewFunction1.png)
-      - シェルフから複数のカレンダーを表示
-        ![新機能２](./images/Chrome/20240815_Chrome_OS_Flex_127_NewFunction2.png)
-      - 「選択して読み上げ」でテキストを拡大表示
-        ![新機能３](./images/Chrome/20240815_Chrome_OS_Flex_127_NewFunction3.png)
-      - カーソルのサイズや点滅速度を変更
-        ![新機能４](./images/Chrome/20240815_Chrome_OS_Flex_127_NewFunction4.png)
+    ![Updating](./images/Chrome/20240821_Chrome_OS_Flex_Updating127.0.6533.132.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
