@@ -16,8 +16,8 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.80](#rust-1)                           |[2024/07/27](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP 4](#rustrover)           |[2024/08/14](https://www.jetbrains.com/rust/)
+      |Mini-S12   |[Rust 1.80.1](#rust-1)                         |[2024/08/23](https://www.rust-lang.org/)  
+      |           |[RustRover 2024.2 EAP 5](#rustrover)           |[2024/08/23](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-rc.5](#tauridesktop-framework)    |[2024/08/21](https://beta.tauri.app/)
       |           |Bun 1.1.22                                     |[2024/08/10](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
@@ -119,12 +119,12 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.20224.393 <span style="color: red;">**Updated 2024/08/14**</span>
+  - RustRover 2024.2 EAP Build #RR-242.20224.421 <span style="color: red;">**Updated 2024/08/23**</span>
     ```
     RustRover 2024.2 EAP
-    Build #RR-242.20224.393, built on August 14, 2024
+    Build #RR-242.20224.421, built on August 20, 2024
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: September 13, 2024
+    有効期限: September 19, 2024
     Runtime version: 21.0.3+13-b509.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -138,11 +138,10 @@
       i18n.locale=
       transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
-      terminal.new.ui.show.promotion=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (242.20224.155)
-      ru.adelf.idea.dotenv (2024.2)
+      ru.adelf.idea.dotenv (2024.2.1)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
