@@ -5,7 +5,7 @@
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
   |IdeaPad   |[PostgreSQL 16](#postgresql)                         |[2023/09/18](https://www.postgresql.org/download/windows/)
-  |Mini-S12  |[SQL Server 2022 Developer 16.0.4105.2](#sql-server) |[2024/01/14](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
+  |Mini-S12  |[SQL Server 2022 Developer 16.0.4135.4](#sql-server) |[2024/08/24](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
   |          |- SQL Server Management Studio 20.2.3                |2024/08/24
   |          |PostgreSQL 16.1                                      |2023/11/26
   |          |MongoDB 7.1.1                                        |2023/12/10
