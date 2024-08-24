@@ -18,6 +18,9 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - IntelliJ IDEA 2024.2.0.2
+    - PostgreSQL 16.4
+    - Gradle 8.8
   - Kotlin 2.0.0
     - Compose Multiplatform
       ![Compose for Desktop](../images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
