@@ -9,6 +9,7 @@
   |          |- SQL Server Management Studio 20.2.3                |2024/08/24
   |          |PostgreSQL 16.1                                      |2023/11/26
   |          |MongoDB 7.1.1                                        |2023/12/10
+  |          |MySQL Community Server 8.4.2                         |2024/08/24
 
 ##  ノウハウ
 ### データベース全般
@@ -90,38 +91,149 @@
       ```
   - [PHP + Apache + PostgreSQL](./Php.md#postgresql)
 ### MySQL
-  - ZIPファイルを任意のディレクトリに展開する
-  - my.iniを展開したディレクトリに作成する
-    ```ini
-    [mysqld]
-    # set basedir to your installation path
-    basedir=D:\mysql-8.0.28-winx64
-    # set datadir to the location of your data directory
-    datadir=D:\mysql-8.0.28-winx64\data
+  - MySQL Community Server 8.4.2 (LTS)
+    - Oracleプロファイル作成のうえ、ダウンロード
+    - インストールすると、MySQL Configuratorで設定する
+      ![MySQL Configurator](../images/Database/20240824_MySQL_Configurator_of_MySQL_Community_Server8.4.2.png)
+      root/mysqlsuper
+
+    <details>
+    <summary>Configulation Log</summary>
+
     ```
-  - データディレクトリを初期化する（パスワード生成せず）
+    Beginning configuration step: Writing configuration file
+
+    Saving my.ini configuration file...
+    Saved my.ini configuration file.
+    Ended configuration step: Writing configuration file
+
+    Beginning configuration step: Updating Windows Firewall rules
+
+    Adding a Windows Firewall rule for MySQL84 on port 3306.
+    Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 3306" protocol=TCP localport=3306 dir=in action=allow
+    Ok.
+
+
+    Successfully added the Windows Firewall rule.
+    Adding a Windows Firewall rule for MySQL84 on port 33060.
+    Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 33060" protocol=TCP localport=33060 dir=in action=allow
+    Ok.
+
+
+    Successfully added the Windows Firewall rule.
+    Ended configuration step: Updating Windows Firewall rules
+
+    Beginning configuration step: Adjusting Windows service
+
+    Attempting to grant the required filesystem permissions to the 'NT AUTHORITY\NetworkService' account.
+    Granted permissions to the data directory.
+    Granted permissions to the install directory.
+    Adding new service
+    New service added
+    Ended configuration step: Adjusting Windows service
+
+    Beginning configuration step: Initializing database (may take a long time)
+
+    Attempting to run MySQL Server with --initialize-insecure option...
+    Starting process for MySQL Server 8.4.2...
+    Starting process with command: C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe --defaults-file="C:\ProgramData\MySQL\MySQL Server 8.4\my.ini" --console --initialize-insecure=on --lower-case-table-names=1...
+    MySQL Server Initialization - start.
+    C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe (mysqld 8.4.2) initializing of server in progress as process 15752
+    InnoDB initialization has started.
+    InnoDB initialization has ended.
+    root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+    MySQL Server Initialization - end.
+    Process for mysqld, with ID 15752, was run successfully and exited with code 0.
+    Successfully started process for MySQL Server 8.4.2.
+    MySQL Server 8.4.2 intialized the database successfully.
+    Ended configuration step: Initializing database (may take a long time)
+
+    Beginning configuration step: Updating permissions for the data folder and related server files
+
+    Attempting to update the permissions for the data folder and related server files...
+    Inherited permissions have been converted to explicit permissions.
+    Full control permissions granted to: NETWORK SERVICE.
+    Full control permissions granted to: Administrators.
+    Full control permissions granted to: CREATOR OWNER.
+    Full control permissions granted to: SYSTEM.
+    Access to the data directory is removed for the users group.
+    Permissions for the data folder and related server files are updated correctly.
+    Ended configuration step: Updating permissions for the data folder and related server files
+
+    Beginning configuration step: Starting the server
+
+    Attempting to start service MySQL84...
+    MySQL Server - start.
+    C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe (mysqld 8.4.2) starting as process 13844
+    InnoDB initialization has started.
+    InnoDB initialization has ended.
+    CA certificate ca.pem is self signed.
+    Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+    X Plugin ready for connections. Bind-address: '::' port: 33060
+    C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe: ready for connections. Version: '8.4.2'  socket: ''  port: 3306  MySQL Community Server - GPL.
+    Successfully started service MySQL84.
+    Waiting until a connection to MySQL Server 8.4.2 can be established (with a maximum of 10 attempts)...
+    Retry 1: Attempting to connect to Mysql@localhost:3306 with user root with no password...
+    Successfully connected to MySQL Server 8.4.2.
+    Ended configuration step: Starting the server
+
+    Beginning configuration step: Applying security settings
+
+    Attempting to update security settings.
+    Updated security settings.
+    Ended configuration step: Applying security settings
+
+    Beginning configuration step: Updating the Start menu link
+
+    Attempting to verify command-line client shortcut.
+    Verified command-line client shortcut.
+    Verified command-line client shortcut.
+    Ended configuration step: Updating the Start menu link
+
+    Beginning configuration step: Updating example databases
+
+    Updating example databases...
+    Ended configuration step: Updating example databases
     ```
-    mysqld.exe --initialize-insecure --console
-    ```
-  - MySQL Server を起動する（パスワードなし）
-    ```
-    mysql.exe -u root --skip-password
-    ```
-  - MySQLをサービスに登録する
-    ```
-    D:\mysql-8.0.28-winx64\bin\mysqld --install MYSQL80
-    ```
-  - MySQLのサービスを開始する
-    ```
-    net start MYSQL80
-    ```
-  - DDL
-    * rootパスワードの変更
+    </details>
+  - MySQL Shell for VS Code
+    - VSCodeユーザ向けにもユーティリティがある！
+      ![Main](../images/Database/20240824_MySQL_Shell_for_VSCode.png)
+    - 簡単にテーブルのデータを確認できる
+      ![Show Data](../images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
+  - MySQL 8.0.28
+    - ZIPファイルを任意のディレクトリに展開する
+    - my.iniを展開したディレクトリに作成する
+      ```ini
+      [mysqld]
+      # set basedir to your installation path
+      basedir=D:\mysql-8.0.28-winx64
+      # set datadir to the location of your data directory
+      datadir=D:\mysql-8.0.28-winx64\data
       ```
-      mysql> ALTER USER root@localhost IDENTIFIED BY "root";
+    - データディレクトリを初期化する（パスワード生成せず）
       ```
-    * ユーザの追加およびパスワードの登録
+      mysqld.exe --initialize-insecure --console
       ```
-      mysql> CREATE USER taish;
-      mysql> ALTER USER taish@localhost IDENTIFIED BY "taishow";
+    - MySQL Server を起動する（パスワードなし）
       ```
+      mysql.exe -u root --skip-password
+      ```
+    - MySQLをサービスに登録する
+      ```
+      D:\mysql-8.0.28-winx64\bin\mysqld --install MYSQL80
+      ```
+    - MySQLのサービスを開始する
+      ```
+      net start MYSQL80
+      ```
+    - DDL
+      * rootパスワードの変更
+        ```
+        mysql> ALTER USER root@localhost IDENTIFIED BY "root";
+        ```
+      * ユーザの追加およびパスワードの登録
+        ```
+        mysql> CREATE USER taish;
+        mysql> ALTER USER taish@localhost IDENTIFIED BY "taishow";
+        ```
