@@ -104,12 +104,13 @@
 - [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
 - [GitHub Desktop 3.4.2](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/07/06 updated from 3.4.0>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-- [PowerShell 7.4.4](https://github.com/PowerShell/PowerShell)
-  - 製品版では、ストアアプリとして更新できる一方、Insider Preview環境では、ストアで更新できない。Windowsターミナルに表示されたリンクからダウンロードの上、セットアップする必要あり
-    - Windowsターミナルの表示
-      ![7.4.4 available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
-    - インストーラでのセットアップ
-      ![7.4.4 setup](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
+- [PowerShell 7.4.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/08/24 updated from 7.4.4>>*</span>
+  - 製品版では、ストアアプリとして自動更新される
+  - Insider Preview環境では、ストアで更新できない。
+    - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
+      ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
+    - インストーラを起動して、セットアップする
+      ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 - [Docker](./knowhow/Docker.md)
 
 ##  サービス
