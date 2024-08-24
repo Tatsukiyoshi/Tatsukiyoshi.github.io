@@ -6,7 +6,7 @@
   |----------|-----------------------------------------------------|----------
   |IdeaPad   |[PostgreSQL 16](#postgresql)                         |[2023/09/18](https://www.postgresql.org/download/windows/)
   |Mini-S12  |[SQL Server 2022 Developer 16.0.4105.2](#sql-server) |[2024/01/14](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
-  |          |- SQL Server Management Studio 19.3                  |2024/01/14
+  |          |- SQL Server Management Studio 20.2.3                |2024/08/24
   |          |PostgreSQL 16.1                                      |2023/11/26
   |          |MongoDB 7.1.1                                        |2023/12/10
 
@@ -46,6 +46,9 @@
     - サーバ認証について、Windows認証モードとSQL Server認証モードが選択されているかを確認する
     - SQL Serverを再起動する
   - [SSMS(SQL Server Management Studio)](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+    - SSMS 20.2.3
+      ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
+      - アップデート後の初回起動時に旧バージョンから設定をインポートできる
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 ### PostgreSQL
   - postgres/pgsuper
