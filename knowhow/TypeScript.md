@@ -67,6 +67,9 @@
 
 ##  ノウハウ
 ### TypeScript
+  - アーキテクチャを理解する <span style="color: red;">**Checked Out! 2024/08/25**</span>
+    - [React/Nexjs ユーザーに向けた Astro 入門](https://zenn.dev/overflow_offers/articles/20230330-intro-to-astro-for-react-nexjs-users)
+    - [【Next.js】App RouterとRSCによるアーキテクチャ設計](https://zenn.dev/kiwichan101kg/articles/b44305e3049bac)
   - [Visual Studio Code 用 Microsoft Edge DevTools 拡張機能](https://learn.microsoft.com/ja-jp/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension)
   - [Visual Studio Code で TypeScript の開発環境を構築する](https://maku.blog/p/ak7u3h3/)
   - [node.js](https://nodejs.org/en)/[nvm](https://github.com/nvm-sh/nvm)
