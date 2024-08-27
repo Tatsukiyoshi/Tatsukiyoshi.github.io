@@ -85,7 +85,8 @@
       - Ubuntu 24.04 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - Sonoma 14.6.1 <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
+  - [Sonoma 14.6.1](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
+    <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
     ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 127.0.6533.132  <span style="color: red;">*<<2024/08/21 updated from 127.0.6533.114>>*</span>
