@@ -13,7 +13,7 @@
   |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 1.0 |[2024/08/14](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0 Preview 7                             |[2024/08/14](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.7                                     |2024/08/14
-  |Mini-S12   |Visual Studio Community 2022 17.11.1             |[2024/08/23](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
+  |Mini-S12   |Visual Studio Community 2022 17.11.2             |[2024/08/28](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.8                                     |[2024/08/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- [MAUI 8.0.61(SR6.1)](#maui)                    |[2024/07/13](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -22,8 +22,8 @@
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.12 Preview 1.0
     ![VS2022 17.12 preview 1.0](../images/VisualStudio/20240814_Update_VS2022_17.12_Preview1.0.png)
-  - Visual Studio 2022 17.11.1
-    ![VS2022 17.11.1](../images/VisualStudio/20240823_Update_VS2022_17.11.1.png)
+  - Visual Studio 2022 17.11.2
+    ![VS2022 17.11.2](../images/VisualStudio/20240828_Update_VS2022_17.11.2.png)
     - Visual Studio 2022 17.10.3
       - GitHub Copilotの利用
         - 早速、無料試用版の利用開始を促される <BR />
