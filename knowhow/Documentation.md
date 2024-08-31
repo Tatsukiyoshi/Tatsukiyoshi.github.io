@@ -17,9 +17,12 @@
     - [LaTeXで画像がPDF出力できない](https://teratail.com/questions/185373)
   - Markdown
     - Markdown-PDF
-      ```
-      "markdown-pdf.StatusbarMessageTimeout": 60000
-      ```
+      - PDF出力がタイムアウトしてしまう場合、タイムアウトまでの時間を延ばす
+        ```
+        "markdown-pdf.StatusbarMessageTimeout": 60000
+        ```
+      - PDF出力でエラーとなる場合、ChromiumかGoogle Chromeのパスを設定する
+        ![Executable Path](../images/VisualStudioCode/20240831_Markdown-pdf_ChromePath.png)
     - Draw.io Integration
     - Marp for Visual Studio Code
   - PlantUML
