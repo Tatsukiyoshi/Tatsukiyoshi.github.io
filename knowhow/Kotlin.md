@@ -8,13 +8,13 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末       |環境／FW                                                  |最終更新      
-  |-----------|---------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.2.0.2](#intellij-idea)               |[2024/08/23](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 2.0.0                                           |[2024/05/28](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 22.0.1                                    |2024/05/04
-  |Mini-S12   |[Android Studio Koala 2024.1.1 Patch 2](#android-studio) |[2024/08/09](https://developer.android.com/studio)
-  |           |- Kotlin 2.0.10                                          |[2024/08/09](https://kotlinlang.org/docs/home.html)
+  |端末       |環境／FW                                                       |最終更新      
+  |-----------|--------------------------------------------------------------|----------
+  |IdeaPad    |[IntelliJ IDEA 2024.2.1](#intellij-idea)                      |[2024/08/31](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 2.0.0                                                |[2024/05/28](https://kotlinlang.org/docs/home.html)
+  |           |Amazon Coretto 22.0.1                                         |2024/05/04
+  |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2](#android-studio) |[2024/08/09](https://developer.android.com/studio)
+  |           |- Kotlin 2.0.10                                               |[2024/08/09](https://kotlinlang.org/docs/home.html)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -93,9 +93,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Koala | 2024.1.1 Patch 2
+  - Android Studio Koala Feature Drop | 2024.1.2
     ```
-    Build #AI-241.18034.62.2411.12169540, built on August 1, 2024
+    Build #AI-241.18034.62.2412.12266719, built on August 23, 2024
     Runtime version: 17.0.11+0--11852314 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -136,6 +136,10 @@
           ```
   - バージョン対応履歴
     - Koala 対応
+      - Feature Drop 2024.1.2 対応
+        - Android Gradle Plugin 8.5.2 -> 8.6.0
+        - Kotlin Gradle Plugin 2.0.10 -> 2.0.20
+          - Plugin更新には、Gradle 8.8 以上への更新必須
       - 2024.1.1 Patch 2 対応
         - Android Gradle Plugin 8.5.1 -> 8.5.2
         - Kotlin Gradle Plugin 2.0 -> 2.0.10
