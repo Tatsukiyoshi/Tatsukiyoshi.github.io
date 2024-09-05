@@ -94,6 +94,9 @@
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
     - 更新中
     ![Updating](./images/Chrome/20240905_Chrome_OS_Flex_Updating128.0.6613.118.png)
+    - 新機能紹介
+      - スナップグループ
+        ![新機能１](./images/Chrome/20240905_Chrome_OS_Flex_128_NewFunction1.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
