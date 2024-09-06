@@ -15,6 +15,8 @@
   |           |Amazon Coretto 22.0.1                                         |2024/05/04
   |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2](#android-studio) |[2024/08/09](https://developer.android.com/studio)
   |           |- Kotlin 2.0.10                                               |[2024/08/09](https://kotlinlang.org/docs/home.html)
+  |           |- Android SDK Command-line Tools v.16                         |2024/09/04
+  |           |- Android Emulator v.35.1.20                                  |2024/09/04
 
 ##  ノウハウ
 ### IntelliJ IDEA
