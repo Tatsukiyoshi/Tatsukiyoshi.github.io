@@ -16,10 +16,10 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.80.1](#rust-1)                         |[2024/08/23](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP 6](#rustrover)           |[2024/08/31](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-rc.8](#tauridesktop-framework)    |[2024/08/31](https://beta.tauri.app/)
-      |           |Bun 1.1.27-canary.56                           |[2024/08/31](https://bun.sh/)
+      |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
+      |           |[RustRover 2024.2 EAP 7](#rustrover)           |[2024/09/06](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.0-rc.10](#tauridesktop-framework)   |[2024/09/06](https://beta.tauri.app/)
+      |           |Bun 1.1.27-canary.82                           |[2024/09/06](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -27,11 +27,11 @@
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |Mini-S12   |Rust 1.80            |2024/07/27
-      |           |Tauri 2.0.0-rc.8     |2024/08/31
+      |Mini-S12   |Rust 1.81            |2024/09/06
+      |           |Tauri 2.0.0-rc.10    |2024/09/06
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.2           |2024/08/21
-      |           |Bun 1.1.27-canary.56 |2024/08/31
+      |           |Vite 5.4.3           |2024/09/06
+      |           |Bun 1.1.27-canary.82 |2024/09/06
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -49,10 +49,10 @@
   1.  Mac OS Sonoma 14.6.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |MacBook Air|Rust 1.80.1          |2024/08/15
-      |           |Tauri 2.0.0-rc.8     |2024/08/31
+      |MacBook Air|Rust 1.81            |2024/09/06
+      |           |Tauri 2.0.0-rc.10    |2024/09/06
       |           |Bun 1.1.26           |2024/08/31
-      |           |Vite 5.4.2           |2024/08/21
+      |           |Vite 5.4.3           |2024/09/06
       |           |Node 22.6.0          |2024/08/17
       |           |Cocoapods 1.15.2     |2024/08/17
 
@@ -119,12 +119,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.21829.114 <span style="color: red;">**Updated 2024/08/31**</span>
+  - RustRover 2024.2 EAP Build #RR-242.21829.198 <span style="color: red;">**Updated 2024/09/06**</span>
     ```
     RustRover 2024.2 EAP
-    Build #RR-242.21829.114, built on August 28, 2024
-    ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: September 27, 2024
+    Build #RR-242.21829.198, built on September 5, 2024
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年5月22日 までアクティブです。
+    For non-commercial personal development only.
     Runtime version: 21.0.3+13-b509.11 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -136,14 +137,12 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
+      transferSettings.vscode.onlyCargoToml=true
       llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
-      transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
       com.jetbrains.space (242.21829.142)
       ru.adelf.idea.dotenv (2024.2.1)
-      org.jetbrains.plugins.gitlab (242.21829.162)
-      org.jetbrains.plugins.github (242.21829.162)
     ```
     - [履歴](../history/RustRover.md)
   - データベース

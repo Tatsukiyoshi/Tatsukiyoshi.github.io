@@ -90,16 +90,19 @@
     <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
     ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 127.0.6533.132  <span style="color: red;">*<<2024/08/21 updated from 127.0.6533.114>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240821_Chrome_OS_Flex_127.0.6533.132.png)
+  - バージョン 128.0.6613.118 <span style="color: red;">*<<2024/09/05 updated from 127.0.6533.132>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
     - 更新中
-    ![Updating](./images/Chrome/20240821_Chrome_OS_Flex_Updating127.0.6533.132.png)
+    ![Updating](./images/Chrome/20240905_Chrome_OS_Flex_Updating128.0.6613.118.png)
+    - 新機能紹介
+      - スナップグループ
+        ![新機能１](./images/Chrome/20240905_Chrome_OS_Flex_128_NewFunction1.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.92.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/08/16 updated from 1.92.1>>*</span>
+- [Visual Studio Code 1.93](https://code.visualstudio.com/) <span style="color: red;">*<<2024/09/06 updated from 1.92.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
