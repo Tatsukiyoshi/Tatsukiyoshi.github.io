@@ -10,6 +10,7 @@
 **知識を形にする**
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [Reactアプリ](./design/reactApp/index.md)
+  - [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
 ##  OS
