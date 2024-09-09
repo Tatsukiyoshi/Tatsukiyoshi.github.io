@@ -23,30 +23,35 @@
       |Vercel     |Next.js 14.2.2      |2024/04/21
 
   1.  Windows
-      |端末       |FW                  |最終更新      
-      |-----------|--------------------|----------
-      |IdeaPad    |Node.js 18.20.3     |[2024/05/24](https://nodejs.org/en)
-      |           |Svelte 3.49.0       |[2022/07/16](https://svelte.dev/)
-      |           |Vite 5.0.12         |[2024/01/20](https://vitejs.dev/)
-      |           |Angular 18.0        |[2024/05/24](https://angular.dev/)
-      |           |Vue 3.4.15          |[2024/01/20](https://jp.vuejs.org/)
-      |           |Deno 1.39.4         |[2024/01/21](https://deno.land/)
-      |           |fresh 1.6.3         |[2024/01/21](https://fresh.deno.dev/)
-      |           |Gluon 0.13.5        |[2023/04/29](https://gluonjs.org/)
-      |Mini-S12   |Node.js 18.17.1     |2023/09/13
-      |           |React 19 RC         |[2024/06/08](https://19.react.dev/)
-      |           |- Bun 1.1.12        |[2024/05/30](https://bun.sh/)
-      |           |React 18.3.1        |[2024/05/30](https://ja.react.dev/)
-      |           |- Bun 1.1.22        |2024/08/10
-      |           |- Vite 5.4.0        |2024/08/10
-      |           |Nuxt 3.9.1          |[2024/01/13](https://nuxt.com/)
-      |           |React Native 0.73.1 |[2024/01/07](https://reactnative.dev/)
-      |           |- for Windows 0.73.2|2024/01/07
+      |端末       |FW                      |最終更新      
+      |-----------|------------------------|----------
+      |Mini-S12   |Node.js 20.17.0         |[2024/09/08](https://nodejs.org/en)
+      |           |React 19 RC             |[2024/06/08](https://19.react.dev/)
+      |           |- Bun 1.1.12            |[2024/05/30](https://bun.sh/)
+      |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
+      |           |- Bun 1.1.22            |2024/08/10
+      |           |- Vite 5.4.0            |2024/08/10
+      |           |Astro 4.15.4            |[2024/09/08](https://astro.build/)
+      |           |- Bun 1.1.27-canary.108 |2024/09/08
+      |           |React 18.3.1            |2024/05/30
+      |           |Nuxt 3.13.1             |[2024/09/08](https://nuxt.com/)
+      |           |Vue 3.5.3               |[2024/09/08](https://jp.vuejs.org/)
+      |           |- Deno 1.46.3           |2024/09/08
+      |           |- Vite 5.4.3            |2024/09/08
+      |           |Deno 1.46.3             |[2024/09/08](https://deno.land/)
+      |           |- fresh 1.6.3           |[2024/01/21](https://fresh.deno.dev/)
+      |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
+      |           |- for Windows 0.73.2    |2024/01/07
+      |IdeaPad    |Node.js 18.20.3         |2024/05/24
+      |           |Svelte 3.49.0           |[2022/07/16](https://svelte.dev/)
+      |           |Vite 5.0.12             |[2024/01/20](https://vitejs.dev/)
+      |           |Angular 18.0            |[2024/05/24](https://angular.dev/)
+      |           |Gluon 0.13.5            |[2023/04/29](https://gluonjs.org/)
 
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW             |最終更新
       |-----------|--------------------|----------
-      |IdeaPad    |Astro 4.9.2         |[2024/05/30](https://astro.build/)
+      |IdeaPad    |Astro 4.9.2         |2024/05/30
       |           |Bun 1.1.12          |2024/05/30
       |           |React 18.3.1        |2024/05/30
       |Mini-S12   |Bun 1.0.19          |2023/12/23
@@ -617,6 +622,8 @@
     - basic_20190223
       - AngularによるモダンWeb開発 基礎編 第2版 ダイジェスト版（日経ソフトウェア 2019年5月号 付録）
   - [Vue.js](https://jp.vuejs.org/index.html)
+    - [eslint-plugin-vue](https://eslint.vuejs.org/)
+    - [Vue3 + TypeScript + Prettier に対応した ESLint Flat Config の最小構成](https://zenn.dev/shun91/articles/min-eslint-flat-config-for-vue3-ts-prettier)
     - [TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/detail/14451)
     - プロジェクト作成
       - TypeScriptのインストール
