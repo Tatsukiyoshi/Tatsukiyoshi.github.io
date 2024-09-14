@@ -12,10 +12,11 @@
   |-----------|-------------------------------------------------|----------
   |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 2.0 |[2024/09/11](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.1                                |[2024/09/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
+  |           |  - MAUI 9.0.0 rc.1                              |2024/09/14
   |           |- .NET 8.0.8                                     |2024/09/11
   |Mini-S12   |Visual Studio Community 2022 17.11.3             |[2024/09/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.11.3)
   |           |- .NET 8.0.8                                     |[2024/08/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |- [MAUI 8.0.90](#maui)                           |[2024/09/14](https://github.com/dotnet/maui)
+  |           |  - [MAUI 8.0.90](#maui)                         |[2024/09/14](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
@@ -315,6 +316,10 @@
 ### MAUI
   - Visual Studio
     - [.NET MAUI 9](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-9?view=net-maui-8.0)
+    - 17.12 Preview 2.0 / MAUI 9.0.0-rc.1 / Pixel 8 API 35(Android 15)
+        ![MAUI - Pixel 8 API 35](../images/VisualStudio/20240915_VS2022_17.12_Preview2.0_MAUI90_Android15.png)
+        - デバイスマネージャではエラーとなっているにもかかわらず、デバッグ実行できている
+          ![Emulator - API 35](../images/VisualStudio/20240915_VS2022_17.12_Emulator_Android15.png)
     - 17.11.3 
       - MAUI 8.0.90 / Pixel 8 API 34(Android 14)
         ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240914_VS2022_17.11.3_MAUI90_Android14.png)
