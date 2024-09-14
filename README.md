@@ -45,16 +45,16 @@
         ```
         </details>
 
-      - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
         ```
-        PRETTY_NAME="Ubuntu 24.04 LTS"
+        PRETTY_NAME="Ubuntu 24.04.1 LTS"
         NAME="Ubuntu"
         VERSION_ID="24.04"
-        VERSION="24.04 LTS (Noble Numbat)"
+        VERSION="24.04.1 LTS (Noble Numbat)"
         VERSION_CODENAME=noble
         ID=ubuntu
         ID_LIKE=debian
