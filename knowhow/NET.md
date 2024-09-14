@@ -317,7 +317,7 @@
   - Visual Studio
     - [.NET MAUI 9](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-9?view=net-maui-8.0)
     - 17.12 Preview 2.0 / MAUI 9.0.0-rc.1 / Pixel 8 API 35(Android 15)
-        ![MAUI - Pixel 8 API 35](../images/VisualStudio/20240915_VS2022_17.12_Preview2.0_MAUI90_Android15.png)
+        ![MAUI - Pixel 8 API 35](../images/VisualStudio/20240915_VS2022_17.12_Preview2.0_MAUI9.0.0rc.1_Android15.png)
         - デバイスマネージャではエラーとなっているにもかかわらず、デバッグ実行できている
           ![Emulator - API 35](../images/VisualStudio/20240915_VS2022_17.12_Emulator_Android15.png)
     - 17.11.3 
