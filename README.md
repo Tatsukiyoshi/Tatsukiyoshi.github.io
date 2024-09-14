@@ -45,16 +45,16 @@
         ```
         </details>
 
-      - [Ubuntu 24.04](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/04/26 updated from 24.04-beta>>*</span>
+      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
         ```
-        PRETTY_NAME="Ubuntu 24.04 LTS"
+        PRETTY_NAME="Ubuntu 24.04.1 LTS"
         NAME="Ubuntu"
         VERSION_ID="24.04"
-        VERSION="24.04 LTS (Noble Numbat)"
+        VERSION="24.04.1 LTS (Noble Numbat)"
         VERSION_CODENAME=noble
         ID=ubuntu
         ID_LIKE=debian
@@ -84,7 +84,28 @@
         ```
         </details>
 
-      - Ubuntu 24.04 <span style="color: red;">*<<2024/05/27 updated from 22.04.3>>*</span>
+      - Ubuntu 24.04.1 <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
+
+        <details>
+        <summary>ディストリビューション・バージョン情報</summary>
+
+        ```
+        PRETTY_NAME="Ubuntu 24.04.1 LTS"
+        NAME="Ubuntu"
+        VERSION_ID="24.04"
+        VERSION="24.04.1 LTS (Noble Numbat)"
+        VERSION_CODENAME=noble
+        ID=ubuntu
+        ID_LIKE=debian
+        HOME_URL="https://www.ubuntu.com/"
+        SUPPORT_URL="https://help.ubuntu.com/"
+        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+        UBUNTU_CODENAME=noble
+        LOGO=ubuntu-logo
+        ```
+        </details>
+
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
   - [Sonoma 14.6.1](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
