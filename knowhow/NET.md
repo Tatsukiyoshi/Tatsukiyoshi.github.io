@@ -15,7 +15,7 @@
   |           |- .NET 8.0.8                                     |2024/09/11
   |Mini-S12   |Visual Studio Community 2022 17.11.3             |[2024/09/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.11.3)
   |           |- .NET 8.0.8                                     |[2024/08/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |- [MAUI 8.0.72(SR7.2)](#maui)                    |[2024/09/11](https://github.com/dotnet/maui)
+  |           |- [MAUI 8.0.90](#maui)                           |[2024/09/14](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
@@ -315,7 +315,10 @@
 ### MAUI
   - Visual Studio
     - [.NET MAUI 9](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-9?view=net-maui-8.0)
-    - 17.11.3 / MAUI 8.0.72(SR7.2) / Pixel 8 API 34(Android 14)
+    - 17.11.3 
+      - MAUI 8.0.90 / Pixel 8 API 34(Android 14)
+        ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240914_VS2022_17.11.3_MAUI90_Android14.png)
+      - MAUI 8.0.72 / Pixel 8 API 34(Android 14)
         ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240914_VS2022_17.11.3_MAUI72_Android14.png)
     - 17.10.4 / MAUI 8.0.61(SR6.1) / Pixel 8 API 34(Android 14)
         ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240713_VS2022_17.10.4_MAUI_Android.png)
