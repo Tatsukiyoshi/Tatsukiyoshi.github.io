@@ -3,14 +3,13 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト（2024/9/2～9/8）](https://note.com/taishow2020/n/n24e062e3d208) /
+  [最新ダイジェスト：2024/9/9～9/16] (https://note.com/taishow2020/n/n69588d7b6972) /
   [一覧](./digest/digestList.md)
 
 ##  創作物
 **知識を形にする**
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
-- [Reactアプリ](./design/reactApp/index.md)
-  - [詳細検討](./design/reactApp/detail.md)
+- [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
 ##  OS
