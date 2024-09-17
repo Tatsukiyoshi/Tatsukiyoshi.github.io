@@ -127,13 +127,15 @@
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
 - [GitHub Desktop 3.4.5](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/09/11 updated from 3.4.2>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - バージョンのギャップがあれば、起動したGitHub Desktopでアップデートできるみたい
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
+- [Docker](./knowhow/Docker.md)
+
+**Windows**
 - [PowerShell 7.4.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/08/24 updated from 7.4.4>>*</span>
   - 製品版では、ストアアプリとして自動更新される
   - Insider Preview環境では、ストアで更新できない。
@@ -141,7 +143,10 @@
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
-- [Docker](./knowhow/Docker.md)
+
+**Mac**
+- [XCode 16.0](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/09/17 Updated from 15.4>>*</span>
+- [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
