@@ -1,4 +1,11 @@
 # Chrome OS Flex
+- バージョン 128.0.6613.118 <span style="color: red;">*<<2024/09/05 updated from 127.0.6533.132>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
+  - 更新中
+  ![Updating](../images/Chrome/20240905_Chrome_OS_Flex_Updating128.0.6613.118.png)
+  - 新機能紹介
+    - スナップグループ
+      ![新機能１](../images/Chrome/20240905_Chrome_OS_Flex_128_NewFunction1.png)
 - バージョン 127.0.6533.132  <span style="color: red;">*<<2024/08/21 updated from 127.0.6533.114>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240821_Chrome_OS_Flex_127.0.6533.132.png)
   - 更新中

@@ -110,13 +110,10 @@
   - [Sonoma 14.7](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
     <span style="color: red;">*<<2024/09/17 updated from Sonoma 14.6.1>>*</span>
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 128.0.6613.118 <span style="color: red;">*<<2024/09/05 updated from 127.0.6533.132>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
+  - バージョン 128.0.6613.133 <span style="color: red;">*<<2024/09/17 updated from 128.0.6613.118>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240917_Chrome_OS_Flex_128.0.6613.133.png)
     - 更新中
-    ![Updating](./images/Chrome/20240905_Chrome_OS_Flex_Updating128.0.6613.118.png)
-    - 新機能紹介
-      - スナップグループ
-        ![新機能１](./images/Chrome/20240905_Chrome_OS_Flex_128_NewFunction1.png)
+    ![Updating](./images/Chrome/20240917_Chrome_OS_Flex_Updating128.0.6613.133.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
