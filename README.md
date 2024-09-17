@@ -240,14 +240,15 @@
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
 - Git
-  - Windowsでの更新
-    ```
-    git update-git-for-windows
-    ```
   - ユーザ設定
     ```
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
+    ```
+  - [ssh接続について](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+  - Windowsでの更新
+    ```
+    git update-git-for-windows
     ```
   - ブランチ確認
     ```
