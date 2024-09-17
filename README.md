@@ -107,17 +107,13 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sonoma 14.6.1](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
-    <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
-    ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
+  - [Sonoma 14.7](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
+    <span style="color: red;">*<<2024/09/17 updated from Sonoma 14.6.1>>*</span>
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 128.0.6613.118 <span style="color: red;">*<<2024/09/05 updated from 127.0.6533.132>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
+  - バージョン 128.0.6613.133 <span style="color: red;">*<<2024/09/17 updated from 128.0.6613.118>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240917_Chrome_OS_Flex_128.0.6613.133.png)
     - 更新中
-    ![Updating](./images/Chrome/20240905_Chrome_OS_Flex_Updating128.0.6613.118.png)
-    - 新機能紹介
-      - スナップグループ
-        ![新機能１](./images/Chrome/20240905_Chrome_OS_Flex_128_NewFunction1.png)
+    ![Updating](./images/Chrome/20240917_Chrome_OS_Flex_Updating128.0.6613.133.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
@@ -127,13 +123,15 @@
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
 - [GitHub Desktop 3.4.5](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/09/11 updated from 3.4.2>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - バージョンのギャップがあれば、起動したGitHub Desktopでアップデートできるみたい
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
+- [Docker](./knowhow/Docker.md)
+
+**Windows**
 - [PowerShell 7.4.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/08/24 updated from 7.4.4>>*</span>
   - 製品版では、ストアアプリとして自動更新される
   - Insider Preview環境では、ストアで更新できない。
@@ -141,7 +139,10 @@
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
-- [Docker](./knowhow/Docker.md)
+
+**Mac**
+- [XCode 16.0](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/09/17 Updated from 15.4>>*</span>
+- [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
@@ -235,14 +236,15 @@
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
 - Git
-  - Windowsでの更新
-    ```
-    git update-git-for-windows
-    ```
   - ユーザ設定
     ```
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
+    ```
+  - [ssh接続について](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+  - Windowsでの更新
+    ```
+    git update-git-for-windows
     ```
   - ブランチ確認
     ```
