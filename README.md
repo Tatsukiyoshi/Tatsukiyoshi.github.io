@@ -107,9 +107,8 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sonoma 14.6.1](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
-    <span style="color: red;">*<<2024/08/13 updated from Sonoma 14.3>>*</span>
-    ![Update](./images/Mac/20240813_UpdateSonoma_14.6.1.png)
+  - [Sonoma 14.7](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
+    <span style="color: red;">*<<2024/09/17 updated from Sonoma 14.6.1>>*</span>
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 128.0.6613.118 <span style="color: red;">*<<2024/09/05 updated from 127.0.6533.132>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240905_Chrome_OS_Flex_128.0.6613.118.png)
