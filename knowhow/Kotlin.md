@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.2.1](#intellij-idea)                              |[2024/08/31](https://www.jetbrains.com/ja-jp/idea/)
+  |IdeaPad    |[IntelliJ IDEA 2024.2.2](#intellij-idea)                              |[2024/09/20](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.0                                                        |[2024/05/28](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                                 |2024/05/04
   |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2 Patch 1](#android-studio) |[2024/09/19](https://developer.android.com/studio)
@@ -20,6 +20,25 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - IntelliJ IDEA 2024.2.2 (Community Edition)
+    ```
+    Build #IC-242.22855.74, built on September 18, 2024
+    Runtime version: 21.0.3+13-b509.15 amd64 (JCEF 122.1.9)
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Toolkit: sun.awt.windows.WToolkit
+    Windows 11.0
+    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+    Memory: 2048M
+    Cores: 16
+    Registry:
+      ide.experimental.ui=true
+      i18n.locale=
+    Non-Bundled Plugins:
+      Lombook Plugin (242.22855.74)
+      com.jetbrains.space (242.22855.32)
+      org.jetbrains.compose.desktop.ide (1.6.2)
+    Kotlin: 242.22855.74-IJ
+    ```
   - IntelliJ IDEA 2024.2.0.2
     - PostgreSQL 16.4
     - Gradle 8.8
