@@ -14,7 +14,7 @@
   |           |- .NET 9.0.0 rc.1                                |[2024/09/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |  - MAUI 9.0.0 rc.1                              |2024/09/14
   |           |- .NET 8.0.8                                     |2024/09/11
-  |Mini-S12   |Visual Studio Community 2022 17.11.3             |[2024/09/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#17.11.3)
+  |Mini-S12   |Visual Studio Community 2022 17.11.4             |[2024/09/19](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.8                                     |[2024/08/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |  - [MAUI 8.0.90](#maui)                         |[2024/09/14](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -23,14 +23,14 @@
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.12 Preview 2.0
     ![VS2022 17.12 preview 2.0](../images/VisualStudio/20240911_Update_VS2022_17.12_Preview2.0.png)
-  - Visual Studio 2022 17.11.3
-    ![VS2022 17.11.3](../images/VisualStudio/20240911_Update_VS2022_17.11.3.png)
-    - Visual Studio 2022 17.10.3
-      - GitHub Copilotの利用
-        - 早速、無料試用版の利用開始を促される <BR />
-          ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
-        - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
-          ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
+  - Visual Studio 2022 17.11.4
+    ![VS2022 17.11.4](../images/VisualStudio/20240919_Update_VS2022_17.11.4.png)
+  - Visual Studio 2022 17.10.3
+    - GitHub Copilotの利用
+      - 早速、無料試用版の利用開始を促される <BR />
+        ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
+      - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
+        ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -134,7 +134,7 @@
   .NET SDK:
   Version:           8.0.400
   Commit:            36fe6dda56
-  Workload version:  8.0.400-manifests.6c274a57
+  Workload version:  8.0.400-manifests.251308be
   MSBuild version:   17.11.3+0c8610977
 
   ランタイム環境:
@@ -147,27 +147,27 @@
   インストール済みの .NET ワークロード:
   新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
   [maccatalyst]
-    インストール ソース: VS 17.11.35303.130
+    インストール ソース: VS 17.11.35312.102
     マニフェストのバージョン:    17.5.8030/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.5.8030\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [ios]
-    インストール ソース: VS 17.11.35303.130
+    インストール ソース: VS 17.11.35312.102
     マニフェストのバージョン:    17.5.8030/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.5.8030\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [android]
-    インストール ソース: VS 17.11.35303.130
+    インストール ソース: VS 17.11.35312.102
     マニフェストのバージョン:    34.0.113/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.113\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maui-windows]
-    インストール ソース: VS 17.11.35303.130
-    マニフェストのバージョン:    8.0.72/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.72\WorkloadManifest.json
+    インストール ソース: VS 17.11.35312.102
+    マニフェストのバージョン:    8.0.82/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.82\WorkloadManifest.json
     インストールの種類:        FileBased
 
 

@@ -107,8 +107,11 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sonoma 14.7](https://apps.apple.com/jp/app/macos-sonoma/id6450717509?mt=12)
-    <span style="color: red;">*<<2024/09/17 updated from Sonoma 14.6.1>>*</span>
+  - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
+    ![SEquoia 15.0](./images/Mac/20240919_MacOS_Sequoia.png)
+    - iPhoneミラーリングはiOS 18アップデートが必要
+      ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_Mirroring_Error.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 128.0.6613.133 <span style="color: red;">*<<2024/09/17 updated from 128.0.6613.118>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240917_Chrome_OS_Flex_128.0.6613.133.png)
