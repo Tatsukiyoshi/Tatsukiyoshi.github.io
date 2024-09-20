@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP 7](#rustrover)           |[2024/09/06](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.2.1](#rustrover)               |[2024/09/20](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-rc.11](#tauridesktop-framework)   |[2024/09/13](https://beta.tauri.app/)
       |           |Bun 1.1.28-canary.63                           |[2024/09/13](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
@@ -119,10 +119,10 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.21829.198 <span style="color: red;">**Updated 2024/09/06**</span>
+  - RustRover 2024.2.1 Build #RR-242.21829.233 <span style="color: red;">**Updated 2024/09/20**</span>
     ```
-    RustRover 2024.2 EAP
-    Build #RR-242.21829.198, built on September 5, 2024
+    RustRover 2024.2.1
+    Build #RR-242.21829.233, built on September 17, 2024
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial personal development only.
