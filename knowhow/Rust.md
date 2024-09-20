@@ -17,9 +17,9 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2 EAP 7](#rustrover)           |[2024/09/06](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-rc.11](#tauridesktop-framework)   |[2024/09/13](https://beta.tauri.app/)
-      |           |Bun 1.1.28-canary.63                           |[2024/09/13](https://bun.sh/)
+      |           |[RustRover 2024.2.1](#rustrover)               |[2024/09/20](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.0-rc.15](#tauridesktop-framework)   |[2024/09/20](https://beta.tauri.app/)
+      |           |Bun 1.1.29-canary.14                           |[2024/09/20](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -28,10 +28,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.0-rc.11    |2024/09/13
+      |           |Tauri 2.0.0-rc.15    |2024/09/20
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.5           |2024/09/13
-      |           |Bun 1.1.28-canary.63 |2024/09/13
+      |           |Vite 5.4.6           |2024/09/20
+      |           |Bun 1.1.29-canary.14 |2024/09/20
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -46,13 +46,13 @@
       |           |Vite 5.4.6                                   |2024/09/17
       |           |Bevy 0.10.1                                  |2023/04/01
 
-  1.  Mac OS Sonoma 14.6.1
+  1.  Mac OS Sonoma 15.0
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |MacBook Air|Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.0-rc.11    |2024/09/13
-      |           |Bun 1.1.27           |2024/09/13
-      |           |Vite 5.4.5           |2024/09/13
+      |           |Tauri 2.0.0-rc.15    |2024/09/20
+      |           |Bun 1.1.29           |2024/09/20
+      |           |Vite 5.4.6           |2024/09/20
       |           |Node 22.6.0          |2024/08/17
       |           |Cocoapods 1.15.2     |2024/08/17
 
@@ -119,10 +119,10 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2 EAP Build #RR-242.21829.198 <span style="color: red;">**Updated 2024/09/06**</span>
+  - RustRover 2024.2.1 Build #RR-242.21829.233 <span style="color: red;">**Updated 2024/09/20**</span>
     ```
-    RustRover 2024.2 EAP
-    Build #RR-242.21829.198, built on September 5, 2024
+    RustRover 2024.2.1
+    Build #RR-242.21829.233, built on September 17, 2024
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial personal development only.

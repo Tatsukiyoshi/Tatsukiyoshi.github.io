@@ -8,18 +8,37 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末       |環境／FW                                                       |最終更新      
-  |-----------|--------------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.2.1](#intellij-idea)                      |[2024/08/31](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 2.0.0                                                |[2024/05/28](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 22.0.1                                         |2024/05/04
-  |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2](#android-studio) |[2024/08/09](https://developer.android.com/studio)
-  |           |- Kotlin 2.0.10                                               |[2024/08/09](https://kotlinlang.org/docs/home.html)
-  |           |- Android SDK Command-line Tools v.16                         |2024/09/04
-  |           |- Android Emulator v.35.1.20                                  |2024/09/04
+  |端末       |環境／FW                                                               |最終更新      
+  |-----------|----------------------------------------------------------------------|----------
+  |IdeaPad    |[IntelliJ IDEA 2024.2.2](#intellij-idea)                              |[2024/09/20](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 2.0.0                                                        |[2024/05/28](https://kotlinlang.org/docs/home.html)
+  |           |Amazon Coretto 22.0.1                                                 |2024/05/04
+  |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2 Patch 1](#android-studio) |[2024/09/19](https://developer.android.com/studio)
+  |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
+  |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
+  |           |- Android Emulator v.35.1.20                                          |2024/09/04
 
 ##  ノウハウ
 ### IntelliJ IDEA
+  - IntelliJ IDEA 2024.2.2 (Community Edition)
+    ```
+    Build #IC-242.22855.74, built on September 18, 2024
+    Runtime version: 21.0.3+13-b509.15 amd64 (JCEF 122.1.9)
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Toolkit: sun.awt.windows.WToolkit
+    Windows 11.0
+    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+    Memory: 2048M
+    Cores: 16
+    Registry:
+      ide.experimental.ui=true
+      i18n.locale=
+    Non-Bundled Plugins:
+      Lombook Plugin (242.22855.74)
+      com.jetbrains.space (242.22855.32)
+      org.jetbrains.compose.desktop.ide (1.6.2)
+    Kotlin: 242.22855.74-IJ
+    ```
   - IntelliJ IDEA 2024.2.0.2
     - PostgreSQL 16.4
     - Gradle 8.8
@@ -95,9 +114,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Koala Feature Drop | 2024.1.2
+  - Android Studio Koala Feature Drop | 2024.1.2 Patch 1
     ```
-    Build #AI-241.18034.62.2412.12266719, built on August 23, 2024
+    Build #AI-241.19072.14.2412.12360217, built on September 13, 2024
     Runtime version: 17.0.11+0--11852314 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Windows 11.0
@@ -109,7 +128,7 @@
       ide.experimental.ui=true
     Non-Bundled Plugins:
       com.intellij.ja (241.271)
-      Dart (241.18808)
+      Dart (241.18968.26)
       io.flutter (81.0.2)
     ```
   - バージョン共通
@@ -138,6 +157,8 @@
           ```
   - バージョン対応履歴
     - Koala 対応
+      - Feature Drop 2024.1.2 Patch 1 対応
+        - Android Gradle Plugin 8.6.0 -> 8.6.1
       - Feature Drop 2024.1.2 対応
         - Android Gradle Plugin 8.5.2 -> 8.6.0
         - Kotlin Gradle Plugin 2.0.10 -> 2.0.20
