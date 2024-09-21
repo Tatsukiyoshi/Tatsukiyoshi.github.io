@@ -106,8 +106,12 @@
   - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
     ![SEquoia 15.0](./images/Mac/20240919_MacOS_Sequoia.png)
-    - iPhoneミラーリングはiOS 18アップデートが必要
-      ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_Mirroring_Error.png)
+    - iPhoneミラーリング
+      - iOS18アップデートが必要
+        ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
+      - iOS18アップデートしました
+        ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
+        ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 128.0.6613.161 <span style="color: red;">*<<2024/09/20 updated from 128.0.6613.133>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240920_Chrome_OS_Flex_128.0.6613.161.png)
