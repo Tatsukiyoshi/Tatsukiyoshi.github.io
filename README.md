@@ -16,31 +16,27 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.1542 (Cumulative Update) <span style="color: red;">*<<2024/08/20 updated from 26120.1350>>*</span>
-      ![Cumulative Update](./images/Windows/20240820_WindowsUpdate_DevChannel.png)
-      - タスクバーを左寄せに
-        ![TaskBar Aligned Center](./images/Windows/TaskBar_20240820_194033.png)
-        ↓
-        ![TaskBar Aligned Left with Widget](./images/Windows/TaskBar_20240820_201335.png)
+    - Build 26120.1843 (Cumulative Update) <span style="color: red;">*<<2024/09/21 updated from 26120.1542>>*</span>
+      ![Cumulative Update](./images/Windows/20240921_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20240820_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20240921_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  IdeaPad
-      - [WSL 2.3.17.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/08/13 updated from 2.3.14.0>>*</span>
+      - [WSL 2.3.22.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/09/21 updated from 2.3.17.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.153.1-2</summary>
 
         ```
-        WSL バージョン: 2.3.17.0
+        WSL バージョン: 2.3.22.0
         カーネル バージョン: 5.15.153.1-2
-        WSLg バージョン: 1.0.64
-        MSRDC バージョン: 1.2.5326
+        WSLg バージョン: 1.0.65
+        MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.1350
+        Windows バージョン: 10.0.26120.1843
         ```
         </details>
 
@@ -110,8 +106,12 @@
   - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
     ![SEquoia 15.0](./images/Mac/20240919_MacOS_Sequoia.png)
-    - iPhoneミラーリングはiOS 18アップデートが必要
-      ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_Mirroring_Error.png)
+    - iPhoneミラーリング
+      - iOS18アップデートが必要
+        ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
+      - iOS18アップデートしました
+        ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
+        ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 128.0.6613.161 <span style="color: red;">*<<2024/09/20 updated from 128.0.6613.133>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20240920_Chrome_OS_Flex_128.0.6613.161.png)
