@@ -10,8 +10,8 @@
 ##  環境
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
-  |IdeaPad    |[IntelliJ IDEA 2024.2.2](#intellij-idea)                              |[2024/09/20](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 2.0.0                                                        |[2024/05/28](https://kotlinlang.org/docs/home.html)
+  |IdeaPad    |[IntelliJ IDEA 2024.2.3](#intellij-idea)                              |[2024/09/27](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                                 |2024/05/04
   |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2 Patch 1](#android-studio) |[2024/09/19](https://developer.android.com/studio)
   |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
@@ -20,10 +20,10 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.2.2 (Community Edition)
+  - IntelliJ IDEA 2024.2.3 (Community Edition)
     ```
-    Build #IC-242.22855.74, built on September 18, 2024
-    Runtime version: 21.0.3+13-b509.15 amd64 (JCEF 122.1.9)
+    Build #IC-242.23339.11, built on September 25, 2024
+    Runtime version: 21.0.4+13-b509.17 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -34,11 +34,22 @@
       ide.experimental.ui=true
       i18n.locale=
     Non-Bundled Plugins:
-      Lombook Plugin (242.22855.74)
-      com.jetbrains.space (242.22855.32)
+      Lombook Plugin (242.22855.128)
+      com.jetbrains.space (242.23339.11)
       org.jetbrains.compose.desktop.ide (1.6.2)
-    Kotlin: 242.22855.74-IJ
+    Kotlin: 242.23339.11-IJ
     ```
+  - IntelliJ IDEA 2024.2.3
+    - Kotlin 2.0.20
+      - kotlinOptions Deprecated - https://kotlinlang.org/docs/gradle-compiler-options.html#target-the-jvm
+        ```kts
+        tasks.named("compileKotlin", org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java) {
+          compilerOptions {
+            freeCompilerArgs.add("-Xjsr305=strict")
+            apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_0)
+          }
+        }
+        ```
   - IntelliJ IDEA 2024.2.0.2
     - PostgreSQL 16.4
     - Gradle 8.8
