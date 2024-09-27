@@ -6,7 +6,7 @@
   |----------|-----------------------------------------------------|----------
   |Mini-S12  |[SQL Server 2022 Developer 16.0.4135.4](#sql-server) |[2024/08/24](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
   |          |- SQL Server Management Studio 20.2.3                |2024/08/24
-  |          |[PostgreSQL 16.4](#postgresql)                       |[2024/08/24](https://www.postgresql.org/download/windows/)
+  |          |[PostgreSQL 17.0](#postgresql)                       |[2024/09/27](https://www.postgresql.org/download/windows/)
   |          |MongoDB 7.1.1                                        |2023/12/10
   |          |MySQL Community Server 8.4.2                         |2024/08/24
   |IdeaPad   |PostgreSQL 16.4                                      |2024/08/24
@@ -52,13 +52,14 @@
       - アップデート後の初回起動時に旧バージョンから設定をインポートできる
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 ### PostgreSQL
+  - PgAdmin対応表
+    PostgreSQL | PgAdmin4
+    -----------|-----------
+    17.0       | 8.12
+    16.4       | 8.10
+    16.1       | 7.8
+    16         | 7.6
   - postgres/pgsuper
-  - PostgreSQL 16.4
-    - PgAdmin4 8.10
-  - PostgreSQL 16.1
-    - PgAdmin4 7.8
-  - PostgreSQL 16
-    - PgAdmin4 7.6
   - [リリース間移行](https://www.postgresql.jp/docs/9.0/migration.html)
     - 並行稼働のため、新バージョンは現行バージョンとは異なるポート番号とする（現行：5432、新：5433）
     - 現行バージョンのバックアップ
