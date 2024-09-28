@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2.1](#rustrover)               |[2024/09/20](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.2.2](#rustrover)               |[2024/09/27](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.0-rc.15](#tauridesktop-framework)   |[2024/09/20](https://beta.tauri.app/)
       |           |Bun 1.1.29-canary.14                           |[2024/09/20](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
@@ -119,14 +119,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2.1 Build #RR-242.21829.233 <span style="color: red;">**Updated 2024/09/20**</span>
+  - RustRover 2024.2.2 Build #RR-242.22855.126 <span style="color: red;">**Updated 2024/09/27**</span>
     ```
-    RustRover 2024.2.1
-    Build #RR-242.21829.233, built on September 17, 2024
+    RustRover 2024.2.2
+    Build #RR-242.22855.126, built on September 25, 2024
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial personal development only.
-    Runtime version: 21.0.3+13-b509.11 amd64 (JCEF 122.1.9)
+    Runtime version: 21.0.3+13-b509.15 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -137,11 +137,11 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
-      transferSettings.vscode.onlyCargoToml=true
       llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
-      com.jetbrains.space (242.21829.142)
+      com.jetbrains.space (242.22855.32)
       ru.adelf.idea.dotenv (2024.2.1)
     ```
     - [履歴](../history/RustRover.md)
@@ -190,6 +190,8 @@
       ```
       sea-orm-cli generate entity -u postgres://postgres:pgsuper@localhost:5432/sample_db -o src/models 
       ```
+  - time
+    - Rust 1.80 以降は、0.3.35 以上にする必要あり
   ### セッション管理
   - [Redis](https://github.com/MicrosoftArchive/redis/releases)
   ### SSL
