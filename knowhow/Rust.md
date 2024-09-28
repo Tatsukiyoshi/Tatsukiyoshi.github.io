@@ -18,8 +18,8 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 1](#rustrover)           |[2024/09/28](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-rc.15](#tauridesktop-framework)   |[2024/09/20](https://beta.tauri.app/)
-      |           |Bun 1.1.29-canary.14                           |[2024/09/20](https://bun.sh/)
+      |           |[Tauri 2.0.0-rc.16](#tauridesktop-framework)   |[2024/09/28](https://beta.tauri.app/)
+      |           |Bun 1.1.30-canary.70                           |[2024/09/28](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
