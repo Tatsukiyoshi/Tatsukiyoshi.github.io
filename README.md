@@ -112,10 +112,10 @@
         ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
         ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 128.0.6613.161 <span style="color: red;">*<<2024/09/20 updated from 128.0.6613.133>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240920_Chrome_OS_Flex_128.0.6613.161.png)
+  - バージョン 128.0.6613.163 <span style="color: red;">*<<2024/09/28 updated from 128.0.6613.161>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20240928_Chrome_OS_Flex_128.0.6613.163.png)
     - 更新中
-    ![Updating](./images/Chrome/20240920_Chrome_OS_Flex_Updating128.0.6613.161.png)
+    ![Updating](./images/Chrome/20240927_Chrome_OS_Flex_Updating128.0.6613.163.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
