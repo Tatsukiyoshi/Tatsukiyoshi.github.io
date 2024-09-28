@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 2.0 |[2024/09/11](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 2.1 |[2024/09/27](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.1                                |[2024/09/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |  - MAUI 9.0.0 rc.1                              |2024/09/14
   |           |- .NET 8.0.8                                     |2024/09/11
@@ -21,8 +21,8 @@
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
-  - Visual Studio 2022 17.12 Preview 2.0
-    ![VS2022 17.12 preview 2.0](../images/VisualStudio/20240911_Update_VS2022_17.12_Preview2.0.png)
+  - Visual Studio 2022 17.12 Preview 2.1
+    ![VS2022 17.12 preview 2.1](../images/VisualStudio/20240927_Update_VS2022_17.12_Preview2.1.png)
   - Visual Studio 2022 17.11.4
     ![VS2022 17.11.4](../images/VisualStudio/20240919_Update_VS2022_17.11.4.png)
   - Visual Studio 2022 17.10.3
@@ -84,7 +84,30 @@
 
   インストール済みの .NET ワークロード:
   新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
-  表示するインストール済みワークロードはありません。
+  [maui-windows]
+    インストール ソース: VS 17.12.35323.107
+    マニフェストのバージョン:    9.0.0-rc.1.24453.9/9.0.100-rc.1
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.1\microsoft.net.sdk.maui\9.0.0-rc.1.24453.9\WorkloadManifest.json
+    インストールの種類:              Msi
+
+  [maccatalyst]
+    インストール ソース: VS 17.12.35323.107
+    マニフェストのバージョン:    17.5.9270-net9-rc1/9.0.100-rc.1
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.1\microsoft.net.sdk.maccatalyst\17.5.9270-net9-rc1\WorkloadManifest.json
+    インストールの種類:              Msi
+
+  [ios]
+    インストール ソース: VS 17.12.35323.107
+    マニフェストのバージョン:    17.5.9270-net9-rc1/9.0.100-rc.1
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.1\microsoft.net.sdk.ios\17.5.9270-net9-rc1\WorkloadManifest.json
+    インストールの種類:              Msi
+
+  [android]
+    インストール ソース: VS 17.12.35323.107
+    マニフェストのバージョン:    35.0.0-rc.1.80/9.0.100-rc.1
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.1\microsoft.net.sdk.android\35.0.0-rc.1.80\WorkloadManifest.json
+    インストールの種類:              Msi
+
 
   Host:
     Version:      9.0.0-rc.1.24431.7

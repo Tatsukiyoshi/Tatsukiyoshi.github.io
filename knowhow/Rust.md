@@ -17,9 +17,9 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.2.1](#rustrover)               |[2024/09/20](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.0-rc.15](#tauridesktop-framework)   |[2024/09/20](https://beta.tauri.app/)
-      |           |Bun 1.1.29-canary.14                           |[2024/09/20](https://bun.sh/)
+      |           |[RustRover 2024.3 EAP 1](#rustrover)           |[2024/09/28](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.0-rc.16](#tauridesktop-framework)   |[2024/09/28](https://beta.tauri.app/)
+      |           |Bun 1.1.30-canary.70                           |[2024/09/28](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -28,10 +28,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.0-rc.15    |2024/09/20
+      |           |Tauri 2.0.0-rc.16    |2024/09/28
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.6           |2024/09/20
-      |           |Bun 1.1.29-canary.14 |2024/09/20
+      |           |Vite 5.4.8           |2024/09/28
+      |           |Bun 1.1.30-canary.71 |2024/09/28
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -50,9 +50,9 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |MacBook Air|Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.0-rc.15    |2024/09/20
+      |           |Tauri 2.0.0-rc.16    |2024/09/28
       |           |Bun 1.1.29           |2024/09/20
-      |           |Vite 5.4.6           |2024/09/20
+      |           |Vite 5.4.8           |2024/09/28
       |           |Node 22.6.0          |2024/08/17
       |           |Cocoapods 1.15.2     |2024/08/17
 
@@ -119,14 +119,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.2.1 Build #RR-242.21829.233 <span style="color: red;">**Updated 2024/09/20**</span>
+  - RustRover 2024.3 EAP Build #RR-243.15521.46 <span style="color: red;">**Updated 2024/09/28**</span>
     ```
-    RustRover 2024.2.1
-    Build #RR-242.21829.233, built on September 17, 2024
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年5月22日 までアクティブです。
-    For non-commercial personal development only.
-    Runtime version: 21.0.3+13-b509.11 amd64 (JCEF 122.1.9)
+    RustRover 2024.3 EAP
+    Build #RR-243.15521.46, built on September 26, 2024
+    ライセンス対象: RustRover EAP user: Shinya Watanabe
+    有効期限: October 26, 2024
+    Runtime version: 21.0.4+8-b598.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -138,11 +137,12 @@
       ide.experimental.ui=true
       i18n.locale=
       transferSettings.vscode.onlyCargoToml=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
+      terminal.new.ui.show.promotion=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (242.21829.142)
-      ru.adelf.idea.dotenv (2024.2.1)
+      com.jetbrains.space (243.15521.24)
+      ru.adelf.idea.dotenv (2024.3)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
@@ -190,6 +190,8 @@
       ```
       sea-orm-cli generate entity -u postgres://postgres:pgsuper@localhost:5432/sample_db -o src/models 
       ```
+  - time
+    - Rust 1.80 以降は、0.3.35 以上にする必要あり
   ### セッション管理
   - [Redis](https://github.com/MicrosoftArchive/redis/releases)
   ### SSL
