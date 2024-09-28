@@ -18,9 +18,9 @@
 
   1.  ホスティング・サービス
   
-      |ホスト      |FW                  |最終更新      
-      |-----------|--------------------|----------
-      |Vercel     |Next.js 14.2.2      |2024/04/21
+      |ホスト                          |FW              |最終更新      
+      |-------------------------------|----------------|----------
+      |[Vercel](https://vercel.com/)  |Next.js 14.2.2  |2024/04/21
 
   1.  Windows
       |端末       |FW                      |最終更新      
@@ -33,7 +33,7 @@
       |           |- Vite 5.4.0            |2024/08/10
       |           |Astro 4.15.4            |[2024/09/08](https://astro.build/)
       |           |- Bun 1.1.27-canary.108 |2024/09/08
-      |           |React 18.3.1            |2024/05/30
+      |           |- React 18.3.1          |2024/05/30
       |           |Nuxt 3.13.1             |[2024/09/08](https://nuxt.com/)
       |           |Vue 3.5.3               |[2024/09/08](https://jp.vuejs.org/)
       |           |- Deno 1.46.3           |2024/09/08
@@ -98,7 +98,7 @@
             ```sh
             npm config set scripts-prepend-node-path true
             ```
-### Runtime/ORM
+### Runtime
   - [Bun](https://bun.sh/)
     - Install
       - Windows
@@ -163,27 +163,28 @@
         ```
         deno run -Ar https://fresh.deno.dev/update
         ```
-    - [Prisma](https://www.prisma.io/)
-      - [Start from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch)
-      - Prisma Studio - Prismaを使うプロジェクト配下でデータベースを参照することができるWebアプリケーション
-        - 起動
-          ```sh
-          npx prisma studio
-          ```
-          プロジェクトのディレクトリで上記コマンドを実行すると、Webブラウザが起動される。
-          接続するデータベースは、.envの設定を使って接続し、
-          テーブルは、schema.prismaを参照しているらしい。
-          ```
-          Environment variables loaded from .env
-          Prisma schema loaded from prisma\schema.prisma
-          Prisma Studio is up on http://localhost:5555
-          ```
-        - トップ画面
-          ![トップ画面](../images/JavaScript/PrismaStudio.png)
-        - テーブルビュー
-          ![テーブル表示](../images/JavaScript/PrismaStudio_Table.png)
-    - [Sequelize](https://sequelize.org/)
-      - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
+### ORM
+  - [Prisma](https://www.prisma.io/)
+    - [Start from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch)
+    - Prisma Studio - Prismaを使うプロジェクト配下でデータベースを参照することができるWebアプリケーション
+      - 起動
+        ```sh
+        npx prisma studio
+        ```
+        プロジェクトのディレクトリで上記コマンドを実行すると、Webブラウザが起動される。
+        接続するデータベースは、.envの設定を使って接続し、
+        テーブルは、schema.prismaを参照しているらしい。
+        ```
+        Environment variables loaded from .env
+        Prisma schema loaded from prisma\schema.prisma
+        Prisma Studio is up on http://localhost:5555
+        ```
+      - トップ画面
+        ![トップ画面](../images/JavaScript/PrismaStudio.png)
+      - テーブルビュー
+        ![テーブル表示](../images/JavaScript/PrismaStudio_Table.png)
+  - [Sequelize](https://sequelize.org/)
+    - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
     - React Native
