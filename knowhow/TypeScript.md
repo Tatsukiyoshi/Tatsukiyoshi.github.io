@@ -2,9 +2,9 @@
 
 ##  独学書
 
-  |テキスト                                         |日付      |進捗状況
-  |------------------------------------------------|----------|-------
-  |Angularアプリケーションプログラミング              |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
+  |テキスト                                      |日付      |進捗状況
+  |---------------------------------------------|----------|-------
+  |Angularアプリケーションプログラミング             |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
   |モダンJavaScriptの基本から始めるReact実践の教科書  |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
 
 ##  コンテンツ
@@ -45,7 +45,7 @@
       |IdeaPad    |Node.js 18.20.3         |2024/05/24
       |           |Svelte 3.49.0           |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12             |[2024/01/20](https://vitejs.dev/)
-      |           |Angular 18.0            |[2024/05/24](https://angular.dev/)
+      |           |Angular 18.2.6          |[2024/09/29](https://angular.dev/)
       |           |Gluon 0.13.5            |[2023/04/29](https://gluonjs.org/)
 
   1. Ubuntu 24.04 on Windows 11
