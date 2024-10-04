@@ -50,11 +50,11 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |MacBook Air|Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.0-rc.16    |2024/09/28
+      |           |Tauri 2.0.1          |2024/10/04
       |           |Bun 1.1.29           |2024/09/20
       |           |Vite 5.4.8           |2024/09/28
       |           |Node 22.6.0          |2024/08/17
-      |           |Cocoapods 1.15.2     |2024/08/17
+      |           |CocoaPods 1.15.2_1   |2024/10/04
 
   ##  ノウハウ
   ### Rust
@@ -360,6 +360,11 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.0
+    - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
+      ```
+      npm run tauri ios init
+      ```
+      （参考）[xcodebuild exited with code 65 on "npm run tauri ..."](https://stackoverflow.com/questions/77712461/xcodebuild-exited-with-code-65-on-npm-run-tauri)
     - [V2.0 RC](https://v2.tauri.app/blog/tauri-2-0-0-release-candidate/)
       ```
       bun create tauri-app --rc
