@@ -117,6 +117,8 @@
     ![Updating](./images/Chrome/20241004_Chrome_OS_Flex_Updating129.0.6668.80.png)
     - 再起動後メッセージ
       ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80_Return.png)
+    - 新しいシェルフ（Gマーク）
+      ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_Desktop129.0.6668.80.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
