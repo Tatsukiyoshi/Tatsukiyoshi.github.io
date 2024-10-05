@@ -13,7 +13,7 @@
   |IdeaPad    |[IntelliJ IDEA 2024.2.3](#intellij-idea)                              |[2024/09/27](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                                 |2024/05/04
-  |Mini-S12   |[Android Studio Koala Feature Drop 2024.1.2 Patch 1](#android-studio) |[2024/09/19](https://developer.android.com/studio)
+  |Mini-S12   |[Android Studio Ladybug 2024.2.1](#android-studio)                    |[2024/10/04](https://developer.android.com/studio)
   |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
   |           |- Android Emulator v.35.1.21                                          |2024/09/25
@@ -125,22 +125,24 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Koala Feature Drop | 2024.1.2 Patch 1
+  - Android Studio Ladybug | 2024.2.1
     ```
-    Build #AI-241.19072.14.2412.12360217, built on September 13, 2024
-    Runtime version: 17.0.11+0--11852314 amd64
+    Build #AI-242.21829.142.2421.12409432, built on September 25, 2024
+    Runtime version: 21.0.3+-12282718-b509.11 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
-    GC: G1 Young Generation, G1 Old Generation
+    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 4
     Registry:
       debugger.new.tool.window.layout=true
       ide.experimental.ui=true
+      i18n.locale=
     Non-Bundled Plugins:
-      com.intellij.ja (241.271)
-      Dart (241.18968.26)
-      io.flutter (81.0.2)
+      com.intellij.ja (242.152)
+      Dart (242.21829.3)
+      io.flutter (81.1.3)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -167,6 +169,10 @@
           testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.2'
           ```
   - バージョン対応履歴
+    - Ladybug 対応
+      - 2024.2.1 対応
+        - Android Gradle Plugin 8.6.1 -> 8.7.0
+        - Gradle 8.8 -> 8.9 -> 8.10
     - Koala 対応
       - Feature Drop 2024.1.2 Patch 1 対応
         - Android Gradle Plugin 8.6.0 -> 8.6.1
