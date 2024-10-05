@@ -34,10 +34,10 @@
       |           |Astro 4.15.11           |[2024/10/05](https://astro.build/)
       |           |- Bun 1.1.30-canary.123 |2024/10/04
       |           |- React 18.3.1          |2024/05/30
-      |           |Nuxt 3.13.1             |[2024/09/08](https://nuxt.com/)
-      |           |Vue 3.5.3               |[2024/09/08](https://jp.vuejs.org/)
+      |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
+      |           |Vue 3.5.11              |[2024/10/05](https://jp.vuejs.org/)
       |           |- Deno 1.46.3           |2024/09/08
-      |           |- Vite 5.4.3            |2024/09/08
+      |           |- Vite 5.4.8            |2024/10/05
       |           |Deno 1.46.3             |[2024/09/08](https://deno.land/)
       |           |- fresh 1.6.3           |[2024/01/21](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
