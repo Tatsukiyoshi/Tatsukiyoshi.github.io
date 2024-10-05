@@ -111,16 +111,20 @@
         ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
         ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 128.0.6613.163 <span style="color: red;">*<<2024/09/28 updated from 128.0.6613.161>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20240928_Chrome_OS_Flex_128.0.6613.163.png)
+  - バージョン 129.0.6668.80 <span style="color: red;">*<<2024/10/04 updated from 128.0.6613.163>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80.png)
     - 更新中
-    ![Updating](./images/Chrome/20240927_Chrome_OS_Flex_Updating128.0.6613.163.png)
+    ![Updating](./images/Chrome/20241004_Chrome_OS_Flex_Updating129.0.6668.80.png)
+    - 再起動後メッセージ
+      ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80_Return.png)
+    - 新しいシェルフ（Gマーク）
+      ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_Desktop129.0.6668.80.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.93.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/09/13 updated from 1.93>>*</span>
+- [Visual Studio Code 1.94.0](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/04 updated from 1.93.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -143,6 +147,7 @@
 
 **Mac**
 - [XCode 16.0](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/09/17 Updated from 15.4>>*</span>
+- [CocoaPods 1.15.2_1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/04 Updated from 1.15.2>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  サービス
