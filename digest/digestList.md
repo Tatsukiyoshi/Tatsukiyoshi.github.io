@@ -1,5 +1,8 @@
 # ダイジェスト
 - 2024年
+  - 10月
+    - [第１週（2024/9/30～10/6）](https://note.com/taishow2020/n/n0079e465ebae)
+
   - 9月
     - [第４週（2024/9/24～9/29）](https://note.com/taishow2020/n/naf647b1181ab)
     - [第３週（2024/9/17～9/23）](https://note.com/taishow2020/n/ndd1f511ea8dd)
