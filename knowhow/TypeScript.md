@@ -224,6 +224,38 @@
           ![WindowsSample](../images/JavaScript/20240107_ReactNativeWindows.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
+    - [Astro 5.0 beta](https://5-0-0-beta.docs.astro.build/en/guides/upgrade-to/v5/)
+      - Upgrade
+        ```
+        npx @astrojs/upgrade beta
+        ```
+        <details>
+        <summary>Upgrade Log</summary>
+
+        ```sh
+        Need to install the following packages:
+        @astrojs/upgrade@0.3.3
+        Ok to proceed? (y) y
+
+
+        astro   Integration upgrade in progress.
+
+              ●  @astrojs/check will be updated to v0.9.4
+              ●  @astrojs/react will be updated to v
+              ▲  astro will be updated to  v5.0.0-beta.3 
+
+          wait   One package has breaking changes. Continue?
+                Yes
+
+        check   Be sure to follow the CHANGELOG.
+                astro https://github.com/withastro/astro/blob/next/packages/astro/CHANGELOG.md#500-beta3
+
+        ██████  Installing dependencies with bun...
+
+        +—————+  Houston:
+        | ^ u ^  Have fun building!
+        +—————+
+        ```
     - Astro 4.2
       - Upgrade
         ```
