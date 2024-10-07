@@ -16,7 +16,7 @@
   |Mini-S12   |[Android Studio Ladybug 2024.2.1](#android-studio)                    |[2024/10/04](https://developer.android.com/studio)
   |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
-  |           |- Android Emulator v.35.1.21                                          |2024/09/25
+  |           |- Android Emulator v.35.2.10                                          |2024/10/07
 
 ##  ノウハウ
 ### IntelliJ IDEA
