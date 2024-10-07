@@ -61,19 +61,19 @@
         </details>
 
   1.  Mini-S12
-      - [WSL 2.2.4.0](https://github.com/microsoft/WSL)
+      - [WSL 2.3.24.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/04 updated from 2.2.4.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.153.1-2</summary>
 
         ```
-        WSL バージョン: 2.2.4.0
+        WSL バージョン: 2.3.24.0
         カーネル バージョン: 5.15.153.1-2
-        WSLg バージョン: 1.0.61
-        MSRDC バージョン: 1.2.5326
+        WSLg バージョン: 1.0.65
+        MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
-        DXCore バージョン: 10.0.26091.1-240325-1447.ge-release
-        Windows バージョン: 10.0.22631.3880
+        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
+        Windows バージョン: 10.0.22631.4249
         ```
         </details>
 

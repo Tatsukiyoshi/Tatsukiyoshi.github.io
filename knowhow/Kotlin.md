@@ -16,7 +16,7 @@
   |Mini-S12   |[Android Studio Ladybug 2024.2.1](#android-studio)                    |[2024/10/04](https://developer.android.com/studio)
   |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
-  |           |- Android Emulator v.35.1.21                                          |2024/09/25
+  |           |- Android Emulator v.35.2.10                                          |2024/10/07
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -100,11 +100,12 @@
         ```
 ### [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
   - IntelliJ IDEA
-  - [Gradle 8.4](https://gradle.org/releases/)
-  - [Kotlin 1.9.20](https://kotlinlang.org/docs/home.html)
-  - Amazon Coretto 21.0.1 + 言語レベル 21
+  - [Gradle 8.8](https://gradle.org/releases/)
+  - [Kotlin 2.0.20](https://kotlinlang.org/docs/home.html)
+  - Amazon Coretto 22.0.1 + 言語レベル 21
   - Graal VM Java17-22.2.0
-  - [Spring Boot 3.2.0](https://spring.io/projects/spring-boot)/Spring Batch 5.1/Spring Framework 6.1 **2023/11/23**
+  - [Spring Boot 3.3.4](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/10/07 updated from 3.2.0*</span>
+  - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
     - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
     - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
     - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
