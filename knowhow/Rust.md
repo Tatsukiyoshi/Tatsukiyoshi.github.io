@@ -18,20 +18,20 @@
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 2](#rustrover)           |[2024/10/05](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.1](#tauridesktop-framework)         |[2024/10/04](https://beta.tauri.app/)
-      |           |Bun 1.1.30-canary.123                          |[2024/10/04](https://bun.sh/)
+      |           |[Tauri 2.0.2](#tauridesktop-framework)         |[2024/10/11](https://beta.tauri.app/)
+      |           |Bun 1.1.31-canary.18                           |[2024/10/11](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
 
-  1. Ubuntu 24.04 on Windows 11
+  1. Ubuntu 24.04.1 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.81            |2024/09/06
-      |           |Tauri 2.0.1          |2024/10/04
+      |           |Tauri 2.0.2          |2024/10/11
       |           |React 18.3.1         |2024/05/04
       |           |Vite 5.4.8           |2024/09/28
-      |           |Bun 1.1.30-canary.123|2024/10/04
+      |           |Bun 1.1.31-canary.18 |2024/10/11
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
