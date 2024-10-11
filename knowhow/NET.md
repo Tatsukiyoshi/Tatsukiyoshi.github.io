@@ -14,17 +14,17 @@
   |           |- .NET 9.0.0 rc.2                                |[2024/10/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |  - MAUI 9.0.0 rc.2                              |2024/10/11
   |           |- .NET 8.0.10                                    |2024/10/11
-  |Mini-S12   |Visual Studio Community 2022 17.11.4             |[2024/09/19](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-  |           |- .NET 8.0.8                                     |[2024/08/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |  - [MAUI 8.0.90](#maui)                         |[2024/09/14](https://github.com/dotnet/maui)
-  |           |- [Windows App SDK 1.5.5](#windows-app-sdk)      |[2024/07/14](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |Mini-S12   |Visual Studio Community 2022 17.11.5             |[2024/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |           |- .NET 8.0.10                                    |[2024/10/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |           |  - [MAUI 8.0.91](#maui)                         |[2024/10/11](https://github.com/dotnet/maui)
+  |           |- [Windows App SDK 1.6.1](#windows-app-sdk)      |[2024/10/11](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.12 Preview 2.1
     ![VS2022 17.12 preview 2.1](../images/VisualStudio/20240927_Update_VS2022_17.12_Preview2.1.png)
-  - Visual Studio 2022 17.11.4
-    ![VS2022 17.11.4](../images/VisualStudio/20240919_Update_VS2022_17.11.4.png)
+  - Visual Studio 2022 17.11.5
+    ![VS2022 17.11.5](../images/VisualStudio/20241011_Update_VS2022_17.11.5.png)
   - Visual Studio 2022 17.10.3
     - GitHub Copilotの利用
       - 早速、無料試用版の利用開始を促される <BR />
@@ -59,7 +59,7 @@
       ![.NET 9.0.0 rc.2](../images/VisualStudio/20241011_dotnet9_rc.2.png)
   - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/06/22* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.8](../images/VisualStudio/20240814_dotnet8.0.8.png)
+      ![.NET 8.0.10](../images/VisualStudio/20241011_dotnet8.0.10.png)
 
   - .NET 環境情報
   ```
@@ -159,61 +159,61 @@
 
   ```
   .NET SDK:
-  Version:           8.0.400
-  Commit:            36fe6dda56
-  Workload version:  8.0.400-manifests.251308be
-  MSBuild version:   17.11.3+0c8610977
+  Version:           8.0.403
+  Commit:            c64aa40a71
+  Workload version:  8.0.400-manifests.58db758f
+  MSBuild version:   17.11.9+a69bbaaf5
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.22631
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\8.0.400\
+  Base Path:   C:\Program Files\dotnet\sdk\8.0.403\
 
   インストール済みの .NET ワークロード:
   新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
-  [maccatalyst]
-    インストール ソース: VS 17.11.35312.102
-    マニフェストのバージョン:    17.5.8030/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\17.5.8030\WorkloadManifest.json
+  [android]
+    インストール ソース: SDK 8.0.400, VS 17.11.35327.3
+    マニフェストのバージョン:    34.0.143/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.143\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [ios]
-    インストール ソース: VS 17.11.35312.102
-    マニフェストのバージョン:    17.5.8030/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\17.5.8030\WorkloadManifest.json
+    インストール ソース: SDK 8.0.400, VS 17.11.35327.3
+    マニフェストのバージョン:    18.0.8303/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.ios\18.0.8303\WorkloadManifest.json
     インストールの種類:        FileBased
 
-  [android]
-    インストール ソース: VS 17.11.35312.102
-    マニフェストのバージョン:    34.0.113/8.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.android\34.0.113\WorkloadManifest.json
+  [maccatalyst]
+    インストール ソース: SDK 8.0.400, VS 17.11.35327.3
+    マニフェストのバージョン:    18.0.8303/8.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maccatalyst\18.0.8303\WorkloadManifest.json
     インストールの種類:        FileBased
 
   [maui-windows]
-    インストール ソース: VS 17.11.35312.102
+    インストール ソース: SDK 8.0.400, VS 17.11.35327.3
     マニフェストのバージョン:    8.0.82/8.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\8.0.100\microsoft.net.sdk.maui\8.0.82\WorkloadManifest.json
     インストールの種類:        FileBased
 
 
   Host:
-    Version:      8.0.8
+    Version:      8.0.10
     Architecture: x64
-    Commit:       08338fcaa5
+    Commit:       81cabf2857
 
   .NET SDKs installed:
-    6.0.425 [C:\Program Files\dotnet\sdk]
-    8.0.400 [C:\Program Files\dotnet\sdk]
+    6.0.427 [C:\Program Files\dotnet\sdk]
+    8.0.403 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
-    Microsoft.AspNetCore.App 6.0.33 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 6.0.33 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 6.0.33 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.AspNetCore.App 6.0.35 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.10 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.NETCore.App 6.0.35 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.10 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.WindowsDesktop.App 6.0.35 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.10 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
@@ -234,8 +234,8 @@
   </details>
 
 ### Windows App SDK
-  - Windows App SDK 1.5.5
-    ![Hello World](../images/VisualStudio/20240714_VS2022_17.10.4_AppSDK1.5.5.png)
+  - Windows App SDK 1.6.1
+    ![Hello World](../images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
   - NET 8.0
     - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
       ```xml
@@ -246,64 +246,22 @@
       ```
   - バージョン確認
     ```
-    get-appxpackage *appruntime.1.5*
+    get-appxpackage *appruntime.1.6*
     ```
     <details>
-    <summary>Windows App SDK 1.5.5</summary>
+    <summary>Windows App SDK 1.6.1</summary>
 
     ```
-    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
-    Name                   : Microsoft.WindowsAppRuntime.1.5
+    RunspaceId             : 131e6b72-b5a4-4ddc-9e72-5a7adbc826c8
+    Name                   : Microsoft.WindowsAppRuntime.1.6
     Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
     PublisherId            : 8wekyb3d8bbwe
     Architecture           : X64
     ResourceId             :
-    Version                : 5001.119.156.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.119.156.0_x64__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.119.156.0_x64__8wekyb3d8bbwe
-    IsFramework            : True
-    PackageUserInformation : {}
-    IsResourcePackage      : False
-    IsBundle               : False
-    IsDevelopmentMode      : False
-    NonRemovable           : False
-    Dependencies           : {}
-    IsPartiallyStaged      : False
-    SignatureKind          : Store
-    Status                 : Ok
-
-    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
-    Name                   : Microsoft.WindowsAppRuntime.1.5
-    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-    PublisherId            : 8wekyb3d8bbwe
-    Architecture           : X64
-    ResourceId             :
-    Version                : 5001.159.55.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.159.55.0_x64__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.159.55.0_x64__8wekyb3d8bbwe
-    IsFramework            : True
-    PackageUserInformation : {}
-    IsResourcePackage      : False
-    IsBundle               : False
-    IsDevelopmentMode      : False
-    NonRemovable           : False
-    Dependencies           : {}
-    IsPartiallyStaged      : False
-    SignatureKind          : Store
-    Status                 : Ok
-
-    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
-    Name                   : Microsoft.WindowsAppRuntime.1.5
-    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-    PublisherId            : 8wekyb3d8bbwe
-    Architecture           : X86
-    ResourceId             :
-    Version                : 5001.178.1908.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x86__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x86__8wekyb3d8bbw
+    Version                : 6000.266.2241.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x64__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x64__8wekyb3d8bbw
                             e
     IsFramework            : True
     PackageUserInformation : {}
@@ -316,16 +274,16 @@
     SignatureKind          : Store
     Status                 : Ok
 
-    RunspaceId             : 2773dd3c-ca8c-4c77-819b-0d79e556d281
-    Name                   : Microsoft.WindowsAppRuntime.1.5
+    RunspaceId             : 131e6b72-b5a4-4ddc-9e72-5a7adbc826c8
+    Name                   : Microsoft.WindowsAppRuntime.1.6
     Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
     PublisherId            : 8wekyb3d8bbwe
-    Architecture           : X64
+    Architecture           : X86
     ResourceId             :
-    Version                : 5001.178.1908.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64__8wekyb3d8bbw
+    Version                : 6000.266.2241.0
+    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
+    PackageFullName        : Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x86__8wekyb3d8bbwe
+    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x86__8wekyb3d8bbw
                             e
     IsFramework            : True
     PackageUserInformation : {}
@@ -347,11 +305,9 @@
         ![MAUI - Pixel 8 API 35](../images/VisualStudio/20241011_VS2022_17.12_Preview2.1_MAUI9.0.0rc.2_Android15.png)
         - デバイスマネージャではエラーとなっているにもかかわらず、デバッグ実行できている
           ![Emulator - API 35](../images/VisualStudio/20240915_VS2022_17.12_Emulator_Android15.png)
-    - 17.11.3 
-      - MAUI 8.0.90 / Pixel 8 API 34(Android 14)
-        ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240914_VS2022_17.11.3_MAUI90_Android14.png)
-      - MAUI 8.0.72 / Pixel 8 API 34(Android 14)
-        ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240914_VS2022_17.11.3_MAUI72_Android14.png)
+    - 17.11.5 
+      - MAUI 8.0.91 / Pixel 5 API 34(Android 14)
+        ![MAUI - Pixel 5 API 34](../images/VisualStudio/20241011_VS2022_17.11.5_MAUI91_Android14.png)
     - 17.10.4 / MAUI 8.0.61(SR6.1) / Pixel 8 API 34(Android 14)
         ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240713_VS2022_17.10.4_MAUI_Android.png)
     - 17.10.3 / MAUI 8.0.40(SR5)
