@@ -128,10 +128,11 @@
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
-- [GitHub Desktop 3.4.5](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/09/11 updated from 3.4.2>>*</span>
+- [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
+- [GitHub Desktop 3.4.6](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/11 updated from 3.4.5>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-  - バージョンのギャップがあれば、起動したGitHub Desktopでアップデートできるみたい
+  - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
+    - 3.4.5 -> 3.4.6 OK
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 - [Docker](./knowhow/Docker.md)
