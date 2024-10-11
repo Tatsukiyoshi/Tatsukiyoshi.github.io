@@ -101,9 +101,12 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
-    ![SEquoia 15.0](./images/Mac/20240919_MacOS_Sequoia.png)
+  - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/10/11 updated from Sonoma 15.0>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](./images/Mac/20241011_MacOS_Sequoia15.0.1_Update.png)
+    - バージョン情報
+      ![SEquoia 15.0.1](./images/Mac/20241011_MacOS_Sequoia15.0.1.png)
     - iPhoneミラーリング
       - iOS18アップデートが必要
         ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
@@ -124,7 +127,7 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.94.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/11 updated from 1.94.0>>*</span>
+- [Visual Studio Code 1.94.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/11 updated from 1.94.0>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -253,6 +256,70 @@
     ```
     git update-git-for-windows
     ```
+  - Macでの更新
+    ```
+    brew upgrade git
+    ```
+    <details>
+    <summary>Update Log</summary>
+
+    ```
+    ==> Auto-updating Homebrew...
+    Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+    HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    ==> Auto-updated Homebrew!
+    Updated 2 taps (homebrew/core and homebrew/cask).
+    ==> New Formulae
+    argtable3           jikken              m68k-elf-binutils   python-gdbm@3.13
+    blisp               jxl-oxide           m68k-elf-gcc        python-tk@3.13
+    djlint              libcss              openapi-diff        python@3.13
+    dug                 libdom              oxlint              tllist
+    gptme               libhubbub           paperjam            tmux-sessionizer
+    icu4c@75            libparserutils      pipet
+    ==> New Casks
+    ableset                                  font-matemasie
+    anytype@alpha                            font-moderustic
+    anytype@beta                             font-new-amsterdam
+    backyard-ai                              font-noto-serif-todhri
+    cap                                      font-sour-gummy
+    colemak-dh                               font-suse
+    colemak-dhk                              homerow
+    displaybuddy                             imaging-edge
+    font-bungee-tint                         magicquit
+    font-edu-au-vic-wa-nt-arrows             microsoft-edge@canary
+    font-edu-au-vic-wa-nt-dots               quba
+    font-edu-au-vic-wa-nt-guides             sanctum
+    font-edu-au-vic-wa-nt-pre                thunderbird@esr
+    font-funnel-display                      typefully
+    font-funnel-sans
+
+    You have 3 outdated formulae installed.
+
+    ==> Upgrading 1 outdated package:
+    git 2.46.0 -> 2.47.0
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.47.0
+    ######################################################################### 100.0%
+    ==> Fetching git
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:7c09abec73bcb8
+    ######################################################################### 100.0%
+    ==> Upgrading git
+      2.46.0 -> 2.47.0 
+    ==> Pouring git--2.47.0.arm64_sequoia.bottle.tar.gz
+    ==> Caveats
+    The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+    Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+    zsh completions and functions have been installed to:
+      /opt/homebrew/share/zsh/site-functions
+    ==> Summary
+    🍺  /opt/homebrew/Cellar/git/2.47.0: 1,684 files, 54.4MB
+    ==> Running `brew cleanup git`...
+    Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+    Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    Removing: /opt/homebrew/Cellar/git/2.46.0... (1,678 files, 51.5MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/git_bottle_manifest--2.46.0... (15.4KB)
+    ```
+    </detai;s>
   - ブランチ確認
     ```
     git branch --contains
