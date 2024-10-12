@@ -1,4 +1,12 @@
 # Chrome OS Flex
+- バージョン 129.0.6668.80 <span style="color: red;">*<<2024/10/04 updated from 128.0.6613.163>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80.png)
+  - 更新中
+  ![Updating](../images/Chrome/20241004_Chrome_OS_Flex_Updating129.0.6668.80.png)
+  - 再起動後メッセージ
+    ![ComeBack](../images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80_Return.png)
+  - 新しいシェルフ（Gマーク）
+    ![ComeBack](../images/Chrome/20241004_Chrome_OS_Flex_Desktop129.0.6668.80.png)
 - バージョン 128.0.6613.163 <span style="color: red;">*<<2024/09/28 updated from 128.0.6613.161>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20240928_Chrome_OS_Flex_128.0.6613.163.png)
   - 更新中
