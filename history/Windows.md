@@ -1,6 +1,10 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26100)
+      - Build 26120.1930 (Cumulative Update) <span style="color: red;">*<<2024/10/05 updated from 26120.1912>>*</span>
+        ![Cumulative Update](../images/Windows/20241005_WindowsUpdate_DevChannel.png)
+        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20241005_Windows11_Build26120.png)
       - Build 26120.1912 (Cumulative Update) <span style="color: red;">*<<2024/10/01 updated from 26120.1843>>*</span>
         ![Cumulative Update](../images/Windows/20241001_WindowsUpdate_DevChannel.png)
         - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
