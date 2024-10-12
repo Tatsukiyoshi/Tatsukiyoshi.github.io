@@ -15,10 +15,10 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.1930 (Cumulative Update) <span style="color: red;">*<<2024/10/05 updated from 26120.1912>>*</span>
-      ![Cumulative Update](./images/Windows/20241005_WindowsUpdate_DevChannel.png)
+    - Build 26120.2122 (Cumulative Update) <span style="color: red;">*<<2024/10/12 updated from 26120.1930>>*</span>
+      ![Cumulative Update](./images/Windows/20241012_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241005_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241012_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -101,9 +101,12 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
-    ![SEquoia 15.0](./images/Mac/20240919_MacOS_Sequoia.png)
+  - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/10/11 updated from Sonoma 15.0>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](./images/Mac/20241011_MacOS_Sequoia15.0.1_Update.png)
+    - バージョン情報
+      ![SEquoia 15.0.1](./images/Mac/20241011_MacOS_Sequoia15.0.1.png)
     - iPhoneミラーリング
       - iOS18アップデートが必要
         ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
@@ -111,27 +114,24 @@
         ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
         ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 129.0.6668.80 <span style="color: red;">*<<2024/10/04 updated from 128.0.6613.163>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80.png)
+  - バージョン 129.0.6668.99 <span style="color: red;">*<<2024/10/12 updated from 129.0.6668.80>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241012_Chrome_OS_Flex_129.0.6668.99.png)
     - 更新中
-    ![Updating](./images/Chrome/20241004_Chrome_OS_Flex_Updating129.0.6668.80.png)
-    - 再起動後メッセージ
-      ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_129.0.6668.80_Return.png)
-    - 新しいシェルフ（Gマーク）
-      ![ComeBack](./images/Chrome/20241004_Chrome_OS_Flex_Desktop129.0.6668.80.png)
+    ![Updating](./images/Chrome/20241012_Chrome_OS_Flex_Updating129.0.6668.99.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.94.0](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/04 updated from 1.93.1>>*</span>
+- [Visual Studio Code 1.94.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/11 updated from 1.94.0>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.46](https://git-scm.com/download) <span style="color: red;">*<<2024/08/07 updated from 2.45.1>>*</span>
-- [GitHub Desktop 3.4.5](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/09/11 updated from 3.4.2>>*</span>
+- [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
+- [GitHub Desktop 3.4.6](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/11 updated from 3.4.5>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-  - バージョンのギャップがあれば、起動したGitHub Desktopでアップデートできるみたい
+  - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
+    - 3.4.5 -> 3.4.6 OK
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 - [Docker](./knowhow/Docker.md)
@@ -252,6 +252,70 @@
     ```
     git update-git-for-windows
     ```
+  - Macでの更新
+    ```
+    brew upgrade git
+    ```
+    <details>
+    <summary>Update Log</summary>
+
+    ```
+    ==> Auto-updating Homebrew...
+    Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+    HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    ==> Auto-updated Homebrew!
+    Updated 2 taps (homebrew/core and homebrew/cask).
+    ==> New Formulae
+    argtable3           jikken              m68k-elf-binutils   python-gdbm@3.13
+    blisp               jxl-oxide           m68k-elf-gcc        python-tk@3.13
+    djlint              libcss              openapi-diff        python@3.13
+    dug                 libdom              oxlint              tllist
+    gptme               libhubbub           paperjam            tmux-sessionizer
+    icu4c@75            libparserutils      pipet
+    ==> New Casks
+    ableset                                  font-matemasie
+    anytype@alpha                            font-moderustic
+    anytype@beta                             font-new-amsterdam
+    backyard-ai                              font-noto-serif-todhri
+    cap                                      font-sour-gummy
+    colemak-dh                               font-suse
+    colemak-dhk                              homerow
+    displaybuddy                             imaging-edge
+    font-bungee-tint                         magicquit
+    font-edu-au-vic-wa-nt-arrows             microsoft-edge@canary
+    font-edu-au-vic-wa-nt-dots               quba
+    font-edu-au-vic-wa-nt-guides             sanctum
+    font-edu-au-vic-wa-nt-pre                thunderbird@esr
+    font-funnel-display                      typefully
+    font-funnel-sans
+
+    You have 3 outdated formulae installed.
+
+    ==> Upgrading 1 outdated package:
+    git 2.46.0 -> 2.47.0
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.47.0
+    ######################################################################### 100.0%
+    ==> Fetching git
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:7c09abec73bcb8
+    ######################################################################### 100.0%
+    ==> Upgrading git
+      2.46.0 -> 2.47.0 
+    ==> Pouring git--2.47.0.arm64_sequoia.bottle.tar.gz
+    ==> Caveats
+    The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+    Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+    zsh completions and functions have been installed to:
+      /opt/homebrew/share/zsh/site-functions
+    ==> Summary
+    🍺  /opt/homebrew/Cellar/git/2.47.0: 1,684 files, 54.4MB
+    ==> Running `brew cleanup git`...
+    Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+    Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    Removing: /opt/homebrew/Cellar/git/2.46.0... (1,678 files, 51.5MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/git_bottle_manifest--2.46.0... (15.4KB)
+    ```
+    </detai;s>
   - ブランチ確認
     ```
     git branch --contains
