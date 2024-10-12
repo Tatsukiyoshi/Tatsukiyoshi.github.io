@@ -31,8 +31,8 @@
       |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
       |           |- Bun 1.1.22            |2024/08/10
       |           |- Vite 5.4.0            |2024/08/10
-      |           |Astro 4.15.11           |[2024/10/05](https://astro.build/)
-      |           |- Bun 1.1.30-canary.123 |2024/10/04
+      |           |Astro 4.16.1            |[2024/10/12](https://astro.build/)
+      |           |- Bun 1.1.31-canary.33  |2024/10/12
       |           |- React 18.3.1          |2024/05/30
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.11              |[2024/10/05](https://jp.vuejs.org/)
