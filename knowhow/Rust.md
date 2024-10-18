@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3 EAP 2](#rustrover)           |[2024/10/05](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.3 EAP 4](#rustrover)           |[2024/10/19](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.2](#tauridesktop-framework)         |[2024/10/11](https://beta.tauri.app/)
       |           |Bun 1.1.31-canary.18                           |[2024/10/11](https://bun.sh/)
       |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
@@ -119,13 +119,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3 EAP Build #RR-243.16718.64 <span style="color: red;">**Updated 2024/10/05**</span>
+  - RustRover 2024.3 EAP Build #RR-243.19420.51 <span style="color: red;">**Updated 2024/10/19**</span>
     ```
     RustRover 2024.3 EAP
-    Build #RR-243.16718.64, built on October 2, 2024
+    Build #RR-243.19420.51, built on October 17, 2024
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: November 1, 2024
-    Runtime version: 21.0.4+8-b607.1 amd64 (JCEF 122.1.9)
+    有効期限: November 16, 2024
+    Runtime version: 21.0.4+8-b620.4 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -136,11 +136,11 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
-      llm.ai.assistant.toolwindow.activation.on.start=false
       transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (243.16718.30)
+      com.jetbrains.space (243.19420.21)
       ru.adelf.idea.dotenv (2024.3)
     ```
     - [履歴](../history/RustRover.md)
