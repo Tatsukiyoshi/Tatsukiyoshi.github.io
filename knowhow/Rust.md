@@ -16,7 +16,7 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.81](#rust-1)                           |[2024/09/06](https://www.rust-lang.org/)  
+      |Mini-S12   |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 4](#rustrover)           |[2024/10/19](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.2](#tauridesktop-framework)         |[2024/10/11](https://beta.tauri.app/)
       |           |Bun 1.1.31-canary.18                           |[2024/10/11](https://bun.sh/)

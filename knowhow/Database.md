@@ -7,7 +7,8 @@
   |Mini-S12  |[SQL Server 2022 Developer 16.0.4135.4](#sql-server) |[2024/08/24](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
   |          |- SQL Server Management Studio 20.2.3                |2024/08/24
   |          |[PostgreSQL 17.0](#postgresql)                       |[2024/09/27](https://www.postgresql.org/download/windows/)
-  |          |MongoDB 7.1.1                                        |2023/12/10
+  |          |MongoDB 8.0.1                                        |2024/10/19
+  |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |          |MySQL Community Server 8.4.2                         |2024/08/24
   |IdeaPad   |PostgreSQL 16.4                                      |2024/08/24
 
@@ -34,6 +35,29 @@
         ```
         mongodb://localhost:27017
         ```
+    1.  バックアップとリストア
+        - バックアップは実行時のカレントディレクトリのdumpディレクトリに作成される
+        - バックアップ
+          ```
+          mongodump
+          ```
+        - リストア
+          ```
+          mongorestore
+          ```
+    1.  MongoDBのアップデート
+        ```sh
+        scoop update mongodb
+        ```
+        1.  8.0 への移行
+          - 8.0 で互換性を保証するバージョンは、"7.0","7.3","8.0"であるため、"featureCompatibilityVersion"はそのいずれかにしておく必要あり
+            ```json
+            {
+              "_id": "featureCompatibilityVersion",
+              "version": "7.0"
+            }
+            ```
+            - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
   - MongoDB for VS Codeをインストールしておくとよい
     ![VSCode](../images/MongoDB/20231216_MongoDB_VSCode.png)
 ### [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
