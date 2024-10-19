@@ -13,8 +13,8 @@
   |IdeaPad    |[IntelliJ IDEA 2024.2.3](#intellij-idea)                              |[2024/09/27](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                                 |2024/05/04
-  |Mini-S12   |[Android Studio Ladybug 2024.2.1](#android-studio)                    |[2024/10/04](https://developer.android.com/studio)
-  |           |- Kotlin 2.0.10                                                       |[2024/08/09](https://kotlinlang.org/docs/home.html)
+  |Mini-S12   |[Android Studio Ladybug 2024.2.1 Patch 1](#android-studio)            |[2024/10/19](https://developer.android.com/studio)
+  |           |- Kotlin 2.0.21                                                       |[2024/10/19](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
   |           |- Android Emulator v.35.2.10                                          |2024/10/07
 
@@ -126,13 +126,14 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Ladybug | 2024.2.1
+  - Android Studio Ladybug | 2024.2.1 Patch 1
     ```
-    Build #AI-242.21829.142.2421.12409432, built on September 25, 2024
+    Build #AI-242.23339.11.2421.12483815, built on October 11, 2024
     Runtime version: 21.0.3+-12282718-b509.11 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
+    Kotlin プラグイン: K2 mode (Alpha)
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 4
@@ -142,8 +143,8 @@
       i18n.locale=
     Non-Bundled Plugins:
       com.intellij.ja (242.152)
-      Dart (242.21829.3)
-      io.flutter (81.1.3)
+      Dart (242.22855.32)
+      io.flutter (82.0.3)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -171,6 +172,9 @@
           ```
   - バージョン対応履歴
     - Ladybug 対応
+      - 2024.2.1 Patch 1 対応
+        - Android Gradle Plugin 8.7.0 -> 8.7.1
+        - Kotlin Gradle Plugin 2.0.20 -> 2.0.21
       - 2024.2.1 対応
         - Android Gradle Plugin 8.6.1 -> 8.7.0
         - Gradle 8.8 -> 8.9 -> 8.10
