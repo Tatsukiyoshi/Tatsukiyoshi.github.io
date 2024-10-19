@@ -15,10 +15,10 @@
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2122 (Cumulative Update) <span style="color: red;">*<<2024/10/12 updated from 26120.1930>>*</span>
-      ![Cumulative Update](./images/Windows/20241012_WindowsUpdate_DevChannel.png)
+    - Build 26120.2130 (Cumulative Update) <span style="color: red;">*<<2024/10/19 updated from 26120.2122>>*</span>
+      ![Cumulative Update](./images/Windows/20241019_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241012_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241019_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -114,10 +114,10 @@
         ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
         ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 129.0.6668.99 <span style="color: red;">*<<2024/10/12 updated from 129.0.6668.80>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241012_Chrome_OS_Flex_129.0.6668.99.png)
+  - バージョン 129.0.6668.110 <span style="color: red;">*<<2024/10/19 updated from 129.0.6668.99>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241019_Chrome_OS_Flex_129.0.6668.110.png)
     - 更新中
-    ![Updating](./images/Chrome/20241012_Chrome_OS_Flex_Updating129.0.6668.99.png)
+    ![Updating](./images/Chrome/20241019_Chrome_OS_Flex_Updating129.0.6668.110.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 

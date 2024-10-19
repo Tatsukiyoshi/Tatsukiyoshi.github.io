@@ -1,4 +1,5 @@
 - RustRover 履歴
+  - 2024.3 EAP Build #RR-243.16718.64 <span style="color: red;">**Updated 2024/10/05**</span>
   - 2024.3 EAP Build #RR-243.15521.46 <span style="color: red;">**Updated 2024/09/28**</span>
   - 2024.2.1 Build #RR-242.21829.233 <span style="color: red;">**Updated 2024/09/20**</span>
   - 2024.2 EAP Build #RR-242.21829.114 <span style="color: red;">**Updated 2024/08/31**</span>
