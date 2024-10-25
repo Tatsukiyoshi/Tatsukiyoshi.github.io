@@ -23,19 +23,19 @@
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  IdeaPad
-      - [WSL 2.3.24.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/01 updated from 2.3.22.0>>*</span>
+      - [WSL 2.3.25.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/25 updated from 2.3.24.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.153.1-2</summary>
 
         ```
-        WSL バージョン: 2.3.24.0
+        WSL バージョン: 2.3.25.0
         カーネル バージョン: 5.15.153.1-2
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.1912        ```
+        Windows バージョン: 10.0.26120.2130
         </details>
 
       - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
@@ -128,7 +128,7 @@
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
-- [GitHub Desktop 3.4.6](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/11 updated from 3.4.5>>*</span>
+- [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
     - 3.4.5 -> 3.4.6 OK
@@ -137,7 +137,7 @@
 - [Docker](./knowhow/Docker.md)
 
 **Windows**
-- [PowerShell 7.4.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/08/24 updated from 7.4.4>>*</span>
+- [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
   - 製品版では、ストアアプリとして自動更新される
   - Insider Preview環境では、ストアで更新できない。
     - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
