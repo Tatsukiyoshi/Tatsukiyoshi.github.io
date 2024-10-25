@@ -16,7 +16,7 @@
   |           |- .NET 8.0.10                                    |2024/10/11
   |Mini-S12   |Visual Studio Community 2022 17.11.5             |[2024/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.10                                    |[2024/10/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |  - [MAUI 8.0.91](#maui)                         |[2024/10/11](https://github.com/dotnet/maui)
+  |           |  - [MAUI 8.0.92](#maui)                         |[2024/10/25](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.6.1](#windows-app-sdk)      |[2024/10/11](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
@@ -154,7 +154,7 @@
   .NET SDK:
   Version:           8.0.403
   Commit:            c64aa40a71
-  Workload version:  8.0.400-manifests.58db758f
+  Workload version:  8.0.400-manifests.e0880c5d
   MSBuild version:   17.11.9+a69bbaaf5
 
   ランタイム環境:
