@@ -10,19 +10,19 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 3.0 |[2024/10/19](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 4.0 |[2024/10/25](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.2                                |[2024/10/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |  - MAUI 9.0.0 rc.2                              |2024/10/11
   |           |- .NET 8.0.10                                    |2024/10/11
   |Mini-S12   |Visual Studio Community 2022 17.11.5             |[2024/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.10                                    |[2024/10/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |  - [MAUI 8.0.91](#maui)                         |[2024/10/11](https://github.com/dotnet/maui)
+  |           |  - [MAUI 8.0.92](#maui)                         |[2024/10/25](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.6.1](#windows-app-sdk)      |[2024/10/11](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
-  - Visual Studio 2022 17.12 Preview 3.0
-    ![VS2022 17.12 preview 3.0](../images/VisualStudio/20241019_Update_VS2022_17.12_Preview3.0.png)
+  - Visual Studio 2022 17.12 Preview 4.0
+    ![VS2022 17.12 preview 4.0](../images/VisualStudio/20241025_Update_VS2022_17.12_Preview4.0.png)
   - Visual Studio 2022 17.11.5
     ![VS2022 17.11.5](../images/VisualStudio/20241011_Update_VS2022_17.11.5.png)
   - Visual Studio 2022 17.10.3
@@ -72,7 +72,7 @@
   .NET SDK:
   Version:           9.0.100-rc.2.24474.11
   Commit:            315e1305db
-  Workload version:  9.0.100-manifests.0c3a5b37
+  Workload version:  9.0.100-manifests.3424025a
   MSBuild version:   17.12.0-preview-24473-03+fea15fbd1
 
   ランタイム環境:
@@ -84,25 +84,25 @@
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35410.144
+    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35417.141
     マニフェストのバージョン:    35.0.0-rc.2.152/9.0.100-rc.2
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.2\microsoft.net.sdk.android\35.0.0-rc.2.152\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35410.144
+    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35417.141
     マニフェストのバージョン:    18.0.9600-net9-rc2/9.0.100-rc.2
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.2\microsoft.net.sdk.ios\18.0.9600-net9-rc2\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35410.144
+    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35417.141
     マニフェストのバージョン:    18.0.9600-net9-rc2/9.0.100-rc.2
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.2\microsoft.net.sdk.maccatalyst\18.0.9600-net9-rc2\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35410.144
+    インストール ソース: SDK 9.0.100-rc.2, VS 17.12.35417.141
     マニフェストのバージョン:    9.0.0-rc.2.24503.2/9.0.100-rc.2
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100-rc.2\microsoft.net.sdk.maui\9.0.0-rc.2.24503.2\WorkloadManifest.json
     インストールの種類:              Msi
@@ -154,7 +154,7 @@
   .NET SDK:
   Version:           8.0.403
   Commit:            c64aa40a71
-  Workload version:  8.0.400-manifests.58db758f
+  Workload version:  8.0.400-manifests.e0880c5d
   MSBuild version:   17.11.9+a69bbaaf5
 
   ランタイム環境:

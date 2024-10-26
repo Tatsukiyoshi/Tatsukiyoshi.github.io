@@ -17,10 +17,12 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Mini-S12   |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3 EAP 4](#rustrover)           |[2024/10/19](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.4](#tauridesktop-framework)         |[2024/10/11](https://beta.tauri.app/)
-      |           |Bun 1.1.31-canary.12                           |[2024/10/19](https://bun.sh/)
-      |           |[Slint 1.7.1](#slint)                          |[2024/07/27](https://slint.dev/)
+      |           |[RustRover 2024.3 EAP 5](#rustrover)           |[2024/10/26](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.0.6](#tauridesktop-framework)         |[2024/10/26](https://beta.tauri.app/)
+      |           |Svelte 5.1.3                                   |2024/10/26
+      |           |Vite 5.4.10                                    |2024/10/26
+      |           |Bun 1.1.34-canary.13                           |[2024/10/26](https://bun.sh/)
+      |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
 
@@ -28,10 +30,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Mini-S12   |Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.4          |2024/10/19
+      |           |Tauri 2.0.6          |2024/10/26
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.9           |2024/10/19
-      |           |Bun 1.1.31-canary.12 |2024/10/19
+      |           |Vite 5.4.10          |2024/10/26
+      |           |Bun 1.1.34-canary.16 |2024/10/26
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -50,9 +52,9 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |MacBook Air|Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.4          |2024/10/19
-      |           |Bun 1.1.31           |2024/10/19
-      |           |Vite 5.4.9           |2024/10/19
+      |           |Tauri 2.0.6          |2024/10/24
+      |           |Bun 1.1.33           |2024/10/25
+      |           |Vite 5.4.10          |2024/10/24
       |           |Node 22.6.0          |2024/08/17
       |           |CocoaPods 1.15.2_1   |2024/10/04
 
@@ -119,13 +121,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3 EAP Build #RR-243.19420.51 <span style="color: red;">**Updated 2024/10/19**</span>
+  - RustRover 2024.3 EAP Build #RR-243.20847.50 <span style="color: red;">**Updated 2024/10/26**</span>
     ```
     RustRover 2024.3 EAP
-    Build #RR-243.19420.51, built on October 17, 2024
+    Build #RR-243.20847.50, built on October 23, 2024
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: November 16, 2024
-    Runtime version: 21.0.4+8-b620.4 amd64 (JCEF 122.1.9)
+    有効期限: November 22, 2024
+    Runtime version: 21.0.4+8-b631.2 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -140,7 +142,7 @@
       org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (243.19420.21)
+      com.jetbrains.space (243.20847.10)
       ru.adelf.idea.dotenv (2024.3)
     ```
     - [履歴](../history/RustRover.md)
