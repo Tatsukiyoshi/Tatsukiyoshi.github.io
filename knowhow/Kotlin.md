@@ -20,10 +20,10 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.2.3 (Community Edition)
+  - IntelliJ IDEA 2024.2.4 (Community Edition)
     ```
-    Build #IC-242.23339.11, built on September 25, 2024
-    Runtime version: 21.0.4+13-b509.17 amd64 (JCEF 122.1.9)
+    Build #IC-242.23726.103, built on October 23, 2024
+    Runtime version: 21.0.4+13-b509.26 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -34,10 +34,10 @@
       ide.experimental.ui=true
       i18n.locale=
     Non-Bundled Plugins:
-      Lombook Plugin (242.22855.128)
-      com.jetbrains.space (242.23339.11)
-      org.jetbrains.compose.desktop.ide (1.6.2)
-    Kotlin: 242.23339.11-IJ
+      Lombook Plugin (242.23726.38)
+      com.jetbrains.space (242.23726.16)
+      org.jetbrains.compose.desktop.ide (1.7.0)
+    Kotlin: 242.23726.103-IJ
     ```
   - IntelliJ IDEA 2024.2.3
     - Kotlin 2.0.20
