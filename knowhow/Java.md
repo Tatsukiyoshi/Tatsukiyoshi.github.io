@@ -13,8 +13,8 @@
 
   |端末       |環境／FW                                                                          |最終更新
   |-----------|--------------------------------------------------------------------------------|----------
-  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2024-03 (Eclipse 4.31)](#pleiades)|[2024/05/04](https://willbrains.jp/)
-  |           |[Apache Tomcat 10.1.12](#tomcat)                                                |[2023/08/19](https://tomcat.apache.org/download-10.cgi)
+  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2024-09 (Eclipse 4.33)](#pleiades)|[2024/10/26](https://willbrains.jp/)
+  |           |[Apache Tomcat 10.1.28](#tomcat)                                                |[2024/10/26](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.220](#h2-database)                                             |[2023/08/19](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
   |           |[Jenkins LTS 2.401.3](#jenkins)                                                 |[2023/08/19](https://www.jenkins.io/download/)
@@ -553,8 +553,12 @@
       ![実行構成](../images/eclipse/eclipse_encode.png)
       - 共通タブのエンコードにて、その他を選択し、ドロップダウンリストから"MS932"を選択する。
   - Tomcat 実行構成
-    - [Eclipseのサーバーランタイム環境を設定する](https://java-reference.com/java_env_eclipsetomcat.html)
-      ![ランタイム環境](../images/eclipse/Eclipse_Tomcat.png)
+    - ランタイム環境
+      - インストール可能な最新バージョンをインストールして設定する
+        ![ランタイム環境](../images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28.png)
+    - サーバー
+      - 設定したランタイム環境でサーバーを作成する
+        ![サーバー設定](../images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28_ServerSetup.png)
     - 起動時のメッセージが日本語のため、エンコードを「システム・エンコーディングを使用」を選択する。
       ![実行構成](../images/eclipse/tomcat_configuration.png)
 ### Jenkins
