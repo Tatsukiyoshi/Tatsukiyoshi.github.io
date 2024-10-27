@@ -1,15 +1,63 @@
 #   Carbon
 
 ##  環境
-  |端末       |環境／FW     |最終更新
+  |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
-  |IdeaPad    |Carbon       |2024/03/16
+  |IdeaPad    |Carbon       |2024/10/27
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
+### 環境更新 [on ubuntu 24.04 **@2024/10/27** <span style="color: red;">*Updated!*</span>]
+1.  carbon-explorerを実行
+    -   gitからクローン
+        *   コマンド
+            ```
+            git clone https://github.com/carbon-language/carbon-lang
+            ```
+            <details>
+            <summary>ログ</summary>
+
+            ```
+            Cloning into 'carbon-lang'...
+            remote: Enumerating objects: 79131, done.
+            remote: Counting objects: 100% (5614/5614), done.
+            remote: Compressing objects: 100% (2363/2363), done.
+            remote: Total 79131 (delta 4664), reused 3817 (delta 3227), pack-reused 73517 (from 1)
+            Receiving objects: 100% (79131/79131), 32.03 MiB | 8.44 MiB/s, done.
+            Resolving deltas: 100% (64584/64584), done.
+            ```
+            </details>
+    -   実行
+        *   コマンド
+            ```
+            cd carbon-lang
+            bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
+            ```
+            <details>
+            <summary>ログ</summary>
+            
+            ```
+            2024/10/27 18:34:07 Downloading https://releases.bazel.build/7.3.0/release/bazel-7.3.0-linux-x86_64...
+            Extracting Bazel installation...
+            Starting local Bazel server and connecting to it...
+            INFO: Invocation ID: b8d43c6b-1481-4597-b6f8-c996e60bc3c3
+            DEBUG: /home/taishow/.cache/bazel/_bazel_taishow/72d0ad9945d9497741a773f035acb5b0/external/rules_python~/python/private/bzlmod/python.bzl:46:10: WARNING: Ignoring toolchain 'python_3_11' from module 'rules_fuzzing': Toolchain 'python_3_11' from module 'carbon' already registered Python version 3.11 and has precedence
+            INFO: Analyzed target //explorer:explorer (131 packages loaded, 2879 targets configured).
+            INFO: Found 1 target...
+            Target //explorer:explorer up-to-date:
+            bazel-bin/explorer/explorer
+            INFO: Elapsed time: 343.018s, Critical Path: 167.97s
+            INFO: 600 processes: 159 internal, 441 linux-sandbox.
+            INFO: Build completed successfully, 600 total actions
+            INFO: Running command line: bazel-bin/explorer/explorer ./explorer/testdata/print/format_only.carbon
+            Hello world!
+            result: 0
+            ```
+            </details>
+
 ### 環境更新 [on ubuntu 22.04 **@2024/03/16** <span style="color: red;">*Updated!*</span>]
 1.  carbon-explorerを実行
     -   gitからクローン
