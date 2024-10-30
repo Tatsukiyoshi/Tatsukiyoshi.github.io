@@ -123,7 +123,7 @@
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.94.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/11 updated from 1.94.0>>*</span>
+- [Visual Studio Code 1.95](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/30 updated from 1.94.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
