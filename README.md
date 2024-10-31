@@ -141,8 +141,8 @@
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
 **Mac**
-- [XCode 16.0](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/09/17 Updated from 15.4>>*</span>
-- [CocoaPods 1.15.2_1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/04 Updated from 1.15.2>>*</span>
+- [XCode 16.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/10/31 Updated from 16.0>>*</span>
+- [CocoaPods 1.16.1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/31 Updated from 1.15.2_1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  サービス

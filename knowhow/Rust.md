@@ -56,7 +56,7 @@
       |           |Bun 1.1.33           |2024/10/25
       |           |Vite 5.4.10          |2024/10/24
       |           |Node 22.6.0          |2024/08/17
-      |           |CocoaPods 1.15.2_1   |2024/10/04
+      |           |CocoaPods 1.16.1     |2024/10/31
 
   ##  ノウハウ
   ### Rust
@@ -397,12 +397,16 @@
         ```
         rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim
         ```
-      - Homebrew / Cocoapodsのインストール
+      - Homebrew / CocoaPodsのインストール
         ```
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         ```
         ```
         brew install cocoapods
+        ```
+      - CocoaPodsのアップデート
+        ```
+        brew upgrade
         ```
       - nodeのインストール -> https://zenn.dev/shichi18/articles/20230325-01-50eb75b9096004
         - nodebrewをインストール
