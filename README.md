@@ -101,18 +101,13 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/10/11 updated from Sonoma 15.0>>*</span>
+  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/10/31 updated from Sonoma 15.0.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241011_MacOS_Sequoia15.0.1_Update.png)
+      ![Update Check](./images/Mac/20241031_Sequoia15.1Update.png)
     - バージョン情報
-      ![SEquoia 15.0.1](./images/Mac/20241011_MacOS_Sequoia15.0.1.png)
-    - iPhoneミラーリング
-      - iOS18アップデートが必要
-        ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
-      - iOS18アップデートしました
-        ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
-        ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
+      ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
+  - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 129.0.6668.110 <span style="color: red;">*<<2024/10/19 updated from 129.0.6668.99>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20241019_Chrome_OS_Flex_129.0.6668.110.png)
