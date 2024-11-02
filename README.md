@@ -101,29 +101,24 @@
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/10/11 updated from Sonoma 15.0>>*</span>
+  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/10/31 updated from Sonoma 15.0.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241011_MacOS_Sequoia15.0.1_Update.png)
+      ![Update Check](./images/Mac/20241031_Sequoia15.1Update.png)
     - バージョン情報
-      ![SEquoia 15.0.1](./images/Mac/20241011_MacOS_Sequoia15.0.1.png)
-    - iPhoneミラーリング
-      - iOS18アップデートが必要
-        ![Mirroring Failed](./images/Mac/20240919_MacOS_Sequoia_iPhone_Mirroring_Error.png)
-      - iOS18アップデートしました
-        ![Mirroring Setup](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
-        ![Mirroring Completed](./images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
+      ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
+  - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 129.0.6668.110 <span style="color: red;">*<<2024/10/19 updated from 129.0.6668.99>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241019_Chrome_OS_Flex_129.0.6668.110.png)
+  - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241101_Chrome_OS_Flex_129.0.6668.112.png)
     - 更新中
-    ![Updating](./images/Chrome/20241019_Chrome_OS_Flex_Updating129.0.6668.110.png)
+    ![Updating](./images/Chrome/20241101_Chrome_OS_Flex_Updating129.0.6668.112.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.94.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/11 updated from 1.94.0>>*</span>
+- [Visual Studio Code 1.95.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/01 updated from 1.94.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -146,8 +141,8 @@
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
 **Mac**
-- [XCode 16.0](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/09/17 Updated from 15.4>>*</span>
-- [CocoaPods 1.15.2_1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/04 Updated from 1.15.2>>*</span>
+- [XCode 16.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/10/31 Updated from 16.0>>*</span>
+- [CocoaPods 1.16.1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/31 Updated from 1.15.2_1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  サービス

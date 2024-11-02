@@ -13,7 +13,7 @@
   |IdeaPad    |[IntelliJ IDEA 2024.2.4](#intellij-idea)                              |[2024/10/26](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.1                                                 |2024/05/04
-  |Mini-S12   |[Android Studio Ladybug 2024.2.1 Patch 1](#android-studio)            |[2024/10/19](https://developer.android.com/studio)
+  |Mini-S12   |[Android Studio Ladybug 2024.2.1 Patch 2](#android-studio)            |[2024/11/02](https://developer.android.com/studio)
   |           |- Kotlin 2.0.21                                                       |[2024/10/19](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
   |           |- Android Emulator v.35.2.10                                          |2024/10/07
@@ -126,9 +126,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Ladybug | 2024.2.1 Patch 1
+  - Android Studio Ladybug | 2024.2.1 Patch 2
     ```
-    Build #AI-242.23339.11.2421.12483815, built on October 11, 2024
+    Build #AI-242.23339.11.2421.12550806, built on October 25, 2024
     Runtime version: 21.0.3+-12282718-b509.11 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -172,6 +172,10 @@
           ```
   - バージョン対応履歴
     - Ladybug 対応
+      - 2024.2.1 Patch 2 対応
+        - Android Gradle Plugin 8.7.1 -> 8.7.2
+        - CompileSdk 34 -> 35
+          - core-ktx および core 1.15.0 は、バージョン35以上のSDKでビルドする必要あり
       - 2024.2.1 Patch 1 対応
         - Android Gradle Plugin 8.7.0 -> 8.7.1
         - Kotlin Gradle Plugin 2.0.20 -> 2.0.21
