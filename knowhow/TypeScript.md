@@ -20,7 +20,8 @@
   
       |ホスト                          |FW              |最終更新      
       |-------------------------------|----------------|----------
-      |[Vercel](https://vercel.com/)  |Next.js 14.2.2  |2024/04/21
+      |[Vercel](https://vercel.com/)  |Next.js 15.0.2  |2024/11/02
+      |                               |Astro 4.16.8    |2024/11/02
 
   1.  Windows
       |端末       |FW                      |最終更新      
@@ -32,13 +33,16 @@
       |           |- Bun 1.1.22            |2024/08/10
       |           |- Vite 5.4.0            |2024/08/10
       |           |Astro 4.16.7            |[2024/10/26](https://astro.build/)
+      |           |+ Astro 5.0.0-beta.6    |2024/11/02
       |           |- Bun 1.1.34-canary.13  |2024/10/26
       |           |- React 18.3.1          |2024/05/30
       |           |Next.js 15.0.1          |2024/10/26
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
-      |           |Vue 3.5.11              |[2024/10/05](https://jp.vuejs.org/)
+      |           |Vue 3.5.12              |[2024/11/02](https://jp.vuejs.org/)
       |           |- Deno 1.46.3           |2024/09/08
       |           |- Vite 5.4.8            |2024/10/05
+      |           |  + Vite 6.0.0-beta.8   |2024/11/02
+      |           |- Bun 1.1.34-canary.51  |2024/11/02
       |           |Deno 2.0.3              |[2024/10/26](https://deno.land/)
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
