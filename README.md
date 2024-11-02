@@ -109,16 +109,16 @@
       ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 129.0.6668.110 <span style="color: red;">*<<2024/10/19 updated from 129.0.6668.99>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241019_Chrome_OS_Flex_129.0.6668.110.png)
+  - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241101_Chrome_OS_Flex_129.0.6668.112.png)
     - 更新中
-    ![Updating](./images/Chrome/20241019_Chrome_OS_Flex_Updating129.0.6668.110.png)
+    ![Updating](./images/Chrome/20241101_Chrome_OS_Flex_Updating129.0.6668.112.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.95](https://code.visualstudio.com/) <span style="color: red;">*<<2024/10/30 updated from 1.94.2>>*</span>
+- [Visual Studio Code 1.95.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/01 updated from 1.94.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
