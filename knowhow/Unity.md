@@ -10,7 +10,7 @@
 
   |端末       |環境／FW           |最終更新
   |-----------|------------------|----------
-  |IdeaPad    |Unity 2022.2.15f1 |[2023/04/16](https://unity.com/releases/editor/)
+  |InsiderDev |Unity 2022.2.15f1 |[2023/04/16](https://unity.com/releases/editor/)
   |           |Unity Hub 3.4.1   |[2022/12/18](https://unity.com/download)
   |           |Blender 3.4.1     |[2023/01/08](https://www.blender.org/)
 

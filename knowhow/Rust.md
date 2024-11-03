@@ -16,7 +16,7 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Mini-S12   |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
+      |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 5](#rustrover)           |[2024/10/26](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.0.6](#tauridesktop-framework)         |[2024/10/26](https://beta.tauri.app/)
       |           |Svelte 5.1.3                                   |2024/10/26
@@ -29,7 +29,7 @@
   1. Ubuntu 24.04.1 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |Mini-S12   |Rust 1.82            |2024/10/19
+      |Windows    |Rust 1.82            |2024/10/19
       |           |Tauri 2.0.6          |2024/10/26
       |           |React 18.3.1         |2024/05/04
       |           |Vite 5.4.10          |2024/10/26
@@ -40,7 +40,7 @@
   1. Chrome OS Flex 128.0.6613.133(Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |TransBook  |Rust 1.81                                  |2024/09/17
+      |Chrome OS  |Rust 1.81                                  |2024/09/17
       |           |Tauri 1.8.0                                  |2024/09/17
       |           |[Node.js 20.12.0](TypeScript.md#typescript)  |[2024/03/30](https://nodejs.org/en)
       |           |Bun 1.1.27                                   |2024/09/17
@@ -51,7 +51,7 @@
   1.  Mac OS Sonoma 15.0.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |MacBook Air|Rust 1.82            |2024/10/19
+      |Mac OS     |Rust 1.82            |2024/10/19
       |           |Tauri 2.0.6          |2024/10/24
       |           |Bun 1.1.33           |2024/10/25
       |           |Vite 5.4.10          |2024/10/24

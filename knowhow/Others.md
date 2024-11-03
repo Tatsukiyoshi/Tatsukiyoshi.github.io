@@ -16,7 +16,7 @@
 
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
-  |IdeaPad    |LLVM 16.0.6  |[2023/09/02](https://llvm.org/)
+  |InsiderDev |LLVM 16.0.6  |[2023/09/02](https://llvm.org/)
 
   - LLVM
     - LLVM 16.0.6

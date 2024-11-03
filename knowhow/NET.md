@@ -10,11 +10,11 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |IdeaPad    |Visual Studio Community 2022 17.12.0 Preview 5.0 |[2024/10/31](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
+  |InsiderDev |Visual Studio Community 2022 17.12.0 Preview 5.0 |[2024/10/31](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.2                                |[2024/10/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |  - MAUI 9.0.0 rc.2                              |2024/10/11
   |           |- .NET 8.0.10                                    |2024/10/11
-  |Mini-S12   |Visual Studio Community 2022 17.11.5             |[2024/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows    |Visual Studio Community 2022 17.11.5             |[2024/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 8.0.10                                    |[2024/10/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |  - [MAUI 8.0.92](#maui)                         |[2024/10/25](https://github.com/dotnet/maui)
   |           |- [Windows App SDK 1.6.1](#windows-app-sdk)      |[2024/10/11](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -66,7 +66,7 @@
   dotnet --info
   ```
   <details>
-  <summary>Visual Studio 2022 Preview / IdeaPad</summary>
+  <summary>Visual Studio 2022 Preview＠InsiderDev</summary>
 
   ```
   .NET SDK:
@@ -148,7 +148,7 @@
   ```
   </details>
   <details>
-  <summary>Visual Studio 2022 / Mini-S12</summary>
+  <summary>Visual Studio 2022@Windows</summary>
 
   ```
   .NET SDK:

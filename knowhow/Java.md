@@ -13,21 +13,12 @@
 
   |端末       |環境／FW                                                                          |最終更新
   |-----------|--------------------------------------------------------------------------------|----------
-  |IdeaPad    |[Pleiades All in One Eclipse Standard Edition 2024-09 (Eclipse 4.33)](#pleiades)|[2024/10/26](https://willbrains.jp/)
+  |InsiderDev |[Pleiades All in One Eclipse Standard Edition 2024-09 (Eclipse 4.33)](#pleiades)|[2024/10/26](https://willbrains.jp/)
   |           |[Apache Tomcat 10.1.28](#tomcat)                                                |[2024/10/26](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.220](#h2-database)                                             |[2023/08/19](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
   |           |[Jenkins LTS 2.401.3](#jenkins)                                                 |[2023/08/19](https://www.jenkins.io/download/)
-  |Mini-S12   |Open JDK 21.0.1                                                                 |[2023/10/22](https://jdk.java.net/)
-  |ExpertBook |Spring Tool Suite 4.16.0                                                        |[2022/10/08](https://spring.io/tools)
-  |           |[PostgreSQL 15](./Database.md#postgresql)                                       |[2022/10/15](https://www.postgresql.org/download/windows/)
-
-  - **インストールしていたモジュール**
-      |端末       |環境／FW                                              |日付
-      |-----------|-----------------------------------------------------|----------
-      |IdeaPad    |OpenJDK JDK 20 General-Availability Release          |2023/03/22
-      |           |Apache Maven 3.8.6                                   |2022/06/23
-      |           |Graal VM Java17-22.2.0                               |2022/09/23
+  |Windows    |Open JDK 21.0.1                                                                 |[2023/10/22](https://jdk.java.net/)
 
 ##  ノウハウ
 ### [Java Platform Support](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)

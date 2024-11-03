@@ -3,7 +3,7 @@
 ##  環境
   |端末       |環境／FW    |日付
   |-----------|-----------|----------
-  |IdeaPad    |Go 1.21    |[2023/08/12](https://go.dev/dl/)
+  |InsiderDev |Go 1.21    |[2023/08/12](https://go.dev/dl/)
 
 ##  ノウハウ
   - [GOでLINE風リアルタイムチャットアプリを作ってみよう](https://www.cetus-media.info/article/2021/line-chat/)

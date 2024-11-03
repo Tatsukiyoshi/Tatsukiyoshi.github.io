@@ -3,7 +3,7 @@
 ##  環境
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
-  |IdeaPad    |Carbon       |2024/10/27
+  |InsiderDev |Carbon       |2024/10/27
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
