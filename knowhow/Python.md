@@ -10,7 +10,7 @@
 
   |端末       |環境／FW                  |最終更新      
   |-----------|-------------------------|----------
-  |IdeaPad    |[Python 3.12](#python-1) |[2023/11/03](https://www.python.org/downloads/)
+  |InsiderDev |[Python 3.12](#python-1) |[2023/11/03](https://www.python.org/downloads/)
   |           |[Django 4.2.7](#django)  |[2023/11/04](https://docs.djangoproject.com/ja/4.1)
   |           |[Flet 0.3.2](#flet)      |[2023/01/12](https://flet.dev/)
 

@@ -13,7 +13,7 @@
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
   |-----------|-------------------------------------------------------------------------|----------
-  |Mini-S12   |Flutter 3.24.4                                                           |[2024/11/02](https://docs.flutter.dev/get-started/install)
+  |Windows    |Flutter 3.24.4                                                           |[2024/11/02](https://docs.flutter.dev/get-started/install)
   |           |[Android Studio Ladybug 2024.2.1 Patch 1](./Kotlin.md#android-studio)    |2024/10/19
   |           |[Visual Studio Community 2022 17.11.5](./NET.md#visual-studio--プレビュー)|2024/07/13
 

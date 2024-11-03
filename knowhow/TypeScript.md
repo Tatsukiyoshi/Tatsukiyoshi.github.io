@@ -26,7 +26,7 @@
   1.  Windows
       |端末       |FW                      |最終更新      
       |-----------|------------------------|----------
-      |Mini-S12   |Node.js 20.17.0         |[2024/09/08](https://nodejs.org/en)
+      |Windows    |Node.js 20.17.0         |[2024/09/08](https://nodejs.org/en)
       |           |React 19 RC             |[2024/06/08](https://19.react.dev/)
       |           |- Bun 1.1.12            |[2024/05/30](https://bun.sh/)
       |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
@@ -47,7 +47,7 @@
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2    |2024/01/07
-      |IdeaPad    |Node.js 18.20.3         |2024/05/24
+      |InsiderDev |Node.js 18.20.3         |2024/05/24
       |           |Svelte 3.49.0           |[2022/07/16](https://svelte.dev/)
       |           |Vite 5.0.12             |[2024/01/20](https://vitejs.dev/)
       |           |Angular 18.2.6          |[2024/09/29](https://angular.dev/)
@@ -56,24 +56,18 @@
   1. Ubuntu 24.04 on Windows 11
       |端末       |環境／FW             |最終更新
       |-----------|--------------------|----------
-      |IdeaPad    |Astro 4.9.2         |2024/05/30
+      |InsiderDev |Astro 4.9.2         |2024/05/30
       |           |Bun 1.1.12          |2024/05/30
       |           |React 18.3.1        |2024/05/30
-      |Mini-S12   |Bun 1.0.19          |2023/12/23
+      |Windows    |Bun 1.0.19          |2023/12/23
 
   1.  Chrome OS Flex 116.0.5845.210（Official Build）
       |端末       |FW              |最終更新      
       |-----------|----------------|----------
-      |TransBook  |Node.js 18.12.1 |2022/12/13
+      |Chrome OS  |Node.js 18.12.1 |2022/12/13
       |           |Deno 1.29.3     |2023/01/14
       |           |Vite 4.0.1      |2022/12/13
       |           |Vue 3.2.45      |2022/12/13
-
-      |端末       |FW              |最終更新      
-      |-----------|----------------|----------
-      |TransBook  |Node.js 16.18.1 |2022/12/13
-      |           |Nuxt 2.15.8     |
-      |           |Vue 2.7.14      |
 
 ##  ノウハウ
 ### TypeScript

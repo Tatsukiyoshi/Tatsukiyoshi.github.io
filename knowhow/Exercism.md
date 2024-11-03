@@ -19,7 +19,7 @@
 ##  環境
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
-  |IdeaPad    |CLI 1.5.3    |[2024/06/26](https://exercism.org/docs/using/solving-exercises/working-locally)
+  |InsiderDev |CLI 1.5.3    |[2024/06/26](https://exercism.org/docs/using/solving-exercises/working-locally)
 
 ##  実践
 

@@ -11,6 +11,14 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
+##  環境
+OS                         |端末
+---------------------------|---------
+InsiderDev(Windows Insider)|IdeaPad
+Windows                    |Mini-S12
+Mac OS                     |MacBook Air
+Chrome OS Flex             |TransBook
+
 ##  OS
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
@@ -22,7 +30,7 @@
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  1.  IdeaPad
+  1.  InsiderDev
       - [WSL 2.3.25.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/25 updated from 2.3.24.0>>*</span>
 
         <details>
@@ -60,7 +68,7 @@
         ```
         </details>
 
-  1.  Mini-S12
+  1.  Windows
       - [WSL 2.3.24.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/04 updated from 2.2.4.0>>*</span>
 
         <details>

@@ -3,7 +3,7 @@
 ##  環境
   |端末       |環境／FW         |最終更新
   |-----------|----------------|----------
-  |IdeaPad    |PHP 8.3         |[2024/01/02](https://windows.php.net/download)
+  |InsiderDev |PHP 8.3         |[2024/01/02](https://windows.php.net/download)
   |           |Apache 2.4.58   |[2024/01/02](https://www.apachelounge.com/download/)
 
 ##  ノウハウ
