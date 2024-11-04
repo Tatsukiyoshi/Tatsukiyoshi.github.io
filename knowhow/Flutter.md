@@ -24,7 +24,7 @@
     -  Startup namer
   - flutter doctor -v
     <details>
-    <summary>Mini-S12</summary>
+    <summary>Windows</summary>
 
     ```
     [✓] Flutter (Channel stable, 3.24.4, on Microsoft Windows [Version 10.0.22631.4391], locale ja-JP)
