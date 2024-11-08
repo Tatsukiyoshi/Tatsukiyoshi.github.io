@@ -23,10 +23,10 @@ Chrome OS Flex             |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2200 (Cumulative Update) <span style="color: red;">*<<2024/10/26 updated from 26120.2130>>*</span>
-      ![Cumulative Update](./images/Windows/20241026_WindowsUpdate_DevChannel.png)
+    - Build 26120.2213 (Cumulative Update) <span style="color: red;">*<<2024/11/08 updated from 26120.2200>>*</span>
+      ![Cumulative Update](./images/Windows/20241108_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241026_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241108_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
