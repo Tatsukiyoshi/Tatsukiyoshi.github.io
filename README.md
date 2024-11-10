@@ -23,27 +23,27 @@ Chrome OS Flex             |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2213 (Cumulative Update) <span style="color: red;">*<<2024/11/08 updated from 26120.2200>>*</span>
-      ![Cumulative Update](./images/Windows/20241108_WindowsUpdate_DevChannel.png)
+    - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/10 updated from 26120.2213>>*</span>
+      ![Cumulative Update](./images/Windows/20241110_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241108_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241110_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.3.25.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/25 updated from 2.3.24.0>>*</span>
+      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/10 updated from 2.3.25.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 5.15.153.1-2</summary>
+        <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.3.25.0
-        カーネル バージョン: 5.15.153.1-2
+        WSL バージョン: 2.3.26.0
+        カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.2130
+        Windows バージョン: 10.0.26120.2222
         </details>
 
       - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
