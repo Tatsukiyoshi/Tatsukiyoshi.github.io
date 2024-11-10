@@ -23,10 +23,10 @@ Chrome OS Flex             |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2200 (Cumulative Update) <span style="color: red;">*<<2024/10/26 updated from 26120.2130>>*</span>
-      ![Cumulative Update](./images/Windows/20241026_WindowsUpdate_DevChannel.png)
+    - Build 26120.2213 (Cumulative Update) <span style="color: red;">*<<2024/11/08 updated from 26120.2200>>*</span>
+      ![Cumulative Update](./images/Windows/20241108_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241026_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241108_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -117,16 +117,19 @@ Chrome OS Flex             |TransBook
       ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241101_Chrome_OS_Flex_129.0.6668.112.png)
+  - バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.112>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241108_Chrome_OS_Flex_130.0.6723.84.png)
     - 更新中
-    ![Updating](./images/Chrome/20241101_Chrome_OS_Flex_Updating129.0.6668.112.png)
+    ![Updating](./images/Chrome/20241108_Chrome_OS_Flex_Updating130.0.6723.84.png)
+    - 新機能
+      - 画面分割
+        ![SplitWindow](./images/Chrome/20241108_Chrome_OS_Flex_130_SplitWindow.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.95.1](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/01 updated from 1.94.2>>*</span>
+- [Visual Studio Code 1.95.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/08 updated from 1.95.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
