@@ -48,13 +48,13 @@
       |           |Vite 5.4.10                                  |2024/11/09
       |           |Bevy 0.10.1                                  |2023/04/01
 
-  1.  Mac OS Sonoma 15.0.1
+  1.  Mac OS Sonoma 15.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.6          |2024/10/24
-      |           |Bun 1.1.33           |2024/10/25
-      |           |Vite 5.4.10          |2024/10/24
+      |           |Tauri 2.1.1          |2024/11/12
+      |           |Bun 1.1.34           |2024/11/12
+      |           |Vite 5.4.11          |2024/11/12
       |           |Node 22.6.0          |2024/08/17
       |           |CocoaPods 1.16.1     |2024/10/31
 
@@ -394,6 +394,13 @@
         ```
         -> Fixed (capabilitiesの記述変更を取り込むことで解決)
     - iOS target
+      - iOS Simulatorの更新
+        - XCodeで新しいバージョンをダウンロードする
+        - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
+      - CocoaPodsのアップデート
+        ```
+        brew upgrade
+        ```
       - Rustターゲットへの追加
         ```
         rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim
@@ -404,10 +411,6 @@
         ```
         ```
         brew install cocoapods
-        ```
-      - CocoaPodsのアップデート
-        ```
-        brew upgrade
         ```
       - nodeのインストール -> https://zenn.dev/shichi18/articles/20230325-01-50eb75b9096004
         - nodebrewをインストール
