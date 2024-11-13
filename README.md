@@ -69,19 +69,19 @@ Chrome OS Flex             |TransBook
         </details>
 
   1.  Windows
-      - [WSL 2.3.24.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/10/04 updated from 2.2.4.0>>*</span>
+      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/13 updated from 2.3.24.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 5.15.153.1-2</summary>
+        <summary>カーネル バージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.3.24.0
-        カーネル バージョン: 5.15.153.1-2
+        WSL バージョン: 2.3.26.0
+        カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.22631.4249
+        Windows バージョン: 10.0.22631.4460
         ```
         </details>
 
