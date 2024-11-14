@@ -15,12 +15,12 @@
 OS                              |端末
 --------------------------------|---------
 InsiderDev<BR>(Windows Insider) |IdeaPad
-Windows                         |Mini-S12
+Windows                         |Mini-S12, OmniBook Ultra Flip
 Mac OS                          |MacBook Air
 Chrome OS Flex                  |TransBook
 
 ### 移行計画
-  - InsiderDev環境 を OmniBook Ultra Flip に移行
+  - InsiderDev環境 を OmniBook Ultra Flip に構築
   - Windows on ARM環境追加（OmniBook X）
   - Chrome OS Flex環境を IdeaPad に再構築
 
@@ -34,6 +34,8 @@ Chrome OS Flex                  |TransBook
         ![Version Information](./images/Windows/20241110_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
+- [Windows 11 24H2](https://www.microsoft.com/ja-jp/windows/?r=1) <span style="color: red;">*<<2024/11/14 setup>>*</span>
+  ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
       - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/10 updated from 2.3.25.0>>*</span>
