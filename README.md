@@ -12,12 +12,17 @@
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
 ##  環境
-OS                         |端末
----------------------------|---------
-InsiderDev(Windows Insider)|IdeaPad
-Windows                    |Mini-S12
-Mac OS                     |MacBook Air
-Chrome OS Flex             |TransBook
+OS                              |端末
+--------------------------------|---------
+InsiderDev<BR>(Windows Insider) |IdeaPad
+Windows                         |Mini-S12
+Mac OS                          |MacBook Air
+Chrome OS Flex                  |TransBook
+
+### 移行計画
+  - InsiderDev環境 を OmniBook Ultra Flip に移行
+  - Windows on ARM環境追加（OmniBook X）
+  - Chrome OS Flex環境を IdeaPad に再構築
 
 ##  OS
 **独学環境の情報**
