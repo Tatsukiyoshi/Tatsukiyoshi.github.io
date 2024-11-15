@@ -14,8 +14,8 @@
 ##  環境
 OS                              |端末
 --------------------------------|---------
-InsiderDev<BR>(Windows Insider) |IdeaPad
-Windows                         |Mini-S12, OmniBook Ultra Flip
+InsiderDev<BR>(Windows Insider) |IdeaPad, OmniBook Ultra Flip
+Windows                         |Mini-S12
 Windows on Arm                  |OmniBook X
 Mac OS                          |MacBook Air
 Chrome OS Flex                  |TransBook
@@ -29,10 +29,10 @@ Chrome OS Flex                  |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/10 updated from 26120.2213>>*</span>
-      ![Cumulative Update](./images/Windows/20241110_WindowsUpdate_DevChannel.png)
+    - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/15 updated from 24H2 >>*</span>
+      ![Cumulative Update](./images/Windows/20241115_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241110_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241115_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
