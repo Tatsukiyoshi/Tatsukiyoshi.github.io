@@ -21,7 +21,7 @@ Mac OS                          |MacBook Air
 Chrome OS Flex                  |TransBook
 
 ### 移行計画
-  - InsiderDev環境 を OmniBook Ultra Flip に構築
+  v InsiderDev環境 を OmniBook Ultra Flip に構築
   v Windows on Arm環境追加（OmniBook X）
   - Chrome OS Flex環境を IdeaPad に再構築
 
@@ -143,7 +143,7 @@ Chrome OS Flex                  |TransBook
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.95.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/08 updated from 1.95.1>>*</span>
+- [Visual Studio Code 1.95.3](https://code.visualstudio.com/) <span style="color: red;">*<<2024/11/15 updated from 1.95.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
