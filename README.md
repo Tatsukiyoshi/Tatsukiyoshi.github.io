@@ -45,7 +45,7 @@ Chrome OS Flex                  |TransBook
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/10 updated from 2.3.25.0>>*</span>
+      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/15 installed>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
@@ -60,7 +60,7 @@ Chrome OS Flex                  |TransBook
         Windows バージョン: 10.0.26120.2222
         </details>
 
-      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
+      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
