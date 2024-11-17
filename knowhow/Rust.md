@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 7](#rustrover)           |[2024/11/08](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.6](#tauridesktop-framework)         |[2024/10/26](https://beta.tauri.app/)
-      |           |Svelte 5.1.3                                   |2024/10/26
-      |           |Vite 5.4.10                                    |2024/10/26
-      |           |Bun 1.1.34-canary.13                           |[2024/10/26](https://bun.sh/)
+      |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://beta.tauri.app/)
+      |           |Svelte 5.2.2                                   |2024/11/17
+      |           |Vite 5.4.11                                    |2024/11/17
+      |           |Bun 1.1.34                                     |[2024/11/17](https://bun.sh/)
       |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -30,10 +30,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Windows    |Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.6          |2024/10/26
+      |           |Tauri 2.1.1          |2024/11/17
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.10          |2024/10/26
-      |           |Bun 1.1.34-canary.16 |2024/10/26
+      |           |Vite 5.4.11          |2024/11/17
+      |           |Bun 1.1.35-canary.66 |2024/11/17
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
