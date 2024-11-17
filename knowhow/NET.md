@@ -52,14 +52,14 @@
       ![スペルチェッカ](../images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
-  - [.NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/08/14* <span style="color: red;">Updated!</span>)
+  - [.NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2024/11/17* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0.0 rc.2](../images/VisualStudio/20241011_dotnet9_rc.2.png)
-  - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/06/22* <span style="color: red;">Updated!</span>)
+      ![.NET 9.0.0](../images/VisualStudio/20241117_dotnet9.png)
+  - [.NET 8.0](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2024/11/17* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.10](../images/VisualStudio/20241011_dotnet8.0.10.png)
+      ![.NET 8.0.11](../images/VisualStudio/20241117_dotnet8.0.11.png)
 
   - .NET 環境情報
   ```
