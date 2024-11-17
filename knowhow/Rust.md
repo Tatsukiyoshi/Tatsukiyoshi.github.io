@@ -18,7 +18,7 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 7](#rustrover)           |[2024/11/08](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://beta.tauri.app/)
+      |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://tauri.app/)
       |           |Svelte 5.2.2                                   |2024/11/17
       |           |Vite 5.4.11                                    |2024/11/17
       |           |Bun 1.1.34                                     |[2024/11/17](https://bun.sh/)

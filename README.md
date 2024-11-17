@@ -3,7 +3,7 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト：（2024/10/28～11/03）](https://note.com/taishow2020/n/ne01cbf8a80e3) / [一覧](./digest/digestList.md)
+  [最新ダイジェスト：（2024/11/11～11/17）](https://note.com/taishow2020/n/na77bc5c54340) / [一覧](./digest/digestList.md)
 
 ##  創作物
 **知識を形にする**
@@ -14,15 +14,15 @@
 ##  環境
 OS                              |端末
 --------------------------------|---------
-InsiderDev<BR>(Windows Insider) |IdeaPad, OmniBook Ultra Flip
+InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
 Windows                         |Mini-S12
 Windows on Arm                  |OmniBook X
 Mac OS                          |MacBook Air
 Chrome OS Flex                  |TransBook
 
 ### 移行計画
-  v InsiderDev環境 を OmniBook Ultra Flip に構築
-  v Windows on Arm環境追加（OmniBook X）
+  - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
+  - (v) Windows on Arm環境追加（OmniBook X）
   - Chrome OS Flex環境を IdeaPad に再構築
 
 ##  OS
@@ -131,7 +131,7 @@ Chrome OS Flex                  |TransBook
       ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.112>>*</span>
+  - バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/08 updated from 129.0.6668.112>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20241108_Chrome_OS_Flex_130.0.6723.84.png)
     - 更新中
     ![Updating](./images/Chrome/20241108_Chrome_OS_Flex_Updating130.0.6723.84.png)

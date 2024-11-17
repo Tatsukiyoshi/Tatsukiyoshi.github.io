@@ -31,7 +31,7 @@
       |           |- Bun 1.1.12            |[2024/05/30](https://bun.sh/)
       |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
       |           |- Bun 1.1.22            |2024/08/10
-      |           |- Vite 5.4.0            |2024/08/10
+      |           |- Vite 5.4.0            |[2024/08/10](https://vitejs.dev/)
       |           |Astro 4.16.7            |[2024/10/26](https://astro.build/)
       |           |+ Astro 5.0.0-beta.6    |2024/11/02
       |           |- Bun 1.1.34-canary.13  |2024/10/26
@@ -49,7 +49,7 @@
       |           |- for Windows 0.73.2    |2024/01/07
       |InsiderDev |Node.js 18.20.3         |2024/05/24
       |           |Svelte 3.49.0           |[2022/07/16](https://svelte.dev/)
-      |           |Vite 5.0.12             |[2024/01/20](https://vitejs.dev/)
+      |           |Vite 5.0.12             |2024/01/20
       |           |Angular 18.2.6          |[2024/09/29](https://angular.dev/)
       |           |Gluon 0.13.5            |[2023/04/29](https://gluonjs.org/)
 
