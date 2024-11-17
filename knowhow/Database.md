@@ -10,7 +10,7 @@
   |          |MongoDB 8.0.1                                        |2024/10/19
   |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |          |MySQL Community Server 8.4.2                         |2024/08/24
-  |InsiderDev|PostgreSQL 16.4                                      |2024/08/24
+  |InsiderDev|PostgreSQL 17.1                                      |2024/11/16
 
 ##  ノウハウ
 ### データベース全般

@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3 EAP 7](#rustrover)           |[2024/11/08](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.0.6](#tauridesktop-framework)         |[2024/10/26](https://beta.tauri.app/)
-      |           |Svelte 5.1.3                                   |2024/10/26
-      |           |Vite 5.4.10                                    |2024/10/26
-      |           |Bun 1.1.34-canary.13                           |[2024/10/26](https://bun.sh/)
+      |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://beta.tauri.app/)
+      |           |Svelte 5.2.2                                   |2024/11/17
+      |           |Vite 5.4.11                                    |2024/11/17
+      |           |Bun 1.1.34                                     |[2024/11/17](https://bun.sh/)
       |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
@@ -30,10 +30,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |Windows    |Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.6          |2024/10/26
+      |           |Tauri 2.1.1          |2024/11/17
       |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.10          |2024/10/26
-      |           |Bun 1.1.34-canary.16 |2024/10/26
+      |           |Vite 5.4.11          |2024/11/17
+      |           |Bun 1.1.35-canary.66 |2024/11/17
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
@@ -48,13 +48,13 @@
       |           |Vite 5.4.10                                  |2024/11/09
       |           |Bevy 0.10.1                                  |2023/04/01
 
-  1.  Mac OS Sonoma 15.0.1
+  1.  Mac OS Sonoma 15.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.82            |2024/10/19
-      |           |Tauri 2.0.6          |2024/10/24
-      |           |Bun 1.1.33           |2024/10/25
-      |           |Vite 5.4.10          |2024/10/24
+      |           |Tauri 2.1.1          |2024/11/12
+      |           |Bun 1.1.34           |2024/11/12
+      |           |Vite 5.4.11          |2024/11/12
       |           |Node 22.6.0          |2024/08/17
       |           |CocoaPods 1.16.1     |2024/10/31
 
@@ -394,6 +394,13 @@
         ```
         -> Fixed (capabilitiesの記述変更を取り込むことで解決)
     - iOS target
+      - iOS Simulatorの更新
+        - XCodeで新しいバージョンをダウンロードする
+        - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
+      - CocoaPodsのアップデート
+        ```
+        brew upgrade
+        ```
       - Rustターゲットへの追加
         ```
         rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim
@@ -404,10 +411,6 @@
         ```
         ```
         brew install cocoapods
-        ```
-      - CocoaPodsのアップデート
-        ```
-        brew upgrade
         ```
       - nodeのインストール -> https://zenn.dev/shichi18/articles/20230325-01-50eb75b9096004
         - nodebrewをインストール
