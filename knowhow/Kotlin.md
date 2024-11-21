@@ -10,9 +10,9 @@
 ##  環境
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.2.4](#intellij-idea)                              |[2024/10/26](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3](#intellij-idea)                                |[2024/11/16](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 22.0.1                                                 |2024/05/04
+  |           |Amazon Coretto 22.0.2                                                 |2024/11/16
   |Windows    |[Android Studio Ladybug 2024.2.1 Patch 2](#android-studio)            |[2024/11/02](https://developer.android.com/studio)
   |           |- Kotlin 2.0.21                                                       |[2024/10/19](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
@@ -20,24 +20,22 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.2.4 (Community Edition)
+  - IntelliJ IDEA 2024.3 (Community Edition)
     ```
-    Build #IC-242.23726.103, built on October 23, 2024
-    Runtime version: 21.0.4+13-b509.26 amd64 (JCEF 122.1.9)
+    Build #IC-243.21565.193, built on November 13, 2024
+    Runtime version: 21.0.5+8-b631.16 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
-    Cores: 16
+    Cores: 8
     Registry:
       ide.experimental.ui=true
       i18n.locale=
     Non-Bundled Plugins:
-      Lombook Plugin (242.23726.38)
-      com.jetbrains.space (242.23726.16)
-      org.jetbrains.compose.desktop.ide (1.7.0)
-    Kotlin: 242.23726.103-IJ
+      org.jetbrains.plugins.gitlab (243.21565.204)
+    Kotlin: 243.21565.193-IJ
     ```
   - IntelliJ IDEA 2024.2.3
     - Kotlin 2.0.20
