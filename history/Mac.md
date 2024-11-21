@@ -1,4 +1,10 @@
 - Update History
+  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/10/31 updated from Sonoma 15.0.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](../images/Mac/20241031_Sequoia15.1Update.png)
+    - バージョン情報
+      ![Sequoia 15.1](../images/Mac/20241031_MacOS_Sequoia15.1.png)
   - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/10/11 updated from Sonoma 15.0>>*</span>
     - ソフトウェアアップデート

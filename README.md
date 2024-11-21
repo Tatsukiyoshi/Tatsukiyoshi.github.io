@@ -123,12 +123,12 @@ Chrome OS Flex                  |TransBook
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/10/31 updated from Sonoma 15.0.1>>*</span>
+  - [Sequoia 15.1.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/11/21 updated from Sonoma 15.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241031_Sequoia15.1Update.png)
+      ![Update Check](./images/Mac/20241121_Sequoia15.1.1Update.png)
     - バージョン情報
-      ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
+      ![Sequoia 15.1.1](./images/Mac/20241121_Sequoia15.1.1.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/08 updated from 129.0.6668.112>>*</span>
