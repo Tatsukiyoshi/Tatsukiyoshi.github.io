@@ -37,11 +37,20 @@ Chrome OS Flex                  |TransBook
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)
-  - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-    ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
-
+  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
+    - ついに、24H2が降臨
+      ![Cumulative Update](./images/Windows/20241115_WindowsUpdate_DevChannel.png)
+    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
+      ![Almost Ready After Shapeup](./images/Windows/20241123_Windows11Update_24H2_2.png)
+    - インストール中に謎のフォルダ出現（2025年？）
+      ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
+    - 更新完了後のバージョン情報
+      ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
   - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
     ![Version Information](./images/Windows/20241114_OmniBookX_WindowsVersion.png)
+  - Updated to Windows Insider Dev Channel
+    - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+      ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
@@ -83,7 +92,7 @@ Chrome OS Flex                  |TransBook
         </details>
 
   1.  Windows
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/13 updated from 2.3.24.0>>*</span>
+      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/23 re-installed>>*</span>
 
         <details>
         <summary>カーネル バージョン: 5.15.167.4-1</summary>
@@ -95,7 +104,7 @@ Chrome OS Flex                  |TransBook
         MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.22631.4460
+        Windows バージョン: 10.0.26100.2314
         ```
         </details>
 
