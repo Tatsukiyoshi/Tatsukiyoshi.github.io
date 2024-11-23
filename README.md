@@ -29,17 +29,17 @@ Chrome OS Flex                  |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/15 updated from 24H2 >>*</span>
-      ![Cumulative Update](./images/Windows/20241115_WindowsUpdate_DevChannel.png)
+    - Build 26120.2415 (Cumulative Update) <span style="color: red;">*<<2024/11/23 updated from Build 26120.2222 >>*</span>
+      ![Cumulative Update](./images/Windows/20241123_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241115_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241123_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
-      ![Cumulative Update](./images/Windows/20241115_WindowsUpdate_DevChannel.png)
+      ![Cumulative Update](./images/Windows/20241123_Windows11Update_24H2.png)
     - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
       ![Almost Ready After Shapeup](./images/Windows/20241123_Windows11Update_24H2_2.png)
     - インストール中に謎のフォルダ出現（2025年？）
