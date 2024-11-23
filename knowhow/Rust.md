@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3 EAP 7](#rustrover)           |[2024/11/08](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.3](#rustrover)                 |[2024/11/23](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://tauri.app/)
       |           |Svelte 5.2.2                                   |2024/11/17
       |           |Vite 5.4.11                                    |2024/11/17
@@ -121,12 +121,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3 EAP Build #RR-243.21565.136 <span style="color: red;">**Updated 2024/11/08**</span>
+  - RustRover 2024.3 Build #RR-243.21565.245 <span style="color: red;">**Updated 2024/11/23**</span>
     ```
-    RustRover 2024.3 EAP
-    Build #RR-243.21565.136, built on November 8, 2024
-    ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: December 8, 2024
+    RustRover 2024.3
+    Build #RR-243.21565.245, built on November 21, 2024
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年5月22日 までアクティブです。
+    For non-commercial use only.
     Runtime version: 21.0.5+8-b631.16 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -138,10 +139,9 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
-      llm.show.ai.promotion.window.on.start=true
       llm.ai.assistant.toolwindow.activation.on.start=false
-      transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
       com.jetbrains.space (243.21565.122)
       ru.adelf.idea.dotenv (2024.3)
