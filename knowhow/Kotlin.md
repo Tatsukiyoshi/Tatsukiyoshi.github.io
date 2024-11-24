@@ -13,10 +13,10 @@
   |InsiderDev |[IntelliJ IDEA 2024.3](#intellij-idea)                                |[2024/11/16](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |Windows    |[Android Studio Ladybug 2024.2.1 Patch 2](#android-studio)            |[2024/11/02](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.1 Canary 3](#android-studio)           |[2024/11/23](https://developer.android.com/studio)
   |           |- Kotlin 2.0.21                                                       |[2024/10/19](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
-  |           |- Android Emulator v.35.2.10                                          |2024/10/07
+  |           |- Android Emulator v.35.4.2                                           |2024/11/24
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -124,25 +124,22 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Ladybug | 2024.2.1 Patch 2
+  - Android Studio Meerkat | 2024.3.1 Canary 3
     ```
-    Build #AI-242.23339.11.2421.12550806, built on October 25, 2024
-    Runtime version: 21.0.3+-12282718-b509.11 amd64
+    Build #AI-243.21565.193.2431.12691553, built on November 21, 2024
+    Runtime version: 21.0.5+-12651406-b631.16 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
-    Kotlin プラグイン: K2 mode (Alpha)
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
-    Cores: 4
+    Cores: 8
     Registry:
-      debugger.new.tool.window.layout=true
       ide.experimental.ui=true
       i18n.locale=
     Non-Bundled Plugins:
-      com.intellij.ja (242.152)
-      Dart (242.22855.32)
-      io.flutter (82.0.3)
+      Dart (243.22562.3)
+      io.flutter (82.2.4)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -169,6 +166,10 @@
           testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.2'
           ```
   - バージョン対応履歴
+    - Meerkat
+      - Meerkat Canary 3 対応
+        - Android Baklava (=Android 16) Preview
+        - Android Emulator v35.4.2
     - Ladybug 対応
       - 2024.2.1 Patch 2 対応
         - Android Gradle Plugin 8.7.1 -> 8.7.2
