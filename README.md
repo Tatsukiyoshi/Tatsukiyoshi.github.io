@@ -18,12 +18,12 @@ InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
 Windows                         |Mini-S12
 Windows on Arm                  |OmniBook X
 Mac OS                          |MacBook Air
-Chrome OS Flex                  |TransBook
+Chrome OS Flex                  |IdeaPad
 
 ### 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
-  - Chrome OS Flex環境を IdeaPad に再構築
+  - (v) Chrome OS Flex環境を IdeaPad に再構築
 
 ##  OS
 **独学環境の情報**
