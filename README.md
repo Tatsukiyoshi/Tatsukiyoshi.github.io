@@ -29,29 +29,38 @@ Chrome OS Flex                  |TransBook
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/15 updated from 24H2 >>*</span>
-      ![Cumulative Update](./images/Windows/20241115_WindowsUpdate_DevChannel.png)
+    - Build 26120.2415 (Cumulative Update) <span style="color: red;">*<<2024/11/23 updated from Build 26120.2222 >>*</span>
+      ![Cumulative Update](./images/Windows/20241123_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241115_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241123_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)
-  - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-    ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
-
+  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
+    - ついに、24H2が降臨
+      ![Cumulative Update](./images/Windows/20241123_Windows11Update_24H2.png)
+    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
+      ![Almost Ready After Shapeup](./images/Windows/20241123_Windows11Update_24H2_2.png)
+    - インストール中に謎のフォルダ出現（2025年？）
+      ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
+    - 更新完了後のバージョン情報
+      ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
   - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
     ![Version Information](./images/Windows/20241114_OmniBookX_WindowsVersion.png)
+  - Updated to Windows Insider Dev Channel
+    - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+      ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/15 installed>>*</span>
+      - [WSL 2.4.4.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/21 updated from 2.3.26>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.3.26.0
+        WSL バージョン: 2.4.4.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5620
@@ -83,7 +92,7 @@ Chrome OS Flex                  |TransBook
         </details>
 
   1.  Windows
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/13 updated from 2.3.24.0>>*</span>
+      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/23 re-installed>>*</span>
 
         <details>
         <summary>カーネル バージョン: 5.15.167.4-1</summary>
@@ -95,7 +104,7 @@ Chrome OS Flex                  |TransBook
         MSRDC バージョン: 1.2.5620
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.22631.4460
+        Windows バージョン: 10.0.26100.2314
         ```
         </details>
 
@@ -123,12 +132,12 @@ Chrome OS Flex                  |TransBook
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/10/31 updated from Sonoma 15.0.1>>*</span>
+  - [Sequoia 15.1.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/11/21 updated from Sonoma 15.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241031_Sequoia15.1Update.png)
+      ![Update Check](./images/Mac/20241121_Sequoia15.1.1Update.png)
     - バージョン情報
-      ![Sequoia 15.1](./images/Mac/20241031_MacOS_Sequoia15.1.png)
+      ![Sequoia 15.1.1](./images/Mac/20241121_Sequoia15.1.1.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/08 updated from 129.0.6668.112>>*</span>

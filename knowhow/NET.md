@@ -13,18 +13,18 @@
   |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 1.0 |[2024/11/15](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.2                                |[2024/10/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.10                                    |2024/10/11
-  |Windows    |Visual Studio Community 2022 17.12.0             |[2024/11/17](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows    |Visual Studio Community 2022 17.12.1             |[2024/11/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 9.0                                       |[2024/11/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |  - [MAUI 9.0.10](#maui)                         |[2024/11/17](https://github.com/dotnet/maui)
   |           |- .NET 8.0.11                                    |[2024/11/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |- [Windows App SDK 1.6.1](#windows-app-sdk)      |[2024/10/11](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |           |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.13 Preview 1.0
     ![VS2022 17.13 preview 1.0](../images/VisualStudio/20241115_Update_VS2022_17.13_Preview1.0.png)
-  - Visual Studio 2022 17.12.0
-    ![VS2022 17.12.0](../images/VisualStudio/20241117_Update_VS2022_17.12.png)
+  - Visual Studio 2022 17.12.1
+    ![VS2022 17.12.0](../images/VisualStudio/20241123_Update_VS2022_17.12.1.png)
   - Visual Studio 2022 17.10.3
     - GitHub Copilotの利用
       - 早速、無料試用版の利用開始を促される <BR />
@@ -154,32 +154,32 @@
 
   ランタイム環境:
   OS Name:     Windows
-  OS Version:  10.0.22631
+  OS Version:  10.0.26100
   OS Platform: Windows
   RID:         win-x64
   Base Path:   C:\Program Files\dotnet\sdk\9.0.100\
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: VS 17.12.35506.116
+    インストール ソース: VS 17.12.35514.174
     マニフェストのバージョン:    35.0.7/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.android\35.0.7\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: VS 17.12.35506.116
+    インストール ソース: VS 17.12.35514.174
     マニフェストのバージョン:    9.0.0/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maui\9.0.0\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: VS 17.12.35506.116
+    インストール ソース: VS 17.12.35514.174
     マニフェストのバージョン:    18.0.9617/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.0.9617\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: VS 17.12.35506.116
+    インストール ソース: VS 17.12.35514.174
     マニフェストのバージョン:    18.0.9617/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.0.9617\WorkloadManifest.json
     インストールの種類:              Msi
@@ -225,7 +225,7 @@
   </details>
 
 ### Windows App SDK
-  - Windows App SDK 1.6.1
+  - Windows App SDK
     ![Hello World](../images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
   - NET 8.0
     - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
@@ -240,52 +240,44 @@
     get-appxpackage *appruntime.1.6*
     ```
     <details>
-    <summary>Windows App SDK 1.6.1</summary>
+    <summary>Windows App SDK 1.6.3</summary>
 
     ```
-    RunspaceId             : 131e6b72-b5a4-4ddc-9e72-5a7adbc826c8
-    Name                   : Microsoft.WindowsAppRuntime.1.6
-    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-    PublisherId            : 8wekyb3d8bbwe
-    Architecture           : X64
-    ResourceId             :
-    Version                : 6000.266.2241.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x64__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x64__8wekyb3d8bbw
-                            e
-    IsFramework            : True
-    PackageUserInformation : {}
-    IsResourcePackage      : False
-    IsBundle               : False
-    IsDevelopmentMode      : False
-    NonRemovable           : False
-    Dependencies           : {}
-    IsPartiallyStaged      : False
-    SignatureKind          : Store
-    Status                 : Ok
+    Name              : Microsoft.WindowsAppRuntime.1.6
+    Publisher         : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Architecture      : X86
+    ResourceId        :
+    Version           : 6000.318.2304.0
+    PackageFullName   : Microsoft.WindowsAppRuntime.1.6_6000.318.2304.0_x86__8wekyb3d8bbwe
+    InstallLocation   : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.318.2304.0_x86__8wekyb3d8bbwe
+    IsFramework       : True
+    PackageFamilyName : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
+    PublisherId       : 8wekyb3d8bbwe
+    IsResourcePackage : False
+    IsBundle          : False
+    IsDevelopmentMode : False
+    NonRemovable      : False
+    IsPartiallyStaged : False
+    SignatureKind     : Store
+    Status            : Ok
 
-    RunspaceId             : 131e6b72-b5a4-4ddc-9e72-5a7adbc826c8
-    Name                   : Microsoft.WindowsAppRuntime.1.6
-    Publisher              : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
-    PublisherId            : 8wekyb3d8bbwe
-    Architecture           : X86
-    ResourceId             :
-    Version                : 6000.266.2241.0
-    PackageFamilyName      : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
-    PackageFullName        : Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x86__8wekyb3d8bbwe
-    InstallLocation        : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.266.2241.0_x86__8wekyb3d8bbw
-                            e
-    IsFramework            : True
-    PackageUserInformation : {}
-    IsResourcePackage      : False
-    IsBundle               : False
-    IsDevelopmentMode      : False
-    NonRemovable           : False
-    Dependencies           : {}
-    IsPartiallyStaged      : False
-    SignatureKind          : Store
-    Status                 : Ok
+    Name              : Microsoft.WindowsAppRuntime.1.6
+    Publisher         : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Architecture      : X64
+    ResourceId        :
+    Version           : 6000.318.2304.0
+    PackageFullName   : Microsoft.WindowsAppRuntime.1.6_6000.318.2304.0_x64__8wekyb3d8bbwe
+    InstallLocation   : C:\Program Files\WindowsApps\Microsoft.WindowsAppRuntime.1.6_6000.318.2304.0_x64__8wekyb3d8bbwe
+    IsFramework       : True
+    PackageFamilyName : Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe
+    PublisherId       : 8wekyb3d8bbwe
+    IsResourcePackage : False
+    IsBundle          : False
+    IsDevelopmentMode : False
+    NonRemovable      : False
+    IsPartiallyStaged : False
+    SignatureKind     : Store
+    Status            : Ok
     ```
     </details>
 
