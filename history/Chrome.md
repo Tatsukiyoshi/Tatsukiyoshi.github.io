@@ -1,4 +1,11 @@
 # Chrome OS Flex
+- バージョン 130.0.6723.84 <span style="color: red;">*<<2024/11/08 updated from 129.0.6668.112>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20241108_Chrome_OS_Flex_130.0.6723.84.png)
+  - 更新中
+  ![Updating](../images/Chrome/20241108_Chrome_OS_Flex_Updating130.0.6723.84.png)
+  - 新機能
+    - 画面分割
+      ![SplitWindow](./images/Chrome/20241108_Chrome_OS_Flex_130_SplitWindow.png)
 - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20241101_Chrome_OS_Flex_129.0.6668.112.png)
   - 更新中
