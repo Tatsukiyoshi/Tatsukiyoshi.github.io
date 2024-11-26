@@ -47,27 +47,6 @@
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2    |2024/01/07
-      |InsiderDev |Node.js 18.20.3         |2024/05/24
-      |           |Svelte 3.49.0           |[2022/07/16](https://svelte.dev/)
-      |           |Vite 5.0.12             |2024/01/20
-      |           |Angular 18.2.6          |[2024/09/29](https://angular.dev/)
-      |           |Gluon 0.13.5            |[2023/04/29](https://gluonjs.org/)
-
-  1. Ubuntu 24.04 on Windows 11
-      |端末       |環境／FW             |最終更新
-      |-----------|--------------------|----------
-      |InsiderDev |Astro 4.9.2         |2024/05/30
-      |           |Bun 1.1.12          |2024/05/30
-      |           |React 18.3.1        |2024/05/30
-      |Windows    |Bun 1.0.19          |2023/12/23
-
-  1.  Chrome OS Flex 116.0.5845.210（Official Build）
-      |端末       |FW              |最終更新      
-      |-----------|----------------|----------
-      |Chrome OS  |Node.js 18.12.1 |2022/12/13
-      |           |Deno 1.29.3     |2023/01/14
-      |           |Vite 4.0.1      |2022/12/13
-      |           |Vue 3.2.45      |2022/12/13
 
 ##  ノウハウ
 ### TypeScript
