@@ -39,10 +39,10 @@
       |           |Next.js 15.0.1          |2024/10/26
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
-      |           |- Deno 1.46.3           |2024/09/08
+      |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
       |           |- Vite 6.0.1            |[2024/11/29](https://vitejs.dev/)
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
-      |           |Deno 2.0.3              |[2024/10/26](https://deno.land/)
+      |           |Deno 2.1.2              |2024/11/30
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2    |2024/01/07
