@@ -13,7 +13,7 @@
   |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 1.0 |[2024/11/15](https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.0 rc.2                                |[2024/10/11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)
   |           |- .NET 8.0.10                                    |2024/10/11
-  |Windows    |Visual Studio Community 2022 17.12.1             |[2024/11/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows    |Visual Studio Community 2022 17.12.2             |[2024/11/29](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 9.0                                       |[2024/11/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |  - [MAUI 9.0.10](#maui)                         |[2024/11/17](https://github.com/dotnet/maui)
   |           |- .NET 8.0.11                                    |[2024/11/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
@@ -23,8 +23,8 @@
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio 2022 17.13 Preview 1.0
     ![VS2022 17.13 preview 1.0](../images/VisualStudio/20241115_Update_VS2022_17.13_Preview1.0.png)
-  - Visual Studio 2022 17.12.1
-    ![VS2022 17.12.0](../images/VisualStudio/20241123_Update_VS2022_17.12.1.png)
+  - Visual Studio 2022 17.12.2
+    ![VS2022 17.12.2](../images/VisualStudio/20241129_Update_VS2022_17.12.2.png)
   - Visual Studio 2022 17.10.3
     - GitHub Copilotの利用
       - 早速、無料試用版の利用開始を促される <BR />
@@ -149,7 +149,7 @@
   .NET SDK:
   Version:           9.0.100
   Commit:            59db016f11
-  Workload version:  9.0.100-manifests.c6f19616
+  Workload version:  9.0.100-manifests.4a280210
   MSBuild version:   17.12.7+5b8665660
 
   ランタイム環境:
@@ -160,28 +160,28 @@
   Base Path:   C:\Program Files\dotnet\sdk\9.0.100\
 
   インストール済みの .NET ワークロード:
+  [maccatalyst]
+    インストール ソース: VS 17.12.35521.163
+    マニフェストのバージョン:    18.1.9163/9.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.1.9163\WorkloadManifest.json
+    インストールの種類:              Msi
+
   [android]
-    インストール ソース: VS 17.12.35514.174
+    インストール ソース: VS 17.12.35521.163
     マニフェストのバージョン:    35.0.7/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.android\35.0.7\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: VS 17.12.35514.174
+    インストール ソース: VS 17.12.35521.163
     マニフェストのバージョン:    9.0.0/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maui\9.0.0\WorkloadManifest.json
     インストールの種類:              Msi
 
-  [maccatalyst]
-    インストール ソース: VS 17.12.35514.174
-    マニフェストのバージョン:    18.0.9617/9.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.0.9617\WorkloadManifest.json
-    インストールの種類:              Msi
-
   [ios]
-    インストール ソース: VS 17.12.35514.174
-    マニフェストのバージョン:    18.0.9617/9.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.0.9617\WorkloadManifest.json
+    インストール ソース: VS 17.12.35521.163
+    マニフェストのバージョン:    18.1.9163/9.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.1.9163\WorkloadManifest.json
     インストールの種類:              Msi
 
   新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
