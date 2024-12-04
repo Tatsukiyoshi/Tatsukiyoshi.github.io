@@ -4,8 +4,8 @@
 
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
-  |Windows   |[SQL Server 2022 Developer 16.0.4135.4](#sql-server) |[2024/08/24](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
-  |          |- SQL Server Management Studio 20.2.3                |2024/08/24
+  |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
+  |          |- SQL Server Management Studio 20.2.30               |2024/08/24
   |          |[PostgreSQL 17.0](#postgresql)                       |[2024/09/27](https://www.postgresql.org/download/windows/)
   |          |MongoDB 8.0.1                                        |2024/10/19
   |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
