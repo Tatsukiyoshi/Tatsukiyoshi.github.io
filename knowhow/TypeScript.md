@@ -44,8 +44,10 @@
       |           |- Bun 1.1.38            |2024/11/29
       |           |Deno 2.1.2              |2024/11/30
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
-      |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
-      |           |- for Windows 0.73.2    |2024/01/07
+      |           |React Native 0.76.3     |[2024/12/04](https://reactnative.dev/)
+      |           |- for Windows 0.76.2    |2024/12/04
+      |           |- Windows SDK 10.0.22621|2024/12/04
+      |           |- Bun 1.1.38            |2024/11/29
       |           |Svelte 5.5.3            |[2024/12/04](https://svelte.dev/)
       |           |- Bun 1.1.38            |2024/11/29
       |           |- Vite 6.0.2            |2024/12/04
@@ -201,7 +203,7 @@
           ```sh
           npx react-native run-windows
           ```
-          ![WindowsSample](../images/JavaScript/20240107_ReactNativeWindows.png)
+          ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
     - [Astro 5.0 beta](https://5-0-0-beta.docs.astro.build/en/guides/upgrade-to/v5/)
