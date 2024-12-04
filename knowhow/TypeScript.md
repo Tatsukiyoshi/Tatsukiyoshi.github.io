@@ -46,6 +46,9 @@
       |           |- fresh 1.7.3           |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.73.1     |[2024/01/07](https://reactnative.dev/)
       |           |- for Windows 0.73.2    |2024/01/07
+      |           |Svelte 5.5.3            |[2024/12/04](https://svelte.dev/)
+      |           |- Bun 1.1.38            |2024/11/29
+      |           |- Vite 6.0.2            |2024/12/04
 
 ##  ノウハウ
 ### TypeScript
