@@ -552,8 +552,14 @@
     - 起動時のメッセージが日本語のため、エンコードを「システム・エンコーディングを使用」を選択する。
       ![実行構成](../images/eclipse/tomcat_configuration.png)
 ### Jenkins
-  - Jenkinsのセットアップ
-    - 非推奨のサービス起動でセットアップ（LTS 2.401.3）
+  - Jenkinsのセットアップ（LTS 2.479.2）
+    - アンロック
+      ![Unlock Jenkins](../images/Java/20241207_Unlock_Jenkins.png)
+    - プラグインのセットアップ
+      ![Plugin Setup](../images/Java/20241207_Jenkins_Plugin_Setup.png)
+    - admin/admin
+  - Jenkinsのセットアップ（LTS 2.401.3）
+    - 非推奨のサービス起動でセットアップ
       ![ダッシュボード](../images/jenkins/Jenkins_Dashboard.png)
     - admin/admin
   - ポート番号変更
