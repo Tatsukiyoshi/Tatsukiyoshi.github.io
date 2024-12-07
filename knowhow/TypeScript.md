@@ -407,17 +407,18 @@
           ```
       1.  Angular 19対応
           - Update Dependencies
-            |Component            |Version
-            |---------------------|--------
-            |rxjs                 |7.8.1
-            |tslib                |2.8.1
-            |zone.js              |0.15.0
-            |@types/jasmine       |5.1.5
-            |jasmine-core         |5.4.0
-            |karma                |6.4.4
-            |karma-chrome-launcher|3.2.0
-            |karma-coverage       |2.2.1
-            |karma-jasmine        |5.1.0
+            |Component                |Version
+            |-------------------------|--------
+            |angular-in-memory-web-api|0.19.0
+            |rxjs                     |7.8.1
+            |tslib                    |2.8.1
+            |zone.js                  |0.15.0
+            |@types/jasmine           |5.1.5
+            |jasmine-core             |5.5.0
+            |karma                    |6.4.4
+            |karma-chrome-launcher    |3.2.0
+            |karma-coverage           |2.2.1
+            |karma-jasmine            |5.1.0
           - [Migration to Standalone](https://angular.dev/reference/migrations/standalone)
             ```
             ng generate @angular/core:standalone
