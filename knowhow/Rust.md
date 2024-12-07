@@ -24,7 +24,7 @@
       |           |Bun 1.1.34                                     |[2024/11/17](https://bun.sh/)
       |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
-      |           |[Bevy 0.14](#game-engine)                      |[2024/07/27](https://bevyengine.org/)
+      |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
 
   1. Ubuntu 24.04.1 on Windows 11
       |端末       |環境／FW              |最終更新

@@ -17,7 +17,7 @@
   |           |[Apache Tomcat 10.1.28](#tomcat)                                                |[2024/10/26](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
-  |           |[Jenkins LTS 2.401.3](#jenkins)                                                 |[2023/08/19](https://www.jenkins.io/download/)
+  |           |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
 
 ##  ノウハウ
 ### [Java Platform Support](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
@@ -552,8 +552,14 @@
     - 起動時のメッセージが日本語のため、エンコードを「システム・エンコーディングを使用」を選択する。
       ![実行構成](../images/eclipse/tomcat_configuration.png)
 ### Jenkins
-  - Jenkinsのセットアップ
-    - 非推奨のサービス起動でセットアップ（LTS 2.401.3）
+  - Jenkinsのセットアップ（LTS 2.479.2）
+    - アンロック
+      ![Unlock Jenkins](../images/Java/20241207_Unlock_Jenkins.png)
+    - プラグインのセットアップ
+      ![Plugin Setup](../images/Java/20241207_Jenkins_Plugin_Setup.png)
+    - admin/admin
+  - Jenkinsのセットアップ（LTS 2.401.3）
+    - 非推奨のサービス起動でセットアップ
       ![ダッシュボード](../images/jenkins/Jenkins_Dashboard.png)
     - admin/admin
   - ポート番号変更

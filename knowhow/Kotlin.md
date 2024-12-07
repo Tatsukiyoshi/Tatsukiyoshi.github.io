@@ -11,12 +11,12 @@
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
   |InsiderDev |[IntelliJ IDEA 2024.3](#intellij-idea)                                |[2024/11/16](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 2.0.20                                                       |[2024/09/27](https://kotlinlang.org/docs/home.html)
+  |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.1 Canary 3](#android-studio)           |[2024/11/23](https://developer.android.com/studio)
-  |           |- Kotlin 2.0.21                                                       |[2024/10/19](https://kotlinlang.org/docs/home.html)
+  |           |[Android Studio Meerkat 2024.3.1 Canary 4](#android-studio)           |[2024/12/07](https://developer.android.com/studio)
+  |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.16                                 |2024/09/04
-  |           |- Android Emulator v.35.4.2                                           |2024/11/24
+  |           |- Android Emulator v.35.4.3                                           |2024/12/07
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -37,6 +37,15 @@
       org.jetbrains.plugins.gitlab (243.21565.204)
     Kotlin: 243.21565.193-IJ
     ```
+  - IntelliJ IDEA 2024.3
+    - Kotlin 2.1.0
+      ```kts
+      plugins {
+        ...
+        kotlin("jvm") version "2.1.0"
+        ...
+      }
+      ```
   - IntelliJ IDEA 2024.2.3
     - Kotlin 2.0.20
       - kotlinOptions Deprecated - https://kotlinlang.org/docs/gradle-compiler-options.html#target-the-jvm
@@ -60,10 +69,9 @@
     - Kotlin 1.9.23
       ```
       plugins {
-        id("org.springframework.boot") version "3.2.0"
-        id("io.spring.dependency-management") version "1.1.3"
+        ...
         kotlin("jvm") version "1.9.23"
-        kotlin("plugin.spring") version "1.8.10"
+        ...
       }
       ```
   - Intellij IDEA 2023.3.4
@@ -124,13 +132,14 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat | 2024.3.1 Canary 3
+  - Android Studio Meerkat | 2024.3.1 Canary 4
     ```
-    Build #AI-243.21565.193.2431.12691553, built on November 21, 2024
+    Build #AI-243.21565.193.2431.12735582, built on December 3, 2024
     Runtime version: 21.0.5+-12651406-b631.16 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
+    Kotlin plugin: K2 mode
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 8
@@ -138,8 +147,8 @@
       ide.experimental.ui=true
       i18n.locale=
     Non-Bundled Plugins:
-      Dart (243.22562.3)
-      io.flutter (82.2.4)
+      Dart (243.23177)
+      io.flutter (83.0.4)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -167,6 +176,11 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Canary 4 対応
+        - Kotlin 2.1.0
+        - Gradle 8.10 -> 8.11.1
+        - Android Gradle Plugin 8.7.2 -> 8.7.3
+        - Android Emulator v35.4.3
       - Meerkat Canary 3 対応
         - Android Baklava (=Android 16) Preview
         - Android Emulator v35.4.2
