@@ -476,6 +476,19 @@
                 ...
               })
               ```
+            - import RouterModule
+              ```js
+              import { Component } from '@angular/core';
+              import { RouterModule } from '@angular/router';
+
+              @Component({
+                imports: [RouterModule],
+                ...
+              })
+              ```
+              - conditions
+                - routerLink
+                - router-outlet
           - Trouble Shooting
             - NG8002: Can’t bind to ‘ngModel’ since it isn’t a known property of ‘input’.
               - FormsModuleをインポートする
