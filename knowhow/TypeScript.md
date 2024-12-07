@@ -36,7 +36,7 @@
       |           |+ Astro 5.0.0-beta.12   |2024/12/02
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
       |           |- React 18.3.1          |2024/05/30
-      |           |Next.js 15.0.1          |2024/10/26
+      |           |Next.js 15.0.1          |[2024/10/26](https://nextjs.org/)
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
@@ -51,6 +51,8 @@
       |           |Svelte 5.5.3            |[2024/12/04](https://svelte.dev/)
       |           |- Bun 1.1.38            |2024/11/29
       |           |- Vite 6.0.2            |2024/12/04
+      |InsiderDev |Node.js 22.11.0         |2024/11/26
+      |           |Angular 19.0.1          |[2024/11/30](https://angular.dev/)
 
 ##  ノウハウ
 ### TypeScript
@@ -408,15 +410,111 @@
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
-      1.  gitでの資産管理
-          - .angular/cache 配下が除外されていないので、.gitignoreを修正する。
+      1.  Angular 19対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |angular-in-memory-web-api|0.19.0
+            |rxjs                     |7.8.1
+            |tslib                    |2.8.1
+            |zone.js                  |0.15.0
+            |@types/jasmine           |5.1.5
+            |jasmine-core             |5.5.0
+            |karma                    |6.4.4
+            |karma-chrome-launcher    |3.2.0
+            |karma-coverage           |2.2.1
+            |karma-jasmine            |5.1.0
+          - [Migration to Standalone](https://angular.dev/reference/migrations/standalone)
             ```
-            /.angular/cache
+            ng generate @angular/core:standalone
             ```
-            ↓
-            ```
-            .angular/cache
-            ```
+          - Additional actions
+            - import FormsModule
+              ```js
+              import { FormsModule } from '@angular/forms';
+
+              @Component({
+                imports: [FormsModule],
+                ...
+              })
+              ```
+              - conditions
+                - ngModel
+                  ```html
+                  <input id="name" name="name" type="text" autocomplete="additional-name" [(ngModel)]="myName" />
+                  ```
+            - import CommonModule
+              ```js
+              import { CommonModule } from '@angular/common';
+              
+              @Component({
+                imports: [CommonModule],
+                ...
+              })
+              ```
+              - conditions
+                - pipe
+                  ```html
+                  <li>{{ary | slice: 3}}</li>
+                  ```
+                - NgClass
+                  ```html
+                  <div [ngClass]="styles">
+                  ```
+                - NgFor
+                  ```html
+                  <tr *ngFor="let b of books">
+                  ```
+                - NgIf
+                - NgPlural
+                - NgStyle
+                - NgSwitch
+                - NgTemplateOutlet
+            - import ReactiveFormsModule
+              ```js
+              import { FormGroup, FormControl,
+                FormBuilder, Validators, 
+                ReactiveFormsModule} from '@angular/forms'
+
+              @Component({
+                imports: [CommonModule, ReactiveFormsModule],
+                ...
+              })
+              ```
+            - import RouterModule
+              ```js
+              import { Component } from '@angular/core';
+              import { RouterModule } from '@angular/router';
+
+              @Component({
+                imports: [RouterModule],
+                ...
+              })
+              ```
+              - conditions
+                - routerLink
+                - router-outlet
+          - Trouble Shooting
+            - NG8002: Can’t bind to ‘ngModel’ since it isn’t a known property of ‘input’.
+              - FormsModuleをインポートする
+                ```js
+                import { FormsModule } from '@angular/forms';
+
+                @Component({
+                  imports: [FormsModule],
+                  ...
+                })
+                ```
+            - NG8004: No pipe found with name ‘...’.
+              - CommonModuleをインポートする
+                ```js
+                import { Component } from '@angular/core';
+                
+                @Component({
+                  imports: [CommonModule],
+                  ...
+                })
+                ```
       1.  Angular 18対応
           - [Update Guide](https://angular.dev/update-guide)
             - プロジェクトのルートで下記を実行する <BR />
