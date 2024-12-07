@@ -29,10 +29,14 @@ Chrome OS Flex                  |IdeaPad
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2415 (Cumulative Update) <span style="color: red;">*<<2024/11/23 updated from Build 26120.2222 >>*</span>
-      ![Cumulative Update](./images/Windows/20241123_WindowsUpdate_DevChannel.png)
+    - Build 26120.2510 (Cumulative Update) <span style="color: red;">*<<2024/12/07 updated from Build 26120.2415 >>*</span>
+      ![Cumulative Update](./images/Windows/20241207_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241123_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241207_Windows11_Build26120.png)
+        - Intel NPU Driver 32.0.100.3104
+          ![Intel AI Boost](./images/Windows/20241207_Intel_NPU_Driver.png)
+        - Intel Copilot+PCへの適用であるため、再起動後、リコールに関する確認あり
+          ![Confirming for Recall](./images/Windows/20241207_Recall.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
