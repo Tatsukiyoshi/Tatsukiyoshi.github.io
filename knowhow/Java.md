@@ -17,7 +17,7 @@
   |           |[Apache Tomcat 10.1.28](#tomcat)                                                |[2024/10/26](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
-  |           |[Jenkins LTS 2.401.3](#jenkins)                                                 |[2023/08/19](https://www.jenkins.io/download/)
+  |           |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
 
 ##  ノウハウ
 ### [Java Platform Support](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
