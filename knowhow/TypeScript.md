@@ -32,13 +32,12 @@
       |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
       |           |- Bun 1.1.22            |2024/08/10
       |           |- Vite 5.4.0            |2024/08/10
-      |           |Astro 4.16.16           |[2024/12/02](https://astro.build/)
-      |           |+ Astro 5.0.0-beta.12   |2024/12/02
+      |           |Astro 5.0.5             |[2024/12/11](https://astro.build/)
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
-      |           |- React 18.3.1          |2024/05/30
+      |           |- React 19.0.0          |2024/12/11
       |           |Next.js 15.0.4          |[2024/12/11](https://nextjs.org/)
       |           |- React 19.0.0          |2024/12/11
-      |           |- Bun 1.1.38            |2024/12/11
+      |           |- Bun 1.1.38            |2024/11/29
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
