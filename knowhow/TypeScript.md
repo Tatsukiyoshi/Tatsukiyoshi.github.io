@@ -49,9 +49,9 @@
       |           |- for Windows 0.76.2    |2024/12/04
       |           |- Windows SDK 10.0.22621|2024/12/04
       |           |- Bun 1.1.38            |2024/11/29
-      |           |Svelte 5.5.3            |[2024/12/04](https://svelte.dev/)
+      |           |Svelte 5.10.1           |[2024/12/11](https://svelte.dev/)
       |           |- Bun 1.1.38            |2024/11/29
-      |           |- Vite 6.0.2            |2024/12/04
+      |           |- Vite 6.0.3            |2024/12/11
       |InsiderDev |Node.js 22.11.0         |2024/11/26
       |           |Angular 19.0.1          |[2024/11/30](https://angular.dev/)
 
