@@ -26,7 +26,7 @@
   1.  Windows
       |端末       |FW                      |最終更新      
       |-----------|------------------------|----------
-      |Windows    |Node.js 20.17.0         |[2024/09/08](https://nodejs.org/en)
+      |Windows    |Node.js 22.12.0         |[2024/12/11](https://nodejs.org/en)
       |           |React 19 RC             |[2024/06/08](https://19.react.dev/)
       |           |- Bun 1.1.12            |2024/05/30
       |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
@@ -36,7 +36,9 @@
       |           |+ Astro 5.0.0-beta.12   |2024/12/02
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
       |           |- React 18.3.1          |2024/05/30
-      |           |Next.js 15.0.1          |[2024/10/26](https://nextjs.org/)
+      |           |Next.js 15.0.4          |[2024/12/11](https://nextjs.org/)
+      |           |- React 19.0.0          |2024/12/11
+      |           |- Bun 1.1.38            |2024/12/11
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
