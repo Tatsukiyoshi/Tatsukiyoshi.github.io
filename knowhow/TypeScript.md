@@ -27,13 +27,10 @@
       |端末       |FW                      |最終更新      
       |-----------|------------------------|----------
       |Windows    |Node.js 22.12.0         |[2024/12/11](https://nodejs.org/en)
-      |           |React 19 RC             |[2024/06/08](https://19.react.dev/)
-      |           |- Bun 1.1.12            |2024/05/30
-      |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
-      |           |- Bun 1.1.22            |2024/08/10
-      |           |- Vite 5.4.0            |2024/08/10
-      |           |Astro 5.0.5             |[2024/12/11](https://astro.build/)
+      |           |React 19.0.0            |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
+      |           |Astro 5.0.5             |[2024/12/11](https://astro.build/)
+      |           |- Bun 1.1.38            |2024/11/29
       |           |- React 19.0.0          |2024/12/11
       |           |Next.js 15.0.4          |[2024/12/11](https://nextjs.org/)
       |           |- React 19.0.0          |2024/12/11
@@ -323,7 +320,38 @@
   - T3 Stack
     - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
   - React
-    - React 19
+    - Web-vitals
+      - 新しいWeb-Vitalsでは、インターフェースが変更になっているため、下記リンクのように変更する必要あり
+        https://stackoverflow.com/questions/78772766/yarn-build-error-ts2305-module-web-vitals-has-no-exported-member-reportha
+    - 'bun update'でエラーとなる場合、ロックファイルを削除して、やり直す必要あり
+      ```sh
+      bun update v1.1.38 (bf2f153f)
+        ⚙️  node-sass [1/6] node:internal/child_process:420
+          throw new ErrnoException(err, 'spawn');
+          ^
+
+      Error: spawn EINVAL
+          at ChildProcess.spawn (node:internal/child_process:420:11)
+          at Object.spawn (node:child_process:753:9)
+          at build (D:\Repository\Weekend_Programming\js\react\practice\4-6\my-app\node_modules\fibers\build.js:62:5)
+          at Object.<anonymous> (D:\Repository\Weekend_Programming\js\react\practice\4-6\my-app\node_modules\fibers\build.js:51:3)
+          at Module._compile (node:internal/modules/cjs/loader:1565:14)
+          at Object..js (node:internal/modules/cjs/loader:1708:10)
+          at Module.load (node:internal/modules/cjs/loader:1318:32)
+          at Function._load (node:internal/modules/cjs/loader:1128:12)
+          at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+          at wrapModuleLoad (node:internal/modules/cjs/loader:219:24) {
+        errno: -4071,
+        code: 'EINVAL',
+        syscall: 'spawn'
+      }
+
+      Node.js v22.12.0
+      bun: command not found: nodejs
+
+      error: install script from "fibers" exited with 1
+      ```
+    - React 19.RC
       - Install
         ```
         npm install react@rc react-dom@rc
