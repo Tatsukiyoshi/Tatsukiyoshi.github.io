@@ -137,7 +137,7 @@ Chrome OS Flex                  |IdeaPad
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
   - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/12/12 updated from Sonoma 15.1.1>>*</span>
+    <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](./images/Mac/20241212_MacOS_Sequoia15.2Update.png)
     - バージョン情報
