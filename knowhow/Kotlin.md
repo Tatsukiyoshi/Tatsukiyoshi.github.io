@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3](#intellij-idea)                                |[2024/11/16](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.1](#intellij-idea)                              |[2024/12/14](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
   |           |[Android Studio Meerkat 2024.3.1 Canary 4](#android-studio)           |[2024/12/07](https://developer.android.com/studio)
@@ -20,10 +20,10 @@
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.3 (Community Edition)
+  - IntelliJ IDEA 2024.3.1 (Community Edition)
     ```
-    Build #IC-243.21565.193, built on November 13, 2024
-    Runtime version: 21.0.5+8-b631.16 amd64 (JCEF 122.1.9)
+    Build #IC-243.22562.145, built on December 9, 2024
+    Runtime version: 21.0.5+8-b631.28 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -33,9 +33,12 @@
     Registry:
       ide.experimental.ui=true
       i18n.locale=
+      llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      org.jetbrains.plugins.gitlab (243.21565.204)
-    Kotlin: 243.21565.193-IJ
+      Dart (243.23177)
+      Lombook Plugin (243.22562.145)
+      org.jetbrains.android (243.22562.145)
+    Kotlin: 243.22562.145-IJ
     ```
   - IntelliJ IDEA 2024.3
     - Kotlin 2.1.0
@@ -110,7 +113,7 @@
   - [Kotlin 2.0.20](https://kotlinlang.org/docs/home.html)
   - Amazon Coretto 22.0.1 + 言語レベル 21
   - Graal VM Java17-22.2.0
-  - [Spring Boot 3.3.4](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/10/07 updated from 3.2.0*</span>
+  - [Spring Boot 3.4.0](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
   - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
     - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
     - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
