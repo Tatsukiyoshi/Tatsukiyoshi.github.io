@@ -140,8 +140,10 @@ Chrome OS Flex                  |IdeaPad
       ![Sequoia 15.2](./images/Mac/20241212_MacOS_Sequoia15.2.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 130.0.6723.126 <span style="color: red;">*<<2024/11/24 installed>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241124_Chrome_OS_Flex_130.0.6723.126.png)
+  - バージョン 131.0.6778.96 <span style="color: red;">*<<2024/12/14 installed>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241214_Chrome_OS_Flex_131.0.6778.96.png)
+      - 更新中
+        ![Updating](./images/Chrome/20241214_Chrome_OS_Flex_Updating131.0.6778.96.png)
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
