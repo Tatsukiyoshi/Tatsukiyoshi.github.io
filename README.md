@@ -3,7 +3,7 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト：（2024/12/2～12/8）](https://note.com/taishow2020/n/n5e41614dce2c) / [一覧](./digest/digestList.md)
+  [最新ダイジェスト：（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87) / [一覧](./digest/digestList.md)
 
 ##  創作物
 **知識を形にする**
