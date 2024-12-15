@@ -3,7 +3,7 @@
 ##  ダイジェスト
 **毎週日曜日に更新**
 
-  [最新ダイジェスト：（2024/12/2～12/8）](https://note.com/taishow2020/n/n5e41614dce2c) / [一覧](./digest/digestList.md)
+  [最新ダイジェスト：（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87) / [一覧](./digest/digestList.md)
 
 ##  創作物
 **知識を形にする**
@@ -29,14 +29,10 @@ Chrome OS Flex                  |IdeaPad
 **独学環境の情報**
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2510 (Cumulative Update) <span style="color: red;">*<<2024/12/07 updated from Build 26120.2415 >>*</span>
-      ![Cumulative Update](./images/Windows/20241207_WindowsUpdate_DevChannel.png)
+    - Build 26120.2702 (Cumulative Update) <span style="color: red;">*<<2024/12/14 updated from Build 26120.2510 >>*</span>
+      ![Cumulative Update](./images/Windows/20241214_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241207_Windows11_Build26120.png)
-        - Intel NPU Driver 32.0.100.3104
-          ![Intel AI Boost](./images/Windows/20241207_Intel_NPU_Driver.png)
-        - Intel Copilot+PCへの適用であるため、再起動後、リコールに関する確認あり
-          ![Confirming for Recall](./images/Windows/20241207_Recall.png)
+        ![Version Information](./images/Windows/20241214_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -136,16 +132,37 @@ Chrome OS Flex                  |IdeaPad
 
         - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.1.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/11/21 updated from Sonoma 15.1>>*</span>
+  - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241121_Sequoia15.1.1Update.png)
+      ![Update Check](./images/Mac/20241212_MacOS_Sequoia15.2Update.png)
     - バージョン情報
-      ![Sequoia 15.1.1](./images/Mac/20241121_Sequoia15.1.1.png)
+      ![Sequoia 15.2](./images/Mac/20241212_MacOS_Sequoia15.2.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 130.0.6723.126 <span style="color: red;">*<<2024/11/24 installed>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241124_Chrome_OS_Flex_130.0.6723.126.png)
+  - バージョン 131.0.6778.96 <span style="color: red;">*<<2024/12/14 installed>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241214_Chrome_OS_Flex_131.0.6778.96.png)
+      - 更新中
+        ![Updating](./images/Chrome/20241214_Chrome_OS_Flex_Updating131.0.6778.96.png)
+      - レンダリング方法の変更に関する通知（131系以降）
+        ```
+        NOTICE:
+          To provide a more stable graphical user experience in Crostini,
+          the GPU-based rendering driver (virgl) has been disabled by default
+          for existing and new environments in ChromeOS version 131 and newer.
+
+          OpenGL and OpenGLES applications will continue to function using a
+          CPU-based rendering driver (swrast).
+
+          If you would like to re-enable GPU-based rendering in an unsupported
+          capacity, you may visit:  chrome://flags#crostini-gpu-support
+          in your Chrome browser and set the flag to "Enabled", then restart
+          your device.
+
+          (this message will be repeated 4 more times).
+          (to silence this message, run the following in this terminal):
+              echo 5 >"/home/taishow2006/.local/share/cros-motd"
+        ```
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 

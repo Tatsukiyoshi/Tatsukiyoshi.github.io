@@ -20,23 +20,21 @@
   
       |ホスト                          |FW              |最終更新      
       |-------------------------------|----------------|----------
-      |[Vercel](https://vercel.com/)  |Next.js 15.0.2  |2024/11/02
-      |                               |Astro 4.16.8    |2024/11/02
+      |[Vercel](https://vercel.com/)  |Next.js 15.1.0  |[2024/12/15](https://next-grid-chart.vercel.app/)
+      |                               |Astro 5.0.5     |[2024/12/15](https://astro-react-grid-chart.vercel.app/)
 
   1.  Windows
       |端末       |FW                      |最終更新      
       |-----------|------------------------|----------
-      |Windows    |Node.js 20.17.0         |[2024/09/08](https://nodejs.org/en)
-      |           |React 19 RC             |[2024/06/08](https://19.react.dev/)
-      |           |- Bun 1.1.12            |2024/05/30
-      |           |React 18.3.1            |[2024/05/30](https://ja.react.dev/)
-      |           |- Bun 1.1.22            |2024/08/10
-      |           |- Vite 5.4.0            |2024/08/10
-      |           |Astro 4.16.16           |[2024/12/02](https://astro.build/)
-      |           |+ Astro 5.0.0-beta.12   |2024/12/02
+      |Windows    |Node.js 22.12.0         |[2024/12/11](https://nodejs.org/en)
+      |           |React 19.0.0            |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
-      |           |- React 18.3.1          |2024/05/30
-      |           |Next.js 15.0.1          |[2024/10/26](https://nextjs.org/)
+      |           |Astro 5.0.5             |[2024/12/11](https://astro.build/)
+      |           |- Bun 1.1.38            |2024/11/29
+      |           |- React 19.0.0          |2024/12/11
+      |           |Next.js 15.0.4          |[2024/12/11](https://nextjs.org/)
+      |           |- React 19.0.0          |2024/12/11
+      |           |- Bun 1.1.38            |2024/11/29
       |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
@@ -48,9 +46,9 @@
       |           |- for Windows 0.76.2    |2024/12/04
       |           |- Windows SDK 10.0.22621|2024/12/04
       |           |- Bun 1.1.38            |2024/11/29
-      |           |Svelte 5.5.3            |[2024/12/04](https://svelte.dev/)
+      |           |Svelte 5.10.1           |[2024/12/11](https://svelte.dev/)
       |           |- Bun 1.1.38            |2024/11/29
-      |           |- Vite 6.0.2            |2024/12/04
+      |           |- Vite 6.0.3            |2024/12/11
       |InsiderDev |Node.js 22.11.0         |2024/11/26
       |           |Angular 19.0.1          |[2024/11/30](https://angular.dev/)
 
@@ -322,7 +320,38 @@
   - T3 Stack
     - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
   - React
-    - React 19
+    - Web-vitals
+      - 新しいWeb-Vitalsでは、インターフェースが変更になっているため、下記リンクのように変更する必要あり
+        https://stackoverflow.com/questions/78772766/yarn-build-error-ts2305-module-web-vitals-has-no-exported-member-reportha
+    - 'bun update'でエラーとなる場合、ロックファイルを削除して、やり直す必要あり
+      ```sh
+      bun update v1.1.38 (bf2f153f)
+        ⚙️  node-sass [1/6] node:internal/child_process:420
+          throw new ErrnoException(err, 'spawn');
+          ^
+
+      Error: spawn EINVAL
+          at ChildProcess.spawn (node:internal/child_process:420:11)
+          at Object.spawn (node:child_process:753:9)
+          at build (D:\Repository\Weekend_Programming\js\react\practice\4-6\my-app\node_modules\fibers\build.js:62:5)
+          at Object.<anonymous> (D:\Repository\Weekend_Programming\js\react\practice\4-6\my-app\node_modules\fibers\build.js:51:3)
+          at Module._compile (node:internal/modules/cjs/loader:1565:14)
+          at Object..js (node:internal/modules/cjs/loader:1708:10)
+          at Module.load (node:internal/modules/cjs/loader:1318:32)
+          at Function._load (node:internal/modules/cjs/loader:1128:12)
+          at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+          at wrapModuleLoad (node:internal/modules/cjs/loader:219:24) {
+        errno: -4071,
+        code: 'EINVAL',
+        syscall: 'spawn'
+      }
+
+      Node.js v22.12.0
+      bun: command not found: nodejs
+
+      error: install script from "fibers" exited with 1
+      ```
+    - React 19.RC
       - Install
         ```
         npm install react@rc react-dom@rc
