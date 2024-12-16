@@ -37,15 +37,15 @@
       |           |Bevy 0.10.1          |2023/04/30
       |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
 
-  1. Chrome OS Flex 130.0.6723.1264(Official Build)
+  1. Chrome OS Flex 131.0.6778.96 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |Chrome OS  |Rust 1.82                                    |2024/11/09
+      |Chrome OS  |Rust 1.83                                    |2024/12/08
       |           |Tauri 1.8.1                                  |2024/11/09
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.1.36                                   |2024/11/24
-      |           |React 18.3.1                                 |2024/05/11
-      |           |Vite 5.4.10                                  |2024/11/09
+      |           |Bun 1.1.38                                   |2024/12/08
+      |           |React 19.0.0                                 |2024/12/08
+      |           |Vite 6.0.3                                  |2024/12/08
       |           |Bevy 0.10.1                                  |2023/04/01
 
   1.  Mac OS Sonoma 15.1
