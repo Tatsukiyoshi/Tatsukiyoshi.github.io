@@ -16,12 +16,12 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.82](#rust-1)                           |[2024/10/19](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3](#rustrover)                 |[2024/11/23](https://www.jetbrains.com/rust/)
+      |Windows    |[Rust 1.83](#rust-1)                           |[2024/12/18](https://www.rust-lang.org/)  
+      |           |[RustRover 2024.3.1](#rustrover)               |[2024/12/18](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://tauri.app/)
-      |           |Svelte 5.2.2                                   |2024/11/17
-      |           |Vite 5.4.11                                    |2024/11/17
-      |           |Bun 1.1.34                                     |[2024/11/17](https://bun.sh/)
+      |           |Svelte 5.14.4                                  |2024/12/18
+      |           |Vite 6.0.3                                     |2024/12/18
+      |           |Bun 1.1.40                                     |[2024/12/18](https://bun.sh/)
       |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
       |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -29,26 +29,24 @@
   1. Ubuntu 24.04.1 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |Windows    |Rust 1.82            |2024/10/19
-      |           |Tauri 2.1.1          |2024/11/17
-      |           |React 18.3.1         |2024/05/04
-      |           |Vite 5.4.11          |2024/11/17
-      |           |Bun 1.1.35-canary.66 |2024/11/17
-      |           |Bevy 0.10.1          |2023/04/30
-      |           |wasmtime 20.0.1      |[2024/05/06](https://wasmtime.dev/)
+      |InsiderDev |Rust 1.83            |2024/12/18
+      |           |Tauri 2.1.1          |2024/12/18
+      |           |React 19.0.0         |2024/12/18
+      |           |Vite 6.0.3           |2024/12/18
+      |           |Bun 1.1.40           |2024/12/18
 
-  1. Chrome OS Flex 130.0.6723.1264(Official Build)
+  1. Chrome OS Flex 131.0.6778.96 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |Chrome OS  |Rust 1.82                                    |2024/11/09
+      |Chrome OS  |Rust 1.83                                    |2024/12/08
       |           |Tauri 1.8.1                                  |2024/11/09
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.1.36                                   |2024/11/24
-      |           |React 18.3.1                                 |2024/05/11
-      |           |Vite 5.4.10                                  |2024/11/09
+      |           |Bun 1.1.38                                   |2024/12/08
+      |           |React 19.0.0                                 |2024/12/08
+      |           |Vite 6.0.3                                   |2024/12/08
       |           |Bevy 0.10.1                                  |2023/04/01
 
-  1.  Mac OS Sonoma 15.1
+  1.  Mac OS Sequoia 15.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.82            |2024/10/19
@@ -121,14 +119,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3 Build #RR-243.21565.245 <span style="color: red;">**Updated 2024/11/23**</span>
+  - RustRover 2024.3.1 Build #RR-243.22562.187 <span style="color: red;">**Updated 2024/12/18**</span>
     ```
-    RustRover 2024.3
-    Build #RR-243.21565.245, built on November 21, 2024
+    RustRover 2024.3.1
+    Build #RR-243.22562.187, built on December 12, 2024
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial use only.
-    Runtime version: 21.0.5+8-b631.16 amd64 (JCEF 122.1.9)
+    Runtime version: 21.0.5+8-b631.28 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -139,9 +137,10 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      org.toml.json.schema=false
       transferSettings.vscode.onlyCargoToml=true
+      org.toml.json.schema=false
+      terminal.new.ui.show.promotion=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (243.21565.122)
       ru.adelf.idea.dotenv (2024.3)

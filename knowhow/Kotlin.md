@@ -10,19 +10,19 @@
 ##  環境
   |端末       |環境／FW                                                               |最終更新      
   |-----------|----------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.1](#intellij-idea)                              |[2024/12/14](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.1.1](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.1 Canary 5](#android-studio)           |[2024/12/14](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.1 Canary 6](#android-studio)           |[2024/12/19](https://developer.android.com/studio)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                                 |2024/12/14
   |           |- Android Emulator v.35.4.4                                           |2024/12/14
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.3.1 (Community Edition)
+  - IntelliJ IDEA 2024.3.1.1 (Community Edition)
     ```
-    Build #IC-243.22562.145, built on December 9, 2024
+    Build #IC-243.22562.218, built on December 18, 2024
     Runtime version: 21.0.5+8-b631.28 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -36,9 +36,9 @@
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
       Dart (243.23177)
-      Lombook Plugin (243.22562.145)
-      org.jetbrains.android (243.22562.145)
-    Kotlin: 243.22562.145-IJ
+      Lombook Plugin (243.22562.218)
+      org.jetbrains.android (243.22562.218)
+    Kotlin: 243.22562.218-IJ
     ```
   - IntelliJ IDEA 2024.3
     - Kotlin 2.1.0
@@ -135,10 +135,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat | 2024.3.1 Canary 5
+  - Android Studio Meerkat | 2024.3.1 Canary 6
     ```
-    Build #AI-243.21565.193.2431.12752199, built on December 5, 2024
-    Runtime version: 21.0.5+-12651406-b631.16 amd64
+    Build #AI-243.22562.145.2431.12789491, built on December 12, 2024
+    Runtime version: 21.0.5+-12771278-b631.28 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
