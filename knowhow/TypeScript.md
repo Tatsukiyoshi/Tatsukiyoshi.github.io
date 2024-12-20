@@ -50,7 +50,7 @@
       |           |- Bun 1.1.38            |2024/11/29
       |           |- Vite 6.0.3            |2024/12/11
       |InsiderDev |Node.js 22.12.0         |2024/12/14
-      |           |Angular 19.0.4          |[2024/12/14](https://angular.dev/)
+      |           |Angular 19.0.5          |[2024/12/19](https://angular.dev/)
 
 ##  ノウハウ
 ### TypeScript
