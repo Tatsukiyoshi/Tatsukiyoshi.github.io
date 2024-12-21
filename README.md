@@ -97,46 +97,7 @@ Chrome OS Flex                  |IdeaPad
         ```
         </details>
 
-  1.  Windows
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/23 re-installed>>*</span>
-
-        <details>
-        <summary>カーネル バージョン: 5.15.167.4-1</summary>
-
-        ```
-        WSL バージョン: 2.3.26.0
-        カーネル バージョン: 5.15.167.4-1
-        WSLg バージョン: 1.0.65
-        MSRDC バージョン: 1.2.5620
-        Direct3D バージョン: 1.611.1-81528511
-        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26100.2314
-        ```
-        </details>
-
-      - Ubuntu 24.04.1 <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
-
-        <details>
-        <summary>ディストリビューション・バージョン情報</summary>
-
-        ```
-        PRETTY_NAME="Ubuntu 24.04.1 LTS"
-        NAME="Ubuntu"
-        VERSION_ID="24.04"
-        VERSION="24.04.1 LTS (Noble Numbat)"
-        VERSION_CODENAME=noble
-        ID=ubuntu
-        ID_LIKE=debian
-        HOME_URL="https://www.ubuntu.com/"
-        SUPPORT_URL="https://help.ubuntu.com/"
-        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-        UBUNTU_CODENAME=noble
-        LOGO=ubuntu-logo
-        ```
-        </details>
-
-        - [履歴](./history/Wsl.md)
+      - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
   - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
