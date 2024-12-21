@@ -169,7 +169,11 @@ Chrome OS Flex                  |IdeaPad
 
 ## ツール
 **OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.96](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/12 updated from 1.95.3>>*</span>
+- [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
+  - GitHub Copilot
+    - 表示メニューから選択するとサイドパネルにCopilotが出現する
+      ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
+      ![AI Chat](./images/VisualStudioCode/20241220_GitHub_Copilot_Free.png)
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -287,6 +291,9 @@ Chrome OS Flex                  |IdeaPad
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
+- GitHub
+  - GitHub Copilot Free
+    ![GitHub Copilot Free](./images/20241220_GitHub_Copilot_Free.png)
 - Git
   - ユーザ設定
     ```
