@@ -1,17 +1,23 @@
 # トップページ
 
 ##  ダイジェスト
-**毎週日曜日に更新**
-
+```
+毎週日曜日に更新
+```
   [最新ダイジェスト：（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87) / [一覧](./digest/digestList.md)
 
 ##  創作物
-**知識を形にする**
+```
+知識を形にする
+```
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
 ##  環境
+```
+独学環境の情報
+```
 OS                              |端末
 --------------------------------|---------
 InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
@@ -20,13 +26,12 @@ Windows on Arm                  |OmniBook X
 Mac OS                          |MacBook Air
 Chrome OS Flex                  |IdeaPad
 
-### 移行計画
+- 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
 
-##  OS
-**独学環境の情報**
+### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
@@ -167,8 +172,10 @@ Chrome OS Flex                  |IdeaPad
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-## ツール
-**OS/言語を問わず利用するツールの情報**
+### ツール
+```
+OS/言語を問わず利用するツールの情報
+```
 - [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
   - GitHub Copilot
     - 表示メニューから選択するとサイドパネルにCopilotが出現する
@@ -200,11 +207,14 @@ Chrome OS Flex                  |IdeaPad
 - [CocoaPods 1.16.1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/31 Updated from 1.15.2_1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-##  サービス
+### サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-#  プログラミング言語
-**独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積**
+##  ノウハウ
+### プログラミング言語
+```
+独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
+```
 - 言語共通
   - [Database & SQL](./knowhow/Database.md)
   - [Documentation](./knowhow/Documentation.md)
@@ -224,8 +234,10 @@ Chrome OS Flex                  |IdeaPad
 - [LLVM](./knowhow/Others.md#llvm)
 - [Unity](./knowhow/Unity.md)
 
-# ノウハウ
-**OSやツールのノウハウは、以下を参照**
+### OS／ツール
+```
+OSやツールのノウハウは、以下を参照
+```
 - Windows
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
