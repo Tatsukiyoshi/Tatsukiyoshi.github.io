@@ -1,17 +1,23 @@
 # トップページ
 
 ##  ダイジェスト
-**毎週日曜日に更新**
-
-  [最新ダイジェスト：（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87) / [一覧](./digest/digestList.md)
+```
+毎週日曜日に更新
+```
+  [最新ダイジェスト：（2024/12/16～12/22）](https://zenn.dev/tatsukiyoshi/articles/137b5f277afb88) / [一覧](./digest/digestList.md)
 
 ##  創作物
-**知識を形にする**
+```
+知識を形にする
+```
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
 ##  環境
+```
+独学環境の情報
+```
 OS                              |端末
 --------------------------------|---------
 InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
@@ -20,19 +26,18 @@ Windows on Arm                  |OmniBook X
 Mac OS                          |MacBook Air
 Chrome OS Flex                  |IdeaPad
 
-### 移行計画
+- 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
 
-##  OS
-**独学環境の情報**
+### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2702 (Cumulative Update) <span style="color: red;">*<<2024/12/14 updated from Build 26120.2510 >>*</span>
-      ![Cumulative Update](./images/Windows/20241214_WindowsUpdate_DevChannel.png)
+    - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
+      ![Cumulative Update](./images/Windows/20241219_WindowsUpdate_DevChannel.png)
       - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241214_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20241219_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -54,19 +59,20 @@ Chrome OS Flex                  |IdeaPad
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.4.4.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/21 updated from 2.3.26>>*</span>
+      - [WSL 2.4.8.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/12/19 updated from 2.4.4.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.4.4.0
+        WSL バージョン: 2.4.8.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
-        MSRDC バージョン: 1.2.5620
+        MSRDC バージョン: 1.2.5716
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.2222
+        Windows バージョン: 10.0.26120.2705
+        ```
         </details>
 
       - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
@@ -91,46 +97,7 @@ Chrome OS Flex                  |IdeaPad
         ```
         </details>
 
-  1.  Windows
-      - [WSL 2.3.26.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/11/23 re-installed>>*</span>
-
-        <details>
-        <summary>カーネル バージョン: 5.15.167.4-1</summary>
-
-        ```
-        WSL バージョン: 2.3.26.0
-        カーネル バージョン: 5.15.167.4-1
-        WSLg バージョン: 1.0.65
-        MSRDC バージョン: 1.2.5620
-        Direct3D バージョン: 1.611.1-81528511
-        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26100.2314
-        ```
-        </details>
-
-      - Ubuntu 24.04.1 <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
-
-        <details>
-        <summary>ディストリビューション・バージョン情報</summary>
-
-        ```
-        PRETTY_NAME="Ubuntu 24.04.1 LTS"
-        NAME="Ubuntu"
-        VERSION_ID="24.04"
-        VERSION="24.04.1 LTS (Noble Numbat)"
-        VERSION_CODENAME=noble
-        ID=ubuntu
-        ID_LIKE=debian
-        HOME_URL="https://www.ubuntu.com/"
-        SUPPORT_URL="https://help.ubuntu.com/"
-        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-        UBUNTU_CODENAME=noble
-        LOGO=ubuntu-logo
-        ```
-        </details>
-
-        - [履歴](./history/Wsl.md)
+      - [履歴](./history/Wsl.md)
 - [Mac OS](https://www.apple.com/jp/macos/)
   - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
@@ -166,9 +133,15 @@ Chrome OS Flex                  |IdeaPad
   - [履歴](./history/Chrome.md)
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-## ツール
-**OS/言語を問わず利用するツールの情報**
-- [Visual Studio Code 1.96](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/12 updated from 1.95.3>>*</span>
+### ツール
+```
+OS/言語を問わず利用するツールの情報
+```
+- [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
+  - GitHub Copilot
+    - 表示メニューから選択するとサイドパネルにCopilotが出現する
+      ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
+      ![AI Chat](./images/VisualStudioCode/20241220_GitHub_Copilot_Free.png)
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -195,11 +168,14 @@ Chrome OS Flex                  |IdeaPad
 - [CocoaPods 1.16.1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/31 Updated from 1.15.2_1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-##  サービス
+### サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-#  プログラミング言語
-**独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積**
+##  ノウハウ
+### プログラミング言語
+```
+独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
+```
 - 言語共通
   - [Database & SQL](./knowhow/Database.md)
   - [Documentation](./knowhow/Documentation.md)
@@ -219,8 +195,10 @@ Chrome OS Flex                  |IdeaPad
 - [LLVM](./knowhow/Others.md#llvm)
 - [Unity](./knowhow/Unity.md)
 
-# ノウハウ
-**OSやツールのノウハウは、以下を参照**
+### OS／ツール
+```
+OSやツールのノウハウは、以下を参照
+```
 - Windows
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
@@ -286,6 +264,9 @@ Chrome OS Flex                  |IdeaPad
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
+- GitHub
+  - GitHub Copilot Free
+    ![GitHub Copilot Free](./images/20241220_GitHub_Copilot_Free.png)
 - Git
   - ユーザ設定
     ```
