@@ -119,7 +119,7 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3.2 Build #RR-243.22562.230 <span style="color: red;">**Updated 2024/12/18**</span>
+  - RustRover 2024.3.2 Build #RR-243.22562.230 <span style="color: red;">**Updated 2024/12/22**</span>
     ```
     RustRover 2024.3.2
     Build #RR-243.22562.230, built on December 19, 2024
