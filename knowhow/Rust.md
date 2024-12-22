@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.83](#rust-1)                           |[2024/12/18](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3.1](#rustrover)               |[2024/12/18](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.3.2](#rustrover)               |[2024/12/22](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://tauri.app/)
       |           |Svelte 5.14.4                                  |2024/12/18
       |           |Vite 6.0.3                                     |2024/12/18
@@ -119,10 +119,10 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3.1 Build #RR-243.22562.187 <span style="color: red;">**Updated 2024/12/18**</span>
+  - RustRover 2024.3.2 Build #RR-243.22562.230 <span style="color: red;">**Updated 2024/12/18**</span>
     ```
-    RustRover 2024.3.1
-    Build #RR-243.22562.187, built on December 12, 2024
+    RustRover 2024.3.2
+    Build #RR-243.22562.230, built on December 19, 2024
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial use only.
@@ -137,10 +137,10 @@
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
       i18n.locale=
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      terminal.new.ui.show.promotion=false
       transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
-      terminal.new.ui.show.promotion=false
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (243.21565.122)
       ru.adelf.idea.dotenv (2024.3)
