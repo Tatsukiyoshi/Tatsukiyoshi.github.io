@@ -6,9 +6,9 @@
   |[動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366) |2023/12/23|Chapter 4 Firebaseとの連携 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/flutter/introduction)
 
 ##  コンテンツ
-  |コンテンツ                                                                         |日付     |進捗状況
-  |----------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/05/19|第27回 FlutterのCanvasを使ってみよう！ 基本的な使い方から簡単なチャート作成まで解説<span style="color: red;">*finished*</span>
+  |コンテンツ                                                                        |日付     |進捗状況
+  |--------------------------------------------------------------------------------|---------|---
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
 
 ##  環境
   |端末       |環境／FW                                                                  |最終更新
@@ -16,6 +16,7 @@
   |InsiderDev |Flutter 3.27.1                                                           |[2024/12/23](https://docs.flutter.dev/get-started/install)
   |           |[Android Studio Meerkat 2024.3.1 Canary 7](./Kotlin.md#android-studio)   |2024/12/24
   |           |[Visual Studio Community 2022 17.13.0 Preview 2.1](./NET.md)             |2024/12/22
+  |Mac OS     |Flutter 3.27.1                                                           |2024/12/29
 
 ##  ノウハウ
   - flutter dev
@@ -93,6 +94,8 @@
       ```xml
       <uses-permission android:name="android.permission.INTERNET"/>
       ```
+    - iOS Simulator on Mac OS
+      ![iOS Simulator](../images/flutter/20241229_iOS_Simulator.png)
   - flutter 3.24.3 / Android Studio Ladybug
     - Java 21
     - Gradle 8.10
