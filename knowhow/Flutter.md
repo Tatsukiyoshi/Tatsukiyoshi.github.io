@@ -86,7 +86,7 @@
     </details>
 
     <details>
-    <summary>InsiderDev</summary>
+    <summary>Mac OS</summary>
 
     ```
     [!] Flutter (Channel stable, 3.27.1, on macOS 15.2 24C101 darwin-arm64, locale ja-JP)
