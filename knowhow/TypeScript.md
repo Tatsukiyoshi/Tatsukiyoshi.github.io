@@ -20,8 +20,8 @@
   
       |ホスト                          |FW              |最終更新      
       |-------------------------------|----------------|----------
-      |[Vercel](https://vercel.com/)  |Next.js 15.1.0  |[2024/12/15](https://next-grid-chart.vercel.app/)
-      |                               |Astro 5.0.5     |[2024/12/15](https://astro-react-grid-chart.vercel.app/)
+      |[Vercel](https://vercel.com/)  |Next.js 15.1.3  |[2024/12/28](https://next-grid-chart.vercel.app/)
+      |                               |Astro 5.1.1     |[2024/12/28](https://astro-react-grid-chart.vercel.app/)
 
   1.  Windows
       |端末       |FW                      |最終更新      

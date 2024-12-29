@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-  [最新ダイジェスト：（2024/12/16～12/22）](https://zenn.dev/tatsukiyoshi/articles/137b5f277afb88) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2024/12/23～12/29）](https://zenn.dev/tatsukiyoshi/articles/44b52a73607999) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -107,10 +107,10 @@ Chrome OS Flex                  |IdeaPad
       ![Sequoia 15.2](./images/Mac/20241212_MacOS_Sequoia15.2.png)
   - [履歴](./history/Mac.md)
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 131.0.6778.96 <span style="color: red;">*<<2024/12/14 installed>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241214_Chrome_OS_Flex_131.0.6778.96.png)
+  - バージョン 131.0.6778.214 <span style="color: red;">*<<2024/12/28 updated from 131.0.6778.96>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20241228_Chrome_OS_Flex_131.0.6778.214.png)
       - 更新中
-        ![Updating](./images/Chrome/20241214_Chrome_OS_Flex_Updating131.0.6778.96.png)
+        ![Updating](./images/Chrome/20241228_Chrome_OS_Flex_Updating131.0.6778.214.png)
       - レンダリング方法の変更に関する通知（131系以降）
         ```
         NOTICE:
