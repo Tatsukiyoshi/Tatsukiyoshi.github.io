@@ -85,6 +85,60 @@
     ```
     </details>
 
+    <details>
+    <summary>InsiderDev</summary>
+
+    ```
+    [!] Flutter (Channel stable, 3.27.1, on macOS 15.2 24C101 darwin-arm64, locale ja-JP)
+        • Flutter version 3.27.1 on channel stable at /Users/taishow2024/src/flutter
+        ! Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git is not a standard remote.
+          Set environment variable "FLUTTER_GIT_URL" to https://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:x-oauth-basic@github.com/flutter/flutter.git to
+          dismiss this error.
+        • Framework revision 17025dd882 (13 days ago), 2024-12-17 03:23:09 +0900
+        • Engine revision cb4b5fff73
+        • Dart version 3.6.0
+        • DevTools version 2.40.2
+        • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and
+          upgrades.
+
+    [✗] Android toolchain - develop for Android devices
+        ✗ Unable to locate Android SDK.
+          Install Android Studio from: https://developer.android.com/studio/index.html
+          On first launch it will assist you in installing the Android SDK components.
+          (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+          If the Android SDK has been installed to a custom location, please use
+          `flutter config --android-sdk` to update to that location.
+
+
+    [✓] Xcode - develop for iOS and macOS (Xcode 16.1)
+        • Xcode at /Applications/Xcode.app/Contents/Developer
+        • Build 16B40
+        • CocoaPods version 1.16.1
+
+    [✓] Chrome - develop for the web
+        • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+    [!] Android Studio (not installed)
+        • Android Studio not found; download from https://developer.android.com/studio/index.html
+          (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+
+    [✓] VS Code (version 1.96.2)
+        • VS Code at /Applications/Visual Studio Code.app/Contents
+        • Flutter extension version 3.102.0
+
+    [✓] Connected device (4 available)
+        • iPhone 16 Pro (mobile)          • 17212119-2285-4ED4-80BC-E40A2F42FEF3 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-18-1 (simulator)
+        • macOS (desktop)                 • macos                                • darwin-arm64   • macOS 15.2 24C101 darwin-arm64
+        • Mac Designed for iPad (desktop) • mac-designed-for-ipad                • darwin         • macOS 15.2 24C101 darwin-arm64
+        • Chrome (web)                    • chrome                               • web-javascript • Google Chrome 131.0.6778.205
+
+    [✓] Network resources
+        • All expected network resources are available.
+
+    ! Doctor found issues in 3 categories.
+    ```
+    </details>
+
   - flutterの更新
     ```
     flutter upgrade
