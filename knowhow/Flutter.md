@@ -17,6 +17,10 @@
   |           |[Android Studio Meerkat 2024.3.1 Canary 7](./Kotlin.md#android-studio)   |2024/12/24
   |           |[Visual Studio Community 2022 17.13.0 Preview 2.1](./NET.md)             |2024/12/22
   |Mac OS     |Flutter 3.27.1                                                           |2024/12/29
+  |Chrome OS Flex |Flutter 3.27.1                                                |2025/01/02
+  |                           |Debian clang 14.0.6|2025/01/02
+  |                           |cmake 3.25.1|2025/01/02
+  |                           |ninja 1.11.1|2025/01/02
 
 ##  ノウハウ
   - flutter dev
@@ -139,14 +143,66 @@
     ```
     </details>
 
+    <details>
+    <summary>Chrome OS Flex</summary>
+
+    ```
+    [✓] Flutter (Channel stable, 3.27.1, on Debian GNU/Linux 12 (bookworm) 6.6.54-05528-gdd4efe62d86b, locale en_US.UTF-8)
+        • Flutter version 3.27.1 on channel stable at /home/taishow2006/src/flutter
+        • Upstream repository https://github.com/flutter/flutter.git
+        • Framework revision 17025dd882 (2 weeks ago), 2024-12-17 03:23:09 +0900
+        • Engine revision cb4b5fff73
+        • Dart version 3.6.0
+        • DevTools version 2.40.2
+
+    [✗] Android toolchain - develop for Android devices
+        ✗ Unable to locate Android SDK.
+          Install Android Studio from: https://developer.android.com/studio/index.html
+          On first launch it will assist you in installing the Android SDK components.
+          (or visit https://flutter.dev/to/linux-android-setup for detailed instructions).
+          If the Android SDK has been installed to a custom location, please use
+          `flutter config --android-sdk` to update to that location.
+
+
+    [✗] Chrome - develop for the web (Cannot find Chrome executable at google-chrome)
+        ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+    [✓] Linux toolchain - develop for Linux desktop
+        • Debian clang version 14.0.6
+        • cmake version 3.25.1
+        • ninja version 1.11.1
+        • pkg-config version 1.8.1
+
+    [!] Android Studio (not installed)
+        • Android Studio not found; download from https://developer.android.com/studio/index.html
+          (or visit https://flutter.dev/to/linux-android-setup for detailed instructions).
+
+    [✓] VS Code (version 1.96.2)
+        • VS Code at /usr/share/code
+        • Flutter extension version 3.102.0
+
+    [✓] Connected device (1 available)
+        • Linux (desktop) • linux • linux-x64 • Debian GNU/Linux 12 (bookworm) 6.6.54-05528-gdd4efe62d86b
+
+    [✓] Network resources
+        • All expected network resources are available.
+
+    ! Doctor found issues in 3 categories.
+    ```
+    </details>
   - flutterの更新
     ```
     flutter upgrade
     ```
-  - flutter 3.27.1 / Android Studio Meerkat 2024.3.1 Canary 6
-    - AndroidManifest.xml に下記追加
-      ```xml
-      <uses-permission android:name="android.permission.INTERNET"/>
+  - flutter 3.27.1
+    - Android Studio Meerkat 2024.3.1 Canary 6
+      - AndroidManifest.xml に下記追加
+        ```xml
+        <uses-permission android:name="android.permission.INTERNET"/>
+        ```
+    - Chrome OS Flex
+      ```
+      sudo apt install clang cmake ninja-build
       ```
     - iOS Simulator on Mac OS
       ![iOS Simulator](../images/flutter/20241229_iOS_Simulator.png)
