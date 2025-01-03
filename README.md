@@ -263,7 +263,10 @@ OSやツールのノウハウは、以下を参照
   - トラブルシューティング
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
-      - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
+      - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
+- Ubuntu
+  - ISOイメージを作成する
+    [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/20241220_GitHub_Copilot_Free.png)
