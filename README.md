@@ -18,19 +18,20 @@
 ```
 独学環境の情報
 ```
-OS                              |端末
---------------------------------|---------
-InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
-Windows                         |Mini-S12
-Windows on Arm                  |OmniBook X
-Mac OS                          |MacBook Air
-Chrome OS Flex                  |IdeaPad
+OS                          |端末
+----------------------------|---------
+InsiderDev(Windows Insider) |OmniBook Ultra Flip
+Windows                     |Mini-S12
+Windows on Arm              |OmniBook X
+Mac OS                      |MacBook Air
+Chrome OS Flex              |IdeaPad
+Ubuntu Desktop              |TransBook
 
 - 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
-  - ( ) Ubuntu Desktop環境を構築
+  - (v) Ubuntu Desktop環境を構築
 
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
@@ -136,6 +137,7 @@ Chrome OS Flex                  |IdeaPad
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/04 installed>>*</span>
+  ![Version Information](./images/Ubuntu/20250104_Ubuntu24.04.1.png)
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
