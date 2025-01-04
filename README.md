@@ -18,18 +18,20 @@
 ```
 独学環境の情報
 ```
-OS                              |端末
---------------------------------|---------
-InsiderDev<BR>(Windows Insider) |OmniBook Ultra Flip
-Windows                         |Mini-S12
-Windows on Arm                  |OmniBook X
-Mac OS                          |MacBook Air
-Chrome OS Flex                  |IdeaPad
+OS                          |端末
+----------------------------|---------
+InsiderDev(Windows Insider) |OmniBook Ultra Flip
+Windows                     |Mini-S12
+Windows on Arm              |OmniBook X
+Mac OS                      |MacBook Air
+Chrome OS Flex              |IdeaPad
+Ubuntu Desktop              |TransBook
 
 - 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
+  - (v) Ubuntu Desktop環境を構築
 
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
@@ -98,6 +100,7 @@ Chrome OS Flex                  |IdeaPad
         </details>
 
       - [履歴](./history/Wsl.md)
+
 - [Mac OS](https://www.apple.com/jp/macos/)
   - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
@@ -106,6 +109,7 @@ Chrome OS Flex                  |IdeaPad
     - バージョン情報
       ![Sequoia 15.2](./images/Mac/20241212_MacOS_Sequoia15.2.png)
   - [履歴](./history/Mac.md)
+
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - バージョン 131.0.6778.214 <span style="color: red;">*<<2024/12/28 updated from 131.0.6778.96>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20241228_Chrome_OS_Flex_131.0.6778.214.png)
@@ -131,6 +135,32 @@ Chrome OS Flex                  |IdeaPad
               echo 5 >"/home/taishow2006/.local/share/cros-motd"
         ```
   - [履歴](./history/Chrome.md)
+
+- [Ubuntu Desktop 24.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/04 installed>>*</span>
+  ![Setup](./images/Ubuntu/20250103_Ubuntu24.04.1_Setup.png)
+  ![Setuped](./images/Ubuntu/20250103_Ubuntu24.04.1_Setuped.png)
+  ![Version Information](./images/Ubuntu/20250104_Ubuntu24.04.1.png)
+
+  <details>
+  <summary>ディストリビューション・バージョン情報</summary>
+
+  ```
+  PRETTY_NAME="Ubuntu 24.04.1 LTS"
+  NAME="Ubuntu"
+  VERSION_ID="24.04"
+  VERSION="24.04.1 LTS (Noble Numbat)"
+  VERSION_CODENAME=noble
+  ID=ubuntu
+  ID_LIKE=debian
+  HOME_URL="https://www.ubuntu.com/"
+  SUPPORT_URL="https://help.ubuntu.com/"
+  BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+  PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+  UBUNTU_CODENAME=noble
+  LOGO=ubuntu-logo
+  ```
+  </details>
+
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
 ### ツール
@@ -263,7 +293,12 @@ OSやツールのノウハウは、以下を参照
   - トラブルシューティング
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
-      - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。 
+      - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
+- Ubuntu
+  - ISOイメージを作成する
+    [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
+  - スクリーンショット
+    既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/20241220_GitHub_Copilot_Free.png)
