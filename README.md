@@ -137,6 +137,8 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/04 installed>>*</span>
+  ![Setup](./images/Ubuntu/20250103_Ubuntu24.04.1_Setup.png)
+  ![Setuped](./images/Ubuntu/20250103_Ubuntu24.04.1_Setuped.png)
   ![Version Information](./images/Ubuntu/20250104_Ubuntu24.04.1.png)
 
   <details>
@@ -295,6 +297,8 @@ OSやツールのノウハウは、以下を参照
 - Ubuntu
   - ISOイメージを作成する
     [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
+  - スクリーンショット
+    既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/20241220_GitHub_Copilot_Free.png)
