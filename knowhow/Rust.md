@@ -23,7 +23,7 @@
       |           |Vite 6.0.3                                     |2024/12/18
       |           |Bun 1.1.40                                     |[2024/12/18](https://bun.sh/)
       |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
-      |           |[Dioxus 0.5.1](#dioxuscross-platform-library)  |[2024/04/30](https://dioxuslabs.com/)
+      |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
 
   1. Ubuntu 24.04.1 on Windows 11
@@ -1517,6 +1517,24 @@
     ```
   ### Dioxus(Cross Platform Library)
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
+  - V0.6.1
+    ```
+    cargo install dioxus-cli --version 0.6.1 --force
+    ```
+    - dioxus-cliを更新する際、Cmakeが見つからないらしく、cmakeの配置先をPATHに追加
+      ```
+      C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin
+      ```
+      - tauriなどで問題とならないため、dioxusの問題という認識
+    - WASMのフォーマットが異なるらしく、wasm-bidgen を 0.2.92 -> 0.2.99に更新
+      ```
+      cargo install -f wasm-bindgen-cli --version 0.2.99
+      ```
+    - サーバ起動
+      ```
+      dx serve
+      ```
+      ![dx serve](../images/rust/20241231_dioxus_0.6.1_dx_serve.png)
   - CLIツール
     ```
     cargo install dioxus-cli --force

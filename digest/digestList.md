@@ -1,6 +1,7 @@
 # ダイジェスト
 - 2024年
   - 12月
+    - [第５週（2024/12/30～2025/01/04）](https://zenn.dev/tatsukiyoshi/articles/f6ecbca2728202)
     - [第４週（2024/12/23～12/29）](https://zenn.dev/tatsukiyoshi/articles/44b52a73607999)
     - [第３週（2024/12/16～12/22）](https://zenn.dev/tatsukiyoshi/articles/137b5f277afb88)
     - [第２週（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87)

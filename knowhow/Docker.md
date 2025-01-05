@@ -1,6 +1,17 @@
 # Docker
 
+  |端末      |環境／FW                                              |最終更新
+  |----------|-----------------------------------------------------|----------
+  |InsiderDev|Rancher Desktop 1.16                                 |[2025/01/04](https://rancherdesktop.io/)
+
 ##  ノウハウ
+- [Rancher Desktop](https://rancherdesktop.io/)
+  - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
+  - MySQL公式イメージでコンテナ化
+    ```
+    docker pull mysql
+    docker run --name InsiderDev_MySQL -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:latest
+    ```
 - [Windows 11にDocker Desktopを入れる手順（令和5年最新版）](https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3)
   - Windows 11にWSLをセットアップして、Docker DesktopをLinux＋Windowsのコンテナ切り換えを可能にする
     1.  Hyper-Vを有効化する

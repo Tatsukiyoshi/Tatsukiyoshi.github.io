@@ -4,13 +4,14 @@
 
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
-  |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
+  |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |          |- SQL Server Management Studio 20.2.30               |2024/08/24
-  |          |[PostgreSQL 17.0](#postgresql)                       |[2024/09/27](https://www.postgresql.org/download/windows/)
+  |          |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |          |MongoDB 8.0.1                                        |2024/10/19
   |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |          |MySQL Community Server 8.4.2                         |2024/08/24
-  |InsiderDev|PostgreSQL 17.1                                      |2024/11/16
+  |InsiderDev|PostgreSQL 17.2                                      |2024/12/31
+  |          |MySQL Community Server 9.1.0                         |2025/01/04
 
 ##  ノウハウ
 ### データベース全般
@@ -79,6 +80,7 @@
   - PgAdmin対応表
     PostgreSQL | PgAdmin4
     -----------|-----------
+    17.2       | 8.14
     17.0       | 8.12
     16.4       | 8.10
     16.1       | 7.8
@@ -118,6 +120,10 @@
       ```
   - [PHP + Apache + PostgreSQL](./Php.md#postgresql)
 ### MySQL
+  - Dumpをロードするには、local_infileをONにしておく必要あり
+    ```
+    SET GLOBAL local_infile = ON;
+    ```
   - MySQL Community Server 8.4.2 (LTS)
     - Oracleプロファイル作成のうえ、ダウンロード
     - インストールすると、MySQL Configuratorで設定する
