@@ -5,8 +5,8 @@
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
   |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |          |- SQL Server Management Studio 21.0.73 Preview 2.1   |2025/01/05
-  |          |- SQL Server Management Studio 20.2.30               |2024/08/24
+  |          |- SQL Server Management Studio 21.0.73 Preview 2.1   |[2025/01/05](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |          |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
   |          |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |          |MongoDB 8.0.1                                        |2024/10/19
   |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
@@ -84,7 +84,7 @@
         Microsoft .NET Framework						4.0.30319.42000
         オペレーティング システム						10.0.26100
         ```
-    - [SSMS 20.2.3](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+    - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
     - サーバ認証について、Windows認証モードとSQL Server認証モードが選択されているかを確認する
