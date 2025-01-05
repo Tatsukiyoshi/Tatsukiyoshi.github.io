@@ -5,6 +5,7 @@
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
   |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |          |- SQL Server Management Studio 21.0.73 Preview 2.1   |2025/01/05
   |          |- SQL Server Management Studio 20.2.30               |2024/08/24
   |          |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |          |MongoDB 8.0.1                                        |2024/10/19
@@ -68,13 +69,26 @@
     ```
   - [データベース ユーザーの作成](https://learn.microsoft.com/ja-jp/sql/relational-databases/security/authentication-access/create-a-database-user?view=sql-server-ver16)
     - admin/sqlsuper
+  - SSMS(SQL Server Management Studio)
+    - アップデート後の初回起動時に旧バージョンから設定をインポートできる
+    - SSMS 21.0.73 Preview 2.1
+      - 64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
+        ![SSMS21 Preview 2.1](../images/Database/20250105_SSMS21.0.73_Preview2.1.png)
+      - コンポート名とバージョン情報
+        ```
+        SQL Server Management Studio						21.0.73.35617.110
+        SQL Server 管理オブジェクト (SMO)						17.100.59.0+a94dad0182852f5525ad6535c8774dfc17d1a80f
+        Microsoft T-SQL Parser						17.2.9.1+6d57751656f58b56aee52eb2638218ed0c2e70f8.6d57751656f58b56aee52eb2638218ed0c2e70f8
+        Microsoft Data SqlClient (MDS)						5.1.6
+        Microsoft SQL Server データ層アプリケーション フレームワーク (DacFX)						162.4.96.1+aa6267a9a33cd6e077fe8ea5fa178573b0bf53a1
+        Microsoft .NET Framework						4.0.30319.42000
+        オペレーティング システム						10.0.26100
+        ```
+    - [SSMS 20.2.3](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+      ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
     - サーバ認証について、Windows認証モードとSQL Server認証モードが選択されているかを確認する
     - SQL Serverを再起動する
-  - [SSMS(SQL Server Management Studio)](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-    - SSMS 20.2.3
-      ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
-      - アップデート後の初回起動時に旧バージョンから設定をインポートできる
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 ### PostgreSQL
   - PgAdmin対応表
