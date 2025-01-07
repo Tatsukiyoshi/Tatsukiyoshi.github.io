@@ -29,13 +29,13 @@
       |Windows    |Node.js 22.12.0         |[2024/12/11](https://nodejs.org/en)
       |           |React 19.0.0            |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38            |[2024/11/29](https://bun.sh/)
-      |           |Astro 5.0.5             |[2024/12/11](https://astro.build/)
-      |           |- Bun 1.1.38            |2024/11/29
+      |           |Astro 5.1.3             |[2025/01/07](https://astro.build/)
+      |           |- Bun 1.1.42            |2024/12/31
       |           |- React 19.0.0          |2024/12/11
-      |           |Next.js 15.0.4          |[2024/12/11](https://nextjs.org/)
+      |           |Next.js 15.1.3          |[2025/01/07](https://nextjs.org/)
       |           |- React 19.0.0          |2024/12/11
-      |           |- Bun 1.1.38            |2024/11/29
-      |           |Nuxt 3.13.2             |[2024/10/05](https://nuxt.com/)
+      |           |- Bun 1.1.42            |2024/12/31
+      |           |Nuxt 3.15.1             |[2025/01/07](https://nuxt.com/)
       |           |Vue 3.5.13              |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2            |[2024/11/30](https://deno.land/)
       |           |- Vite 6.0.1            |[2024/11/29](https://vitejs.dev/)
