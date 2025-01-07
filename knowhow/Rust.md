@@ -22,7 +22,7 @@
       |           |Svelte 5.16.1                                  |2025/01/05
       |           |Vite 6.0.7                                     |2025/01/05
       |           |Bun 1.1.42                                     |[2024/12/31](https://bun.sh/)
-      |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
+      |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
 
