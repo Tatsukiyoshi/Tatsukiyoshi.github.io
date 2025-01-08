@@ -13,8 +13,8 @@
 
   |端末       |環境／FW                                                                          |最終更新
   |-----------|--------------------------------------------------------------------------------|----------
-  |InsiderDev |[Pleiades All in One Eclipse Standard Edition 2024-09 (Eclipse 4.33)](#pleiades)|[2024/10/26](https://willbrains.jp/)
-  |           |[Apache Tomcat 10.1.28](#tomcat)                                                |[2024/10/26](https://tomcat.apache.org/download-10.cgi)
+  |InsiderDev |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/01/07](https://willbrains.jp/)
+  |           |[Apache Tomcat 10.1.34](#tomcat)                                                |[2025/01/07](https://tomcat.apache.org/download-10.cgi)
   |           |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
   |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
   |           |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
@@ -585,3 +585,21 @@
 ### H2 Database
   - 環境変数H2DRIVERSまたはCLASSPATHにH2*.jarを登録する。
   - データベースは、"H2 Console"で作成する。ただし、Embeddedモードでしか作成できない。
+### Web App Sample
+  - H2 Database コンソールを起動する
+    ```
+    C:\Program Files (x86)\H2\bin\h2.bat
+    ```
+  - データベース（~docoTsubu）に、mutter テーブルを作成
+    ```sql
+    CREATE TABLE MUTTER (
+      ID INT PRIMARY KEY AUTO_INCREMENT,
+      NAME VARCHAR(100) NOT NULL,
+      TEXT VARCHAR(255) NOT NULL
+    );
+    ```
+  - サンプルデータを追加する
+    ```sql
+    INSERT INTO MUTTER (NAME, TEXT) VALUES ('湊', '今日は休みだ');
+    INSERT INTO MUTTER (NAME, TEXT) VALUES ('綾部', 'いいな～');
+    ```

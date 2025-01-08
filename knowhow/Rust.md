@@ -18,11 +18,11 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.83](#rust-1)                           |[2024/12/18](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3.2](#rustrover)               |[2024/12/22](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.1.1](#tauridesktop-framework)         |[2024/11/17](https://tauri.app/)
-      |           |Svelte 5.14.4                                  |2024/12/18
-      |           |Vite 6.0.3                                     |2024/12/18
-      |           |Bun 1.1.40                                     |[2024/12/18](https://bun.sh/)
-      |           |[Slint 1.8.0](#slint)                          |[2024/10/26](https://slint.dev/)
+      |           |[Tauri 2.2.0](#tauridesktop-framework)         |[2025/01/05](https://tauri.app/)
+      |           |Svelte 5.16.1                                  |2025/01/05
+      |           |Vite 6.0.7                                     |2025/01/05
+      |           |Bun 1.1.42                                     |[2024/12/31](https://bun.sh/)
+      |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
 
@@ -30,10 +30,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |InsiderDev |Rust 1.83            |2024/12/18
-      |           |Tauri 2.1.1          |2024/12/18
+      |           |Tauri 2.2.0          |2025/01/05
       |           |React 19.0.0         |2024/12/18
-      |           |Vite 6.0.3           |2024/12/18
-      |           |Bun 1.1.40           |2024/12/18
+      |           |Vite 6.0.7           |2025/01/05
+      |           |Bun 1.1.42           |2025/01/05
 
   1. Chrome OS Flex 131.0.6778.214 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -49,9 +49,9 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.83            |2024/12/21
-      |           |Tauri 2.1.1          |2024/11/12
+      |           |Tauri 2.2.0          |2025/01/05
       |           |Bun 1.1.42           |2024/12/21
-      |           |Vite 6.0.5           |2024/12/21
+      |           |Vite 6.0.7           |2025/01/05
       |           |Node 22.6.0          |2024/08/17
       |           |CocoaPods 1.16.1     |2024/10/31
 
