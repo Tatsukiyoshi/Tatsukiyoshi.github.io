@@ -50,10 +50,9 @@
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.83            |2024/12/21
       |           |Tauri 2.2.0          |2025/01/05
-      |           |Bun 1.1.42           |2024/12/21
+      |           |Bun 1.1.43           |2025/01/09
       |           |Vite 6.0.7           |2025/01/05
       |           |Node 22.6.0          |2024/08/17
-      |           |CocoaPods 1.16.1     |2024/10/31
 
   ##  ノウハウ
   ### Rust
@@ -392,23 +391,9 @@
         ```
         -> Fixed (capabilitiesの記述変更を取り込むことで解決)
     - iOS target
-      - iOS Simulatorの更新
-        - XCodeで新しいバージョンをダウンロードする
-        - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-      - CocoaPodsのアップデート
-        ```
-        brew upgrade
-        ```
       - Rustターゲットへの追加
         ```
         rustup target add aarch64-apple-ios x86_64-apple-ios aarch64-apple-ios-sim
-        ```
-      - Homebrew / CocoaPodsのインストール
-        ```
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        ```
-        ```
-        brew install cocoapods
         ```
       - nodeのインストール -> https://zenn.dev/shichi18/articles/20230325-01-50eb75b9096004
         - nodebrewをインストール
