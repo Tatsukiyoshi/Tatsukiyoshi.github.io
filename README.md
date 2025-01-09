@@ -194,8 +194,8 @@ OS/言語を問わず利用するツールの情報
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
 **Mac**
-- [XCode 16.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2024/10/31 Updated from 16.0>>*</span>
-- [CocoaPods 1.16.1](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2024/10/31 Updated from 1.15.2_1>>*</span>
+- [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
+- [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ### サービス
@@ -241,6 +241,27 @@ OSやツールのノウハウは、以下を参照
   - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
+  - iOS Simulatorの更新
+    [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
+    - XCodeで新しいバージョンをダウンロードする
+    - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
+  - CocoaPods
+    - Homebrew / CocoaPodsのインストール
+      ```
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      ```
+      ```
+      brew install cocoapods
+      ```
+    - バージョンを確認する
+      ```
+      pod --version
+      ```
+    - 最新に更新する(CocoaPods/Ruby/Git)
+      ```
+      brew update
+      brew upgrade
+      ```
 - WSL
   - WSLバージョンを確認する
     ```
@@ -376,7 +397,7 @@ OSやツールのノウハウは、以下を参照
     Removing: /opt/homebrew/Cellar/git/2.46.0... (1,678 files, 51.5MB)
     Removing: /Users/taishow2024/Library/Caches/Homebrew/git_bottle_manifest--2.46.0... (15.4KB)
     ```
-    </detai;s>
+    </details>
   - ブランチ確認
     ```
     git branch --contains
