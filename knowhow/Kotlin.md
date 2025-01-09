@@ -135,9 +135,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat | 2024.3.1 Canary 7
+  - Android Studio Meerkat | 2024.3.1 Canary 8
     ```
-    Build #AI-243.22562.145.2431.12832016, built on December 20, 2024
+    Build #AI-243.22562.145.2431.12862218, built on January 2, 2025
     Runtime version: 21.0.5+-12771278-b631.28 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
