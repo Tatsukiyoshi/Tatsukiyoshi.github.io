@@ -13,7 +13,7 @@
   |InsiderDev |[IntelliJ IDEA 2024.3.1.1](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.1 Canary 7](#android-studio)           |[2024/12/24](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.1 Canary 8](#android-studio)           |[2025/01/09](https://developer.android.com/studio)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                                 |2024/12/14
   |           |- Android Emulator v.35.4.4                                           |2024/12/14
