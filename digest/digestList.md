@@ -1,4 +1,7 @@
 # ダイジェスト
+- 2025年
+  - 1月
+    - [第１週（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb)
 - 2024年
   - 12月
     - [第５週（2024/12/30～2025/01/04）](https://zenn.dev/tatsukiyoshi/articles/f6ecbca2728202)

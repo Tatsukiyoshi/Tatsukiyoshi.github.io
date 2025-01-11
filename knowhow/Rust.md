@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.83](#rust-1)                           |[2024/12/18](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3.2](#rustrover)               |[2024/12/22](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.2.0](#tauridesktop-framework)         |[2025/01/05](https://tauri.app/)
-      |           |Svelte 5.16.1                                  |2025/01/05
+      |           |[Tauri 2.2.1](#tauridesktop-framework)         |[2025/01/11](https://tauri.app/)
+      |           |Svelte 5.17.3                                  |2025/01/11
       |           |Vite 6.0.7                                     |2025/01/05
-      |           |Bun 1.1.42                                     |[2024/12/31](https://bun.sh/)
+      |           |Bun 1.1.43                                     |[2025/01/11](https://bun.sh/)
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)

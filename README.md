@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2024/12/30～2025/01/04）](https://zenn.dev/tatsukiyoshi/articles/f6ecbca2728202) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -136,30 +136,30 @@ Ubuntu Desktop              |TransBook
         ```
   - [履歴](./history/Chrome.md)
 
-- [Ubuntu Desktop 24.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/04 installed>>*</span>
-  ![Setup](./images/Ubuntu/20250103_Ubuntu24.04.1_Setup.png)
-  ![Setuped](./images/Ubuntu/20250103_Ubuntu24.04.1_Setuped.png)
-  ![Version Information](./images/Ubuntu/20250104_Ubuntu24.04.1.png)
+- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
+  ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
 
   <details>
   <summary>ディストリビューション・バージョン情報</summary>
 
   ```
-  PRETTY_NAME="Ubuntu 24.04.1 LTS"
+  PRETTY_NAME="Ubuntu 24.10"
   NAME="Ubuntu"
-  VERSION_ID="24.04"
-  VERSION="24.04.1 LTS (Noble Numbat)"
-  VERSION_CODENAME=noble
+  VERSION_ID="24.10"
+  VERSION="24.10 (Oracular Oriole)"
+  VERSION_CODENAME=oracular
   ID=ubuntu
   ID_LIKE=debian
   HOME_URL="https://www.ubuntu.com/"
   SUPPORT_URL="https://help.ubuntu.com/"
   BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
   PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-  UBUNTU_CODENAME=noble
+  UBUNTU_CODENAME=oracular
   LOGO=ubuntu-logo
   ```
   </details>
+
+  - [履歴](./history/Ubuntu%20Desktop.md)
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
@@ -242,7 +242,7 @@ OSやツールのノウハウは、以下を参照
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
   - iOS Simulatorの更新
-    [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
+    - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
   - CocoaPods
