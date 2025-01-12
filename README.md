@@ -157,6 +157,7 @@ Ubuntu Desktop              |TransBook
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
   ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
+  ![System Detail](./images/Ubuntu/20250111_Ubuntu24.10_Detail.png)
 
   <details>
   <summary>ディストリビューション・バージョン情報</summary>
@@ -177,6 +178,10 @@ Ubuntu Desktop              |TransBook
   LOGO=ubuntu-logo
   ```
   </details>
+
+  - カーネルバージョン
+    - 6.11.0-13 / Ubuntu 24.10
+    - 6.8.0-51 / Ubuntu 24.04
 
   - [履歴](./history/Ubuntu%20Desktop.md)
 
