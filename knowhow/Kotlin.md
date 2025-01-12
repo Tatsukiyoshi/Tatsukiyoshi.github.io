@@ -13,7 +13,7 @@
   |InsiderDev |[IntelliJ IDEA 2024.3.1.1](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.1 Canary 8](#android-studio)           |[2025/01/09](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.1 Canary 9](#android-studio)           |[2025/01/11](https://developer.android.com/studio)
   |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                                 |2024/12/14
   |           |- Android Emulator v.35.4.4                                           |2024/12/14
@@ -135,9 +135,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat | 2024.3.1 Canary 8
+  - Android Studio Meerkat | 2024.3.1 Canary 9
     ```
-    Build #AI-243.22562.145.2431.12862218, built on January 2, 2025
+    Build #AI-243.22562.218.2431.12894773, built on January 10, 2025
     Runtime version: 21.0.5+-12771278-b631.28 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -179,6 +179,8 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Canary 9 対応
+        - Android Gradle Plugin 8.7.3 -> 8.8.0
       - Meerkat Canary 4 対応
         - Kotlin 2.1.0
         - Gradle 8.10 -> 8.11.1

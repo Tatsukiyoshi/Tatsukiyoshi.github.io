@@ -11,16 +11,16 @@
   |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
 
 ##  環境
-  |端末       |環境／FW                                                                  |最終更新
-  |-----------|-------------------------------------------------------------------------|----------
-  |InsiderDev |Flutter 3.27.1                                                           |[2024/12/23](https://docs.flutter.dev/get-started/install)
-  |           |[Android Studio Meerkat 2024.3.1 Canary 7](./Kotlin.md#android-studio)   |2024/12/24
-  |           |[Visual Studio Community 2022 17.13.0 Preview 2.1](./NET.md)             |2024/12/22
-  |Mac OS     |Flutter 3.27.1                                                           |2024/12/29
-  |Chrome OS Flex |Flutter 3.27.1                                                |2025/01/02
-  |                           |Debian clang 14.0.6|2025/01/02
-  |                           |cmake 3.25.1|2025/01/02
-  |                           |ninja 1.11.1|2025/01/02
+  |端末           |環境／FW                                                                  |最終更新
+  |---------------|-------------------------------------------------------------------------|----------
+  |InsiderDev     |Flutter 3.27.1                                                           |[2024/12/23](https://docs.flutter.dev/get-started/install)
+  |               |[Android Studio Meerkat 2024.3.1 Canary 9](./Kotlin.md#android-studio)   |2025/01/11
+  |               |[Visual Studio Community 2022 17.13.0 Preview 2.1](./NET.md)             |2024/12/22
+  |Mac OS         |Flutter 3.27.1                                                           |2024/12/29
+  |Chrome OS Flex |Flutter 3.27.1                                                           |2025/01/02
+  |               |Debian clang 14.0.6                                                      |2025/01/02
+  |               |cmake 3.25.1                                                             |2025/01/02
+  |               |ninja 1.11.1                                                             |2025/01/02
 
 ##  ノウハウ
   - flutter dev
