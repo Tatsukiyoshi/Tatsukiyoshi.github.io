@@ -1,5 +1,24 @@
 # トップページ
 
+##  目次
+- [ダイジェスト](##ダイジェスト)
+- [環境](#環境)
+  - [OS](#os)
+  - [ツール](#ツール)
+    - [Docker](./knowhow/Docker.md)
+  - [サービス](#サービス)
+- [ノウハウ](#ノウハウ)
+  - [プログラミング言語](#プログラミング言語)
+    - [DB](./knowhow/Database.md)
+    - [Documentation](./knowhow/Documentation.md)
+    - [.NET](./knowhow/NET.md)
+    - [Rust](./knowhow/Rust.md)
+    - [Kotlin](./knowhow/Kotlin.md)
+    - [Java](./knowhow/Java.md)  
+    - [Dart/Flutter](./knowhow/Flutter.md)
+    - [TypeScript/JavaScript](./knowhow/TypeScript.md)
+  - [OS／ツール](#osツール)
+
 ##  ダイジェスト
 ```
 毎週日曜日に更新
@@ -138,6 +157,7 @@ Ubuntu Desktop              |TransBook
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
   ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
+  ![System Detail](./images/Ubuntu/20250112_Ubuntu24.10_Detail.png)
 
   <details>
   <summary>ディストリビューション・バージョン情報</summary>
@@ -158,6 +178,10 @@ Ubuntu Desktop              |TransBook
   LOGO=ubuntu-logo
   ```
   </details>
+
+  - カーネルバージョン
+    - 6.11.0-13 / Ubuntu 24.10
+    - 6.8.0-51 / Ubuntu 24.04
 
   - [履歴](./history/Ubuntu%20Desktop.md)
 
