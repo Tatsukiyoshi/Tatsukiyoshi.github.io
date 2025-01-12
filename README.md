@@ -1,14 +1,17 @@
 # トップページ
 
-##  目次
-- [ダイジェスト](##ダイジェスト)
-- [環境](#環境)
-  - [OS](#os)
-  - [ツール](#ツール)
+- [ダイジェスト][Digest]
+- [環境][Env]
+  - [OS][OS]
+  - [ツール][Tool]
+    - [Visual Studio Code][VSCode]
+    - [Git][Git]
+    - [GitHub Desktop][GitHub_Desktop]
     - [Docker](./knowhow/Docker.md)
-  - [サービス](#サービス)
-- [ノウハウ](#ノウハウ)
-  - [プログラミング言語](#プログラミング言語)
+    - [Windows][Windows_Tool]
+  - [サービス][Service]
+- [ノウハウ][Knowhow]
+  - [プログラミング言語][Programming]
     - [DB](./knowhow/Database.md)
     - [Documentation](./knowhow/Documentation.md)
     - [.NET](./knowhow/NET.md)
@@ -17,9 +20,9 @@
     - [Java](./knowhow/Java.md)  
     - [Dart/Flutter](./knowhow/Flutter.md)
     - [TypeScript/JavaScript](./knowhow/TypeScript.md)
-  - [OS／ツール](#osツール)
+  - [OS／ツール][OS_Tool]
 
-##  ダイジェスト
+[Digest]:##  ダイジェスト
 ```
 毎週日曜日に更新
 ```
@@ -33,7 +36,7 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
-##  環境
+[Env]:##  環境
 ```
 独学環境の情報
 ```
@@ -52,7 +55,7 @@ Ubuntu Desktop              |TransBook
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-### OS
+[OS]:### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
@@ -187,10 +190,11 @@ Ubuntu Desktop              |TransBook
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-### ツール
+[Tool]:### ツール
 ```
 OS/言語を問わず利用するツールの情報
 ```
+[VSCode]:
 - [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
   - GitHub Copilot
     - 表示メニューから選択するとサイドパネルにCopilotが出現する
@@ -199,7 +203,9 @@ OS/言語を問わず利用するツールの情報
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
+[Git]:
 - [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
+[GitHub_Desktop]:
 - [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
@@ -208,6 +214,7 @@ OS/言語を問わず利用するツールの情報
     - 3.4.2 -> 3.4.5 NG
 - [Docker](./knowhow/Docker.md)
 
+[Windows_Tool]:
 **Windows**
 - [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
   - 製品版では、ストアアプリとして自動更新される
@@ -217,16 +224,17 @@ OS/言語を問わず利用するツールの情報
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
+[Mac_Tool]:
 **Mac**
 - [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-### サービス
+[Service]:### サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-##  ノウハウ
-### プログラミング言語
+[Knowhow]:##  ノウハウ
+[Programming]:### プログラミング言語
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
@@ -249,7 +257,7 @@ OS/言語を問わず利用するツールの情報
 - [LLVM](./knowhow/Others.md#llvm)
 - [Unity](./knowhow/Unity.md)
 
-### OS／ツール
+[OS_Tool]:### OS／ツール
 ```
 OSやツールのノウハウは、以下を参照
 ```
