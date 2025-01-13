@@ -1,36 +1,12 @@
 # トップページ
 
-- [ダイジェスト](#digest)
-- [創作物](#creations)
-- [環境](#environment)
-  - [OS](#os)
-  - [ツール](#tools)
-    - Visual Studio Code
-    - Git
-    - GitHub Desktop
-    - [Docker](./knowhow/Docker.md)
-    - Windows
-    - Mac OS
-  - [サービス](#service)
-- [ノウハウ](#knowhow)
-  - [プログラミング言語](#programming_language)
-    - [DB](./knowhow/Database.md)
-    - [Documentation](./knowhow/Documentation.md)
-    - [.NET](./knowhow/NET.md)
-    - [Rust](./knowhow/Rust.md)
-    - [Kotlin](./knowhow/Kotlin.md)
-    - [Java](./knowhow/Java.md)  
-    - [Dart/Flutter](./knowhow/Flutter.md)
-    - [TypeScript/JavaScript](./knowhow/TypeScript.md)
-  - [OS／ツール](#ostools)
-
-##  Digest
+##  ダイジェスト
 ```
 毎週日曜日に更新
 ```
 [最新ダイジェスト：（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb) / [一覧](./digest/digestList.md)
 
-##  Creations
+##  創作物
 ```
 知識を形にする
 ```
@@ -38,7 +14,7 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
-##  Environment
+##  環境
 ```
 独学環境の情報
 ```
@@ -192,11 +168,10 @@ Ubuntu Desktop              |TransBook
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-### Tools
+### ツール
 ```
 OS/言語を問わず利用するツールの情報
 ```
-[VSCode]:
 - [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
   - GitHub Copilot
     - 表示メニューから選択するとサイドパネルにCopilotが出現する
@@ -205,9 +180,7 @@ OS/言語を問わず利用するツールの情報
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-[Git]:
 - [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
-[GitHub_Desktop]:
 - [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
@@ -216,7 +189,6 @@ OS/言語を問わず利用するツールの情報
     - 3.4.2 -> 3.4.5 NG
 - [Docker](./knowhow/Docker.md)
 
-[Windows_Tool]:
 **Windows**
 - [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
   - 製品版では、ストアアプリとして自動更新される
@@ -226,17 +198,16 @@ OS/言語を問わず利用するツールの情報
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
-[Mac_Tool]:
 **Mac**
 - [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-### Service
+### サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-##  Knowhow
-### Programming_Language
+##  ノウハウ
+### プログラミング言語
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
@@ -259,7 +230,7 @@ OS/言語を問わず利用するツールの情報
 - [LLVM](./knowhow/Others.md#llvm)
 - [Unity](./knowhow/Unity.md)
 
-### OS/Tools
+### OS／ツール
 ```
 OSやツールのノウハウは、以下を参照
 ```
