@@ -1,17 +1,19 @@
 # トップページ
 
-- [ダイジェスト][Digest]
-- [環境][Env]
-  - [OS][OS]
-  - [ツール][Tool]
-    - [Visual Studio Code][VSCode]
-    - [Git][Git]
-    - [GitHub Desktop][GitHub_Desktop]
+- [ダイジェスト](#digest)
+- [創作物](#creations)
+- [環境](#environment)
+  - [OS](#os)
+  - [ツール](#tools)
+    - Visual Studio Code
+    - Git
+    - GitHub Desktop
     - [Docker](./knowhow/Docker.md)
-    - [Windows][Windows_Tool]
-  - [サービス][Service]
-- [ノウハウ][Knowhow]
-  - [プログラミング言語][Programming]
+    - Windows
+    - Mac OS
+  - [サービス](#service)
+- [ノウハウ](#knowhow)
+  - [プログラミング言語](#programming_language)
     - [DB](./knowhow/Database.md)
     - [Documentation](./knowhow/Documentation.md)
     - [.NET](./knowhow/NET.md)
@@ -20,15 +22,15 @@
     - [Java](./knowhow/Java.md)  
     - [Dart/Flutter](./knowhow/Flutter.md)
     - [TypeScript/JavaScript](./knowhow/TypeScript.md)
-  - [OS／ツール][OS_Tool]
+  - [OS／ツール](#ostools)
 
-[Digest]:##  ダイジェスト
+##  Digest
 ```
 毎週日曜日に更新
 ```
 [最新ダイジェスト：（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb) / [一覧](./digest/digestList.md)
 
-##  創作物
+##  Creations
 ```
 知識を形にする
 ```
@@ -36,7 +38,7 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
-[Env]:##  環境
+##  Environment
 ```
 独学環境の情報
 ```
@@ -55,7 +57,7 @@ Ubuntu Desktop              |TransBook
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-[OS]:### OS
+### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
@@ -190,7 +192,7 @@ Ubuntu Desktop              |TransBook
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-[Tool]:### ツール
+### Tools
 ```
 OS/言語を問わず利用するツールの情報
 ```
@@ -230,11 +232,11 @@ OS/言語を問わず利用するツールの情報
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-[Service]:### サービス
+### Service
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-[Knowhow]:##  ノウハウ
-[Programming]:### プログラミング言語
+##  Knowhow
+### Programming_Language
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
@@ -257,7 +259,7 @@ OS/言語を問わず利用するツールの情報
 - [LLVM](./knowhow/Others.md#llvm)
 - [Unity](./knowhow/Unity.md)
 
-[OS_Tool]:### OS／ツール
+### OS/Tools
 ```
 OSやツールのノウハウは、以下を参照
 ```
