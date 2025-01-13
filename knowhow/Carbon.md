@@ -3,6 +3,7 @@
 ##  環境
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
+  |InsiderDev |Carbon       |2025/01/13
   |Ubuntu     |Carbon       |-
 
 ##  概要
@@ -10,12 +11,12 @@
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
-### 環境再構築 [on Ubuntu Desktop 24.10 *@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
-
+### 環境再構築 [on Ubuntu 24.04 *@2025/01/13** <span style="color: red;">*Installed!*</span>]
 1.  環境確認
     ```
     sudo apt update
     ```
+
 1.  ツール群のインストール
     ```
     sudo apt install \
@@ -24,6 +25,351 @@
     libc++abi-dev \
     lld
     ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    The following additional packages will be installed:
+    clang-18 lib32gcc-s1 lib32stdc++6 libc++-18-dev libc++1-18 libc++abi-18-dev libc++abi1-18 libc6-i386
+    libclang-common-18-dev libclang-cpp18 libclang-rt-18-dev libclang1-18 libgc1 libllvm18 libncurses-dev
+    libobjc-13-dev libobjc4 libpfm4 libunwind-18 libunwind-18-dev libxml2-dev libz3-4 libz3-dev lld-18 llvm-18
+    llvm-18-dev llvm-18-linker-tools llvm-18-runtime llvm-18-tools
+    Suggested packages:
+    clang-18-doc wasi-libc ncurses-doc llvm-18-doc
+    The following NEW packages will be installed:
+    clang clang-18 lib32gcc-s1 lib32stdc++6 libc++-18-dev libc++-dev libc++1-18 libc++abi-18-dev libc++abi-dev
+    libc++abi1-18 libc6-i386 libclang-common-18-dev libclang-cpp18 libclang-rt-18-dev libclang1-18 libgc1
+    libllvm18 libncurses-dev libobjc-13-dev libobjc4 libpfm4 libunwind-18 libunwind-18-dev libxml2-dev libz3-4
+    libz3-dev lld lld-18 llvm-18 llvm-18-dev llvm-18-linker-tools llvm-18-runtime llvm-18-tools
+    0 upgraded, 33 newly installed, 0 to remove and 0 not upgraded.
+    Need to get 141 MB of archives.
+    After this operation, 809 MB of additional disk space will be used.
+    Do you want to continue? [Y/n] Y
+    Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libllvm18 amd64 1:18.1.3-1ubuntu1 [27.5 MB]
+    Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang-cpp18 amd64 1:18.1.3-1ubuntu1 [13.5 MB]
+    Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 libgc1 amd64 1:8.2.6-1build1 [90.3 kB]
+    Get:4 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc4 amd64 14.2.0-4ubuntu2~24.04 [47.0 kB]
+    Get:5 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc-13-dev amd64 13.3.0-6ubuntu2~24.04 [194 kB]
+    Get:6 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libclang-common-18-dev amd64 1:18.1.3-1ubuntu1 [736 kB]
+    Get:7 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18-linker-tools amd64 1:18.1.3-1ubuntu1 [1314 kB]
+    Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang1-18 amd64 1:18.1.3-1ubuntu1 [7803 kB]
+    Get:9 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 clang-18 amd64 1:18.1.3-1ubuntu1 [80.0 kB]
+    Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 clang amd64 1:18.0-59~exp2 [5846 B]
+    Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-i386 amd64 2.39-0ubuntu8.3 [2829 kB]
+    Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32gcc-s1 amd64 14.2.0-4ubuntu2~24.04 [92.3 kB]
+    Get:13 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libunwind-18 amd64 1:18.1.3-1ubuntu1 [60.3 kB]
+    Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libc++abi1-18 amd64 1:18.1.3-1ubuntu1 [70.7 kB]
+    Get:15 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libc++1-18 amd64 1:18.1.3-1ubuntu1 [285 kB]
+    Get:16 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libc++abi-18-dev amd64 1:18.1.3-1ubuntu1 [95.8 kB]
+    Get:17 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libunwind-18-dev amd64 1:18.1.3-1ubuntu1 [44.9 kB]
+    Get:18 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libc++-18-dev amd64 1:18.1.3-1ubuntu1 [1195 kB]
+    Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32stdc++6 amd64 14.2.0-4ubuntu2~24.04 [814 kB]
+    Get:20 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libclang-rt-18-dev amd64 1:18.1.3-1ubuntu1 [3772 kB]
+    Get:21 http://archive.ubuntu.com/ubuntu noble/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2 [384 kB]
+    Get:22 http://archive.ubuntu.com/ubuntu noble/main amd64 libxml2-dev amd64 2.9.14+dfsg-1.3ubuntu3 [780 kB]
+    Get:23 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 lld-18 amd64 1:18.1.3-1ubuntu1 [1372 kB]
+    Get:24 http://archive.ubuntu.com/ubuntu noble/universe amd64 lld amd64 1:18.0-59~exp2 [5494 B]
+    Get:25 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18-runtime amd64 1:18.1.3-1ubuntu1 [538 kB]
+    Get:26 http://archive.ubuntu.com/ubuntu noble/universe amd64 libpfm4 amd64 4.13.0+git32-g0d4ed0e-1 [414 kB]
+    Get:27 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18 amd64 1:18.1.3-1ubuntu1 [25.3 MB]
+    Get:28 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18-tools amd64 1:18.1.3-1ubuntu1 [534 kB]
+    Get:29 http://archive.ubuntu.com/ubuntu noble/universe amd64 libz3-4 amd64 4.8.12-3.1build1 [5836 kB]
+    Get:30 http://archive.ubuntu.com/ubuntu noble/universe amd64 libz3-dev amd64 4.8.12-3.1build1 [72.2 kB]
+    Get:31 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18-dev amd64 1:18.1.3-1ubuntu1 [45.1 MB]
+    Get:32 http://archive.ubuntu.com/ubuntu noble/universe amd64 libc++-dev amd64 1:18.0-59~exp2 [5620 B]
+    Get:33 http://archive.ubuntu.com/ubuntu noble/universe amd64 libc++abi-dev amd64 1:18.0-59~exp2 [5622 B]
+    Fetched 141 MB in 15s (9134 kB/s)
+    Extracting templates from packages: 100%
+    Selecting previously unselected package libllvm18:amd64.
+    (Reading database ... 93909 files and directories currently installed.)
+    Preparing to unpack .../00-libllvm18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libclang-cpp18.
+    Preparing to unpack .../01-libclang-cpp18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libgc1:amd64.
+    Preparing to unpack .../02-libgc1_1%3a8.2.6-1build1_amd64.deb ...
+    Unpacking libgc1:amd64 (1:8.2.6-1build1) ...
+    Selecting previously unselected package libobjc4:amd64.
+    Preparing to unpack .../03-libobjc4_14.2.0-4ubuntu2~24.04_amd64.deb ...
+    Unpacking libobjc4:amd64 (14.2.0-4ubuntu2~24.04) ...
+    Selecting previously unselected package libobjc-13-dev:amd64.
+    Preparing to unpack .../04-libobjc-13-dev_13.3.0-6ubuntu2~24.04_amd64.deb ...
+    Unpacking libobjc-13-dev:amd64 (13.3.0-6ubuntu2~24.04) ...
+    Selecting previously unselected package libclang-common-18-dev:amd64.
+    Preparing to unpack .../05-libclang-common-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libclang-common-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package llvm-18-linker-tools.
+    Preparing to unpack .../06-llvm-18-linker-tools_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking llvm-18-linker-tools (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libclang1-18.
+    Preparing to unpack .../07-libclang1-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libclang1-18 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package clang-18.
+    Preparing to unpack .../08-clang-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking clang-18 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package clang.
+    Preparing to unpack .../09-clang_1%3a18.0-59~exp2_amd64.deb ...
+    Unpacking clang (1:18.0-59~exp2) ...
+    Selecting previously unselected package libc6-i386.
+    Preparing to unpack .../10-libc6-i386_2.39-0ubuntu8.3_amd64.deb ...
+    Unpacking libc6-i386 (2.39-0ubuntu8.3) ...
+    Selecting previously unselected package lib32gcc-s1.
+    Preparing to unpack .../11-lib32gcc-s1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+    Unpacking lib32gcc-s1 (14.2.0-4ubuntu2~24.04) ...
+    Selecting previously unselected package libunwind-18:amd64.
+    Preparing to unpack .../12-libunwind-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libunwind-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libc++abi1-18:amd64.
+    Preparing to unpack .../13-libc++abi1-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libc++abi1-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libc++1-18:amd64.
+    Preparing to unpack .../14-libc++1-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libc++1-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libc++abi-18-dev:amd64.
+    Preparing to unpack .../15-libc++abi-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libc++abi-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libunwind-18-dev:amd64.
+    Preparing to unpack .../16-libunwind-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libunwind-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libc++-18-dev:amd64.
+    Preparing to unpack .../17-libc++-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libc++-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package lib32stdc++6.
+    Preparing to unpack .../18-lib32stdc++6_14.2.0-4ubuntu2~24.04_amd64.deb ...
+    Unpacking lib32stdc++6 (14.2.0-4ubuntu2~24.04) ...
+    Selecting previously unselected package libclang-rt-18-dev:amd64.
+    Preparing to unpack .../19-libclang-rt-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking libclang-rt-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libncurses-dev:amd64.
+    Preparing to unpack .../20-libncurses-dev_6.4+20240113-1ubuntu2_amd64.deb ...
+    Unpacking libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+    Selecting previously unselected package libxml2-dev:amd64.
+    Preparing to unpack .../21-libxml2-dev_2.9.14+dfsg-1.3ubuntu3_amd64.deb ...
+    Unpacking libxml2-dev:amd64 (2.9.14+dfsg-1.3ubuntu3) ...
+    Selecting previously unselected package lld-18.
+    Preparing to unpack .../22-lld-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking lld-18 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package lld:amd64.
+    Preparing to unpack .../23-lld_1%3a18.0-59~exp2_amd64.deb ...
+    Unpacking lld:amd64 (1:18.0-59~exp2) ...
+    Selecting previously unselected package llvm-18-runtime.
+    Preparing to unpack .../24-llvm-18-runtime_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking llvm-18-runtime (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libpfm4:amd64.
+    Preparing to unpack .../25-libpfm4_4.13.0+git32-g0d4ed0e-1_amd64.deb ...
+    Unpacking libpfm4:amd64 (4.13.0+git32-g0d4ed0e-1) ...
+    Selecting previously unselected package llvm-18.
+    Preparing to unpack .../26-llvm-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking llvm-18 (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package llvm-18-tools.
+    Preparing to unpack .../27-llvm-18-tools_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking llvm-18-tools (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libz3-4:amd64.
+    Preparing to unpack .../28-libz3-4_4.8.12-3.1build1_amd64.deb ...
+    Unpacking libz3-4:amd64 (4.8.12-3.1build1) ...
+    Selecting previously unselected package libz3-dev:amd64.
+    Preparing to unpack .../29-libz3-dev_4.8.12-3.1build1_amd64.deb ...
+    Unpacking libz3-dev:amd64 (4.8.12-3.1build1) ...
+    Selecting previously unselected package llvm-18-dev.
+    Preparing to unpack .../30-llvm-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+    Unpacking llvm-18-dev (1:18.1.3-1ubuntu1) ...
+    Selecting previously unselected package libc++-dev:amd64.
+    Preparing to unpack .../31-libc++-dev_1%3a18.0-59~exp2_amd64.deb ...
+    Unpacking libc++-dev:amd64 (1:18.0-59~exp2) ...
+    Selecting previously unselected package libc++abi-dev:amd64.
+    Preparing to unpack .../32-libc++abi-dev_1%3a18.0-59~exp2_amd64.deb ...
+    Unpacking libc++abi-dev:amd64 (1:18.0-59~exp2) ...
+    Setting up libncurses-dev:amd64 (6.4+20240113-1ubuntu2) ...
+    Setting up libunwind-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libc++abi1-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up llvm-18-tools (1:18.1.3-1ubuntu1) ...
+    Setting up libxml2-dev:amd64 (2.9.14+dfsg-1.3ubuntu3) ...
+    Setting up libz3-4:amd64 (4.8.12-3.1build1) ...
+    Setting up libpfm4:amd64 (4.13.0+git32-g0d4ed0e-1) ...
+    Setting up libc++1-18:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libunwind-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libclang-common-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libgc1:amd64 (1:8.2.6-1build1) ...
+    Setting up libc6-i386 (2.39-0ubuntu8.3) ...
+    Setting up libc++abi-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libc++abi-dev:amd64 (1:18.0-59~exp2) ...
+    Setting up libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libclang1-18 (1:18.1.3-1ubuntu1) ...
+    Setting up libz3-dev:amd64 (4.8.12-3.1build1) ...
+    Setting up libc++-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libobjc4:amd64 (14.2.0-4ubuntu2~24.04) ...
+    Setting up lib32gcc-s1 (14.2.0-4ubuntu2~24.04) ...
+    Setting up lib32stdc++6 (14.2.0-4ubuntu2~24.04) ...
+    Setting up llvm-18-linker-tools (1:18.1.3-1ubuntu1) ...
+    Setting up libc++-dev:amd64 (1:18.0-59~exp2) ...
+    Setting up llvm-18-runtime (1:18.1.3-1ubuntu1) ...
+    Setting up libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+    Setting up libclang-rt-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+    Setting up libobjc-13-dev:amd64 (13.3.0-6ubuntu2~24.04) ...
+    Setting up lld-18 (1:18.1.3-1ubuntu1) ...
+    Setting up lld:amd64 (1:18.0-59~exp2) ...
+    Setting up clang-18 (1:18.1.3-1ubuntu1) ...
+    Setting up clang (1:18.0-59~exp2) ...
+    Setting up llvm-18 (1:18.1.3-1ubuntu1) ...
+    Setting up llvm-18-dev (1:18.1.3-1ubuntu1) ...
+    Processing triggers for systemd (255.4-1ubuntu8.4) ...
+    Processing triggers for man-db (2.12.0-4build2) ...
+    Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+    ```
+    </details>
+
+
+1.  Carbon コードの取得
+    ```
+    git clone https://github.com/carbon-language/carbon-lang
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    Cloning into 'carbon-lang'...
+    remote: Enumerating objects: 92548, done.
+    remote: Counting objects: 100% (2102/2102), done.
+    remote: Compressing objects: 100% (1422/1422), done.
+    remote: Total 92548 (delta 1720), reused 686 (delta 680), pack-reused 90446 (from 3)
+    Receiving objects: 100% (92548/92548), 41.95 MiB | 11.96 MiB/s, done.
+    Resolving deltas: 100% (76384/76384), done.
+    ```
+    </details>
+
+1.  ツールチェーンのヘルプ表示
+    ```
+    cd carbon-lang
+    ./scripts/run_bazelisk.py run //toolchain -- help
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    2025/01/13 15:22:46 Downloading https://releases.bazel.build/8.0.0/release/bazel-8.0.0-linux-x86_64...
+    Downloading: 61 MB out of 61 MB (100%)
+    Extracting Bazel installation...
+    Starting local Bazel server and connecting to it...
+    INFO: Invocation ID: 72abb705-a889-488c-bafb-3784444b469b
+    WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
+    INFO: Analyzed target //toolchain:toolchain (158 packages loaded, 11287 targets configured).
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 5318.293s, Critical Path: 276.61s
+    INFO: 3519 processes: 186 internal, 3333 linux-sandbox.
+    INFO: Build completed successfully, 3519 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+230a8ee59
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] clang [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>...
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+
+    Subcommands:
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+    </details>
+
+1.  explorerを実行
+    ```
+    ./scripts/run_bazelisk.py run //explorer -- ./explorer/testdata/print/format_only.carbon
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    INFO: Invocation ID: c74eaf33-c404-471e-b0a2-152ef8133939
+    INFO: Analyzed target //explorer:explorer (17 packages loaded, 722 targets configured).
+    INFO: Found 1 target...
+    Target //explorer:explorer up-to-date:
+    bazel-bin/explorer/explorer
+    INFO: Elapsed time: 105.327s, Critical Path: 75.19s
+    INFO: 376 processes: 148 internal, 228 linux-sandbox.
+    INFO: Build completed successfully, 376 total actions
+    INFO: Running command line: bazel-bin/explorer/explorer <args omitted>
+    Hello world!
+    result: 0
+    ```
+    </details>
+
+### 環境再構築 [on Ubuntu Desktop 24.10 *@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
+
+1.  環境確認
+    ```
+    sudo apt update
+    ```
+
+1.  ツール群のインストール
+    ```
+    sudo apt install \
+    clang \
+    libc++-dev \
+    libc++abi-dev \
+    lld
+    ```
+
+    <details>
+    <summary>ログ</summary>
 
     ```
     Installing:                                                 
@@ -296,11 +642,16 @@
     man-db (2.12.1-3) のトリガを処理しています ...
     install-info (7.1-3build2) のトリガを処理しています ...
     ```
+    </details>
 
 1.  Carbon コードの取得
     ```
     git clone https://github.com/carbon-language/carbon-lang
     ```
+
+    <details>
+    <summary>ログ</summary>
+
     ```
     Cloning into 'carbon-lang'...
     remote: Enumerating objects: 92548, done.
@@ -311,12 +662,17 @@
     Resolving deltas: 100% (76493/76493), done.
     Updating files: 100% (5331/5331), done.
     ```
+    </details>
 
 1.  ツールチェーンのヘルプ表示
     ```
     cd carbon-lang
     ./scripts/run_bazelisk.py run //toolchain -- help
     ```
+
+    <details>
+    <summary>ログ</summary>
+
     ```
     Starting local Bazel server and connecting to it...
     INFO: Invocation ID: 6eb351c2-2870-4337-a394-a61dcd431e39
@@ -333,11 +689,16 @@
     ERROR: Build did NOT complete successfully
     ERROR: Build failed. Not running target
     ```
+    </details>
 
 1.  explorerを実行
     ```
     ./scripts/run_bazelisk.py run //explorer -- ./explorer/testdata/print/format_only.carbon
     ```
+
+    <details>
+    <summary>ログ</summary>
+
     ```
     INFO: Invocation ID: d0c84f32-03f9-44b9-8e1d-f42fd2ad04d5
     INFO: Analyzed target //explorer:explorer (17 packages loaded, 722 targets configured).
@@ -351,6 +712,7 @@
     Hello world!
     result: 0
     ```
+    </details>
 
 ### 環境更新 [on ubuntu 24.04 **@2024/10/27** <span style="color: red;">*Updated!*</span>]
 1.  carbon-explorerを実行
