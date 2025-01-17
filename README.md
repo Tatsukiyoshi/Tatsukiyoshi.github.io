@@ -172,7 +172,7 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
+- [Visual Studio Code 1.96.4](https://code.visualstudio.com/) <span style="color: red;">*<<2025/01/17 updated from 1.96.2>>*</span>
   - GitHub Copilot
     - 表示メニューから選択するとサイドパネルにCopilotが出現する
       ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
