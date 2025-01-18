@@ -13,7 +13,7 @@
 ##  環境
   |端末           |環境／FW                                                                  |最終更新
   |---------------|-------------------------------------------------------------------------|----------
-  |InsiderDev     |Flutter 3.27.1                                                           |[2024/12/23](https://docs.flutter.dev/get-started/install)
+  |InsiderDev     |Flutter 3.27.2                                                           |[2025/01/18](https://docs.flutter.dev/get-started/install)
   |               |[Android Studio Meerkat 2024.3.1 Canary 9](./Kotlin.md#android-studio)   |2025/01/11
   |               |[Visual Studio Community 2022 17.13.0 Preview 2.1](./NET.md)             |2024/12/22
   |Mac OS         |Flutter 3.27.1                                                           |2024/12/29
