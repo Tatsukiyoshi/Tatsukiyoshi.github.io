@@ -19,7 +19,7 @@
       |Windows    |[Rust 1.84](#rust-1)                           |[2025/01/18](https://www.rust-lang.org/)  
       |           |[RustRover 2024.3.3](#rustrover)               |[2025/01/18](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.2.3](#tauridesktop-framework)         |[2025/01/18](https://tauri.app/)
-      |           |Svelte 5.17.3                                  |2025/01/11
+      |           |Svelte 5.19.0                                  |2025/01/18
       |           |Vite 6.0.7                                     |2025/01/05
       |           |Bun 1.1.45                                     |2025/01/18
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
