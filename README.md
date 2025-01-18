@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/1/12～2025/1/18）](https://zenn.dev/tatsukiyoshi/articles/07af1ff37b5b07) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -36,10 +36,14 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
-      ![Cumulative Update](./images/Windows/20241219_WindowsUpdate_DevChannel.png)
-      - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20241219_Windows11_Build26120.png)
+    - Build 26120.2992 (Cumulative Update) <span style="color: red;">*<<2025/01/18 updated from Build 26120.2705 >>*</span>
+      ![Cumulative Update](./images/Windows/20250118_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報）はないため、代わりに「システム > バージョン情報」で確認（今後復活予定）
+        ![Version Information](./images/Windows/20250118_Windows11_Build26120.png)
+      ```
+      今回、更新失敗したかのように「再試行」となった。そのため、再試行や再起動を繰り返すも、再試行されることはなかった。
+      しかし、バージョン情報が更新され、拡大鏡の改善が適用されていることから、問題なく、更新されたものと判断。
+      ```
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -172,7 +176,7 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.96.2](https://code.visualstudio.com/) <span style="color: red;">*<<2024/12/20 updated from 1.96>>*</span>
+- [Visual Studio Code 1.96.4](https://code.visualstudio.com/) <span style="color: red;">*<<2025/01/17 updated from 1.96.2>>*</span>
   - GitHub Copilot
     - 表示メニューから選択するとサイドパネルにCopilotが出現する
       ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)

@@ -8,22 +8,23 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末       |環境／FW                                                               |最終更新      
-  |-----------|----------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.1.1](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
-  |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
-  |           |Amazon Coretto 22.0.2                                                 |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.1 Canary 9](#android-studio)           |[2025/01/11](https://developer.android.com/studio)
-  |           |- Kotlin 2.1.0                                                        |[2024/12/07](https://kotlinlang.org/docs/home.html)
-  |           |- Android SDK Command-line Tools v.17                                 |2024/12/14
-  |           |- Android Emulator v.35.4.4                                           |2024/12/14
+  |端末       |環境／FW                                                             |最終更新      
+  |-----------|--------------------------------------------------------------------|----------
+  |InsiderDev |[IntelliJ IDEA 2024.3.2](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
+  |           |- Kotlin 2.1.0                                                      |[2024/12/07](https://kotlinlang.org/docs/home.html)
+  |           |Amazon Coretto 22.0.2                                               |2024/11/16
+  |           |[Android Studio Meerkat 2024.3.1 Canary 9](#android-studio)         |[2025/01/11](https://developer.android.com/studio)
+  |           |- Kotlin 2.1.0                                                      |[2024/12/07](https://kotlinlang.org/docs/home.html)
+  |           |- Android SDK Command-line Tools v.17                               |2024/12/14
+  |           |- Android Emulator v.35.4.5                                         |2025/01/17
 
 ##  ノウハウ
 ### IntelliJ IDEA
-  - IntelliJ IDEA 2024.3.1.1 (Community Edition)
+- Latest Version
+  - IntelliJ IDEA 2024.3.2 (Community Edition)
     ```
-    Build #IC-243.22562.218, built on December 18, 2024
-    Runtime version: 21.0.5+8-b631.28 amd64 (JCEF 122.1.9)
+    Build #IC-243.23654.117, built on January 16, 2025
+    Runtime version: 21.0.5+8-b631.30 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -32,14 +33,14 @@
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      i18n.locale=
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (243.23177)
-      Lombook Plugin (243.22562.218)
-      org.jetbrains.android (243.22562.218)
-    Kotlin: 243.22562.218-IJ
+      Dart (243.23654.44)
+      Lombook Plugin (243.23654.117)
+      org.jetbrains.android (243.23654.117)
+    Kotlin: 243.23654.117-IJ
     ```
+- History
   - IntelliJ IDEA 2024.3
     - Kotlin 2.1.0
       ```kts

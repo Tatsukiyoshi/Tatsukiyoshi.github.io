@@ -36,12 +36,12 @@
     <summary>InsiderDev</summary>
 
     ```
-    [✓] Flutter (Channel stable, 3.27.1, on Microsoft Windows [Version 10.0.26120.2705], locale ja-JP)
-        • Flutter version 3.27.1 on channel stable at C:\Users\taish\dev\flutter
+    [✓] Flutter (Channel stable, 3.27.2, on Microsoft Windows [Version 10.0.26120.2992], locale ja-JP)
+        • Flutter version 3.27.2 on channel stable at C:\Users\taish\dev\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 17025dd882 (6 days ago), 2024-12-17 03:23:09 +0900
-        • Engine revision cb4b5fff73
-        • Dart version 3.6.0
+        • Framework revision 68415ad1d9 (4 days ago), 2025-01-13 10:22:03 -0800
+        • Engine revision e672b006cb
+        • Dart version 3.6.1
         • DevTools version 2.40.2
 
     [✓] Windows Version (Installed version of Windows is version 10 or higher)
@@ -73,16 +73,16 @@
     [✓] IntelliJ IDEA Community Edition (version 2024.3)
         • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3
         • Flutter plugin version 83.0.4
-        • Dart plugin version 243.23177
+        • Dart plugin version 243.23654.44
 
-    [✓] VS Code (version 1.96.2)
+    [✓] VS Code (version 1.96.4)
         • VS Code at C:\Users\taish\AppData\Local\Programs\Microsoft VS Code
         • Flutter extension version 3.102.0
 
     [✓] Connected device (3 available)
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26120.2705]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 131.0.6778.205
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 132.0.2957.55
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26120.2992]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 131.0.6778.265
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 133.0.3065.10
 
     [✓] Network resources
         • All expected network resources are available.

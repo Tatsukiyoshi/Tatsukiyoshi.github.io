@@ -16,12 +16,12 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.83](#rust-1)                           |[2024/12/18](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3.2](#rustrover)               |[2024/12/22](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.2.1](#tauridesktop-framework)         |[2025/01/11](https://tauri.app/)
-      |           |Svelte 5.17.3                                  |2025/01/11
+      |Windows    |[Rust 1.84](#rust-1)                           |[2025/01/18](https://www.rust-lang.org/)  
+      |           |[RustRover 2024.3.3](#rustrover)               |[2025/01/18](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.2.3](#tauridesktop-framework)         |[2025/01/18](https://tauri.app/)
+      |           |Svelte 5.19.0                                  |2025/01/18
       |           |Vite 6.0.7                                     |2025/01/05
-      |           |Bun 1.1.43                                     |[2025/01/11](https://bun.sh/)
+      |           |Bun 1.1.45                                     |2025/01/18
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -29,13 +29,13 @@
   1. Ubuntu 24.04.1 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |InsiderDev |Rust 1.83            |2024/12/18
-      |           |Tauri 2.2.0          |2025/01/05
+      |InsiderDev |Rust 1.84            |2025/01/18
+      |           |Tauri 2.2.3          |2025/01/18
       |           |React 19.0.0         |2024/12/18
       |           |Vite 6.0.7           |2025/01/05
-      |           |Bun 1.1.42           |2025/01/05
+      |           |Bun 1.1.45           |2025/01/18
 
-  1. Chrome OS Flex 131.0.6778.214 (Official Build)
+  1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.83                                    |2024/12/08
@@ -48,9 +48,9 @@
   1.  Mac OS Sequoia 15.2
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.83            |2024/12/21
-      |           |Tauri 2.2.0          |2025/01/05
-      |           |Bun 1.1.43           |2025/01/09
+      |Mac OS     |Rust 1.84            |2025/01/18
+      |           |Tauri 2.2.3          |2025/01/18
+      |           |Bun 1.1.45           |2025/01/18
       |           |Vite 6.0.7           |2025/01/05
       |           |Node 22.6.0          |2024/08/17
 
@@ -117,14 +117,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3.2 Build #RR-243.22562.230 <span style="color: red;">**Updated 2024/12/22**</span>
+  - RustRover 2024.3.3 Build #RR-243.23654.116 <span style="color: red;">**Updated 2025/01/18**</span>
     ```
-    RustRover 2024.3.2
-    Build #RR-243.22562.230, built on December 19, 2024
+    RustRover 2024.3.3
+    Build #RR-243.23654.116, built on January 16, 2025
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial use only.
-    Runtime version: 21.0.5+8-b631.28 amd64 (JCEF 122.1.9)
+    Runtime version: 21.0.5+8-b631.30 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -134,13 +134,12 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      i18n.locale=
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      terminal.new.ui.show.promotion=false
-      transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (243.21565.122)
+      com.jetbrains.space (243.23654.19)
       ru.adelf.idea.dotenv (2024.3)
     ```
     - [履歴](../history/RustRover.md)
