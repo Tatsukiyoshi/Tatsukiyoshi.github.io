@@ -184,7 +184,7 @@ OS/言語を問わず利用するツールの情報
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
+- [Git 2.47.1](https://git-scm.com/download) <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
 - [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
