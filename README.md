@@ -115,29 +115,12 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 131.0.6778.241 <span style="color: red;">*<<2024/12/28 updated from 131.0.6778.96>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241228_Chrome_OS_Flex_131.0.6778.241.png)
-      - 更新中
-        ![Updating](./images/Chrome/20241228_Chrome_OS_Flex_Updating131.0.6778.241.png)
-      - レンダリング方法の変更に関する通知（131系以降）
-        ```
-        NOTICE:
-          To provide a more stable graphical user experience in Crostini,
-          the GPU-based rendering driver (virgl) has been disabled by default
-          for existing and new environments in ChromeOS version 131 and newer.
-
-          OpenGL and OpenGLES applications will continue to function using a
-          CPU-based rendering driver (swrast).
-
-          If you would like to re-enable GPU-based rendering in an unsupported
-          capacity, you may visit:  chrome://flags#crostini-gpu-support
-          in your Chrome browser and set the flag to "Enabled", then restart
-          your device.
-
-          (this message will be repeated 4 more times).
-          (to silence this message, run the following in this terminal):
-              echo 5 >"/home/taishow2006/.local/share/cros-motd"
-        ```
+  - バージョン 132.0.6834.154 <span style="color: red;">*<<2025/01/25 updated from 131.0.6778.241>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250125_Chrome_OS_Flex_132.0.6834.154.png)
+      - 更新中(to 132.0.6834.154)
+        ![Updating2](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.154.png)
+      - 更新中(to 132.0.6834.94)
+        ![Updating1](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.94.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
