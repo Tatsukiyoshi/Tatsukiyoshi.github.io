@@ -167,14 +167,11 @@ OS/言語を問わず利用するツールの情報
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.47.1](https://git-scm.com/download) <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
-- [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
-  - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
-  - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
-    - 3.4.5 -> 3.4.6 OK
-    - 3.4.0 -> 3.4.5 OK
-    - 3.4.2 -> 3.4.5 NG
-- [Docker](./knowhow/Docker.md)
+- [Git](https://git-scm.com/download)
+  - Windows
+    - Git 2.47.1 <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
+  - Mac OS
+    - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
 
 **Windows**
 - [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
@@ -184,6 +181,13 @@ OS/言語を問わず利用するツールの情報
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
+- [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
+  - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
+  - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
+    - 3.4.5 -> 3.4.6 OK
+    - 3.4.0 -> 3.4.5 OK
+    - 3.4.2 -> 3.4.5 NG
+- [Docker](./knowhow/Docker.md)
 
 **Mac**
 - [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
