@@ -174,8 +174,11 @@ OS/言語を問わず利用するツールの情報
     - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
 
 **Windows**
-- [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
+- [PowerShell 7.5.0](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/01/25 updated from 7.4.6>>*</span>
   - 製品版では、ストアアプリとして自動更新される
+    ```
+    2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
+    ```
   - Insider Preview環境では、ストアで更新できない。
     - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
