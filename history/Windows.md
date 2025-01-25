@@ -1,17 +1,25 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26100)
+      - Build 26120.2992 (Cumulative Update) <span style="color: red;">*<<2025/01/18 updated from Build 26120.2705 >>*</span>
+        ![Cumulative Update](../images/Windows/20250118_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20250118_Windows11_Build26120.png)
+        ```
+        今回、更新失敗したかのように「再試行」となった。そのため、再試行や再起動を繰り返すも、再試行されることはなかった。
+        しかし、バージョン情報が更新され、拡大鏡の改善が適用されていることから、問題なく、更新されたものと判断。
+        ```
       - Build 26120.2705 (Cumulative Update) <span style="color: red;">*<<2024/12/19 updated from Build 26120.2702 >>*</span>
         ![Cumulative Update](../images/Windows/20241219_WindowsUpdate_DevChannel.png)
-        - ウォーターマーク（右下のバージョン情報）はないため、代わりに「システム > バージョン情報」で確認（今後復活予定）
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241219_Windows11_Build26120.png)
       - Build 26120.2702 (Cumulative Update) <span style="color: red;">*<<2024/12/14 updated from Build 26120.2510 >>*</span>
         ![Cumulative Update](../images/Windows/20241214_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241214_Windows11_Build26120.png)
       - Build 26120.2510 (Cumulative Update) <span style="color: red;">*<<2024/12/07 updated from Build 26120.2415 >>*</span>
         ![Cumulative Update](../images/Windows/20241207_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241207_Windows11_Build26120.png)
           - Intel NPU Driver 32.0.100.3104
             ![Intel AI Boost](../images/Windows/20241207_Intel_NPU_Driver.png)
@@ -19,43 +27,44 @@
             ![Confirming for Recall](../images/Windows/20241207_Recall.png)
       - Build 26120.2415 (Cumulative Update) <span style="color: red;">*<<2024/11/23 updated from Build 26120.2222 >>*</span>
         ![Cumulative Update](../images/Windows/20241123_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241123_Windows11_Build26120.png)
       - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/15 updated from 24H2 >>*</span>
         ![Cumulative Update](../images/Windows/20241115_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241115_Windows11_Build26120.png)
       - Build 26120.2222 (Cumulative Update) <span style="color: red;">*<<2024/11/10 updated from 26120.2213>>*</span>
         ![Cumulative Update](../images/Windows/20241110_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241110_Windows11_Build26120.png)
       - Build 26120.2213 (Cumulative Update) <span style="color: red;">*<<2024/11/08 updated from 26120.2200>>*</span>
         ![Cumulative Update](../images/Windows/20241108_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+
           ![Version Information](../images/Windows/20241108_Windows11_Build26120.png)
       - Build 26120.2200 (Cumulative Update) <span style="color: red;">*<<2024/10/26 updated from 26120.2130>>*</span>
         ![Cumulative Update](../images/Windows/20241026_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241026_Windows11_Build26120.png)
       - Build 26120.2130 (Cumulative Update) <span style="color: red;">*<<2024/10/19 updated from 26120.2122>>*</span>
         ![Cumulative Update](../images/Windows/20241019_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241019_Windows11_Build26120.png)
       - Build 26120.2122 (Cumulative Update) <span style="color: red;">*<<2024/10/12 updated from 26120.1930>>*</span>
         ![Cumulative Update](../images/Windows/20241012_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241012_Windows11_Build26120.png)
       - Build 26120.1930 (Cumulative Update) <span style="color: red;">*<<2024/10/05 updated from 26120.1912>>*</span>
         ![Cumulative Update](../images/Windows/20241005_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241005_Windows11_Build26120.png)
       - Build 26120.1912 (Cumulative Update) <span style="color: red;">*<<2024/10/01 updated from 26120.1843>>*</span>
         ![Cumulative Update](../images/Windows/20241001_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241001_Windows11_Build26120.png)
       - Build 26120.1843 (Cumulative Update) <span style="color: red;">*<<2024/09/21 updated from 26120.1542>>*</span>
         ![Cumulative Update](../images/Windows/20240921_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240921_Windows11_Build26120.png)
       - Build 26120.1542 (Cumulative Update) <span style="color: red;">*<<2024/08/20 updated from 26120.1350>>*</span>
         ![Cumulative Update](../images/Windows/20240820_WindowsUpdate_DevChannel.png)
@@ -63,13 +72,13 @@
           ![TaskBar Aligned Center](../images/Windows/TaskBar_20240820_194033.png)
           ↓
           ![TaskBar Aligned Left with Widget](../images/Windows/TaskBar_20240820_201335.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240820_Windows11_Build26120.png)
       - Build 26120.1340 (Cumulative Update) <span style="color: red;">*<<2024/08/06 updated from 26120.1330>>*</span>
         ![Cumulative Update](../images/Windows/20240806_WindowsUpdate_DevChannel.png)
         - マウス（BlueTooth）/ ポインタ精度とホイール操作に関する設定追加
           ![Mouse](../images/Windows/20240806_WindowsUpdate_MouseSetting.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240806_Windows11_Build26120.png)
       - Build 26120.1330 (Cumulative Update) <span style="color: red;">*<<2024/07/28 updated from 26120.1252>>*</span>
         ![Cumulative Update](../images/Windows/20240728_WindowsUpdate_DevChannel.png)
@@ -78,44 +87,44 @@
         - ナレーターの改善
           ![自然な声](../images/Windows/20240728_Windows11_Build26120_Narrator.png)
           ![音声選択等](../images/Windows/20240728_Windows11_Build26120_Narrator_Configuration.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240728_Windows11_Build26120.png)
       - Build 26120.1252 (Cumulative Update) <span style="color: red;">*<<2024/07/16 updated from 26120.961>>*</span>
         ![Cumulative Update](../images/Windows/20240716_WindowsUpdate_DevChannel.png)
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240716_Windows11_Build26120.png)
       - Build 26120.961 (Cumulative Update) <span style="color: red;">*<<2024/06/15 updated from 26120.770>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240615_Windows11_Build26120.png)
       - Build 26120.770 (Cumulative Update) <span style="color: red;">*<<2024/06/09 updated from 26120.751>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240609_Windows11_Build26120.png)
       - Build 26120.751 (Cumulative Update) <span style="color: red;">*<<2024/06/01 updated from 26120.670>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240601_Windows11_Build26120.png)
       - Build 26120.670 (Cumulative Update) <span style="color: red;">*<<2024/05/18 updated from 26120.470>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240518_Windows11_Build26120.png)
         - Cumulative Update <span><<2024/05/18>></span>
           ![Cumulative Update](../images/Windows/20240518_WindowsUpdate_DevChannel.png)
       - Build 26120.470 (Cumulative Update) <span style="color: red;">*<<2024/05/11 updated from 26120.461>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240511_Windows11_Build26120.png)
         - Cumulative Update <span><<2024/05/11>></span>
           ![Cumulative Update](../images/Windows/20240511_WindowsUpdate_DevChannel.png)
       - Build 26120 (Enablement Package) <span style="color: red;">*<<2024/05/04 updated from 26100>>*</span> 
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20240504_Windows11_Build26120.png)
         - ダウンロード中 <span><<2024/05/04>></span>
           ![Now Downloading](../images/Windows/20240504_WindowsUpdate_DevChannel.png)
       - Build 26100 <span style="color: red;">*<<2024/04/04 updated from 26090>>*</span>
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-          ![デスクトップ](../images/Windows/20240404_Windows11_Build26100.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20240404_Windows11_Build26100.png)
         - Canary Channelアップデートにより、Dev Channelと再分離 / 24H2はFix / 次のアップデート配信待ち <span><<2024/04/27>></span>
           ![Update to 24H2](../images/Windows/20240427_WindowsUpdate_DevChannel.png)
       - Build 26090 <span style="color: red;">*<<2024/03/29 updated from 26085>>*</span>
-        - 右下のバージョン情報はない（今後復活する）ため、代わりに「システム > バージョン情報」で確認
-        ![デスクトップ](../images/Windows/20240329_Windows11_Build26090.png)
+        - ウォーターマーク（右下のバージョン情報）はなくなったため、今後復活するまでの間、代わりに「システム > バージョン情報」で確認
+        ![Version Information](../images/Windows/20240329_Windows11_Build26090.png)
       - Build 26085 <span style="color: red;">*<<2024/03/21 updated from 26080>>*</span>
         ![デスクトップ](../images/Windows/20240321_Windows11_Build26085.png)
       - Build 26080 <span style="color: red;">*<<2024/03/14 updated from 26058>>*</span>
