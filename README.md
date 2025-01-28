@@ -36,7 +36,7 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3000 (Cumulative Update) <span style="color: red;">*<<2025/01/18 updated from Build 26120.2992 >>*</span>
+    - Build 26120.3000 (Cumulative Update) <span style="color: red;">*<<2025/01/25 updated from Build 26120.2992 >>*</span>
       ![Cumulative Update](./images/Windows/20250125_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](./images/Windows/20250118_Windows11_Build26120.png)
