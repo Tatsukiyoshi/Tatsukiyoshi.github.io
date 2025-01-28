@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 2.1 |[2024/12/22](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 3.0 |[2025/01/25](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.1                                     |2025/01/18
   |           |  - [MAUI 9.0.30](#maui)                         |[2025/01/18](https://github.com/dotnet/maui)
   |           |- .NET 8.0.12                                    |2025/01/18
@@ -33,8 +33,8 @@
         - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
           ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - Visual Studio Preview
-    - 2022 17.13 Preview 2.1
-      ![VS2022 17.13 preview 2.1](../images/VisualStudio/20241222_Update_VS2022_17.13_Preview2.1.png)
+    - 2022 17.13 Preview 3.0
+      ![VS2022 17.13 preview 3.0](../images/VisualStudio/20250124_Update_VS2022_17.13_Preview3.0.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -74,9 +74,9 @@
 
   ```
   .NET SDK:
-  Version:           9.0.200-preview.0.24575.35
-  Commit:            81b5f040be
-  Workload version:  9.0.200-manifests.d67a1f3e
+  Version:           9.0.200-preview.0.25057.12
+  Commit:            cf6faae8d1
+  Workload version:  9.0.200-manifests.693890c1
   MSBuild version:   17.13.0-preview-24569-04+8f6b8ad0a
 
   ランタイム環境:
@@ -84,29 +84,29 @@
   OS Version:  10.0.26120
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.200-preview.0.24575.35\
+  Base Path:   C:\Program Files\dotnet\sdk\9.0.200-preview.0.25057.12\
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35617.110
-    マニフェストのバージョン:    35.0.24/9.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.android\35.0.24\WorkloadManifest.json
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    マニフェストのバージョン:    35.0.39/9.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.android\35.0.39\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35617.110
-    マニフェストのバージョン:    18.2.9170/9.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.2.9170\WorkloadManifest.json
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    マニフェストのバージョン:    18.2.9173/9.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.2.9173\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35617.110
-    マニフェストのバージョン:    18.2.9170/9.0.100
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.2.9170\WorkloadManifest.json
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    マニフェストのバージョン:    18.2.9173/9.0.100
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.2.9173\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35617.110
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
     マニフェストのバージョン:    9.0.14/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maui\9.0.14\WorkloadManifest.json
     インストールの種類:              Msi
@@ -121,7 +121,7 @@
   .NET SDKs installed:
     8.0.405 [C:\Program Files\dotnet\sdk]
     9.0.102 [C:\Program Files\dotnet\sdk]
-    9.0.200-preview.0.24575.35 [C:\Program Files\dotnet\sdk]
+    9.0.200-preview.0.25057.12 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 8.0.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]

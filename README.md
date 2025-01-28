@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/1/12～2025/1/18）](https://zenn.dev/tatsukiyoshi/articles/07af1ff37b5b07) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/1/19～2025/1/25）](https://zenn.dev/tatsukiyoshi/articles/f4305b2895eafa) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -36,14 +36,14 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.2992 (Cumulative Update) <span style="color: red;">*<<2025/01/18 updated from Build 26120.2705 >>*</span>
-      ![Cumulative Update](./images/Windows/20250118_WindowsUpdate_DevChannel.png)
-      - ウォーターマーク（右下のバージョン情報）はないため、代わりに「システム > バージョン情報」で確認（今後復活予定）
+    - Build 26120.3000 (Cumulative Update) <span style="color: red;">*<<2025/01/25 updated from Build 26120.2992 >>*</span>
+      ![Cumulative Update](./images/Windows/20250125_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](./images/Windows/20250118_Windows11_Build26120.png)
-      ```
-      今回、更新失敗したかのように「再試行」となった。そのため、再試行や再起動を繰り返すも、再試行されることはなかった。
-      しかし、バージョン情報が更新され、拡大鏡の改善が適用されていることから、問題なく、更新されたものと判断。
-      ```
+      - タスクバーのバッテリアイコンが改善（スタートとタスクビューのアイコンがない！）
+        ![Taskbar](./images/Windows/TaskBar_20250125_134309.png)
+        ↓再起動で復活した！検索アイコンも！
+        ![Taskbar](./images/Windows/TaskBar_20250125_160253.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -115,29 +115,12 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 131.0.6778.241 <span style="color: red;">*<<2024/12/28 updated from 131.0.6778.96>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20241228_Chrome_OS_Flex_131.0.6778.241.png)
-      - 更新中
-        ![Updating](./images/Chrome/20241228_Chrome_OS_Flex_Updating131.0.6778.241.png)
-      - レンダリング方法の変更に関する通知（131系以降）
-        ```
-        NOTICE:
-          To provide a more stable graphical user experience in Crostini,
-          the GPU-based rendering driver (virgl) has been disabled by default
-          for existing and new environments in ChromeOS version 131 and newer.
-
-          OpenGL and OpenGLES applications will continue to function using a
-          CPU-based rendering driver (swrast).
-
-          If you would like to re-enable GPU-based rendering in an unsupported
-          capacity, you may visit:  chrome://flags#crostini-gpu-support
-          in your Chrome browser and set the flag to "Enabled", then restart
-          your device.
-
-          (this message will be repeated 4 more times).
-          (to silence this message, run the following in this terminal):
-              echo 5 >"/home/taishow2006/.local/share/cros-motd"
-        ```
+  - バージョン 132.0.6834.154 <span style="color: red;">*<<2025/01/25 updated from 131.0.6778.241>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250125_Chrome_OS_Flex_132.0.6834.154.png)
+      - 更新中(to 132.0.6834.154)
+        ![Updating2](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.154.png)
+      - 更新中(to 132.0.6834.94)
+        ![Updating1](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.94.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
@@ -184,7 +167,23 @@ OS/言語を問わず利用するツールの情報
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
-- [Git 2.47](https://git-scm.com/download) <span style="color: red;">*<<2024/10/11 updated from 2.46>>*</span>
+- [Git](https://git-scm.com/download)
+  - Windows
+    - Git 2.47.1 <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
+  - Mac OS
+    - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
+
+**Windows**
+- [PowerShell 7.5.0](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/01/25 updated from 7.4.6>>*</span>
+  - 製品版では、ストアアプリとして自動更新される
+    ```
+    2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
+    ```
+  - Insider Preview環境では、ストアで更新できない。
+    - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
+      ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
+    - インストーラを起動して、セットアップする
+      ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 - [GitHub Desktop 3.4.8](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2024/10/25 updated from 3.4.6>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
@@ -192,15 +191,6 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 - [Docker](./knowhow/Docker.md)
-
-**Windows**
-- [PowerShell 7.4.6](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2024/10/25 updated from 7.4.5>>*</span>
-  - 製品版では、ストアアプリとして自動更新される
-  - Insider Preview環境では、ストアで更新できない。
-    - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
-      ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
-    - インストーラを起動して、セットアップする
-      ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 
 **Mac**
 - [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
