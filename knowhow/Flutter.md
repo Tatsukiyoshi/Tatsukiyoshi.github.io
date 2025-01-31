@@ -36,10 +36,10 @@
     <summary>InsiderDev</summary>
 
     ```
-    [✓] Flutter (Channel stable, 3.27.2, on Microsoft Windows [Version 10.0.26120.2992], locale ja-JP)
+    [✓] Flutter (Channel stable, 3.27.2, on Microsoft Windows [Version 10.0.26120.3000], locale ja-JP)
         • Flutter version 3.27.2 on channel stable at C:\Users\taish\dev\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 68415ad1d9 (4 days ago), 2025-01-13 10:22:03 -0800
+        • Framework revision 68415ad1d9 (3 weeks ago), 2025-01-13 10:22:03 -0800
         • Engine revision e672b006cb
         • Dart version 3.6.1
         • DevTools version 2.40.2
@@ -50,25 +50,25 @@
         • Android SDK at C:\Users\taish\AppData\Local\Android\sdk
         • Platform android-Baklava, build-tools 35.0.0
         • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
-        • Java version OpenJDK Runtime Environment (build 21.0.5+-12771278-b631.28)
+        • Java version OpenJDK Runtime Environment (build 21.0.5+-12932927-b750.29)
         • All Android licenses accepted.
 
     [✓] Chrome - develop for the web
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.13.0 Preview 2.1)
+    [✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.13.0 Preview 4.0)
         • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Preview
-        • Visual Studio Community 2022 version 17.13.35617.110
+        • Visual Studio Community 2022 version 17.13.35723.152
         • The current Visual Studio installation is a pre-release version. It may not be supported by Flutter yet.
         • Windows 10 SDK version 10.0.22621.0
 
-    [✓] Android Studio (version 2024.3)
+    [✓] Android Studio (version 2024.3.2)
         • Android Studio at C:\Program Files\Android\Android Studio
         • Flutter plugin can be installed from:
           🔨 https://plugins.jetbrains.com/plugin/9212-flutter
         • Dart plugin can be installed from:
           🔨 https://plugins.jetbrains.com/plugin/6351-dart
-        • Java version OpenJDK Runtime Environment (build 21.0.5+-12771278-b631.28)
+        • Java version OpenJDK Runtime Environment (build 21.0.5+-12932927-b750.29)
 
     [✓] IntelliJ IDEA Community Edition (version 2024.3)
         • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3
@@ -79,10 +79,11 @@
         • VS Code at C:\Users\taish\AppData\Local\Programs\Microsoft VS Code
         • Flutter extension version 3.102.0
 
-    [✓] Connected device (3 available)
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26120.2992]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 131.0.6778.265
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 133.0.3065.10
+    [✓] Connected device (4 available)
+        • sdk gphone16k x86 64 (mobile) • emulator-5554 • android-x64    • Android 15 (API 35) (emulator)
+        • Windows (desktop)             • windows       • windows-x64    • Microsoft Windows [Version 10.0.26120.3000]
+        • Chrome (web)                  • chrome        • web-javascript • Google Chrome 131.0.6778.265
+        • Edge (web)                    • edge          • web-javascript • Microsoft Edge 133.0.3065.31
 
     [✓] Network resources
         • All expected network resources are available.
