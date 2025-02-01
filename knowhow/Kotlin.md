@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                                             |最終更新      
   |-----------|--------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.2](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.2.2](#intellij-idea)                          |[2025/02/01](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                      |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
   |           |[Android Studio Meerkat 2024.3.2 Canary 2](#android-studio)         |[2025/01/31](https://developer.android.com/studio)
@@ -21,9 +21,9 @@
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.2 (Community Edition)
+  - IntelliJ IDEA 2024.3.2.2 (Community Edition)
     ```
-    Build #IC-243.23654.117, built on January 16, 2025
+    Build #IC-243.23654.189, built on January 29, 2025
     Runtime version: 21.0.5+8-b631.30 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -36,11 +36,29 @@
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
       Dart (243.23654.44)
-      Lombook Plugin (243.23654.117)
-      org.jetbrains.android (243.23654.117)
-    Kotlin: 243.23654.117-IJ
+      Lombook Plugin (243.23654.189)
+      org.jetbrains.android (243.23654.189)
+    Kotlin: 243.23654.189-IJ
     ```
 - History
+  - IntelliJ IDEA 2024.3.2.2
+    - Mockito as agent over jdk 21
+      - [Support configuring Mockito java agent in java 21+](https://github.com/spring-io/initializr/issues/1590)
+        ```kts
+        var mockitoAgent = configurations.create("mockitoAgent")
+
+        dependencies {
+          ...
+          testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
+          mockitoAgent("org.mockito:mockito-core") { isTransitive = false }
+        }
+
+        tasks {
+          test {
+            jvmArgs("-javaagent:${mockitoAgent.asPath}")
+          }
+        }
+        ```
   - IntelliJ IDEA 2024.3
     - Kotlin 2.1.0
       ```kts
