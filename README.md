@@ -99,6 +99,7 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
+      - [Upgrade](./sub/Ubuntu/20250201_Upgrade.md)
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)
