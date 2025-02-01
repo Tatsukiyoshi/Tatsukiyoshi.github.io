@@ -17,11 +17,11 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.84](#rust-1)                           |[2025/01/18](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3.3](#rustrover)               |[2025/01/18](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.2.3](#tauridesktop-framework)         |[2025/01/18](https://tauri.app/)
-      |           |Svelte 5.19.0                                  |2025/01/18
-      |           |Vite 6.0.7                                     |2025/01/05
-      |           |Bun 1.1.45                                     |2025/01/18
+      |           |[RustRover 2025.1 EAP Build 1](#rustrover)     |[2025/02/01](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.2.5](#tauridesktop-framework)         |[2025/02/01](https://tauri.app/)
+      |           |Svelte 5.19.6                                  |2025/02/01
+      |           |Vite 6.0.11                                    |2025/02/01
+      |           |Bun 1.2.2                                      |2025/02/01
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -30,10 +30,10 @@
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |InsiderDev |Rust 1.84            |2025/01/18
-      |           |Tauri 2.2.3          |2025/01/18
+      |           |Tauri 2.2.5          |2025/02/01
       |           |React 19.0.0         |2024/12/18
-      |           |Vite 6.0.7           |2025/01/05
-      |           |Bun 1.1.45           |2025/01/18
+      |           |Vite 6.0.11          |2025/02/01
+      |           |Bun 1.2.2            |2025/02/01
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -49,9 +49,9 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.84            |2025/01/18
-      |           |Tauri 2.2.3          |2025/01/18
-      |           |Bun 1.1.45           |2025/01/18
-      |           |Vite 6.0.7           |2025/01/05
+      |           |Tauri 2.2.5          |2025/02/01
+      |           |Bun 1.2.2            |2025/02/01
+      |           |Vite 6.0.11          |2025/02/01
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -117,14 +117,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3.3 Build #RR-243.23654.116 <span style="color: red;">**Updated 2025/01/18**</span>
+  - RustRover 2025.1 EAP Build #RR-251.18673.38 <span style="color: red;">**Updated 2025/02/01**</span>
     ```
-    RustRover 2024.3.3
-    Build #RR-243.23654.116, built on January 16, 2025
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年5月22日 までアクティブです。
-    For non-commercial use only.
-    Runtime version: 21.0.5+8-b631.30 amd64 (JCEF 122.1.9)
+    RustRover 2025.1 EAP
+    Build #RR-251.18673.38, built on January 30, 2025
+    Source revision: b8ebe4d494b3c
+    ライセンス対象: RustRover EAP user: Shinya Watanabe
+    有効期限: March 1, 2025
+    Runtime version: 21.0.6+8-b825.77 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -134,13 +134,12 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      org.toml.json.schema=false
       transferSettings.vscode.onlyCargoToml=true
-      terminal.new.ui.show.promotion=false
+      org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (243.23654.19)
-      ru.adelf.idea.dotenv (2024.3)
+      com.jetbrains.space (251.18673.35)
+      ru.adelf.idea.dotenv (251.1)
     ```
     - [履歴](../history/RustRover.md)
   - データベース

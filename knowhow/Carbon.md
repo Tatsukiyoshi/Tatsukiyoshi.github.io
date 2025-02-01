@@ -4,6 +4,7 @@
   |端末       |環境／FW      |最終更新
   |-----------|-------------|----------
   |InsiderDev |Carbon       |2025/01/13
+  |           |- LLVM 19.1.1|2025/02/01
   |Ubuntu     |Carbon       |-
 
 ##  概要
@@ -11,6 +12,136 @@
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
+### 環境更新 [on Ubuntu 24.04 *@2025/02/01** <span style="color: red;">*Updated!*</span>]
+-   [LLVM 18 から 19 への更新](../sub/Ubuntu/20250201_Upgrade.md)を受け、環境更新を試みた
+
+1.  Carbon コードの取得
+    ```
+    git clone https://github.com/carbon-language/carbon-lang
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    Cloning into 'carbon-lang'...
+    remote: Enumerating objects: 96837, done.
+    remote: Counting objects: 100% (5074/5074), done.
+    remote: Compressing objects: 100% (2828/2828), done.
+    remote: Total 96837 (delta 4357), reused 2248 (delta 2246), pack-reused 91763 (from 5)
+    Receiving objects: 100% (96837/96837), 45.47 MiB | 21.12 MiB/s, done.
+    Resolving deltas: 100% (79772/79772), done.
+    ```
+    </details>
+
+1.  ツールチェーンのヘルプ表示
+    ```
+    cd carbon-lang
+    ./scripts/run_bazelisk.py run //toolchain -- help
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    Starting local Bazel server and connecting to it...
+    INFO: Invocation ID: e3f66832-f0a5-4029-a0a9-360855b01b4f
+    INFO: Analyzed target //toolchain:toolchain (116 packages loaded, 10931 targets configured).
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 4999.111s, Critical Path: 231.73s
+    INFO: 3323 processes: 216 action cache hit, 80 internal, 3243 linux-sandbox.
+    INFO: Build completed successfully, 3323 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+e25705161
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] clang [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>...
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+
+    Subcommands:
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+        --include-diagnostic-kind
+            When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+    </details>
+
+1.  explorerを実行
+    ```
+    ./scripts/run_bazelisk.py run //explorer -- ./explorer/testdata/print/format_only.carbon
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    INFO: Invocation ID: 87bae7b4-8736-404c-b4b3-13dc77ab5dde
+    INFO: Analyzed target //explorer:explorer (17 packages loaded, 722 targets configured).
+    INFO: Found 1 target...
+    Target //explorer:explorer up-to-date:
+    bazel-bin/explorer/explorer
+    INFO: Elapsed time: 83.597s, Critical Path: 59.78s
+    INFO: 41 processes: 335 action cache hit, 2 internal, 39 linux-sandbox.
+    INFO: Build completed successfully, 41 total actions
+    INFO: Running command line: bazel-bin/explorer/explorer <args omitted>
+    Hello world!
+    result: 0
+    ```
+    </details>
+
 ### 環境再構築 [on Ubuntu 24.04 *@2025/01/13** <span style="color: red;">*Installed!*</span>]
 1.  環境確認
     ```

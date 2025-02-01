@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/1/19～2025/1/25）](https://zenn.dev/tatsukiyoshi/articles/f4305b2895eafa) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/1/26～2025/2/1）](https://zenn.dev/tatsukiyoshi/articles/2101d480413ee2) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -36,14 +36,10 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3000 (Cumulative Update) <span style="color: red;">*<<2025/01/25 updated from Build 26120.2992 >>*</span>
-      ![Cumulative Update](./images/Windows/20250125_WindowsUpdate_DevChannel.png)
+    - Build 26120.3073 (Cumulative Update) <span style="color: red;">*<<2025/02/01 updated from Build 26120.3000 >>*</span>
+      ![Cumulative Update](./images/Windows/20250201_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250118_Windows11_Build26120.png)
-      - タスクバーのバッテリアイコンが改善（スタートとタスクビューのアイコンがない！）
-        ![Taskbar](./images/Windows/TaskBar_20250125_134309.png)
-        ↓再起動で復活した！検索アイコンも！
-        ![Taskbar](./images/Windows/TaskBar_20250125_160253.png)
+        ![Version Information](./images/Windows/20250201_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -103,15 +99,14 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
+      - [Upgrade](./sub/Ubuntu/20250201_Upgrade.md)
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
-    - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20241212_MacOS_Sequoia15.2Update.png)
+  - [Sequoia 15.3](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/01/29 updated from Sequoia 15.2>>*</span>
     - バージョン情報
-      ![Sequoia 15.2](./images/Mac/20241212_MacOS_Sequoia15.2.png)
+      ![Sequoia 15.3](./images/Mac/20250129_MacOS_Sequoia15.3.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)

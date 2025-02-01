@@ -1,6 +1,14 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 24H2 (Build 26100)
+      - Build 26120.3000 (Cumulative Update) <span style="color: red;">*<<2025/01/25 updated from Build 26120.2992 >>*</span>
+        ![Cumulative Update](../images/Windows/20250125_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20250125_Windows11_Build26120.png)
+        - タスクバーのバッテリアイコンが改善（スタートとタスクビューのアイコンがない！）
+          ![Taskbar](../images/Windows/TaskBar_20250125_134309.png)
+          ↓再起動で復活した！検索アイコンも！
+          ![Taskbar](../images/Windows/TaskBar_20250125_160253.png)
       - Build 26120.2992 (Cumulative Update) <span style="color: red;">*<<2025/01/18 updated from Build 26120.2705 >>*</span>
         ![Cumulative Update](../images/Windows/20250118_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認

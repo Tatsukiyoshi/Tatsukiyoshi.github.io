@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 3.0 |[2025/01/25](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |InsiderDev |Visual Studio Community 2022 17.13.0 Preview 4.0 |[2025/01/31](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.1                                     |2025/01/18
   |           |  - [MAUI 9.0.30](#maui)                         |[2025/01/18](https://github.com/dotnet/maui)
   |           |- .NET 8.0.12                                    |2025/01/18
@@ -33,8 +33,8 @@
         - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
           ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - Visual Studio Preview
-    - 2022 17.13 Preview 3.0
-      ![VS2022 17.13 preview 3.0](../images/VisualStudio/20250124_Update_VS2022_17.13_Preview3.0.png)
+    - 2022 17.13 Preview 4.0
+      ![VS2022 17.13 preview 4.0](../images/VisualStudio/20250131_Update_VS2022_17.13_Preview4.0.png)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -88,25 +88,25 @@
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35723.152
     マニフェストのバージョン:    35.0.39/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.android\35.0.39\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35723.152
     マニフェストのバージョン:    18.2.9173/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.ios\18.2.9173\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35723.152
     マニフェストのバージョン:    18.2.9173/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maccatalyst\18.2.9173\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35716.79
+    インストール ソース: SDK 9.0.200-preview.0, VS 17.13.35723.152
     マニフェストのバージョン:    9.0.14/9.0.100
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\9.0.100\microsoft.net.sdk.maui\9.0.14\WorkloadManifest.json
     インストールの種類:              Msi

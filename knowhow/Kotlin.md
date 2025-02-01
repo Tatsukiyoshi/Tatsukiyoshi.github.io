@@ -10,20 +10,20 @@
 ##  環境
   |端末       |環境／FW                                                             |最終更新      
   |-----------|--------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.2](#intellij-idea)                            |[2024/12/19](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.2.2](#intellij-idea)                          |[2025/02/01](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.0                                                      |[2024/12/07](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.2 Canary 1](#android-studio)         |[2025/01/22](https://developer.android.com/studio)
-  |           |- Kotlin 2.1.0                                                      |[2024/12/07](https://kotlinlang.org/docs/home.html)
+  |           |[Android Studio Meerkat 2024.3.2 Canary 2](#android-studio)         |[2025/01/31](https://developer.android.com/studio)
+  |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                               |2024/12/14
-  |           |- Android Emulator v.35.4.5                                         |2025/01/17
+  |           |- Android Emulator v.35.5.1                                         |2025/01/31
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.2 (Community Edition)
+  - IntelliJ IDEA 2024.3.2.2 (Community Edition)
     ```
-    Build #IC-243.23654.117, built on January 16, 2025
+    Build #IC-243.23654.189, built on January 29, 2025
     Runtime version: 21.0.5+8-b631.30 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -36,11 +36,29 @@
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
       Dart (243.23654.44)
-      Lombook Plugin (243.23654.117)
-      org.jetbrains.android (243.23654.117)
-    Kotlin: 243.23654.117-IJ
+      Lombook Plugin (243.23654.189)
+      org.jetbrains.android (243.23654.189)
+    Kotlin: 243.23654.189-IJ
     ```
 - History
+  - IntelliJ IDEA 2024.3.2.2
+    - Mockito as agent over jdk 21
+      - [Support configuring Mockito java agent in java 21+](https://github.com/spring-io/initializr/issues/1590)
+        ```kts
+        var mockitoAgent = configurations.create("mockitoAgent")
+
+        dependencies {
+          ...
+          testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
+          mockitoAgent("org.mockito:mockito-core") { isTransitive = false }
+        }
+
+        tasks {
+          test {
+            jvmArgs("-javaagent:${mockitoAgent.asPath}")
+          }
+        }
+        ```
   - IntelliJ IDEA 2024.3
     - Kotlin 2.1.0
       ```kts
@@ -136,10 +154,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 1
+  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 2
     ```
-    Build #AI-243.22562.218.2432.12933754, built on January 17, 2025
-    Runtime version: 21.0.5+-12771278-b631.28 amd64
+    Build #AI-243.22562.218.2432.12959061, built on January 23, 2025
+    Runtime version: 21.0.5+-12932927-b750.29 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -180,6 +198,9 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop Canary 2
+        - Kotlin 2.1.0 -> 2.1.10
+        ![SDKUpdate](../images/Android/20250131_AndroidStudioUpdate.png)
       - Meerkat Canary 9 対応
         - Android Gradle Plugin 8.7.3 -> 8.8.0
       - Meerkat Canary 4 対応

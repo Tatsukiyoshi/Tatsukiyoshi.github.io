@@ -1,4 +1,10 @@
 - Update History
+  - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](../images/Mac/20241212_MacOS_Sequoia15.2Update.png)
+    - バージョン情報
+      ![Sequoia 15.2](../images/Mac/20241212_MacOS_Sequoia15.2.png)
   - [Sequoia 15.1.1](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2024/11/21 updated from Sequoia 15.1>>*</span>
     - ソフトウェアアップデート
