@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.84](#rust-1)                           |[2025/01/18](https://www.rust-lang.org/)  
-      |           |[RustRover 2024.3.3](#rustrover)               |[2025/01/18](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2024.3.4](#rustrover)               |[2025/02/01](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.2.3](#tauridesktop-framework)         |[2025/01/18](https://tauri.app/)
       |           |Svelte 5.19.0                                  |2025/01/18
       |           |Vite 6.0.7                                     |2025/01/05
@@ -117,10 +117,10 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2024.3.3 Build #RR-243.23654.116 <span style="color: red;">**Updated 2025/01/18**</span>
+  - RustRover 2024.3.4 Build #RR-243.23654.180 <span style="color: red;">**Updated 2025/02/01**</span>
     ```
-    RustRover 2024.3.3
-    Build #RR-243.23654.116, built on January 16, 2025
+    RustRover 2024.3.4
+    Build #RR-243.23654.180, built on January 28, 2025
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 までアクティブです。
     For non-commercial use only.
