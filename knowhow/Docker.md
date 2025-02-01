@@ -2,7 +2,7 @@
 
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
-  |InsiderDev|Rancher Desktop 1.16                                 |[2025/01/04](https://rancherdesktop.io/)
+  |InsiderDev|Rancher Desktop 1.17.1                               |[2025/02/01](https://rancherdesktop.io/)
 
 ##  ノウハウ
 - [Rancher Desktop](https://rancherdesktop.io/)
