@@ -61,13 +61,13 @@ Ubuntu Desktop              |TransBook
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.4.9.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/02 updated from 2.4.8.0>>*</span>
+      - [WSL 2.4.10.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/02 updated from 2.4.8.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.4.9.0
+        WSL バージョン: 2.4.10.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5716
