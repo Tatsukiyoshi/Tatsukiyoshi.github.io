@@ -61,23 +61,24 @@ Ubuntu Desktop              |TransBook
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.4.8.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/12/19 updated from 2.4.4.0>>*</span>
+      - [WSL 2.4.9.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/02 updated from 2.4.8.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.4.8.0
+        WSL バージョン: 2.4.9.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5716
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.2705
+        Windows バージョン: 10.0.26120.3073
         ```
         </details>
 
       - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
+        - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -99,7 +100,6 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
-      - [Upgrade](./sub/Ubuntu/20250201_Upgrade.md)
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)
