@@ -154,7 +154,10 @@ OS/言語を問わず利用するツールの情報
 ```
 - [Visual Studio Code 1.97](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/07 updated from 1.96.4>>*</span>
   - GitHub Copilot
-    - 表示メニューから選択するとサイドパネルにCopilotが出現する
+    - モデルとして、新たにGeminiも選択可能になる<BR />
+      ![Gemini in Model Selection](./images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
+      ![Gemini in GitHub Copilot](./images/VisualStudioCode/20250208_Gemini_on_GitHub_Copilot.png)
+    - 表示メニューから選択するとサイドパネルにCopilotが出現する<BR />
       ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
       ![AI Chat](./images/VisualStudioCode/20241220_GitHub_Copilot_Free.png)
   - [以前の新機能](./history/VSCode.md)
