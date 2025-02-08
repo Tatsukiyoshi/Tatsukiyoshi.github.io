@@ -110,12 +110,10 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 132.0.6834.154 <span style="color: red;">*<<2025/01/25 updated from 131.0.6778.241>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250125_Chrome_OS_Flex_132.0.6834.154.png)
-      - 更新中(to 132.0.6834.154)
-        ![Updating2](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.154.png)
-      - 更新中(to 132.0.6834.94)
-        ![Updating1](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.94.png)
+  - バージョン 132.0.6834.190 <span style="color: red;">*<<2025/02/08 updated from 132.0.6834.154>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250208_Chrome_OS_Flex_132.0.6834.190.png)
+      - 更新中
+        ![Updating](./images/Chrome/20250208_Chrome_OS_Flex_Updating132.0.6834.190.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
