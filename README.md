@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/1/26～2025/2/1）](https://zenn.dev/tatsukiyoshi/articles/2101d480413ee2) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/2/2～2025/2/8）](https://zenn.dev/tatsukiyoshi/articles/33948f6f81be6c) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -61,23 +61,24 @@ Ubuntu Desktop              |TransBook
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.4.8.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2024/12/19 updated from 2.4.4.0>>*</span>
+      - [WSL 2.4.10.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/02 updated from 2.4.8.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.4.8.0
+        WSL バージョン: 2.4.10.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5716
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.2705
+        Windows バージョン: 10.0.26120.3073
         ```
         </details>
 
       - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
+        - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -99,7 +100,6 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
-      - [Upgrade](./sub/Ubuntu/20250201_Upgrade.md)
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)
@@ -110,12 +110,10 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 132.0.6834.154 <span style="color: red;">*<<2025/01/25 updated from 131.0.6778.241>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250125_Chrome_OS_Flex_132.0.6834.154.png)
-      - 更新中(to 132.0.6834.154)
-        ![Updating2](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.154.png)
-      - 更新中(to 132.0.6834.94)
-        ![Updating1](./images/Chrome/20250125_Chrome_OS_Flex_Updating132.0.6834.94.png)
+  - バージョン 132.0.6834.190 <span style="color: red;">*<<2025/02/08 updated from 132.0.6834.154>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250208_Chrome_OS_Flex_132.0.6834.190.png)
+      - 更新中
+        ![Updating](./images/Chrome/20250208_Chrome_OS_Flex_Updating132.0.6834.190.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
@@ -154,9 +152,12 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.96.4](https://code.visualstudio.com/) <span style="color: red;">*<<2025/01/17 updated from 1.96.2>>*</span>
+- [Visual Studio Code 1.97](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/07 updated from 1.96.4>>*</span>
   - GitHub Copilot
-    - 表示メニューから選択するとサイドパネルにCopilotが出現する
+    - モデルとして、新たにGeminiも選択可能になる<BR />
+      ![Gemini in Model Selection](./images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
+      ![Gemini in GitHub Copilot](./images/VisualStudioCode/20250208_Gemini_on_GitHub_Copilot.png)
+    - 表示メニューから選択するとサイドパネルにCopilotが出現する<BR />
       ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
       ![AI Chat](./images/VisualStudioCode/20241220_GitHub_Copilot_Free.png)
   - [以前の新機能](./history/VSCode.md)

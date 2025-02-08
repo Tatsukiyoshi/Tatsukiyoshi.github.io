@@ -27,16 +27,16 @@
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.1.43                  |[2025/01/11](https://bun.sh/)
-      |           |Vite 6.0.7                  |[2025/01/05](https://vitejs.dev/)
+      |           |Bun 1.2.2                   |[2025/02/01](https://bun.sh/)
+      |           |Vite 6.0.11                 |[2025/02/01](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
-      |           |Astro 5.1.3                 |[2025/01/07](https://astro.build/)
-      |           |- Bun 1.1.42                |2024/12/31
+      |           |Astro 5.2.5                 |[2025/02/08](https://astro.build/)
       |           |- React 19.0.0              |2024/12/11
-      |           |Next.js 15.1.3              |[2025/01/07](https://nextjs.org/)
+      |           |- Bun 1.2.2                 |2025/02/01
+      |           |Next.js 15.1.6              |[2025/02/08](https://nextjs.org/)
       |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.1.42                |2024/12/31
+      |           |- Bun 1.2.2                 |2025/02/01
       |           |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
       |           |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2                |2024/11/30
