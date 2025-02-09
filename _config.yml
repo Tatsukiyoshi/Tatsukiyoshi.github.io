@@ -2,3 +2,9 @@ theme: jekyll-theme-minimal
 title: リスキリング（プログラミング）
 description: 独学プログラミング演習
 markdown: GFM
+plugins:
+  - jekyll-readme-index
+readme_index:
+  enabled:          true
+  remove_originals: true
+  with_frontmatter: false
