@@ -16,7 +16,7 @@
   |           |[Android Studio Meerkat 2024.3.2 Canary 4](#android-studio)         |[2025/02/07](https://developer.android.com/studio)
   |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                               |2024/12/14
-  |           |- Android Emulator v.35.5.1                                         |2025/01/31
+  |           |- Android Emulator v.35.5.2                                         |2025/02/10
 
 ##  ノウハウ
 ### IntelliJ IDEA
