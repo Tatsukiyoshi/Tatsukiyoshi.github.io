@@ -20,8 +20,8 @@
   
       |ホスト                          |FW              |最終更新      
       |-------------------------------|----------------|----------
-      |[Vercel](https://vercel.com/)  |Next.js 15.1.3  |[2024/12/28](https://next-grid-chart.vercel.app/)
-      |                               |Astro 5.1.1     |[2024/12/28](https://astro-react-grid-chart.vercel.app/)
+      |[Vercel](https://vercel.com/)  |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
+      |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
 
   1.  Windows
       |端末       |FW                          |最終更新      
@@ -299,6 +299,7 @@
       - DPS Workflow
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
+    - [Tailwindcss with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
     - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
       ```
       bun create next-app
