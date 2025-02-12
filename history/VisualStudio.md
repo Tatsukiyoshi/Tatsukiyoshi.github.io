@@ -1,4 +1,9 @@
 ##  Visual Studio 2022
+  - 17.13 Preview 5.0
+    ![VS2022 17.13 preview 5.0](../images/VisualStudio/20250205_Update_VS2022_17.13_Preview5.0.png)
+  - 17.12.4 / Windows Updateで更新
+  - 17.12.3
+    ![VS2022 17.12.3](../images/VisualStudio/20241206_Update_VS2022_17.12.3.png)
   - 17.12 / MAUI 9.0.10 / Pixel 9 Pro API 35(Android 15)
     ![MAUI - Pixel 9 Pro API 35](../images/VisualStudio/20241117_VS2022_17.12_MAUI9.0.10_Android15.png)
     <details>
@@ -262,6 +267,12 @@
       ![MAUI - Pixel 5 API 34](../images/VisualStudio/20241011_VS2022_17.11.5_MAUI91_Android14.png)
   - 17.10.4 / MAUI 8.0.61(SR6.1) / Pixel 8 API 34(Android 14)
     ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240713_VS2022_17.10.4_MAUI_Android.png)
+  - 17.10.3
+    - GitHub Copilotの利用
+      - 早速、無料試用版の利用開始を促される <BR />
+        ![VS2022_Copilot](../images/VisualStudio/20240704_GitHub_Copilot.png)
+      - GitHub側でGitHub Copilotの利用を開始することで、Visual Studioで利用できるらしい！
+        ![GitHub Copilot](../images/VisualStudio/20240704_GitHub_Copilot_Setting.png)
   - 17.10.3 / MAUI 8.0.40(SR5)
     - 8.0.40同梱で、Androidエミュレータでの実行確認
       ![MAUI - Pixel 8](../images/VisualStudio/20240626_VS2022_17.10.3_MAUI_Android.png)
