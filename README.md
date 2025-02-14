@@ -154,7 +154,7 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.97](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/07 updated from 1.96.4>>*</span>
+- [Visual Studio Code 1.97.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/14 updated from 1.97>>*</span>
   - GitHub Copilot
     - モデルとして、新たにGeminiも選択可能になる<BR />
       ![Gemini in Model Selection](./images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
