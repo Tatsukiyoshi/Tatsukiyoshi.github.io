@@ -13,10 +13,10 @@
   |InsiderDev |[IntelliJ IDEA 2024.3.3](#intellij-idea)                            |[2025/02/13](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.10                                                     |[2025/02/01](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.2 Canary 4](#android-studio)         |[2025/02/07](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.2 Canary 5](#android-studio)         |[2025/02/14](https://developer.android.com/studio)
   |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                               |2024/12/14
-  |           |- Android Emulator v.35.5.2                                         |2025/02/10
+  |           |- Android Emulator v.35.5.3                                         |2025/02/14
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -154,10 +154,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 4
+  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 5
     ```
-    Build #AI-243.23654.117.2432.13021186, built on February 6, 2025
-    Runtime version: 21.0.5+-12932927-b750.29 amd64
+    Build #AI-243.23654.117.2432.13058383, built on February 13, 2025
+    Runtime version: 21.0.5+-13047016-b750.29 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -197,9 +197,12 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop Canary 5
+        - Android Gradle Plugin 8.8.0 -> 8.8.1
       - Meerkat Feature Drop Canary 2
         - Kotlin 2.1.0 -> 2.1.10
-        ![SDKUpdate](../images/Android/20250131_AndroidStudioUpdate.png)
+        - Update SDK
+          ![SDKUpdate](../images/Android/20250131_AndroidStudioUpdate.png)
       - Meerkat Canary 9 対応
         - Android Gradle Plugin 8.7.3 -> 8.8.0
       - Meerkat Canary 4 対応
