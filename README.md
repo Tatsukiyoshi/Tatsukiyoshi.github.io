@@ -164,7 +164,7 @@ OS/言語を問わず利用するツールの情報
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
-    - Git 2.47.1 <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
+    - Git 2.48.1 <span style="color: red;">*<<2025/02/15 updated from 2.47.1>>*</span>
   - Mac OS
     - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
 
