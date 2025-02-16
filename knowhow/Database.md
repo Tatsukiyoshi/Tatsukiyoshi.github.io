@@ -4,14 +4,14 @@
 
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
-  |Windows   |[SQL Server 2022 Developer 16.0.4155.4](#sql-server) |[2024/11/13](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |          |- SQL Server Management Studio 21.0.73 Preview 2.1   |[2025/01/05](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |Windows   |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |          |- SQL Server Management Studio 21.0.85 Preview 4.0   |[2025/02/12](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |          |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
   |          |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-  |          |MongoDB 8.0.1                                        |2024/10/19
+  |          |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
   |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |          |MySQL Community Server 8.4.2                         |2024/08/24
-  |InsiderDev|PostgreSQL 17.2                                      |2024/12/31
+  |InsiderDev|PostgreSQL 17.3                                      |2025/02/15
   |          |MySQL Community Server 9.1.0                         |2025/01/04
 
 ##  ノウハウ
@@ -71,19 +71,10 @@
     - admin/sqlsuper
   - SSMS(SQL Server Management Studio)
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
-    - SSMS 21.0.73 Preview 2.1
-      - 64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-        ![SSMS21 Preview 2.1](../images/Database/20250105_SSMS21.0.73_Preview2.1.png)
-      - コンポート名とバージョン情報
-        ```
-        SQL Server Management Studio						21.0.73.35617.110
-        SQL Server 管理オブジェクト (SMO)						17.100.59.0+a94dad0182852f5525ad6535c8774dfc17d1a80f
-        Microsoft T-SQL Parser						17.2.9.1+6d57751656f58b56aee52eb2638218ed0c2e70f8.6d57751656f58b56aee52eb2638218ed0c2e70f8
-        Microsoft Data SqlClient (MDS)						5.1.6
-        Microsoft SQL Server データ層アプリケーション フレームワーク (DacFX)						162.4.96.1+aa6267a9a33cd6e077fe8ea5fa178573b0bf53a1
-        Microsoft .NET Framework						4.0.30319.42000
-        オペレーティング システム						10.0.26100
-        ```
+    - SQL Server Management Studio 21 <BR />
+      64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
+      - SSMS 21.0.85 Preview 4.0 <BR />
+        ![Update Check](../images/Database/20250212_SSMS21.0.85_Preview4.0.png)
     - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
@@ -94,6 +85,7 @@
   - PgAdmin対応表
     PostgreSQL | PgAdmin4
     -----------|-----------
+    17.3       | 9.0
     17.2       | 8.14
     17.0       | 8.12
     16.4       | 8.10

@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/2/2～2025/2/8）](https://zenn.dev/tatsukiyoshi/articles/33948f6f81be6c) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/2/9～2025/2/15）](https://zenn.dev/tatsukiyoshi/articles/2b0dab1693ba32) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -36,10 +36,10 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3073 (Cumulative Update) <span style="color: red;">*<<2025/02/01 updated from Build 26120.3000 >>*</span>
-      ![Cumulative Update](./images/Windows/20250201_WindowsUpdate_DevChannel.png)
+    - Build 26120.3281 (Cumulative Update) <span style="color: red;">*<<2025/02/15 updated from Build 26120.3073 >>*</span>
+      ![Cumulative Update](./images/Windows/20250215_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250201_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20250215_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -61,13 +61,13 @@ Ubuntu Desktop              |TransBook
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  InsiderDev
-      - [WSL 2.4.10.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/02 updated from 2.4.8.0>>*</span>
+      - [WSL 2.4.11.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/13 updated from 2.4.10.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 5.15.167.4-1</summary>
 
         ```
-        WSL バージョン: 2.4.10.0
+        WSL バージョン: 2.4.11.0
         カーネル バージョン: 5.15.167.4-1
         WSLg バージョン: 1.0.65
         MSRDC バージョン: 1.2.5716
@@ -103,17 +103,19 @@ Ubuntu Desktop              |TransBook
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.3](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/01/29 updated from Sequoia 15.2>>*</span>
+  - [Sequoia 15.3.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/02/11 updated from Sequoia 15.3>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](./images/Mac/20250211_MacOS_Sequoia15.3.1Update.png)
     - バージョン情報
-      ![Sequoia 15.3](./images/Mac/20250129_MacOS_Sequoia15.3.png)
+      ![Sequoia 15.3.1](./images/Mac/20250211_MacOS_Sequoia15.3.1.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 132.0.6834.190 <span style="color: red;">*<<2025/02/08 updated from 132.0.6834.154>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250208_Chrome_OS_Flex_132.0.6834.190.png)
+  - バージョン 132.0.6834.206 <span style="color: red;">*<<2025/02/14 updated from 132.0.6834.190>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250214_Chrome_OS_Flex_132.0.6834.206.png)
       - 更新中
-        ![Updating](./images/Chrome/20250208_Chrome_OS_Flex_Updating132.0.6834.190.png)
+        ![Updating](./images/Chrome/20250214_Chrome_OS_Flex_Updating132.0.6834.206.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
@@ -152,20 +154,17 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.97](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/07 updated from 1.96.4>>*</span>
+- [Visual Studio Code 1.97.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/14 updated from 1.97>>*</span>
   - GitHub Copilot
     - モデルとして、新たにGeminiも選択可能になる<BR />
       ![Gemini in Model Selection](./images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
       ![Gemini in GitHub Copilot](./images/VisualStudioCode/20250208_Gemini_on_GitHub_Copilot.png)
-    - 表示メニューから選択するとサイドパネルにCopilotが出現する<BR />
-      ![Menu](./images/VisualStudioCode/20241220_Menu_of_GitHub_Copilot_Free.png)
-      ![AI Chat](./images/VisualStudioCode/20241220_GitHub_Copilot_Free.png)
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
-    - Git 2.47.1 <span style="color: red;">*<<2025/01/25 updated from 2.47>>*</span>
+    - Git 2.48.1 <span style="color: red;">*<<2025/02/15 updated from 2.47.1>>*</span>
   - Mac OS
     - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
 
