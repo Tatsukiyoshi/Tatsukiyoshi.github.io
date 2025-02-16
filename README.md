@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/2/2～2025/2/8）](https://zenn.dev/tatsukiyoshi/articles/33948f6f81be6c) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/2/9～2025/2/15）](https://zenn.dev/tatsukiyoshi/articles/2b0dab1693ba32) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -112,7 +112,7 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 132.0.6834.206 <span style="color: red;">*<<2025/02/08 updated from 132.0.6834.190>>*</span>
+  - バージョン 132.0.6834.206 <span style="color: red;">*<<2025/02/14 updated from 132.0.6834.190>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20250214_Chrome_OS_Flex_132.0.6834.206.png)
       - 更新中
         ![Updating](./images/Chrome/20250214_Chrome_OS_Flex_Updating132.0.6834.206.png)
