@@ -26,13 +26,13 @@
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
 
-  1. Ubuntu 24.04.1 on Windows 11
+  1. Ubuntu 24.04.2 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
       |InsiderDev |Rust 1.84            |2025/01/18
       |           |Tauri 2.2.5          |2025/02/01
       |           |React 19.0.0         |2024/12/18
-      |           |Vite 6.0.11          |2025/02/01
+      |           |Vite 6.1.1           |2025/02/21
       |           |Bun 1.2.2            |2025/02/01
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
