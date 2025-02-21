@@ -105,6 +105,10 @@
       ```sh
       bun upgrade
       ```
+    - [convert lockfile to text](https://bun.sh/blog/bun-lock-text-lockfile)
+      ```
+      bun install --save-text-lockfile
+      ```
   - [Deno](https://deno.land/)
     - Denoを試してみる
       - インストール
