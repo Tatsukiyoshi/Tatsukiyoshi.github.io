@@ -77,17 +77,17 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
-      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
+      - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
         - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
         ```
-        PRETTY_NAME="Ubuntu 24.04.1 LTS"
+        PRETTY_NAME="Ubuntu 24.04.2 LTS"
         NAME="Ubuntu"
         VERSION_ID="24.04"
-        VERSION="24.04.1 LTS (Noble Numbat)"
+        VERSION="24.04.2 LTS (Noble Numbat)"
         VERSION_CODENAME=noble
         ID=ubuntu
         ID_LIKE=debian
