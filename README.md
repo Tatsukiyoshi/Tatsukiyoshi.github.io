@@ -36,10 +36,10 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3281 (Cumulative Update) <span style="color: red;">*<<2025/02/15 updated from Build 26120.3073 >>*</span>
-      ![Cumulative Update](./images/Windows/20250215_WindowsUpdate_DevChannel.png)
+    - Build 26120.3291 (Cumulative Update) <span style="color: red;">*<<2025/02/22 updated from Build 26120.3281 >>*</span>
+      ![Cumulative Update](./images/Windows/20250222_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250215_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20250222_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
