@@ -28,10 +28,10 @@
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
       |           |Bun 1.2.2                   |[2025/02/01](https://bun.sh/)
-      |           |Vite 6.0.11                 |[2025/02/01](https://vitejs.dev/)
+      |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
-      |           |Astro 5.2.5                 |[2025/02/08](https://astro.build/)
+      |           |Astro 5.3.0                 |[2025/02/22](https://astro.build/)
       |           |- React 19.0.0              |2024/12/11
       |           |- Bun 1.2.2                 |2025/02/01
       |           |Next.js 15.1.6              |[2025/02/08](https://nextjs.org/)
@@ -48,9 +48,9 @@
       |           |React Native Windows 0.76.2 |[2024/12/04](https://microsoft.github.io/react-native-windows/)
       |           |- Windows SDK 10.0.22621    |2024/12/04
       |           |- Bun 1.1.38                |2024/11/29
-      |           |Svelte 5.19.0               |[2025/01/18](https://svelte.dev/)
-      |           |- Bun 1.1.45                |2025/01/18
-      |           |- Vite 6.0.7                |2025/01/05
+      |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
+      |           |- Bun 1.2.22                |2025/02/22
+      |           |- Vite 6.1.1                |2025/02/22
       |InsiderDev |Node.js 22.12.0             |2024/12/14
       |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
 
