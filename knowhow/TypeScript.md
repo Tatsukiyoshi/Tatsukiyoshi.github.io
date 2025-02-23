@@ -212,6 +212,7 @@
           ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
+    - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - [Astro 5.0 beta](https://5-0-0-beta.docs.astro.build/en/guides/upgrade-to/v5/)
       - Upgrade
         ```
