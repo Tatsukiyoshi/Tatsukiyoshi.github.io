@@ -180,8 +180,6 @@ OS/言語を問わず利用するツールの情報
     - インストーラを起動して、セットアップする
       ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 - [GitHub Desktop 3.4.16](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2025/02/23 updated from 3.4.8>>*</span>
-  - GitHubも改良が進んでおり、Issueを作成すると、そのIssueのためのBranchを作成し、そのBranchをGitHub Desktopで開くとかもできる
-    ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
     - 3.4.5 -> 3.4.6 OK
@@ -319,6 +317,10 @@ OSやツールのノウハウは、以下を参照
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
+  - GitHubも改良が進んでおり、Issueを作成すると、そのIssueのためのBranchを作成し、そのBranchをGitHub Desktopで開くとかもできる
+    ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
+  - BranchからのMerge Requestを作成すると、Issueに関連付けられる
+    ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
 - Git
   - ユーザ設定
     ```
