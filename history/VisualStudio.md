@@ -1,4 +1,6 @@
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.13.0
+    ![VS2022 17.13.0](../images/VisualStudio/20250212_Update_VS2022_17.13.0.png)
   - 17.13 Preview 5.0
     ![VS2022 17.13 preview 5.0](../images/VisualStudio/20250205_Update_VS2022_17.13_Preview5.0.png)
   - 17.12.4 / Windows Updateで更新

@@ -15,7 +15,7 @@
   |           |  - [MAUI 9.0.40](#maui)                         |[2025/02/12](https://github.com/dotnet/maui)
   |           |- .NET 8.0.13                                    |2025/02/12
   |           |- Android Emulator v.35.3.11                     |2025/02/12
-  |Windows    |Visual Studio Community 2022 17.13.0             |[2025/02/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows    |Visual Studio Community 2022 17.13.1             |[2025/02/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |           |- .NET 9.0.2                                     |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- .NET 8.0.13                                    |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |           |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -23,8 +23,8 @@
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
-    - Visual Studio 2022 17.13.0
-      ![VS2022 17.13.0](../images/VisualStudio/20250212_Update_VS2022_17.13.0.png)
+    - Visual Studio 2022 17.13.1
+      ![VS2022 17.13.1](../images/VisualStudio/20250223_Update_VS2022_17.13.1.png)
   - Visual Studio Preview
     - Visual Studio 2022 17.14 Preview 1.0
       ![VS2022 17.14 preview 1.0](../images/VisualStudio/20250212_Update_VS2022_17.14_Preview1.0.png)
@@ -155,7 +155,7 @@
   .NET SDK:
   Version:           9.0.200
   Commit:            90e8b202f2
-  Workload version:  9.0.200-manifests.c4f6226a
+  Workload version:  9.0.200-manifests.69179adf
   MSBuild version:   17.13.8+cbc39bea8
 
   ランタイム環境:

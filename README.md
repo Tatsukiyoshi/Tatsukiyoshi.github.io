@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/2/9～2025/2/15）](https://zenn.dev/tatsukiyoshi/articles/2b0dab1693ba32) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/2/16～2025/2/22）](https://zenn.dev/tatsukiyoshi/articles/3ca77a7029b5bd) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -36,10 +36,10 @@ Ubuntu Desktop              |TransBook
 ### OS
 - [Windows Insider](https://blogs.windows.com/windows-insider/)
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3281 (Cumulative Update) <span style="color: red;">*<<2025/02/15 updated from Build 26120.3073 >>*</span>
-      ![Cumulative Update](./images/Windows/20250215_WindowsUpdate_DevChannel.png)
+    - Build 26120.3291 (Cumulative Update) <span style="color: red;">*<<2025/02/22 updated from Build 26120.3281 >>*</span>
+      ![Cumulative Update](./images/Windows/20250222_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250215_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20250222_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -77,17 +77,17 @@ Ubuntu Desktop              |TransBook
         ```
         </details>
 
-      - [Ubuntu 24.04.1](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2024/11/15 installed>>*</span>
+      - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
         - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
         ```
-        PRETTY_NAME="Ubuntu 24.04.1 LTS"
+        PRETTY_NAME="Ubuntu 24.04.2 LTS"
         NAME="Ubuntu"
         VERSION_ID="24.04"
-        VERSION="24.04.1 LTS (Noble Numbat)"
+        VERSION="24.04.2 LTS (Noble Numbat)"
         VERSION_CODENAME=noble
         ID=ubuntu
         ID_LIKE=debian
@@ -112,10 +112,10 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 132.0.6834.206 <span style="color: red;">*<<2025/02/14 updated from 132.0.6834.190>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250214_Chrome_OS_Flex_132.0.6834.206.png)
+  - バージョン 132.0.6834.208 <span style="color: red;">*<<2025/02/22 updated from 132.0.6834.206>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250222_Chrome_OS_Flex_132.0.6834.208.png)
       - 更新中
-        ![Updating](./images/Chrome/20250214_Chrome_OS_Flex_Updating132.0.6834.206.png)
+        ![Updating](./images/Chrome/20250222_Chrome_OS_Flex_Updating132.0.6834.208.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
