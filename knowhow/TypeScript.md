@@ -49,8 +49,10 @@
       |           |- Windows SDK 10.0.22621    |2024/12/04
       |           |- Bun 1.1.38                |2024/11/29
       |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
-      |           |- Bun 1.2.22                |2025/02/22
+      |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
+      |Mac OS     |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
       |InsiderDev |Node.js 22.12.0             |2024/12/14
       |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
 
@@ -178,17 +180,30 @@
     - React Native
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
+      - Bun + React Native + TypeScript
+        ```
+        bun create expo expo-bun-sample
+        bun add -d typescript @react-native/typescript-config jest @types/react -y
+        ```
+        - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
+        - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
-        - Android SDK配下にあるエミュレータを起動する
-        - あらかじめ、SDKインストールディレクトリを確認すること
-        - AVD Managerでイメージを作成しておくこと
-          ```sh
-          <Android SDKインストールディレクトリ>\emulator\emulator.exe -avd Nexus_5X_API_29_x86
-          ```
-        - プロジェクトをビルドする（ビルド後、APがエミュレータにインストールされる）
-          ```sh
-          react-native run-android
-          ```
+        - iOS
+          - iOS エミュレータを起動
+            ```
+            bun run ios
+            ```
+        - Android
+          - Android SDK配下にあるエミュレータを起動する
+          - あらかじめ、SDKインストールディレクトリを確認すること
+          - AVD Managerでイメージを作成しておくこと
+            ```sh
+            <Android SDKインストールディレクトリ>\emulator\emulator.exe -avd Nexus_5X_API_29_x86
+            ```
+          - プロジェクトをビルドする（ビルド後、APがエミュレータにインストールされる）
+            ```sh
+            react-native run-android
+            ```
       - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows)
         - 前提条件
           - Node.js development
