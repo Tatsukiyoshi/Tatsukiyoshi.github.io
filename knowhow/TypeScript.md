@@ -27,7 +27,7 @@
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.2.2                   |[2025/02/01](https://bun.sh/)
+      |           |Bun 1.2.3                   |[2025/02/24](https://bun.sh/)
       |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
@@ -44,17 +44,24 @@
       |           |- Bun 1.1.38                |2024/11/29
       |           |Deno 2.1.2                  |[2024/11/30](https://deno.land/)
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
-      |           |React Native 0.76.3         |[2024/12/04](https://reactnative.dev/)
+      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
       |           |React Native Windows 0.76.2 |[2024/12/04](https://microsoft.github.io/react-native-windows/)
       |           |- Windows SDK 10.0.22621    |2024/12/04
       |           |- Bun 1.1.38                |2024/11/29
       |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
       |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
-      |Mac OS     |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
-      |           |- Bun 1.2.3                 |2025/02/24
       |InsiderDev |Node.js 22.12.0             |2024/12/14
       |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
+      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
+
+  1.  Mac OS
+      |端末       |FW                          |最終更新      
+      |-----------|----------------------------|----------
+      |Mac OS     |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
 
 ##  ノウハウ
 ### TypeScript
