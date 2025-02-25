@@ -46,9 +46,10 @@
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
-      |           |React Native Windows 0.76.2 |[2024/12/04](https://microsoft.github.io/react-native-windows/)
+      |           |React Native Windows 0.77.2 |[2025/02/25](https://microsoft.github.io/react-native-windows/)
+      |           |- Bun 1.2.3                 |2025/02/24
+      |           |- React Native 0.77.1       |2025/02/25
       |           |- Windows SDK 10.0.22621    |2024/12/04
-      |           |- Bun 1.1.38                |2024/11/29
       |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
       |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
@@ -225,11 +226,11 @@
         - Windowsターゲット追加
           ```sh
           cd projectName
-          npx react-native-windows-init --overwrite
+          bunx react-native init-windows --overwrite
           ```
         - 実行
           ```sh
-          npx react-native run-windows
+          bun windows
           ```
           ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
     - [Gluon](https://gluonjs.org/)
