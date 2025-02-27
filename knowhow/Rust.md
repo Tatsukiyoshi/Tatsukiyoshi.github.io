@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.84](#rust-1)                           |[2025/01/18](https://www.rust-lang.org/)  
-      |           |[RustRover 2025.1 EAP build 2](#rustrover)     |[2025/02/11](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2025.1 EAP build 3](#rustrover)     |[2025/02/26](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.2.5](#tauridesktop-framework)         |[2025/02/01](https://tauri.app/)
       |           |Svelte 5.19.6                                  |2025/02/01
       |           |Vite 6.0.11                                    |2025/02/01
@@ -117,14 +117,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.20015.38 <span style="color: red;">**Updated 2025/02/11**</span>
+  - RustRover 2025.1 EAP Build #RR-251.22821.75 <span style="color: red;">**Updated 2025/02/26**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.20015.38, built on February 7, 2025
-    Source revision: 853eeba6fdac0
+    Build #RR-251.22821.75, built on February 24, 2025
+    Source revision: ba438c46cf904
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: March 9, 2025
-    Runtime version: 21.0.6+8-b872.80 amd64 (JCEF 122.1.9)
+    有効期限: March 26, 2025
+    Runtime version: 21.0.6+9-b895.91 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -134,15 +134,13 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
       transferSettings.vscode.onlyCargoToml=true
-      org.toml.json.schema=false
       terminal.new.ui.show.promotion=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      org.toml.json.schema=false
     Non-Bundled Plugins:
-      com.jetbrains.space (251.20015.29)
-      ru.adelf.idea.dotenv (251.20015.29)
-      org.jetbrains.plugins.gitlab (IU-251.20015.54)
-      org.jetbrains.plugins.github (IU-251.20015.44)
+      com.jetbrains.space (251.22821.72)
+      ru.adelf.idea.dotenv (251.22821.72)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
