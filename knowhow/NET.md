@@ -10,7 +10,7 @@
 ##  環境
   |端末       |環境／FW                                          |最終更新
   |-----------|-------------------------------------------------|----------
-  |InsiderDev |Visual Studio Community 2022 17.14.0 Preview 1.0 |[2025/02/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |InsiderDev |Visual Studio Community 2022 17.14.0 Preview 1.1 |[2025/02/27](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |           |- .NET 9.0.2                                     |2025/02/12
   |           |  - [MAUI 9.0.40](#maui)                         |[2025/02/12](https://github.com/dotnet/maui)
   |           |- .NET 8.0.13                                    |2025/02/12
@@ -26,8 +26,8 @@
     - Visual Studio 2022 17.13.1
       ![VS2022 17.13.1](../images/VisualStudio/20250223_Update_VS2022_17.13.1.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14 Preview 1.0
-      ![VS2022 17.14 preview 1.0](../images/VisualStudio/20250212_Update_VS2022_17.14_Preview1.0.png)
+    - Visual Studio 2022 17.14 Preview 1.1
+      ![VS2022 17.14 preview 1.1](../images/VisualStudio/20250227_Update_VS2022_17.14_Preview1.1.png)
   - [履歴](../history/VisualStudio.md)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
