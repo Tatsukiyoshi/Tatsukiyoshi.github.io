@@ -2,7 +2,7 @@
 
   |端末      |環境／FW                                              |最終更新
   |----------|-----------------------------------------------------|----------
-  |InsiderDev|Rancher Desktop 1.17.1                               |[2025/02/01](https://rancherdesktop.io/)
+  |InsiderDev|Rancher Desktop 1.18.0                               |[2025/02/27](https://rancherdesktop.io/)
 
 ##  ノウハウ
 - [Rancher Desktop](https://rancherdesktop.io/)
@@ -12,6 +12,7 @@
     docker pull mysql
     docker run --name InsiderDev_MySQL -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:latest
     ```
+  - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
 - [Windows 11にDocker Desktopを入れる手順（令和5年最新版）](https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3)
   - Windows 11にWSLをセットアップして、Docker DesktopをLinux＋Windowsのコンテナ切り換えを可能にする
     1.  Hyper-Vを有効化する
