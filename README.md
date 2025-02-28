@@ -321,6 +321,8 @@ OSやツールのノウハウは、以下を参照
     ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
   - BranchからのMerge Requestを作成すると、Issueに関連付けられる
     ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
+  - GitHub ProjectsでBoard作成してみた
+    ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)
 - Git
   - ユーザ設定
     ```
