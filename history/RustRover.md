@@ -1,4 +1,5 @@
 - RustRover 履歴
+  - 2025.1 EAP Build #RR-251.22821.75 <span style="color: red;">**Updated 2025/02/26**</span>
   - 2025.1 EAP Build #RR-251.20015.38 <span style="color: red;">**Updated 2025/02/11**</span>
   - 2025.1 EAP Build #RR-251.18673.38 <span style="color: red;">**Updated 2025/02/01**</span>
   - 2024.3.4 Build #RR-243.23654.180 <span style="color: red;">**Updated 2025/02/01**</span>
