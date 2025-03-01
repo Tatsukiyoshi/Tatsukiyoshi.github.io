@@ -48,10 +48,10 @@
   1.  Mac OS Sequoia 15.2
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.84            |2025/01/18
-      |           |Tauri 2.2.5          |2025/02/01
-      |           |Bun 1.2.2            |2025/02/01
-      |           |Vite 6.0.11          |2025/02/01
+      |Mac OS     |Rust 1.85            |2025/03/01
+      |           |Tauri 2.3.1          |2025/03/01
+      |           |Bun 1.2.4            |2025/03/01
+      |           |Vite 6.2.0           |2025/03/01
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -357,6 +357,9 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.3.1
+    - iOS 18.3 / iPhone 16e
+      ![tauri 2.3.1 on iPhone 16e](/images/Mac/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
   - V2.0
     - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
       ```

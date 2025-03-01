@@ -239,6 +239,8 @@ OSやツールのノウハウは、以下を参照
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
+    ![Components Update](/images/Mac/20250301_XCode_Components_Update.png)
+    ![Components Updating](/images/Mac/20250301_XCode_Components_Updating.png)
   - CocoaPods
     - Homebrew / CocoaPodsのインストール
       ```
