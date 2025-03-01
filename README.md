@@ -324,6 +324,8 @@ OSやツールのノウハウは、以下を参照
       ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
     - Sub Issueの並び替え（Issueにカーソルを合わせるとカーソルが手になって並び替えできる）
       ![SubIssue Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
+      - Insider BuildのEdgeではできない模様（カーソルが手に変わらない！）
+        ![SubIssue Not Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
     ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)
 - Git
