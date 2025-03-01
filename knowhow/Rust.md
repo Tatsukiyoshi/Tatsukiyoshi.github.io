@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)  
       |           |[RustRover 2025.1 EAP build 4](#rustrover)     |[2025/03/01](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.2.5](#tauridesktop-framework)         |[2025/02/01](https://tauri.app/)
-      |           |Svelte 5.19.6                                  |2025/02/01
-      |           |Vite 6.0.11                                    |2025/02/01
-      |           |Bun 1.2.2                                      |2025/02/01
+      |           |[Tauri 2.3.1](#tauridesktop-framework)         |[2025/03/01](https://tauri.app/)
+      |           |Svelte 5.20.5                                  |2025/03/01
+      |           |Vite 6.2.0                                     |2025/03/01
+      |           |Bun 1.2.4                                      |2025/03/01
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -358,8 +358,10 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.3.1
+    - Windows
+      ![On Windows](../images/rust/20250301_Tauri2.3.1_Windows.png)
     - iOS 18.3 / iPhone 16e
-      ![tauri 2.3.1 on iPhone 16e](/images/Mac/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
+      ![On iPhone 16e](../images/rust/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
   - V2.0
     - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
       ```
