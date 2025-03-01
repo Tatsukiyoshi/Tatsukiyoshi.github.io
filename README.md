@@ -317,10 +317,13 @@ OSやツールのノウハウは、以下を参照
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
-  - GitHubも改良が進んでおり、Issueを作成すると、そのIssueのためのBranchを作成し、そのBranchをGitHub Desktopで開くとかもできる
-    ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
-  - BranchからのMerge Requestを作成すると、Issueに関連付けられる
-    ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
+  - GitHub Issue
+    - GitHubも改良が進んでおり、Issueを作成すると、そのIssueのためのBranchを作成し、そのBranchをGitHub Desktopで開くとかもできる
+      ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
+    - BranchからのMerge Requestを作成すると、Issueに関連付けられる
+      ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
+    - Sub Issueの並び替え（Issueにカーソルを合わせるとカーソルが手になって並び替えできる）
+      ![SubIssue Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
     ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)
 - Git
