@@ -29,11 +29,11 @@
   1. Ubuntu 24.04.2 on Windows 11
       |端末       |環境／FW              |最終更新
       |-----------|---------------------|----------
-      |InsiderDev |Rust 1.84            |2025/01/18
-      |           |Tauri 2.2.5          |2025/02/01
+      |InsiderDev |Rust 1.85            |2025/03/01
+      |           |Tauri 2.3.1          |2025/03/01
       |           |React 19.0.0         |2024/12/18
-      |           |Vite 6.1.1           |2025/02/21
-      |           |Bun 1.2.2            |2025/02/01
+      |           |Vite 6.2.0           |2025/03/01
+      |           |Bun 1.2.4            |2025/03/01
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -360,6 +360,8 @@
   - V2.3.1
     - Windows
       ![On Windows](../images/rust/20250301_Tauri2.3.1_Windows.png)
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250301_Tauri2.3.1_Ubuntu24.04.png)
     - iOS 18.3 / iPhone 16e
       ![On iPhone 16e](../images/rust/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
   - V2.0
