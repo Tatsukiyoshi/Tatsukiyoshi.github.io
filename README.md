@@ -120,7 +120,34 @@ Ubuntu Desktop              |TransBook
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
   ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
-  ![System Detail](./images/Ubuntu/20250112_Ubuntu24.10_Detail.png)
+
+  <details>
+  <summary>System Details</summary>
+
+  ```
+  # System Details Report
+  ---
+
+  ## Report details
+  - **Date generated:**                              2025-03-01 21:47:59
+
+  ## Hardware Information:
+  - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
+  - **Memory:**                                      4.0 GiB
+  - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
+  - **Graphics:**                                    Intel® HD Graphics (CHV)
+  - **Disk Capacity:**                               125.1 GB
+
+  ## Software Information:
+  - **Firmware Version:**                            T103HAF.307
+  - **OS Name:**                                     Ubuntu 24.10
+  - **OS Build:**                                    (null)
+  - **OS Type:**                                     64-bit
+  - **GNOME Version:**                               47
+  - **Windowing System:**                            Wayland
+  - **Kernel Version:**                              Linux 6.11.0-18-generic
+  ```
+  </details>
 
   <details>
   <summary>ディストリビューション・バージョン情報</summary>
