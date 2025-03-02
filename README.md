@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/2/16～2025/2/22）](https://zenn.dev/tatsukiyoshi/articles/3ca77a7029b5bd) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/2/23～2025/3/1）](https://zenn.dev/tatsukiyoshi/articles/5a130c0af4373e) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```

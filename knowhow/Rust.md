@@ -16,7 +16,7 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)  
+      |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
       |           |[RustRover 2025.1 EAP build 4](#rustrover)     |[2025/03/01](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.3.1](#tauridesktop-framework)         |[2025/03/01](https://tauri.app/)
       |           |Svelte 5.20.5                                  |2025/03/01
