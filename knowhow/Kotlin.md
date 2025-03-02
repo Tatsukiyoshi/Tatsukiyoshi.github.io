@@ -10,20 +10,20 @@
 ##  環境
   |端末       |環境／FW                                                             |最終更新      
   |-----------|--------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.3](#intellij-idea)                            |[2025/02/13](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.4](#intellij-idea)                            |[2025/03/02](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.10                                                     |[2025/02/01](https://kotlinlang.org/docs/home.html)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.2 Canary 6](#android-studio)         |[2025/02/24](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.2 Canary 7](#android-studio)         |[2025/03/02](https://developer.android.com/studio)
   |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                               |2024/12/14
-  |           |- Android Emulator v.35.5.3                                         |2025/02/14
+  |           |- Android Emulator v.35.5.5                                         |2025/03/02
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.3 (Community Edition)
+  - IntelliJ IDEA 2024.3.4 (Community Edition)
     ```
-    Build #IC-243.24978.46, built on February 11, 2025
+    Build #IC-243.25659.39, built on February 27, 2025
     Runtime version: 21.0.6+8-b631.39 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -32,13 +32,13 @@
     Memory: 2048M
     Cores: 8
     Registry:
-    ide.experimental.ui=true
-    llm.show.ai.promotion.window.on.start=false
+      ide.experimental.ui=true
+      llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-    Dart (243.23654.44)
-    Lombook Plugin (243.23654.189)
-    org.jetbrains.android (243.24978.46)
-    Kotlin: 243.24978.46-IJ
+      Dart (243.23654.44)
+      Lombook Plugin (243.23654.189)
+      org.jetbrains.android (243.25659.39)
+    Kotlin: 243.25659.39-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.2.2
@@ -154,10 +154,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 6
+  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 7
     ```
-    Build #AI-243.24978.46.2432.13093109, built on February 20, 2025
-    Runtime version: 21.0.5+-13047016-b750.29 amd64
+    Build #AI-243.24978.46.2432.13133389, built on February 27, 2025
+    Runtime version: 21.0.6+-13119726-b895.91 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -197,6 +197,8 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop Canary 7
+        - Android Gradle Plugin 8.8.1 -> 8.8.2
       - Meerkat Feature Drop Canary 5
         - Android Gradle Plugin 8.8.0 -> 8.8.1
       - Meerkat Feature Drop Canary 2
