@@ -27,7 +27,7 @@
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.2.2                   |[2025/02/01](https://bun.sh/)
+      |           |Bun 1.2.3                   |[2025/02/24](https://bun.sh/)
       |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
@@ -44,15 +44,25 @@
       |           |- Bun 1.1.38                |2024/11/29
       |           |Deno 2.1.2                  |[2024/11/30](https://deno.land/)
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
-      |           |React Native 0.76.3         |[2024/12/04](https://reactnative.dev/)
-      |           |React Native Windows 0.76.2 |[2024/12/04](https://microsoft.github.io/react-native-windows/)
+      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
+      |           |React Native Windows 0.77.2 |[2025/02/25](https://microsoft.github.io/react-native-windows/)
+      |           |- Bun 1.2.3                 |2025/02/24
+      |           |- React Native 0.77.1       |2025/02/25
       |           |- Windows SDK 10.0.22621    |2024/12/04
-      |           |- Bun 1.1.38                |2024/11/29
       |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
-      |           |- Bun 1.2.22                |2025/02/22
+      |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
       |InsiderDev |Node.js 22.12.0             |2024/12/14
       |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
+      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
+
+  1.  Mac OS
+      |端末       |FW                          |最終更新      
+      |-----------|----------------------------|----------
+      |Mac OS     |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |           |- Bun 1.2.3                 |2025/02/24
 
 ##  ノウハウ
 ### TypeScript
@@ -178,17 +188,30 @@
     - React Native
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
+      - Bun + React Native + TypeScript
+        ```
+        bun create expo expo-bun-sample
+        bun add -d typescript @react-native/typescript-config jest @types/react -y
+        ```
+        - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
+        - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
-        - Android SDK配下にあるエミュレータを起動する
-        - あらかじめ、SDKインストールディレクトリを確認すること
-        - AVD Managerでイメージを作成しておくこと
-          ```sh
-          <Android SDKインストールディレクトリ>\emulator\emulator.exe -avd Nexus_5X_API_29_x86
-          ```
-        - プロジェクトをビルドする（ビルド後、APがエミュレータにインストールされる）
-          ```sh
-          react-native run-android
-          ```
+        - iOS
+          - iOS エミュレータを起動
+            ```
+            bun run ios
+            ```
+        - Android
+          - Android SDK配下にあるエミュレータを起動する
+          - あらかじめ、SDKインストールディレクトリを確認すること
+          - AVD Managerでイメージを作成しておくこと
+            ```sh
+            <Android SDKインストールディレクトリ>\emulator\emulator.exe -avd Nexus_5X_API_29_x86
+            ```
+          - プロジェクトをビルドする（ビルド後、APがエミュレータにインストールされる）
+            ```sh
+            react-native run-android
+            ```
       - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows)
         - 前提条件
           - Node.js development
@@ -203,15 +226,16 @@
         - Windowsターゲット追加
           ```sh
           cd projectName
-          npx react-native-windows-init --overwrite
+          bunx react-native init-windows --overwrite
           ```
         - 実行
           ```sh
-          npx react-native run-windows
+          bun windows
           ```
           ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
+    - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - [Astro 5.0 beta](https://5-0-0-beta.docs.astro.build/en/guides/upgrade-to/v5/)
       - Upgrade
         ```
