@@ -46,10 +46,6 @@
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
-      |           |React Native Windows 0.77.2 |[2025/02/25](https://microsoft.github.io/react-native-windows/)
-      |           |- Bun 1.2.3                 |2025/02/24
-      |           |- React Native 0.77.1       |2025/02/25
-      |           |- Windows SDK 10.0.22621    |2024/12/04
       |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
       |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
@@ -57,6 +53,10 @@
       |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
+      |           |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
+      |           |- Bun 1.2.4                 |2025/03/02
+      |           |- React Native 0.78.0       |2025/03/02
+      |           |- Windows SDK 10.0.26100    |2025/01/18
 
   1.  Mac OS
       |端末       |FW                          |最終更新      
@@ -232,7 +232,7 @@
           ```sh
           bun windows
           ```
-          ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
+          ![WindowsSample](../images/JavaScript/20250302_ReactNativeWindows0.78.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
