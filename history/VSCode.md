@@ -1,3 +1,8 @@
+- 新機能(1.97)
+	- GitHub Copilot
+		- モデルとして、新たにGeminiも選択可能になる<BR />
+		  ![Gemini in Model Selection](../images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
+		  ![Gemini in GitHub Copilot](../images/VisualStudioCode/20250208_Gemini_on_GitHub_Copilot.png)
 - 新機能(1.96)
 	- GitHub Copilot
 		- 表示メニューから選択するとサイドパネルにCopilotが出現する<BR />
