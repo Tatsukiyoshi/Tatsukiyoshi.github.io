@@ -27,16 +27,16 @@
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.2.3                   |[2025/02/24](https://bun.sh/)
+      |           |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
       |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
       |           |Astro 5.3.0                 |[2025/02/22](https://astro.build/)
       |           |- React 19.0.0              |2024/12/11
       |           |- Bun 1.2.2                 |2025/02/01
-      |           |Next.js 15.1.6              |[2025/02/08](https://nextjs.org/)
+      |           |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
       |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.2                 |2025/02/01
+      |           |- Bun 1.2.4                 |2025/03/01
       |           |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
       |           |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2                |2024/11/30
@@ -328,6 +328,11 @@
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
     - [Tailwindcss with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
+      - Tailwindcss 4.0.12
+        - bunで更新する際、```tailwindcss -i styles/globals.css -o styles/dist.css``` を実行しようとしてエラーとなったため、@tailwindcss/cliを追加
+          ```
+          bun install @tailwindcss/cli
+          ```
     - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
       ```
       bun create next-app
