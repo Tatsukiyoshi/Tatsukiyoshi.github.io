@@ -14,10 +14,10 @@
   |           |- Kotlin 2.1.10                                                     |[2025/02/01](https://kotlinlang.org/docs/home.html)
   |           |- PostgreSQL JDBC Driver 42.7.5                                     |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
-  |           |[Android Studio Meerkat 2024.3.2 Canary 7](#android-studio)         |[2025/03/02](https://developer.android.com/studio)
+  |           |[Android Studio Meerkat 2024.3.2 Canary 8](#android-studio)         |[2025/03/08](https://developer.android.com/studio)
   |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
   |           |- Android SDK Command-line Tools v.17                               |2024/12/14
-  |           |- Android Emulator v.35.5.5                                         |2025/03/02
+  |           |- Android Emulator v.35.5.6                                         |2025/03/08
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -164,9 +164,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 7
+  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 8
     ```
-    Build #AI-243.24978.46.2432.13133389, built on February 27, 2025
+    Build #AI-243.24978.46.2432.13174079, built on March 7, 2025
     Runtime version: 21.0.6+-13119726-b895.91 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -207,6 +207,8 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop Canary 8
+        - Android Gradle Plugin 8.8.2 -> 8.9.0
       - Meerkat Feature Drop Canary 7
         - Android Gradle Plugin 8.8.1 -> 8.8.2
       - Meerkat Feature Drop Canary 5
