@@ -10,8 +10,9 @@
 ##  環境
   |端末       |環境／FW                                                             |最終更新      
   |-----------|--------------------------------------------------------------------|----------
-  |InsiderDev |[IntelliJ IDEA 2024.3.4](#intellij-idea)                            |[2025/03/02](https://www.jetbrains.com/ja-jp/idea/)
+  |InsiderDev |[IntelliJ IDEA 2024.3.4.1](#intellij-idea)                          |[2025/03/07](https://www.jetbrains.com/ja-jp/idea/)
   |           |- Kotlin 2.1.10                                                     |[2025/02/01](https://kotlinlang.org/docs/home.html)
+  |           |- PostgreSQL JDBC Driver 42.7.5                                     |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |           |Amazon Coretto 22.0.2                                               |2024/11/16
   |           |[Android Studio Meerkat 2024.3.2 Canary 7](#android-studio)         |[2025/03/02](https://developer.android.com/studio)
   |           |- Kotlin 2.1.10                                                     |[2025/01/31](https://kotlinlang.org/docs/home.html)
@@ -21,9 +22,9 @@
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.4 (Community Edition)
+  - IntelliJ IDEA 2024.3.4.1 (Community Edition)
     ```
-    Build #IC-243.25659.39, built on February 27, 2025
+    Build #IC-243.25659.59, built on March 5, 2025
     Runtime version: 21.0.6+8-b631.39 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -37,10 +38,19 @@
     Non-Bundled Plugins:
       Dart (243.23654.44)
       Lombook Plugin (243.23654.189)
-      org.jetbrains.android (243.25659.39)
-    Kotlin: 243.25659.39-IJ
+      org.jetbrains.android (243.25659.59)
+    Kotlin: 243.25659.59-IJ
     ```
 - History
+  - IntelliJ IDEA 2024.3.4.1
+    - Update PostgreSQL JDBC Driver
+      ```kts
+      dependencies {
+        ...
+        runtimeOnly("org.postgresql:postgresql:42.7.5")
+        ...
+      }
+      ```
   - IntelliJ IDEA 2024.3.2.2
     - Mockito as agent over jdk 21
       - [Support configuring Mockito java agent in java 21+](https://github.com/spring-io/initializr/issues/1590)
