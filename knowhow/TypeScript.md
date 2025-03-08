@@ -28,7 +28,7 @@
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
       |           |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
-      |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
+      |           |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
       |           |Astro 5.3.0                 |[2025/02/22](https://astro.build/)
@@ -46,9 +46,9 @@
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
-      |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
-      |           |- Bun 1.2.2                 |2025/02/22
-      |           |- Vite 6.1.1                |2025/02/22
+      |           |Svelte 5.22.6               |[2025/03/08](https://svelte.dev/)
+      |           |- Bun 1.2.4                 |2025/03/01
+      |           |- Vite 6.2.1                |2025/03/08
       |InsiderDev |Node.js 22.12.0             |2024/12/14
       |           |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
