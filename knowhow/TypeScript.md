@@ -328,8 +328,14 @@
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
     - [Tailwindcss with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
-      - Tailwindcss 4.0.12
-        - bunで更新する際、```tailwindcss -i styles/globals.css -o styles/dist.css``` を実行しようとしてエラーとなったため、@tailwindcss/cliを追加
+      - bunでの更新時に ```tailwindcss -i styles/globals.css -o styles/dist.css``` がエラーで実行できないことから、
+        改めて、tailwindcssのサイトを確認し、[Upgrade Guide](https://tailwindcss.com/docs/upgrade-guide)を参照 <BR>
+        下記２点を行い、更新完了
+        - upgrade toolの実行
+          ```
+          bunx @tailwindcss/upgrade
+          ```
+        - cliの導入
           ```
           bun install @tailwindcss/cli
           ```
