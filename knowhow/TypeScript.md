@@ -50,7 +50,7 @@
       |           |- Bun 1.2.2                 |2025/02/22
       |           |- Vite 6.1.1                |2025/02/22
       |InsiderDev |Node.js 22.12.0             |2024/12/14
-      |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
+      |           |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
       |           |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
@@ -470,6 +470,14 @@
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 19.2.0対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |rxjs                     |7.8.2
+            |@types/jasmine           |5.1.7
+            |jasmine-core             |5.6.0
+            |typescript               |5.8.2
       1.  Angular 19対応
           - Update Dependencies
             |Component                |Version
