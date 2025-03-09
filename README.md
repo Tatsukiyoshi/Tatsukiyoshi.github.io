@@ -32,7 +32,7 @@ OS                                             |端末                |リンク
 [Ubuntu Desktop](#UbuntuDesktop)               |TransBook           |[ノウハウ](#UbuntuKnowhow)
 
 - 移行計画
-  - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
+  - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
@@ -64,7 +64,7 @@ OS                                             |端末                |リンク
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  1.  InsiderDev
+  1.  Windows Insider
       - [WSL 2.4.11.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/13 updated from 2.4.10.0>>*</span>
 
         <details>

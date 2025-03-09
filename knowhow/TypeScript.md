@@ -24,39 +24,39 @@
       |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
 
   1.  Windows
-      |端末       |FW                          |最終更新      
-      |-----------|----------------------------|----------
-      |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
-      |           |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
-      |           |React 19.0.0                |[2024/12/12](https://react.dev/)
-      |           |- Bun 1.1.38                |2024/11/29
-      |           |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
-      |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.4                 |2025/03/01
-      |           |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
-      |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.4                 |2025/03/01
-      |           |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
-      |           |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
-      |           |- Deno 2.1.2                |2024/11/30
-      |           |- Vite 6.0.1                |2024/11/29
-      |           |- Bun 1.1.38                |2024/11/29
-      |           |Deno 2.1.2                  |[2024/11/30](https://deno.land/)
-      |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
-      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
-      |           |- Bun 1.2.3                 |2025/02/24
-      |           |Svelte 5.22.6               |[2025/03/08](https://svelte.dev/)
-      |           |- Bun 1.2.4                 |2025/03/01
-      |           |- Vite 6.2.1                |2025/03/08
-      |InsiderDev |Node.js 22.12.0             |2024/12/14
-      |           |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
-      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
-      |           |- Bun 1.2.3                 |2025/02/24
-      |           |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
-      |           |- Bun 1.2.4                 |2025/03/02
-      |           |- React Native 0.78.0       |2025/03/02
-      |           |- Windows SDK 10.0.26100    |2025/01/18
+      |端末            |FW                          |最終更新      
+      |----------------|----------------------------|----------
+      |Windows         |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
+      |                |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
+      |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
+      |                |React 19.0.0                |[2024/12/12](https://react.dev/)
+      |                |- Bun 1.1.38                |2024/11/29
+      |                |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
+      |                |- React 19.0.0              |2024/12/11
+      |                |- Bun 1.2.4                 |2025/03/01
+      |                |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
+      |                |- React 19.0.0              |2024/12/11
+      |                |- Bun 1.2.4                 |2025/03/01
+      |                |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
+      |                |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
+      |                |- Deno 2.1.2                |2024/11/30
+      |                |- Vite 6.0.1                |2024/11/29
+      |                |- Bun 1.1.38                |2024/11/29
+      |                |Deno 2.1.2                  |[2024/11/30](https://deno.land/)
+      |                |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
+      |                |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |                |- Bun 1.2.3                 |2025/02/24
+      |                |Svelte 5.22.6               |[2025/03/08](https://svelte.dev/)
+      |                |- Bun 1.2.4                 |2025/03/01
+      |                |- Vite 6.2.1                |2025/03/08
+      |Windows Insider |Node.js 22.12.0             |2024/12/14
+      |                |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
+      |                |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |                |- Bun 1.2.3                 |2025/02/24
+      |                |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
+      |                |- Bun 1.2.4                 |2025/03/01
+      |                |- React Native 0.78.0       |2025/03/02
+      |                |- Windows SDK 10.0.26100    |2025/01/18
 
   1.  Mac OS
       |端末       |FW                          |最終更新      
