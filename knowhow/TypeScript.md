@@ -31,9 +31,9 @@
       |           |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
-      |           |Astro 5.3.0                 |[2025/02/22](https://astro.build/)
+      |           |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
       |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.2                 |2025/02/01
+      |           |- Bun 1.2.4                 |2025/03/01
       |           |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
       |           |- React 19.0.0              |2024/12/11
       |           |- Bun 1.2.4                 |2025/03/01

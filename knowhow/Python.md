@@ -2,16 +2,16 @@
 
 ##  独学書
 
-  |テキスト                                             |日付      |進捗状況
+  |テキスト                                              |日付      |進捗状況
   |-----------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)|2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
 
 ##  環境
 
-  |端末       |環境／FW                  |最終更新
-  |-----------|-------------------------|----------
+  |端末       |環境／FW                   |最終更新
+  |----------|---------------------------|----------
   |Chrome OS |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
-  |                   |Django 5.1.7                         |[2025/03/08](https://www.djangoproject.com/)
+  |          |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
 
 ##  ノウハウ
 ### Python
