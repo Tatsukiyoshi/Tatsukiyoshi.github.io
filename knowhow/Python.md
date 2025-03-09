@@ -2,34 +2,43 @@
 
 ##  独学書
 
-  |テキスト                                             |日付      |進捗状況
+  |テキスト                                              |日付      |進捗状況
   |-----------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)|2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
 
 ##  環境
 
-  |端末       |環境／FW                  |最終更新      
-  |-----------|-------------------------|----------
-  |InsiderDev |[Python 3.12](#python-1) |[2023/11/03](https://www.python.org/downloads/)
-  |           |[Django 4.2.7](#django)  |[2023/11/04](https://docs.djangoproject.com/ja/4.1)
-  |           |[Flet 0.3.2](#flet)      |[2023/01/12](https://flet.dev/)
+  |端末       |環境／FW                   |最終更新
+  |----------|---------------------------|----------
+  |Chrome OS |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
+  |          |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
 
 ##  ノウハウ
 ### Python
-  - インストール後の対応
-    - 下記をPATHに追加する。
+  - install on Debian 12 @ Chrome OS Flex
+    - [Install Python 3.11 on Debian 12 / Debian 11](https://cloudspinx.com/how-to-install-python-on-debian/)
+
+    - パッケージのインストール
       ```
-      C:\Users\taish\AppData\Local\Programs\Python\Python312
+      python3 -m pip install <Package Name>
       ```
-    - Djangoをインストールする
-      ```
-      python -m pip install django
-      ```
+
+  - Install on Windows
+    - インストール後の対応
+      - 下記をPATHに追加する。
+        ```
+        C:\Users\taish\AppData\Local\Programs\Python\Python312
+        ```
+      - Djangoをインストールする
+        ```
+        python -m pip install django
+        ```
 ### numpy/scikit-learn
   - VSCodeで実行してみた
     ![グラフ表示](../images/python/20240102_matplotlib.png)
   - Jupyter Notebookを使ってみた
     ![Jupyter Notebook](../images/python/20240102_jupyter_notebook.png)
+
 ### Django
   - [Django Tutorial](https://docs.djangoproject.com/ja/4.1/intro/tutorial01/)
     **@2022/08/27** その７ adminフォームのカスタマイズ <span style="color: red;">*finished*</span>

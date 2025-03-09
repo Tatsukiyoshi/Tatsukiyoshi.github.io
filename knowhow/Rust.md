@@ -19,8 +19,8 @@
       |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
       |           |[RustRover 2025.1 EAP build 4](#rustrover)     |[2025/03/01](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.3.1](#tauridesktop-framework)         |[2025/03/01](https://tauri.app/)
-      |           |Svelte 5.20.5                                  |2025/03/01
-      |           |Vite 6.2.0                                     |2025/03/01
+      |           |Svelte 5.22.6                                  |2025/03/08
+      |           |Vite 6.2.1                                     |2025/03/08
       |           |Bun 1.2.4                                      |2025/03/01
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)

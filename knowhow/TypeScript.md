@@ -27,16 +27,16 @@
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
       |Windows    |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |           |Bun 1.2.3                   |[2025/02/24](https://bun.sh/)
-      |           |Vite 6.1.1                  |[2025/02/22](https://vitejs.dev/)
+      |           |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
+      |           |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |           |React 19.0.0                |[2024/12/12](https://react.dev/)
       |           |- Bun 1.1.38                |2024/11/29
-      |           |Astro 5.3.0                 |[2025/02/22](https://astro.build/)
+      |           |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
       |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.2                 |2025/02/01
-      |           |Next.js 15.1.6              |[2025/02/08](https://nextjs.org/)
+      |           |- Bun 1.2.4                 |2025/03/01
+      |           |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
       |           |- React 19.0.0              |2024/12/11
-      |           |- Bun 1.2.2                 |2025/02/01
+      |           |- Bun 1.2.4                 |2025/03/01
       |           |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
       |           |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
       |           |- Deno 2.1.2                |2024/11/30
@@ -46,17 +46,17 @@
       |           |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
-      |           |React Native Windows 0.77.2 |[2025/02/25](https://microsoft.github.io/react-native-windows/)
-      |           |- Bun 1.2.3                 |2025/02/24
-      |           |- React Native 0.77.1       |2025/02/25
-      |           |- Windows SDK 10.0.22621    |2024/12/04
-      |           |Svelte 5.20.2               |[2025/02/22](https://svelte.dev/)
-      |           |- Bun 1.2.2                 |2025/02/22
-      |           |- Vite 6.1.1                |2025/02/22
+      |           |Svelte 5.22.6               |[2025/03/08](https://svelte.dev/)
+      |           |- Bun 1.2.4                 |2025/03/01
+      |           |- Vite 6.2.1                |2025/03/08
       |InsiderDev |Node.js 22.12.0             |2024/12/14
-      |           |Angular 19.0.5              |[2024/12/19](https://angular.dev/)
+      |           |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
+      |           |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
+      |           |- Bun 1.2.4                 |2025/03/02
+      |           |- React Native 0.78.0       |2025/03/02
+      |           |- Windows SDK 10.0.26100    |2025/01/18
 
   1.  Mac OS
       |端末       |FW                          |最終更新      
@@ -232,7 +232,7 @@
           ```sh
           bun windows
           ```
-          ![WindowsSample](../images/JavaScript/20241204_ReactNativeWindows.png)
+          ![WindowsSample](../images/JavaScript/20250302_ReactNativeWindows0.78.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/)
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
@@ -328,6 +328,17 @@
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
     - [Tailwindcss with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
+      - bunでの更新時に ```tailwindcss -i styles/globals.css -o styles/dist.css``` がエラーで実行できないことから、
+        改めて、tailwindcssのサイトを確認し、[Upgrade Guide](https://tailwindcss.com/docs/upgrade-guide)を参照 <BR>
+        下記２点を行い、更新完了
+        - upgrade toolの実行
+          ```
+          bunx @tailwindcss/upgrade
+          ```
+        - cliの導入
+          ```
+          bun install @tailwindcss/cli
+          ```
     - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
       ```
       bun create next-app
@@ -470,6 +481,14 @@
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 19.2.0対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |rxjs                     |7.8.2
+            |@types/jasmine           |5.1.7
+            |jasmine-core             |5.6.0
+            |typescript               |5.8.2
       1.  Angular 19対応
           - Update Dependencies
             |Component                |Version

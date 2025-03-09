@@ -4,7 +4,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/2/23～2025/3/1）](https://zenn.dev/tatsukiyoshi/articles/5a130c0af4373e) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/3/2～2025/3/8）](https://zenn.dev/tatsukiyoshi/articles/846747df7ae1bf) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -112,10 +112,10 @@ Ubuntu Desktop              |TransBook
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-  - バージョン 133.0.6943.132 <span style="color: red;">*<<2025/02/25 updated from 132.0.6834.208>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250225_Chrome_OS_Flex_133.0.6943.132.png)
+  - バージョン 133.0.6943.146 <span style="color: red;">*<<2025/03/08 updated from 133.0.6943.132>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250308_Chrome_OS_Flex_133.0.6943.146.png)
       - 更新中
-        ![Updating](./images/Chrome/20250225_Chrome_OS_Flex_Updating133.0.6943.132.png)
+        ![Updating](./images/Chrome/20250308_Chrome_OS_Flex_Updating133.0.6943.146.png)
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
@@ -181,11 +181,7 @@ Ubuntu Desktop              |TransBook
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.97.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/02/14 updated from 1.97>>*</span>
-  - GitHub Copilot
-    - モデルとして、新たにGeminiも選択可能になる<BR />
-      ![Gemini in Model Selection](./images/VisualStudioCode/20250208_Gemini_in_GitHub_Copilot_Model_Selection.png)
-      ![Gemini in GitHub Copilot](./images/VisualStudioCode/20250208_Gemini_on_GitHub_Copilot.png)
+- [Visual Studio Code 1.98.0](https://code.visualstudio.com/) <span style="color: red;">*<<2025/03/06 updated from 1.97.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
