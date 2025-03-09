@@ -1,5 +1,7 @@
 # トップページ
+[ダイジェスト](#ダイジェスト) | [環境(OS/ツール/サービス)](#環境) | [プログラミング言語](#プログラミング言語)
 
+---
 ##  ダイジェスト
 ```
 毎週日曜日に更新
@@ -18,14 +20,16 @@
 ```
 独学環境の情報
 ```
-OS                          |端末
-----------------------------|---------
-InsiderDev(Windows Insider) |OmniBook Ultra Flip
-Windows                     |Mini-S12
-Windows on Arm              |OmniBook X
-Mac OS                      |MacBook Air
-Chrome OS Flex              |IdeaPad
-Ubuntu Desktop              |TransBook
+[OS](#os) | [ツール](#ツール) | [サービス](#サービス)
+
+OS                                             |端末                |リンク
+-----------------------------------------------|--------------------|---
+[Windows Insider(InsiderDev)](#WindowsInsider) |OmniBook Ultra Flip |[ノウハウ](#WindowsKnowhow)
+[Windows](#Windows)                            |Mini-S12
+[Windows on Arm](#WindowsArm)                  |OmniBook X
+[Mac OS](#Mac)                                 |MacBook Air         |[ノウハウ](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)                |IdeaPad             |[ノウハウ](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)               |TransBook           |[ノウハウ](#UbuntuKnowhow)
 
 - 移行計画
   - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
@@ -34,7 +38,7 @@ Ubuntu Desktop              |TransBook
   - (v) Ubuntu Desktop環境を構築
 
 ### OS
-- [Windows Insider](https://blogs.windows.com/windows-insider/)
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.3360 (Cumulative Update) <span style="color: red;">*<<2025/03/01 updated from Build 26120.3291 >>*</span>
       ![Cumulative Update](./images/Windows/20250301_WindowsUpdate_DevChannel.png)
@@ -43,7 +47,7 @@ Ubuntu Desktop              |TransBook
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
-- [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)
+- [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
       ![Cumulative Update](./images/Windows/20241123_Windows11Update_24H2.png)
@@ -53,7 +57,7 @@ Ubuntu Desktop              |TransBook
       ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
     - 更新完了後のバージョン情報
       ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
-  - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+  - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
     ![Version Information](./images/Windows/20241114_OmniBookX_WindowsVersion.png)
   - Updated to Windows Insider Dev Channel
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
@@ -102,7 +106,7 @@ Ubuntu Desktop              |TransBook
 
       - [履歴](./history/Wsl.md)
 
-- [Mac OS](https://www.apple.com/jp/macos/)
+- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
   - [Sequoia 15.3.1](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/02/11 updated from Sequoia 15.3>>*</span>
     - ソフトウェアアップデート
@@ -111,14 +115,14 @@ Ubuntu Desktop              |TransBook
       ![Sequoia 15.3.1](./images/Mac/20250211_MacOS_Sequoia15.3.1.png)
   - [履歴](./history/Mac.md)
 
-- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
   - バージョン 133.0.6943.146 <span style="color: red;">*<<2025/03/08 updated from 133.0.6943.132>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20250308_Chrome_OS_Flex_133.0.6943.146.png)
       - 更新中
         ![Updating](./images/Chrome/20250308_Chrome_OS_Flex_Updating133.0.6943.146.png)
   - [履歴](./history/Chrome.md)
 
-- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
+- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
 
   <details>
@@ -218,6 +222,8 @@ OS/言語を問わず利用するツールの情報
 ### サービス
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
+[トップへ戻る](#トップページ)
+
 ##  ノウハウ
 ### プログラミング言語
 ```
@@ -246,12 +252,12 @@ OS/言語を問わず利用するツールの情報
 ```
 OSやツールのノウハウは、以下を参照
 ```
-- Windows
+- Windows <a id="WindowsKnowhow"></a>
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
   - [システムロケールの変更](./windows/systemLocale.md)
   - [フォントの変更](./windows/font.md)
-- Mac
+- Mac <a id="MacKnowhow"></a>
   - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
       ![CommandLineDeveloperTools](./images/Mac/20240813_CommandLineDeveloperTools.png)
@@ -299,7 +305,7 @@ OSやツールのノウハウは、以下を参照
     ```
   - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
   - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
-- Chrome OS Flex
+- Chrome OS Flex <a id="ChromeKnowhow"></a>
   - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
     - Linux開発環境
@@ -334,11 +340,11 @@ OSやツールのノウハウは、以下を参照
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
-- Ubuntu
+- Ubuntu <a id="UbuntuKnowhow"></a>
   - ISOイメージを作成する
-    [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
+    - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
   - スクリーンショット
-    既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
+    - 既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
@@ -468,4 +474,4 @@ OSやツールのノウハウは、以下を参照
     ![Export](./images/Penpot/20240421_Export.png)
     - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](./sub/Profile.md)
+[プロフィール](./sub/Profile.md) | [トップへ戻る](#トップページ)
