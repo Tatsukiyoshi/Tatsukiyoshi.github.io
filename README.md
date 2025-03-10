@@ -1,8 +1,8 @@
-# トップページ
-[ダイジェスト](#ダイジェスト) | [環境(OS/ツール/サービス)](#環境) | [プログラミング言語](#プログラミング言語)
+# トップページ <a id="Top"></a>
+[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
 ---
-##  ダイジェスト
+##  ダイジェスト <a id="Digest"></a>
 ```
 毎週日曜日に更新
 ```
@@ -16,11 +16,11 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
-##  環境
+##  環境 <a id="Environment"></a>
 ```
 独学環境の情報
 ```
-[OS](#os) | [ツール](#ツール) | [サービス](#サービス)
+[OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
 OS                                             |端末                |リンク
 -----------------------------------------------|--------------------|---
@@ -37,7 +37,7 @@ OS                                             |端末                |リンク
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-### OS
+### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
     - Build 26120.3360 (Cumulative Update) <span style="color: red;">*<<2025/03/01 updated from Build 26120.3291 >>*</span>
@@ -181,7 +181,7 @@ OS                                             |端末                |リンク
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-### ツール
+### ツール <a id="Tools"></a>
 ```
 OS/言語を問わず利用するツールの情報
 ```
@@ -219,13 +219,13 @@ OS/言語を問わず利用するツールの情報
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-### サービス
+### サービス <a id="Service"></a>
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
-[トップへ戻る](#トップページ)
+[トップへ戻る](#Top)
 
 ##  ノウハウ
-### プログラミング言語
+### プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
@@ -474,4 +474,4 @@ OSやツールのノウハウは、以下を参照
     ![Export](./images/Penpot/20240421_Export.png)
     - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](./sub/Profile.md) | [トップへ戻る](#トップページ)
+[プロフィール](./sub/Profile.md) | [トップへ戻る](#Top)
