@@ -11,13 +11,13 @@
 
 ##  環境
 
-  |端末       |環境／FW                                                                          |最終更新
-  |-----------|--------------------------------------------------------------------------------|----------
-  |InsiderDev |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/01/07](https://willbrains.jp/)
-  |           |[Apache Tomcat 10.1.34](#tomcat)                                                |[2025/01/07](https://tomcat.apache.org/download-10.cgi)
-  |           |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
-  |           |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
-  |           |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
+  |端末            |環境／FW                                                                         |最終更新
+  |----------------|--------------------------------------------------------------------------------|----------
+  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/01/07](https://willbrains.jp/)
+  |                |[Apache Tomcat 10.1.34](#tomcat)                                                |[2025/01/07](https://tomcat.apache.org/download-10.cgi)
+  |                |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
+  |                |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
+  |                |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
 
 ##  ノウハウ
 ### [Java Platform Support](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)

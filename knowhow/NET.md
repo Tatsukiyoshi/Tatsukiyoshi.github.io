@@ -8,18 +8,18 @@
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)              |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  環境
-  |端末       |環境／FW                                          |最終更新
-  |-----------|-------------------------------------------------|----------
-  |InsiderDev |Visual Studio Community 2022 17.14.0 Preview 1.1 |[2025/02/27](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
-  |           |- .NET 10.0.0-preview.1                          |[2025/02/27](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |  - [MAUI 10.0.0-preview.1](#maui)               |[2025/02/27](https://github.com/dotnet/maui)
-  |           |  - Android Emulator v.35.3.11                   |2025/02/12
-  |           |- .NET 9.0.2                                     |2025/02/12
-  |           |- .NET 8.0.13                                    |2025/02/12
-  |Windows    |Visual Studio Community 2022 17.13.2             |[2025/03/02](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-  |           |- .NET 9.0.2                                     |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |- .NET 8.0.13                                    |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |           |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |端末            |環境／FW                                          |最終更新
+  |----------------|-------------------------------------------------|----------
+  |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 1.1 |[2025/02/27](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |                |- .NET 10.0.0-preview.1                          |[2025/02/27](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |  - [MAUI 10.0.0-preview.1](#maui)               |[2025/02/27](https://github.com/dotnet/maui)
+  |                |  - Android Emulator v.35.3.11                   |2025/02/12
+  |                |- .NET 9.0.2                                     |2025/02/12
+  |                |- .NET 8.0.13                                    |2025/02/12
+  |Windows         |Visual Studio Community 2022 17.13.2             |[2025/03/02](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |                |- .NET 9.0.2                                     |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |- .NET 8.0.13                                    |[2025/02/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
@@ -70,7 +70,7 @@
   dotnet --info
   ```
   <details>
-  <summary>Visual Studio 2022 Preview＠InsiderDev</summary>
+  <summary>Visual Studio 2022 Preview＠Windows Insider</summary>
 
   ```
   .NET SDK:

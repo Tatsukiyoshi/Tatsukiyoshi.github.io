@@ -13,7 +13,7 @@
 ##  環境
   |端末           |環境／FW                                                                  |最終更新
   |---------------|-------------------------------------------------------------------------|----------
-  |InsiderDev     |Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/get-started/install)
+  |Windows Insider|Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/get-started/install)
   |               |[Android Studio Meerkat 2024.3.2 Canary 7](./Kotlin.md#android-studio)   |2025/03/02
   |               |[Visual Studio Community 2022 17.14.0 Preview 1.1](./NET.md)             |2025/02/27
   |Mac OS         |Flutter 3.27.1                                                           |2024/12/29
@@ -33,7 +33,7 @@
     ```
   - flutter doctor -v
     <details>
-    <summary>InsiderDev</summary>
+    <summary>Windows Insider</summary>
 
     ```
     [√] Flutter (Channel stable, 3.29.0, on Microsoft Windows [Version 10.0.26120.3360], locale ja-JP) [672ms]

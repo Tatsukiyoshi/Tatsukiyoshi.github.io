@@ -2,17 +2,17 @@
 
 ##  環境
 
-  |端末      |環境／FW                                              |最終更新
-  |----------|-----------------------------------------------------|----------
-  |Windows   |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |          |- SQL Server Management Studio 21.0.85 Preview 4.1   |[2025/03/02](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
-  |          |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-  |          |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-  |          |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
-  |          |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
-  |          |MySQL Community Server 8.4.2                         |2024/08/24
-  |InsiderDev|PostgreSQL 17.4                                      |2025/03/02
-  |          |MySQL Community Server 9.1.0                         |2025/01/04
+  |端末           |環境／FW                                              |最終更新
+  |---------------|-----------------------------------------------------|----------
+  |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |               |- SQL Server Management Studio 21.0.85 Preview 4.1   |[2025/03/02](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |               |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+  |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+  |               |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
+  |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
+  |               |MySQL Community Server 8.4.2                         |2024/08/24
+  |Windows Insider|PostgreSQL 17.4                                      |2025/03/02
+  |               |MySQL Community Server 9.1.0                         |2025/01/04
 
 ##  ノウハウ
 ### データベース全般
