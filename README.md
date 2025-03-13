@@ -22,14 +22,14 @@
 ```
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
-OS                                             |端末                |リンク
------------------------------------------------|--------------------|---
-[Windows Insider(InsiderDev)](#WindowsInsider) |OmniBook Ultra Flip |[ノウハウ](#WindowsKnowhow)
-[Windows](#Windows)                            |Mini-S12
-[Windows on Arm](#WindowsArm)                  |OmniBook X
-[Mac OS](#Mac)                                 |MacBook Air         |[ノウハウ](#MacKnowhow)
-[Chrome OS Flex](#ChromeOSFlex)                |IdeaPad             |[ノウハウ](#ChromeKnowhow)
-[Ubuntu Desktop](#UbuntuDesktop)               |TransBook           |[ノウハウ](#UbuntuKnowhow)
+OS                                 |端末                |リンク
+-----------------------------------|--------------------|---
+[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)
+[Windows on Arm](#WindowsArm)      |OmniBook X          |↑
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑
+[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow)
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -65,19 +65,19 @@ OS                                             |端末                |リンク
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  Windows Insider
-      - [WSL 2.4.11.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/13 updated from 2.4.10.0>>*</span>
+      - [WSL 2.5.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/13 updated from 2.4.11.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 5.15.167.4-1</summary>
+        <summary>カーネルバージョン: 6.6.75.1-1</summary>
 
         ```
-        WSL バージョン: 2.4.11.0
-        カーネル バージョン: 5.15.167.4-1
-        WSLg バージョン: 1.0.65
+        WSL バージョン: 2.5.1.0
+        カーネル バージョン: 6.6.75.1-1
+        WSLg バージョン: 1.0.66
         MSRDC バージョン: 1.2.5716
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.3073
+        Windows バージョン: 10.0.26120.3380
         ```
         </details>
 
