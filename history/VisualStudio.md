@@ -3,6 +3,8 @@
     ![VS2022 17.14 preview 1.0](../images/VisualStudio/20250212_Update_VS2022_17.14_Preview1.0.png)
   - 17.14 Preview 1.0 / MAUI 9.0.40 / Pixel 9 API 35(Android 15)
     ![MAUI - Pixel 9 API 35](../images/VisualStudio/20250212_VS2022_17.14_Preview1.0_MAUI9.0.40_Android15.png)
+  - 17.13.2
+    ![VS2022 17.13.2](../images/VisualStudio/20250302_Update_VS2022_17.13.2.png)
   - 17.13.0
     ![VS2022 17.13.0](../images/VisualStudio/20250212_Update_VS2022_17.13.0.png)
   - 17.13 Preview 5.0
