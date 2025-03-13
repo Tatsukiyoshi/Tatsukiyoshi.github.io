@@ -16,8 +16,8 @@
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
   |                |[Android Studio Meerkat 2024.3.2 Canary 8](#android-studio) |[2025/03/08](https://developer.android.com/studio)
   |                |- Kotlin 2.1.10                                             |[2025/01/31](https://kotlinlang.org/docs/home.html)
-  |                |- Android SDK Command-line Tools v.17                       |2024/12/14
-  |                |- Android Emulator v.35.5.6                                 |2025/03/08
+  |                |- Android SDK Command-line Tools v.19                       |2025/03/14
+  |                |- Android Emulator v.35.5.7                                 |2025/03/14
 
 ##  ノウハウ
 ### IntelliJ IDEA
