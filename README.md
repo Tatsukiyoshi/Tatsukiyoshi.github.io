@@ -229,24 +229,31 @@ OS/言語を問わず利用するツールの情報
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
-- 言語共通
-  - [Database & SQL](./knowhow/Database.md)
-  - [Documentation](./knowhow/Documentation.md)
-  - [Exercism](./knowhow/Exercism.md)
-- [.NET](./knowhow/NET.md)
-- [Rust](./knowhow/Rust.md)
-- [Kotlin](./knowhow/Kotlin.md)
-- [Java](./knowhow/Java.md)  
-- [Dart/Flutter](./knowhow/Flutter.md)
-- [TypeScript/JavaScript](./knowhow/TypeScript.md)
-- [PHP](./knowhow/Php.md)
-- [Go](./knowhow/Go.md)
-- [Python](./knowhow/Python.md)
-- [Pascal](./knowhow/Others.md#pascal)
-- [Swift](./knowhow/Others.md#swift)
-- [Carbon](./knowhow/Carbon.md)
-- [LLVM](./knowhow/Others.md#llvm)
-- [Unity](./knowhow/Unity.md)
+言語                                 |最新トピック||
+-------------------------------------|----------|--------
+[TypeScript](./knowhow/TypeScript.md)|2025/03/12|Update: Angular 19.2.0
+[.NET](./knowhow/NET.md)             |2025/03/11|Update: Visual Studio 2022 17.14 Preview 2.0
+[Kotlin](./knowhow/Kotlin.md)        |2025/03/08|Update: Android Studio Meerkat 2024.3.2 Canary 8
+[Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
+[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
+[Rust](./knowhow/Rust.md)            |2025/02/28|Update: Rust 1.85
+[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
+[Java](./knowhow/Java.md)            |2024/11/16|Setup: Pleiades 2024-09
+
+言語共通                                    |日付      |トピック
+-------------------------------------------|----------|--------
+[Database & SQL](./knowhow/Database.md)    |2025/03/02|Update: PostgreSQL 17.4
+[Documentation](./knowhow/Documentation.md)|-
+[Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
+
+その他（更新停滞）                          |日付      |トピック
+-------------------------------------------|----------|--------
+[PHP](./knowhow/Php.md)
+[Go](./knowhow/Go.md)
+[Pascal](./knowhow/Others.md#pascal)
+[Swift](./knowhow/Others.md#swift)
+[LLVM](./knowhow/Others.md#llvm)
+[Unity](./knowhow/Unity.md)
 
 ### OS／ツール
 ```
