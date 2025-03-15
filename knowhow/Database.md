@@ -126,10 +126,26 @@
       ```
   - [PHP + Apache + PostgreSQL](./Php.md#postgresql)
 ### MySQL
+  - DDL
+    - rootパスワードの変更
+      ```
+      mysql> ALTER USER root@localhost IDENTIFIED BY "root";
+      ```
+    - ユーザの追加およびパスワードの登録
+      ```
+      mysql> CREATE USER taish;
+      mysql> ALTER USER taish@localhost IDENTIFIED BY "taishow";
+      ```
+    - [アカウントパスワードの割り当て](https://dev.mysql.com/doc/refman/8.0/ja/assigning-passwords.html)
   - Dumpをロードするには、local_infileをONにしておく必要あり
     ```
     SET GLOBAL local_infile = ON;
     ```
+  - MySQL Shell for VS Code
+    - VSCodeユーザ向けにもユーティリティがある！
+      ![Main](../images/Database/20240824_MySQL_Shell_for_VSCode.png)
+    - 簡単にテーブルのデータを確認できる
+      ![Show Data](../images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
   - MySQL Community Server 8.4.2 (LTS)
     - Oracleプロファイル作成のうえ、ダウンロード
     - インストールすると、MySQL Configuratorで設定する
@@ -235,11 +251,6 @@
     Ended configuration step: Updating example databases
     ```
     </details>
-  - MySQL Shell for VS Code
-    - VSCodeユーザ向けにもユーティリティがある！
-      ![Main](../images/Database/20240824_MySQL_Shell_for_VSCode.png)
-    - 簡単にテーブルのデータを確認できる
-      ![Show Data](../images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
   - MySQL 8.0.28
     - ZIPファイルを任意のディレクトリに展開する
     - my.iniを展開したディレクトリに作成する
@@ -266,13 +277,3 @@
       ```
       net start MYSQL80
       ```
-    - DDL
-      * rootパスワードの変更
-        ```
-        mysql> ALTER USER root@localhost IDENTIFIED BY "root";
-        ```
-      * ユーザの追加およびパスワードの登録
-        ```
-        mysql> CREATE USER taish;
-        mysql> ALTER USER taish@localhost IDENTIFIED BY "taishow";
-        ```
