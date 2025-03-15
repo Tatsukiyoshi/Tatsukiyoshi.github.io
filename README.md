@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/3/2～2025/3/8）](https://zenn.dev/tatsukiyoshi/articles/846747df7ae1bf) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：第２週（2025/3/9～2025/3/15）](https://zenn.dev/tatsukiyoshi/articles/8c3efc852cb590) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -233,7 +233,7 @@ OS/言語を問わず利用するツールの情報
 -------------------------------------|----------|--------
 [Rust](./knowhow/Rust.md)            |2025/03/15|Update: RustRover 2025.1 EAP build 6
 [.NET](./knowhow/NET.md)             |2025/03/13|Update: Visual Studio 2022 17.14 Preview 2.0
-[TypeScript](./knowhow/TypeScript.md)|2025/03/12|Update: Angular 19.2.0
+[TypeScript](./knowhow/TypeScript.md)|2025/03/08|Update: Astro 5.4.2 / Next.js 15.2.1 / Svelte 5.22.6
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/08|Update: Android Studio Meerkat 2024.3.2 Canary 8
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
