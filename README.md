@@ -1,10 +1,12 @@
-# トップページ
+# トップページ <a id="Top"></a>
+[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
-##  ダイジェスト
+---
+##  ダイジェスト <a id="Digest"></a>
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/3/2～2025/3/8）](https://zenn.dev/tatsukiyoshi/articles/846747df7ae1bf) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：第２週（2025/3/9～2025/3/15）](https://zenn.dev/tatsukiyoshi/articles/8c3efc852cb590) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -14,36 +16,38 @@
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
 
-##  環境
+##  環境 <a id="Environment"></a>
 ```
 独学環境の情報
 ```
-OS                          |端末
-----------------------------|---------
-InsiderDev(Windows Insider) |OmniBook Ultra Flip
-Windows                     |Mini-S12
-Windows on Arm              |OmniBook X
-Mac OS                      |MacBook Air
-Chrome OS Flex              |IdeaPad
-Ubuntu Desktop              |TransBook
+[OS](#os) | [ツール](#Tools) | [サービス](#Service)
+
+OS                                 |端末                |リンク
+-----------------------------------|--------------------|---
+[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)
+[Windows on Arm](#WindowsArm)      |OmniBook X          |↑
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑
+[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow)
 
 - 移行計画
-  - (v) InsiderDev環境 を OmniBook Ultra Flip に構築
+  - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-### OS
-- [Windows Insider](https://blogs.windows.com/windows-insider/)
+### OS <a id="OS"></a>
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3360 (Cumulative Update) <span style="color: red;">*<<2025/03/01 updated from Build 26120.3291 >>*</span>
-      ![Cumulative Update](./images/Windows/20250301_WindowsUpdate_DevChannel.png)
+    - Build 26120.3380 (Cumulative Update) <span style="color: red;">*<<2025/03/11 updated from Build 26120.3360 >>*</span>
+      ![Cumulative Update](./images/Windows/20250311_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250301_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20250311_Windows11_Build26120.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
-- [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)
+- [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
       ![Cumulative Update](./images/Windows/20241123_Windows11Update_24H2.png)
@@ -53,27 +57,27 @@ Ubuntu Desktop              |TransBook
       ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
     - 更新完了後のバージョン情報
       ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
-  - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+  - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
     ![Version Information](./images/Windows/20241114_OmniBookX_WindowsVersion.png)
   - Updated to Windows Insider Dev Channel
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  1.  InsiderDev
-      - [WSL 2.4.11.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/02/13 updated from 2.4.10.0>>*</span>
+  1.  Windows Insider
+      - [WSL 2.5.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/13 updated from 2.4.11.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 5.15.167.4-1</summary>
+        <summary>カーネルバージョン: 6.6.75.1-1</summary>
 
         ```
-        WSL バージョン: 2.4.11.0
-        カーネル バージョン: 5.15.167.4-1
-        WSLg バージョン: 1.0.65
+        WSL バージョン: 2.5.1.0
+        カーネル バージョン: 6.6.75.1-1
+        WSLg バージョン: 1.0.66
         MSRDC バージョン: 1.2.5716
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.3073
+        Windows バージョン: 10.0.26120.3380
         ```
         </details>
 
@@ -102,23 +106,23 @@ Ubuntu Desktop              |TransBook
 
       - [履歴](./history/Wsl.md)
 
-- [Mac OS](https://www.apple.com/jp/macos/)
-  - [Sequoia 15.3.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/02/11 updated from Sequoia 15.3>>*</span>
+- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
+  - [Sequoia 15.3.2](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/03/13 updated from Sequoia 15.3.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250211_MacOS_Sequoia15.3.1Update.png)
+      ![Update Check](./images/Mac/20250313_MacOS_Sequoia15.3.2Update.png)
     - バージョン情報
-      ![Sequoia 15.3.1](./images/Mac/20250211_MacOS_Sequoia15.3.1.png)
+      ![Sequoia 15.3.2](./images/Mac/20250313_MacOS_Sequoia15.3.2.png)
   - [履歴](./history/Mac.md)
 
-- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
   - バージョン 133.0.6943.146 <span style="color: red;">*<<2025/03/08 updated from 133.0.6943.132>>*</span>
     ![Chrome OS Flexバージョン情報](./images/Chrome/20250308_Chrome_OS_Flex_133.0.6943.146.png)
       - 更新中
         ![Updating](./images/Chrome/20250308_Chrome_OS_Flex_Updating133.0.6943.146.png)
   - [履歴](./history/Chrome.md)
 
-- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span>
+- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
 
   <details>
@@ -177,11 +181,11 @@ Ubuntu Desktop              |TransBook
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
 
-### ツール
+### ツール <a id="Tools"></a>
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.98.0](https://code.visualstudio.com/) <span style="color: red;">*<<2025/03/06 updated from 1.97.2>>*</span>
+- [Visual Studio Code 1.98.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/03/14 updated from 1.98.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -215,43 +219,52 @@ OS/言語を問わず利用するツールの情報
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
-### サービス
+### サービス <a id="Service"></a>
 - [Penpot 2.1](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 released>>*</span>
 
+[トップへ戻る](#Top)
+
 ##  ノウハウ
-### プログラミング言語
+### プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
 ```
-- 言語共通
-  - [Database & SQL](./knowhow/Database.md)
-  - [Documentation](./knowhow/Documentation.md)
-  - [Exercism](./knowhow/Exercism.md)
-- [.NET](./knowhow/NET.md)
-- [Rust](./knowhow/Rust.md)
-- [Kotlin](./knowhow/Kotlin.md)
-- [Java](./knowhow/Java.md)  
-- [Dart/Flutter](./knowhow/Flutter.md)
-- [TypeScript/JavaScript](./knowhow/TypeScript.md)
-- [PHP](./knowhow/Php.md)
-- [Go](./knowhow/Go.md)
-- [Python](./knowhow/Python.md)
-- [Pascal](./knowhow/Others.md#pascal)
-- [Swift](./knowhow/Others.md#swift)
-- [Carbon](./knowhow/Carbon.md)
-- [LLVM](./knowhow/Others.md#llvm)
-- [Unity](./knowhow/Unity.md)
+言語                                 |最新トピック||
+-------------------------------------|----------|--------
+[Rust](./knowhow/Rust.md)            |2025/03/15|Update: RustRover 2025.1 EAP build 6
+[.NET](./knowhow/NET.md)             |2025/03/13|Update: Visual Studio 2022 17.14 Preview 2.0
+[TypeScript](./knowhow/TypeScript.md)|2025/03/08|Update: Astro 5.4.2 / Next.js 15.2.1 / Svelte 5.22.6
+[Kotlin](./knowhow/Kotlin.md)        |2025/03/08|Update: Android Studio Meerkat 2024.3.2 Canary 8
+[Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
+[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
+[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
+[Java](./knowhow/Java.md)            |2025/01/07|Setup: Pleiades 2024-12
+
+言語共通                                    |日付      |トピック
+-------------------------------------------|----------|--------
+[Database & SQL](./knowhow/Database.md)    |2025/03/02|Update: PostgreSQL 17.4
+[Documentation](./knowhow/Documentation.md)|-
+[Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
+
+その他（更新停滞）                          |日付      |トピック
+-------------------------------------------|----------|--------
+[PHP](./knowhow/Php.md)
+[Go](./knowhow/Go.md)
+[Pascal](./knowhow/Others.md#pascal)
+[Swift](./knowhow/Others.md#swift)
+[LLVM](./knowhow/Others.md#llvm)
+[Unity](./knowhow/Unity.md)
 
 ### OS／ツール
 ```
 OSやツールのノウハウは、以下を参照
 ```
-- Windows
+- Windows <a id="WindowsKnowhow"></a>
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
   - [システムロケールの変更](./windows/systemLocale.md)
   - [フォントの変更](./windows/font.md)
-- Mac
+- Mac <a id="MacKnowhow"></a>
   - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
       ![CommandLineDeveloperTools](./images/Mac/20240813_CommandLineDeveloperTools.png)
@@ -299,7 +312,7 @@ OSやツールのノウハウは、以下を参照
     ```
   - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
   - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
-- Chrome OS Flex
+- Chrome OS Flex <a id="ChromeKnowhow"></a>
   - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
     - Linux開発環境
@@ -334,11 +347,11 @@ OSやツールのノウハウは、以下を参照
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
       - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
-- Ubuntu
+- Ubuntu <a id="UbuntuKnowhow"></a>
   - ISOイメージを作成する
-    [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
+    - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
   - スクリーンショット
-    既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
+    - 既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
@@ -468,4 +481,4 @@ OSやツールのノウハウは、以下を参照
     ![Export](./images/Penpot/20240421_Export.png)
     - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](./sub/Profile.md)
+[プロフィール](./sub/Profile.md) | [トップへ戻る](#Top)

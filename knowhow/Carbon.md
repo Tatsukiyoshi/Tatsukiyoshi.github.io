@@ -1,11 +1,11 @@
 #   Carbon
 
 ##  環境
-  |端末       |環境／FW      |最終更新
-  |-----------|-------------|----------
-  |InsiderDev |Carbon       |2025/01/13
-  |           |- LLVM 19.1.1|2025/02/01
-  |Ubuntu     |Carbon       |-
+  |端末            |環境／FW      |最終更新
+  |----------------|-------------|----------
+  |Windows Insider |Carbon       |2025/01/13
+  |                |- LLVM 19.1.1|2025/02/01
+  |Ubuntu Desktop  |Carbon       |-
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)

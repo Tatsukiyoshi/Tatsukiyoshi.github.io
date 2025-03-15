@@ -1,4 +1,10 @@
 - Update History
+  - [Sequoia 15.3.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/02/11 updated from Sequoia 15.3>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](../images/Mac/20250211_MacOS_Sequoia15.3.1Update.png)
+    - バージョン情報
+      ![Sequoia 15.3.1](../images/Mac/20250211_MacOS_Sequoia15.3.1.png)
   - [Sequoia 15.3](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/01/29 updated from Sequoia 15.2>>*</span>
     - バージョン情報
