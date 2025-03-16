@@ -29,6 +29,7 @@
       |Windows         |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
       |                |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
       |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
+      |                |TypeORM 0.3.21              |[2025/03/16](https://typeorm.io/)
       |                |React 19.0.0                |[2024/12/12](https://react.dev/)
       |                |- Bun 1.1.38                |2024/11/29
       |                |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
@@ -162,6 +163,15 @@
         deno run -Ar https://fresh.deno.dev/update
         ```
 ### ORM
+  - [TypeORM](https://typeorm.io/)
+    - プロジェクト作成
+      ```
+      npx typeorm init --name first_project --database mysql
+      ```
+    - MySQL 8.0以降で利用する場合は、mysqlでなく、mysql2を利用する
+      ```
+      npm install mysql2 --save
+      ```
   - [Prisma](https://www.prisma.io/)
     - [Start from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch)
     - Prisma Studio - Prismaを使うプロジェクト配下でデータベースを参照することができるWebアプリケーション
