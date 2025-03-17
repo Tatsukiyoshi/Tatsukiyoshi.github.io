@@ -275,3 +275,6 @@
       - 背景にWindowsスポットライトを設定してみた！
       - メモ帳にタブがついた！
       ![メモ帳](../images/Windows/20230121_Notepad_with_Tab.png)
+- Windows on Arm History
+  - Windows 11 on Arm 24H2 Build 26100.2314 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
+    ![Version Information](../images/Windows/20241114_OmniBookX_WindowsVersion.png)

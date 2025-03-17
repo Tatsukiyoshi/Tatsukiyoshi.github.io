@@ -57,8 +57,8 @@ OS                                 |端末                |リンク
       ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
     - 更新完了後のバージョン情報
       ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
-  - Windows 11 on Arm 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
-    ![Version Information](./images/Windows/20241114_OmniBookX_WindowsVersion.png)
+  - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
+    ![Version Information](./images/Windows/20250318_OmniBookX_WindowsVersion.png)
   - Updated to Windows Insider Dev Channel
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
