@@ -120,6 +120,21 @@ OS                                 |端末                |リンク
     ![Chrome OS Flexバージョン情報](./images/Chrome/20250317_Chrome_OS_Flex_133.0.6943.184.png)
       - 更新中
         ![Updating](./images/Chrome/20250317_Chrome_OS_Flex_Updating133.0.6943.184.png)
+      - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
+        <details>
+        <summary>ディストリビューション・バージョン情報</summary>
+
+        ```
+        PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+        NAME="Debian GNU/Linux"
+        VERSION_ID="12"
+        VERSION="12 (bookworm)"
+        VERSION_CODENAME=bookworm
+        ID=debian
+        HOME_URL="https://www.debian.org/"
+        SUPPORT_URL="https://www.debian.org/support"
+        BUG_REPORT_URL="https://bugs.debian.org/"
+        ```
   - [履歴](./history/Chrome.md)
 
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
