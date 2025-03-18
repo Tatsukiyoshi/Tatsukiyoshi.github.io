@@ -208,7 +208,7 @@ OS/言語を問わず利用するツールの情報
   - Windows
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
   - Mac OS
-    - Git 2.48.1 <span style="color: red;">*<<2025/01/25 updated from 2.47.1>>*</span>
+    - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
 
 **Windows**
 - [PowerShell 7.5.0](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/01/25 updated from 7.4.6>>*</span>
@@ -406,41 +406,177 @@ OSやツールのノウハウは、以下を参照
     ==> Auto-updated Homebrew!
     Updated 2 taps (homebrew/core and homebrew/cask).
     ==> New Formulae
-    argtable3           jikken              m68k-elf-binutils   python-gdbm@3.13
-    blisp               jxl-oxide           m68k-elf-gcc        python-tk@3.13
-    djlint              libcss              openapi-diff        python@3.13
-    dug                 libdom              oxlint              tllist
-    gptme               libhubbub           paperjam            tmux-sessionizer
-    icu4c@75            libparserutils      pipet
+    ab-av1                                   libcdio-paranoia
+    ad                                       libgoa
+    adapterremoval                           libgudev
+    adaptivecpp                              libpostal
+    algolia                                  libpostal-rest
+    alloy                                    ludusavi
+    anyquery                                 lume
+    aqtinstall                               mac
+    aqua                                     martin
+    arelo                                    md2pdf
+    astroterm                                mdq
+    async_simple                             mox
+    babelfish                                mummer
+    bacon-ls                                 nak
+    bagels                                   netfetch
+    bazel@7                                  nmstatectl
+    behaviortree.cpp                         node-red
+    bombardier                               nom
+    bpmnlint                                 nping
+    catgirl                                  nuitka
+    cf-terraforming                          org-formation
+    cfnctl                                   otel-cli
+    chiko                                    ov
+    cloud-provider-kind                      pdfly
+    cloudfoundry-cli                         pgbackrest
+    code2prompt                              pgrx
+    comrak                                   pivy
+    cot                                      pkl-lsp
+    cspell                                   postgresql-hll
+    dbg-macro                                precious
+    decompose                                projectable
+    dockcheck                                protobuf@29
+    dockerfilegraph                          punktf
+    dtsroll                                  ra-multiplex
+    dud                                      ramalama
+    dvr-scan                                 rasterio
+    dyff                                     ratarmount
+    evans                                    rattler-index
+    evil-helix                               redocly-cli
+    excalidraw-converter                     restish
+    exomizer                                 reuse
+    falcosecurity-libs                       rhai
+    fancy-cat                                rink
+    fastly                                   rpds-py
+    feluda                                   ruby-lsp
+    fiona                                    rustic
+    flow-control                             rustywind
+    fortitude                                sby
+    foundry                                  scryer-prolog
+    fpm                                      sdl3
+    fricas                                   sdl3_image
+    garnet                                   sdl3_ttf
+    gauth                                    semver
+    gcr                                      sentry-native
+    gdtoolkit                                sequoia-sqv
+    gersemi                                  shuttle
+    ggh                                      sitefetch
+    git-graph                                snowflake-cli
+    git-mob                                  soft-serve
+    globstar                                 sql-formatter
+    gnome-builder                            sttr
+    gnome-online-accounts                    sv2v
+    go@1.23                                  symfony-cli
+    goimports                                taskflow
+    gomi                                     terraform-cleaner
+    gotz                                     terraform-iam-policy-validator
+    gowall                                   text-embeddings-inference
+    grafana-alloy                            tf-summarize
+    gtree                                    tfprovidercheck
+    gut                                      tgpt
+    havener                                  threatcl
+    hcledit                                  tml
+    hishtory                                 todoist
+    hk                                       trdsql
+    hl                                       typioca
+    hypopg                                   ubi
+    i686-elf-grub                            umka-lang
+    icann-rdap                               umockdev
+    icu4c@77                                 unciv
+    identme                                  vfkit
+    iguana                                   visidata
+    immich-go                                vscli
+    infisical                                wfa2-lib
+    jaguar                                   x86_64-elf-grub
+    jenkins-cli                              xeyes
+    jira-cli                                 xk6
+    jsrepo                                   xlsclients
+    jupytext                                 xprop
+    kafkactl                                 xwininfo
+    kapp                                     yalantinglibs
+    kbld                                     yamlfix
+    keeper-commander                         yices2
+    keyutils                                 yoke
+    kirimase                                 yor
+    koji                                     ytt
+    krep                                     zimfw
+    largetifftools                           zlib-ng-compat
+    lazyjj                                   zlib-rs
+    lazyjournal                              zns
+    lazysql
     ==> New Casks
-    ableset                                  font-matemasie
-    anytype@alpha                            font-moderustic
-    anytype@beta                             font-new-amsterdam
-    backyard-ai                              font-noto-serif-todhri
-    cap                                      font-sour-gummy
-    colemak-dh                               font-suse
-    colemak-dhk                              homerow
-    displaybuddy                             imaging-edge
-    font-bungee-tint                         magicquit
-    font-edu-au-vic-wa-nt-arrows             microsoft-edge@canary
-    font-edu-au-vic-wa-nt-dots               quba
-    font-edu-au-vic-wa-nt-guides             sanctum
-    font-edu-au-vic-wa-nt-pre                thunderbird@esr
-    font-funnel-display                      typefully
-    font-funnel-sans
+    autogram                                 granola
+    automounterhelper                        ik-product-manager
+    badgeify                                 imaging-edge-webcam
+    batfi                                    irpf2025
+    block-goose                              istatistica-core
+    browser-actions                          jumpcloud-password-manager
+    candy-crisis                             kate
+    charles@4                                kunkun
+    chatwise                                 leader-key
+    cherry-studio                            linearmouse@beta
+    cloudflare-warp@beta                     losslessswitcher
+    consul                                   luanti
+    coterm                                   macskk
+    dana-dex                                 mitti
+    desktime                                 mouseless@preview
+    dockfix                                  muteme
+    flashspace                               nvidia-nsight-compute
+    focu                                     obscura-vpn
+    font-aporetic                            open-eid
+    font-big-shoulders                       opera-air
+    font-big-shoulders-inline                oracle-jdk-javadoc@21
+    font-big-shoulders-stencil               pairpods
+    font-bitcount                            pareto-security
+    font-bitcount-prop-single-ink            pdl
+    font-bitcount-single-ink                 pinwheel
+    font-boldonse                            precize
+    font-bytesized                           qobuz-downloader
+    font-comic-relief                        qt-design-studio
+    font-maple-mono-cn                       sokim
+    font-maple-mono-nf-cn                    soundanchor
+    font-monomakh                            startupfolder
+    font-playpen-sans-arabic                 structuredlogviewer
+    font-playpen-sans-hebrew                 thumbhost3mf
+    font-sf-mono-nerd-font-ligaturized       trae
+    font-source-han-code-jp                  trae-cn
+    font-special-gothic-condensed-one        turbotax-2024
+    font-special-gothic-expanded-one         ua-midi-control
+    font-webdings                            ui-tars
+    font-winky-rough                         valhalla-freq-echo
+    font-winky-sans                          valhalla-space-modulator
+    freelens                                 veracrypt-fuse-t
+    fuse-t                                   vernier-spectral-analysis
+    gologin                                  vezer
+    gpt4all                                  windsurf@next
 
-    You have 3 outdated formulae installed.
+    You have 7 outdated formulae installed.
 
     ==> Upgrading 1 outdated package:
-    git 2.46.0 -> 2.47.0
-    ==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.47.0
+    git 2.48.1 -> 2.49.0
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.49.0
+    ######################################################################### 100.0%
+    ==> Fetching dependencies for git: gettext
+    ==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.24
+    ######################################################################### 100.0%
+    ==> Fetching gettext
+    ==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:be3555b4d0
     ######################################################################### 100.0%
     ==> Fetching git
-    ==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:7c09abec73bcb8
+    ==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:83df6cf802d005
     ######################################################################### 100.0%
     ==> Upgrading git
-      2.46.0 -> 2.47.0 
-    ==> Pouring git--2.47.0.arm64_sequoia.bottle.tar.gz
+      2.48.1 -> 2.49.0 
+    ==> Installing dependencies for git: gettext
+    ==> Installing git dependency: gettext
+    ==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.24
+    Already downloaded: /Users/taishow2024/Library/Caches/Homebrew/downloads/8abb4a73a097ce307663b52d2da2d1d9b10df035244eb566425042eee157d0b3--gettext-0.24.bottle_manifest.json
+    ==> Pouring gettext--0.24.arm64_sequoia.bottle.tar.gz
+    🍺  /opt/homebrew/Cellar/gettext/0.24: 2,189 files, 19.9MB
+    ==> Installing git
+    ==> Pouring git--2.49.0.arm64_sequoia.bottle.tar.gz
     ==> Caveats
     The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
     Subversion interoperability (git-svn) is now in the `git-svn` formula.
@@ -448,12 +584,32 @@ OSやツールのノウハウは、以下を参照
     zsh completions and functions have been installed to:
       /opt/homebrew/share/zsh/site-functions
     ==> Summary
-    🍺  /opt/homebrew/Cellar/git/2.47.0: 1,684 files, 54.4MB
+    🍺  /opt/homebrew/Cellar/git/2.49.0: 1,731 files, 55.1MB
     ==> Running `brew cleanup git`...
     Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
     Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-    Removing: /opt/homebrew/Cellar/git/2.46.0... (1,678 files, 51.5MB)
-    Removing: /Users/taishow2024/Library/Caches/Homebrew/git_bottle_manifest--2.46.0... (15.4KB)
+    Removing: /opt/homebrew/Cellar/git/2.48.1... (1,699 files, 54.8MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/git_bottle_manifest--2.48.1... (14.9KB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/git--2.48.1... (19.4MB)
+    ==> `brew cleanup` has not been run in the last 30 days, running now...
+    Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+    Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+    Removing: /opt/homebrew/Cellar/gettext/0.23.1... (2,052 files, 22.2MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/gettext_bottle_manifest--0.23.1... (11.9KB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/gettext--0.23.1... (8.9MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/libimobiledevice-glue_bottle_manifest--1.3.1... (8.0KB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/libimobiledevice-glue--1.3.1... (74KB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.4.0... (8.9KB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/openssl@3--3.4.0... (9.7MB)
+    Removing: /Users/taishow2024/Library/Caches/Homebrew/portable-ruby-3.3.5.arm64_big_sur.bottle.tar.gz... (11.2MB)
+    Removing: /Users/taishow2024/Library/Logs/Homebrew/ruby... (64B)
+    ==> Caveats
+    ==> git
+    The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+    Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+    zsh completions and functions have been installed to:
+      /opt/homebrew/share/zsh/site-functions
     ```
     </details>
   - ブランチ確認
