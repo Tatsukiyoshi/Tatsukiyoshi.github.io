@@ -27,32 +27,31 @@
       |端末            |FW                          |最終更新      
       |----------------|----------------------------|----------
       |Windows         |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |                |Bun 1.2.4                   |[2025/03/01](https://bun.sh/)
+      |                |[Bun 1.2.4](#bun)           |[2025/03/01](https://bun.sh/)
       |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
-      |                |TypeORM 0.3.21              |[2025/03/16](https://typeorm.io/)
-      |                |React 19.0.0                |[2024/12/12](https://react.dev/)
+      |                |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
       |                |- Bun 1.1.38                |2024/11/29
-      |                |Astro 5.4.2                 |[2025/03/08](https://astro.build/)
+      |                |[Astro 5.4.2](#astro)       |[2025/03/08](https://astro.build/)
       |                |- React 19.0.0              |2024/12/11
       |                |- Bun 1.2.4                 |2025/03/01
-      |                |Next.js 15.2.1              |[2025/03/08](https://nextjs.org/)
+      |                |[Next.js 15.2.1](#nextjs)   |[2025/03/08](https://nextjs.org/)
       |                |- React 19.0.0              |2024/12/11
       |                |- Bun 1.2.4                 |2025/03/01
-      |                |Nuxt 3.15.1                 |[2025/01/07](https://nuxt.com/)
-      |                |Vue 3.5.13                  |[2024/11/29](https://jp.vuejs.org/)
+      |                |[Nuxt 3.15.1](#nuxt)        |[2025/01/07](https://nuxt.com/)
+      |                |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
       |                |- Deno 2.1.2                |2024/11/30
       |                |- Vite 6.0.1                |2024/11/29
       |                |- Bun 1.1.38                |2024/11/29
-      |                |Deno 2.1.2                  |[2024/11/30](https://deno.land/)
-      |                |- fresh 1.7.3               |[2024/10/26](https://fresh.deno.dev/)
-      |                |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
-      |                |- Bun 1.2.3                 |2025/02/24
-      |                |Svelte 5.22.6               |[2025/03/08](https://svelte.dev/)
+      |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
+      |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
+      |                |[Svelte 5.22.6](#svelte)    |[2025/03/08](https://svelte.dev/)
       |                |- Bun 1.2.4                 |2025/03/01
       |                |- Vite 6.2.1                |2025/03/08
       |Windows Insider |Node.js 22.12.0             |2024/12/14
-      |                |Angular 19.2.0              |[2025/03/02](https://angular.dev/)
-      |                |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
+      |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
+      |                |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
+      |                |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |- Bun 1.2.3                 |2025/02/24
       |                |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
       |                |- Bun 1.2.4                 |2025/03/01
@@ -94,7 +93,7 @@
             npm config set scripts-prepend-node-path true
             ```
 ### Runtime
-  - [Bun](https://bun.sh/)
+  - [Bun](https://bun.sh/) <a id="bun"></a>
     - Install
       - Windows
         ```
@@ -120,7 +119,7 @@
       ```
       bun install --save-text-lockfile
       ```
-  - [Deno](https://deno.land/)
+  - [Deno](https://deno.land/) <a id="deno"></a>
     - Denoを試してみる
       - インストール
         - Windows
@@ -151,7 +150,7 @@
         ```sh
         deno upgrade
         ```
-    - [fresh 1.6.3](https://fresh.deno.dev/)
+    - [fresh 1.6.3](https://fresh.deno.dev/) <a id="fresh"></a>
       - [Get Started](https://fresh.deno.dev/docs/getting-started)
         ```
         deno run -A -r https://fresh.deno.dev my-project
@@ -163,7 +162,7 @@
         deno run -Ar https://fresh.deno.dev/update
         ```
 ### ORM
-  - [TypeORM](https://typeorm.io/)
+  - [TypeORM](https://typeorm.io/) <a id="typeorm"></a>
     - プロジェクト作成
       ```
       npx typeorm init --name first_project --database mysql
@@ -172,7 +171,62 @@
       ```
       npm install mysql2 --save
       ```
-  - [Prisma](https://www.prisma.io/)
+  - [Prisma](https://www.prisma.io/) <a id="prisma"></a>
+    - [Prisma Data Platform](https://console.prisma.io/?) / Log on GitHub Account
+    - Prisma Postgres
+      - [Quick Start](https://www.prisma.io/docs/getting-started/quickstart-prismaPostgres)
+        <details>
+        <summary>Log</summary>
+        ```
+        PS D:\Repository\Weekend_Programming\js\prisma> npx try-prisma@latest --template databases/prisma-postgres --databaseUrl 'prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiN2ZkMDgxYzItY2MxNC00ZmVlLThhNDEtZWRlYzJjNzNlNTZkIiwidGVuYW50X2lkIjoiYjNmYTc3N2Y2MDJhY2YwOWQ2MWRkNmI1NjQ2Y2ExNDI3YWIyYjg4MjVkYzAzZDhlMmNjMzk4Y2M0YjBlMWU2NiIsImludGVybmFsX3NlY3JldCI6IjAyMTMyZWU1LTgxNTMtNDRiNS1hZTU2LWY5YTBjN2RkN2JiZiJ9.OSayNHa6Z5_vMPKVH-RekZznzOTkncVnbDVz_r5VVVU' --name hello-prisma-postgres --install npm
+        >> 
+        Need to install the following packages:
+        try-prisma@1.3.0
+        Ok to proceed? (y) y
+
+        ✔ Loaded 49 templates
+        ✔ Downloaded and extracted the databases/prisma-postgres project in ./hello-prisma-postgres.
+
+        ✔ Installed packages in ./hello-prisma-postgres.
+
+            The project is good to go! Next steps:
+            1. Navigate into ./hello-prisma-postgres to begin.
+            2. Refer to the project README for detailed instructions on running the project:
+              https://github.com/prisma/prisma-examples/tree/latest/databases/prisma-postgres
+
+        If you have any feedback about this specific template, we want to hear it!
+        Submit any feedback here: https://pris.ly/prisma-examples-feedback
+        PS D:\Repository\Weekend_Programming\js\prisma> cd .\hello-prisma-postgres\
+        PS D:\Repository\Weekend_Programming\js\prisma\hello-prisma-postgres> npx prisma migrate dev --name init                                                                                                                                  
+        Environment variables loaded from .env                                                                                                                                                                                                    
+        Prisma schema loaded from prisma\schema.prisma
+        Datasource "db": PostgreSQL database "postgres", schema "public" at "accelerate.prisma-data.net"
+
+        Applying migration `20250319084505_init`
+
+        The following migration(s) have been created and applied from new schema changes:
+
+        migrations/
+          └─ 20250319084505_init/
+            └─ migration.sql
+
+        Your database is now in sync with your schema.
+
+        ✔ Generated Prisma Client (v6.5.0, engine=none) to .\node_modules\@prisma\client in 33ms
+
+
+        PS D:\Repository\Weekend_Programming\js\prisma\hello-prisma-postgres> npm run queries
+
+        > queries
+        > ts-node ./src/queries.ts
+
+        Created users: Alice (1 post) and Bob (2 posts) 
+        Retrieved all published posts: [{"id":1,"title":"Join the Prisma community on Discord","content":"https://pris.ly/discord","published":true,"authorId":1},{"id":2,"title":"Check out Prisma on YouTube","content":"https://pris.ly/youtube","published":true,"authorId":2}]
+        Created a new post: {"id":4,"title":"Join the Prisma Discord community","content":"https://pris.ly/discord","published":false,"authorId":1}
+        Published the newly created post: {"id":4,"title":"Join the Prisma Discord community","content":"https://pris.ly/discord","published":true,"authorId":1}
+        Retrieved all posts from a specific user: [{"id":1,"title":"Join the Prisma community on Discord","content":"https://pris.ly/discord","published":true,"authorId":1},{"id":4,"title":"Join the Prisma Discord community","content":"https://pris.ly/discord","published":true,"authorId":1}]
+        ```
+        </details>
     - [Start from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch)
     - Prisma Studio - Prismaを使うプロジェクト配下でデータベースを参照することができるWebアプリケーション
       - 起動
@@ -191,11 +245,11 @@
         ![トップ画面](../images/JavaScript/PrismaStudio.png)
       - テーブルビュー
         ![テーブル表示](../images/JavaScript/PrismaStudio_Table.png)
-  - [Sequelize](https://sequelize.org/)
+  - [Sequelize](https://sequelize.org/) <a id="sequelize"></a>
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
-    - React Native
+    - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
       - Bun + React Native + TypeScript
@@ -244,7 +298,7 @@
           ```
           ![WindowsSample](../images/JavaScript/20250302_ReactNativeWindows0.78.png)
     - [Gluon](https://gluonjs.org/)
-  - [Astro](https://astro.build/)
+  - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - [Astro 5.0 beta](https://5-0-0-beta.docs.astro.build/en/guides/upgrade-to/v5/)
       - Upgrade
@@ -320,7 +374,7 @@
       ![Chart.Js](../images/php/20240103_php_jquery_chart.png)
   - [Babylon.JS 6.0](https://www.babylonjs.com/)
     ![Template](../images/JavaScript/20240103_babylon_template.png)
-  - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/)
+  - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
     - [Nextjs-blog](https://github.com/Tatsukiyoshi/nextjs-blog)
     - [Vercel](https://vercel.com/tatsukiyoshi/)
     - Vercelホスティングサービス
@@ -371,7 +425,7 @@
         これであれば、Appフォルダも使えるようになっていた。
   - T3 Stack
     - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
-  - React
+  - React <a id="react"></a>
     - Web-vitals
       - 新しいWeb-Vitalsでは、インターフェースが変更になっているため、下記リンクのように変更する必要あり
         https://stackoverflow.com/questions/78772766/yarn-build-error-ts2305-module-web-vitals-has-no-exported-member-reportha
@@ -453,7 +507,7 @@
       ```
     - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
     - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
-  - [Svelte](https://svelte.dev/)
+  - [Svelte](https://svelte.dev/) <a id="svelte"></a>
     - [SvelteとReactの基本を比較](https://www.twilio.com/blog/react-svelte-comparing-basics-jp)
     - [Svelteのポート番号変更](https://stackoverflow.com/questions/57578775/how-to-change-the-default-port-5000-in-svelte)
     - ポート番号変更(package.json)
@@ -466,7 +520,7 @@
         "tauri": "tauri"
       },
       ```
-  - [Angular](https://angular.dev/)
+  - [Angular](https://angular.dev/) <a id="angular"></a>
     - [Angular日本語ドキュメンテーション―ローカル環境とワークスペースのセットアップ](https://angular.jp/guide/setup-local)
     - ノウハウ
       1.  コマンド
@@ -823,7 +877,7 @@
       - [Angularプロジェクトの作成](https://qiita.com/KaoruIto76/items/272c7724aa8bbc45d591)
     - basic_20190223
       - AngularによるモダンWeb開発 基礎編 第2版 ダイジェスト版（日経ソフトウェア 2019年5月号 付録）
-  - [Vue.js](https://jp.vuejs.org/index.html)
+  - [Vue.js](https://jp.vuejs.org/index.html) <a id="vue"></a>
     - [eslint-plugin-vue](https://eslint.vuejs.org/)
     - [Vue3 + TypeScript + Prettier に対応した ESLint Flat Config の最小構成](https://zenn.dev/shun91/articles/min-eslint-flat-config-for-vue3-ts-prettier)
     - [TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/detail/14451)
@@ -853,7 +907,7 @@
       ```
       $ deno run -A npm:create-vite-extra --template deno-vue
       ```
-    - nuxt.jsでのプロジェクト作成
+    - nuxt.jsでのプロジェクト作成 <a id="nuxt"></a>
       ```
       npx create-nuxt-app <project-name>
       ```
