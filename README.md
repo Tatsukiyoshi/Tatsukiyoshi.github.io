@@ -247,14 +247,14 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[Rust](./knowhow/Rust.md)            |2025/03/15|Update: RustRover 2025.1 EAP build 6
 [.NET](./knowhow/NET.md)             |2025/03/13|Update: Visual Studio 2022 17.14 Preview 2.0
-[TypeScript](./knowhow/TypeScript.md)|2025/03/08|Update: Astro 5.4.2 / Next.js 15.2.1 / Svelte 5.22.6
-[Kotlin](./knowhow/Kotlin.md)        |2025/03/08|Update: Android Studio Meerkat 2024.3.2 Canary 8
-[Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
+[Rust](./knowhow/Rust.md)            |2025/03/15|Update: RustRover 2025.1 EAP build 6
+[Kotlin](./knowhow/Kotlin.md)        |2025/03/19|Update: Android Studio Meerkat 2024.3.2 Beta 1 / IntelliJ IDEA 2024.3.5
 [Java](./knowhow/Java.md)            |2025/01/07|Setup: Pleiades 2024-12
+[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
+[TypeScript](./knowhow/TypeScript.md)|2025/03/19|Update: TypeORM 0.3.21 / Prisma 6.5.0 / Sequelize 6.37.6
+[Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
+[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
