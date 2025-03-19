@@ -10,7 +10,7 @@
 ##  環境
   |端末            |環境／FW                                                     |最終更新      
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2024.3.4.1](#intellij-idea)                  |[2025/03/07](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2024.3.5](#intellij-idea)                    |[2025/03/19](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.10                                             |[2025/02/01](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
@@ -22,9 +22,9 @@
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.4.1 (Community Edition)
+  - IntelliJ IDEA 2024.3.5 (Community Edition)
     ```
-    Build #IC-243.25659.59, built on March 5, 2025
+    Build #IC-243.26053.27, built on March 16, 2025
     Runtime version: 21.0.6+8-b631.39 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -36,10 +36,10 @@
       ide.experimental.ui=true
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (243.23654.44)
-      Lombook Plugin (243.23654.189)
-      org.jetbrains.android (243.25659.59)
-    Kotlin: 243.25659.59-IJ
+      Dart (243.26053.17)
+      Lombook Plugin (243.26053.27)
+      org.jetbrains.android (243.26053.27)
+    Kotlin: 243.26053.27-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
