@@ -50,6 +50,7 @@
       |Windows Insider |Node.js 22.12.0             |2024/12/14
       |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
+      |                |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
       |                |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
       |                |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |- Bun 1.2.3                 |2025/02/24
@@ -245,7 +246,8 @@
         ![トップ画面](../images/JavaScript/PrismaStudio.png)
       - テーブルビュー
         ![テーブル表示](../images/JavaScript/PrismaStudio_Table.png)
-  - [Sequelize](https://sequelize.org/) <a id="sequelize"></a>
+  - [Sequelize](https://sequelize.org/) <a id="seq"></a>
+    - [Getting Started](https://sequelize.org/docs/v6/getting-started/)
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
