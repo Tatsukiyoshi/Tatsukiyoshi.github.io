@@ -1,5 +1,5 @@
 # トップページ <a id="Top"></a>
-[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
+[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [ノウハウ](#Knowhow)
 
 ---
 ##  ダイジェスト <a id="Digest"></a>
@@ -240,7 +240,7 @@ OS/言語を問わず利用するツールの情報
 
 [トップへ戻る](#Top)
 
-##  ノウハウ
+##  ノウハウ <a id="Knowhow"></a>
 ### プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成に関するノウハウは、各ページに蓄積
