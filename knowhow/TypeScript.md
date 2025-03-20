@@ -31,12 +31,6 @@
       |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |                |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
       |                |- Bun 1.1.38                |2024/11/29
-      |                |[Astro 5.4.2](#astro)       |[2025/03/08](https://astro.build/)
-      |                |- React 19.0.0              |2024/12/11
-      |                |- Bun 1.2.4                 |2025/03/01
-      |                |[Next.js 15.2.1](#nextjs)   |[2025/03/08](https://nextjs.org/)
-      |                |- React 19.0.0              |2024/12/11
-      |                |- Bun 1.2.4                 |2025/03/01
       |                |[Nuxt 3.15.1](#nuxt)        |[2025/01/07](https://nuxt.com/)
       |                |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
       |                |- Deno 2.1.2                |2024/11/30
@@ -44,10 +38,9 @@
       |                |- Bun 1.1.38                |2024/11/29
       |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
       |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
-      |                |[Svelte 5.22.6](#svelte)    |[2025/03/08](https://svelte.dev/)
-      |                |- Bun 1.2.4                 |2025/03/01
-      |                |- Vite 6.2.1                |2025/03/08
       |Windows Insider |Node.js 22.12.0             |2024/12/14
+      |                |[Bun 1.2.5](#bun)           |[2025/03/20](https://bun.sh/)
+      |                |Vite 6.2.2                  |[2025/03/20](https://vitejs.dev/)
       |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -58,6 +51,15 @@
       |                |- Bun 1.2.4                 |2025/03/01
       |                |- React Native 0.78.0       |2025/03/02
       |                |- Windows SDK 10.0.26100    |2025/01/18
+      |                |[Astro 5.5.3](#astro)       |[2025/03/20](https://astro.build/)
+      |                |- React 19.0.0              |2024/12/11
+      |                |- Bun 1.2.5                 |2025/03/20
+      |                |[Next.js 15.2.3](#nextjs)   |[2025/03/20](https://nextjs.org/)
+      |                |- React 19.0.0              |2024/12/11
+      |                |- Bun 1.2.5                 |2025/03/20
+      |                |[Svelte 5.23.2](#svelte)    |[2025/03/20](https://svelte.dev/)
+      |                |- Bun 1.2.5                 |2025/03/20
+      |                |- Vite 6.2.2                |2025/03/20
 
   1.  Mac OS
       |端末       |FW                          |最終更新      
@@ -510,6 +512,7 @@
     - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
     - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
   - [Svelte](https://svelte.dev/) <a id="svelte"></a>
+    - [Static Site Generator](https://svelte.jp/docs/kit/adapter-static)
     - [SvelteとReactの基本を比較](https://www.twilio.com/blog/react-svelte-comparing-basics-jp)
     - [Svelteのポート番号変更](https://stackoverflow.com/questions/57578775/how-to-change-the-default-port-5000-in-svelte)
     - ポート番号変更(package.json)
