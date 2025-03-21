@@ -13,8 +13,8 @@
 
   |端末            |環境／FW                                                                         |最終更新
   |----------------|--------------------------------------------------------------------------------|----------
-  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/01/07](https://willbrains.jp/)
-  |                |[Apache Tomcat 10.1.34](#tomcat)                                                |[2025/01/07](https://tomcat.apache.org/download-10.cgi)
+  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/03/21](https://willbrains.jp/)
+  |                |[Apache Tomcat 10.1.39](#tomcat)                                                |[2025/03/21](https://tomcat.apache.org/download-10.cgi)
   |                |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
   |                |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
   |                |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
@@ -522,6 +522,9 @@
   </details>
 
 ###  Pleiades
+  - pleiades 2025-03
+    ![Eclipse 4.35](../images/eclipse/20250321_2025-03_Eclipse4.35.png)
+    - Tomcat 10.1.39
   - Pleiades 2024-03
     ![Eclipse 4.31](../images/eclipse/20240504_2024-03_Eclipse4.31.png)
   - Pleiades 2022-06およびTomcat 10.0.20での対応
