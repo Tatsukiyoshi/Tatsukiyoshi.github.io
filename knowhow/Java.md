@@ -13,7 +13,7 @@
 
   |端末            |環境／FW                                                                         |最終更新
   |----------------|--------------------------------------------------------------------------------|----------
-  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2024-12 (Eclipse 4.34)](#pleiades)|[2025/03/21](https://willbrains.jp/)
+  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2025-03 (Eclipse 4.35)](#pleiades)|[2025/03/21](https://willbrains.jp/)
   |                |[Apache Tomcat 10.1.39](#tomcat)                                                |[2025/03/21](https://tomcat.apache.org/download-10.cgi)
   |                |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
   |                |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
