@@ -11,11 +11,11 @@
   |端末            |環境／FW                                                     |最終更新      
   |----------------|------------------------------------------------------------|----------
   |Windows Insider |[IntelliJ IDEA 2024.3.5](#intellij-idea)                    |[2025/03/19](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.1.10                                             |[2025/02/01](https://kotlinlang.org/docs/home.html)
+  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
   |                |[Android Studio Meerkat 2024.3.2 Beta 1](#android-studio)   |[2025/03/19](https://developer.android.com/studio)
-  |                |- Kotlin 2.1.10                                             |[2025/01/31](https://kotlinlang.org/docs/home.html)
+  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
   |                |- Android Emulator v.35.6.1                                 |2025/03/19
 
