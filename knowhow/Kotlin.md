@@ -10,21 +10,21 @@
 ##  環境
   |端末            |環境／FW                                                     |最終更新      
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2024.3.4.1](#intellij-idea)                  |[2025/03/07](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.1.10                                             |[2025/02/01](https://kotlinlang.org/docs/home.html)
+  |Windows Insider |[IntelliJ IDEA 2024.3.5](#intellij-idea)                    |[2025/03/19](https://www.jetbrains.com/ja-jp/idea/)
+  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Meerkat 2024.3.2 Canary 8](#android-studio) |[2025/03/08](https://developer.android.com/studio)
-  |                |- Kotlin 2.1.10                                             |[2025/01/31](https://kotlinlang.org/docs/home.html)
+  |                |[Android Studio Meerkat 2024.3.2 Beta 1](#android-studio)   |[2025/03/19](https://developer.android.com/studio)
+  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.5.7                                 |2025/03/14
+  |                |- Android Emulator v.35.6.1                                 |2025/03/19
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.4.1 (Community Edition)
+  - IntelliJ IDEA 2024.3.5 (Community Edition)
     ```
-    Build #IC-243.25659.59, built on March 5, 2025
+    Build #IC-243.26053.27, built on March 16, 2025
     Runtime version: 21.0.6+8-b631.39 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -36,10 +36,10 @@
       ide.experimental.ui=true
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (243.23654.44)
-      Lombook Plugin (243.23654.189)
-      org.jetbrains.android (243.25659.59)
-    Kotlin: 243.25659.59-IJ
+      Dart (243.26053.17)
+      Lombook Plugin (243.26053.27)
+      org.jetbrains.android (243.26053.27)
+    Kotlin: 243.26053.27-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -164,9 +164,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Canary 8
+  - Android Studio Meerkat Feature Drop | 2024.3.2 Beta 1
     ```
-    Build #AI-243.24978.46.2432.13174079, built on March 7, 2025
+    Build #AI-243.25659.59.2432.13218502, built on March 15, 2025
     Runtime version: 21.0.6+-13119726-b895.91 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
