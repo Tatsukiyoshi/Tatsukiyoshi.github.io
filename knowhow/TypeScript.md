@@ -31,7 +31,6 @@
       |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |                |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
       |                |- Bun 1.1.38                |2024/11/29
-      |                |[Nuxt 3.15.1](#nuxt)        |[2025/01/07](https://nuxt.com/)
       |                |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
       |                |- Deno 2.1.2                |2024/11/30
       |                |- Vite 6.0.1                |2024/11/29
@@ -57,9 +56,10 @@
       |                |[Next.js 15.2.3](#nextjs)   |[2025/03/20](https://nextjs.org/)
       |                |- React 19.0.0              |2024/12/11
       |                |- Bun 1.2.5                 |2025/03/20
-      |                |[Svelte 5.23.2](#svelte)    |[2025/03/20](https://svelte.dev/)
+      |                |[Svelte 5.25.2](#svelte)    |[2025/03/23](https://svelte.dev/)
       |                |- Bun 1.2.5                 |2025/03/20
       |                |- Vite 6.2.2                |2025/03/20
+      |                |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
 
   1.  Mac OS
       |端末       |FW                          |最終更新      
@@ -395,6 +395,7 @@
       - DPS Workflow
         Pull Requestを発行すると、VercelでPreviewすることができ、Mergeすると、正式サイト（Production）に昇格する。<BR>
         Develop -> Preview -> Ship
+    - [Static Exports](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
     - [Tailwindcss with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
       - bunでの更新時に ```tailwindcss -i styles/globals.css -o styles/dist.css``` がエラーで実行できないことから、
         改めて、tailwindcssのサイトを確認し、[Upgrade Guide](https://tailwindcss.com/docs/upgrade-guide)を参照 <BR>
