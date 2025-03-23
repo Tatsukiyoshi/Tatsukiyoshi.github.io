@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
       |           |[RustRover 2025.1 EAP build 6](#rustrover)     |[2025/03/15](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.3.1](#tauridesktop-framework)         |[2025/03/01](https://tauri.app/)
-      |           |Svelte 5.22.6                                  |2025/03/08
-      |           |Vite 6.2.1                                     |2025/03/08
-      |           |Bun 1.2.4                                      |2025/03/01
+      |           |[Tauri 2.4.0](#tauridesktop-framework)         |[2025/03/23](https://tauri.app/)
+      |           |Svelte 5.25.2                                  |2025/03/23
+      |           |Vite 6.2.2                                     |2025/03/23
+      |           |Bun 1.2.5                                      |2025/03/23
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -357,9 +357,13 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
-  - V2.3.1
+  - V2.4.0
     - Windows
-      ![On Windows](../images/rust/20250301_Tauri2.3.1_Windows.png)
+      ![On Windows](../images/rust/20250323_Tauri2.4.0_Windows.png)
+      - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
+        そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
+        回避策として、tauri-pluginを明示するように修正
+  - V2.3.1
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250301_Tauri2.3.1_Ubuntu24.04.png)
     - iOS 18.3 / iPhone 16e
