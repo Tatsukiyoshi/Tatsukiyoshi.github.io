@@ -30,10 +30,10 @@
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
       |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.3.1     |2025/03/01
+      |                |Tauri 2.4.0     |2025/03/23
       |                |React 19.0.0    |2024/12/18
-      |                |Vite 6.2.0      |2025/03/01
-      |                |Bun 1.2.4       |2025/03/01
+      |                |Vite 6.2.2      |2025/03/23
+      |                |Bun 1.2.5       |2025/03/23
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -358,14 +358,39 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.4.0
+    - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
+      そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
+      回避策として、tauri-pluginを明示するように修正
+      ```
+      error[E0308]: mismatched types
+        --> /home/taishow/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-plugin-2.0.3/src/build/mod.rs:140:58
+          |
+      140 |       tauri_utils::plugin::define_global_api_script_path(path);
+          |       -------------------------------------------------- ^^^^ expected `&Path`, found `PathBuf`
+          |       |
+          |       arguments to this function are incorrect
+          |
+      note: function defined here
+        --> /home/taishow/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-utils-2.3.0/src/plugin.rs:22:10
+          |
+      22  |   pub fn define_global_api_script_path(path: &Path) {
+          |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      help: consider borrowing here
+          |
+      140 |       tauri_utils::plugin::define_global_api_script_path(&path);
+          |                                                          +
+
+      For more information about this error, try `rustc --explain E0308`.
+      error: could not compile `tauri-plugin` (lib) due to 1 previous error
+      warning: build failed, waiting for other jobs to finish...
+      error: script "dev" was terminated by signal SIGTERM (Polite quit request)
+      error: script "tauri" exited with code 101
+      ```
     - Windows
       ![On Windows](../images/rust/20250323_Tauri2.4.0_Windows.png)
-      - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
-        そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
-        回避策として、tauri-pluginを明示するように修正
-  - V2.3.1
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250301_Tauri2.3.1_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](../images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
+  - V2.3.1
     - iOS 18.3 / iPhone 16e
       ![On iPhone 16e](../images/rust/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
   - V2.0
