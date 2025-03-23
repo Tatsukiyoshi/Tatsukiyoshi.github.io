@@ -45,13 +45,13 @@
       |           |React 19.0.0                                 |2024/12/08
       |           |Vite 6.0.6                                   |2024/12/28
 
-  1.  Mac OS Sequoia 15.2
+  1.  Mac OS Sequoia 15.3.2
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.85            |2025/03/01
-      |           |Tauri 2.3.1          |2025/03/01
-      |           |Bun 1.2.4            |2025/03/01
-      |           |Vite 6.2.0           |2025/03/01
+      |           |Tauri 2.4.0          |2025/03/23
+      |           |Bun 1.2.5            |2025/03/23
+      |           |Vite 6.2.2           |2025/03/23
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -390,9 +390,10 @@
       ![On Windows](../images/rust/20250323_Tauri2.4.0_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
-  - V2.3.1
+    - Mac OS
+      ![On Mac OS](../images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
     - iOS 18.3 / iPhone 16e
-      ![On iPhone 16e](../images/rust/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
+      ![On iPhone 16e](../images/rust/20250323_Tauri2.4.0_iPhone16e_iOS18.3.png)
   - V2.0
     - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
       ```
