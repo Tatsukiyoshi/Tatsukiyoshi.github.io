@@ -11,11 +11,11 @@
   |端末            |環境／FW                                          |最終更新
   |----------------|-------------------------------------------------|----------
   |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 2.0 |[2025/03/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
-  |                |- .NET 10.0.0-preview.1                          |[2025/02/27](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |- .NET 10.0.0-preview.2.25164.34                 |[2025/03/24](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.1](#maui)               |[2025/02/27](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
-  |                |- .NET 9.0.2                                     |2025/02/12
-  |                |- .NET 8.0.13                                    |2025/02/12
+  |                |- .NET 9.0.3                                     |2025/03/24
+  |                |- .NET 8.0.14                                    |2025/03/24
   |Windows         |Visual Studio Community 2022 17.13.3             |[2025/03/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.3                                     |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.14                                    |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
@@ -65,6 +65,12 @@
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
       ![.NET 8.0.14](../images/VisualStudio/20250313_dotnet8.0.14.png)
 
+  - Wingetでのインストール
+    ```
+    winget install Microsoft.DotNet.SDK.8
+    winget install Microsoft.DotNet.SDK.9
+    winget install Microsoft.DotNet.SDK.Preview
+    ```
   - .NET 環境情報
   ```
   dotnet --info
@@ -74,72 +80,72 @@
 
   ```
   .NET SDK:
-  Version:           10.0.100-preview.1.25120.13
-  Commit:            ba56a99747
-  Workload version:  10.0.100-manifests.06d18751
-  MSBuild version:   17.14.0-preview-25110-01+01d0b7a93
+  Version:           10.0.100-preview.2.25164.34
+  Commit:            374efa6cf4
+  Workload version:  10.0.100-preview.2.25167.2
+  MSBuild version:   17.14.0-preview-25155-01+d0cb70a0d
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.26120
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.1.25120.13\
+  Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.2.25164.34\
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: SDK 10.0.100-preview.1, VS 17.14.35906.104
-    マニフェストのバージョン:    35.99.0-preview.1.140/10.0.100-preview.1
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.1\microsoft.net.sdk.android\35.99.0-preview.1.140\WorkloadManifest.json
+    インストール ソース: SDK 10.0.100-preview.2, VS 17.14.35906.104
+    マニフェストのバージョン:    35.99.0-preview.2.205/10.0.100-preview.2
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.2\microsoft.net.sdk.android\35.99.0-preview.2.205\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: SDK 10.0.100-preview.1, VS 17.14.35906.104
-    マニフェストのバージョン:    18.2.10322-net10-p1/10.0.100-preview.1
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.1\microsoft.net.sdk.ios\18.2.10322-net10-p1\WorkloadManifest.json
+    インストール ソース: SDK 10.0.100-preview.2, VS 17.14.35906.104
+    マニフェストのバージョン:    18.2.10552-net10-p2/10.0.100-preview.2
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.2\microsoft.net.sdk.ios\18.2.10552-net10-p2\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: SDK 10.0.100-preview.1, VS 17.14.35906.104
-    マニフェストのバージョン:    18.2.10322-net10-p1/10.0.100-preview.1
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.1\microsoft.net.sdk.maccatalyst\18.2.10322-net10-p1\WorkloadManifest.json
+    インストール ソース: SDK 10.0.100-preview.2, VS 17.14.35906.104
+    マニフェストのバージョン:    18.2.10552-net10-p2/10.0.100-preview.2
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.2\microsoft.net.sdk.maccatalyst\18.2.10552-net10-p2\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: SDK 10.0.100-preview.1, VS 17.14.35906.104
-    マニフェストのバージョン:    10.0.0-preview.1.25122.6/10.0.100-preview.1
-    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.1\microsoft.net.sdk.maui\10.0.0-preview.1.25122.6\WorkloadManifest.json
+    インストール ソース: SDK 10.0.100-preview.2, VS 17.14.35906.104
+    マニフェストのバージョン:    10.0.0-preview.2.25165.1/10.0.100-preview.2
+    マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.2\microsoft.net.sdk.maui\10.0.0-preview.2.25165.1\WorkloadManifest.json
     インストールの種類:              Msi
 
-  新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
+  新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
 
   Host:
-    Version:      10.0.0-preview.1.25080.5
+    Version:      10.0.0-preview.2.25163.2
     Architecture: x64
-    Commit:       b98cabca12
+    Commit:       c81f403737
 
   .NET SDKs installed:
-    8.0.405 [C:\Program Files\dotnet\sdk]
-    9.0.102 [C:\Program Files\dotnet\sdk]
+    8.0.407 [C:\Program Files\dotnet\sdk]
     9.0.200 [C:\Program Files\dotnet\sdk]
-    10.0.100-preview.1.25120.13 [C:\Program Files\dotnet\sdk]
+    9.0.202 [C:\Program Files\dotnet\sdk]
+    10.0.100-preview.2.25164.34 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
-    Microsoft.AspNetCore.App 8.0.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 10.0.0-preview.1.25120.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 8.0.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.AspNetCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 10.0.0-preview.2.25164.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 8.0.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 10.0.0-preview.1.25080.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 8.0.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.NETCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 10.0.0-preview.2.25163.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 8.0.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 10.0.0-preview.1.25080.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 10.0.0-preview.2.25163.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
@@ -278,39 +284,219 @@
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0)
     - Visual Studio
       - Visual Studio 2022 17.14 Preview 2.0 対応
-        - MAUIワークロードの更新
-          ```
-          dotnet workload update
-          ```
-          <details>
-          <summary>MAUI Update Log</summary>
-          ```
-          広告マニフェスト microsoft.net.sdk.maui を更新しました。
-          広告マニフェスト microsoft.net.workload.mono.toolchain.net6 を更新しました。
-          広告マニフェスト microsoft.net.workload.mono.toolchain.net9 を更新しました。
-          広告マニフェスト microsoft.net.workload.mono.toolchain.current を更新しました。
-          広告マニフェスト microsoft.net.workload.emscripten.net7 を更新しました。
-          広告マニフェスト microsoft.net.workload.mono.toolchain.net7 を更新しました。
-          広告マニフェスト microsoft.net.sdk.macos を更新しました。
-          広告マニフェスト microsoft.net.sdk.aspire を更新しました。
-          広告マニフェスト microsoft.net.sdk.maccatalyst を更新しました。
-          広告マニフェスト microsoft.net.sdk.tvos を更新しました。
-          広告マニフェスト microsoft.net.workload.emscripten.net6 を更新しました。
-          広告マニフェスト microsoft.net.sdk.android を更新しました。
-          広告マニフェスト microsoft.net.workload.emscripten.net9 を更新しました。
-          広告マニフェスト microsoft.net.sdk.ios を更新しました。
-          広告マニフェスト microsoft.net.workload.mono.toolchain.net8 を更新しました。
-          広告マニフェスト microsoft.net.workload.emscripten.current を更新しました。
-          広告マニフェスト microsoft.net.workload.emscripten.net8 を更新しました。
-
-          ワークロード android ios maccatalyst maui-windows が正常に更新されました。
-          ```
-          </details>
         - 17.14 Preview 2.0 / MAUI 10.0.0-preview.1.25122.6 / Pixel 9 API 35(Android 15)
           ![MAUI - Pixel 9 API 35](../images/VisualStudio/20250313_VS2022_17.14_Preview2.0_MAUI10.0.0preview1_Android15.png)
           - ワークロードを更新しないと、デバッガが異常終了
             ![MAUI Debugger Abort - Pixel 9 API 35](../images/VisualStudio/20250313_VS2022_17.14_Preview2.0_MAUI10.0.0preview1_Android15_NG.png)
       - [履歴](../history/VisualStudio.md)
+    - MAUIワークロードの更新
+      ```
+      dotnet workload update
+      ```
+
+      <details>
+        <summary>MAUI Update Log</summary>
+
+        ```
+        .NET 10.0 へようこそ!
+        ---------------------
+        SDK バージョン: 10.0.100-preview.2.25164.34
+
+        テレメトリ
+        ---------
+        .NET ツールは、エクスペリエンスの向上のために利用状況データを収集します。データは Microsoft によって収集され、コミュニティと共有されます。テレメトリをオプトアウトするには、好みのシェルを使用して、DOTNET_CLI_TELEMETRY_OPTOUT 環境変数を '1' または 'true' に設定できます。
+
+        .NET CLI ツールのテレメトリの詳細をご覧ください: https://aka.ms/dotnet-cli-telemetry
+
+        ----------------
+        ASP.NET Core HTTPS 開発証明書をインストールしました。
+        証明書を信頼するには、'dotnet dev-certs https --trust' を実行します
+        HTTPS の詳細情報: https://aka.ms/dotnet-https
+
+        ----------------
+        最初のアプリを作成するには、https://aka.ms/dotnet-hello-world を参照してください
+        最新情報については、https://aka.ms/dotnet-whats-new を参照してください
+        ドキュメントを探すには、https://aka.ms/dotnet-docs を参照してください
+        GitHub で問題の報告とソースの検索を行うには、https://github.com/dotnet/core を参照してください
+        'dotnet --help' を使用して使用可能なコマンドを確認するか、https://aka.ms/dotnet-cli にアクセスしてください
+        --------------------------------------------------------------------------------------
+
+        広告マニフェスト microsoft.net.workloads を更新しました。
+        ワークロードのバージョン 10.0.100-preview.2.25167.2 をインストールしています。
+        Downloading microsoft.net.workloads.10.0.100-preview.2.msi.x64 (10.100.0-preview.2.25167.2)
+        microsoft.net.workloads.10.0.100-preview.2.msi.x64 をインストールしています .... Done
+        Downloading microsoft.net.workload.emscripten.current.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25120.1)
+        Downloading microsoft.net.workload.emscripten.net6.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25120.1)
+        Downloading microsoft.net.workload.emscripten.net7.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25120.1)
+        Downloading microsoft.net.workload.emscripten.net8.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25120.1)
+        Downloading microsoft.net.sdk.android.manifest-10.0.100-preview.2.msi.x64 (35.99.0-preview.2.205)
+        microsoft.net.sdk.android.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.sdk.ios.manifest-10.0.100-preview.2.msi.x64 (18.2.10552-net10-p2)
+        microsoft.net.sdk.ios.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.sdk.maccatalyst.manifest-10.0.100-preview.2.msi.x64 (18.2.10552-net10-p2)
+        microsoft.net.sdk.maccatalyst.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.sdk.macos.manifest-10.0.100-preview.2.msi.x64 (15.2.10552-net10-p2)
+        microsoft.net.sdk.macos.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.sdk.maui.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25165.1)
+        microsoft.net.sdk.maui.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.sdk.tvos.manifest-10.0.100-preview.2.msi.x64 (18.2.10552-net10-p2)
+        microsoft.net.sdk.tvos.manifest-10.0.100-preview.2.msi.x64 をインストールしています ..... Done
+        Downloading microsoft.net.workload.mono.toolchain.current.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25163.2)
+        Downloading microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25163.2)
+        Downloading microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25163.2)
+        Downloading microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100-preview.2.msi.x64 (10.0.0-preview.2.25163.2)
+        Downloading microsoft.net.sdk.aspire.manifest-8.0.100.msi.x64 (8.2.2)
+        この機能バンドにはワークロードがインストールされていません。以前の SDK バージョンでインストールしたワークロードを更新するには、--from-previous-sdk オプションを含めます。
+        Visual Studio ワークロードのインストール レコードを書き込み中: 'maui-windows, maccatalyst, ios, android'
+        Downloading Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.AspNetCore.Components.WebView.Maui.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.AspNetCore.Components.WebView.Maui.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Sdk.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Sdk.Msi.x64 をインストールしています ..... Done
+        Microsoft.Maui.Sdk.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Graphics.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Graphics.Msi.x64 をインストールしています .... Done
+        Downloading Microsoft.Maui.Resizetizer.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Resizetizer.Msi.x64 をインストールしています ...... Done
+        Downloading Microsoft.Maui.Templates.net10.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Templates.net10.Msi.x64 をインストールしています ..... Done
+        Microsoft.Maui.Templates.net9.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Core.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Core.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Controls.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Controls.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Controls.Build.Tasks.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Controls.Build.Tasks.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Controls.Core.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Controls.Core.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Controls.Xaml.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Controls.Xaml.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Controls.Compatibility.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Controls.Compatibility.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.Maui.Essentials.Msi.x64 (10.0.0-preview.2.25165.1)
+        Microsoft.Maui.Essentials.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.MacCatalyst.Sdk.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.MacCatalyst.Sdk.net10.0_18.2.Msi.x64 をインストールしています ...... Done
+        Microsoft.MacCatalyst.Sdk.net8.0_18.0.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.MacCatalyst.Ref.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.MacCatalyst.Ref.net10.0_18.2.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net10.0_18.2.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net10.0_18.2.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.MacCatalyst.Templates.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.MacCatalyst.Templates.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 をインストールしています .... Done
+        Downloading Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 (8.0.14)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 (8.0.14)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 をインストールしています .......... Done
+        Downloading Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 (8.0.14)
+        Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 (8.0.14)
+        Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 (9.0.3)
+        Microsoft.NET.Runtime.MonoAOTCompiler.Task.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 (9.0.3)
+        Microsoft.NET.Runtime.MonoTargets.Sdk.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.iOS.Sdk.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Sdk.net10.0_18.2.Msi.x64 をインストールしています ......... Done
+        Microsoft.iOS.Sdk.net8.0_18.0.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.iOS.Windows.Sdk.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Windows.Sdk.net10.0_18.2.Msi.x64 をインストールしています ........ Done
+        Microsoft.iOS.Windows.Sdk.net8.0_18.0.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.iOS.Ref.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Ref.net10.0_18.2.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.iOS.Runtime.ios-arm64.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Runtime.ios-arm64.net10.0_18.2.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.iOS.Runtime.iossimulator-x64.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Runtime.iossimulator-x64.net10.0_18.2.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_18.2.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_18.2.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.iOS.Templates.Msi.x64 (18.2.10552-net10-p2)
+        Microsoft.iOS.Templates.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 (8.0.14)
+        Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 をインストールしています .......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 (8.0.14)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 (8.0.14)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.ios-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.Android.Sdk.Windows.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Sdk.Windows.Msi.x64 をインストールしています ................ Done
+        Microsoft.Android.Sdk.Windows.Msi.x64 をインストールしています ............... Done
+        Downloading Microsoft.Android.Ref.35.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Ref.35.Msi.x64 をインストールしています ...... Done
+        Downloading Microsoft.Android.Runtime.Mono.35.android-arm.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Runtime.Mono.35.android-arm.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.Android.Runtime.Mono.35.android-arm64.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Runtime.Mono.35.android-arm64.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.Android.Runtime.Mono.35.android-x86.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Runtime.Mono.35.android-x86.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.Android.Runtime.Mono.35.android-x64.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Runtime.Mono.35.android-x64.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.Android.Templates.Msi.x64 (35.99.0-preview.2.205)
+        Microsoft.Android.Templates.Msi.x64 をインストールしています ..... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-arm.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.android-arm.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-arm64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.android-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-x64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.android-x64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-x86.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.Mono.android-x86.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x86.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x86.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x64.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 (9.0.3)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-arm.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.android-arm.Msi.x64 をインストールしています .......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-arm64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.android-arm64.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-x64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.android-x64.Msi.x64 をインストールしています .......... Done
+        Downloading Microsoft.NETCore.App.Runtime.Mono.android-x86.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.Mono.android-x86.Msi.x64 をインストールしています ......... Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x86.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x86.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-x64.Msi.x64 をインストールしています ....... Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm.Msi.x64 をインストールしています ........ Done
+        Downloading Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 (10.0.0-preview.2.25163.2)
+        Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をインストールしています ........ Done
+
+        ワークロード maui-windows maccatalyst ios android が正常に更新されました。
+        ```
+      </details>
+
     - Visual Studio Code
       - [.NET MAUI 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui)
     - MAUIワークロードのインストール
