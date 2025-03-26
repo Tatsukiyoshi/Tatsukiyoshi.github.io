@@ -12,7 +12,7 @@
   |----------------|-------------------------------------------------|----------
   |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 2.0 |[2025/03/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.2.25164.34                 |[2025/03/24](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.0-preview.1](#maui)               |[2025/02/27](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.0-preview.2](#maui)               |[2025/03/24](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
   |                |- .NET 9.0.3                                     |2025/03/24
   |                |- .NET 8.0.14                                    |2025/03/24
