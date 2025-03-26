@@ -38,7 +38,7 @@
       |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
       |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Node.js 22.12.0             |2024/12/14
-      |                |[Bun 1.2.5](#bun)           |[2025/03/20](https://bun.sh/)
+      |                |[Bun 1.2.6](#bun)           |[2025/03/27](https://bun.sh/)
       |                |Vite 6.2.2                  |[2025/03/20](https://vitejs.dev/)
       |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
@@ -50,9 +50,9 @@
       |                |- Bun 1.2.4                 |2025/03/01
       |                |- React Native 0.78.0       |2025/03/02
       |                |- Windows SDK 10.0.26100    |2025/01/18
-      |                |[Astro 5.5.3](#astro)       |[2025/03/20](https://astro.build/)
+      |                |[Astro 5.5.5](#astro)       |[2025/03/27](https://astro.build/)
       |                |- React 19.0.0              |2024/12/11
-      |                |- Bun 1.2.5                 |2025/03/20
+      |                |- Bun 1.2.6                 |2025/03/27
       |                |[Next.js 15.2.3](#nextjs)   |[2025/03/20](https://nextjs.org/)
       |                |- React 19.0.0              |2024/12/11
       |                |- Bun 1.2.5                 |2025/03/20
