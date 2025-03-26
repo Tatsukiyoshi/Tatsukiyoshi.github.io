@@ -116,10 +116,10 @@ OS                                 |端末                |リンク
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 134.0.6998.107 <span style="color: red;">*<<2025/03/20 updated from 133.0.6943.184>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250320_Chrome_OS_Flex_134.0.6998.107.png)
+  - バージョン 134.0.6998.130 <span style="color: red;">*<<2025/03/26 updated from 134.0.6998.107>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250326_Chrome_OS_Flex_134.0.6998.130.png)
       - 更新中
-        ![Updating](./images/Chrome/20250320_Chrome_OS_Flex_Updating134.0.6998.107.png)
+        ![Updating](./images/Chrome/20250326_Chrome_OS_Flex_Updating134.0.6998.130.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
