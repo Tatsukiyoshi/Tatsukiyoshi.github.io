@@ -65,19 +65,19 @@ OS                                 |端末                |リンク
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  Windows Insider
-      - [WSL 2.5.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/13 updated from 2.4.11.0>>*</span>
+      - [WSL 2.5.4.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/27 updated from 2.5.1.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 6.6.75.1-1</summary>
 
         ```
-        WSL バージョン: 2.5.1.0
+        WSL バージョン: 2.5.4.0
         カーネル バージョン: 6.6.75.1-1
         WSLg バージョン: 1.0.66
-        MSRDC バージョン: 1.2.5716
+        MSRDC バージョン: 1.2.6074
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.3380
+        Windows バージョン: 10.0.26200.5510
         ```
         </details>
 
