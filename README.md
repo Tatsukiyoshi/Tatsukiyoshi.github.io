@@ -248,7 +248,7 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/03/24|Update: .NET 10.0.0-preview.2
-[Rust](./knowhow/Rust.md)            |2025/03/23|Update: Tauri 2.4.0
+[Rust](./knowhow/Rust.md)            |2025/03/28|Update: RustRover 2025.1 EAP build 7
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
