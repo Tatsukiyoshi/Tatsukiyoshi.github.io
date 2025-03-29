@@ -117,7 +117,7 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/27**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/28**</span>
     ```
     RustRover 2025.1 EAP
     Build #RR-251.23774.207, built on March 26, 2025
