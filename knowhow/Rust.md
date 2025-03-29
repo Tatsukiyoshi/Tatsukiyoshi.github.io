@@ -17,11 +17,11 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1 EAP build 6](#rustrover)     |[2025/03/15](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.3.1](#tauridesktop-framework)         |[2025/03/01](https://tauri.app/)
-      |           |Svelte 5.22.6                                  |2025/03/08
-      |           |Vite 6.2.1                                     |2025/03/08
-      |           |Bun 1.2.4                                      |2025/03/01
+      |           |[RustRover 2025.1 EAP build 7](#rustrover)     |[2025/03/28](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.4.0](#tauridesktop-framework)         |[2025/03/23](https://tauri.app/)
+      |           |Svelte 5.25.2                                  |2025/03/23
+      |           |Vite 6.2.2                                     |2025/03/23
+      |           |Bun 1.2.5                                      |2025/03/23
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -30,10 +30,10 @@
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
       |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.3.1     |2025/03/01
+      |                |Tauri 2.4.0     |2025/03/23
       |                |React 19.0.0    |2024/12/18
-      |                |Vite 6.2.0      |2025/03/01
-      |                |Bun 1.2.4       |2025/03/01
+      |                |Vite 6.2.2      |2025/03/23
+      |                |Bun 1.2.5       |2025/03/23
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -45,13 +45,13 @@
       |           |React 19.0.0                                 |2024/12/08
       |           |Vite 6.0.6                                   |2024/12/28
 
-  1.  Mac OS Sequoia 15.2
+  1.  Mac OS Sequoia 15.3.2
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.85            |2025/03/01
-      |           |Tauri 2.3.1          |2025/03/01
-      |           |Bun 1.2.4            |2025/03/01
-      |           |Vite 6.2.0           |2025/03/01
+      |           |Tauri 2.4.0          |2025/03/23
+      |           |Bun 1.2.5            |2025/03/23
+      |           |Vite 6.2.2           |2025/03/23
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -117,14 +117,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.119, built on March 14, 2025 <span style="color: red;">**Updated 2025/03/15**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/28**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.23774.119, built on March 14, 2025
-    Source revision: b60e2df979720
+    Build #RR-251.23774.207, built on March 26, 2025
+    Source revision: 8e1afaf030cf7
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: April 13, 2025
-    Runtime version: 21.0.6+9-b895.97 amd64 (JCEF 122.1.9)
+    有効期限: April 25, 2025
+    Runtime version: 21.0.6+9-b895.105 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -134,13 +134,15 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
       terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (251.23774.109)
       ru.adelf.idea.dotenv (251.23774.16)
+      org.jetbrains.plugins.gitlab (IU-251.23774.211)
+      org.jetbrains.plugins.github (IU-251.23774.211)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
@@ -357,13 +359,43 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
-  - V2.3.1
+  - V2.4.0
+    - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
+      そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
+      回避策として、tauri-pluginを明示するように修正
+      ```
+      error[E0308]: mismatched types
+        --> /home/taishow/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-plugin-2.0.3/src/build/mod.rs:140:58
+          |
+      140 |       tauri_utils::plugin::define_global_api_script_path(path);
+          |       -------------------------------------------------- ^^^^ expected `&Path`, found `PathBuf`
+          |       |
+          |       arguments to this function are incorrect
+          |
+      note: function defined here
+        --> /home/taishow/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-utils-2.3.0/src/plugin.rs:22:10
+          |
+      22  |   pub fn define_global_api_script_path(path: &Path) {
+          |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      help: consider borrowing here
+          |
+      140 |       tauri_utils::plugin::define_global_api_script_path(&path);
+          |                                                          +
+
+      For more information about this error, try `rustc --explain E0308`.
+      error: could not compile `tauri-plugin` (lib) due to 1 previous error
+      warning: build failed, waiting for other jobs to finish...
+      error: script "dev" was terminated by signal SIGTERM (Polite quit request)
+      error: script "tauri" exited with code 101
+      ```
     - Windows
-      ![On Windows](../images/rust/20250301_Tauri2.3.1_Windows.png)
+      ![On Windows](../images/rust/20250323_Tauri2.4.0_Windows.png)
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250301_Tauri2.3.1_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](../images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
     - iOS 18.3 / iPhone 16e
-      ![On iPhone 16e](../images/rust/20250301_tauri2.3.1_iPhone16e_iOS18.3.png)
+      ![On iPhone 16e](../images/rust/20250323_Tauri2.4.0_iPhone16e_iOS18.3.png)
   - V2.0
     - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
       ```

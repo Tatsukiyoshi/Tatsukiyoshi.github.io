@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：第３週（2025/3/16～2025/3/22）](https://zenn.dev/tatsukiyoshi/articles/3b57e4ca1db456) / [一覧](./digest/digestList.md)
+[最新ダイジェスト：（2025/3/23～2025/3/29）](https://zenn.dev/tatsukiyoshi/articles/cdf3415487fac8) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -39,11 +39,11 @@ OS                                 |端末                |リンク
 
 ### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26100)](https://aka.ms/DevLatest)
-    - Build 26120.3576 (Cumulative Update) <span style="color: red;">*<<2025/03/18 updated from Build 26120.3380 >>*</span>
-      ![Cumulative Update](./images/Windows/20250318_WindowsUpdate_DevChannel.png)
+  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
+    - Build 26200.5516 (Cumulative Update) <span style="color: red;">*<<2025/03/29 updated from Build 26200.5510 >>*</span>
+      ![Cumulative Update](./images/Windows/20250329_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250318_Windows11_Build26120.png)
+        ![Version Information](./images/Windows/20250329_Windows11_Build26200.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -65,19 +65,19 @@ OS                                 |端末                |リンク
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  Windows Insider
-      - [WSL 2.5.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/13 updated from 2.4.11.0>>*</span>
+      - [WSL 2.5.4.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/27 updated from 2.5.1.0>>*</span>
 
         <details>
         <summary>カーネルバージョン: 6.6.75.1-1</summary>
 
         ```
-        WSL バージョン: 2.5.1.0
+        WSL バージョン: 2.5.4.0
         カーネル バージョン: 6.6.75.1-1
         WSLg バージョン: 1.0.66
-        MSRDC バージョン: 1.2.5716
+        MSRDC バージョン: 1.2.6074
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26120.3380
+        Windows バージョン: 10.0.26200.5510
         ```
         </details>
 
@@ -116,10 +116,10 @@ OS                                 |端末                |リンク
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 134.0.6998.107 <span style="color: red;">*<<2025/03/20 updated from 133.0.6943.184>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250320_Chrome_OS_Flex_134.0.6998.107.png)
+  - バージョン 134.0.6998.130 <span style="color: red;">*<<2025/03/26 updated from 134.0.6998.107>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250326_Chrome_OS_Flex_134.0.6998.130.png)
       - 更新中
-        ![Updating](./images/Chrome/20250320_Chrome_OS_Flex_Updating134.0.6998.107.png)
+        ![Updating](./images/Chrome/20250326_Chrome_OS_Flex_Updating134.0.6998.130.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -247,12 +247,12 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/03/13|Update: Visual Studio 2022 17.14 Preview 2.0
-[Rust](./knowhow/Rust.md)            |2025/03/15|Update: RustRover 2025.1 EAP build 6
+[.NET](./knowhow/NET.md)             |2025/03/24|Update: .NET 10.0.0-preview.2
+[Rust](./knowhow/Rust.md)            |2025/03/28|Update: RustRover 2025.1 EAP build 7
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/03/20|Update: Astro 5.5.3 / Next.js 15.2.3 / Svelte 5.23.2
+[TypeScript](./knowhow/TypeScript.md)|2025/03/29|Try: D3 7.9.0
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
 
