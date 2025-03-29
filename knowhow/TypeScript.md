@@ -38,11 +38,16 @@
       |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
       |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Node.js 22.12.0             |2024/12/14
-      |                |[Bun 1.2.6](#bun)           |[2025/03/27](https://bun.sh/)
-      |                |Vite 6.2.2                  |[2025/03/20](https://vitejs.dev/)
+      |                |[Bun 1.2.7](#bun)           |[2025/03/29](https://bun.sh/)
+      |                |Vite 6.2.3                  |[2025/03/29](https://vitejs.dev/)
       |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
+      |                |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)
+      |                |- Bun 1.2.7                 |2025/03/29
+      |                |- Vite 6.2.3                |2025/03/29
+      |                |- [React 19.1.0](#react)    |2025/03/29
+      |                |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
       |                |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |- Bun 1.2.3                 |2025/02/24
@@ -526,6 +531,8 @@
         "tauri": "tauri"
       },
       ```
+  - [D3](https://d3js.org/) <a id="d3"></a>
+    - [Get Started](https://d3js.org/getting-started)
   - [Angular](https://angular.dev/) <a id="angular"></a>
     - [Angular日本語ドキュメンテーション―ローカル環境とワークスペースのセットアップ](https://angular.jp/guide/setup-local)
     - ノウハウ
