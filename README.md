@@ -144,11 +144,10 @@ OS                                 |端末                |リンク
   <summary>System Details</summary>
 
   ```
-  # System Details Report
   ---
 
   ## Report details
-  - **Date generated:**                              2025-03-01 21:47:59
+  - **Date generated:**                              2025-03-30 13:35:14
 
   ## Hardware Information:
   - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -164,7 +163,7 @@ OS                                 |端末                |リンク
   - **OS Type:**                                     64-bit
   - **GNOME Version:**                               47
   - **Windowing System:**                            Wayland
-  - **Kernel Version:**                              Linux 6.11.0-18-generic
+  - **Kernel Version:**                              Linux 6.11.0-21-generic
   ```
   </details>
 
