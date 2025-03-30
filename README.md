@@ -253,7 +253,7 @@ OS/言語を問わず利用するツールの情報
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/03/29|Update: Svelte 5.25.3
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
+[Carbon & LLVM](./knowhow/Carbon.md) |2025/03/31|Install on Ubuntu Desktop 24.10
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
@@ -267,7 +267,6 @@ OS/言語を問わず利用するツールの情報
 [Go](./knowhow/Go.md)
 [Pascal](./knowhow/Others.md#pascal)
 [Swift](./knowhow/Others.md#swift)
-[LLVM](./knowhow/Others.md#llvm)
 [Unity](./knowhow/Unity.md)
 
 ### OS／ツール
