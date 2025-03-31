@@ -48,6 +48,7 @@
       |                |- Vite 6.2.3                |2025/03/29
       |                |- [React 19.1.0](#react)    |2025/03/29
       |                |- [Svelte 5.25.3](#svelte)  |2025/03/29
+      |                |Angular 20.0.0-next.4       |[2025/03/31](https://next.angular.dev/)
       |                |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
       |                |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |- Bun 1.2.3                 |2025/02/24
