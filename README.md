@@ -107,12 +107,16 @@ OS                                 |端末                |リンク
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
-  - [Sequoia 15.3.2](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/03/13 updated from Sequoia 15.3.1>>*</span>
+  - [Sequoia 15.4](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/04/01 updated from Sequoia 15.3.2>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250313_MacOS_Sequoia15.3.2Update.png)
+      ![Update Check](./images/Mac/20250401_MacOS_Sequoia15.4Update.png)
+    - アップデート中
+      ![Updating](./images/Mac/20250401_MacOS_Sequoia15.4Updating.png)
+    - アップデート完了
+      ![Updated](./images/Mac/20250401_MacOS_Sequoia15.4Updated.png)
     - バージョン情報
-      ![Sequoia 15.3.2](./images/Mac/20250313_MacOS_Sequoia15.3.2.png)
+      ![Sequoia 15.4](./images/Mac/20250401_MacOS_Sequoia15.4.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
