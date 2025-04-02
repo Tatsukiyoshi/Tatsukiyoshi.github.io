@@ -115,6 +115,8 @@ OS                                 |端末                |リンク
       ![Updating](./images/Mac/20250401_MacOS_Sequoia15.4Updating.png)
     - アップデート完了
       ![Updated](./images/Mac/20250401_MacOS_Sequoia15.4Updated.png)
+    - 新機能（ジェン文字、Image Playground）
+      ![Updated2](./images/Mac/20250401_MacOS_Sequoia15.4Updated2.png)
     - バージョン情報
       ![Sequoia 15.4](./images/Mac/20250401_MacOS_Sequoia15.4.png)
   - [履歴](./history/Mac.md)
