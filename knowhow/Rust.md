@@ -30,10 +30,10 @@
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
       |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.4.0     |2025/03/23
-      |                |React 19.0.0    |2024/12/18
-      |                |Vite 6.2.2      |2025/03/23
-      |                |Bun 1.2.5       |2025/03/23
+      |                |Tauri 2.4.1     |2025/04/03
+      |                |React 19.1.0    |2025/04/03
+      |                |Vite 6.2.5      |2025/04/03
+      |                |Bun 1.2.8       |2025/04/03
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -359,6 +359,9 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.4.1
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
