@@ -258,7 +258,7 @@ OS/言語を問わず利用するツールの情報
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/03/29|Update: Svelte 5.25.3
+[TypeScript](./knowhow/TypeScript.md)|2025/04/03|Update: Astro 5.6.0
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/03/31|Install on Ubuntu Desktop 24.10
 
