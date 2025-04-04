@@ -1,6 +1,10 @@
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Next of Windows 11 24H2 (Build 26200)
+      - Build 26200.5516 (Cumulative Update) <span style="color: red;">*<<2025/03/29 updated from Build 26200.5510 >>*</span>
+        ![Cumulative Update](../images/Windows/20250329_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](../images/Windows/20250329_Windows11_Build26200.png)
       - Build 26200.5510 (Cumulative Update) <span style="color: red;">*<<2025/03/25 updated from Build 26120.3576 >>*</span>
         ![Cumulative Update](../images/Windows/20250325_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
