@@ -14,7 +14,7 @@
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Meerkat 2024.3.2 Beta 1](#android-studio)   |[2025/03/19](https://developer.android.com/studio)
+  |                |[Android Studio Meerkat 2024.3.2 RC 1](#android-studio)     |[2025/04/04](https://developer.android.com/studio)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
   |                |- Android Emulator v.35.6.1                                 |2025/03/19
@@ -164,9 +164,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 Beta 1
+  - Android Studio Meerkat Feature Drop | 2024.3.2 RC 1
     ```
-    Build #AI-243.25659.59.2432.13218502, built on March 15, 2025
+    Build #AI-243.25659.59.2432.13282907, built on March 28, 2025
     Runtime version: 21.0.6+-13119726-b895.91 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -207,6 +207,11 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop RC 1
+        - Android Gradle Plugin 8.9.0 -> 8.9.1 -> 8.10.0-rc01
+        - Upgrade Suggested
+          Beta 1からRC 1に更新したにもかかわらず、Beta 1へのアップグレードを提案される！
+          ![Upgrade Suggested](../images/Kotlin/20250404_AndroidStudio_UpgradeSuggersted.png)
       - Meerkat Feature Drop Canary 8
         - Android Gradle Plugin 8.8.2 -> 8.9.0
       - Meerkat Feature Drop Canary 7
