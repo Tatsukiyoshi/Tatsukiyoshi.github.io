@@ -10,18 +10,18 @@
 
   |コンテンツ                                                                                   |日付      |進捗状況
   |--------------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RRustとDioxusでSPAを新バージョンに対応させようustとDioxusで投稿アプリのSPAを作ってみよう
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
 
   ##  環境
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1 EAP build 7](#rustrover)     |[2025/03/28](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.4.0](#tauridesktop-framework)         |[2025/03/23](https://tauri.app/)
-      |           |Svelte 5.25.2                                  |2025/03/23
-      |           |Vite 6.2.2                                     |2025/03/23
-      |           |Bun 1.2.5                                      |2025/03/23
+      |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
+      |           |[RustRover 2025.1 EAP 8 build](#rustrover)     |[2025/04/05](https://www.jetbrains.com/rust/)
+      |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
+      |           |Svelte 5.25.6                                  |2025/04/03
+      |           |Vite 6.2.5                                     |2025/04/03
+      |           |Bun 1.2.8                                      |2025/04/03
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -30,10 +30,10 @@
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
       |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.4.0     |2025/03/23
-      |                |React 19.0.0    |2024/12/18
-      |                |Vite 6.2.2      |2025/03/23
-      |                |Bun 1.2.5       |2025/03/23
+      |                |Tauri 2.4.1     |2025/04/03
+      |                |React 19.1.0    |2025/04/03
+      |                |Vite 6.2.5      |2025/04/03
+      |                |Bun 1.2.8       |2025/04/03
 
   1. Chrome OS Flex 131.0.6778.241 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -45,13 +45,14 @@
       |           |React 19.0.0                                 |2024/12/08
       |           |Vite 6.0.6                                   |2024/12/28
 
-  1.  Mac OS Sequoia 15.3.2
+  1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.85            |2025/03/01
-      |           |Tauri 2.4.0          |2025/03/23
-      |           |Bun 1.2.5            |2025/03/23
-      |           |Vite 6.2.2           |2025/03/23
+      |Mac OS     |Rust 1.86            |2025/04/05
+      |           |Tauri 2.4.1          |2025/04/03
+      |           |React 19.1.0         |2025/04/01
+      |           |Bun 1.2.8            |2025/04/01
+      |           |Vite 6.2.5           |2025/04/03
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -117,13 +118,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/28**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.271, built on April 3, 2025 <span style="color: red;">**Updated 2025/04/05**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.23774.207, built on March 26, 2025
-    Source revision: 8e1afaf030cf7
+    Build #RR-251.23774.271, built on April 3, 2025
+    Source revision: bb801b0ec1ce9
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: April 25, 2025
+    有効期限: May 3, 2025
     Runtime version: 21.0.6+9-b895.105 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -134,15 +135,13 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      org.toml.json.schema=false
-      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=true
+      org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (251.23774.109)
       ru.adelf.idea.dotenv (251.23774.16)
-      org.jetbrains.plugins.gitlab (IU-251.23774.211)
-      org.jetbrains.plugins.github (IU-251.23774.211)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
@@ -359,6 +358,15 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.4.1
+    - Windows
+      ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+    - iOS 18.4 / iPhone 16e
+      - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる

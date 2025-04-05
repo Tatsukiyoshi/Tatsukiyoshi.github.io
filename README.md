@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト：（2025/3/23～2025/3/29）](https://zenn.dev/tatsukiyoshi/articles/cdf3415487fac8) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/3/30～2025/4/5）](https://zenn.dev/tatsukiyoshi/articles/ac06f0e031cda7) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -40,10 +40,15 @@ OS                                 |端末                |リンク
 ### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5516 (Cumulative Update) <span style="color: red;">*<<2025/03/29 updated from Build 26200.5510 >>*</span>
-      ![Cumulative Update](./images/Windows/20250329_WindowsUpdate_DevChannel.png)
+    - Build 26200.5518 (Cumulative Update) <span style="color: red;">*<<2025/04/04 updated from Build 26200.5516 >>*</span>
+      ![Cumulative Update](./images/Windows/20250404_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250329_Windows11_Build26200.png)
+        ![Version Information](./images/Windows/20250404_Windows11_Build26200.png)
+      - リコール（プレビュー）
+        - 改めて再開するための説明
+          ![Recall](./images/Windows/20250404_Recall_DevChannel.png)
+        - システムトレイからいつでもアクセスできるように
+          ![OnSystemTray](./images/Windows/20250404_RecallOnSystemTray_DevChannel.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -107,19 +112,25 @@ OS                                 |端末                |リンク
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
-  - [Sequoia 15.3.2](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/03/13 updated from Sequoia 15.3.1>>*</span>
+  - [Sequoia 15.4](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/04/01 updated from Sequoia 15.3.2>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250313_MacOS_Sequoia15.3.2Update.png)
+      ![Update Check](./images/Mac/20250401_MacOS_Sequoia15.4Update.png)
+    - アップデート中
+      ![Updating](./images/Mac/20250401_MacOS_Sequoia15.4Updating.png)
+    - アップデート完了
+      ![Updated](./images/Mac/20250401_MacOS_Sequoia15.4Updated.png)
+    - 新機能（ジェン文字、Image Playground）
+      ![Updated2](./images/Mac/20250401_MacOS_Sequoia15.4Updated2.png)
     - バージョン情報
-      ![Sequoia 15.3.2](./images/Mac/20250313_MacOS_Sequoia15.3.2.png)
+      ![Sequoia 15.4](./images/Mac/20250401_MacOS_Sequoia15.4.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 134.0.6998.130 <span style="color: red;">*<<2025/03/26 updated from 134.0.6998.107>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250326_Chrome_OS_Flex_134.0.6998.130.png)
+  - バージョン 134.0.6998.183 <span style="color: red;">*<<2025/04/01 updated from 134.0.6998.130>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250401_Chrome_OS_Flex_134.0.6998.183.png)
       - 更新中
-        ![Updating](./images/Chrome/20250326_Chrome_OS_Flex_Updating134.0.6998.130.png)
+        ![Updating](./images/Chrome/20250401_Chrome_OS_Flex_Updating134.0.6998.183.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -144,11 +155,10 @@ OS                                 |端末                |リンク
   <summary>System Details</summary>
 
   ```
-  # System Details Report
   ---
 
   ## Report details
-  - **Date generated:**                              2025-03-01 21:47:59
+  - **Date generated:**                              2025-03-30 13:35:14
 
   ## Hardware Information:
   - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -164,7 +174,7 @@ OS                                 |端末                |リンク
   - **OS Type:**                                     64-bit
   - **GNOME Version:**                               47
   - **Windowing System:**                            Wayland
-  - **Kernel Version:**                              Linux 6.11.0-18-generic
+  - **Kernel Version:**                              Linux 6.11.0-21-generic
   ```
   </details>
 
@@ -200,7 +210,7 @@ OS                                 |端末                |リンク
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.98.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/03/14 updated from 1.98.1>>*</span>
+- [Visual Studio Code 1.99](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/04 updated from 1.98.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -230,7 +240,8 @@ OS/言語を問わず利用するツールの情報
 - [Docker](./knowhow/Docker.md)
 
 **Mac**
-- [Xcode 16.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/01/09 Updated from 16.1>>*</span>
+- [Xcode 16.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/04/01 Updated from 16.2>>*</span>
+  ![iOS 18.4 Simulator](./images/Mac/20250401_Download_iOS18.4_Simulator.png)
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
@@ -248,13 +259,13 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/03/24|Update: .NET 10.0.0-preview.2
-[Rust](./knowhow/Rust.md)            |2025/03/28|Update: RustRover 2025.1 EAP build 7
+[Rust](./knowhow/Rust.md)            |2025/04/05|Update: Rust 1.86 / RustRover 2025.1 EAP 8 build
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/03/29|Try: D3 7.9.0
+[TypeScript](./knowhow/TypeScript.md)|2025/04/03|Update: Astro 5.6.0
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon](./knowhow/Carbon.md)        |2025/02/01|Update on Ubuntu 24.04
+[Carbon & LLVM](./knowhow/Carbon.md) |2025/03/31|Install on Ubuntu Desktop 24.10
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
@@ -268,7 +279,6 @@ OS/言語を問わず利用するツールの情報
 [Go](./knowhow/Go.md)
 [Pascal](./knowhow/Others.md#pascal)
 [Swift](./knowhow/Others.md#swift)
-[LLVM](./knowhow/Others.md#llvm)
 [Unity](./knowhow/Unity.md)
 
 ### OS／ツール
