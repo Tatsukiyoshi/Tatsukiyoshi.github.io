@@ -45,13 +45,14 @@
       |           |React 19.0.0                                 |2024/12/08
       |           |Vite 6.0.6                                   |2024/12/28
 
-  1.  Mac OS Sequoia 15.3.2
+  1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.85            |2025/03/01
-      |           |Tauri 2.4.0          |2025/03/23
-      |           |Bun 1.2.5            |2025/03/23
-      |           |Vite 6.2.2           |2025/03/23
+      |Mac OS     |Rust 1.86            |2025/04/05
+      |           |Tauri 2.4.1          |2025/04/03
+      |           |React 19.1.0         |2025/04/01
+      |           |Bun 1.2.8            |2025/04/01
+      |           |Vite 6.2.5           |2025/04/03
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -362,6 +363,10 @@
       ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+    - iOS 18.4 / iPhone 16e
+      - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
