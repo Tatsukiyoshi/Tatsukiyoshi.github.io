@@ -4,7 +4,7 @@
   |端末            |環境／FW     |最終更新
   |----------------|-------------|----------
   |Windows Insider |Carbon       |2025/01/13
-  |                |- LLVM 19.1.1|2025/02/01
+  |                |- LLVM 18.1.3|2025/04/06
   |Ubuntu Desktop  |Carbon       |2025/03/31
   |                |- LLVM 19.1.1|2025/03/30
 
@@ -13,7 +13,164 @@
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
-### 環境再構築 [on Ubuntu Desktop 24.10 **@2025/03/31** <span style="color: red;">*Installed!*</span>]
+### 環境更新（２回目）
+-   手動でのllvm19セットアップに失敗したため、Ubuntu 24.04を再セットアップ
+
+1.  Carbon コードの取得
+    ```
+    git clone https://github.com/carbon-language/carbon-lang
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    Cloning into 'carbon-lang'...
+    remote: Enumerating objects: 105684, done.
+    remote: Counting objects: 100% (427/427), done.
+    remote: Compressing objects: 100% (303/303), done.
+    remote: Total 105684 (delta 311), reused 124 (delta 124), pack-reused 105257 (from 2)
+    Receiving objects: 100% (105684/105684), 51.40 MiB | 23.83 MiB/s, done.
+    Resolving deltas: 100% (88257/88257), done.
+    ```
+    </details>
+
+1.  ツールチェーンのヘルプ表示
+    ```
+    cd carbon-lang
+    ./scripts/run_bazelisk.py run //toolchain -- help
+    ```
+
+    <details>
+    <summary>ログ</summary>
+
+    ```
+    2025/04/06 00:36:53 Downloading https://releases.bazel.build/8.0.1/release/bazel-8.0.1-linux-x86_64...
+    Downloading: 61 MB out of 61 MB (100%)
+    Extracting Bazel installation...
+    Starting local Bazel server (8.0.1) and connecting to it...
+    INFO: Invocation ID: 5926a27f-0c90-4c3c-be65-5f2d6a4d4a36
+    INFO: Analyzed target //toolchain:toolchain (114 packages loaded, 11416 targets configured).
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 5061.826s, Critical Path: 316.78s
+    INFO: 4015 processes: 511 internal, 3504 linux-sandbox.
+    INFO: Build completed successfully, 4015 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+8e7bb2f95
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] clang [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>...
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+    carbon [OPTIONS] lld [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] llvm ar [<ARG>...]
+    carbon [OPTIONS] llvm cgdata [<ARG>...]
+    carbon [OPTIONS] llvm cxxfilt [<ARG>...]
+    carbon [OPTIONS] llvm debuginfod-find [<ARG>...]
+    carbon [OPTIONS] llvm dsymutil [<ARG>...]
+    carbon [OPTIONS] llvm dwp [<ARG>...]
+    carbon [OPTIONS] llvm gsymutil [<ARG>...]
+    carbon [OPTIONS] llvm ifs [<ARG>...]
+    carbon [OPTIONS] llvm libtool-darwin [<ARG>...]
+    carbon [OPTIONS] llvm lipo [<ARG>...]
+    carbon [OPTIONS] llvm ml [<ARG>...]
+    carbon [OPTIONS] llvm mt [<ARG>...]
+    carbon [OPTIONS] llvm nm [<ARG>...]
+    carbon [OPTIONS] llvm objcopy [<ARG>...]
+    carbon [OPTIONS] llvm objdump [<ARG>...]
+    carbon [OPTIONS] llvm profdata [<ARG>...]
+    carbon [OPTIONS] llvm rc [<ARG>...]
+    carbon [OPTIONS] llvm readobj [<ARG>...]
+    carbon [OPTIONS] llvm sancov [<ARG>...]
+    carbon [OPTIONS] llvm size [<ARG>...]
+    carbon [OPTIONS] llvm symbolizer [<ARG>...]
+    carbon [OPTIONS] llvm ranlib [<ARG>...]
+    carbon [OPTIONS] llvm lib [<ARG>...]
+    carbon [OPTIONS] llvm dlltool [<ARG>...]
+    carbon [OPTIONS] llvm bitcode-strip [<ARG>...]
+    carbon [OPTIONS] llvm install-name-tool [<ARG>...]
+    carbon [OPTIONS] llvm strip [<ARG>...]
+    carbon [OPTIONS] llvm otool [<ARG>...]
+    carbon [OPTIONS] llvm windres [<ARG>...]
+    carbon [OPTIONS] llvm readelf [<ARG>...]
+    carbon [OPTIONS] llvm addr2line [<ARG>...]
+
+    Subcommands:
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    lld
+            Runs LLD with the provided arguments.
+
+            Note that a specific LLD platform must be selected, and it is actually that particular platform's LLD-driver that is run with the arguments. There is no generic LLD command line.
+
+            For a given platform, this is equivalent to running that platform's LLD alias directly, and provides the full command line interface.
+
+            Use `carbon lld --platform=elf -- ARGS` to separate the `ARGS` forwarded to LLD from the flags passed to the Carbon subcommand.
+
+            Note that typically it is better to use a higher level command to link code, such as invoking `carbon link` with the relevant flags. However, this subcommand supports when you already have a specific invocation using existing command line syntaxes, as well as testing and debugging of the underlying tool.
+
+    llvm
+            Runs LLVM's command line tools with the provided arguments.
+
+            This subcommand provides access to a collection of LLVM's command line tools via further subcommands. For each of these tools, their command line can be provided using positional arguments.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+        --include-diagnostic-kind
+            When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+
+### 環境構築（２回目） [on Ubuntu Desktop 24.10 **@2025/03/31** <span style="color: red;">*Installed!*</span>]
 1.  Carbon コードの取得
     ```
     git clone https://github.com/carbon-language/carbon-lang
@@ -649,7 +806,7 @@
     ```
     </details>
 
-### 環境再構築 [on Ubuntu Desktop 24.10 **@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
+### 環境構築（１回目） [on Ubuntu Desktop 24.10 **@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
 
 1.  環境確認
     ```
