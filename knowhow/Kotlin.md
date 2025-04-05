@@ -211,7 +211,7 @@
         - Android Gradle Plugin 8.9.0 -> 8.9.1 -> 8.10.0-rc01
         - Upgrade Suggested
           Beta 1からRC 1に更新したにもかかわらず、Beta 1へのアップグレードを提案される！
-          ![Upgrade Suggested](../images/Kotlin/20250404_AndroidStudio_UpgradeSuggersted.png)
+          ![Upgrade Suggested](../images/Android/20250404_AndroidStudio_UpgradeSuggested.png)
       - Meerkat Feature Drop Canary 8
         - Android Gradle Plugin 8.8.2 -> 8.9.0
       - Meerkat Feature Drop Canary 7
