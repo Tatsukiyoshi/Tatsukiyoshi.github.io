@@ -3328,7 +3328,7 @@
         ```
         apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python-clang
         ```
-      - [for Winfows](https://releases.llvm.org/download.html)
+      - [for Windows](https://releases.llvm.org/download.html)
 
     - 「きつねさんでもわかるLLVM」で学習中
       - DummyCCompiler実践中
