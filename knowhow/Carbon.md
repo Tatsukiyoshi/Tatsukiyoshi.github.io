@@ -13,7 +13,7 @@
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
-### 環境再構築 [on Ubuntu Desktop 24.10 *@2025/03/31** <span style="color: red;">*Installed!*</span>]
+### 環境再構築 [on Ubuntu Desktop 24.10 **@2025/03/31** <span style="color: red;">*Installed!*</span>]
 1.  Carbon コードの取得
     ```
     git clone https://github.com/carbon-language/carbon-lang
@@ -178,7 +178,7 @@
     途中、10時間経過した頃に再起動してしまったので、実時間は分からないかも。
     さらに1時間程度後、フリーズしたので、強制再起動
 
-### 環境更新 [on Ubuntu 24.04 *@2025/02/01** <span style="color: red;">*Updated!*</span>]
+### 環境更新 [on Ubuntu 24.04 **@2025/02/01** <span style="color: red;">*Updated!*</span>]
 -   [LLVM 18 から 19 への更新](../sub/Ubuntu/20250201_Upgrade.md)を受け、環境更新を試みた
 
 1.  Carbon コードの取得
@@ -308,7 +308,7 @@
     ```
     </details>
 
-### 環境再構築 [on Ubuntu 24.04 *@2025/01/13** <span style="color: red;">*Installed!*</span>]
+### 環境再構築 [on Ubuntu 24.04 **@2025/01/13** <span style="color: red;">*Installed!*</span>]
 1.  環境確認
     ```
     sudo apt update
@@ -649,7 +649,7 @@
     ```
     </details>
 
-### 環境再構築 [on Ubuntu Desktop 24.10 *@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
+### 環境再構築 [on Ubuntu Desktop 24.10 **@2025/01/12** <span style="color: red;">*Build Failed!*</span>]
 
 1.  環境確認
     ```
