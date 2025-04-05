@@ -16,8 +16,8 @@
   1. Windows 11
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.85](#rust-1)                           |[2025/03/01](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1 EAP build 7](#rustrover)     |[2025/03/28](https://www.jetbrains.com/rust/)
+      |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
+      |           |[RustRover 2025.1 EAP 8 build](#rustrover)     |[2025/04/05](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
       |           |Svelte 5.25.6                                  |2025/04/03
       |           |Vite 6.2.5                                     |2025/04/03
@@ -117,13 +117,13 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/28**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.271, built on April 3, 2025 <span style="color: red;">**Updated 2025/04/05**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.23774.207, built on March 26, 2025
-    Source revision: 8e1afaf030cf7
+    Build #RR-251.23774.271, built on April 3, 2025
+    Source revision: bb801b0ec1ce9
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: April 25, 2025
+    有効期限: May 3, 2025
     Runtime version: 21.0.6+9-b895.105 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -134,15 +134,13 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      org.toml.json.schema=false
-      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=true
+      org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (251.23774.109)
       ru.adelf.idea.dotenv (251.23774.16)
-      org.jetbrains.plugins.gitlab (IU-251.23774.211)
-      org.jetbrains.plugins.github (IU-251.23774.211)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
