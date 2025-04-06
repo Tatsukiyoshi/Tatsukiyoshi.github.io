@@ -1,19 +1,19 @@
 #   Carbon
 
 ##  環境
-  |端末            |環境／FW     |最終更新
-  |----------------|-------------|----------
-  |Windows Insider |Carbon       |2025/01/13
-  |                |- LLVM 18.1.3|2025/04/06
-  |Ubuntu Desktop  |Carbon       |2025/03/31
-  |                |- LLVM 19.1.1|2025/03/30
+  |端末            |環境／FW       |最終更新
+  |----------------|--------------|----------
+  |Windows Insider |Carbon        |2025/04/06
+  |                |- clang 19.1.7|2025/04/06
+  |Ubuntu Desktop  |Carbon        |2025/03/31
+  |                |- LLVM 19.1.1 |2025/03/30
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
-### 環境更新（２回目）
+### 環境更新（２回目） [on Ubuntu 24.04 **@2025/04/06** <span style="color: red;">*Updated!*</span>]
 -   手動でのllvm19セットアップに失敗したため、Ubuntu 24.04を再セットアップ
 
 1.  Carbon コードの取得
@@ -169,6 +169,482 @@
 
     https://github.com/carbon-language/carbon-lang
     ```
+
+1.  clang-19, libc++-19-dev, libc++abi-19-dev, lld-19の導入
+    1.  必要なパッケージのインストール
+        ```
+        sudo apt update
+        ```
+
+        <details>
+        <summary>実行結果</summary>
+
+        ```
+        Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+        Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+        Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+        Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [9000 B]
+        Get:5 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+        Get:6 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+        Get:7 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+        Get:8 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+        Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [987 kB]
+        Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [151 kB]
+        Get:11 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1050 kB]
+        Get:12 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [365 kB]
+        Get:13 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+        Get:14 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+        Get:15 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7060 B]
+        Get:16 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [15.7 kB]
+        Get:17 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+        Get:18 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+        Fetched 3017 kB in 3s (885 kB/s)
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        All packages are up to date.
+        ```
+        </details>
+
+        ```
+        sudo apt install -y wget software-properties-common gnupg
+        ```
+
+        <details>
+        <summary>実行結果</summary>
+
+        ```
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        wget is already the newest version (1.21.4-1ubuntu4.1).
+        wget set to manually installed.
+        software-properties-common is already the newest version (0.99.49.1).
+        software-properties-common set to manually installed.
+        gnupg is already the newest version (2.4.4-2ubuntu17.2).
+        gnupg set to manually installed.
+        0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+        ```
+        </details>
+
+    1.  LLVM GPGキーの追加
+        ```
+        wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/llvm-archive-keyring.gpg
+        ```
+
+        <details>
+        <summary>実行結果</summary>
+
+        ```
+        （出力なし）
+        ```
+        </details>
+
+    1.  LLVM APTリポジトリの追加
+        ```
+        sudo add-apt-repository "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-19 main"
+        # 必要であればソースリポジトリも追加
+        # sudo add-apt-repository "deb-src http://apt.llvm.org/noble/ llvm-toolchain-noble-19 main"
+        ```
+
+        <details>
+        <summary>実行結果</summary>
+
+        ```
+        Repository: 'deb http://apt.llvm.org/noble/ llvm-toolchain-noble-19 main'
+        Description:
+        Archive for codename: llvm-toolchain-noble-19 components: main
+        More info: http://apt.llvm.org/noble/
+        Adding repository.
+        Press [ENTER] to continue or Ctrl-c to cancel.
+        Adding deb entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_noble_-noble.list
+        Adding disabled deb-src entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_noble_-noble.list
+        Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+        Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+        Get:1 https://apt.llvm.org/noble llvm-toolchain-noble-19 InRelease [5554 B]
+        Get:6 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 Packages [12.7 kB]
+        Fetched 18.3 kB in 1s (14.2 kB/s)
+        Reading package lists... Done
+        ```
+        </details>
+
+    1.  パッケージリストの更新
+        ```
+        sudo apt update
+        ```
+
+        <details>
+        <summary>実行結果</summary>
+
+        ```
+        Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+        Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+        Hit:1 https://apt.llvm.org/noble llvm-toolchain-noble-19 InRelease
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        1 package can be upgraded. Run 'apt list --upgradable' to see it.
+        ```
+        </details>
+
+        ```
+        sudo apt list --upgradable
+        ```
+
+        <details>
+        <summary>アップグレードリスト確認結果１</summary>
+
+        ```
+        Listing... Done
+        libllvm19/unknown 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 amd64 [upgradable from: 1:19.1.1-1ubuntu1~24.04.2]
+        N: There is 1 additional version. Please use the '-a' switch to see it
+        ```
+        </details>
+
+        ```
+        sudo apt list --upgradable -a
+        ```
+
+        <details>
+        <summary>アップグレードリスト確認結果２</summary>
+
+        ```
+        Listing... Done
+        libllvm19/unknown 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 amd64 [upgradable from: 1:19.1.1-1ubuntu1~24.04.2]
+        libllvm19/noble-updates,now 1:19.1.1-1ubuntu1~24.04.2 amd64 [installed,upgradable to: 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78]
+        ```
+        </details>
+
+    1.  Clang 19と関連パッケージのインストール
+        ```
+        sudo apt install -y clang-19 libc++-19-dev libc++abi-19-dev lld-19
+        ```
+
+        <details>
+        <summary>インストール結果</summary>
+
+        ```
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        The following additional packages will be installed:
+        libc++1-19 libc++abi1-19 libclang-common-19-dev libclang-cpp19 libclang-rt-19-dev libclang1-19 libllvm19
+        libunwind-19 libunwind-19-dev llvm-19 llvm-19-dev llvm-19-linker-tools llvm-19-runtime llvm-19-tools
+        Suggested packages:
+        clang-19-doc wasi-libc llvm-19-doc
+        The following packages will be REMOVED:
+        libc++-18-dev libc++-dev libc++1-18 libc++abi-18-dev libc++abi-dev libc++abi1-18 libunwind-18 libunwind-18-dev
+        The following NEW packages will be installed:
+        clang-19 libc++-19-dev libc++1-19 libc++abi-19-dev libc++abi1-19 libclang-common-19-dev libclang-cpp19
+        libclang-rt-19-dev libclang1-19 libunwind-19 libunwind-19-dev lld-19 llvm-19 llvm-19-dev llvm-19-linker-tools
+        llvm-19-runtime llvm-19-tools
+        The following packages will be upgraded:
+        libllvm19
+        1 upgraded, 17 newly installed, 8 to remove and 0 not upgraded.
+        Need to get 128 MB of archives.
+        After this operation, 615 MB of additional disk space will be used.
+        Get:1 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libllvm19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [28.7 MB]
+        Get:2 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libclang-cpp19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [14.3 MB]
+        Get:3 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libclang-common-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [744 kB]
+        Get:4 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 llvm-19-linker-tools amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [1370 kB]
+        Get:5 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libclang1-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [8321 kB]
+        Get:6 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 clang-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [119 kB]
+        Get:7 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libunwind-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [63.8 kB]
+        Get:8 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libc++abi1-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [112 kB]
+        Get:9 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libc++1-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [331 kB]
+        Get:10 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libc++abi-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [136 kB]
+        Get:11 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libunwind-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [85.4 kB]
+        Get:12 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libc++-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [1348 kB]
+        Get:13 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 libclang-rt-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [3912 kB]
+        Get:14 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 lld-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [1491 kB]
+        Get:15 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 llvm-19-runtime amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [594 kB]
+        Get:16 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 llvm-19 amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [17.9 MB]
+        Get:17 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 llvm-19-tools amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [542 kB]
+        Get:18 https://apt.llvm.org/noble llvm-toolchain-noble-19/main amd64 llvm-19-dev amd64 1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78 [47.5 MB]
+        Fetched 128 MB in 6s (21.9 MB/s)
+        (Reading database ... 52454 files and directories currently installed.)
+        Removing libc++-dev:amd64 (1:18.0-59~exp2) ...
+        Removing libc++-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+        Removing libc++1-18:amd64 (1:18.1.3-1ubuntu1) ...
+        Removing libc++abi-dev:amd64 (1:18.0-59~exp2) ...
+        Removing libc++abi-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+        Removing libc++abi1-18:amd64 (1:18.1.3-1ubuntu1) ...
+        Removing libunwind-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+        Removing libunwind-18:amd64 (1:18.1.3-1ubuntu1) ...
+        (Reading database ... 51166 files and directories currently installed.)
+        Preparing to unpack .../00-libllvm19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libllvm19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) over (1:19.1.1-1ubuntu1~24.04.2) ...
+        Selecting previously unselected package libclang-cpp19.
+        Preparing to unpack .../01-libclang-cpp19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libclang-cpp19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libclang-common-19-dev:amd64.
+        Preparing to unpack .../02-libclang-common-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libclang-common-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package llvm-19-linker-tools.
+        Preparing to unpack .../03-llvm-19-linker-tools_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking llvm-19-linker-tools (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libclang1-19.
+        Preparing to unpack .../04-libclang1-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libclang1-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package clang-19.
+        Preparing to unpack .../05-clang-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking clang-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libunwind-19:amd64.
+        Preparing to unpack .../06-libunwind-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libunwind-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libc++abi1-19:amd64.
+        Preparing to unpack .../07-libc++abi1-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libc++abi1-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libc++1-19:amd64.
+        Preparing to unpack .../08-libc++1-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libc++1-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libc++abi-19-dev:amd64.
+        Preparing to unpack .../09-libc++abi-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libc++abi-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libunwind-19-dev:amd64.
+        Preparing to unpack .../10-libunwind-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libunwind-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libc++-19-dev:amd64.
+        Preparing to unpack .../11-libc++-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libc++-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package libclang-rt-19-dev:amd64.
+        Preparing to unpack .../12-libclang-rt-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking libclang-rt-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package lld-19.
+        Preparing to unpack .../13-lld-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking lld-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package llvm-19-runtime.
+        Preparing to unpack .../14-llvm-19-runtime_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking llvm-19-runtime (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package llvm-19.
+        Preparing to unpack .../15-llvm-19_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking llvm-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package llvm-19-tools.
+        Preparing to unpack .../16-llvm-19-tools_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking llvm-19-tools (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Selecting previously unselected package llvm-19-dev.
+        Preparing to unpack .../17-llvm-19-dev_1%3a19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78_amd64.deb ...
+        Unpacking llvm-19-dev (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libllvm19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libclang1-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libunwind-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libclang-common-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libc++abi1-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libc++1-19:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libclang-rt-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up llvm-19-linker-tools (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libunwind-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up llvm-19-runtime (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up lld-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up llvm-19-tools (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libclang-cpp19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libc++abi-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up clang-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up libc++-19-dev:amd64 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up llvm-19 (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Setting up llvm-19-dev (1:19.1.7~++20250114103332+cd708029e0b2-1~exp1~20250114103446.78) ...
+        Processing triggers for systemd (255.4-1ubuntu8.6) ...
+        Processing triggers for man-db (2.12.0-4build2) ...
+        Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+        ```
+        </details>
+
+    1.  優先度の設定
+        1.  clang
+            ```
+            # 例: clang の優先度を設定
+            # sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-19 100
+            ```
+
+            <details>
+            <summary>設定結果</summary>
+
+            ```
+            update-alternatives: using /usr/bin/clang-19 to provide /usr/bin/clang (clang) in auto mode
+            ```
+            </details>
+        1.  clang++
+            ```
+            # sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-19 100
+            ```
+
+            <details>
+            <summary>設定結果</summary>
+
+            ```
+            update-alternatives: using /usr/bin/clang++-19 to provide /usr/bin/clang++ (clang++) in auto mode
+            ```
+            </details>
+        1.  lld
+            ```
+            # 例: clang の優先度を設定
+            # sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-19 100
+            # sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-19 100
+            # sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-19 100
+            ```
+            <details>
+            <summary>設定結果</summary>
+
+            ```
+            update-alternatives: using /usr/bin/lld-19 to provide /usr/bin/lld (lld) in auto mode
+            ```
+            </details>
+
+    1.  Carbon コードの取得
+        ```
+        git clone https://github.com/carbon-language/carbon-lang
+        ```
+
+        <details>
+        <summary>取得ログ</summary>
+
+        ```
+        Cloning into 'carbon-lang'...
+        remote: Enumerating objects: 105825, done.
+        remote: Counting objects: 100% (400/400), done.
+        remote: Compressing objects: 100% (261/261), done.
+        remote: Total 105825 (delta 318), reused 139 (delta 139), pack-reused 105425 (from 3)
+        Receiving objects: 100% (105825/105825), 51.52 MiB | 20.36 MiB/s, done.
+        Resolving deltas: 100% (88480/88480), done.
+        ```
+        </details>
+    
+    1.  ツールチェーンのヘルプ表示
+        ```
+        cd carbon-lang
+        ./scripts/run_bazelisk.py run //toolchain -- help
+        ```
+
+        <details>
+        <summary>ログ</summary>
+
+        ```
+        Starting local Bazel server (8.0.1) and connecting to it...
+        INFO: Invocation ID: 72f37e3a-5228-4422-a802-c15fc64d8a1b
+        INFO: Analyzed target //toolchain:toolchain (114 packages loaded, 11416 targets configured).
+        INFO: Found 1 target...
+        Target //toolchain:carbon up-to-date:
+        bazel-bin/toolchain/carbon
+        INFO: Elapsed time: 4185.492s, Critical Path: 238.47s
+        INFO: 3530 processes: 487 action cache hit, 41 internal, 3489 linux-sandbox.
+        INFO: Build completed successfully, 3530 total actions
+        INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+        Carbon Language toolchain version: 0.0.0-0.dev+a45dc42d8
+
+        This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+        Usage:
+        carbon [OPTIONS] clang [<ARG>...]
+        carbon [OPTIONS] compile [OPTIONS] <FILE>...
+        carbon [OPTIONS] format [--output=FILE] <FILE>...
+        carbon [OPTIONS] language-server
+        carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+        carbon [OPTIONS] lld [OPTIONS] [<ARG>...]
+        carbon [OPTIONS] llvm ar [<ARG>...]
+        carbon [OPTIONS] llvm cgdata [<ARG>...]
+        carbon [OPTIONS] llvm cxxfilt [<ARG>...]
+        carbon [OPTIONS] llvm debuginfod-find [<ARG>...]
+        carbon [OPTIONS] llvm dsymutil [<ARG>...]
+        carbon [OPTIONS] llvm dwp [<ARG>...]
+        carbon [OPTIONS] llvm gsymutil [<ARG>...]
+        carbon [OPTIONS] llvm ifs [<ARG>...]
+        carbon [OPTIONS] llvm libtool-darwin [<ARG>...]
+        carbon [OPTIONS] llvm lipo [<ARG>...]
+        carbon [OPTIONS] llvm ml [<ARG>...]
+        carbon [OPTIONS] llvm mt [<ARG>...]
+        carbon [OPTIONS] llvm nm [<ARG>...]
+        carbon [OPTIONS] llvm objcopy [<ARG>...]
+        carbon [OPTIONS] llvm objdump [<ARG>...]
+        carbon [OPTIONS] llvm profdata [<ARG>...]
+        carbon [OPTIONS] llvm rc [<ARG>...]
+        carbon [OPTIONS] llvm readobj [<ARG>...]
+        carbon [OPTIONS] llvm sancov [<ARG>...]
+        carbon [OPTIONS] llvm size [<ARG>...]
+        carbon [OPTIONS] llvm symbolizer [<ARG>...]
+        carbon [OPTIONS] llvm ranlib [<ARG>...]
+        carbon [OPTIONS] llvm lib [<ARG>...]
+        carbon [OPTIONS] llvm dlltool [<ARG>...]
+        carbon [OPTIONS] llvm bitcode-strip [<ARG>...]
+        carbon [OPTIONS] llvm install-name-tool [<ARG>...]
+        carbon [OPTIONS] llvm strip [<ARG>...]
+        carbon [OPTIONS] llvm otool [<ARG>...]
+        carbon [OPTIONS] llvm windres [<ARG>...]
+        carbon [OPTIONS] llvm readelf [<ARG>...]
+        carbon [OPTIONS] llvm addr2line [<ARG>...]
+
+        Subcommands:
+        clang
+                Runs Clang on arguments.
+
+                This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+                Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+                This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+        compile
+                Compile Carbon source code.
+
+                This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+                Error messages are written to the standard error stream.
+
+                Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+        format
+                Format Carbon source code.
+
+        language-server
+                Runs the language server.
+
+        link
+                Link Carbon executables.
+
+                This subcommand links Carbon executables by combining object files.
+
+                TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+        lld
+                Runs LLD with the provided arguments.
+
+                Note that a specific LLD platform must be selected, and it is actually that particular platform's LLD-driver that is run with the arguments. There is no generic LLD command line.
+
+                For a given platform, this is equivalent to running that platform's LLD alias directly, and provides the full command line interface.
+
+                Use `carbon lld --platform=elf -- ARGS` to separate the `ARGS` forwarded to LLD from the flags passed to the Carbon subcommand.
+
+                Note that typically it is better to use a higher level command to link code, such as invoking `carbon link` with the relevant flags. However, this subcommand supports when you already have a specific invocation using existing command line syntaxes, as well as testing and debugging of the underlying tool.
+
+        llvm
+                Runs LLVM's command line tools with the provided arguments.
+
+                This subcommand provides access to a collection of LLVM's command line tools via further subcommands. For each of these tools, their command line can be provided using positional arguments.
+
+        help
+                Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+        version
+                Prints the version of this command.
+
+        Command options:
+        -v, --verbose
+                Enable verbose logging to the stderr stream.
+
+            --fuzzing
+                Configure the command line for fuzzing.
+
+            --include-diagnostic-kind
+                When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+        For questions, issues, or bug reports, please use our GitHub project:
+
+        https://github.com/carbon-language/carbon-lang
+        ```
+        </details>
 
 ### 環境構築（２回目） [on Ubuntu Desktop 24.10 **@2025/03/31** <span style="color: red;">*Installed!*</span>]
 1.  Carbon コードの取得
