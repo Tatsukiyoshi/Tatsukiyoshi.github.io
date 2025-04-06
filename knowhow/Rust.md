@@ -25,6 +25,11 @@
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
+      |Windows    |Rust 1.86                                      |2025/04/06
+      | Insider   |Tauri 2.4.1                                    |2025/04/06
+      |           |React 19.1.0                                   |2025/04/06
+      |           |Vite 6.2.5                                     |2025/04/06
+      |           |Bun 1.2.8                                      |2025/04/06
 
   1. Ubuntu 24.04.2 on Windows 11
       |端末            |環境／FW         |最終更新
@@ -367,6 +372,10 @@
       ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
+    - Android 16 / Pixel 9 Pro
+      - error sending request for url
+        ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
+        -> https://github.com/tauri-apps/tauri/issues/9509
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
