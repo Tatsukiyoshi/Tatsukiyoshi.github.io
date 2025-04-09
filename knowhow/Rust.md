@@ -373,11 +373,13 @@
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
     - Android 15 / Pixel 9
-      ![On Android 15](../images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
+      - [Log](../sub/rust/20250410_tauri_android15.md)
+        ![On Android 15](../images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
     - Android 16 / Pixel 9 Pro
       - error sending request for url
-        ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
-        -> https://github.com/tauri-apps/tauri/issues/9509
+        - [Log](../sub/rust/20250410_tauri_android16.md)
+          ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
+          -> https://github.com/tauri-apps/tauri/issues/9509
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
