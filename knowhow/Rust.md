@@ -372,6 +372,8 @@
       ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
+    - Android 15 / Pixel 9
+      ![On Android 15](../images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
     - Android 16 / Pixel 9 Pro
       - error sending request for url
         ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
