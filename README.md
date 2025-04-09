@@ -210,7 +210,7 @@ OS                                 |端末                |リンク
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.99](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/04 updated from 1.98.2>>*</span>
+- [Visual Studio Code 1.99.1](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/09 updated from 1.99>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
