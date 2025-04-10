@@ -14,7 +14,7 @@
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Meerkat 2024.3.2 RC 1](#android-studio)     |[2025/04/04](https://developer.android.com/studio)
+  |                |[Android Studio Meerkat 2024.3.2 RC 2](#android-studio)     |[2025/04/10](https://developer.android.com/studio)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
   |                |- Android Emulator v.35.6.1                                 |2025/03/19
@@ -164,9 +164,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 RC 1
+  - Android Studio Meerkat Feature Drop | 2024.3.2 RC 2
     ```
-    Build #AI-243.25659.59.2432.13282907, built on March 28, 2025
+    Build #AI-243.25659.59.2432.13314846, built on April 5, 2025
     Runtime version: 21.0.6+-13119726-b895.91 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -179,7 +179,7 @@
       ide.experimental.ui=true
     Non-Bundled Plugins:
       Dart (243.23654.44)
-      io.flutter (83.0.4)
+      io.flutter (85.0.4)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -207,6 +207,8 @@
           ```
   - バージョン対応履歴
     - Meerkat
+      - Meerkat Feature Drop RC 2
+        - Android Gradle Plugin 8.10.0-rc01 -> 8.10.0-rc02
       - Meerkat Feature Drop RC 1
         - Android Gradle Plugin 8.9.0 -> 8.9.1 -> 8.10.0-rc01
         - Upgrade Suggested
