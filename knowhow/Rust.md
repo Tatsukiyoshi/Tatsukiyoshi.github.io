@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1 EAP 8 build](#rustrover)     |[2025/04/05](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2025.1 EAP 9 build](#rustrover)     |[2025/04/10](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
       |           |Svelte 5.25.6                                  |2025/04/03
       |           |Vite 6.2.5                                     |2025/04/03
@@ -123,14 +123,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.271, built on April 3, 2025 <span style="color: red;">**Updated 2025/04/05**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.316, built on April 8, 2025 <span style="color: red;">**Updated 2025/04/10**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.23774.271, built on April 3, 2025
-    Source revision: bb801b0ec1ce9
+    Build #RR-251.23774.316, built on April 8, 2025
+    Source revision: 93c79bfc16366
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: May 3, 2025
-    Runtime version: 21.0.6+9-b895.105 amd64 (JCEF 122.1.9)
+    有効期限: May 8, 2025
+    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -145,8 +145,10 @@
       org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (251.23774.109)
-      ru.adelf.idea.dotenv (251.23774.16)
+      com.jetbrains.space (251.23774.318)
+      ru.adelf.idea.dotenv (251.23774.318)
+      org.jetbrains.plugins.gitlab (251.23774.318-IU)
+      org.jetbrains.plugins.github (251.23774.318-IU)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
