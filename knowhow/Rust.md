@@ -40,15 +40,15 @@
       |                |Vite 6.2.5      |2025/04/03
       |                |Bun 1.2.8       |2025/04/03
 
-  1. Chrome OS Flex 131.0.6778.241 (Official Build)
+  1. Chrome OS Flex 134.0.6998.198 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |Chrome OS  |Rust 1.83                                    |2024/12/08
-      |           |Tauri 1.8.1                                  |2024/11/09
+      |Chrome OS  |Rust 1.86                                    |2025/04/11
+      |           |Tauri 2.4.1                                  |2025/04/11
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.1.42                                   |2024/12/28
-      |           |React 19.0.0                                 |2024/12/08
-      |           |Vite 6.0.6                                   |2024/12/28
+      |           |Bun 1.2.9                                   |2025/04/11
+      |           |React 19.1.0                                 |2025/04/11
+      |           |Vite 6.2.6                                   |2025/04/11
 
   1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
@@ -372,6 +372,9 @@
       ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+    - Chrome OS Flex
+      - 最初ウィンドウだけでコンテンツが表示されなかった。しかし、Reloadすることで表示された！
+        ![On Chrome OS Flex](../images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
     - Android 15 / Pixel 9
