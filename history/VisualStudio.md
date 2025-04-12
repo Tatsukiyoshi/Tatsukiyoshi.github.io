@@ -1,5 +1,10 @@
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14 Preview 2.0 対応
+    - 17.14 Preview 2.0 / MAUI 10.0.0-preview.2.25165.1 / Pixel 9 API 35(Android 15)
+      ![MAUI - Pixel 9 API 35](../images/VisualStudio/20250324_VS2022_17.14_Preview2.0_MAUI10.0.0preview2_Android15.png)
+      - ワークロードを更新するも、デプロイしたアプリが更新されず、デバッガ異常終了
+        - エミュレータ上のアプリをアンインストール
+        - 今後に備え、アプリ画面にバージョンを表記するように修正
     - 17.14 Preview 2.0 / MAUI 10.0.0-preview.1.25122.6 / Pixel 9 API 35(Android 15)
       ![MAUI - Pixel 9 API 35](../images/VisualStudio/20250313_VS2022_17.14_Preview2.0_MAUI10.0.0preview1_Android15.png)
       - ワークロードを更新しないと、デバッガが異常終了
