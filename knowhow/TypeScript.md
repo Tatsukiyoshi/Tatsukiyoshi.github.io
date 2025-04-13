@@ -38,8 +38,8 @@
       |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
       |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Node.js 22.12.0             |2024/12/14
-      |                |[Bun 1.2.8](#bun)           |[2025/04/03](https://bun.sh/)
-      |                |Vite 6.2.3                  |[2025/03/29](https://vitejs.dev/)
+      |                |[Bun 1.2.9](#bun)           |[2025/04/12](https://bun.sh/)
+      |                |Vite 6.2.6                  |[2025/04/12](https://vitejs.dev/)
       |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -59,12 +59,12 @@
       |                |[Astro 5.6.0](#astro)       |[2025/04/03](https://astro.build/)
       |                |- React 19.1.0              |2025/04/03
       |                |- Bun 1.2.8                 |2025/04/03
-      |                |[Next.js 15.2.3](#nextjs)   |[2025/03/20](https://nextjs.org/)
-      |                |- React 19.0.0              |2024/12/11
-      |                |- Bun 1.2.5                 |2025/03/20
-      |                |[Svelte 5.25.3](#svelte)    |[2025/03/29](https://svelte.dev/)
-      |                |- Bun 1.2.7                 |2025/03/29
-      |                |- Vite 6.2.3                |2025/03/29
+      |                |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
+      |                |- React 19.1.0              |2025/04/12
+      |                |- Bun 1.2.9                 |2025/04/12
+      |                |[Svelte 5.26.1](#svelte)    |[2025/04/12](https://svelte.dev/)
+      |                |- Bun 1.2.9                 |2025/04/12
+      |                |- Vite 6.2.6                |2025/04/12
       |                |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
 
   1.  Mac OS

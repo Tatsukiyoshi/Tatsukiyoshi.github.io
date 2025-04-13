@@ -1,5 +1,7 @@
 # ダイジェスト
 - 2025年
+  - 4月
+    - [第１週（2025/4/6～2025/4/12）](https://zenn.dev/tatsukiyoshi/articles/ad9ee4ad0fe4d4)
   - [3月](https://zenn.dev/tatsukiyoshi/articles/48fed28f88451a)
     - [第５週（2025/3/30～2025/4/5）](https://zenn.dev/tatsukiyoshi/articles/ac06f0e031cda7)
     - [第４週（2025/3/23～2025/3/29）](https://zenn.dev/tatsukiyoshi/articles/cdf3415487fac8)

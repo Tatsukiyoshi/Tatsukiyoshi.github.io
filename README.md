@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/3/30～2025/4/5）](https://zenn.dev/tatsukiyoshi/articles/ac06f0e031cda7) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/4/6～2025/4/12）](https://zenn.dev/tatsukiyoshi/articles/ad9ee4ad0fe4d4) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -40,15 +40,10 @@ OS                                 |端末                |リンク
 ### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5518 (Cumulative Update) <span style="color: red;">*<<2025/04/04 updated from Build 26200.5516 >>*</span>
-      ![Cumulative Update](./images/Windows/20250404_WindowsUpdate_DevChannel.png)
+    - Build 26200.5551 (Cumulative Update) <span style="color: red;">*<<2025/04/12 updated from Build 26200.5518 >>*</span>
+      ![Cumulative Update](./images/Windows/20250412_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250404_Windows11_Build26200.png)
-      - リコール（プレビュー）
-        - 改めて再開するための説明
-          ![Recall](./images/Windows/20250404_Recall_DevChannel.png)
-        - システムトレイからいつでもアクセスできるように
-          ![OnSystemTray](./images/Windows/20250404_RecallOnSystemTray_DevChannel.png)
+        ![Version Information](./images/Windows/20250412_Windows11_Build26200.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -70,19 +65,19 @@ OS                                 |端末                |リンク
 
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
   1.  Windows Insider
-      - [WSL 2.5.4.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/03/27 updated from 2.5.1.0>>*</span>
+      - [WSL 2.5.6.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/04/09 auto updated from 2.5.4.0>>*</span>
 
         <details>
-        <summary>カーネルバージョン: 6.6.75.1-1</summary>
+        <summary>カーネルバージョン: 6.6.84.1-1</summary>
 
         ```
-        WSL バージョン: 2.5.4.0
-        カーネル バージョン: 6.6.75.1-1
+        WSL バージョン: 2.5.6.0
+        カーネル バージョン: 6.6.84.1-1
         WSLg バージョン: 1.0.66
         MSRDC バージョン: 1.2.6074
         Direct3D バージョン: 1.611.1-81528511
         DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26200.5510
+        Windows バージョン: 10.0.26200.5518
         ```
         </details>
 
@@ -127,10 +122,10 @@ OS                                 |端末                |リンク
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 134.0.6998.183 <span style="color: red;">*<<2025/04/01 updated from 134.0.6998.130>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250401_Chrome_OS_Flex_134.0.6998.183.png)
+  - バージョン 134.0.6998.198 <span style="color: red;">*<<2025/04/11 updated from 134.0.6998.183>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250411_Chrome_OS_Flex_134.0.6998.198.png)
       - 更新中
-        ![Updating](./images/Chrome/20250401_Chrome_OS_Flex_Updating134.0.6998.183.png)
+        ![Updating](./images/Chrome/20250411_Chrome_OS_Flex_Updating134.0.6998.198.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -210,7 +205,7 @@ OS                                 |端末                |リンク
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.99](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/04 updated from 1.98.2>>*</span>
+- [Visual Studio Code 1.99.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/11 updated from 1.99.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -258,14 +253,14 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/03/24|Update: .NET 10.0.0-preview.2
-[Rust](./knowhow/Rust.md)            |2025/04/05|Update: Rust 1.86 / RustRover 2025.1 EAP 8 build
+[.NET](./knowhow/NET.md)             |2025/04/12|Update: .NET 10.0.0-preview.3
+[Rust](./knowhow/Rust.md)            |2025/04/11|Update: RustRover 2025.1 EAP 9 build
 [Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/04/03|Update: Astro 5.6.0
+[TypeScript](./knowhow/TypeScript.md)|2025/04/12|Update: Svelte 5.26.1 / Next.js 15.3.0
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](./knowhow/Carbon.md) |2025/03/31|Install on Ubuntu Desktop 24.10
+[Carbon & LLVM](./knowhow/Carbon.md) |2025/04/06|Install on Ubuntu 24.04.2 with clang 19.1.7
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------

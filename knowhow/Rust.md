@@ -17,7 +17,7 @@
       |端末       |環境／FW                                        |最終更新
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1 EAP 8 build](#rustrover)     |[2025/04/05](https://www.jetbrains.com/rust/)
+      |           |[RustRover 2025.1 EAP 9 build](#rustrover)     |[2025/04/10](https://www.jetbrains.com/rust/)
       |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
       |           |Svelte 5.25.6                                  |2025/04/03
       |           |Vite 6.2.5                                     |2025/04/03
@@ -25,6 +25,11 @@
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
+      |Windows    |Rust 1.86                                      |2025/04/06
+      | Insider   |Tauri 2.4.1                                    |2025/04/06
+      |           |React 19.1.0                                   |2025/04/06
+      |           |Vite 6.2.5                                     |2025/04/06
+      |           |Bun 1.2.8                                      |2025/04/06
 
   1. Ubuntu 24.04.2 on Windows 11
       |端末            |環境／FW         |最終更新
@@ -35,15 +40,15 @@
       |                |Vite 6.2.5      |2025/04/03
       |                |Bun 1.2.8       |2025/04/03
 
-  1. Chrome OS Flex 131.0.6778.241 (Official Build)
+  1. Chrome OS Flex 134.0.6998.198 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
-      |Chrome OS  |Rust 1.83                                    |2024/12/08
-      |           |Tauri 1.8.1                                  |2024/11/09
+      |Chrome OS  |Rust 1.86                                    |2025/04/11
+      |           |Tauri 2.4.1                                  |2025/04/11
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.1.42                                   |2024/12/28
-      |           |React 19.0.0                                 |2024/12/08
-      |           |Vite 6.0.6                                   |2024/12/28
+      |           |Bun 1.2.9                                   |2025/04/11
+      |           |React 19.1.0                                 |2025/04/11
+      |           |Vite 6.2.6                                   |2025/04/11
 
   1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
@@ -118,14 +123,14 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1 EAP Build #RR-251.23774.271, built on April 3, 2025 <span style="color: red;">**Updated 2025/04/05**</span>
+  - RustRover 2025.1 EAP Build #RR-251.23774.316, built on April 8, 2025 <span style="color: red;">**Updated 2025/04/10**</span>
     ```
     RustRover 2025.1 EAP
-    Build #RR-251.23774.271, built on April 3, 2025
-    Source revision: bb801b0ec1ce9
+    Build #RR-251.23774.316, built on April 8, 2025
+    Source revision: 93c79bfc16366
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: May 3, 2025
-    Runtime version: 21.0.6+9-b895.105 amd64 (JCEF 122.1.9)
+    有効期限: May 8, 2025
+    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -140,8 +145,10 @@
       org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (251.23774.109)
-      ru.adelf.idea.dotenv (251.23774.16)
+      com.jetbrains.space (251.23774.318)
+      ru.adelf.idea.dotenv (251.23774.318)
+      org.jetbrains.plugins.gitlab (251.23774.318-IU)
+      org.jetbrains.plugins.github (251.23774.318-IU)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
@@ -365,8 +372,19 @@
       ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+    - Chrome OS Flex
+      - 最初ウィンドウだけでコンテンツが表示されなかった。しかし、Reloadすることで表示された！
+        ![On Chrome OS Flex](../images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
+    - Android 15 / Pixel 9
+      - [Log](../sub/rust/20250410_tauri_android15.md)
+        ![On Android 15](../images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
+    - Android 16 / Pixel 9 Pro
+      - error sending request for url
+        - [Log](../sub/rust/20250410_tauri_android16.md)
+          ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
+          -> https://github.com/tauri-apps/tauri/issues/9509
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
       そのため、tauri-plugin 2.1.0（最新）を取り込まれず、ビルドエラーとなる
