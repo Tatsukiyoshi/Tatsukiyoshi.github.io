@@ -54,10 +54,10 @@
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
-      |           |Tauri 2.4.1          |2025/04/03
+      |           |Tauri 2.5.0          |2025/04/17
       |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.8            |2025/04/01
-      |           |Vite 6.2.5           |2025/04/03
+      |           |Bun 1.2.9            |2025/04/17
+      |           |Vite 6.3.0           |2025/04/17
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -370,8 +370,12 @@
       ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250417_Tauri2.5.0_Mac15.4.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](../images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
+    - iOS 18.4 / iPhone 16e
+      ![On iPhone 16e](../images/rust/20250417_Tauri2.5.0_iPhone16e_iOS18.4.png)
   - V2.4.1
     - Windows
       ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
