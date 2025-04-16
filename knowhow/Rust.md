@@ -18,10 +18,10 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |           |[RustRover 2025.1 EAP 9 build](#rustrover)     |[2025/04/10](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
-      |           |Svelte 5.25.6                                  |2025/04/03
-      |           |Vite 6.2.5                                     |2025/04/03
-      |           |Bun 1.2.8                                      |2025/04/03
+      |           |[Tauri 2.5.0](#tauridesktop-framework)         |[2025/04/17](https://tauri.app/)
+      |           |Svelte 5.27.0                                  |2025/04/17
+      |           |Vite 6.3.0                                     |2025/04/17
+      |           |Bun 1.2.9                                      |2025/04/17
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
@@ -366,6 +366,8 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.5.0
+    - Windows
+      ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - Android 16 / Pixel 9 Pro
