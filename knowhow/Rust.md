@@ -26,19 +26,19 @@
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
       |Windows    |Rust 1.86                                      |2025/04/06
-      | Insider   |Tauri 2.4.1                                    |2025/04/06
+      | Insider   |Tauri 2.5.0                                    |2025/04/17
       |           |React 19.1.0                                   |2025/04/06
-      |           |Vite 6.2.5                                     |2025/04/06
-      |           |Bun 1.2.8                                      |2025/04/06
+      |           |Vite 6.3.0                                     |2025/04/17
+      |           |Bun 1.2.9                                      |2025/04/17
 
   1. Ubuntu 24.04.2 on Windows 11
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.4.1     |2025/04/03
+      |Windows Insider |Rust 1.86       |2025/04/16
+      |                |Tauri 2.5.0     |2025/04/16
       |                |React 19.1.0    |2025/04/03
-      |                |Vite 6.2.5      |2025/04/03
-      |                |Bun 1.2.8       |2025/04/03
+      |                |Vite 6.3.0      |2025/04/16
+      |                |Bun 1.2.9       |2025/04/16
 
   1. Chrome OS Flex 134.0.6998.198 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -365,6 +365,11 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.5.0
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](../images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
   - V2.4.1
     - Windows
       ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
