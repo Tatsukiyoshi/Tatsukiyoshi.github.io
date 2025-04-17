@@ -44,11 +44,11 @@
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.86                                    |2025/04/11
-      |           |Tauri 2.4.1                                  |2025/04/11
+      |           |Tauri 2.5.0                                  |2025/04/17
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.2.9                                   |2025/04/11
+      |           |Bun 1.2.10                                   |2025/04/17
       |           |React 19.1.0                                 |2025/04/11
-      |           |Vite 6.2.6                                   |2025/04/11
+      |           |Vite 6.3.1                                   |2025/04/17
 
   1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
@@ -372,6 +372,8 @@
       ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](../images/rust/20250417_Tauri2.5.0_Mac15.4.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](../images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](../images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
     - iOS 18.4 / iPhone 16e
