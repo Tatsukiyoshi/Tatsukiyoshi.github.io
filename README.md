@@ -247,9 +247,9 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/04/12|Update: .NET 10.0.0-preview.3
-[Rust](./knowhow/Rust.md)            |2025/04/11|Update: RustRover 2025.1 EAP 9 build
-[Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
+[.NET](./knowhow/NET.md)             |2025/04/18|Update: Visual Studio 2022 17.14 Preview 3.0
+[Rust](./knowhow/Rust.md)            |2025/04/17|Update: Tauri 2.5.0
+[Kotlin](./knowhow/Kotlin.md)        |2025/04/18|Update: Android Studio Narwhal 2025.1.1 Canary 7
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/04/12|Update: Svelte 5.26.1 / Next.js 15.3.0
