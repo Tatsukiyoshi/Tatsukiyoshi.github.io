@@ -14,10 +14,10 @@
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Meerkat 2024.3.2 RC 2](#android-studio)     |[2025/04/10](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.1 Canary 7](#android-studio) |[2025/04/18](https://developer.android.com/studio)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.6.1                                 |2025/03/19
+  |                |- Android Emulator v.35.6.4                                 |2025/04/18
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -164,10 +164,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Meerkat Feature Drop | 2024.3.2 RC 2
+  - Android Studio Narwhal | 2025.1.1 Canary 7
     ```
-    Build #AI-243.25659.59.2432.13314846, built on April 5, 2025
-    Runtime version: 21.0.6+-13119726-b895.91 amd64
+    Build #AI-251.23774.16.2511.13371696, built on April 17, 2025
+    Runtime version: 21.0.6+-13368085-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -178,8 +178,8 @@
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      Dart (243.23654.44)
-      io.flutter (85.0.4)
+      Dart (251.25267)
+      io.flutter (85.2.4)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -206,6 +206,11 @@
           testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.2'
           ```
   - バージョン対応履歴
+    - Narwhal
+      - Narwhal Canary 7
+        ![Upgrade_Suggested](../images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
+        - Gradle 8.11.1 -> 8.13
+        - Android Gradle Plugin 8.10.0-rc02 -> 8.11.0-alpha07
     - Meerkat
       - Meerkat Feature Drop RC 2
         - Android Gradle Plugin 8.10.0-rc01 -> 8.10.0-rc02
