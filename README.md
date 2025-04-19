@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/4/6～2025/4/12）](https://zenn.dev/tatsukiyoshi/articles/ad9ee4ad0fe4d4) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/4/13～2025/4/19）](https://zenn.dev/tatsukiyoshi/articles/68d12c763905ff) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -107,18 +107,12 @@ OS                                 |端末                |リンク
       - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
-  - [Sequoia 15.4](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/04/01 updated from Sequoia 15.3.2>>*</span>
+  - [Sequoia 15.4.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250401_MacOS_Sequoia15.4Update.png)
-    - アップデート中
-      ![Updating](./images/Mac/20250401_MacOS_Sequoia15.4Updating.png)
-    - アップデート完了
-      ![Updated](./images/Mac/20250401_MacOS_Sequoia15.4Updated.png)
-    - 新機能（ジェン文字、Image Playground）
-      ![Updated2](./images/Mac/20250401_MacOS_Sequoia15.4Updated2.png)
+      ![Update Check](./images/Mac/20250417_MacOS_Sequoia15.4.1Update.png)
     - バージョン情報
-      ![Sequoia 15.4](./images/Mac/20250401_MacOS_Sequoia15.4.png)
+      ![Sequoia 15.4.1](./images/Mac/20250417_MacOS_Sequoia15.4.1.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
@@ -205,7 +199,7 @@ OS                                 |端末                |リンク
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.99.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/11 updated from 1.99.1>>*</span>
+- [Visual Studio Code 1.99.3](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/17 updated from 1.99.2>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -253,9 +247,9 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/04/12|Update: .NET 10.0.0-preview.3
-[Rust](./knowhow/Rust.md)            |2025/04/11|Update: RustRover 2025.1 EAP 9 build
-[Kotlin](./knowhow/Kotlin.md)        |2025/03/22|Update: Kotlin 2.1.20
+[.NET](./knowhow/NET.md)             |2025/04/18|Update: Visual Studio 2022 17.14 Preview 3.0
+[Rust](./knowhow/Rust.md)            |2025/04/17|Update: Tauri 2.5.0
+[Kotlin](./knowhow/Kotlin.md)        |2025/04/19|Update: Gemini 2.0 <BR> Android Studio Narwhal 2025.1.1 Canary 7
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/04/12|Update: Svelte 5.26.1 / Next.js 15.3.0

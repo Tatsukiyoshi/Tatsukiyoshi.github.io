@@ -18,46 +18,46 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |           |[RustRover 2025.1 EAP 9 build](#rustrover)     |[2025/04/10](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.4.1](#tauridesktop-framework)         |[2025/04/03](https://tauri.app/)
-      |           |Svelte 5.25.6                                  |2025/04/03
-      |           |Vite 6.2.5                                     |2025/04/03
-      |           |Bun 1.2.8                                      |2025/04/03
+      |           |[Tauri 2.5.0](#tauridesktop-framework)         |[2025/04/17](https://tauri.app/)
+      |           |Svelte 5.27.0                                  |2025/04/17
+      |           |Vite 6.3.0                                     |2025/04/17
+      |           |Bun 1.2.9                                      |2025/04/17
       |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
       |Windows    |Rust 1.86                                      |2025/04/06
-      | Insider   |Tauri 2.4.1                                    |2025/04/06
+      | Insider   |Tauri 2.5.0                                    |2025/04/17
       |           |React 19.1.0                                   |2025/04/06
-      |           |Vite 6.2.5                                     |2025/04/06
-      |           |Bun 1.2.8                                      |2025/04/06
+      |           |Vite 6.3.0                                     |2025/04/17
+      |           |Bun 1.2.9                                      |2025/04/17
 
   1. Ubuntu 24.04.2 on Windows 11
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.85       |2025/03/01
-      |                |Tauri 2.4.1     |2025/04/03
+      |Windows Insider |Rust 1.86       |2025/04/16
+      |                |Tauri 2.5.0     |2025/04/16
       |                |React 19.1.0    |2025/04/03
-      |                |Vite 6.2.5      |2025/04/03
-      |                |Bun 1.2.8       |2025/04/03
+      |                |Vite 6.3.0      |2025/04/16
+      |                |Bun 1.2.9       |2025/04/16
 
   1. Chrome OS Flex 134.0.6998.198 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.86                                    |2025/04/11
-      |           |Tauri 2.4.1                                  |2025/04/11
+      |           |Tauri 2.5.0                                  |2025/04/17
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.2.9                                   |2025/04/11
+      |           |Bun 1.2.10                                   |2025/04/17
       |           |React 19.1.0                                 |2025/04/11
-      |           |Vite 6.2.6                                   |2025/04/11
+      |           |Vite 6.3.1                                   |2025/04/17
 
   1.  Mac OS Sequoia 15.4
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
-      |           |Tauri 2.4.1          |2025/04/03
+      |           |Tauri 2.5.0          |2025/04/17
       |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.8            |2025/04/01
-      |           |Vite 6.2.5           |2025/04/03
+      |           |Bun 1.2.9            |2025/04/17
+      |           |Vite 6.3.0           |2025/04/17
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -365,6 +365,19 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.5.0
+    - Windows
+      ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250417_Tauri2.5.0_Mac15.4.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](../images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](../images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
+    - iOS 18.4 / iPhone 16e
+      ![On iPhone 16e](../images/rust/20250417_Tauri2.5.0_iPhone16e_iOS18.4.png)
   - V2.4.1
     - Windows
       ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
