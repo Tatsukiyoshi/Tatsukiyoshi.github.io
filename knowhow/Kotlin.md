@@ -463,6 +463,8 @@
           }
           ```
 ### Android
+  - Gemini
+    ![Vertex AI Studio](../images/Android//20250419_Vertex_AI_Prompt.png)
   - Android 15 (API 35)
     - Android Studio Koala / Android SDK 35等を配置し、実行確認
       ![MyApplication](../images/Android/20240724_MyApplication_API35.png)
