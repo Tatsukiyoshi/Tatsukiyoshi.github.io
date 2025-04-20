@@ -250,7 +250,7 @@ OS/言語を問わず利用するツールの情報
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/04/18|Update: Visual Studio 2022 17.14 Preview 3.0
 [Rust](./knowhow/Rust.md)            |2025/04/17|Update: Tauri 2.5.0
-[Kotlin](./knowhow/Kotlin.md)        |2025/04/19|Update: Gemini 2.0 <BR> Android Studio Narwhal 2025.1.1 Canary 7
+[Kotlin](./knowhow/Kotlin.md)        |2025/04/20|Update: IntelliJ IDEA 2025.1
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/04/12|Update: Svelte 5.26.1 / Next.js 15.3.0

@@ -10,7 +10,7 @@
 ##  環境
   |端末            |環境／FW                                                     |最終更新      
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2024.3.5](#intellij-idea)                    |[2025/03/19](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.1](#intellij-idea)                      |[2025/04/20](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
@@ -22,13 +22,15 @@
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2024.3.5 (Community Edition)
+  - IntelliJ IDEA 2025.1 (Community Edition)
     ```
-    Build #IC-243.26053.27, built on March 16, 2025
-    Runtime version: 21.0.6+8-b631.39 amd64 (JCEF 122.1.9)
+    Build #IC-251.23774.435, built on April 15, 2025
+    Source revision: 9b2a2c261c093
+    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
+    Kotlin プラグイン: K2 モード
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 8
@@ -36,10 +38,12 @@
       ide.experimental.ui=true
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (243.26053.17)
-      Lombook Plugin (243.26053.27)
-      org.jetbrains.android (243.26053.27)
-    Kotlin: 243.26053.27-IJ
+      Dart (251.25267.1)
+      Lombook Plugin (251.23774.460)
+      org.jetbrains.plugins.github (251.23774.435-IU)
+      org.jetbrains.plugins.gitlab (251.23774.435-IU)
+      org.jetbrains.android (251.23774.460)
+    Kotlin: 251.23774.435-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
