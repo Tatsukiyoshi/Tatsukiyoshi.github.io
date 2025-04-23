@@ -137,8 +137,9 @@ OS                                 |端末                |リンク
         ```
   - [履歴](./history/Chrome.md)
 
-- [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
-  ![Version Information](./images/Ubuntu/20250111_Ubuntu24.10.png)
+- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
+  ![Version Information](./images/Ubuntu/20250423_Ubuntu25.04.png)
+  - [Upgrade Log](./sub/Ubuntu/20250423_Upgrade.md)
 
   <details>
   <summary>System Details</summary>
@@ -148,7 +149,7 @@ OS                                 |端末                |リンク
   ---
 
   ## Report details
-  - **Date generated:**                              2025-04-19 22:11:49
+  - **Date generated:**                              2025-04-23 21:46:18
 
   ## Hardware Information:
   - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -159,12 +160,12 @@ OS                                 |端末                |リンク
 
   ## Software Information:
   - **Firmware Version:**                            T103HAF.307
-  - **OS Name:**                                     Ubuntu 24.10
+  - **OS Name:**                                     Ubuntu 25.04
   - **OS Build:**                                    (null)
   - **OS Type:**                                     64-bit
-  - **GNOME Version:**                               47
+  - **GNOME Version:**                               48
   - **Windowing System:**                            Wayland
-  - **Kernel Version:**                              Linux 6.11.0-24-generic
+  - **Kernel Version:**                              Linux 6.14.0-15-generic
   ```
   </details>
 
@@ -172,23 +173,24 @@ OS                                 |端末                |リンク
   <summary>ディストリビューション・バージョン情報</summary>
 
   ```
-  PRETTY_NAME="Ubuntu 24.10"
+  PRETTY_NAME="Ubuntu 25.04"
   NAME="Ubuntu"
-  VERSION_ID="24.10"
-  VERSION="24.10 (Oracular Oriole)"
-  VERSION_CODENAME=oracular
+  VERSION_ID="25.04"
+  VERSION="25.04 (Plucky Puffin)"
+  VERSION_CODENAME=plucky
   ID=ubuntu
   ID_LIKE=debian
   HOME_URL="https://www.ubuntu.com/"
   SUPPORT_URL="https://help.ubuntu.com/"
   BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
   PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-  UBUNTU_CODENAME=oracular
+  UBUNTU_CODENAME=plucky
   LOGO=ubuntu-logo
   ```
   </details>
 
   - カーネルバージョン
+    - 6.14.0-15 / Ubuntu 25.04
     - 6.11.0-13 / Ubuntu 24.10
     - 6.8.0-51 / Ubuntu 24.04
 
@@ -255,7 +257,7 @@ OS/言語を問わず利用するツールの情報
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/04/12|Update: Svelte 5.26.1 / Next.js 15.3.0
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](./knowhow/Carbon.md) |2025/04/06|Install on Ubuntu 24.04.2 with clang 19.1.7
+[Carbon & LLVM](./knowhow/Carbon.md) |2025/04/23|Update: clang 20.1.2 on Ubuntu Desktop 25.04
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------

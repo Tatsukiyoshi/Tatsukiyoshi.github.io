@@ -6,7 +6,7 @@
   |Windows Insider |Carbon        |2025/04/06
   |                |- clang 19.1.7|2025/04/06
   |Ubuntu Desktop  |Carbon        |2025/03/31
-  |                |- LLVM 19.1.1 |2025/03/30
+  |                |- clang 20.1.2|2025/04/23
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
