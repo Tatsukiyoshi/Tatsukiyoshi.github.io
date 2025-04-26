@@ -70,8 +70,12 @@
   1.  Mac OS
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
-      |Mac OS     |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
+      |Mac OS     |Node.js 22.6.0              |2025/02/24
+      |           |Bun 1.2.10                  |2025/04/26
+      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
+      |           |Lynx 3.2.0                  |2025/04/26
+      |           |- Bun 1.2.10                |2025/04/26
 
 ##  ノウハウ
 ### TypeScript
@@ -260,6 +264,24 @@
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
+    - Lynx
+      - ReactLynx
+        - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
+          ```
+          bun create rspeedy@latest
+          ```
+          1.  DownLoad LynxExplorer / Install on Simulator
+              ![LynxExplorer](../images/Mac/20250426_ReactLynx_Explorer.png)
+          1.  Execute Code
+              ```
+              bun run dev
+              ```
+              ![App QR Code](../images/Mac/20250426_ReactLynx_QRcode.png)
+          1.  Execute LynxApp
+              - Copy URL
+              - Paste URL to LynxExplorer
+                ![LynxApp](../images/Mac/20250426_ReactLynxApp.png)
+
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
