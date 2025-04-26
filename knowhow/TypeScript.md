@@ -70,7 +70,8 @@
   1.  Mac OS
       |端末       |FW                          |最終更新      
       |-----------|----------------------------|----------
-      |Mac OS     |Node.js 22.6.0              |2025/02/24
+      |Mac OS     |Node.js 22.15.0             |2025/04/26
+      |           |- nodebrew 1.2.0            |2025/04/26
       |           |Bun 1.2.10                  |2025/04/26
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
@@ -91,6 +92,27 @@
         - ユーザディレクトリのAppData\Roaming\npm-cache
     - バージョンアップ
       - [Windowsでnode.jsやnpmのバージョンをアップデート・変更する方法｜バージョンが切り替わらないときの対処法（nodistの使い方）](https://prograshi.com/framework/nodejs/upgrade-or-change-node-version-in-windows/)
+      - Mac / homebrew + nodebrewでバージョン管理
+        - 一覧
+          ```
+          nodebrew list
+          ```
+        - 公開バージョン確認
+          ```
+          nodebrew ls-remote
+          ```
+        - インストール
+          ```
+          nodebrew install-binary <Version>
+          ```
+        - バージョン切り替え
+          ```
+          nodebrew use <Version>
+          ```
+        - 実行バージョン確認
+          ```
+          node -v
+          ```
     - トラブルシューティング
       - node.js 17以降で実行時エラーとなる（OpenSSL関連）
         - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える
