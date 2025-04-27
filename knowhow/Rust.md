@@ -50,14 +50,14 @@
       |           |React 19.1.0                                 |2025/04/11
       |           |Vite 6.3.1                                   |2025/04/17
 
-  1.  Mac OS Sequoia 15.4
+  1.  Mac OS Sequoia 15.4.1
       |端末       |環境／FW               |最終更新
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
-      |           |Tauri 2.5.0          |2025/04/17
+      |           |Tauri 2.5.1          |2025/04/27
       |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.9            |2025/04/17
-      |           |Vite 6.3.0           |2025/04/17
+      |           |Bun 1.2.10           |2025/04/26
+      |           |Vite 6.3.3           |2025/04/27
       |           |Node 22.6.0          |2024/08/17
 
   ##  ノウハウ
@@ -369,8 +369,12 @@
       ![On Windows](../images/rust/20250427_Tauri2.5.1_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](../images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
     - Android 16 / Pixel 9a
       ![On Android 16](../images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
+    - iOS 18.4 / iPhone 16e
+      ![On iPhone 16e](../images/rust/20250427_Tauri2.5.1_iPhone16e_iOS18.4.png)
   - V2.5.0
     - Windows
       ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
