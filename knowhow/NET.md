@@ -16,7 +16,7 @@
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
   |                |- .NET 9.0.3                                     |2025/03/24
   |                |- .NET 8.0.14                                    |2025/03/24
-  |Windows         |Visual Studio Community 2022 17.13.3             |[2025/03/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.13.6             |[2025/04/09](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.3                                     |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.14                                    |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
