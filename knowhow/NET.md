@@ -10,13 +10,13 @@
 ##  環境
   |端末            |環境／FW                                          |最終更新
   |----------------|-------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 3.0 |[2025/04/18](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 4.0 |[2025/04/26](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.3.25171.5                  |[2025/04/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.3](#maui)               |[2025/04/12](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
   |                |- .NET 9.0.3                                     |2025/03/24
   |                |- .NET 8.0.14                                    |2025/03/24
-  |Windows         |Visual Studio Community 2022 17.13.3             |[2025/03/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.13.6             |[2025/04/09](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.3                                     |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.14                                    |[2025/03/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -27,8 +27,8 @@
     - Visual Studio 2022 17.13.3
       ![VS2022 17.13.3](../images/VisualStudio/20250313_Update_VS2022_17.13.3.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14 Preview 3.0
-      ![VS2022 17.14 preview 3.0](../images/VisualStudio/20250418_Update_VS2022_17.14_Preview3.0.png)
+    - Visual Studio 2022 17.14 Preview 4.0
+      ![VS2022 17.14 preview 4.0](../images/VisualStudio/20250425_Update_VS2022_17.14_Preview4.0.png)
   - [履歴](../history/VisualStudio.md)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
@@ -94,25 +94,25 @@
 
   インストール済みの .NET ワークロード:
   [android]
-    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36015.10
+    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36017.23
     マニフェストのバージョン:    36.0.0-preview.3.22/10.0.100-preview.3
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.android\36.0.0-preview.3.22\WorkloadManifest.json
     インストールの種類:              Msi
 
   [ios]
-    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36015.10
+    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36017.23
     マニフェストのバージョン:    18.2.10695-net10-p3/10.0.100-preview.3
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.ios\18.2.10695-net10-p3\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maccatalyst]
-    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36015.10
+    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36017.23
     マニフェストのバージョン:    18.2.10695-net10-p3/10.0.100-preview.3
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.maccatalyst\18.2.10695-net10-p3\WorkloadManifest.json
     インストールの種類:              Msi
 
   [maui-windows]
-    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36015.10
+    インストール ソース: SDK 10.0.100-preview.3, VS 17.14.36017.23
     マニフェストのバージョン:    10.0.0-preview.3.25208.1/10.0.100-preview.3
     マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.maui\10.0.0-preview.3.25208.1\WorkloadManifest.json
     インストールの種類:              Msi

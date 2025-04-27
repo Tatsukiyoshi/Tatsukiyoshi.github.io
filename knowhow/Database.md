@@ -5,14 +5,14 @@
   |端末           |環境／FW                                              |最終更新
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |               |- SQL Server Management Studio 21.0.107 Preview 5.0  |[2025/03/13](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |               |- SQL Server Management Studio 21.0.107 Preview 6.0  |[2025/04/23](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |               |MySQL Community Server 8.4.2                         |2024/08/24
   |Windows Insider|PostgreSQL 17.4                                      |2025/03/02
-  |               |MySQL Community Server 9.1.0                         |2025/01/04
+  |               |MySQL Community Server 9.1.0                         |[2025/01/04](https://dev.mysql.com/downloads/mysql/)
 
 ##  ノウハウ
 ### データベース全般
@@ -73,8 +73,12 @@
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-      - SSMS 21.0.107 Preview 5.0 <BR />
-        ![Update Check](../images/Database/20250313_SSMS21.0.107_Preview5.0.png)
+      - SSMS 21.0.0 Preview 6.0 <BR />
+        ![Update Check](../images/Database/20250423_SSMS21.0.0_Preview6.0.png)
+        - 接続ダイアログが更新、なのにエラーメッセージが出たうえで、新しいダイアログが出る事態
+          ![Confirm](../images/Database/20250427_SSMS21.0.0_Preview6.0_Confirm.png)
+          ![Error](../images/Database/20250427_SSMS21.0.0_Preview6.0_Error.png)
+          ![NewDialog](../images/Database/20250427_SSMS21.0.0_Preview6.0_New_ConnectionDialog.png)
     - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
@@ -146,6 +150,8 @@
       ![Main](../images/Database/20240824_MySQL_Shell_for_VSCode.png)
     - 簡単にテーブルのデータを確認できる
       ![Show Data](../images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
+  - [MySQL Community Server Container](https://dev.mysql.com/doc/refman/8.0/ja/docker-mysql-getting-started.html)
+    - [docker hub](https://hub.docker.com/_/mysql)
   - MySQL Community Server 8.4.2 (LTS)
     - Oracleプロファイル作成のうえ、ダウンロード
     - インストールすると、MySQL Configuratorで設定する
