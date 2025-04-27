@@ -40,10 +40,10 @@ OS                                 |端末                |リンク
 ### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5562 (Cumulative Update) <span style="color: red;">*<<2025/04/22 updated from Build 26200.5551 >>*</span>
-      ![Cumulative Update](./images/Windows/20250422_WindowsUpdate_DevChannel.png)
+    - Build 26200.5570 (Cumulative Update) <span style="color: red;">*<<2025/04/27 updated from Build 26200.5562 >>*</span>
+      ![Cumulative Update](./images/Windows/20250427_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250422_Windows11_Build26200.png)
+        ![Version Information](./images/Windows/20250427_Windows11_Build26200.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
