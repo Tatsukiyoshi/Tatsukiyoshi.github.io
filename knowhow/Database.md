@@ -73,8 +73,12 @@
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-      - SSMS 21.0.107 Preview 6.0 <BR />
-        ![Update Check](../images/Database/20250423_SSMS21.0_Preview6.0.png)
+      - SSMS 21.0.0 Preview 6.0 <BR />
+        ![Update Check](../images/Database/20250423_SSMS21.0.0_Preview6.0.png)
+        - 接続ダイアログが更新、なのにエラーメッセージが出たうえで、新しいダイアログが出る事態
+          ![Confirm](../images/Database/20250427_SSMS21.0.0_Preview6.0_Confirm.png)
+          ![Error](../images/Database/20250427_SSMS21.0.0_Preview6.0_Error.png)
+          ![NewDialog](../images/Database/20250427_SSMS21.0.0_Preview6.0_New_ConnectionDialog.png)
     - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
