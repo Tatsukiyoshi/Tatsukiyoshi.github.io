@@ -26,19 +26,19 @@
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
       |Windows    |Rust 1.86                                      |2025/04/06
-      | Insider   |Tauri 2.5.0                                    |2025/04/17
+      | Insider   |Tauri 2.5.1                                    |2025/04/27
       |           |React 19.1.0                                   |2025/04/06
-      |           |Vite 6.3.0                                     |2025/04/17
-      |           |Bun 1.2.9                                      |2025/04/17
+      |           |Vite 6.3.3                                     |2025/04/27
+      |           |Bun 1.2.10                                     |2025/04/27
 
   1. Ubuntu 24.04.2 on Windows 11
       |端末            |環境／FW         |最終更新
       |----------------|----------------|----------
       |Windows Insider |Rust 1.86       |2025/04/16
-      |                |Tauri 2.5.0     |2025/04/16
+      |                |Tauri 2.5.1     |2025/04/27
       |                |React 19.1.0    |2025/04/03
-      |                |Vite 6.3.0      |2025/04/16
-      |                |Bun 1.2.9       |2025/04/16
+      |                |Vite 6.3.3      |2025/04/27
+      |                |Bun 1.2.10      |2025/04/27
 
   1. Chrome OS Flex 134.0.6998.198 (Official Build)
       |端末       |環境／FW                                      |最終更新
@@ -364,6 +364,11 @@
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.5.1
+    - Ubuntu 24.04 on WSL2
+      ![On Ubuntu 24.04](../images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
+    - Android 16 / Pixel 9a
+      ![On Android 16](../images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
   - V2.5.0
     - Windows
       ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
