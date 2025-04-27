@@ -18,13 +18,13 @@
       |-----------|-----------------------------------------------|----------
       |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |           |[RustRover 2025.1](#rustrover)                 |[2025/04/19](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.5.0](#tauridesktop-framework)         |[2025/04/17](https://tauri.app/)
-      |           |Svelte 5.27.0                                  |2025/04/17
-      |           |Vite 6.3.0                                     |2025/04/17
-      |           |Bun 1.2.9                                      |2025/04/17
-      |           |[Slint 1.9.1](#slint)                          |[2025/01/07](https://slint.dev/)
+      |           |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
+      |           |Svelte 5.28.2                                  |2025/04/27
+      |           |Vite 6.3.3                                     |2025/04/27
+      |           |Bun 1.2.10                                     |2025/04/27
+      |           |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
-      |           |[Bevy 0.15](#game-engine)                      |[2024/12/06](https://bevyengine.org/)
+      |           |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |Windows    |Rust 1.86                                      |2025/04/06
       | Insider   |Tauri 2.5.1                                    |2025/04/27
       |           |React 19.1.0                                   |2025/04/06
@@ -365,6 +365,8 @@
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.5.1
+    - Windows
+      ![On Windows](../images/rust/20250427_Tauri2.5.1_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](../images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - Android 16 / Pixel 9a
