@@ -62,9 +62,9 @@
       |                |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
       |                |- React 19.1.0              |2025/04/12
       |                |- Bun 1.2.9                 |2025/04/12
-      |                |[Svelte 5.26.1](#svelte)    |[2025/04/12](https://svelte.dev/)
-      |                |- Bun 1.2.9                 |2025/04/12
-      |                |- Vite 6.2.6                |2025/04/12
+      |                |[Svelte 5.28.2](#svelte)    |[2025/04/27](https://svelte.dev/)
+      |                |- Bun 1.2.10                |2025/04/27
+      |                |- Vite 6.3.3                |2025/04/27
       |                |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
 
   1.  Mac OS
