@@ -75,7 +75,7 @@
       |           |Bun 1.2.10                  |2025/04/26
       |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
       |           |- Bun 1.2.3                 |2025/02/24
-      |           |Lynx 3.2.0                  |2025/04/26
+      |           |Lynx 3.2.0                  |[2025/04/26](https://lynxjs.org)
       |           |- Bun 1.2.10                |2025/04/26
 
 ##  ノウハウ
@@ -286,7 +286,7 @@
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
-    - Lynx
+    - [Lynx](https://lynxjs.org)
       - ReactLynx
         - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
           ```
