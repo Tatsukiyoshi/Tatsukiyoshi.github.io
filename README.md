@@ -251,7 +251,7 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/04/26|Update: Visual Studio 2022 17.14 Preview 4.0
-[Rust](./knowhow/Rust.md)            |2025/04/27|Update: Tauri 2.5.1 on Windows / Slint 1.11.0 / Bevy 0.16
+[Rust](./knowhow/Rust.md)            |2025/04/29|Update: Tauri 2.5.1 on Chrome OS Flex
 [Kotlin](./knowhow/Kotlin.md)        |2025/04/20|Update: IntelliJ IDEA 2025.1
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0

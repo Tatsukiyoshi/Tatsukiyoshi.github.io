@@ -40,15 +40,15 @@
       |                |Vite 6.3.3      |2025/04/27
       |                |Bun 1.2.10      |2025/04/27
 
-  1. Chrome OS Flex 134.0.6998.198 (Official Build)
+  1. Chrome OS Flex 135.0.7049.104 (Official Build)
       |端末       |環境／FW                                      |最終更新
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.86                                    |2025/04/11
-      |           |Tauri 2.5.0                                  |2025/04/17
+      |           |Tauri 2.5.1                                  |2025/04/29
       |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Bun 1.2.10                                   |2025/04/17
+      |           |Bun 1.2.11                                   |2025/04/29
       |           |React 19.1.0                                 |2025/04/11
-      |           |Vite 6.3.1                                   |2025/04/17
+      |           |Vite 6.3.3                                   |2025/04/29
 
   1.  Mac OS Sequoia 15.4.1
       |端末       |環境／FW               |最終更新
@@ -371,6 +371,8 @@
       ![On Ubuntu 24.04](../images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](../images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](../images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9a
       ![On Android 16](../images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
     - iOS 18.4 / iPhone 16e
