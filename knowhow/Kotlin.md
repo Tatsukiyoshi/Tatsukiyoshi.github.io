@@ -14,10 +14,10 @@
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.1 Canary 7](#android-studio) |[2025/04/18](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.1 Canary 8](#android-studio) |[2025/05/01](https://developer.android.com/studio)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.6.4                                 |2025/04/18
+  |                |- Android Emulator v.35.6.6                                 |2025/05/01
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -168,10 +168,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal | 2025.1.1 Canary 7
+  - Android Studio Narwhal | 2025.1.1 Canary 8
     ```
-    Build #AI-251.23774.16.2511.13371696, built on April 17, 2025
-    Runtime version: 21.0.6+-13368085-b895.109 amd64 (JCEF 122.1.9)
+    Build #AI-251.23774.16.2511.13409254, built on April 26, 2025
+    Runtime version: 21.0.6+-13391695-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -181,8 +181,9 @@
     Cores: 8
     Registry:
       ide.experimental.ui=true
+      com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
-      Dart (251.25267)
+      Dart (251.25267.1)
       io.flutter (85.2.4)
     ```
   - バージョン共通
@@ -211,6 +212,8 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Canary 8
+        - Android Gradle Plugin 8.11.0-alpha07 -> 8.11.0-alpha08
       - Narwhal Canary 7
         ![Upgrade_Suggested](../images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
         - Gradle 8.11.1 -> 8.13
