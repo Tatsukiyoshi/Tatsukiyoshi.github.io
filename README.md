@@ -213,7 +213,7 @@ OS/言語を問わず利用するツールの情報
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
 
 **Windows**
-- [PowerShell 7.5.0](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/01/25 updated from 7.4.6>>*</span>
+- [PowerShell 7.5.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/04/28 updated from 7.5.0>>*</span>
   - 製品版では、ストアアプリとして自動更新される
     ```
     2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
