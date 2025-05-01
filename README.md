@@ -251,11 +251,11 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/05/01|Update: Visual Studio 2022 17.14 Preview 5.0
-[Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
+[Rust](./knowhow/Rust.md)            |2025/05/01|Update: Android Studio Narwhal 2025.1.1 Canary 8
 [Kotlin](./knowhow/Kotlin.md)        |2025/04/20|Update: IntelliJ IDEA 2025.1
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/04/27|Update: Astro 5.7.5 / Svelte 5.28.2
+[TypeScript](./knowhow/TypeScript.md)|2025/05/01|Update: Deno 2.3.1
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 
