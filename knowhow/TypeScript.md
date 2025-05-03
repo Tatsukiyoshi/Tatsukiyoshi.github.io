@@ -35,7 +35,7 @@
       |                |- Deno 2.1.2                |2024/11/30
       |                |- Vite 6.0.1                |2024/11/29
       |                |- Bun 1.1.38                |2024/11/29
-      |                |[Deno 2.1.2](#deno)         |[2024/11/30](https://deno.land/)
+      |                |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Node.js 22.12.0             |2024/12/14
       |                |[Bun 1.2.9](#bun)           |[2025/04/12](https://bun.sh/)
@@ -56,15 +56,15 @@
       |                |- Bun 1.2.4                 |2025/03/01
       |                |- React Native 0.78.0       |2025/03/02
       |                |- Windows SDK 10.0.26100    |2025/01/18
-      |                |[Astro 5.6.0](#astro)       |[2025/04/03](https://astro.build/)
+      |                |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
       |                |- React 19.1.0              |2025/04/03
-      |                |- Bun 1.2.8                 |2025/04/03
+      |                |- Bun 1.2.10                |2025/04/27
       |                |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
       |                |- React 19.1.0              |2025/04/12
       |                |- Bun 1.2.9                 |2025/04/12
-      |                |[Svelte 5.26.1](#svelte)    |[2025/04/12](https://svelte.dev/)
-      |                |- Bun 1.2.9                 |2025/04/12
-      |                |- Vite 6.2.6                |2025/04/12
+      |                |[Svelte 5.28.2](#svelte)    |[2025/04/27](https://svelte.dev/)
+      |                |- Bun 1.2.10                |2025/04/27
+      |                |- Vite 6.3.3                |2025/04/27
       |                |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
 
   1.  Mac OS

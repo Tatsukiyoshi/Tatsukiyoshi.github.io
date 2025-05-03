@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/4/20～2025/4/26）](https://zenn.dev/tatsukiyoshi/articles/4d81837ab85765) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -40,10 +40,10 @@ OS                                 |端末                |リンク
 ### OS <a id="OS"></a>
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5562 (Cumulative Update) <span style="color: red;">*<<2025/04/22 updated from Build 26200.5551 >>*</span>
-      ![Cumulative Update](./images/Windows/20250422_WindowsUpdate_DevChannel.png)
+    - Build 26200.5570 (Cumulative Update) <span style="color: red;">*<<2025/04/27 updated from Build 26200.5562 >>*</span>
+      ![Cumulative Update](./images/Windows/20250427_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250422_Windows11_Build26200.png)
+        ![Version Information](./images/Windows/20250427_Windows11_Build26200.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -213,7 +213,7 @@ OS/言語を問わず利用するツールの情報
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
 
 **Windows**
-- [PowerShell 7.5.0](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/01/25 updated from 7.4.6>>*</span>
+- [PowerShell 7.5.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/04/28 updated from 7.5.0>>*</span>
   - 製品版では、ストアアプリとして自動更新される
     ```
     2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
@@ -250,12 +250,12 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/04/26|Update: Visual Studio 2022 17.14 Preview 4.0
-[Rust](./knowhow/Rust.md)            |2025/04/17|Update: Tauri 2.5.0
-[Kotlin](./knowhow/Kotlin.md)        |2025/04/20|Update: IntelliJ IDEA 2025.1
+[.NET](./knowhow/NET.md)             |2025/05/01|Update: Visual Studio 2022 17.14 Preview 5.0
+[Rust](./knowhow/Rust.md)            |2025/05/01|Update: Update: RustRover 2025.1.1
+[Kotlin](./knowhow/Kotlin.md)        |2025/05/01|Update: Android Studio Narwhal 2025.1.1 Canary 8
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/04/26|Try: Lync 3.20.0 on Mac
+[TypeScript](./knowhow/TypeScript.md)|2025/05/01|Update: Deno 2.3.1
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 
