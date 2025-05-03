@@ -22,14 +22,14 @@
 ```
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
-OS                                 |端末                |リンク
------------------------------------|--------------------|---
-[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)
+OS                                 |端末                |リンク                     |言語
+-----------------------------------|--------------------|--------------------------|--
+[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)|.NET / Rust / TypeScript
 [Windows on Arm](#WindowsArm)      |OmniBook X          |↑
-[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑
-[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow)
-[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow)
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑                         |.NET / Rust / Kotlin / Java / Flutter / TypeScript
+[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)    |Rust / Flutter
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow) |Carbon
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -38,15 +38,6 @@ OS                                 |端末                |リンク
   - (v) Ubuntu Desktop環境を構築
 
 ### OS <a id="OS"></a>
-- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5570 (Cumulative Update) <span style="color: red;">*<<2025/04/27 updated from Build 26200.5562 >>*</span>
-      ![Cumulative Update](./images/Windows/20250427_WindowsUpdate_DevChannel.png)
-      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250427_Windows11_Build26200.png)
-    - [履歴](./history/Windows.md)
-  - [Canary Channel](https://aka.ms/CanaryLatest)
-
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
@@ -63,48 +54,56 @@ OS                                 |端末                |リンク
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
-- [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  1.  Windows Insider
-      - [WSL 2.5.6.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/04/09 auto updated from 2.5.4.0>>*</span>
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
+  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
+    - Build 26200.5570 (Cumulative Update) <span style="color: red;">*<<2025/04/27 updated from Build 26200.5562 >>*</span>
+      ![Cumulative Update](./images/Windows/20250427_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+        ![Version Information](./images/Windows/20250427_Windows11_Build26200.png)
+    - [履歴](./history/Windows.md)
+  - [Canary Channel](https://aka.ms/CanaryLatest)
 
-        <details>
-        <summary>カーネルバージョン: 6.6.84.1-1</summary>
+  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+    - [WSL 2.5.6.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/04/09 auto updated from 2.5.4.0>>*</span>
 
-        ```
-        WSL バージョン: 2.5.6.0
-        カーネル バージョン: 6.6.84.1-1
-        WSLg バージョン: 1.0.66
-        MSRDC バージョン: 1.2.6074
-        Direct3D バージョン: 1.611.1-81528511
-        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26200.5518
-        ```
-        </details>
+      <details>
+      <summary>カーネルバージョン: 6.6.84.1-1</summary>
 
-      - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
-        - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
+      ```
+      WSL バージョン: 2.5.6.0
+      カーネル バージョン: 6.6.84.1-1
+      WSLg バージョン: 1.0.66
+      MSRDC バージョン: 1.2.6074
+      Direct3D バージョン: 1.611.1-81528511
+      DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
+      Windows バージョン: 10.0.26200.5518
+      ```
+      </details>
 
-        <details>
-        <summary>ディストリビューション・バージョン情報</summary>
+    - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
+      - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
-        ```
-        PRETTY_NAME="Ubuntu 24.04.2 LTS"
-        NAME="Ubuntu"
-        VERSION_ID="24.04"
-        VERSION="24.04.2 LTS (Noble Numbat)"
-        VERSION_CODENAME=noble
-        ID=ubuntu
-        ID_LIKE=debian
-        HOME_URL="https://www.ubuntu.com/"
-        SUPPORT_URL="https://help.ubuntu.com/"
-        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-        UBUNTU_CODENAME=noble
-        LOGO=ubuntu-logo
-        ```
-        </details>
+      <details>
+      <summary>ディストリビューション・バージョン情報</summary>
 
-      - [履歴](./history/Wsl.md)
+      ```
+      PRETTY_NAME="Ubuntu 24.04.2 LTS"
+      NAME="Ubuntu"
+      VERSION_ID="24.04"
+      VERSION="24.04.2 LTS (Noble Numbat)"
+      VERSION_CODENAME=noble
+      ID=ubuntu
+      ID_LIKE=debian
+      HOME_URL="https://www.ubuntu.com/"
+      SUPPORT_URL="https://help.ubuntu.com/"
+      BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+      PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+      UBUNTU_CODENAME=noble
+      LOGO=ubuntu-logo
+      ```
+      </details>
+
+    - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
   - [Sequoia 15.4.1](https://www.apple.com/jp/macos/macos-sequoia/)
