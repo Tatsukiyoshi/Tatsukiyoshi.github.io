@@ -1,10 +1,11 @@
 # PHP
 
 ##  環境
-  |端末       |環境／FW         |最終更新
-  |-----------|----------------|----------
-  |InsiderDev |PHP 8.3         |[2024/01/02](https://windows.php.net/download)
-  |           |Apache 2.4.58   |[2024/01/02](https://www.apachelounge.com/download/)
+  |端末       |環境／FW    |日付
+  |-----------|-----------|----------
+  |Chrome OS Flex |ToolBox 2.6.1    |2025/05/04
+  |                           |PhpStorm 2025.1 |2025/05/04
+  |                           |Php 8.2.8              |2025/05/04
 
 ##  ノウハウ
 ### Apache + PHP
