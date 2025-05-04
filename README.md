@@ -256,6 +256,7 @@ OS/言語を問わず利用するツールの情報
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
 [TypeScript](./knowhow/TypeScript.md)|2025/05/01|Update: Deno 2.3.1
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
+[Go](./knowhow/Go.md)|2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 
 言語共通                                    |日付      |トピック
@@ -267,7 +268,6 @@ OS/言語を問わず利用するツールの情報
 その他（更新停滞）                          |日付      |トピック
 -------------------------------------------|----------|--------
 [PHP](./knowhow/Php.md)
-[Go](./knowhow/Go.md)
 [Pascal](./knowhow/Others.md#pascal)
 [Swift](./knowhow/Others.md#swift)
 [Unity](./knowhow/Unity.md)
