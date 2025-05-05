@@ -28,7 +28,7 @@ OS                                 |端末                |リンク            
 [Windows on Arm](#WindowsArm)      |OmniBook X          |↑
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑                         |.NET / Rust / Kotlin / Java / Flutter / TypeScript
 [Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)    |Rust / Flutter
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python / Go / PHP
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow) |Carbon
 
 - 移行計画
@@ -250,7 +250,7 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/05/01|Update: Visual Studio 2022 17.14 Preview 5.0
-[Rust](./knowhow/Rust.md)            |2025/05/01|Update: Update: RustRover 2025.1.1
+[Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
 [Kotlin](./knowhow/Kotlin.md)        |2025/05/01|Update: Android Studio Narwhal 2025.1.1 Canary 8
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
