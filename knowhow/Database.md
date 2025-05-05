@@ -13,7 +13,7 @@
   |               |MySQL Community Server 8.4.2                         |2024/08/24
   |Windows Insider|PostgreSQL 17.4                                      |2025/03/02
   |               |MySQL Community Server 9.1.0                         |[2025/01/04](https://dev.mysql.com/downloads/mysql/)
-  |Chrome OS Flex|PostgreSQL 15.12                                     |2025/05/04
+  |Chrome OS Flex|PostgreSQL 17.4                                     |2025/05/05
 
 ##  ノウハウ
 ### データベース全般
