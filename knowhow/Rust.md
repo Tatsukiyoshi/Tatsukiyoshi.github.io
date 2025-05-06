@@ -20,9 +20,9 @@
       |               |Svelte 5.28.2                                  |2025/04/27
       |               |Vite 6.3.3                                     |2025/04/27
       |               |Bun 1.2.10                                     |2025/04/27
-      |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
+      |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
+      |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.86                                      |2025/04/06
       |               |Tauri 2.5.1                                    |2025/04/27
       |               |React 19.1.0                                   |2025/04/06
@@ -30,7 +30,7 @@
       |               |Bun 1.2.10                                     |2025/04/27
 
   1. Ubuntu 24.04.2 on Windows 11
-      |端末            |環境／FW         |最終更新
+      |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.86       |2025/04/16
       |                |Tauri 2.5.1     |2025/04/27
@@ -39,7 +39,7 @@
       |                |Bun 1.2.10      |2025/04/27
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
-      |端末       |環境／FW                                      |最終更新
+      |Machine    |Env / FW                                     |Last Updated
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.86                                    |2025/04/11
       |           |Tauri 2.5.1                                  |2025/04/29
@@ -49,7 +49,7 @@
       |           |Vite 6.3.3                                   |2025/04/29
 
   1.  Mac OS Sequoia 15.4.1
-      |端末       |環境／FW               |最終更新
+      |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
       |           |Tauri 2.5.1          |2025/04/27
