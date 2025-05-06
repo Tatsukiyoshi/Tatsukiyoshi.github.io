@@ -1,14 +1,14 @@
 # Kotlin
 
 ##  独学書
-  |テキスト                                                    |日付      |進捗状況
+  |Text                                                       |Date      |Status
   |-----------------------------------------------------------|----------|---
   |Spring解体新書（バッチ編）                                   |2022/08/08|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/spring)
   |Kotlinプログラミング                                        |2019/11/13|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/programming)
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
-  |端末            |環境／FW                                                     |最終更新      
+  |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
   |Windows Insider |[IntelliJ IDEA 2025.1](#intellij-idea)                      |[2025/04/20](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)

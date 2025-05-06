@@ -1,20 +1,18 @@
 # Rust
 
-  ##  独学書
-
-  |テキスト                                                         |日付      |進捗状況
+##  独学書
+  |Text                                                            |Date      |Status
   |----------------------------------------------------------------|----------|---
   |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/PerfectRust)
 
-  ##  コンテンツ
-
-  |コンテンツ                                                                                   |日付      |進捗状況
+##  コンテンツ
+  |Contents                                                                                    |Date      |Status
   |--------------------------------------------------------------------------------------------|----------|-------
   |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
 
-  ##  環境
+##  環境
   1. Windows 11
-      |端末           |環境／FW                                        |最終更新
+      |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |               |[RustRover 2025.1.1](#rustrover)               |[2025/05/01](https://www.jetbrains.com/rust/)

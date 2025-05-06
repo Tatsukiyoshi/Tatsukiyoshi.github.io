@@ -1,82 +1,79 @@
 # TypeScript & JavaScript
 
 ##  独学書
-
-  |テキスト                                      |日付      |進捗状況
-  |---------------------------------------------|----------|-------
+  |Text                                           |Date      |Status
+  |-----------------------------------------------|----------|-------
   |Angularアプリケーションプログラミング             |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
   |モダンJavaScriptの基本から始めるReact実践の教科書  |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
 
 ##  コンテンツ
-
-  |コンテンツ                                                                                       |日付      |進捗状況
-  |-----------------------------------------------------------------------------------------------|----------|-------
+  |Contents                                                                                         |Date      |Status
+  |-------------------------------------------------------------------------------------------------|----------|-------
   |[Vercel＋Next.jsを活用したWebアプリケーション開発入門](https://codezine.jp/article/corner/925)       |2022/11/03|第4回 ブログを作りながら学ぶ、Next.jsの便利な4つの機能（グローバル設定、プリレンダリング、動的ルート、サーバーレス）
   |[TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/corner/878)|2024/05/22|第8回 TypeScriptとも相性抜群なライブラリ──Vue.jsで状態管理を行う新定番「Pinia」を解説！ <span style="color: red;">*finished*</span>
 
 ##  環境
-
   1.  ホスティング・サービス
   
-      |ホスト                          |FW              |最終更新      
+      |Host                           |FW              |Last Updated
       |-------------------------------|----------------|----------
       |[Vercel](https://vercel.com/)  |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
       |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
 
   1.  Windows
-      |端末            |FW                          |最終更新      
-      |----------------|----------------------------|----------
-      |Windows         |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
-      |                |[Bun 1.2.4](#bun)           |[2025/03/01](https://bun.sh/)
-      |                |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
-      |                |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
-      |                |- Bun 1.1.38                |2024/11/29
-      |                |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
-      |                |- Deno 2.1.2                |2024/11/30
-      |                |- Vite 6.0.1                |2024/11/29
-      |                |- Bun 1.1.38                |2024/11/29
-      |                |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
-      |                |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
-      |Windows Insider |Node.js 22.12.0             |2024/12/14
-      |                |[Bun 1.2.9](#bun)           |[2025/04/12](https://bun.sh/)
-      |                |Vite 6.2.6                  |[2025/04/12](https://vitejs.dev/)
-      |                |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
-      |                |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
-      |                |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
-      |                |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)
-      |                |- Bun 1.2.7                 |2025/03/29
-      |                |- Vite 6.2.3                |2025/03/29
-      |                |- [React 19.1.0](#react)    |2025/03/29
-      |                |- [Svelte 5.25.3](#svelte)  |2025/03/29
-      |                |Angular 20.0.0-next.4       |[2025/03/31](https://next.angular.dev/)
-      |                |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
-      |                |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
-      |                |- Bun 1.2.3                 |2025/02/24
-      |                |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
-      |                |- Bun 1.2.4                 |2025/03/01
-      |                |- React Native 0.78.0       |2025/03/02
-      |                |- Windows SDK 10.0.26100    |2025/01/18
-      |                |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
-      |                |- React 19.1.0              |2025/04/03
-      |                |- Bun 1.2.10                |2025/04/27
-      |                |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
-      |                |- React 19.1.0              |2025/04/12
-      |                |- Bun 1.2.9                 |2025/04/12
-      |                |[Svelte 5.28.2](#svelte)    |[2025/04/27](https://svelte.dev/)
-      |                |- Bun 1.2.10                |2025/04/27
-      |                |- Vite 6.3.3                |2025/04/27
-      |                |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
+      |Machine         |Category|Env / FW                    |Last Updated
+      |----------------|--------|----------------------------|----------
+      |Windows         |Common  |Node.js 22.12.0             |[2024/12/11](https://nodejs.org/en)
+      |                |        |[Bun 1.2.4](#bun)           |[2025/03/01](https://bun.sh/)
+      |                |        |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
+      |                |FW      |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
+      |                |        |- Bun 1.1.38                |2024/11/29
+      |                |        |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
+      |                |        |- Deno 2.1.2                |2024/11/30
+      |                |        |- Vite 6.0.1                |2024/11/29
+      |                |        |- Bun 1.1.38                |2024/11/29
+      |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
+      |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
+      |Windows Insider |Common  |Node.js 22.12.0             |2024/12/14
+      |                |        |[Bun 1.2.10](#bun)          |[2025/04/27](https://bun.sh/)
+      |                |        |Vite 6.3.3                  |[2025/04/27](https://vitejs.dev/)
+      |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
+      |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
+      |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
+      |                |        |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)
+      |                |        |- Bun 1.2.7                 |2025/03/29
+      |                |        |- Vite 6.2.3                |2025/03/29
+      |                |        |- [React 19.1.0](#react)    |2025/03/29
+      |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
+      |                |FW      |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
+      |                |        |Angular 20.0.0-next.4       |[2025/03/31](https://next.angular.dev/)
+      |                |        |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
+      |                |        |- React 19.1.0              |2025/04/03
+      |                |        |- Bun 1.2.10                |2025/04/27
+      |                |        |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
+      |                |        |- React 19.1.0              |2025/04/12
+      |                |        |- Bun 1.2.9                 |2025/04/12
+      |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
+      |                |        |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
+      |                |        |- Bun 1.2.3                 |2025/02/24
+      |                |        |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.4                 |2025/03/01
+      |                |        |- React Native 0.78.0       |2025/03/02
+      |                |        |- Windows SDK 10.0.26100    |2025/01/18
+      |                |        |[Svelte 5.28.2](#svelte)    |[2025/04/27](https://svelte.dev/)
+      |                |        |- Bun 1.2.10                |2025/04/27
+      |                |        |- Vite 6.3.3                |2025/04/27
 
   1.  Mac OS
-      |端末       |FW                          |最終更新      
-      |-----------|----------------------------|----------
-      |Mac OS     |Node.js 22.15.0             |2025/04/26
-      |           |- nodebrew 1.2.0            |2025/04/26
-      |           |Bun 1.2.10                  |2025/04/26
-      |           |React Native 0.78.0         |[2025/02/24](https://reactnative.dev/)
-      |           |- Bun 1.2.3                 |2025/02/24
-      |           |Lynx 3.2.0                  |[2025/04/26](https://lynxjs.org)
-      |           |- Bun 1.2.10                |2025/04/26
+      |Machine    |Category|Env / FW            |Last Updated
+      |-----------|--------|--------------------|----------
+      |Mac OS     |Common  |Node.js 22.15.0     |2025/04/26
+      |           |        |- nodebrew 1.2.0    |2025/04/26
+      |           |        |Bun 1.2.10          |2025/04/26
+      |           |FW      |Lynx 3.2.0          |[2025/04/26](https://lynxjs.org)
+      |           |        |- Bun 1.2.10        |2025/04/26
+      |           |        |React Native 0.78.0 |[2025/02/24](https://reactnative.dev/)
+      |           |        |- Bun 1.2.3         |2025/02/24
 
 ##  ノウハウ
 ### TypeScript

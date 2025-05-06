@@ -1,14 +1,13 @@
 # .NET
 
 ##  独学書
-
-  |テキスト                                                      |日付      |進捗状況
+  |Text                                                         |Date      |Status
   |-------------------------------------------------------------|----------|---
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  環境
-  |端末            |環境／FW                                          |最終更新
+  |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
   |Windows         |Visual Studio Community 2022 17.13.6             |[2025/04/09](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.4                                     |[2025/04/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
