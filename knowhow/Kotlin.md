@@ -14,7 +14,7 @@
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.1 Canary 8](#android-studio) |[2025/05/01](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.1 Canary 9](#android-studio) |[2025/05/06](https://developer.android.com/studio)
   |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
   |                |- Android Emulator v.35.6.6                                 |2025/05/01
@@ -168,9 +168,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal | 2025.1.1 Canary 8
+  - Android Studio Narwhal | 2025.1.1 Canary 9
     ```
-    Build #AI-251.23774.16.2511.13409254, built on April 26, 2025
+    Build #AI-251.23774.435.2511.13434847, built on May 2, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -212,6 +212,8 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Canary 9
+        - Android Gradle Plugin 8.11.0-alpha08 -> 8.11.0-alpha09
       - Narwhal Canary 8
         - Android Gradle Plugin 8.11.0-alpha07 -> 8.11.0-alpha08
       - Narwhal Canary 7
