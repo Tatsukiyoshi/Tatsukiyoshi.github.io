@@ -249,7 +249,7 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/01|Update: Visual Studio 2022 17.14 Preview 5.0
+[.NET](./knowhow/NET.md)             |2025/05/10|Update: Visual Studio 2022 17.14 Preview 6.0
 [Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
 [Kotlin](./knowhow/Kotlin.md)        |2025/05/06|Update: Android Studio Narwhal 2025.1.1 Canary 9
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
