@@ -34,7 +34,7 @@
       |                |        |- Bun 1.1.38                |2024/11/29
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
-      |Windows Insider |Common  |Node.js 22.12.0             |2024/12/14
+      |Windows Insider |Common  |Node.js 22.15.0             |2025/05/10
       |                |        |[Bun 1.2.10](#bun)          |[2025/04/27](https://bun.sh/)
       |                |        |Vite 6.3.3                  |[2025/04/27](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
@@ -46,7 +46,7 @@
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |FW      |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
-      |                |        |Angular 20.0.0-next.4       |[2025/03/31](https://next.angular.dev/)
+      |                |        |Angular 20.0.0-rc.0         |[2025/05/10](https://next.angular.dev/)
       |                |        |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.10                |2025/04/27
