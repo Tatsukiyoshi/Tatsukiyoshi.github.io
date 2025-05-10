@@ -1,7 +1,7 @@
 #   Carbon
 
 ##  環境
-  |端末            |環境／FW       |最終更新
+  |Machine         |Env / FW      |Last Updated
   |----------------|--------------|----------
   |Windows Insider |Carbon        |2025/04/06
   |                |- clang 19.1.7|2025/04/06

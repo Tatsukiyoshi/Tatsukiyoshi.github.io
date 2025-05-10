@@ -1,6 +1,6 @@
 # Docker
-
-  |端末           |環境／FW                 |最終更新
+##  環境
+  |Machine        |Env／FW                 |Last Updated
   |---------------|------------------------|----------
   |Windows Insider|Rancher Desktop 1.18.2  |[2025/03/13](https://rancherdesktop.io/)
 

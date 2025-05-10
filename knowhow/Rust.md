@@ -1,38 +1,36 @@
 # Rust
 
-  ##  独学書
-
-  |テキスト                                                         |日付      |進捗状況
+##  独学書
+  |Text                                                            |Date      |Status
   |----------------------------------------------------------------|----------|---
   |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/PerfectRust)
 
-  ##  コンテンツ
-
-  |コンテンツ                                                                                   |日付      |進捗状況
+##  コンテンツ
+  |Contents                                                                                    |Date      |Status
   |--------------------------------------------------------------------------------------------|----------|-------
   |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
 
-  ##  環境
+##  環境
   1. Windows 11
-      |端末       |環境／FW                                        |最終更新
-      |-----------|-----------------------------------------------|----------
-      |Windows    |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |           |[RustRover 2025.1.1](#rustrover)               |[2025/05/01](https://www.jetbrains.com/rust/)
-      |           |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
-      |           |Svelte 5.28.2                                  |2025/04/27
-      |           |Vite 6.3.3                                     |2025/04/27
-      |           |Bun 1.2.10                                     |2025/04/27
-      |           |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |           |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
-      |           |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
-      |Windows    |Rust 1.86                                      |2025/04/06
-      | Insider   |Tauri 2.5.1                                    |2025/04/27
-      |           |React 19.1.0                                   |2025/04/06
-      |           |Vite 6.3.3                                     |2025/04/27
-      |           |Bun 1.2.10                                     |2025/04/27
+      |Machine        |Env / FW                                       |Last Updated
+      |---------------|-----------------------------------------------|----------
+      |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
+      |               |[RustRover 2025.1.1](#rustrover)               |[2025/05/01](https://www.jetbrains.com/rust/)
+      |               |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
+      |               |Svelte 5.28.2                                  |2025/04/27
+      |               |Vite 6.3.3                                     |2025/04/27
+      |               |Bun 1.2.10                                     |2025/04/27
+      |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
+      |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
+      |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
+      |Windows Insider|Rust 1.86                                      |2025/04/06
+      |               |Tauri 2.5.1                                    |2025/04/27
+      |               |React 19.1.0                                   |2025/04/06
+      |               |Vite 6.3.3                                     |2025/04/27
+      |               |Bun 1.2.10                                     |2025/04/27
 
   1. Ubuntu 24.04.2 on Windows 11
-      |端末            |環境／FW         |最終更新
+      |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.86       |2025/04/16
       |                |Tauri 2.5.1     |2025/04/27
@@ -41,7 +39,7 @@
       |                |Bun 1.2.10      |2025/04/27
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
-      |端末       |環境／FW                                      |最終更新
+      |Machine    |Env / FW                                     |Last Updated
       |-----------|---------------------------------------------|----------
       |Chrome OS  |Rust 1.86                                    |2025/04/11
       |           |Tauri 2.5.1                                  |2025/04/29
@@ -51,7 +49,7 @@
       |           |Vite 6.3.3                                   |2025/04/29
 
   1.  Mac OS Sequoia 15.4.1
-      |端末       |環境／FW               |最終更新
+      |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
       |           |Tauri 2.5.1          |2025/04/27

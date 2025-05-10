@@ -1,8 +1,7 @@
 # Database & SQL
 
 ##  環境
-
-  |端末           |環境／FW                                              |最終更新
+  |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.0.107 Preview 6.0  |[2025/04/23](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
@@ -13,6 +12,7 @@
   |               |MySQL Community Server 8.4.2                         |2024/08/24
   |Windows Insider|PostgreSQL 17.4                                      |2025/03/02
   |               |MySQL Community Server 9.1.0                         |[2025/01/04](https://dev.mysql.com/downloads/mysql/)
+  |Chrome OS Flex|PostgreSQL 17.4                                     |2025/05/05
 
 ##  ノウハウ
 ### データベース全般

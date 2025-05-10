@@ -1,17 +1,17 @@
 # Dart & Flutter
 
 ##  独学書
-  |テキスト                                                                             |日付      |進捗状況
+  |Text                                                                                |Date      |Status
   |------------------------------------------------------------------------------------|----------|---
   |[動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366) |2023/12/23|Chapter 4 Firebaseとの連携 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/flutter/introduction)
 
 ##  コンテンツ
-  |コンテンツ                                                                        |日付     |進捗状況
-  |--------------------------------------------------------------------------------|---------|---
-  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)         |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
+  |Contents                                                                        |Date      |Status
+  |--------------------------------------------------------------------------------|----------|---
+  |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)       |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
 
 ##  環境
-  |端末           |環境／FW                                                                  |最終更新
+  |Machine        |Env／FW                                                                  |Last Updated
   |---------------|-------------------------------------------------------------------------|----------
   |Windows Insider|Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/get-started/install)
   |               |[Android Studio Meerkat 2024.3.2 Canary 7](./Kotlin.md#android-studio)   |2025/03/02

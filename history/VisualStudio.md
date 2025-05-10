@@ -1,4 +1,6 @@
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14 Preview 5.0
+    ![VS2022 17.14 preview 5.0](../images/VisualStudio/20250501_Update_VS2022_17.14_Preview5.0.png)
   - Visual Studio 2022 17.14 Preview 2.0
     ![VS2022 17.14 preview 2.0](../images/VisualStudio/20250313_Update_VS2022_17.14_Preview2.0.png)
     - 17.14 Preview 2.0 / MAUI 10.0.0-preview.2.25165.1 / Pixel 9 API 35(Android 15)

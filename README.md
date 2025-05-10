@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -22,14 +22,14 @@
 ```
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
-OS                                 |端末                |リンク
------------------------------------|--------------------|---
-[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)
+OS                                 |端末                |リンク                     |言語
+-----------------------------------|--------------------|--------------------------|--
+[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)|.NET / Rust / TypeScript
 [Windows on Arm](#WindowsArm)      |OmniBook X          |↑
-[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑
-[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow)
-[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow)
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑                         |.NET / Rust / Kotlin / Java / Flutter / TypeScript
+[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)    |Rust / Flutter
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python / Go / PHP
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow) |Carbon
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -38,15 +38,6 @@ OS                                 |端末                |リンク
   - (v) Ubuntu Desktop環境を構築
 
 ### OS <a id="OS"></a>
-- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5570 (Cumulative Update) <span style="color: red;">*<<2025/04/27 updated from Build 26200.5562 >>*</span>
-      ![Cumulative Update](./images/Windows/20250427_WindowsUpdate_DevChannel.png)
-      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250427_Windows11_Build26200.png)
-    - [履歴](./history/Windows.md)
-  - [Canary Channel](https://aka.ms/CanaryLatest)
-
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
@@ -63,48 +54,56 @@ OS                                 |端末                |リンク
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
-- [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
-  1.  Windows Insider
-      - [WSL 2.5.6.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/04/09 auto updated from 2.5.4.0>>*</span>
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
+  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
+    - Build 26200.5581 (Cumulative Update) <span style="color: red;">*<<2025/05/06 updated from Build 26200.5570 >>*</span>
+      ![Cumulative Update](./images/Windows/20250506_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+        ![Version Information](./images/Windows/20250506_Windows11_Build26200.png)
+    - [履歴](./history/Windows.md)
+  - [Canary Channel](https://aka.ms/CanaryLatest)
 
-        <details>
-        <summary>カーネルバージョン: 6.6.84.1-1</summary>
+  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+    - [WSL 2.5.6.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/04/09 auto updated from 2.5.4.0>>*</span>
 
-        ```
-        WSL バージョン: 2.5.6.0
-        カーネル バージョン: 6.6.84.1-1
-        WSLg バージョン: 1.0.66
-        MSRDC バージョン: 1.2.6074
-        Direct3D バージョン: 1.611.1-81528511
-        DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-        Windows バージョン: 10.0.26200.5518
-        ```
-        </details>
+      <details>
+      <summary>カーネルバージョン: 6.6.84.1-1</summary>
 
-      - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
-        - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
+      ```
+      WSL バージョン: 2.5.6.0
+      カーネル バージョン: 6.6.84.1-1
+      WSLg バージョン: 1.0.66
+      MSRDC バージョン: 1.2.6074
+      Direct3D バージョン: 1.611.1-81528511
+      DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
+      Windows バージョン: 10.0.26200.5518
+      ```
+      </details>
 
-        <details>
-        <summary>ディストリビューション・バージョン情報</summary>
+    - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
+      - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
 
-        ```
-        PRETTY_NAME="Ubuntu 24.04.2 LTS"
-        NAME="Ubuntu"
-        VERSION_ID="24.04"
-        VERSION="24.04.2 LTS (Noble Numbat)"
-        VERSION_CODENAME=noble
-        ID=ubuntu
-        ID_LIKE=debian
-        HOME_URL="https://www.ubuntu.com/"
-        SUPPORT_URL="https://help.ubuntu.com/"
-        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-        UBUNTU_CODENAME=noble
-        LOGO=ubuntu-logo
-        ```
-        </details>
+      <details>
+      <summary>ディストリビューション・バージョン情報</summary>
 
-      - [履歴](./history/Wsl.md)
+      ```
+      PRETTY_NAME="Ubuntu 24.04.2 LTS"
+      NAME="Ubuntu"
+      VERSION_ID="24.04"
+      VERSION="24.04.2 LTS (Noble Numbat)"
+      VERSION_CODENAME=noble
+      ID=ubuntu
+      ID_LIKE=debian
+      HOME_URL="https://www.ubuntu.com/"
+      SUPPORT_URL="https://help.ubuntu.com/"
+      BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+      PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+      UBUNTU_CODENAME=noble
+      LOGO=ubuntu-logo
+      ```
+      </details>
+
+    - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
   - [Sequoia 15.4.1](https://www.apple.com/jp/macos/macos-sequoia/)
@@ -116,10 +115,10 @@ OS                                 |端末                |リンク
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 135.0.7049.104 <span style="color: red;">*<<2025/04/25 updated from 134.0.6998.198>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250425_Chrome_OS_Flex_135.0.7049.104.png)
+  - バージョン 135.0.7049.120 <span style="color: red;">*<<2025/05/04 updated from 135.0.7049.104>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250504_Chrome_OS_Flex_135.0.7049.120.png)
       - 更新中
-        ![Updating](./images/Chrome/20250425_Chrome_OS_Flex_Updating135.0.7049.104.png)
+        ![Updating](./images/Chrome/20250504_Chrome_OS_Flex_Updating135.0.7049.120.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -202,7 +201,7 @@ OS                                 |端末                |リンク
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.99.3](https://code.visualstudio.com/) <span style="color: red;">*<<2025/04/17 updated from 1.99.2>>*</span>
+- [Visual Studio Code 1.100.0](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/10 updated from 1.99.3>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -250,25 +249,25 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/01|Update: Visual Studio 2022 17.14 Preview 5.0
-[Rust](./knowhow/Rust.md)            |2025/05/01|Update: Update: RustRover 2025.1.1
-[Kotlin](./knowhow/Kotlin.md)        |2025/05/01|Update: Android Studio Narwhal 2025.1.1 Canary 8
+[.NET](./knowhow/NET.md)             |2025/05/10|Update: Visual Studio 2022 17.14 Preview 6.0
+[Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
+[Kotlin](./knowhow/Kotlin.md)        |2025/05/06|Update: Android Studio Narwhal 2025.1.1 Canary 9
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/05/01|Update: Deno 2.3.1
+[TypeScript](./knowhow/TypeScript.md)|2025/05/10|Update: Node.js 22.15.0 / Astro 5.7.12 / Next.js 15.3.2 / Bun 1.2.12
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Go](./knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
+[PHP](./knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/03/02|Update: PostgreSQL 17.4
+[Database & SQL](./knowhow/Database.md)    |2025/05/05|Update: PostgreSQL 17.4 on Chrome OS Flex
 [Documentation](./knowhow/Documentation.md)|-
 [Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
 その他（更新停滞）                          |日付      |トピック
 -------------------------------------------|----------|--------
-[PHP](./knowhow/Php.md)
-[Go](./knowhow/Go.md)
 [Pascal](./knowhow/Others.md#pascal)
 [Swift](./knowhow/Others.md#swift)
 [Unity](./knowhow/Unity.md)

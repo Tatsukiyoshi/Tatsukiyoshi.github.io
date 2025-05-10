@@ -1,8 +1,7 @@
 # Java
 
 ##  独学書
-
-  |テキスト                  |日付      |進捗状況
+  |Text                     |Date      |Status
   |-------------------------|----------|--------
   |Spring解体新書（第２版）   |2022/10/23|8章 MyBatis <span style="color: red;">*finished*</span>
   |Spring解体新書（バッチ編） |2022/05/07|6章 バッチ実行 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/java/sts-workspace)
@@ -10,8 +9,7 @@
   |Java本格入門              |2022/09/25|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/java/eclipse-workspace)
 
 ##  環境
-
-  |端末            |環境／FW                                                                         |最終更新
+  |Machine         |Env／FW                                                                         |Last Updated
   |----------------|--------------------------------------------------------------------------------|----------
   |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2025-03 (Eclipse 4.35)](#pleiades)|[2025/03/21](https://willbrains.jp/)
   |                |[Apache Tomcat 10.1.39](#tomcat)                                                |[2025/03/21](https://tomcat.apache.org/download-10.cgi)
