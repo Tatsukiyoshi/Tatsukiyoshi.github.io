@@ -50,9 +50,9 @@
       |                |        |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.10                |2025/04/27
-      |                |        |[Next.js 15.3.0](#nextjs)   |[2025/04/12](https://nextjs.org/)
+      |                |        |[Next.js 15.3.1](#nextjs)   |[2025/04/27](https://nextjs.org/)
       |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.9                 |2025/04/12
+      |                |        |- Bun 1.2.10                |2025/04/27
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
       |                |        |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |        |- Bun 1.2.3                 |2025/02/24
