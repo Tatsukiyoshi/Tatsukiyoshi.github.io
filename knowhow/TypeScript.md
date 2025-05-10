@@ -35,7 +35,7 @@
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 22.15.0             |2025/05/10
-      |                |        |[Bun 1.2.10](#bun)          |[2025/04/27](https://bun.sh/)
+      |                |        |[Bun 1.2.12](#bun)          |[2025/05/10](https://bun.sh/)
       |                |        |Vite 6.3.3                  |[2025/04/27](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
@@ -47,12 +47,12 @@
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |FW      |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
       |                |        |Angular 20.0.0-rc.0         |[2025/05/10](https://next.angular.dev/)
-      |                |        |[Astro 5.7.5](#astro)       |[2025/04/27](https://astro.build/)
+      |                |        |[Astro 5.7.12](#astro)      |[2025/05/10](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
-      |                |        |- Bun 1.2.10                |2025/04/27
-      |                |        |[Next.js 15.3.1](#nextjs)   |[2025/04/27](https://nextjs.org/)
+      |                |        |- Bun 1.2.12                |2025/05/10
+      |                |        |[Next.js 15.3.2](#nextjs)   |[2025/05/10](https://nextjs.org/)
       |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.10                |2025/04/27
+      |                |        |- Bun 1.2.12                |2025/05/10
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
       |                |        |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
       |                |        |- Bun 1.2.3                 |2025/02/24
