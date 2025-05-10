@@ -30,8 +30,8 @@
       |                |        |- Bun 1.1.38                |2024/11/29
       |                |        |[Vue 3.5.13](#vue)          |[2024/11/29](https://jp.vuejs.org/)
       |                |        |- Deno 2.1.2                |2024/11/30
-      |                |        |- Vite 6.0.1                |2024/11/29
       |                |        |- Bun 1.1.38                |2024/11/29
+      |                |        |- Vite 6.0.1                |2024/11/29
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 22.15.0             |2025/05/10
@@ -45,7 +45,7 @@
       |                |        |- Vite 6.2.3                |2025/03/29
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
-      |                |FW      |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
+      |                |Web FW  |[Angular 19.2.0](#angular)  |[2025/03/02](https://angular.dev/)
       |                |        |Angular 20.0.0-rc.0         |[2025/05/10](https://next.angular.dev/)
       |                |        |[Astro 5.7.12](#astro)      |[2025/05/10](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
@@ -54,8 +54,6 @@
       |                |        |- React 19.1.0              |2025/04/12
       |                |        |- Bun 1.2.12                |2025/05/10
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
-      |                |        |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
-      |                |        |- Bun 1.2.3                 |2025/02/24
       |                |        |React Native Windows 0.78.0 |[2025/03/02](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.4                 |2025/03/01
       |                |        |- React Native 0.78.0       |2025/03/02
@@ -63,6 +61,8 @@
       |                |        |[Svelte 5.28.2](#svelte)    |[2025/04/27](https://svelte.dev/)
       |                |        |- Bun 1.2.10                |2025/04/27
       |                |        |- Vite 6.3.3                |2025/04/27
+      |                |Mobile  |[React Native 0.78.0](#rn)  |[2025/02/24](https://reactnative.dev/)
+      |                |        |- Bun 1.2.3                 |2025/02/24
 
   1.  Mac OS
       |Machine    |Category|Env / FW            |Last Updated
@@ -70,7 +70,7 @@
       |Mac OS     |Common  |Node.js 22.15.0     |2025/04/26
       |           |        |- nodebrew 1.2.0    |2025/04/26
       |           |        |Bun 1.2.10          |2025/04/26
-      |           |FW      |Lynx 3.2.0          |[2025/04/26](https://lynxjs.org)
+      |           |Mobile  |Lynx 3.2.0          |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10        |2025/04/26
       |           |        |React Native 0.78.0 |[2025/02/24](https://reactnative.dev/)
       |           |        |- Bun 1.2.3         |2025/02/24
