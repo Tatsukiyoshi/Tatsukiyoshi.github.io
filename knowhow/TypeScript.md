@@ -65,15 +65,15 @@
       |                |        |- Bun 1.2.3                 |2025/02/24
 
   1.  Mac OS
-      |Machine    |Category|Env / FW            |Last Updated
-      |-----------|--------|--------------------|----------
-      |Mac OS     |Common  |Node.js 22.15.0     |2025/04/26
-      |           |        |- nodebrew 1.2.0    |2025/04/26
-      |           |        |Bun 1.2.10          |2025/04/26
-      |           |Mobile  |Lynx 3.2.0          |[2025/04/26](https://lynxjs.org)
-      |           |        |- Bun 1.2.10        |2025/04/26
-      |           |        |React Native 0.78.0 |[2025/02/24](https://reactnative.dev/)
-      |           |        |- Bun 1.2.3         |2025/02/24
+      |Machine    |Category|Env / FW                 |Last Updated
+      |-----------|--------|-------------------------|----------
+      |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26
+      |           |        |- nodebrew 1.2.0         |2025/04/26
+      |           |        |Bun 1.2.10               |2025/04/26
+      |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
+      |           |        |- Bun 1.2.10             |2025/04/26
+      |           |        |React Native 0.80.0-rc.0 |[2025/05/11](https://reactnative.dev/)
+      |           |        |- Bun 1.2.13             |2025/02/24
 
 ##  ノウハウ
 ### TypeScript
@@ -312,6 +312,9 @@
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
+        - React Native 0.80.0-rc.0
+          - React 19.1.0
+            ![React Native 0.80.0-rc.0](../images/Mac/20250511_ReactNative_0.80.0-rc.0.png)
         - iOS
           - iOS エミュレータを起動
             ```

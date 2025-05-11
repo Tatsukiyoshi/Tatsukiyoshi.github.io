@@ -254,7 +254,7 @@ OS/言語を問わず利用するツールの情報
 [Kotlin](./knowhow/Kotlin.md)        |2025/05/06|Update: Android Studio Narwhal 2025.1.1 Canary 9
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/05/10|Update: Node.js 22.15.0 / Astro 5.7.12 / Next.js 15.3.2 / Bun 1.2.12
+[TypeScript](./knowhow/TypeScript.md)|2025/05/11|Update: React Native 0.80.0-rc.0 / Bun 1.2.13
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](./knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
