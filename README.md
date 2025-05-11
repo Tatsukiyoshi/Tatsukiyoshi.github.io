@@ -22,14 +22,14 @@
 ```
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
-OS                                 |端末                |リンク                     |言語
------------------------------------|--------------------|--------------------------|--
-[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)|.NET / Rust / TypeScript
-[Windows on Arm](#WindowsArm)      |OmniBook X          |↑
-[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑                         |.NET / Rust / Kotlin / Java / Flutter / TypeScript
-[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)    |Rust / Flutter
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python / Go / PHP
-[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow) |Carbon
+OS                                 |Hardware            |Language                                          |Link
+-----------------------------------|--------------------|--------------------------------------------------|--
+[Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript                          |[ノウハウ](#WindowsKnowhow)
+[Windows on Arm](#WindowsArm)      |OmniBook X          |                                                  |↑
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript|↑
+[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter                                    |[ノウハウ](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP                |[ノウハウ](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon                                            |[ノウハウ](#UbuntuKnowhow)
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -55,7 +55,7 @@ OS                                 |端末                |リンク            
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
+  - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
     - Build 26200.5581 (Cumulative Update) <span style="color: red;">*<<2025/05/06 updated from Build 26200.5570 >>*</span>
       ![Cumulative Update](./images/Windows/20250506_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
@@ -217,7 +217,7 @@ OS/言語を問わず利用するツールの情報
     ```
     2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
     ```
-  - Insider Preview環境では、ストアで更新できない。
+  - Windows Insider 環境では、ストアで更新できない。
     - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
@@ -379,7 +379,7 @@ OSやツールのノウハウは、以下を参照
       ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
     - Sub Issueの並び替え（Issueにカーソルを合わせるとカーソルが手になって並び替えできる）
       ![SubIssue Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
-      - Insider BuildのEdgeではできない模様（カーソルが手に変わらない！）
+      - Windows Insider 環境のEdgeではできない模様（カーソルが手に変わらない！）
         ![SubIssue Not Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
     ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)
