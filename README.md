@@ -61,6 +61,8 @@ OS                                 |Hardware            |Language               
       ![Cumulative Update](./images/Windows/20250513_WindowsUpdate_DevChannel2.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](./images/Windows/20250513_Windows11_Build26200.png)
+      - ClickToDo
+        ![ClickToDo](./images/Windows/20250514_Windows11_ClickToDo.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
