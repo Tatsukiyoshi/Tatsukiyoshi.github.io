@@ -15,7 +15,7 @@
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |               |[RustRover 2025.1.1](#rustrover)               |[2025/05/01](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.1.2](#rustrover)               |[2025/05/14](https://www.jetbrains.com/rust/)
       |               |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
       |               |Svelte 5.28.2                                  |2025/04/27
       |               |Bun 1.2.10                                     |2025/04/27
@@ -121,11 +121,11 @@
       wasmtime hello.wasm
       ```
   ### RustRover
-  - RustRover 2025.1.1 Build #RR-251.23774.463, built on April 23, 2025 <span style="color: red;">**Updated 2025/05/01**</span>
+  - RustRover 2025.1.2 Build #RR-251.25410.115, built on May 7, 2025 <span style="color: red;">**Updated 2025/05/14**</span>
     ```
-    RustRover 2025.1.1
-    Build #RR-251.23774.463, built on April 23, 2025
-    Source revision: f90f4458d5224
+    RustRover 2025.1.2
+    Build #RR-251.25410.115, built on May 7, 2025
+    Source revision: f16670c80a66d
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年5月22日 まで有効です。
     For non-commercial use only.
@@ -139,13 +139,15 @@
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      org.toml.json.schema=false
       transferSettings.vscode.onlyCargoToml=true
-      terminal.new.ui.show.promotion=true
+      org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (251.23774.318)
       ru.adelf.idea.dotenv (251.23774.318)
+      com.intellij.ml.llm (251.23774.42.28.7)
+      org.jetbrains.plugins.gitlab (251.25410.123-IU)
+      org.jetbrains.plugins.github (251.25410.123-IU)
     ```
     - [履歴](../history/RustRover.md)
   - データベース
