@@ -4,10 +4,10 @@
       - Build 26200.5600 (Cumulative Update) <span style="color: red;">*<<2025/05/13 updated from Build 26200.5581 >>*</span>
         ![Firmware Update](../images/Windows/20250513_WindowsUpdate_DevChannel.png)
         ![Cumulative Update](../images/Windows/20250513_WindowsUpdate_DevChannel2.png)
+        - [ClickToDo](https://support.microsoft.com/en-us/windows/click-to-do-do-more-with-what-s-on-your-screen-6848b7d5-7fb0-4c43-b08a-443d6d3f5955)
+          ![ClickToDo](../images/Windows/20250514_Windows11_ClickToDo.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20250513_Windows11_Build26200.png)
-        - ClickToDo
-          ![ClickToDo](../images/Windows/20250514_Windows11_ClickToDo.png)
     - for Next of Windows 11 24H2 (Build 26200)
       - Build 26200.5581 (Cumulative Update) <span style="color: red;">*<<2025/05/06 updated from Build 26200.5570 >>*</span>
         ![Cumulative Update](../images/Windows/20250506_WindowsUpdate_DevChannel.png)
@@ -113,8 +113,7 @@
           ![Version Information](../images/Windows/20241110_Windows11_Build26120.png)
       - Build 26120.2213 (Cumulative Update) <span style="color: red;">*<<2024/11/08 updated from 26120.2200>>*</span>
         ![Cumulative Update](../images/Windows/20241108_WindowsUpdate_DevChannel.png)
-        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](../images/Windows/20241108_Windows11_Build26120.png)
       - Build 26120.2200 (Cumulative Update) <span style="color: red;">*<<2024/10/26 updated from 26120.2130>>*</span>
         ![Cumulative Update](../images/Windows/20241026_WindowsUpdate_DevChannel.png)

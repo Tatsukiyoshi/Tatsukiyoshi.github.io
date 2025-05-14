@@ -59,10 +59,10 @@ OS                                 |Hardware            |Language               
     - Build 26200.5600 (Cumulative Update) <span style="color: red;">*<<2025/05/13 updated from Build 26200.5581 >>*</span>
       ![Firmware Update](./images/Windows/20250513_WindowsUpdate_DevChannel.png)
       ![Cumulative Update](./images/Windows/20250513_WindowsUpdate_DevChannel2.png)
+      - [ClickToDo](https://support.microsoft.com/en-us/windows/click-to-do-do-more-with-what-s-on-your-screen-6848b7d5-7fb0-4c43-b08a-443d6d3f5955)
+        ![ClickToDo](./images/Windows/20250514_Windows11_ClickToDo.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](./images/Windows/20250513_Windows11_Build26200.png)
-      - ClickToDo
-        ![ClickToDo](./images/Windows/20250514_Windows11_ClickToDo.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
