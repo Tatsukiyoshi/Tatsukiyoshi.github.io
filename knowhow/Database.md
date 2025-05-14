@@ -4,7 +4,7 @@
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |               |- SQL Server Management Studio 21.0.107 Preview 6.0  |[2025/04/23](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |               |- SQL Server Management Studio 21.0.0 Preview 7.0    |[2025/05/14](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
@@ -73,12 +73,8 @@
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-      - SSMS 21.0.0 Preview 6.0 <BR />
-        ![Update Check](../images/Database/20250423_SSMS21.0.0_Preview6.0.png)
-        - 接続ダイアログが更新、なのにエラーメッセージが出たうえで、新しいダイアログが出る事態
-          ![Confirm](../images/Database/20250427_SSMS21.0.0_Preview6.0_Confirm.png)
-          ![Error](../images/Database/20250427_SSMS21.0.0_Preview6.0_Error.png)
-          ![NewDialog](../images/Database/20250427_SSMS21.0.0_Preview6.0_New_ConnectionDialog.png)
+      - SSMS 21.0.0 Preview 7.0 <BR />
+        ![Update Check](../images/VisualStudio/20250514_Update_VS2022_17.14_SSMS21.0.0_Preview7.0.png)
     - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
