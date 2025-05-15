@@ -10,22 +10,22 @@
 ##  環境
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.1](#intellij-idea)                      |[2025/04/20](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
+  |Windows Insider |[IntelliJ IDEA 2025.1.1.1](#intellij-idea)                  |[2025/05/16](https://www.jetbrains.com/ja-jp/idea/)
+  |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.1 Canary 9](#android-studio) |[2025/05/06](https://developer.android.com/studio)
-  |                |- Kotlin 2.1.20                                             |[2025/03/22](https://kotlinlang.org/docs/home.html)
+  |                |[Android Studio Narwhal 2025.1.1 Canary 10](#android-studio)|[2025/05/16](https://developer.android.com/studio)
+  |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.6.6                                 |2025/05/01
+  |                |- Android Emulator v.35.6.8                                 |2025/05/16
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.1 (Community Edition)
+  - IntelliJ IDEA 2025.1.1.1 (Community Edition)
     ```
-    Build #IC-251.23774.435, built on April 15, 2025
-    Source revision: 9b2a2c261c093
+    Build #IC-251.25410.129, built on May 9, 2025
+    Source revision: b815cfdcaa594
     Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -38,12 +38,12 @@
       ide.experimental.ui=true
       llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (251.25267.1)
-      Lombook Plugin (251.23774.460)
-      org.jetbrains.plugins.github (251.23774.435-IU)
-      org.jetbrains.plugins.gitlab (251.23774.435-IU)
-      org.jetbrains.android (251.23774.460)
-    Kotlin: 251.23774.435-IJ
+      Dart (251.25410.28)
+      Lombook Plugin (251.25410.59)
+      org.jetbrains.plugins.github (251.25410.159-IU)
+      org.jetbrains.plugins.gitlab (251.25410.159-IU)
+      org.jetbrains.android (251.25410.131)
+    Kotlin: 251.25410.129-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -168,9 +168,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal | 2025.1.1 Canary 9
+  - Android Studio Narwhal | 2025.1.1 Canary 10
     ```
-    Build #AI-251.23774.435.2511.13434847, built on May 2, 2025
+    Build #AI-251.23774.435.2511.13464725, built on May 8, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -184,7 +184,7 @@
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
       Dart (251.25267.1)
-      io.flutter (85.2.4)
+      io.flutter (85.3.2)
     ```
   - バージョン共通
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
@@ -212,6 +212,8 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Canary 10
+        - Android Gradle Plugin 8.11.0-alpha09 -> 8.11.0-alpha10
       - Narwhal Canary 9
         - Android Gradle Plugin 8.11.0-alpha08 -> 8.11.0-alpha09
       - Narwhal Canary 8
