@@ -253,7 +253,7 @@ OS/言語を問わず利用するツールの情報
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
 [.NET](./knowhow/NET.md)             |2025/05/14|Update: Visual Studio 2022 17.14.0 / .NET 8.0.16 / .NET 9.0.5
-[Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
+[Rust](./knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](./knowhow/Kotlin.md)        |2025/05/06|Update: Android Studio Narwhal 2025.1.1 Canary 9
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
@@ -265,7 +265,7 @@ OS/言語を問わず利用するツールの情報
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/05/14|Update: SQL Server Management Studio 21.0.0 Preview 7.0
+[Database & SQL](./knowhow/Database.md)    |2025/05/14|Update: SQL Server Management Studio 21.0.0 Preview 7.0 / MongoDB 8.1.0
 [Documentation](./knowhow/Documentation.md)|-
 [Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
