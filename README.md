@@ -109,12 +109,12 @@ OS                                 |Hardware            |Language               
     - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
-  - [Sequoia 15.4.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>
+  - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250417_MacOS_Sequoia15.4.1Update.png)
+      ![Update Check](./images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
     - バージョン情報
-      ![Sequoia 15.4.1](./images/Mac/20250417_MacOS_Sequoia15.4.1.png)
+      ![Sequoia 15.5](./images/Mac/20250516_MacOS_Sequoia15.5.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>

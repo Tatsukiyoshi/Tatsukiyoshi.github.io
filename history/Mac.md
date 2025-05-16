@@ -1,5 +1,11 @@
 - Update History
-  - [Sequoia 15.4](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.4.1
+    <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](../images/Mac/20250417_MacOS_Sequoia15.4.1Update.png)
+    - バージョン情報
+      ![Sequoia 15.4.1](../images/Mac/20250417_MacOS_Sequoia15.4.1.png)
+  - Sequoia 15.4
     <span style="color: red;">*<<2025/04/01 updated from Sequoia 15.3.2>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20250401_MacOS_Sequoia15.4Update.png)
@@ -11,41 +17,41 @@
       ![Updated2](../images/Mac/20250401_MacOS_Sequoia15.4Updated2.png)
     - バージョン情報
       ![Sequoia 15.4](../images/Mac/20250401_MacOS_Sequoia15.4.png)
-  - [Sequoia 15.3.2](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.3.2
     <span style="color: red;">*<<2025/03/13 updated from Sequoia 15.3.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20250313_MacOS_Sequoia15.3.2Update.png)
     - バージョン情報
       ![Sequoia 15.3.2](../images/Mac/20250313_MacOS_Sequoia15.3.2.png)
-  - [Sequoia 15.3.1](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.3.1
     <span style="color: red;">*<<2025/02/11 updated from Sequoia 15.3>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20250211_MacOS_Sequoia15.3.1Update.png)
     - バージョン情報
       ![Sequoia 15.3.1](../images/Mac/20250211_MacOS_Sequoia15.3.1.png)
-  - [Sequoia 15.3](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.3
     <span style="color: red;">*<<2025/01/29 updated from Sequoia 15.2>>*</span>
     - バージョン情報
       ![Sequoia 15.3](../images/Mac/20250129_MacOS_Sequoia15.3.png)
-  - [Sequoia 15.2](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.2
     <span style="color: red;">*<<2024/12/12 updated from Sequoia 15.1.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20241212_MacOS_Sequoia15.2Update.png)
     - バージョン情報
       ![Sequoia 15.2](../images/Mac/20241212_MacOS_Sequoia15.2.png)
-  - [Sequoia 15.1.1](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.1.1
     <span style="color: red;">*<<2024/11/21 updated from Sequoia 15.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20241121_MacOS_Sequoia15.1.1Update.png)
     - バージョン情報
       ![Sequoia 15.1.1](../images/Mac/20241121_MacOS_Sequoia15.1.1.png)
-  - [Sequoia 15.1](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.1
     <span style="color: red;">*<<2024/10/31 updated from Sequoia 15.0.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20241031_MacOS_Sequoia15.1Update.png)
     - バージョン情報
       ![Sequoia 15.1](../images/Mac/20241031_MacOS_Sequoia15.1.png)
-  - [Sequoia 15.0.1](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.0.1
     <span style="color: red;">*<<2024/10/11 updated from Sequoia 15.0>>*</span>
     - ソフトウェアアップデート
       ![Update Check](../images/Mac/20241011_MacOS_Sequoia15.0.1_Update.png)
@@ -57,7 +63,7 @@
       - iOS18アップデートしました
         ![Mirroring Setup](../images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring_Setup.png)
         ![Mirroring Completed](../images/Mac/20240922_MacOS_Sequoia_iPhone_Mirroring.png)
-  - [Sequoia 15.0](https://www.apple.com/jp/macos/macos-sequoia/)
+  - Sequoia 15.0
     <span style="color: red;">*<<2024/09/19 updated from Sonoma 14.7>>*</span>
     ![Sequoia 15.0](../images/Mac/20240919_MacOS_Sequoia.png)
     - iPhoneミラーリング
