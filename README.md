@@ -24,12 +24,12 @@
 
 OS                                 |Hardware            |Language                                          |Link
 -----------------------------------|--------------------|--------------------------------------------------|--
-[Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript                          |[ノウハウ](#WindowsKnowhow)
+[Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript                          |[<*>](#WindowsKnowhow)
 [Windows on Arm](#WindowsArm)      |OmniBook X          |                                                  |↑
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript|↑
-[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter                                    |[ノウハウ](#MacKnowhow)
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP                |[ノウハウ](#ChromeKnowhow)
-[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon                                            |[ノウハウ](#UbuntuKnowhow)
+[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter                                    |[<*>](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP                |[<*>](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon                                            |[<*>](#UbuntuKnowhow)
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -204,7 +204,7 @@ OS                                 |Hardware            |Language               
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.100.1](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/14 updated from 1.100.0>>*</span>
+- [Visual Studio Code 1.100.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/16 updated from 1.100.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
