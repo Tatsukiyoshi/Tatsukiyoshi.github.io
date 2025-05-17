@@ -265,7 +265,7 @@ OS/言語を問わず利用するツールの情報
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/05/17|Update: PostgreSQL 17.5 on Chrome OS Flex
+[Database & SQL](./knowhow/Database.md)    |2025/05/17|Update: PostgreSQL 17.5
 [Documentation](./knowhow/Documentation.md)|-
 [Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
