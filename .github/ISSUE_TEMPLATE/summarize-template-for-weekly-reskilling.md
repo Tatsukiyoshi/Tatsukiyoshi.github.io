@@ -10,4 +10,4 @@ assignees: Tatsukiyoshi
 リスキリング環境更新（yyyy年mm月第N週）
 - [ ]
 
-上記TaskおよびSub-issueでの実施内容をダイジェストとして、Zennに公開
+上記TaskおよびSub-issueでの実施内容をダイジェストとして、GitHub Pagesに公開
