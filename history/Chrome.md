@@ -1,4 +1,16 @@
 # Chrome OS Flex
+- バージョン 136.0.7103.102 <span style="color: red;">*<<2025/05/17 updated from 135.0.7049.128>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20250517_Chrome_OS_Flex_136.0.7103.102.png)
+    - 更新中
+      ![Updating](../images/Chrome/20250517_Chrome_OS_Flex_Updating136.0.7103.102.png)
+- バージョン 135.0.7049.128 <span style="color: red;">*<<2025/05/17 updated from 135.0.7049.120>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20250517_Chrome_OS_Flex_135.0.7049.128.png)
+    - 更新中
+      ![Updating](../images/Chrome/20250517_Chrome_OS_Flex_Updating135.0.7049.128.png)
+- バージョン 135.0.7049.120 <span style="color: red;">*<<2025/05/04 updated from 135.0.7049.104>>*</span>
+  ![Chrome OS Flexバージョン情報](../images/Chrome/20250504_Chrome_OS_Flex_135.0.7049.120.png)
+    - 更新中
+      ![Updating](../images/Chrome/20250504_Chrome_OS_Flex_Updating135.0.7049.120.png)
 - バージョン 135.0.7049.104 <span style="color: red;">*<<2025/04/25 updated from 134.0.6998.198>>*</span>
   ![Chrome OS Flexバージョン情報](../images/Chrome/20250425_Chrome_OS_Flex_135.0.7049.104.png)
     - 更新中

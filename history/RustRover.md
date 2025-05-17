@@ -1,4 +1,6 @@
 - RustRover 履歴
+  - 2025.1.2 Build #RR-251.25410.115, built on May 7, 2025 <span style="color: red;">**Updated 2025/05/14**</span>
+  - 2025.1.1 Build #RR-251.23774.463, built on April 23, 2025 <span style="color: red;">**Updated 2025/05/01**</span>
   - 2025.1 Build #RR-251.23774.445, built on April 15, 2025 <span style="color: red;">**Updated 2025/04/19**</span>
   - 2025.1 EAP Build #RR-251.23774.207, built on March 26, 2025 <span style="color: red;">**Updated 2025/03/28**</span>
   - 2025.1 EAP Build #RR-251.23774.119, built on March 14, 2025 <span style="color: red;">**Updated 2025/03/15**</span>

@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/5/11～2025/5/17）](/digest/May2025/digest_2nd.md) / [一覧](./digest/digestList.md)
 
 ##  創作物
 ```
@@ -22,14 +22,14 @@
 ```
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
-OS                                 |端末                |リンク                     |言語
------------------------------------|--------------------|--------------------------|--
-[Windows](#Windows)                |Mini-S12            |[ノウハウ](#WindowsKnowhow)|.NET / Rust / TypeScript
-[Windows on Arm](#WindowsArm)      |OmniBook X          |↑
-[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |↑                         |.NET / Rust / Kotlin / Java / Flutter / TypeScript
-[Mac OS](#Mac)                     |MacBook Air         |[ノウハウ](#MacKnowhow)    |Rust / Flutter
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |[ノウハウ](#ChromeKnowhow) |Rust / Flutter / Python / Go / PHP
-[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |[ノウハウ](#UbuntuKnowhow) |Carbon
+OS                                 |Hardware            |Language                                          |Link
+-----------------------------------|--------------------|--------------------------------------------------|--
+[Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript                          |[<*>](#WindowsKnowhow)
+[Windows on Arm](#WindowsArm)      |OmniBook X          |                                                  |↑
+[Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript|↑
+[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter                                    |[<*>](#MacKnowhow)
+[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP                |[<*>](#ChromeKnowhow)
+[Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon                                            |[<*>](#UbuntuKnowhow)
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
@@ -55,11 +55,14 @@ OS                                 |端末                |リンク            
       ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
-  - [Dev Channel for Next of Windows 11 24H2 (Build 26200)](https://aka.ms/DevLatest)
-    - Build 26200.5581 (Cumulative Update) <span style="color: red;">*<<2025/05/06 updated from Build 26200.5570 >>*</span>
-      ![Cumulative Update](./images/Windows/20250506_WindowsUpdate_DevChannel.png)
+  - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
+    - Build 26200.5600 (Cumulative Update) <span style="color: red;">*<<2025/05/13 updated from Build 26200.5581 >>*</span>
+      ![Firmware Update](./images/Windows/20250513_WindowsUpdate_DevChannel.png)
+      ![Cumulative Update](./images/Windows/20250513_WindowsUpdate_DevChannel2.png)
+      - [ClickToDo](https://support.microsoft.com/en-us/windows/click-to-do-do-more-with-what-s-on-your-screen-6848b7d5-7fb0-4c43-b08a-443d6d3f5955)
+        ![ClickToDo](./images/Windows/20250514_Windows11_ClickToDo.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250506_Windows11_Build26200.png)
+        ![Version Information](./images/Windows/20250513_Windows11_Build26200.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -106,19 +109,19 @@ OS                                 |端末                |リンク            
     - [履歴](./history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
-  - [Sequoia 15.4.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>
+  - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250417_MacOS_Sequoia15.4.1Update.png)
+      ![Update Check](./images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
     - バージョン情報
-      ![Sequoia 15.4.1](./images/Mac/20250417_MacOS_Sequoia15.4.1.png)
+      ![Sequoia 15.5](./images/Mac/20250516_MacOS_Sequoia15.5.png)
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 135.0.7049.120 <span style="color: red;">*<<2025/05/04 updated from 135.0.7049.104>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250504_Chrome_OS_Flex_135.0.7049.120.png)
+  - バージョン 136.0.7103.102 <span style="color: red;">*<<2025/05/17 updated from 135.0.7049.128>>*</span>
+    ![Chrome OS Flexバージョン情報](./images/Chrome/20250517_Chrome_OS_Flex_136.0.7103.102.png)
       - 更新中
-        ![Updating](./images/Chrome/20250504_Chrome_OS_Flex_Updating135.0.7049.120.png)
+        ![Updating](./images/Chrome/20250517_Chrome_OS_Flex_Updating136.0.7103.102.png)
       - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
@@ -201,7 +204,7 @@ OS                                 |端末                |リンク            
 ```
 OS/言語を問わず利用するツールの情報
 ```
-- [Visual Studio Code 1.100.0](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/10 updated from 1.99.3>>*</span>
+- [Visual Studio Code 1.100.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/16 updated from 1.100.1>>*</span>
   - [以前の新機能](./history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
@@ -217,7 +220,7 @@ OS/言語を問わず利用するツールの情報
     ```
     2025/1/25 ストアアプリにて更新できないため、PowerShellの起動時に出るアップデートを通知するメッセージ内のリンクからダウンロード
     ```
-  - Insider Preview環境では、ストアで更新できない。
+  - Windows Insider 環境では、ストアで更新できない。
     - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
       ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
@@ -249,12 +252,12 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/10|Update: Visual Studio 2022 17.14 Preview 6.0
-[Rust](./knowhow/Rust.md)            |2025/05/01|Update: RustRover 2025.1.1
-[Kotlin](./knowhow/Kotlin.md)        |2025/05/06|Update: Android Studio Narwhal 2025.1.1 Canary 9
+[.NET](./knowhow/NET.md)             |2025/05/14|Update: Visual Studio 2022 17.14.0 / .NET 8.0.16 / .NET 9.0.5
+[Rust](./knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
+[Kotlin](./knowhow/Kotlin.md)        |2025/05/16|Update: Android Studio Narwhal 2025.1.1 Canary 10 / IntelliJ IDEA 2025.1.1.1 / Kotlin 2.1.21
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/05/10|Update: Node.js 22.15.0 / Astro 5.7.12 / Next.js 15.3.2 / Bun 1.2.12
+[TypeScript](./knowhow/TypeScript.md)|2025/05/11|Update: React Native 0.80.0-rc.0 / Bun 1.2.13
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](./knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -262,7 +265,7 @@ OS/言語を問わず利用するツールの情報
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/05/05|Update: PostgreSQL 17.4 on Chrome OS Flex
+[Database & SQL](./knowhow/Database.md)    |2025/05/17|Update: PostgreSQL 17.5
 [Documentation](./knowhow/Documentation.md)|-
 [Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
@@ -379,7 +382,7 @@ OSやツールのノウハウは、以下を参照
       ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
     - Sub Issueの並び替え（Issueにカーソルを合わせるとカーソルが手になって並び替えできる）
       ![SubIssue Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
-      - Insider BuildのEdgeではできない模様（カーソルが手に変わらない！）
+      - Windows Insider 環境のEdgeではできない模様（カーソルが手に変わらない！）
         ![SubIssue Not Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
     ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)

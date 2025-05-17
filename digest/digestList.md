@@ -1,6 +1,7 @@
 # ダイジェスト
 - 2025年
   - 5月
+    - [第２週（2025/5/11～2025/5/17）](May2025/digest_2nd.md)
     - [第１週（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24)
   - [4月](https://zenn.dev/tatsukiyoshi/articles/ca721a62cbc949)
     - [第４週（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049)

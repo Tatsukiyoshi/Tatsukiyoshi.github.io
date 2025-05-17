@@ -4,15 +4,16 @@
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |               |- SQL Server Management Studio 21.0.107 Preview 6.0  |[2025/04/23](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |               |- SQL Server Management Studio 21.0.0 Preview 7.0    |[2025/05/14](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |- SQL Server Management Studio 20.2.30               |[2024/08/24](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-  |               |MongoDB 8.0.4                                        |[2025/02/11](https://www.mongodb.com/ja-jp)
+  |               |MongoDB 8.1.0                                        |[2025/05/14](https://www.mongodb.com/ja-jp)
+  |               |- Mongosh 2.5.1                                      |2025/05/14
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |               |MySQL Community Server 8.4.2                         |2024/08/24
-  |Windows Insider|PostgreSQL 17.4                                      |2025/03/02
+  |Windows Insider|PostgreSQL 17.5                                      |2025/05/17
   |               |MySQL Community Server 9.1.0                         |[2025/01/04](https://dev.mysql.com/downloads/mysql/)
-  |Chrome OS Flex|PostgreSQL 17.4                                     |2025/05/05
+  |Chrome OS Flex |PostgreSQL 17.5                                      |2025/05/17
 
 ##  ノウハウ
 ### データベース全般
@@ -28,6 +29,11 @@
     1.  MongoDBのインストール
         ```sh
         scoop install mongodb
+        ```
+    1.  Mongoshのインストール
+        ```
+        scoop bucket add extras
+        scoop install mongosh
         ```
     1.  MongoDB起動
         ```sh
@@ -51,15 +57,68 @@
         ```sh
         scoop update mongodb
         ```
-        1.  8.0 への移行
-          - 8.0 で互換性を保証するバージョンは、"7.0","7.3","8.0"であるため、"featureCompatibilityVersion"はそのいずれかにしておく必要あり
-            ```json
-            {
-              "_id": "featureCompatibilityVersion",
-              "version": "7.0"
-            }
+        1.  8.1.0へのアップデート
+            <details>
+            <summary>Update Log</summary>
+
             ```
-            - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
+            Updating Scoop...
+            Updating Buckets...
+            ...
+            Scoop was updated successfully!
+            mongodb: 8.0.4 -> 8.1.0
+            Updating one outdated app:
+            Updating 'mongodb' (8.0.4 -> 8.1.0)
+            Downloading new version
+            mongodb-windows-x86_64-8.1.0-signed.msi (705.1 MB) [==========================================================] 100%
+            Checking hash of mongodb-windows-x86_64-8.1.0-signed.msi ... ok.
+            Uninstalling 'mongodb' (8.0.4)
+            Removing shim 'mongod.shim'.
+            Removing shim 'mongod.exe'.
+            Removing shim 'mongos.shim'.
+            Removing shim 'mongos.exe'.
+            Unlinking ~\scoop\apps\mongodb\current
+            Installing 'mongodb' (8.1.0) [64bit] from 'C:\Users\taish\scoop\buckets\main\bucket\mongodb.json'
+            Loading mongodb-windows-x86_64-8.1.0-signed.msi from cache
+            Extracting mongodb-windows-x86_64-8.1.0-signed.msi ... done.
+            Running pre_install script...done.
+            Linking ~\scoop\apps\mongodb\current => ~\scoop\apps\mongodb\8.1.0
+            Creating shim for 'mongod'.
+            Creating shim for 'mongos'.
+            Persisting bin\mongod.cfg
+            Persisting data
+            Persisting log
+            'mongodb' (8.1.0) was installed successfully!
+            Notes
+            -----
+            Windows server 2012/2008 and Windows 7/8/8.1 need KB2999226 to provide Universal C Runtime support for Windows.
+            For more infomations, please refer to:
+            https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+
+            mongod shim use "C:\Users\taish\scoop\apps\mongodb\current\bin\mongod.cfg" as the default config file.
+            To use a different config file, please run
+            "C:\Users\taish\scoop\apps\mongodb\current\bin\mongod.exe --config NEW_CONFIG_FILE"
+            ```
+            </details>
+        1.  8.1.0への移行
+            - 8.1では、"featureCompatibilityVersion"が8.0である必要あり
+              - mongoshを起動し、下記を実行する
+                ```js
+                db.adminCommand({ setFeatureCompatibilityVersion: "8.0" })
+                ```
+              - 一旦移行すると、戻すことができないため、下記に変更して実行する
+                ```js
+                db.adminCommand({ setFeatureCompatibilityVersion: "8.0", confirm: true })
+                ```
+        1.  8.0 への移行
+            - 8.0 で互換性を保証するバージョンは、"7.0","7.3","8.0"であるため、"featureCompatibilityVersion"はそのいずれかにしておく必要あり
+              ```json
+              {
+                "_id": "featureCompatibilityVersion",
+                "version": "7.0"
+              }
+              ```
+              - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
   - MongoDB for VS Codeをインストールしておくとよい
     ![VSCode](../images/MongoDB/20231216_MongoDB_VSCode.png)
 ### [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
@@ -73,12 +132,8 @@
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-      - SSMS 21.0.0 Preview 6.0 <BR />
-        ![Update Check](../images/Database/20250423_SSMS21.0.0_Preview6.0.png)
-        - 接続ダイアログが更新、なのにエラーメッセージが出たうえで、新しいダイアログが出る事態
-          ![Confirm](../images/Database/20250427_SSMS21.0.0_Preview6.0_Confirm.png)
-          ![Error](../images/Database/20250427_SSMS21.0.0_Preview6.0_Error.png)
-          ![NewDialog](../images/Database/20250427_SSMS21.0.0_Preview6.0_New_ConnectionDialog.png)
+      - SSMS 21.0.0 Preview 7.0 <BR />
+        ![Update Check](../images/VisualStudio/20250514_Update_VS2022_17.14_SSMS21.0.0_Preview7.0.png)
     - SSMS 20.2.3
       ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
@@ -89,6 +144,7 @@
   - PgAdmin対応表
     PostgreSQL | PgAdmin4
     -----------|-----------
+    17.5       | 9.3
     17.4/17.3  | 9.0
     17.2       | 8.14
     17.0       | 8.12

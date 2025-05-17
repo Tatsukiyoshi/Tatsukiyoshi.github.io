@@ -11,16 +11,28 @@
   |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)       |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
 
 ##  環境
-  |Machine        |Env／FW                                                                  |Last Updated
+  1. Windows 11
+
+  |Machine        |Env / FW                                                                 |Last Updated
   |---------------|-------------------------------------------------------------------------|----------
   |Windows Insider|Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/get-started/install)
   |               |[Android Studio Meerkat 2024.3.2 Canary 7](./Kotlin.md#android-studio)   |2025/03/02
   |               |[Visual Studio Community 2022 17.14.0 Preview 1.1](./NET.md)             |2025/02/27
-  |Mac OS         |Flutter 3.27.1                                                           |2024/12/29
-  |Chrome OS Flex |Flutter 3.27.1                                                           |2025/01/02
-  |               |Debian clang 14.0.6                                                      |2025/01/02
-  |               |cmake 3.25.1                                                             |2025/01/02
-  |               |ninja 1.11.1                                                             |2025/01/02
+
+  1. Chrome OS Flex 135.0.7049.104 (Official Build)
+
+  |Machine        |Env / FW                     |Last Updated
+  |---------------|-----------------------------|----------
+  |Chrome OS Flex |Flutter 3.27.1               |2025/01/02
+  |               |Debian clang 14.0.6          |2025/01/02
+  |               |cmake 3.25.1                 |2025/01/02
+  |               |ninja 1.11.1                 |2025/01/02
+
+  1.  Mac OS Sequoia 15.4.1
+
+  |Machine        |Env / FW                     |Last Updated
+  |---------------|-----------------------------|----------
+  |Mac OS         |Flutter 3.27.1               |2024/12/29
 
 ##  ノウハウ
   - flutter dev
