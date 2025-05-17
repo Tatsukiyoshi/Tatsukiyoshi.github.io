@@ -147,6 +147,20 @@
   - Amazon Coretto 22.0.1 + 言語レベル 21
   - Graal VM Java17-22.2.0
   - [Spring Boot 3.4.0](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
+    - Deprecated AssertFile <BR />
+      **他の検証同様、AssertJを使用するように修正**
+      - 修正前
+        ```
+        AssertFile.assertFileEquals(
+          FileSystemResource(_expectedFilePath),
+          FileSystemResource(property.outputPath()))
+        ```
+      - 修正後
+        ```
+        val actualContent = Files.readAllBytes(File(property.outputPath()).toPath())
+        val expectedContent = Files.readAllBytes(File(_expectedFilePath).toPath())
+        assertThat(actualContent).isEqualTo(expectedContent)
+        ```
   - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
     - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
     - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
