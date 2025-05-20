@@ -72,7 +72,7 @@
       |           |        |Bun 1.2.10               |2025/04/26
       |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10             |2025/04/26
-      |           |        |React Native 0.80.0-rc.1 |[2025/05/19](https://reactnative.dev/)
+      |           |        |React Native 0.80.0-rc.2 |[2025/05/20](https://reactnative.dev/)
       |           |        |- Bun 1.2.13             |2025/02/24
 
 ##  ノウハウ
@@ -312,9 +312,9 @@
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
-        - React Native 0.80.0-rc.1
+        - React Native 0.80.0-rc.2
           - React 19.1.0
-            ![React Native 0.80.0-rc.1 iOS](../images/Mac/20250519_ReactNative_0.80.0-rc.1.png)
+            ![React Native 0.80.0-rc.2 iOS](../images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
         - React Native 0.80.0-rc.0
           - React 19.1.0
             ![React Native 0.80.0-rc.0 Windows](../images/JavaScript/20250511_ReactNative_0.80.0-rc.0.png)
