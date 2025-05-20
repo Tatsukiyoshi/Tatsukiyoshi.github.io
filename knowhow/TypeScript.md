@@ -61,7 +61,7 @@
       |                |        |[Svelte 5.28.2](#svelte)        |[2025/04/27](https://svelte.dev/)
       |                |        |- Bun 1.2.10                    |2025/04/27
       |                |        |- Vite 6.3.3                    |2025/04/27
-      |                |Mobile  |[React Native 0.80.0-rc.0](#rn) |[2025/05/11](https://reactnative.dev/)
+      |                |Mobile  |[React Native 0.80.0-rc.2](#rn) |[2025/05/20](https://reactnative.dev/)
       |                |        |- Bun 1.2.13                    |2025/05/11
 
   1.  Mac OS
@@ -314,10 +314,8 @@
       - React Nativeで開発したアプリの実行
         - React Native 0.80.0-rc.2
           - React 19.1.0
+            ![React Native 0.80.0-rc.2 Windows](../images/JavaScript/20250520_ReactNative_0.80.0-rc.2.png)
             ![React Native 0.80.0-rc.2 iOS](../images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
-        - React Native 0.80.0-rc.0
-          - React 19.1.0
-            ![React Native 0.80.0-rc.0 Windows](../images/JavaScript/20250511_ReactNative_0.80.0-rc.0.png)
         - iOS
           - iOS エミュレータを起動
             ```
