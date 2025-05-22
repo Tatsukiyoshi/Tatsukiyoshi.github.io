@@ -35,7 +35,7 @@
       |                |        |[Deno 2.3.1](#deno)             |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)         |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 22.15.0                 |2025/05/10
-      |                |        |[Bun 1.2.13](#bun)              |[2025/05/11](https://bun.sh/)
+      |                |        |[Bun 1.2.14](#bun)              |[2025/05/22](https://bun.sh/)
       |                |        |Vite 6.3.5                      |[2025/05/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)      |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)         |[2025/03/19](https://www.prisma.io/)
@@ -483,6 +483,8 @@
   - T3 Stack
     - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
   - React <a id="react"></a>
+    - MUI
+      - [全角入力できる数値フィールド](https://github.com/Tatsukiyoshi/YaFullWidthInputField)
     - Web-vitals
       - 新しいWeb-Vitalsでは、インターフェースが変更になっているため、下記リンクのように変更する必要あり
         https://stackoverflow.com/questions/78772766/yarn-build-error-ts2305-module-web-vitals-has-no-exported-member-reportha
