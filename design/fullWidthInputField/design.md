@@ -5,101 +5,67 @@ MUIの TextField をベースに、onChange で全角→半角変換を行う最
 import React, { useState, useCallback, useEffect } from 'react';
 import { TextField, TextFieldProps } from '@mui/material';
 
-// FullWidthNumberFieldに独自のPropsを追加するための型定義
-// TextFieldPropsをOmitすることで、TextFieldのvalueとonChangeが
-// カスタムプロパティによって上書きされるのを防ぎつつ、他のTextFieldのPropsを継承します。
+// --- zenkakuToHankaku 関数をコンポーネントの外に定義 ---
+/**
+ * 全角数字を半角数字に変換し、数字と小数点以外の文字を削除するヘルパー関数。
+ * @param {string | number | null | undefined} input - 変換対象の値。
+ * @returns {string} 半角数字のみを含む文字列。
+ */
+const zenkakuToHankaku = (input: string | number | null | undefined): string => {
+  if (input === undefined || input === null) return '';
+  const str = String(input); // 入力を必ず文字列に変換
+  return str.replace(/[０-９]/g, (s) =>
+    String.fromCharCode(s.charCodeAt(0) - 0xFEE0)
+  ).replace(/[^0-9.]/g, ''); // 数字と小数点以外を削除（小数点も許容する場合）
+  // 小数点を許容しない場合は .replace(/[^0-9]/g, '');
+};
+// --- ここまで ---
+
 interface FullWidthNumberFieldProps extends Omit<TextFieldProps, 'value' | 'onChange' | 'type'> {
-  /**
-   * コンポーネントが制御する現在の値。半角数字の文字列として扱われます。
-   * 外部から初期値を設定したり、値を更新したりするために使用します。
-   */
   value?: string | number | null;
-  /**
-   * 値が変更されたときに呼び出されるコールバック関数。
-   * 引数には半角数字に変換された文字列値が渡されます。
-   */
   onValueChange?: (value: string) => void;
-  /**
-   * 許容される数値の最小値。
-   */
   min?: number;
-  /**
-   * 許容される数値の最大値。
-   */
   max?: number;
 }
 
-/**
- * 全角数字の入力を受け付け、半角数字に変換して表示するMUI TextFieldコンポーネント。
- * 入力値の変換と基本的な数値バリデーションを内包します。
- */
 const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
-  value: controlledValue, // 親から渡される制御された値
+  value: controlledValue,
   onValueChange,
   min,
   max,
   label = '数値',
   placeholder = '全角数字も入力できます',
-  onChange: muiOnChange, // TextFieldの標準onChangeは必要に応じて受け取る
-  helperText: externalHelperText, // 外部から指定されるhelperText
+  onChange: muiOnChange,
+  helperText: externalHelperText,
   ...restProps
 }) => {
-  // 内部状態：TextFieldに表示される値（常に半角）
   const [internalValue, setInternalValue] = useState<string>(() => {
-    if (controlledValue !== undefined && controlledValue !== null) {
-      return zenkakuToHankaku(String(controlledValue));
-    }
-    return '';
+    // ここで直接 zenkakuToHankaku を呼び出す
+    return zenkakuToHankaku(controlledValue);
   });
   const [error, setError] = useState<boolean>(false);
   const [internalHelperText, setInternalHelperText] = useState<string>('');
 
-  // 親の controlledValue が変更された場合に internalValue を同期
-  // これにより、親コンポーネントから値を外部的にリセットまたは変更できます。
   useEffect(() => {
-    if (controlledValue !== undefined && controlledValue !== null) {
-      const convertedValue = zenkakuToHankaku(String(controlledValue));
-      if (convertedValue !== internalValue) {
-        setInternalValue(convertedValue);
-      }
-    } else if (internalValue !== '') { // controlledValue が null/undefined になった場合、内部値をクリア
-      setInternalValue('');
+    // ここでも直接 zenkakuToHankaku を呼び出す
+    const convertedValue = zenkakuToHankaku(controlledValue);
+    if (convertedValue !== internalValue) {
+      setInternalValue(convertedValue);
+      // controlledValueが変更された際にバリデーションも再実行
+      validateAndSetError(convertedValue);
     }
-  }, [controlledValue, internalValue]);
+  }, [controlledValue, internalValue, min, max, restProps.required]); // バリデーションに関連する依存関係を追加
 
-
-  /**
-   * 全角数字を半角数字に変換し、数字と小数点以外の文字を削除するヘルパー関数。
-   * 小数点を許容しない場合は .replace(/[^0-9]/g, ''); に変更してください。
-   * @param {string} str - 変換対象の文字列。
-   * @returns {string} 半角数字のみを含む文字列。
-   */
-  const zenkakuToHankaku = useCallback((str: string): string => {
-    if (typeof str !== 'string') return '';
-    return str.replace(/[０-９]/g, (s) =>
-      String.fromCharCode(s.charCodeAt(0) - 0xFEE0)
-    ).replace(/[^0-9.]/g, '');
-  }, []);
-
-  /**
-   * TextFieldのonChangeイベントハンドラ。
-   * 入力値の変換、内部状態の更新、バリデーション、親への通知を行います。
-   * @param {React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>} event - 変更イベントオブジェクト。
-   */
-  const handleInternalChange = useCallback((event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const inputValue = event.target.value;
-    const hankakuValue = zenkakuToHankaku(inputValue);
-    setInternalValue(hankakuValue); // 表示値を半角に更新
-
-    // --- バリデーションロジック ---
+  // バリデーションロジックを分離したヘルパー関数
+  const validateAndSetError = useCallback((currentValue: string) => {
     let hasError: boolean = false;
     let currentHelperText: string = '';
 
-    if (restProps.required && hankakuValue === '') {
+    if (restProps.required && currentValue === '') {
       hasError = true;
       currentHelperText = '入力は必須です。';
-    } else if (hankakuValue !== '') { // 値が存在する場合のみ数値バリデーション
-      const numValue = Number(hankakuValue);
+    } else if (currentValue !== '') {
+      const numValue = Number(currentValue);
       if (isNaN(numValue)) {
         hasError = true;
         currentHelperText = '有効な半角数字を入力してください。';
@@ -111,19 +77,26 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
         currentHelperText = `${max}以下の値を入力してください。`;
       }
     }
-
     setError(hasError);
     setInternalHelperText(currentHelperText);
+    return hasError; // バリデーション結果を返す
+  }, [min, max, restProps.required]);
+
+  const handleInternalChange = useCallback((event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const inputValue = event.target.value;
+    const hankakuValue = zenkakuToHankaku(inputValue); // ここでも呼び出す
+
+    setInternalValue(hankakuValue); // 表示値を半角に更新
+
+    // バリデーションを実行
+    const hasError = validateAndSetError(hankakuValue);
 
     // 親コンポーネントに変換後の値を通知
     if (onValueChange) {
       onValueChange(hankakuValue);
     }
 
-    // もしTextFieldの標準onChangeが渡されていれば、それを呼び出す
     if (muiOnChange) {
-      // イベントオブジェクトのtarget.valueを変換後の値に上書きして渡す
-      // これにより、MUIのFormikやReact Hook Formなどとの連携がスムーズになります。
       muiOnChange({
         ...event,
         target: {
@@ -132,23 +105,20 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
         },
       });
     }
-  }, [zenkakuToHankaku, onValueChange, muiOnChange, min, max, restProps.required]);
+  }, [onValueChange, muiOnChange, validateAndSetError]); // zenkakuToHankaku は依存配列から除外（外部定義のため）
 
   return (
     <TextField
       label={label}
       placeholder={placeholder}
-      value={internalValue} // 常に半角の内部値を表示
+      value={internalValue}
       onChange={handleInternalChange}
-      type="text" // 全角文字を受け入れるために'text'型を使用
+      type="text"
       error={error}
       helperText={error ? internalHelperText : (externalHelperText || '全角数字も半角に変換されます。')}
-      {...restProps} // その他のTextFieldPropsを適用
+      {...restProps}
       inputProps={{
-        // モバイルで数字キーボードを出すためのヒント（ブラウザ依存）
-        // inputMode: 'numeric',
-        // pattern: '[0-9]*',
-        ...restProps.inputProps // 外部から渡されたinputPropsもマージ
+        ...restProps.inputProps
       }}
     />
   );
@@ -333,8 +303,31 @@ export default App;
 
 TypeScriptを導入することで、開発中に型に関するエラーを早期に発見でき、コードの可読性と保守性が向上します。特に、大規模なアプリケーションや複数人での開発においてその恩恵は大きいです。
 
+# 初期化エラー解消のポイント:
+
+- zenkakuToHankaku 関数を FullWidthNumberField コンポーネントの外に定義しました。
+
+  これにより、コンポーネントがレンダリングされる前にこの関数がグローバルスコープ（またはモジュールスコープ）で利用可能になり、useState の初期化子から安全に呼び出せるようになります。
+
+- useCallback の依存配列から zenkakuToHankaku を削除しました（もはやコンポーネントのスコープにないため）。
+  useEffect 内でも zenkakuToHankaku を直接呼び出します。
+
+- バリデーションロジックを validateAndSetError という別の useCallback 関数に分離し、useEffect と handleInternalChange の両方から呼び出せるようにしました。
+
+  これにより、初期値のバリデーションと入力中のバリデーションで同じロジックを共有できます。
+
 # 履歴
 - 0.1： 初版（JavaScript版）
 - 0.2： TypeScript版
     
   主な変更点としては、プロパティの型定義、関数の引数・戻り値の型付け、そしてuseStateなどのReact Hooksに対する型アノテーションが挙げられます。
+
+- 0.3： 初期化エラー解消版
+
+  zenkakuToHankaku 関数が useState の初期化子内で参照されているため、その関数がまだ定義されていない段階で呼び出され、エラーとなる可能性がありますね。
+
+  この問題の主な原因は、JavaScript（およびTypeScript）の実行順序にあります。コンポーネネントの関数本体が実行される際、useState の初期化が先に評価され、その時点ではまだ zenkakuToHankaku が useCallback で完全にセットアップされていないためです。
+
+  解消案：
+
+  - useState の初期化子内で zenkakuToHankaku を呼び出す代わりに、直接変換ロジックを記述するか、あるいは通常の関数としてコンポーネント外に定義して、常に利用可能にするのが最もシンプルで確実な解決策です。
