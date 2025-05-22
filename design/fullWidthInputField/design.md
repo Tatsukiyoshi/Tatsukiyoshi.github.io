@@ -227,5 +227,33 @@ function App() {
 export default App;
 ```
 
+# コンポーネントのポイントと改善点
+  1.  プロップスの拡張:
+      - onValueChange(string): このカスタムプロパティは、MUIの標準 onChange イベントとは別に、半角変換後の値のみを引数として受け取るコールバックを提供します。これにより、親コンポーネントは変換済みのクリーンな値を直接利用できます。
+      - min, max: 数値の最小値・最大値を指定できるようにしました。これに基づいて内部でバリデーションを行います。
+      - label, placeholder, required, disabled, name, value など、MUI TextField の標準プロパティもそのまま ...restProps で受け取り、TextField に渡せるようにしています。
+  1.  内部状態管理:
+      - internalValue: TextField に実際に表示される値を保持します。これにより、ユーザーが全角で入力しても、internalValue は半角に変換された値になるため、表示も半角になります。
+      - error, helperText: バリデーション結果に基づいてエラー表示を制御します。
+  1.  zenkakuToHankaku 関数の改良:
+      - useCallback でメモ化し、不要な再レンダリングを防ぎます。
+      - /[^0-9.]/g を使用して、数字と小数点以外の文字を削除するようにしました。もし整数値のみを扱いたい場合は /[^0-9]/g に変更してください。
+  1.  バリデーションロジック:
+      - required プロパティに対応した必須チェック。
+      - isNaN(Number(hankakuValue)) で数値としての妥当性チェック。
+      - min と max プロパティによる範囲チェック。
+      - これらのバリデーション結果に基づいて error と helperText を更新します。
+  1.  制御コンポーネントとしての挙動:
+      - value: controlledValue プロパティを受け取ることで、親コンポーネントから値を完全に制御できるようにしています（典型的なReactの制御コンポーネントのパターン）。
+      - useEffect を使って、controlledValue が外部から変更されたときに internalValue を更新し、TextField の表示に反映させます。
+  1.  onChange と onValueChange の使い分け:
+      - FullWidthNumberField に onChange を渡すと、MUIの TextField が持つ本来の onChange イベントハンドラとして機能し、event.target.value には変換後の半角値が設定されます。
+      - onValueChange は、よりシンプルに変換後の値だけを受け取りたい場合に便利です。
+  1.  type="text" の維持:
+      - 全角文字の入力を可能にするため、MUI TextField の type は "text" のままにしておきます。
+      - モバイルデバイスでの数値キーパッド表示のためのヒント (inputMode, pattern) は inputProps を通じて渡せるようにしています。
+
+このコンポーネントを使用することで、アプリケーション内のどこでも簡単に全角数値対応の入力フィールドを配置し、統一されたバリデーションと変換ロジックを適用できます。
+
 # 履歴
-0.1：　初版（JavaScript版）
+- 0.1： 初版（JavaScript版）
