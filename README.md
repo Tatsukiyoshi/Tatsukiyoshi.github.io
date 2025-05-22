@@ -12,6 +12,7 @@
 ```
 知識を形にする
 ```
+- [全角入力対応コンポーネント](./design/fullWidthInputField/design.md)
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
