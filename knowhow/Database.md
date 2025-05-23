@@ -100,7 +100,7 @@
             "C:\Users\taish\scoop\apps\mongodb\current\bin\mongod.exe --config NEW_CONFIG_FILE"
             ```
             </details>
-        1.  8.1.0への移行
+        1.  [8.1.0への移行](https://zenn.dev/tatsukiyoshi/articles/46cd0e6d8b462e)
             - 8.1では、"featureCompatibilityVersion"が8.0である必要あり
               - mongoshを起動し、下記を実行する
                 ```js
