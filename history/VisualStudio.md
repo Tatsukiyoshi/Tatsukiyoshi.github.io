@@ -628,6 +628,8 @@
   - 17.11.5 
     - MAUI 8.0.91 / Pixel 5 API 34(Android 14)
       ![MAUI - Pixel 5 API 34](../images/VisualStudio/20241011_VS2022_17.11.5_MAUI91_Android14.png)
+  - SSMS 20.2.3
+    ![Setup](../images/Database/20240824_Install_SSMS20.2.3.png)
   - 17.10.4 / MAUI 8.0.61(SR6.1) / Pixel 8 API 34(Android 14)
     ![MAUI - Pixel 8 API 34](../images/VisualStudio/20240713_VS2022_17.10.4_MAUI_Android.png)
   - 17.10.3
