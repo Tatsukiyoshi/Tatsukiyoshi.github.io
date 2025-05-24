@@ -147,7 +147,7 @@
   - Amazon Coretto 22.0.1 + 言語レベル 21
   - Graal VM Java17-22.2.0
   - [Spring Boot 3.4.0](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
-    - Deprecated AssertFile <BR />
+    - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
       **他の検証同様、AssertJを使用するように修正**
       - 修正前
         ```

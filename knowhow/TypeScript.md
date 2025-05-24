@@ -19,6 +19,7 @@
       |-------------------------------|----------------|----------
       |[Vercel](https://vercel.com/)  |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
       |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
+      |                               |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
 
   1.  Windows
       |Machine         |Category|Env / FW                        |Last Updated
@@ -35,8 +36,8 @@
       |                |        |[Deno 2.3.1](#deno)             |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)         |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 22.15.0                 |2025/05/10
-      |                |        |[Bun 1.2.12](#bun)              |[2025/05/10](https://bun.sh/)
-      |                |        |Vite 6.3.3                      |[2025/04/27](https://vitejs.dev/)
+      |                |        |[Bun 1.2.14](#bun)              |[2025/05/22](https://bun.sh/)
+      |                |        |Vite 6.3.5                      |[2025/05/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)      |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)         |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)        |[2025/03/19](https://sequelize.org/)
@@ -58,10 +59,10 @@
       |                |        |- Bun 1.2.4                     |2025/03/01
       |                |        |- React Native 0.78.0           |2025/03/02
       |                |        |- Windows SDK 10.0.26100        |2025/01/18
-      |                |        |[Svelte 5.28.2](#svelte)        |[2025/04/27](https://svelte.dev/)
-      |                |        |- Bun 1.2.10                    |2025/04/27
-      |                |        |- Vite 6.3.3                    |2025/04/27
-      |                |Mobile  |[React Native 0.80.0-rc.0](#rn) |[2025/05/11](https://reactnative.dev/)
+      |                |        |[Svelte 5.32.1](#svelte)        |[2025/05/21](https://svelte.dev/)
+      |                |        |- Bun 1.2.13                    |2025/05/11
+      |                |        |- Vite 6.3.5                    |2025/05/21
+      |                |Mobile  |[React Native 0.80.0-rc.2](#rn) |[2025/05/20](https://reactnative.dev/)
       |                |        |- Bun 1.2.13                    |2025/05/11
 
   1.  Mac OS
@@ -72,7 +73,7 @@
       |           |        |Bun 1.2.10               |2025/04/26
       |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10             |2025/04/26
-      |           |        |React Native 0.80.0-rc.0 |[2025/05/11](https://reactnative.dev/)
+      |           |        |React Native 0.80.0-rc.2 |[2025/05/20](https://reactnative.dev/)
       |           |        |- Bun 1.2.13             |2025/02/24
 
 ##  ノウハウ
@@ -312,10 +313,10 @@
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
-        - React Native 0.80.0-rc.0
+        - React Native 0.80.0-rc.2
           - React 19.1.0
-            ![React Native 0.80.0-rc.0 Windows](../images/JavaScript/20250511_ReactNative_0.80.0-rc.0.png)
-            ![React Native 0.80.0-rc.0 iOS](../images/Mac/20250511_ReactNative_0.80.0-rc.0.png)
+            ![React Native 0.80.0-rc.2 Windows](../images/JavaScript/20250520_ReactNative_0.80.0-rc.2.png)
+            ![React Native 0.80.0-rc.2 iOS](../images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
         - iOS
           - iOS エミュレータを起動
             ```
@@ -483,6 +484,8 @@
   - T3 Stack
     - [Drizzle + PostgreSQL](https://github.com/EthanAmato/T3-Postgres-Drizzle-Template)
   - React <a id="react"></a>
+    - MUI
+      - [全角入力できる数値フィールド](https://github.com/Tatsukiyoshi/YaFullWidthInputField)
     - Web-vitals
       - 新しいWeb-Vitalsでは、インターフェースが変更になっているため、下記リンクのように変更する必要あり
         https://stackoverflow.com/questions/78772766/yarn-build-error-ts2305-module-web-vitals-has-no-exported-member-reportha

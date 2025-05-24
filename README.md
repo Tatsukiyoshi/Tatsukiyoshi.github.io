@@ -6,12 +6,13 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/5/11～2025/5/17）](/digest/May2025/digest_2nd.md) / [一覧](./digest/digestList.md)
+[最新ダイジェスト（2025/5/18～2025/5/24）](/digest/digest_3rd_May2025.md) / [一覧](/digest/digestList.md)
 
 ##  創作物
 ```
 知識を形にする
 ```
+- [全角入力対応コンポーネント](./design/fullWidthInputField/design.md)
 - [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
 - [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
 - [課題整理 with Dioxus](./design/dioxusApp/system.md)
@@ -56,13 +57,12 @@ OS                                 |Hardware            |Language               
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5600 (Cumulative Update) <span style="color: red;">*<<2025/05/13 updated from Build 26200.5581 >>*</span>
-      ![Firmware Update](./images/Windows/20250513_WindowsUpdate_DevChannel.png)
-      ![Cumulative Update](./images/Windows/20250513_WindowsUpdate_DevChannel2.png)
-      - [ClickToDo](https://support.microsoft.com/en-us/windows/click-to-do-do-more-with-what-s-on-your-screen-6848b7d5-7fb0-4c43-b08a-443d6d3f5955)
-        ![ClickToDo](./images/Windows/20250514_Windows11_ClickToDo.png)
+    - Build 26200.5603 (Cumulative Update) <span style="color: red;">*<<2025/05/20 updated from Build 26200.5600 >>*</span>
+      ![Cumulative Update](./images/Windows/20250520_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250513_Windows11_Build26200.png)
+        ![Version Information](./images/Windows/20250520_Windows11_Build26200.png)
+      - AIコンポーネントも更新
+        ![AIComponent Update](./images/Windows/20250520_WindowsUpdate_AIComponent.png)
     - [履歴](./history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
@@ -257,7 +257,7 @@ OS/言語を問わず利用するツールの情報
 [Kotlin](./knowhow/Kotlin.md)        |2025/05/16|Update: Android Studio Narwhal 2025.1.1 Canary 10 / IntelliJ IDEA 2025.1.1.1 / Kotlin 2.1.21
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/05/11|Update: React Native 0.80.0-rc.0 / Bun 1.2.13
+[TypeScript](./knowhow/TypeScript.md)|2025/05/22|Update: Bun 1.2.14
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](./knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
