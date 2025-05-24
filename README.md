@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/5/11～2025/5/17）](/digest/digest_2nd_May2025.md) / [一覧](/digest/digestList.md)
+[最新ダイジェスト（2025/5/18～2025/5/24）](/digest/digest_3rd_May2025.md) / [一覧](/digest/digestList.md)
 
 ##  創作物
 ```

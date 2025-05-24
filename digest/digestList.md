@@ -1,6 +1,7 @@
 # ダイジェスト
 - 2025年
   - 5月
+    - 第３週（2025/5/18～2025/5/24）<[GitHub](digest_3rd_May2025.md) | Zenn>
     - 第２週（2025/5/11～2025/5/17）<[GitHub](digest_2nd_May2025.md) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
     - [第１週（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24)
   - [4月](https://zenn.dev/tatsukiyoshi/articles/ca721a62cbc949)
