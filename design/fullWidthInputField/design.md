@@ -224,9 +224,7 @@ function App() {
       <Container maxWidth="sm">
         <Box
           component="form"
-          {% raw %}
-          sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' }, p: 3 }}
-          {% endraw %}
+          {% raw %} sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' }, p: 3 }} {% endraw %}
           noValidate
           autoComplete="off"
           onSubmit={handleSubmit}
