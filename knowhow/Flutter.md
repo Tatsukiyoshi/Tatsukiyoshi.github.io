@@ -15,7 +15,7 @@
 
   |Machine        |Env / FW                                                                 |Last Updated
   |---------------|-------------------------------------------------------------------------|----------
-  |Windows Insider|Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/get-started/install)
+  |Windows Insider|Flutter 3.29.0                                                           |[2025/03/02](https://docs.flutter.dev/release/release-notes)
   |               |[Android Studio Meerkat 2024.3.2 Canary 7](./Kotlin.md#android-studio)   |2025/03/02
   |               |[Visual Studio Community 2022 17.14.0 Preview 1.1](./NET.md)             |2025/02/27
 
