@@ -1,4 +1,6 @@
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14 Preview 7.0
+    ![VS2022 17.14 preview 7.0](../images/VisualStudio/20250517_Update_VS2022_17.14_Preview7.0.png)
   - SSMS 21.0.0 Preview 7.0 / Visual Studio 2022 17.14.0
     ![VS2022 17.14.0](../images/VisualStudio/20250514_Update_VS2022_17.14_SSMS21.0.0_Preview7.0.png)
   - Visual Studio 2022 17.14 Preview 6.0
