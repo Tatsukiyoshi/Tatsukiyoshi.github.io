@@ -253,11 +253,11 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/14|Update: Visual Studio 2022 17.14.0 / .NET 8.0.16 / .NET 9.0.5
+[.NET](./knowhow/NET.md)             |2025/05/25|Update: Visual Studio 2022 17.14.2 / Visual Studio 2022 17.14.2 Preview 1.0
 [Rust](./knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](./knowhow/Kotlin.md)        |2025/05/16|Update: Android Studio Narwhal 2025.1.1 Canary 10 / IntelliJ IDEA 2025.1.1.1 / Kotlin 2.1.21
+[Kotlin](./knowhow/Kotlin.md)        |2025/05/25|Update: Android Studio Narwhal Feature Drop 2025.1.2 Canary 2
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
+[Flutter](./knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](./knowhow/TypeScript.md)|2025/05/22|Update: Bun 1.2.14
 [Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
@@ -266,7 +266,7 @@ OS/言語を問わず利用するツールの情報
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/05/17|Update: PostgreSQL 17.5
+[Database & SQL](./knowhow/Database.md)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
 [Documentation](./knowhow/Documentation.md)|-
 [Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
