@@ -14,10 +14,10 @@
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.1 Canary 10](#android-studio)|[2025/05/16](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.2 Canary 2](#android-studio) |[2025/05/16](https://developer.android.com/studio)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.6.8                                 |2025/05/16
+  |                |- Android Emulator v.36.1.1                                 |2025/05/25
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -182,10 +182,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal | 2025.1.1 Canary 10
+  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 2
     ```
-    Build #AI-251.23774.435.2511.13464725, built on May 8, 2025
-    Runtime version: 21.0.6+-13391695-b895.109 amd64 (JCEF 122.1.9)
+    Build #AI-251.25410.109.2512.13536108, built on May 22, 2025
+    Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -197,10 +197,12 @@
       ide.experimental.ui=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
-      Dart (251.25267.1)
+      Dart (251.25410.28)
       io.flutter (85.3.2)
     ```
   - バージョン共通
+    - HyperVisor利用には、機能の有効化が必要
+      ![HyperVisor](/images/Android/20250525_Windows_HyperVisor.png)
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
     - Android Studioの日本語化
       - [JetBrains公式サイト](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)からダウンロードする。
@@ -226,6 +228,10 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Feature Drop Canary 2
+        - Android Gradle Plugin 8.11.0-alpha10 -> 8.12.0-alpha02
+        - Android Emulator 36.1.1
+        - Android Emulator HyperVisor Driver 2.2.0
       - Narwhal Canary 10
         - Android Gradle Plugin 8.11.0-alpha09 -> 8.11.0-alpha10
       - Narwhal Canary 9
