@@ -118,11 +118,12 @@ OS                                 |Hardware            |Language               
   - [履歴](./history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 136.0.7103.102 <span style="color: red;">*<<2025/05/17 updated from 135.0.7049.128>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250517_Chrome_OS_Flex_136.0.7103.102.png)
+  - バージョン 136.0.7103.142 <span style="color: red;">*<<2025/05/25 updated from 136.0.7103.102>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250525_Chrome_OS_Flex_136.0.7103.142.png)
       - 更新中
-        ![Updating](./images/Chrome/20250517_Chrome_OS_Flex_Updating136.0.7103.102.png)
-      - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
+        ![Updating](/images/Chrome/20250525_Chrome_OS_Flex_Updating136.0.7103.142.png)
+      - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
+        [Update Log](/sub/Chrome/20250525_Update.md)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
@@ -350,6 +351,10 @@ OSやツールのノウハウは、以下を参照
         sudo apt install gcc
         ```
       - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+      - Debianのバージョンを確認する方法
+        ```
+        cat /etc/debian_version
+        ```
   - アップデート
     - Visual Studio Code
       ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
