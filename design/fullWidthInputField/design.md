@@ -2,24 +2,23 @@
 MUIの TextField をベースに、onChange で全角→半角変換を行う最も一般的なアプローチをコンポーネント化します。
 
 ```js
-import React, { useState, useCallback, useEffect, useRef } from 'react'; // useRefをインポート
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { TextField, TextFieldProps } from '@mui/material';
 
-// --- zenkakuToHankaku 関数をコンポーネントの外に定義 ---
-/**
- * 全角数字を半角数字に変換し、数字と小数点以外の文字を削除するヘルパー関数。
- * @param {string | number | null | undefined} input - 変換対象の値。
- * @returns {string} 半角数字のみを含む文字列。
- */
+// zenkakuToHankaku 関数はコンポーネントの外に定義
+// 変換ロジックを、入力途中の可能性を考慮し、最低限の文字除去に留める。
+// ここでは全角数字を半角に、そしてそれ以外の文字はそのまま保持します。
+// マイナス記号や小数点もそのまま残すように変更します。
 const zenkakuToHankaku = (input: string | number | null | undefined): string => {
   if (input === undefined || input === null) return '';
-  const str = String(input); // 入力を必ず文字列に変換
+  const str = String(input);
+  // 全角数字を半角に変換
   return str.replace(/[０-９]/g, (s) =>
     String.fromCharCode(s.charCodeAt(0) - 0xFEE0)
-  ).replace(/[^0-9.]/g, ''); // 数字と小数点以外を削除（小数点も許容する場合）
-  // 小数点を許容しない場合は .replace(/[^0-9]/g, '');
+  );
+  // ここで数字、小数点、マイナス記号以外の文字を除去しない。
+  // それはバリデーションの役割。
 };
-// --- ここまで ---
 
 interface FullWidthNumberFieldProps extends Omit<TextFieldProps, 'value' | 'onChange' | 'type'> {
   value?: string | number | null;
@@ -39,49 +38,74 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
   helperText: externalHelperText,
   ...restProps
 }) => {
+  // `internalValue`は常に半角確定後の値、またはIMEの未確定文字列（composition中のみ）を保持
   const [internalValue, setInternalValue] = useState<string>(() => {
-    // ここで直接 zenkakuToHankaku を呼び出す
+    // 初期値もzenkakuToHankakuを通す
     return zenkakuToHankaku(controlledValue);
   });
   const [error, setError] = useState<boolean>(false);
   const [internalHelperText, setInternalHelperText] = useState<string>('');
 
-  // --- IME compositionフラグを追加 ---
+  // IMEのcomposition（変換中）状態を追跡するフラグ
   const isComposing = useRef(false);
 
+  // controlledValue (親からの値) の変更を監視し、内部状態を同期
   useEffect(() => {
-    // ここでも直接 zenkakuToHankaku を呼び出す
-    const convertedValue = zenkakuToHankaku(controlledValue);
-    if (convertedValue !== internalValue) {
-      setInternalValue(convertedValue);
-      // controlledValueが変更された際にバリデーションも再実行
-      validateAndSetError(convertedValue);
-    } else if (controlledValue === null || controlledValue === undefined) {
-      // controlledValueがnull/undefinedになった場合に内部値をクリア
-      setInternalValue('');
-      validateAndSetError('');
+    // IME変換中ではない場合、親から渡された値を正規化して内部状態を更新
+    // Composition中はIMEがDOMを制御するため、更新を控える
+    if (!isComposing.current) {
+        const convertedValue = zenkakuToHankaku(controlledValue);
+        // 現在のinternalValueと異なる場合のみ更新
+        if (convertedValue !== internalValue) {
+            setInternalValue(convertedValue);
+            // 値が変更されたらバリデーションも再実行
+            validateAndSetError(convertedValue);
+        } else if ((controlledValue === null || controlledValue === undefined) && internalValue !== '') {
+            // 親からの値がクリアされた場合、内部もクリア
+            setInternalValue('');
+            validateAndSetError('');
+        }
     }
-  }, [controlledValue, internalValue, min, max, restProps.required]); // バリデーションに関連する依存関係を追加
+  }, [controlledValue]); // internalValue を依存配列から外すことで無限ループを避ける
 
-  // バリデーションロジックを分離したヘルパー関数
+  // バリデーションロジックを分離
   const validateAndSetError = useCallback((currentValue: string) => {
     let hasError: boolean = false;
     let currentHelperText: string = '';
 
+    // 必須入力チェック
     if (restProps.required && currentValue === '') {
       hasError = true;
       currentHelperText = '入力は必須です。';
     } else if (currentValue !== '') {
-      const numValue = Number(currentValue);
-      if (isNaN(numValue)) {
-        hasError = true;
-        currentHelperText = '有効な半角数字を入力してください。';
-      } else if (min !== undefined && numValue < min) {
-        hasError = true;
-        currentHelperText = `${min}以上の値を入力してください。`;
-      } else if (max !== undefined && numValue > max) {
-        hasError = true;
-        currentHelperText = `${max}以下の値を入力してください。`;
+      // 半角数字、小数点、先頭のマイナス記号のみを許容する正規表現
+      // 例えば、'--' や '..', '1.2.3' のようなものは不正とする
+      const isValidFormat = /^-?\d*(\.\d*)?$/.test(currentValue);
+
+      if (!isValidFormat) {
+          hasError = true;
+          currentHelperText = '有効な半角数字、小数点、マイナス記号のみが許容されます。';
+      } else {
+        const numValue = Number(currentValue);
+        // 数値に変換できない場合（例: "-", ".", "-." のみ）はエラーだが、入力途中として許容する
+        if (isNaN(numValue)) {
+            // ただし、もし有効な数値に変換できないが、かつ数値の形でない場合はエラー
+            if (currentValue !== '-' && currentValue !== '.') {
+              hasError = true;
+              currentHelperText = '有効な半角数字を入力してください。';
+            }
+        }
+        // 数値に変換できた場合の範囲チェック
+        else { // !isNaN(numValue) の場合
+            if (min !== undefined && numValue < min) {
+                hasError = true;
+                currentHelperText = `${min}以上の値を入力してください。`;
+            }
+            if (max !== undefined && numValue > max) {
+                hasError = true;
+                currentHelperText = `${max}以下の値を入力してください。`;
+            }
+        }
       }
     }
     setError(hasError);
@@ -89,36 +113,41 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
     return hasError; // バリデーション結果を返す
   }, [min, max, restProps.required]);
 
+  // input要素のonChangeイベントハンドラ
   const handleInternalChange = useCallback((event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const inputValue = event.target.value;
 
-    // --- composition中ではない場合のみ処理を実行 ---
-    if (!isComposing.current) {
-      const hankakuValue = zenkakuToHankaku(inputValue); // ここでも呼び出す
-      setInternalValue(hankakuValue); // 表示値を半角に更新
-      // バリデーションを実行
-      validateAndSetError(hankakuValue);
-
-      // 親コンポーネントに変換後の値を通知
-      if (onValueChange) {
-        onValueChange(hankakuValue);
-      }
-      if (muiOnChange) {
-        muiOnChange({
-          ...event,
-          target: {
-            ...event.target,
-            value: hankakuValue,
-          },
-        });
-      }
+    // composition中は、IMEがDOMを直接操作するため、Reactのstateは更新しない
+    if (isComposing.current) {
+        // IMEが未確定文字列を表示している間は、その値をそのままinternalValueにセットし、
+        // Reactの再レンダリングをトリガーしてIMEの入力バッファがクリアされないようにする。
+        // ただし、この時のinternalValueは「未確定文字列」なので、バリデーションは行わない。
+        setInternalValue(inputValue);
+        // 外部のonChangeも必要な場合は呼び出す（IMEによる未確定文字列を渡す）
+        if (muiOnChange) {
+            muiOnChange(event);
+        }
     } else {
-      // composition中の場合は、input要素の表示はIMEに任せるため、
-      // internalValueの更新は行わない。
-      // ただし、外部のonChangeも必要であれば、inputValue（未変換）を渡す
-      if (muiOnChange) {
-         muiOnChange(event); // composition中はIMEが入力値を制御するため、未変換の値を渡す
-      }
+        // composition中ではない場合（直接入力、コピペ、composition確定後など）
+        // zenkakuToHankaku を適用し、確定値として扱う
+        const hankakuValue = zenkakuToHankaku(inputValue);
+        setInternalValue(hankakuValue); // 半角変換後の値を表示
+        validateAndSetError(hankakuValue); // バリデーションを実行
+
+        // 外部に変換後の値を通知
+        if (onValueChange) {
+            onValueChange(hankakuValue);
+        }
+        // TextFieldの標準onChangeも呼び出す
+        if (muiOnChange) {
+            muiOnChange({
+                ...event,
+                target: {
+                    ...event.target,
+                    value: hankakuValue, // 変換後の値をセットして渡す
+                },
+            });
+        }
     }
   }, [onValueChange, muiOnChange, validateAndSetError]);
 
@@ -126,17 +155,19 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
     <TextField
       label={label}
       placeholder={placeholder}
-      value={internalValue}
+      value={internalValue} // composition中はIMEの未確定文字列、それ以外は半角確定文字列
       onChange={handleInternalChange}
-      type="text"
+      type="text" // 全角文字を受け入れるために'text'型を使用
       error={error}
       helperText={error ? internalHelperText : (externalHelperText || '全角数字も半角に変換されます。')}
-      // --- compositionイベントハンドラを追加 ---
+      // IME compositionイベントハンドラ
       onCompositionStart={() => { isComposing.current = true; }}
       onCompositionEnd={(event) => {
-        isComposing.current = false;
-        // compositionが終了した際に、確定された値で再度変換処理を実行
-        // ここでhandleInternalChangeを直接呼び出すと、event.target.valueが確定後の値になる
+        isComposing.current = false; // composition終了フラグをfalseに
+
+        // compositionが終了した際に、最終的な確定値を処理
+        // handleInternalChange を再度呼び出すことで、確定後の値での変換・バリデーション・通知を行う
+        // この時、event.target.value はIMEによって確定された最終的な文字列になっている
         handleInternalChange(event as React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>);
       }}
       {...restProps}
@@ -461,3 +492,57 @@ TypeScriptを導入することで、開発中に型に関するエラーを早�
         MUIのテーマを正しく設定する:
 
         MUIは、アプリケーション全体でダークモードをサポートするための強力なテーマ機能を提供しています。最も推奨されるのは、createTheme と ThemeProvider を使用して、適切にダークモードのパレットを設定することです。
+0.5:
+  個別に変換中の値を連携するように修正
+
+0.6:
+  変更点の詳細解説
+  1.  zenkakuToHankaku 関数の変更:
+
+      replace(/[^0-9.]/g, '') の行を削除しました。
+      これで zenkakuToHankaku は全角数字を半角にすることだけに特化し、それ以外の文字（ひらがな、カタカナ、漢字、その他の記号など）はそのまま残します。
+      これにより、IMEで「いちにさん」と入力した際に、「一二三」と表示されるのを妨げなくなります。
+
+  1.  handleInternalChange 内のロジック:
+      - if (isComposing.current) ブロック:
+        - IME変換中 (isComposing.current が true) の場合、setInternalValue(inputValue); としています。ここでinputValueはIMEが一時的に表示している生の文字列（全角混じりなど）です。
+        - この setInternalValue が重要です。inputValue をそのまま internalValue にセットすることで、ReactがIMEの表示している文字列をそのままDOMに反映させます。これにより、IMEの内部状態とDOMのvalueプロパティが同期され、IMEの変換が中断されなくなります。
+        - この間はバリデーションは行いません。
+        - muiOnChange は生の event をそのまま渡します。
+      - else ブロック:
+        - isComposing.current が false の場合（直接入力、貼り付け、またはIME変換確定後）のみ、zenkakuToHankaku を適用し、validateAndSetError を呼び出します。これで、確定した値に対してのみ変換とバリデーションが行われます。
+  1.  onCompositionEnd の役割:
+      - IMEの変換が確定した直後、isComposing.current を false に戻します。
+      - そして、
+        ```js
+        handleInternalChange(event as React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>);
+        ```
+        を再度呼び出します。
+      - この再呼び出しが肝心で、この時の event.target.value には、IMEが確定させた最終的な文字列が含まれています。
+      - handleInternalChange は isComposing.current が false であると判断し、else ブロックのロジックを実行します。これにより、確定された全角文字（例: 「１２３」）が zenkakuToHankaku で「123」に変換され、バリデーションが行われ、ステートが更新されます。
+  1.  validateAndSetError の調整:
+      - isValidFormat の正規表現 ^-?\d*(\.\d*)?$ を使用して、数字、小数点、先頭のマイナス記号の組み合わせを厳密にチェックします。これにより、「--」や「1.2.3」のような不正な形式はエラーと判断されます。
+      - isNaN(numValue) のチェックも、currentValue が - や . などの単独の記号である場合はエラーとしないように調整し、入力途中を考慮しています。
+  1.  useEffect の依存配列の修正:
+      - useEffect の依存配列から internalValue を削除しました。これにより、internalValue の変更がuseEffectをトリガーすることを防ぎ、無限ループのリスクを軽減します。controlledValue の変更のみを監視し、isComposing.current フラグを考慮して internalValue を更新します。
+
+ダークモードの文字見えにくさ（再確認）
+
+  IME変換中の文字（未確定文字列）がダークモードで見えない、という問題が発生している場合、それはTextFieldの内部のinput要素にIMEが直接描画している部分の色が、あなたのMUIテーマのtext.primaryやbackground.paperと合っていない可能性があります。
+
+確認点:
+1.  TextField のスタイル確認:
+
+    ブラウザの開発者ツールで、IME変換中の入力フィールドのスタイル（特にcolorとbackground-color）を確認してください。どのCSSルールが適用されているかを見て、テーマ設定がうまく反映されているか、あるいは何らかのカスタムCSSが干渉していないかを確認します。
+
+1.  MUIテーマのpalette設定:
+
+      palette.mode: 'dark'
+      palette.text.primary: 明るい色 (例: #e0e0e0)
+      palette.background.default: 暗い背景色 (例: #121212)
+      palette.background.paper: コンポーネントの背景色 (例: #1d1d1d) 
+
+      これらが適切に設定されているか再確認してください。
+1.  CssBaseline の使用:
+
+    CssBaseline はMUIの推奨するCSSリセットであり、テーマの背景色などを適用するのに役立ちます。これがルートコンポーネントで使われているか確認してください。
