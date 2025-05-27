@@ -10,7 +10,7 @@
 ##  環境
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.1.1.1](#intellij-idea)                  |[2025/05/16](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 EAP Build 2](#intellij-idea)          |[2025/05/26](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
@@ -22,28 +22,27 @@
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.1.1.1 (Community Edition)
+  - IntelliJ IDEA 2025.2 EAP (Ultimate Edition)
     ```
-    Build #IC-251.25410.129, built on May 9, 2025
-    Source revision: b815cfdcaa594
-    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
+    Build #IU-252.16512.17, built on May 20, 2025
+    Source revision: 5d77bcbe553be
+    ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
+    有効期限: June 19, 2025
+    Runtime version: 21.0.7+9-b992.24 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
-    Kotlin プラグイン: K2 モード
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      llm.show.ai.promotion.window.on.start=false
+      completion.cloud.enableTextCompletion=false
     Non-Bundled Plugins:
-      Dart (251.25410.28)
-      Lombook Plugin (251.25410.59)
-      org.jetbrains.plugins.github (251.25410.159-IU)
-      org.jetbrains.plugins.gitlab (251.25410.159-IU)
-      org.jetbrains.android (251.25410.131)
-    Kotlin: 251.25410.129-IJ
+      com.intellij.ml.llm (252.16512.17)
+      org.jetbrains.android (252.16512.17)
+      Dart (252.16512.17)
+    Kotlin: 252.16512.17-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -140,32 +139,35 @@
         ```
         "kotlin": "cd $dir && kotlinc-jvm.bat $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
         ```
-### [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
-  - IntelliJ IDEA
-  - [Gradle 8.8](https://gradle.org/releases/)
-  - [Kotlin 2.0.20](https://kotlinlang.org/docs/home.html)
-  - Amazon Coretto 22.0.1 + 言語レベル 21
-  - Graal VM Java17-22.2.0
-  - [Spring Boot 3.4.0](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
-    - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
-      **他の検証同様、AssertJを使用するように修正**
-      - 修正前
-        ```
-        AssertFile.assertFileEquals(
-          FileSystemResource(_expectedFilePath),
-          FileSystemResource(property.outputPath()))
-        ```
-      - 修正後
-        ```
-        val actualContent = Files.readAllBytes(File(property.outputPath()).toPath())
-        val expectedContent = Files.readAllBytes(File(_expectedFilePath).toPath())
-        assertThat(actualContent).isEqualTo(expectedContent)
-        ```
-  - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
-    - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
-    - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
-    - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
-  - [PostgreSQL](Database.md#postgresql)
+### Spring Boot
+  - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
+    - IntelliJ IDEA 2025.2 EAP Build 2
+    - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
+    - Spring Framework
+    - [PostgreSQL 17.5](Database.md#postgresql)
+    - [Gradle 8.8](https://gradle.org/releases/)
+    - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
+    - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
+  - History
+    - Spring Boot 3.4.0 <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
+      - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
+        **他の検証同様、AssertJを使用するように修正**
+        - 修正前
+          ```
+          AssertFile.assertFileEquals(
+            FileSystemResource(_expectedFilePath),
+            FileSystemResource(property.outputPath()))
+          ```
+        - 修正後
+          ```
+          val actualContent = Files.readAllBytes(File(property.outputPath()).toPath())
+          val expectedContent = Files.readAllBytes(File(_expectedFilePath).toPath())
+          assertThat(actualContent).isEqualTo(expectedContent)
+          ```
+    - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
+      - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
+      - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
+      - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 ### Kotlinプログラミング
   - Android
     - Chapter 22 coroutines
