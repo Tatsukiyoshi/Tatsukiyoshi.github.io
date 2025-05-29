@@ -253,9 +253,9 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/25|Update: Visual Studio 2022 17.14.2 / Visual Studio 2022 17.14.2 Preview 1.0
+[.NET](./knowhow/NET.md)             |2025/05/29|Update: Visual Studio 2022 17.14.3 Preview 1.0
 [Rust](./knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](./knowhow/Kotlin.md)        |2025/05/26|Update: IntelliJ IDEA 2025.2 EAP Build 2
+[Kotlin](./knowhow/Kotlin.md)        |2025/05/29|Update: IntelliJ IDEA 2025.2 EAP 3
 [Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](./knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](./knowhow/TypeScript.md)|2025/05/22|Update: Bun 1.2.14
