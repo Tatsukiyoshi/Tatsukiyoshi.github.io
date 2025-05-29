@@ -197,6 +197,8 @@ OS                                 |Hardware            |Language               
     - 6.11.0-13 / Ubuntu 24.10
     - 6.8.0-51 / Ubuntu 24.04
 
+  - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 installed>>*</span>
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png)
   - [履歴](./history/Ubuntu%20Desktop.md)
 
 - [Oracle Cloud](./knowhow/OracleCloud.md)
