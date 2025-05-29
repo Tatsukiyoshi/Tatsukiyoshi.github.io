@@ -379,6 +379,12 @@ OSやツールのノウハウは、以下を参照
     - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
   - スクリーンショット
     - 既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
+  - ディスプレイ
+    - 回転してしまったら、```xrandr```で出力先を確認し、回転し直す
+      - 例）右回転
+        ```
+        xrandr --output DSI-1 --rotate right
+        ```
 - GitHub
   - GitHub Copilot Free
     ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
