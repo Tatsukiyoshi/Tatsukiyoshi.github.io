@@ -10,7 +10,7 @@
 ##  環境
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2 EAP Build 2](#intellij-idea)          |[2025/05/26](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 EAP 3](#intellij-idea)                |[2025/05/29](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
@@ -24,11 +24,11 @@
 - Latest Version
   - IntelliJ IDEA 2025.2 EAP (Ultimate Edition)
     ```
-    Build #IU-252.16512.17, built on May 20, 2025
-    Source revision: 5d77bcbe553be
+    Build #IU-252.18003.27, built on May 29, 2025
+    Source revision: 5430804b7be54
     ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
-    有効期限: June 19, 2025
-    Runtime version: 21.0.7+9-b992.24 amd64 (JCEF 122.1.9)
+    有効期限: June 28, 2025
+    Runtime version: 21.0.7+6-b1020.35 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -37,12 +37,68 @@
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      completion.cloud.enableTextCompletion=false
     Non-Bundled Plugins:
-      com.intellij.ml.llm (252.16512.17)
-      org.jetbrains.android (252.16512.17)
-      Dart (252.16512.17)
-    Kotlin: 252.16512.17-IJ
+      JavaScriptDebugger (252.18003.27)
+      org.jetbrains.completion.full.line (252.18003.27)
+      idea.plugin.protoeditor (252.18003.27)
+      com.intellij.copyright (252.18003.27)
+      org.editorconfig.editorconfigjetbrains (252.18003.27)
+      org.jetbrains.plugins.yaml (252.18003.27)
+      org.toml.lang (252.18003.27)
+      com.intellij.jsonpath (252.18003.27)
+      com.intellij.properties (252.18003.27)
+      com.intellij.velocity (252.18003.27)
+      com.intellij.liquibase (252.18003.27)
+      com.intellij.freemarker (252.18003.27)
+      com.intellij.cdi (252.18003.27)
+      com.intellij.javaee (252.18003.27)
+      com.intellij.javaee.extensions (252.18003.27)
+      com.intellij.javaee.el (252.18003.27)
+      com.intellij.spring.boot.initializr (252.18003.27)
+      com.intellij.spring.boot (252.18003.27)
+      com.intellij.spring.messaging (252.18003.27)
+      com.intellij.spring (252.18003.27)
+      com.intellij.spring.security (252.18003.27)
+      com.intellij.spring.data (252.18003.27)
+      org.jetbrains.kotlin (252.18003.27-IJ)
+      intellij.ktor (252.18003.27)
+      com.intellij.spring.cloud (252.18003.27)
+      com.intellij.spring.integration (252.18003.27)
+      com.jetbrains.restWebServices (252.18003.27)
+      com.jetbrains.restClient (252.18003.27)
+      XPathView (252.18003.27)
+      Docker (252.18003.27)
+      com.intellij.ml.llm (252.18003.27)
+      com.intellij.settingsSync (252.18003.27)
+      org.jetbrains.idea.maven (252.18003.27)
+      org.jetbrains.plugins.gradle (252.18003.27)
+      com.intellij.reactivestreams (252.18003.27)
+      org.jetbrains.android (252.18003.27)
+      intellij.webpack (252.18003.27)
+      Dart (252.18003.27)
+      JavaScript (252.18003.27)
+      com.intellij.flyway (252.18003.27)
+      JBoss (252.18003.27)
+      Tomcat (252.18003.27)
+      com.intellij.javaee.jpa (252.18003.27)
+      com.intellij.javaee.jakarta.data (252.18003.27)
+      com.intellij.javaee.reverseEngineering (252.18003.27)
+      com.intellij.micronaut (252.18003.27)
+      com.intellij.quarkus (252.18003.27)
+      com.intellij.hibernate (252.18003.27)
+      com.intellij.react (252.18003.27)
+      intellij.vitejs (252.18003.27)
+      com.intellij.thymeleaf (252.18003.27)
+      NodeJS (252.18003.27)
+      tslint (252.18003.27)
+      com.intellij.plugins.webcomponents (252.18003.27)
+      intellij.prettierJS (252.18003.27)
+      intellij.nextjs (252.18003.27)
+      Karma (252.18003.27)
+      org.jetbrains.security.package-checker (252.18003.27)
+      com.intellij.beanValidation (252.18003.27)
+      com.intellij.spring.mvc (252.18003.27)
+    Kotlin: 252.18003.27-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
