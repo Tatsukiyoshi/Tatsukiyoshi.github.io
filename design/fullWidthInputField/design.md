@@ -3,7 +3,8 @@ MUIの TextField をベースに、onChange で全角→半角変換を行う最
 
 ```js
 import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { TextField, TextFieldProps } from '@mui/material';
+import type { TextFieldProps } from '@mui/material';
+import { TextField } from '@mui/material';
 
 // zenkakuToHankaku 関数はコンポーネントの外に定義
 // 変換ロジックを、入力途中の可能性を考慮し、最低限の文字除去に留める。
@@ -25,6 +26,7 @@ interface FullWidthNumberFieldProps extends Omit<TextFieldProps, 'value' | 'onCh
   onValueChange?: (value: string) => void;
   min?: number;
   max?: number;
+  onChange?: TextFieldProps['onChange'];
 }
 
 const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
