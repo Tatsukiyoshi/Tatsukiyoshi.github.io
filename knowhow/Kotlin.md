@@ -10,40 +10,95 @@
 ##  環境
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.1.1.1](#intellij-idea)                  |[2025/05/16](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 EAP 3](#intellij-idea)                |[2025/05/29](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.1 Canary 10](#android-studio)|[2025/05/16](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.2 Canary 2](#android-studio) |[2025/05/16](https://developer.android.com/studio)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.35.6.8                                 |2025/05/16
+  |                |- Android Emulator v.36.1.2                                 |2025/05/29
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.1.1.1 (Community Edition)
+  - IntelliJ IDEA 2025.2 EAP (Ultimate Edition)
     ```
-    Build #IC-251.25410.129, built on May 9, 2025
-    Source revision: b815cfdcaa594
-    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
+    Build #IU-252.18003.27, built on May 29, 2025
+    Source revision: 5430804b7be54
+    ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
+    有効期限: June 28, 2025
+    Runtime version: 21.0.7+6-b1020.35 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
-    Kotlin プラグイン: K2 モード
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      llm.show.ai.promotion.window.on.start=false
     Non-Bundled Plugins:
-      Dart (251.25410.28)
-      Lombook Plugin (251.25410.59)
-      org.jetbrains.plugins.github (251.25410.159-IU)
-      org.jetbrains.plugins.gitlab (251.25410.159-IU)
-      org.jetbrains.android (251.25410.131)
-    Kotlin: 251.25410.129-IJ
+      JavaScriptDebugger (252.18003.27)
+      org.jetbrains.completion.full.line (252.18003.27)
+      idea.plugin.protoeditor (252.18003.27)
+      com.intellij.copyright (252.18003.27)
+      org.editorconfig.editorconfigjetbrains (252.18003.27)
+      org.jetbrains.plugins.yaml (252.18003.27)
+      org.toml.lang (252.18003.27)
+      com.intellij.jsonpath (252.18003.27)
+      com.intellij.properties (252.18003.27)
+      com.intellij.velocity (252.18003.27)
+      com.intellij.liquibase (252.18003.27)
+      com.intellij.freemarker (252.18003.27)
+      com.intellij.cdi (252.18003.27)
+      com.intellij.javaee (252.18003.27)
+      com.intellij.javaee.extensions (252.18003.27)
+      com.intellij.javaee.el (252.18003.27)
+      com.intellij.spring.boot.initializr (252.18003.27)
+      com.intellij.spring.boot (252.18003.27)
+      com.intellij.spring.messaging (252.18003.27)
+      com.intellij.spring (252.18003.27)
+      com.intellij.spring.security (252.18003.27)
+      com.intellij.spring.data (252.18003.27)
+      org.jetbrains.kotlin (252.18003.27-IJ)
+      intellij.ktor (252.18003.27)
+      com.intellij.spring.cloud (252.18003.27)
+      com.intellij.spring.integration (252.18003.27)
+      com.jetbrains.restWebServices (252.18003.27)
+      com.jetbrains.restClient (252.18003.27)
+      XPathView (252.18003.27)
+      Docker (252.18003.27)
+      com.intellij.ml.llm (252.18003.27)
+      com.intellij.settingsSync (252.18003.27)
+      org.jetbrains.idea.maven (252.18003.27)
+      org.jetbrains.plugins.gradle (252.18003.27)
+      com.intellij.reactivestreams (252.18003.27)
+      org.jetbrains.android (252.18003.27)
+      intellij.webpack (252.18003.27)
+      Dart (252.18003.27)
+      JavaScript (252.18003.27)
+      com.intellij.flyway (252.18003.27)
+      JBoss (252.18003.27)
+      Tomcat (252.18003.27)
+      com.intellij.javaee.jpa (252.18003.27)
+      com.intellij.javaee.jakarta.data (252.18003.27)
+      com.intellij.javaee.reverseEngineering (252.18003.27)
+      com.intellij.micronaut (252.18003.27)
+      com.intellij.quarkus (252.18003.27)
+      com.intellij.hibernate (252.18003.27)
+      com.intellij.react (252.18003.27)
+      intellij.vitejs (252.18003.27)
+      com.intellij.thymeleaf (252.18003.27)
+      NodeJS (252.18003.27)
+      tslint (252.18003.27)
+      com.intellij.plugins.webcomponents (252.18003.27)
+      intellij.prettierJS (252.18003.27)
+      intellij.nextjs (252.18003.27)
+      Karma (252.18003.27)
+      org.jetbrains.security.package-checker (252.18003.27)
+      com.intellij.beanValidation (252.18003.27)
+      com.intellij.spring.mvc (252.18003.27)
+    Kotlin: 252.18003.27-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -140,32 +195,35 @@
         ```
         "kotlin": "cd $dir && kotlinc-jvm.bat $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
         ```
-### [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
-  - IntelliJ IDEA
-  - [Gradle 8.8](https://gradle.org/releases/)
-  - [Kotlin 2.0.20](https://kotlinlang.org/docs/home.html)
-  - Amazon Coretto 22.0.1 + 言語レベル 21
-  - Graal VM Java17-22.2.0
-  - [Spring Boot 3.4.0](https://spring.io/projects/spring-boot) <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
-    - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
-      **他の検証同様、AssertJを使用するように修正**
-      - 修正前
-        ```
-        AssertFile.assertFileEquals(
-          FileSystemResource(_expectedFilePath),
-          FileSystemResource(property.outputPath()))
-        ```
-      - 修正後
-        ```
-        val actualContent = Files.readAllBytes(File(property.outputPath()).toPath())
-        val expectedContent = Files.readAllBytes(File(_expectedFilePath).toPath())
-        assertThat(actualContent).isEqualTo(expectedContent)
-        ```
-  - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
-    - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
-    - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
-    - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
-  - [PostgreSQL](Database.md#postgresql)
+### Spring Boot
+  - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
+    - IntelliJ IDEA 2025.2 EAP Build 2
+    - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
+    - Spring Framework
+    - [PostgreSQL 17.5](Database.md#postgresql)
+    - [Gradle 8.8](https://gradle.org/releases/)
+    - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
+    - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
+  - History
+    - Spring Boot 3.4.0 <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
+      - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
+        **他の検証同様、AssertJを使用するように修正**
+        - 修正前
+          ```
+          AssertFile.assertFileEquals(
+            FileSystemResource(_expectedFilePath),
+            FileSystemResource(property.outputPath()))
+          ```
+        - 修正後
+          ```
+          val actualContent = Files.readAllBytes(File(property.outputPath()).toPath())
+          val expectedContent = Files.readAllBytes(File(_expectedFilePath).toPath())
+          assertThat(actualContent).isEqualTo(expectedContent)
+          ```
+    - Spring Boot 3.2.0/Spring Batch 5.1/Spring Framework 6.1
+      - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
+      - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
+      - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 ### Kotlinプログラミング
   - Android
     - Chapter 22 coroutines
@@ -182,10 +240,10 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal | 2025.1.1 Canary 10
+  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 2
     ```
-    Build #AI-251.23774.435.2511.13464725, built on May 8, 2025
-    Runtime version: 21.0.6+-13391695-b895.109 amd64 (JCEF 122.1.9)
+    Build #AI-251.25410.109.2512.13536108, built on May 22, 2025
+    Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -197,10 +255,12 @@
       ide.experimental.ui=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
-      Dart (251.25267.1)
+      Dart (251.25410.28)
       io.flutter (85.3.2)
     ```
   - バージョン共通
+    - HyperVisor利用には、機能の有効化が必要
+      ![HyperVisor](/images/Android/20250525_Windows_HyperVisor.png)
     - [開発者向けオプション](https://developer.android.com/studio/debug/dev-options?hl=ja)
     - Android Studioの日本語化
       - [JetBrains公式サイト](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)からダウンロードする。
@@ -226,6 +286,10 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Feature Drop Canary 2
+        - Android Gradle Plugin 8.11.0-alpha10 -> 8.12.0-alpha02
+        - Android Emulator 36.1.1
+        - Android Emulator HyperVisor Driver 2.2.0
       - Narwhal Canary 10
         - Android Gradle Plugin 8.11.0-alpha09 -> 8.11.0-alpha10
       - Narwhal Canary 9

@@ -9,11 +9,11 @@
 ##  環境
   |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.0             |[2025/05/14](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.2             |[2025/05/25](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.5                                     |[2025/05/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.16                                    |[2025/05/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
-  |Windows Insider |Visual Studio Community 2022 17.14.0 Preview 7.0 |[2025/05/17](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |Windows Insider |Visual Studio Community 2022 17.14.3 Preview 1.0 |[2025/05/29](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.4.25258.110                |[2025/05/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.4](#maui)               |[2025/05/17](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
@@ -23,11 +23,11 @@
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
-    - Visual Studio 2022 17.14.0
-      ![VS2022 17.14.0](../images/VisualStudio/20250514_Update_VS2022_17.14_SSMS21.0.0_Preview7.0.png)
+    - Visual Studio 2022 17.14.2
+      ![VS2022 17.14.2](../images/VisualStudio/20250525_Update_VS2022_17.14.2.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14 Preview 7.0
-      ![VS2022 17.14 preview 7.0](../images/VisualStudio/20250517_Update_VS2022_17.14_Preview7.0.png)
+    - Visual Studio 2022 17.14.3 Preview 1.0
+      ![VS2022 17.14.3 preview 1.0](/images/VisualStudio/20250529_Update_VS2022_17.14.3_Preview1.0.png)
   - [履歴](../history/VisualStudio.md)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
@@ -93,25 +93,25 @@
 
   インストール済みの .NET ワークロード:
   [android]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36109.1
+    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36127.28
     Manifest Version:    36.0.0-preview.4.80/10.0.100-preview.4
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.android\36.0.0-preview.4.80\WorkloadManifest.json
     Install Type:              Msi
 
   [ios]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36109.1
+    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36127.28
     Manifest Version:    18.4.10471-net10-p4/10.0.100-preview.4
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.ios\18.4.10471-net10-p4\WorkloadManifest.json
     Install Type:              Msi
 
   [maccatalyst]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36109.1
+    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36127.28
     Manifest Version:    18.4.10471-net10-p4/10.0.100-preview.4
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.maccatalyst\18.4.10471-net10-p4\WorkloadManifest.json
     Install Type:              Msi
 
   [maui-windows]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36109.1
+    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36127.28
     Manifest Version:    10.0.0-preview.4.25263.4/10.0.100-preview.4
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.maui\10.0.0-preview.4.25263.4\WorkloadManifest.json
     Install Type:              Msi

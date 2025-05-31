@@ -6,16 +6,16 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/5/18～2025/5/24）](/digest/digest_3rd_May2025.md) / [一覧](/digest/digestList.md)
+[最新ダイジェスト（2025/5/25～2025/5/31）](/digest/digest_4th_May2025.md) / [一覧](/digest/digestList.md)
 
 ##  創作物
 ```
 知識を形にする
 ```
-- [全角入力対応コンポーネント](./design/fullWidthInputField/design.md)
-- [Tauriデスクトップアプリケーション](./design/tauriApp/index.md)
-- [Reactアプリ](./design/reactApp/index.md) / [詳細検討](./design/reactApp/detail.md)
-- [課題整理 with Dioxus](./design/dioxusApp/system.md)
+- [全角入力対応コンポーネント](/design/fullWidthInputField/design.md)
+- [Tauriデスクトップアプリケーション](/design/tauriApp/index.md)
+- [Reactアプリ](/design/reactApp/index.md) / [詳細検討](/design/reactApp/detail.md)
+- [課題整理 with Dioxus](/design/dioxusApp/system.md)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -42,28 +42,28 @@ OS                                 |Hardware            |Language               
 - [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
-      ![Cumulative Update](./images/Windows/20241123_Windows11Update_24H2.png)
+      ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
     - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
-      ![Almost Ready After Shapeup](./images/Windows/20241123_Windows11Update_24H2_2.png)
+      ![Almost Ready After Shapeup](/images/Windows/20241123_Windows11Update_24H2_2.png)
     - インストール中に謎のフォルダ出現（2025年？）
-      ![Nexstgo.sav](./images/Windows/20241123_Windows11Update_24H2_3.png)
+      ![Nexstgo.sav](/images/Windows/20241123_Windows11Update_24H2_3.png)
     - 更新完了後のバージョン情報
-      ![Version Information](./images/Windows/20241123_MiniS12_WindowsVersion.png)
+      ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
   - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
-    ![Version Information](./images/Windows/20250318_OmniBookX_WindowsVersion.png)
+    ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
   - Updated to Windows Insider Dev Channel
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-      ![Version Information](./images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+      ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
     - Build 26200.5603 (Cumulative Update) <span style="color: red;">*<<2025/05/20 updated from Build 26200.5600 >>*</span>
-      ![Cumulative Update](./images/Windows/20250520_WindowsUpdate_DevChannel.png)
+      ![Cumulative Update](/images/Windows/20250520_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](./images/Windows/20250520_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250520_Windows11_Build26200.png)
       - AIコンポーネントも更新
-        ![AIComponent Update](./images/Windows/20250520_WindowsUpdate_AIComponent.png)
-    - [履歴](./history/Windows.md)
+        ![AIComponent Update](/images/Windows/20250520_WindowsUpdate_AIComponent.png)
+    - [履歴](/history/Windows.md)
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
@@ -84,7 +84,7 @@ OS                                 |Hardware            |Language               
       </details>
 
     - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
-      - [Upgrade@2025/02/01](./sub/Ubuntu/20250201_Upgrade.md)
+      - [Upgrade@2025/02/01](/sub/Ubuntu/20250201_Upgrade.md)
 
       <details>
       <summary>ディストリビューション・バージョン情報</summary>
@@ -106,23 +106,24 @@ OS                                 |Hardware            |Language               
       ```
       </details>
 
-    - [履歴](./history/Wsl.md)
+    - [履歴](/history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
   - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](./images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
+      ![Update Check](/images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
     - バージョン情報
-      ![Sequoia 15.5](./images/Mac/20250516_MacOS_Sequoia15.5.png)
-  - [履歴](./history/Mac.md)
+      ![Sequoia 15.5](/images/Mac/20250516_MacOS_Sequoia15.5.png)
+  - [履歴](/history/Mac.md)
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
-  - バージョン 136.0.7103.102 <span style="color: red;">*<<2025/05/17 updated from 135.0.7049.128>>*</span>
-    ![Chrome OS Flexバージョン情報](./images/Chrome/20250517_Chrome_OS_Flex_136.0.7103.102.png)
+  - バージョン 136.0.7103.150 <span style="color: red;">*<<2025/05/29 updated from 136.0.7103.142>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250529_Chrome_OS_Flex_136.0.7103.150.png)
       - 更新中
-        ![Updating](./images/Chrome/20250517_Chrome_OS_Flex_Updating136.0.7103.102.png)
-      - [Debian 12.10](https://www.debian.org/) <span style="color: red;">*<<2025/03/17 updated from 12.9>>*</span>
+        ![Updating](/images/Chrome/20250529_Chrome_OS_Flex_Updating136.0.7103.150.png)
+      - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
+        [Update Log](/sub/Chrome/20250525_Update.md)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
@@ -137,11 +138,11 @@ OS                                 |Hardware            |Language               
         SUPPORT_URL="https://www.debian.org/support"
         BUG_REPORT_URL="https://bugs.debian.org/"
         ```
-  - [履歴](./history/Chrome.md)
+  - [履歴](/history/Chrome.md)
 
 - [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
-  ![Version Information](./images/Ubuntu/20250423_Ubuntu25.04.png)
-  - [Upgrade Log](./sub/Ubuntu/20250423_Upgrade.md)
+  ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
+  - [Upgrade Log](/sub/Ubuntu/20250423_Upgrade.md)
 
   <details>
   <summary>System Details</summary>
@@ -196,18 +197,20 @@ OS                                 |Hardware            |Language               
     - 6.11.0-13 / Ubuntu 24.10
     - 6.8.0-51 / Ubuntu 24.04
 
-  - [履歴](./history/Ubuntu%20Desktop.md)
+  - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 installed>>*</span>
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png)
+  - [履歴](/history/Ubuntu%20Desktop.md)
 
-- [Oracle Cloud](./knowhow/OracleCloud.md)
+- [Oracle Cloud](/knowhow/OracleCloud.md)
 
 ### ツール <a id="Tools"></a>
 ```
 OS/言語を問わず利用するツールの情報
 ```
 - [Visual Studio Code 1.100.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/16 updated from 1.100.1>>*</span>
-  - [以前の新機能](./history/VSCode.md)
+  - [以前の新機能](/history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
-  - インストールしている拡張機能の一覧は、[VSCode拡張機能](./sub/vscodeExtensions.md)にまとめている。<BR />
+  - インストールしている拡張機能の一覧は、[VSCode拡張機能](/sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
@@ -222,20 +225,20 @@ OS/言語を問わず利用するツールの情報
     ```
   - Windows Insider 環境では、ストアで更新できない。
     - Windowsターミナルに表示されたリンクからインストーラをダウンロードする
-      ![New Version Available](./images/Windows/20240728_Windows_PowerShell_7.4.4.png)
+      ![New Version Available](/images/Windows/20240728_Windows_PowerShell_7.4.4.png)
     - インストーラを起動して、セットアップする
-      ![Setup with Installer](./images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
+      ![Setup with Installer](/images/Windows/20240728_Windows_PowerShell_Setup7.4.4.png)
 - [GitHub Desktop 3.4.16](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2025/02/23 updated from 3.4.8>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
     - 3.4.5 -> 3.4.6 OK
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
-- [Docker](./knowhow/Docker.md)
+- [Docker](/knowhow/Docker.md)
 
 **Mac**
-- [Xcode 16.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/04/01 Updated from 16.2>>*</span>
-  ![iOS 18.4 Simulator](./images/Mac/20250401_Download_iOS18.4_Simulator.png)
+- [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
+  ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
@@ -252,28 +255,28 @@ OS/言語を問わず利用するツールの情報
 ```
 言語                                 |最新トピック||
 -------------------------------------|----------|--------
-[.NET](./knowhow/NET.md)             |2025/05/14|Update: Visual Studio 2022 17.14.0 / .NET 8.0.16 / .NET 9.0.5
-[Rust](./knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](./knowhow/Kotlin.md)        |2025/05/16|Update: Android Studio Narwhal 2025.1.1 Canary 10 / IntelliJ IDEA 2025.1.1.1 / Kotlin 2.1.21
-[Java](./knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](./knowhow/Flutter.md)      |2025/03/05|Update: Flutter 3.29.0
-[TypeScript](./knowhow/TypeScript.md)|2025/05/22|Update: Bun 1.2.14
-[Python](./knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](./knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
-[Go](./knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
-[PHP](./knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
+[.NET](/knowhow/NET.md)             |2025/05/29|Update: Visual Studio 2022 17.14.3 Preview 1.0
+[Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
+[Kotlin](/knowhow/Kotlin.md)        |2025/05/29|Update: IntelliJ IDEA 2025.2 EAP 3
+[Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
+[Flutter](/knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
+[TypeScript](/knowhow/TypeScript.md)|2025/05/31|Update: Astro 5.8.1 / Svelter 5.33.10 / Vue 3.5.16
+[Python](/knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
+[Carbon & LLVM](/knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
+[PHP](/knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 
 言語共通                                    |日付      |トピック
 -------------------------------------------|----------|--------
-[Database & SQL](./knowhow/Database.md)    |2025/05/17|Update: PostgreSQL 17.5
-[Documentation](./knowhow/Documentation.md)|-
-[Exercism](./knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
+[Database & SQL](/knowhow/Database.md)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
+[Documentation](/knowhow/Documentation.md)|-
+[Exercism](/knowhow/Exercism.md)          |2024/08/03|tournament@Rust finished
 
 その他（更新停滞）                          |日付      |トピック
 -------------------------------------------|----------|--------
-[Pascal](./knowhow/Others.md#pascal)
-[Swift](./knowhow/Others.md#swift)
-[Unity](./knowhow/Unity.md)
+[Pascal](/knowhow/Others.md#pascal)
+[Swift](/knowhow/Others.md#swift)
+[Unity](/knowhow/Unity.md)
 
 ### OS／ツール
 ```
@@ -282,12 +285,12 @@ OSやツールのノウハウは、以下を参照
 - Windows <a id="WindowsKnowhow"></a>
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
-  - [システムロケールの変更](./windows/systemLocale.md)
-  - [フォントの変更](./windows/font.md)
+  - [システムロケールの変更](/windows/systemLocale.md)
+  - [フォントの変更](/windows/font.md)
 - Mac <a id="MacKnowhow"></a>
   - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
-      ![CommandLineDeveloperTools](./images/Mac/20240813_CommandLineDeveloperTools.png)
+      ![CommandLineDeveloperTools](/images/Mac/20240813_CommandLineDeveloperTools.png)
   - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
@@ -350,19 +353,23 @@ OSやツールのノウハウは、以下を参照
         sudo apt install gcc
         ```
       - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+      - Debianのバージョンを確認する方法
+        ```
+        cat /etc/debian_version
+        ```
   - アップデート
     - Visual Studio Code
-      ![Upgrade on Chrome OS Flex](./images/Chrome/20240119_code_1.85.2.png)
+      ![Upgrade on Chrome OS Flex](/images/Chrome/20240119_code_1.85.2.png)
   - カスタマイズ
     - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
-      ![フォント設定](./images/Chrome/20240406_VSCode_IPAexMincho.png)
+      ![フォント設定](/images/Chrome/20240406_VSCode_IPAexMincho.png)
     - キーボードのショートカットのカスタマイズ
-      ![ショートカット表示](./images/Chrome/20240413_Chrome_ShortcutCustomize1.png)
-      ![ショートカット一覧](./images/Chrome/20240413_Chrome_ShortcutCustomize2.png)
-      ![ショートカットカスタマイズ](./images/Chrome/20240413_Chrome_ShortcutCustomize3.png)
+      ![ショートカット表示](/images/Chrome/20240413_Chrome_ShortcutCustomize1.png)
+      ![ショートカット一覧](/images/Chrome/20240413_Chrome_ShortcutCustomize2.png)
+      ![ショートカットカスタマイズ](/images/Chrome/20240413_Chrome_ShortcutCustomize3.png)
     - マウスボタンのカスタマイズ
-      ![マウスボタンカスタマイズ1](./images/Chrome/20240413_Chrome_MouseCustomize1.png)
-      ![マウスボタンカスタマイズ2](./images/Chrome/20240413_Chrome_MouseCustomize2.png)
+      ![マウスボタンカスタマイズ1](/images/Chrome/20240413_Chrome_MouseCustomize1.png)
+      ![マウスボタンカスタマイズ2](/images/Chrome/20240413_Chrome_MouseCustomize2.png)
   - トラブルシューティング
     - Could not create Moklist: Volume Full と出て起動できない
       - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
@@ -372,20 +379,38 @@ OSやツールのノウハウは、以下を参照
     - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
   - スクリーンショット
     - 既定値では、SHIFT+CTRL+ALT+Rで撮ることが可能
+  - ディスプレイ
+    - 回転してしまったら、```xrandr```で出力先を確認し、回転し直す
+      - 例）右回転
+        ```
+        xrandr --output DSI-1 --rotate right
+        ```
 - GitHub
   - GitHub Copilot Free
-    ![GitHub Copilot Free](./images/GitHub/20241220_GitHub_Copilot_Free.png)
+    ![GitHub Copilot Free](/images/GitHub/20241220_GitHub_Copilot_Free.png)
+  - GitHub Pages
+    - コンテンツを更新したにもかかわらず、更新した内容を表示できない
+      - ビルドエラーとなっていることが考えられるので、GitHub Actionsが完了しているかを確認する
+    - Liquid Error
+      - コード例を引用している場合、記述によってLiquidによるパースがエラーとなるため、パース対象から除外する
+        ```js
+        ...
+        {% raw %}
+        sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' }, p: 3 }}
+        {% endraw %}
+        ...
+        ```
   - GitHub Issue
     - GitHubも改良が進んでおり、Issueを作成すると、そのIssueのためのBranchを作成し、そのBranchをGitHub Desktopで開くとかもできる
-      ![GitHub Issue](./images/GitHub/20250223_GitHub_Issue_to_Branch.png)
+      ![GitHub Issue](/images/GitHub/20250223_GitHub_Issue_to_Branch.png)
     - BranchからのMerge Requestを作成すると、Issueに関連付けられる
-      ![GitHub PR](./images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
+      ![GitHub PR](/images/GitHub/20250223_GitHub_Pull_Request_to_Issue.png)
     - Sub Issueの並び替え（Issueにカーソルを合わせるとカーソルが手になって並び替えできる）
-      ![SubIssue Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
+      ![SubIssue Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_ManuallySort.png)
       - Windows Insider 環境のEdgeではできない模様（カーソルが手に変わらない！）
-        ![SubIssue Not Manually Sort](./images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
+        ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
-    ![GitHub Projects Board](./images/GitHub/20250301_GitHub_Projects_Board.png)
+    ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
 - Git
   - ユーザ設定
     ```
@@ -650,11 +675,11 @@ OSやツールのノウハウは、以下を参照
       ```
 - PenPot
   - 日本語表示に切り替える<BR />
-    ![Setting](./images/Penpot/20240421_Setting.png)
+    ![Setting](/images/Penpot/20240421_Setting.png)
   - パーツをまとめるには、レイヤーを活用する<BR />
-    ![Layer](./images/Penpot/20240421_Layer.png)
+    ![Layer](/images/Penpot/20240421_Layer.png)
   - ファイルに出力する<BR />
-    ![Export](./images/Penpot/20240421_Export.png)
+    ![Export](/images/Penpot/20240421_Export.png)
     - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](./sub/Profile.md) | [トップへ戻る](#Top)
+[プロフィール](/sub/Profile.md) | [トップへ戻る](#Top)
