@@ -29,10 +29,6 @@
       |                |        |Vite 6.2.1                      |[2025/03/08](https://vitejs.dev/)
       |                |FW      |[React 19.0.0](#react)          |[2024/12/12](https://react.dev/)
       |                |        |- Bun 1.1.38                    |2024/11/29
-      |                |        |[Vue 3.5.13](#vue)              |[2024/11/29](https://jp.vuejs.org/)
-      |                |        |- Deno 2.1.2                    |2024/11/30
-      |                |        |- Bun 1.1.38                    |2024/11/29
-      |                |        |- Vite 6.0.1                    |2024/11/29
       |                |        |[Deno 2.3.1](#deno)             |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)         |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 22.15.0                 |2025/05/10
@@ -48,9 +44,9 @@
       |                |        |- [Svelte 5.25.3](#svelte)      |2025/03/29
       |                |Web FW  |[Angular 19.2.0](#angular)      |[2025/03/02](https://angular.dev/)
       |                |        |Angular 20.0.0-rc.0             |[2025/05/10](https://next.angular.dev/)
-      |                |        |[Astro 5.7.12](#astro)          |[2025/05/10](https://astro.build/)
+      |                |        |[Astro 5.8.1](#astro)           |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0                  |2025/04/03
-      |                |        |- Bun 1.2.12                    |2025/05/10
+      |                |        |- Bun 1.2.15                    |2025/05/22
       |                |        |[Next.js 15.3.2](#nextjs)       |[2025/05/10](https://nextjs.org/)
       |                |        |- React 19.1.0                  |2025/04/12
       |                |        |- Bun 1.2.12                    |2025/05/10
@@ -59,8 +55,12 @@
       |                |        |- Bun 1.2.4                     |2025/03/01
       |                |        |- React Native 0.78.0           |2025/03/02
       |                |        |- Windows SDK 10.0.26100        |2025/01/18
-      |                |        |[Svelte 5.32.1](#svelte)        |[2025/05/21](https://svelte.dev/)
-      |                |        |- Bun 1.2.13                    |2025/05/11
+      |                |        |[Svelte 5.33.10](#svelte)       |[2025/05/31](https://svelte.dev/)
+      |                |        |- Bun 1.2.15                    |2025/05/22
+      |                |        |- Vite 6.3.5                    |2025/05/21
+      |                |        |[Vue 3.5.16](#vue)              |[2025/05/31](https://jp.vuejs.org/)
+      |                |        |- Deno 2.3.5                    |2025/05/31
+      |                |        |- Bun 1.2.15                    |2025/05/22
       |                |        |- Vite 6.3.5                    |2025/05/21
       |                |Mobile  |[React Native 0.80.0-rc.2](#rn) |[2025/05/20](https://reactnative.dev/)
       |                |        |- Bun 1.2.13                    |2025/05/11
