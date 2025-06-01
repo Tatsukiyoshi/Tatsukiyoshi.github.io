@@ -106,6 +106,34 @@ OS                                 |Hardware            |Language               
       ```
       </details>
 
+    - [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10) <span style="color: red;">*<<2025/06/01 installed>>*</span>
+      - [インストール](/knowhow/sub/Rhel/wsl_rhel10.md)
+
+      <details>
+      <summary>ディストリビューション・バージョン情報</summary>
+
+      ```
+      NAME="Red Hat Enterprise Linux"
+      VERSION="10.0 (Coughlan)"
+      ID="rhel"
+      ID_LIKE="centos fedora"
+      VERSION_ID="10.0"
+      PLATFORM_ID="platform:el10"
+      PRETTY_NAME="Red Hat Enterprise Linux 10.0 (Coughlan)"
+      ANSI_COLOR="0;31"
+      LOGO="fedora-logo-icon"
+      CPE_NAME="cpe:/o:redhat:enterprise_linux:10::baseos"
+      HOME_URL="https://www.redhat.com/"
+      VENDOR_NAME="Red Hat"
+      VENDOR_URL="https://www.redhat.com/"
+      DOCUMENTATION_URL="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/10"
+      BUG_REPORT_URL="https://issues.redhat.com/"
+
+      REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 10"
+      REDHAT_BUGZILLA_PRODUCT_VERSION=10.0
+      REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+      REDHAT_SUPPORT_PRODUCT_VERSION="10.0"
+      ```
     - [履歴](/history/Wsl.md)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
