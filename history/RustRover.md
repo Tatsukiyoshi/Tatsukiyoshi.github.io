@@ -43,4 +43,4 @@
   - 2023.3 EAP 2 <span style="color: red;">**Updated 2023/10/25**</span>
   - 2023.3 EAP・・・2023.2 EAPが期限切れのため、再セットアップ <span style="color: red;">**Updated 2023/10/14**</span>
   - 2023.2 EAP <span style="color: red;">**Installed 2023/09/14**</span>
-    ![2023.2 EAP](../images/rust/20230914_RustRover2023.2.png)
+    ![2023.2 EAP](/images/rust/20230914_RustRover2023.2.png)

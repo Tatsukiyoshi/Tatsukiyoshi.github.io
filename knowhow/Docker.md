@@ -16,7 +16,7 @@
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - Svelte
       <!-- original is buildFlow.png -->
-      ![Container Build Flow](../images/JavaScript/20250329_SvelteAppContainerBuildFlow.png)
+      ![Container Build Flow](/images/JavaScript/20250329_SvelteAppContainerBuildFlow.png)
 - [Windows 11にDocker Desktopを入れる手順（令和5年最新版）](https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3)
   - Windows 11にWSLをセットアップして、Docker DesktopをLinux＋Windowsのコンテナ切り換えを可能にする
     1.  Hyper-Vを有効化する

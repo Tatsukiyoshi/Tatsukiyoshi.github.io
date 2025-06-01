@@ -18,10 +18,10 @@
 
   - [ライティング設定]
     - Window -> Rendering -> Lightingで表示されるダイアログで設定する。
-      ![ライティング設定](../images/Unity/20230109_Lighting_Settings.png)
+      ![ライティング設定](/images/Unity/20230109_Lighting_Settings.png)
 
   - [2D Sprite Editor](https://www.sbcr.jp/support/48959/)
-    ![2D Sprite Editor Install](../images/Unity/20230314_2D_Sprite_Editor.png)
+    ![2D Sprite Editor Install](/images/Unity/20230314_2D_Sprite_Editor.png)
   - [アスペクト比や解像度に合わせてUIの位置とサイズを固定する方法](https://pengoya.net/unity/ui-fix/)
   - [スプライトのインポート](https://docs.unity3d.com/ja/2018.4/Manual/Sprites.html)
   - [インポートした画像を使えない](https://teratail.com/questions/98383)
@@ -29,13 +29,13 @@
     - LTSである"2021.3.16f1"でうまくいかないので、"2022.2.1f1"を試す。
     - "2022.2.1f1"で問題なくドラッグアンドドロップできた。
   - マテリアルの従来互換のShaderメニューは、下記にある。
-    ![LegacyShaders](../images/Unity/20230121_Shaders_ParticlesAdditive1.png)
-    ![Particles](../images/Unity/20230121_Shaders_ParticlesAdditive2.png)
-    ![Additive](../images/Unity/20230121_Shaders_ParticlesAdditive3.png)
+    ![LegacyShaders](/images/Unity/20230121_Shaders_ParticlesAdditive1.png)
+    ![Particles](/images/Unity/20230121_Shaders_ParticlesAdditive2.png)
+    ![Additive](/images/Unity/20230121_Shaders_ParticlesAdditive3.png)
   
   - 不具合
     - アセットの位置がずれる（ウィンドウの状態と連動しない）
       - 最大化した状態で合わせた場合、最大化した時だけ正しい位置になり、最大化を解除するとずれる
       - 最大化を解除した状態で合わせた場合、最大化した時にずれ、最大化を解除すると正しい位置になる。
-      ![最大化](../images/Unity/20230103_2022.2.1f1.png)
-      ![最大化解除](../images/Unity/20230103_2022.2.1f1_notmaximized.png)
+      ![最大化](/images/Unity/20230103_2022.2.1f1.png)
+      ![最大化解除](/images/Unity/20230103_2022.2.1f1_notmaximized.png)

@@ -153,7 +153,7 @@
     - Gradle 8.8
   - Kotlin 2.0.0
     - Compose Multiplatform
-      ![Compose for Desktop](../images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
+      ![Compose for Desktop](/images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
   - Intellij IDEA 2024.1.1
     - Kotlin 1.9.24
   - Intellij IDEA 2023.3.6
@@ -167,8 +167,8 @@
       ```
   - Intellij IDEA 2023.3.4
     - Kotlin 1.9.22
-      ![Kotlinコンパイラ](../images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinSetting.png)
-      ![デバッグ](../images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinDebug.png)
+      ![Kotlinコンパイラ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinSetting.png)
+      ![デバッグ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinDebug.png)
       - kotlinc.xml
         ```xml
         <?xml version="1.0" encoding="UTF-8"?>
@@ -181,7 +181,7 @@
           </component>
         </project>
         ```
-  - [履歴](../history/IntelliIDEA.md)
+  - [履歴](/history/IntelliIDEA.md)
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
     1. PATH環境変数にJDKおよびkotlinのパスを設定する
@@ -268,7 +268,7 @@
     - Gradle設定
       - Gradleに関する設定は、環境変数GRADLE_USER_HOMEで設定したディレクトリを参照するため、変更したい場合、格納先のディレクトリを設定する
     - Android SDK設定
-      ![SDK設定](../images/Android/SDK_Setting.png)
+      ![SDK設定](/images/Android/SDK_Setting.png)
     - エミュレータのイメージ退避
       1.  エミュレータのイメージは、ユーザの.androidディレクトリに格納されるため、移動する
       1.  以下のように、イメージの管理ファイル(.ini)にある格納先を変更する
@@ -299,7 +299,7 @@
       - Narwhal Canary 8
         - Android Gradle Plugin 8.11.0-alpha07 -> 8.11.0-alpha08
       - Narwhal Canary 7
-        ![Upgrade_Suggested](../images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
+        ![Upgrade_Suggested](/images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
         - Gradle 8.11.1 -> 8.13
         - Android Gradle Plugin 8.10.0-rc02 -> 8.11.0-alpha07
     - Meerkat
@@ -309,7 +309,7 @@
         - Android Gradle Plugin 8.9.0 -> 8.9.1 -> 8.10.0-rc01
         - Upgrade Suggested
           Beta 1からRC 1に更新したにもかかわらず、Beta 1へのアップグレードを提案される！
-          ![Upgrade Suggested](../images/Android/20250404_AndroidStudio_UpgradeSuggested.png)
+          ![Upgrade Suggested](/images/Android/20250404_AndroidStudio_UpgradeSuggested.png)
       - Meerkat Feature Drop Canary 8
         - Android Gradle Plugin 8.8.2 -> 8.9.0
       - Meerkat Feature Drop Canary 7
@@ -319,7 +319,7 @@
       - Meerkat Feature Drop Canary 2
         - Kotlin 2.1.0 -> 2.1.10
         - Update SDK
-          ![SDKUpdate](../images/Android/20250131_AndroidStudioUpdate.png)
+          ![SDKUpdate](/images/Android/20250131_AndroidStudioUpdate.png)
       - Meerkat Canary 9 対応
         - Android Gradle Plugin 8.7.3 -> 8.8.0
       - Meerkat Canary 4 対応
@@ -370,19 +370,19 @@
         - Android Gradle Plugin 8.5.0 beta01 -> 8.5.0 beta02
       - Gemini 1.5
         - 実行時に制限抵触に関する警告メッセージが出て、結果を取得できない
-          ![Gemini Warning](../images/Android/20240528_Gemini1.5_Warning.png)
+          ![Gemini Warning](/images/Android/20240528_Gemini1.5_Warning.png)
       - Beta 1 対応
         - Android Gradle Plugin 8.5.0 alpha05 -> 8.5.0 beta01
         - Gradle 8.6 -> 8.7 <BR />
-          ![Update Assistant](../images/Android/20240515_Android_Studio_Koala_Beta1_AGP_Upgrade.png)
+          ![Update Assistant](/images/Android/20240515_Android_Studio_Koala_Beta1_AGP_Upgrade.png)
       - Canary 5 対応
         - Android Gradle Plugin 8.5.0 alpha04 -> 8.5.0 alpha05
       - Gemini 1.0 Pro
-        ![Gemini API Starter](../images/Android/20240410_New_Project_Gemini_API_Starter.png)
-        ![Create API Key](../images/Android/20240410_API_Key_Gemini_API_Starter.png)
-        ![Pixel 8 Emulator](../images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
+        ![Gemini API Starter](/images/Android/20240410_New_Project_Gemini_API_Starter.png)
+        ![Create API Key](/images/Android/20240410_API_Key_Gemini_API_Starter.png)
+        ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
     - Jellyfish 対応 <BR />
-      ![Android Studio Jellyfish](../images/Android/20240501_Android_Studio_Jellyfish.png)
+      ![Android Studio Jellyfish](/images/Android/20240501_Android_Studio_Jellyfish.png)
       - Android Gradle Plugin 8.3.2 -> 8.4.0
         - Gradle 8.6
     - Iguana Patch 2 対応
@@ -405,7 +405,7 @@
         - Gradle 8.4
       - Kotlin Gradle Plugin 1.9.21 -> 1.9.22
         - Java 21
-          ![設定/ターゲットJVMバージョン](../images/Android/20240108_Android_Studio_Kotlin.png)
+          ![設定/ターゲットJVMバージョン](/images/Android/20240108_Android_Studio_Kotlin.png)
     - Hedgehog 対応
       - Android Gradle Plugin 8.2
         - Gradle 8.4
@@ -415,7 +415,7 @@
       - Gradle 8.0 and Android Gradle Plugin 8.0
         - AGPが使用するJVMバージョンが17になるため、プロジェクトのJVMバージョンを変更する必要あり
           プロジェクトのJVMバージョンは、Project Structureで設定する
-          ![Project Structure](../images/Android/Project%20Structure%20of%20Flamingo.png)
+          ![Project Structure](/images/Android/Project%20Structure%20of%20Flamingo.png)
           設定によって出力される build.gradle は、下記の通り
           ```
           compileOptions {
@@ -555,10 +555,10 @@
           ```
 ### Android
   - Gemini
-    ![Vertex AI Studio](../images/Android//20250419_Vertex_AI_Prompt.png)
+    ![Vertex AI Studio](/images/Android//20250419_Vertex_AI_Prompt.png)
   - Android 15 (API 35)
     - Android Studio Koala / Android SDK 35等を配置し、実行確認
-      ![MyApplication](../images/Android/20240724_MyApplication_API35.png)
+      ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
     - レイアウトが崩れる事象
       - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - Android 12 / 非互換として吸収すべき課題

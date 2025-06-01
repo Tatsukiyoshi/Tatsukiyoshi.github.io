@@ -24,45 +24,45 @@
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
     - Visual Studio 2022 17.14.2
-      ![VS2022 17.14.2](../images/VisualStudio/20250525_Update_VS2022_17.14.2.png)
+      ![VS2022 17.14.2](/images/VisualStudio/20250525_Update_VS2022_17.14.2.png)
   - Visual Studio Preview
     - Visual Studio 2022 17.14.3 Preview 1.0
       ![VS2022 17.14.3 preview 1.0](/images/VisualStudio/20250529_Update_VS2022_17.14.3_Preview1.0.png)
-  - [履歴](../history/VisualStudio.md)
+  - [履歴](/history/VisualStudio.md)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
-    ![Visual Studio Client Detector Utility](../images/VisualStudio/20231006_VisualStudio_ClientDetectorUtility.png)
+    ![Visual Studio Client Detector Utility](/images/VisualStudio/20231006_VisualStudio_ClientDetectorUtility.png)
     -  Visual Studio のインストールを検出して管理するために使用できるツールらしい！
   - Shift-JISで作成していたはずのソースがUnicodeに変換される？
-    ![読み込み時の変換メッセージ](../images/VisualStudio/20240403_Csharp_convert_unicode.png)
+    ![読み込み時の変換メッセージ](/images/VisualStudio/20240403_Csharp_convert_unicode.png)
   - パッケージ管理
     - NuGetパッケージ管理画面にて、「更新プログラム」に表示されるパッケージを更新する
-    ![NuGetパッケージマネージャ](../images/VisualStudio/20240407_Update_NuGet_Package.png)
+    ![NuGetパッケージマネージャ](/images/VisualStudio/20240407_Update_NuGet_Package.png)
   - 注目した変更
     - GitHub Copilot (*17.10 Preview 3.0-*) <BR/>
-      ![GitHub Copilot](../images/VisualStudio/20240412_GitHub_Copilot.png)    
+      ![GitHub Copilot](/images/VisualStudio/20240412_GitHub_Copilot.png)    
     - ようこそ画面 (*17.6 Preview 2.0-*)
       ダイアログではなく、IDEにクイックアクションなどをまとめたようこそ画面が。
-      ![ようこそ](../images/VisualStudio/20230317_VS2022_17.6_Preview2.0_welcome.png)
+      ![ようこそ](/images/VisualStudio/20230317_VS2022_17.6_Preview2.0_welcome.png)
     - スペルチェッカ (*17.5 Preview 5.0-*)
       単語レベルでの間違いを指摘し、修正候補を提示する。
-      ![スペルチェッカ](../images/VisualStudio/20230121_SpellChecker.png)
+      ![スペルチェッカ](/images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
   - [.NET 10.0.0-preview4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2025/05/17* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 10.0"を指定することで実現
-      ![.NET 10 with VS2022](../images/VisualStudio/20250227_VS2022_dotnet10.png)
+      ![.NET 10 with VS2022](/images/VisualStudio/20250227_VS2022_dotnet10.png)
     - ターゲットフレームワークである".NET 10.0"のバージョンが表示できる
-      ![.NET 10.0.0-preview4](../images/VisualStudio/20250517_dotnet10_Preview4.png)
+      ![.NET 10.0.0-preview4](/images/VisualStudio/20250517_dotnet10_Preview4.png)
   - [.NET 9.0.5](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2025/05/14* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
-      ![.NET 9 with VS2022](../images/VisualStudio/20240314_VS2022_dotnet9.png)
+      ![.NET 9 with VS2022](/images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0.5](../images/VisualStudio/20250514_dotnet9.0.5.png)
+      ![.NET 9.0.5](/images/VisualStudio/20250514_dotnet9.0.5.png)
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
   - [.NET 8.0.16](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2025/05/14* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.16](../images/VisualStudio/20250514_dotnet8.0.16.png)
+      ![.NET 8.0.16](/images/VisualStudio/20250514_dotnet8.0.16.png)
 
   - Wingetでのインストール
     ```
@@ -224,7 +224,7 @@
 
 ### Windows App SDK
   - Windows App SDK
-    ![Hello World](../images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
+    ![Hello World](/images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
   - NET 8.0
     - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
       ```xml
@@ -284,10 +284,10 @@
     - Visual Studio
       - Visual Studio 2022 17.14 Preview 2.0 対応
         - 17.14 Preview 2.0 / MAUI 10.0.0-preview.3.25201.16 / Pixel 9 API 35(Android 15)
-          ![MAUI - Pixel 9 API 35](../images/VisualStudio/20250412_VS2022_17.14_Preview2.0_MAUI10.0.0preview3_Android15.png)
+          ![MAUI - Pixel 9 API 35](/images/VisualStudio/20250412_VS2022_17.14_Preview2.0_MAUI10.0.0preview3_Android15.png)
           - ワークロードを更新するも、APIレベル36が必要とのメッセージで実行できず
           - そもそもSDK Managerでインストールしても、イメージファイルをダウンロードする手段がない
-      - [履歴](../history/VisualStudio.md)
+      - [履歴](/history/VisualStudio.md)
     - MAUIワークロードの更新
       ```
       dotnet workload update
@@ -492,17 +492,17 @@
       ```
       D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
       ```
-    - [履歴](../history/MAUI.md)
+    - [履歴](/history/MAUI.md)
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
 ### Azure
   - [Azureポータル](https://portal.azure.com/#home)
   - [Visual Studio Code を使用して Azure Functions を開発する](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-develop-vs-code?tabs=csharp)
-    ![ブラウザから実行してみた](../images/Azure/20230701_FunctionsTrial.png)
+    ![ブラウザから実行してみた](/images/Azure/20230701_FunctionsTrial.png)
 ### Blazor
   - [Blazor WebAssembly アプリケーションプログラミング自習書](https://qiita.com/jsakamoto/items/244163860b4626c02ba0)
   - [Getting Started with Blazor Scheduler Component](https://blazor.syncfusion.com/documentation/scheduler/getting-started)
-    ![SyncFusion Schedule Component](../images/Blazor/20230322_SyncFusionSchedulerInit.png)
+    ![SyncFusion Schedule Component](/images/Blazor/20230322_SyncFusionSchedulerInit.png)
   - Blazor入門（日経ソフトウェア 2021年9月号）**@2021/09/26** <span style="color: red;">*finished*</span>
 ### C#
   - [やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)
@@ -514,7 +514,7 @@
     - [アプリケーション構成ファイル](https://www.fenet.jp/dotnet/column/language/9654/)
     - ColorDialog
     - [Using custom fonts on a Label on Winforms](https://stackoverflow.com/questions/1297264/using-custom-fonts-on-a-label-on-winforms)
-      ![LINE Seed JP](../images/Windows/LINESeedJP.png)
+      ![LINE Seed JP](/images/Windows/LINESeedJP.png)
   - リソースファイル（XML形式）の解析
     - [C#でのXML読み込み方法とは](https://www.fenet.jp/dotnet/column/language/8240/)
       ```
@@ -525,7 +525,7 @@
         <value>..\Fonts\LINESeedJP_TTF_Rg.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
       </data>
       ```
-      ![解析結果例](../images/VisualStudio/20230326_Analyze_XML_Resources.png)
+      ![解析結果例](/images/VisualStudio/20230326_Analyze_XML_Resources.png)
 ### C++
   - C11/C++17 - [C++環境設定](https://code.visualstudio.com/docs/cpp/config-msvc)
     - HelloWorld

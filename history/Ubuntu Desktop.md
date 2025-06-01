@@ -1,5 +1,5 @@
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
-  ![Version Information](../images/Ubuntu/20250111_Ubuntu24.10.png)
+  ![Version Information](/images/Ubuntu/20250111_Ubuntu24.10.png)
 
   <details>
   <summary>System Details</summary>
@@ -49,9 +49,9 @@
   ```
   </details>
 - [Ubuntu Desktop 24.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/04 installed>>*</span>
-  ![Setup](../images/Ubuntu/20250103_Ubuntu24.04.1_Setup.png)
-  ![Setuped](../images/Ubuntu/20250103_Ubuntu24.04.1_Setuped.png)
-  ![Version Information](../images/Ubuntu/20250104_Ubuntu24.04.1.png)
+  ![Setup](/images/Ubuntu/20250103_Ubuntu24.04.1_Setup.png)
+  ![Setuped](/images/Ubuntu/20250103_Ubuntu24.04.1_Setuped.png)
+  ![Version Information](/images/Ubuntu/20250104_Ubuntu24.04.1.png)
 
   <details>
   <summary>ディストリビューション・バージョン情報</summary>

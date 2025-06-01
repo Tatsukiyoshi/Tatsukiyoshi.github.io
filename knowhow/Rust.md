@@ -62,7 +62,7 @@
   ### Rust
   - Bug
     - 時差の計算結果が不正(1.72,2023/09/16)
-      ![Duration](../images/rust/20230916_Rust_Duration_Bug.png)
+      ![Duration](/images/rust/20230916_Rust_Duration_Bug.png)
   - インストールおよびドキュメント
     - [Rustのインストール](https://www.rust-lang.org/learn/get-started)
     - [ヘルプドキュメント](https://doc.rust-lang.org/std/all.html)
@@ -149,13 +149,13 @@
       org.jetbrains.plugins.gitlab (251.25410.123-IU)
       org.jetbrains.plugins.github (251.25410.123-IU)
     ```
-    - [履歴](../history/RustRover.md)
+    - [履歴](/history/RustRover.md)
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
-      ![ドライバー設定](../images/rust/20231126_PostgreSQL.png)
+      ![ドライバー設定](/images/rust/20231126_PostgreSQL.png)
   - Web APIのテスト
     - RustRoverのHTTPクライアントでリクエストを作成してテストできる
-      ![Httpクライアント](../images/rust/20231229_RustRover_HttpClient.png)
+      ![Httpクライアント](/images/rust/20231229_RustRover_HttpClient.png)
       - GETリクエスト
         ```
         GET http://localhost:80/api/item?id=99
@@ -189,7 +189,7 @@
         - LLDBを使って、デバッグ実行できる
   ### クレート
   - サンプルWebApp(Actix-Web/SeaORM)
-    ![Chapter18_WebApp_Search](../images/rust/20240105_WebApp_Search.png)
+    ![Chapter18_WebApp_Search](/images/rust/20240105_WebApp_Search.png)
   - SeaORM
     - テーブルからModel生成
       ```
@@ -366,49 +366,49 @@
     - [SplashScreen](#Splashscreen)
   - V2.5.1
     - Windows
-      ![On Windows](../images/rust/20250427_Tauri2.5.1_Windows.png)
+      ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](/images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - Mac OS
-      ![On Mac OS](../images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
+      ![On Mac OS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
     - Chrome OS Flex
-      ![On Chrome OS Flex](../images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
+      ![On Chrome OS Flex](/images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9a
-      ![On Android 16](../images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
+      ![On Android 16](/images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
     - iOS 18.4 / iPhone 16e
-      ![On iPhone 16e](../images/rust/20250427_Tauri2.5.1_iPhone16e_iOS18.4.png)
+      ![On iPhone 16e](/images/rust/20250427_Tauri2.5.1_iPhone16e_iOS18.4.png)
   - V2.5.0
     - Windows
-      ![On Windows](../images/rust/20250417_Tauri2.5.0_Windows.png)
+      ![On Windows](/images/rust/20250417_Tauri2.5.0_Windows.png)
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](/images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - Mac OS
-      ![On Mac OS](../images/rust/20250417_Tauri2.5.0_Mac15.4.png)
+      ![On Mac OS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
     - Chrome OS Flex
-      ![On Chrome OS Flex](../images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
+      ![On Chrome OS Flex](/images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
-      ![On Android 16](../images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
+      ![On Android 16](/images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
     - iOS 18.4 / iPhone 16e
-      ![On iPhone 16e](../images/rust/20250417_Tauri2.5.0_iPhone16e_iOS18.4.png)
+      ![On iPhone 16e](/images/rust/20250417_Tauri2.5.0_iPhone16e_iOS18.4.png)
   - V2.4.1
     - Windows
-      ![On Windows](../images/rust/20250403_Tauri2.4.1_Windows.png)
+      ![On Windows](/images/rust/20250403_Tauri2.4.1_Windows.png)
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](/images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - Mac OS
-      ![On Mac OS](../images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+      ![On Mac OS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)
     - Chrome OS Flex
       - 最初ウィンドウだけでコンテンツが表示されなかった。しかし、Reloadすることで表示された！
-        ![On Chrome OS Flex](../images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
+        ![On Chrome OS Flex](/images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
     - Android 15 / Pixel 9
       - [Log](/knowhow/sub/rust/20250410_tauri_android15.md)
-        ![On Android 15](../images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
+        ![On Android 15](/images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
     - Android 16 / Pixel 9 Pro
       - error sending request for url
         - [Log](/knowhow/sub/rust/20250410_tauri_android16.md)
-          ![error sending request for url](../images/rust/20250406_Tauri2.4.1_AndroidError.png)
+          ![error sending request for url](/images/rust/20250406_Tauri2.4.1_AndroidError.png)
           -> https://github.com/tauri-apps/tauri/issues/9509
   - V2.4.0
     - テンプレートで作成したアプリでは、tauri-pluginのバージョンを明示していない
@@ -440,13 +440,13 @@
       error: script "tauri" exited with code 101
       ```
     - Windows
-      ![On Windows](../images/rust/20250323_Tauri2.4.0_Windows.png)
+      ![On Windows](/images/rust/20250323_Tauri2.4.0_Windows.png)
     - Ubuntu 24.04 on WSL2
-      ![On Ubuntu 24.04](../images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
+      ![On Ubuntu 24.04](/images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
     - Mac OS
-      ![On Mac OS](../images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
+      ![On Mac OS](/images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
     - iOS 18.3 / iPhone 16e
-      ![On iPhone 16e](../images/rust/20250323_Tauri2.4.0_iPhone16e_iOS18.3.png)
+      ![On iPhone 16e](/images/rust/20250323_Tauri2.4.0_iPhone16e_iOS18.3.png)
   - V2.0
     - xcodebuildが異常終了する場合、関連ツール含めた環境の初期化を再度実施する
       ```
@@ -511,7 +511,7 @@
           ```
           bun tauri ios dev
           ```
-          ![iOS Emulator](../images/Mac/20240817_Tauri2.0RC2_iOS_Target.png)
+          ![iOS Emulator](/images/Mac/20240817_Tauri2.0RC2_iOS_Target.png)
 
           - 現状、bun で初期化を行うと、ビルドでエラーとなるため、npm で初期化を行うことで回避する
             ```
@@ -934,7 +934,7 @@
               export LD_NO_PIE\=NO
               export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER\=YES
               export LD_RUNPATH_SEARCH_PATHS\=\ @executable_path/Frameworks
-              export LD_RUNPATH_SEARCH_PATHS_YES\=@loader_path/../Frameworks
+              export LD_RUNPATH_SEARCH_PATHS_YES\=@loader_path//Frameworks
               export LEGACY_DEVELOPER_DIR\=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
               export LEX\=lex
               export LIBRARY_DEXT_INSTALL_PATH\=/Library/DriverExtensions
@@ -1268,7 +1268,7 @@
             [-] App
                 - build-type: bundle
                 - CSP: unset
-                - frontendDist: ../public
+                - frontendDist: /public
                 - devUrl: http://localhost:8083/
                 - framework: Svelte
                 - bundler: Rollup
@@ -1300,12 +1300,12 @@
             [-] App
                 - build-type: bundle
                 - CSP: unset
-                - frontendDist: ../dist
+                - frontendDist: /dist
                 - devUrl: http://localhost:1420/
                 - framework: React
                 - bundler: Vite
             ```
-            ![Tauri 2.0Beta](../images/rust/20240716_Tauri2.0_Ubuntu24.04.png)
+            ![Tauri 2.0Beta](/images/rust/20240716_Tauri2.0_Ubuntu24.04.png)
           - Compile error happend
             ```
               Compiling tauri-plugin v2.0.0-beta.12
@@ -1421,7 +1421,7 @@
         App
           › build-type: bundle
           › CSP: unset
-          › distDir: ../public
+          › distDir: /public
           › devPath: http://localhost:8083/
           › framework: Svelte
           › bundler: Rollup
@@ -1447,7 +1447,7 @@
           sudo apt install libsoup-3.0*
           sudo apt install libwebkit2gtk-4.1*
           ```
-          ![Tauri 2.0Beta](../images/rust/20240418_Tauri2.0_Ubuntu24.04.png)
+          ![Tauri 2.0Beta](/images/rust/20240418_Tauri2.0_Ubuntu24.04.png)
     - Ubuntu 22.04
     1.  必須パッケージインストール
         ```
@@ -1519,9 +1519,9 @@
       stable-x86_64-pc-windows-msvc (default)
       rustc 1.71.0 (8ede3aae2 2023-07-12)
       ```
-      ![Tauri-app](../images/rust/20230504_tauri1.3_windows11.png)
+      ![Tauri-app](/images/rust/20230504_tauri1.3_windows11.png)
       - Mcafeeにウイルスとしてブロックされる
-        ![Mcafee抑止](../images/rust/20230723_tauri_virus_check_windows11.png)
+        ![Mcafee抑止](/images/rust/20230723_tauri_virus_check_windows11.png)
   1.  ubuntu 22.04.2 on Windows 11
       ```
       Default host: x86_64-unknown-linux-gnu
@@ -1530,7 +1530,7 @@
       stable-x86_64-unknown-linux-gnu (default)
       rustc 1.71.0 (8ede3aae2 2023-07-12)
       ```
-      ![Tauri-app](../images/rust/20230728_tauri1.4_windows11_wsl.png)
+      ![Tauri-app](/images/rust/20230728_tauri1.4_windows11_wsl.png)
   1.  Chrome OS Flex
       - Tauri環境確認
         ```
@@ -1560,19 +1560,19 @@
         [-] App
             - build-type: bundle
             - CSP: unset
-            - distDir: ../dist
+            - distDir: /dist
             - devPath: http://localhost:1420/
             - framework: React
             - bundler: Vite
         ```
-        ![Tauri-app](../images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
+        ![Tauri-app](/images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {
       "beforeBuildCommand": "npm run build",
       "beforeDevCommand": "npm run dev",
       "devPath": "http://localhost:8083",
-      "distDir": "../public"
+      "distDir": "/public"
     },
     ```
   - Visual Studio Codeでのデバッグ
@@ -1608,7 +1608,7 @@
       ```
       dx serve
       ```
-      ![dx serve](../images/rust/20241231_dioxus_0.6.1_dx_serve.png)
+      ![dx serve](/images/rust/20241231_dioxus_0.6.1_dx_serve.png)
   - CLIツール
     ```
     cargo install dioxus-cli --force
@@ -1622,7 +1622,7 @@
     dx serve
     ```
   - 課題整理 <span style="color: red;">*researching from 2024/04/30*</span>
-    - [Overview](../design/dioxusApp/system.md)
+    - [Overview](/design/dioxusApp/system.md)
   ### Game Engine
   - [Bevy](https://bevyengine.org/)
     - Bevy 0.13
@@ -1634,11 +1634,11 @@
         ```
     - Bevy 0.11
       - [Migration to 0.11](https://bevyengine.org/learn/migration-guides/0.10-0.11/)
-      ![Bevy 0.11](../images/rust/20230723_bevy0.11_windows11.png)
+      ![Bevy 0.11](/images/rust/20230723_bevy0.11_windows11.png)
     - Bevy 0.10.1
       - Window Size
         - [Migration to 0.10.1](https://bevyengine.org/learn/migration-guides/0.9-0.10/)
-        ![Bevy 0.10.1](../images/rust/20230430_bevy_windows11.png)
+        ![Bevy 0.10.1](/images/rust/20230430_bevy_windows11.png)
       - Icon
         - [スマイル](https://icon-icons.com/ja/download/152131/PNG/512/)
         - Add image crate

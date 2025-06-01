@@ -174,7 +174,7 @@
           ```
           </details>
 
-          ![Deno Install](../images/JavaScript/Deno_install.png)
+          ![Deno Install](/images/JavaScript/Deno_install.png)
         - Chrome OS Flex
           ```sh
           curl -fsSL https://deno.land/x/install/install.sh | sh
@@ -276,9 +276,9 @@
         Prisma Studio is up on http://localhost:5555
         ```
       - トップ画面
-        ![トップ画面](../images/JavaScript/PrismaStudio.png)
+        ![トップ画面](/images/JavaScript/PrismaStudio.png)
       - テーブルビュー
-        ![テーブル表示](../images/JavaScript/PrismaStudio_Table.png)
+        ![テーブル表示](/images/JavaScript/PrismaStudio_Table.png)
   - [Sequelize](https://sequelize.org/) <a id="seq"></a>
     - [Getting Started](https://sequelize.org/docs/v6/getting-started/)
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
@@ -291,16 +291,16 @@
           bun create rspeedy@latest
           ```
           1.  DownLoad LynxExplorer / Install on Simulator
-              ![LynxExplorer](../images/Mac/20250426_ReactLynx_Explorer.png)
+              ![LynxExplorer](/images/Mac/20250426_ReactLynx_Explorer.png)
           1.  Execute Code
               ```
               bun run dev
               ```
-              ![App QR Code](../images/Mac/20250426_ReactLynx_QRcode.png)
+              ![App QR Code](/images/Mac/20250426_ReactLynx_QRcode.png)
           1.  Execute LynxApp
               - Copy URL
               - Paste URL to LynxExplorer
-                ![LynxApp](../images/Mac/20250426_ReactLynxApp.png)
+                ![LynxApp](/images/Mac/20250426_ReactLynxApp.png)
 
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
@@ -315,8 +315,8 @@
       - React Nativeで開発したアプリの実行
         - React Native 0.80.0-rc.2
           - React 19.1.0
-            ![React Native 0.80.0-rc.2 Windows](../images/JavaScript/20250520_ReactNative_0.80.0-rc.2.png)
-            ![React Native 0.80.0-rc.2 iOS](../images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
+            ![React Native 0.80.0-rc.2 Windows](/images/JavaScript/20250520_ReactNative_0.80.0-rc.2.png)
+            ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
         - iOS
           - iOS エミュレータを起動
             ```
@@ -353,7 +353,7 @@
           ```sh
           bun windows
           ```
-          ![WindowsSample](../images/JavaScript/20250302_ReactNativeWindows0.78.png)
+          ![WindowsSample](/images/JavaScript/20250302_ReactNativeWindows0.78.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
@@ -425,12 +425,12 @@
         ```
         https://docs.astro.build/en/recipes/bun/#_top
         ```
-        ![Astro Starter](../images/JavaScript/20240103_Astro.png)
+        ![Astro Starter](/images/JavaScript/20240103_Astro.png)
   - [jQuery 3.7.1](https://jquery.com/)
     - [Chart.js 4.4.1](https://www.chartjs.org/docs/latest/)
-      ![Chart.Js](../images/php/20240103_php_jquery_chart.png)
+      ![Chart.Js](/images/php/20240103_php_jquery_chart.png)
   - [Babylon.JS 6.0](https://www.babylonjs.com/)
-    ![Template](../images/JavaScript/20240103_babylon_template.png)
+    ![Template](/images/JavaScript/20240103_babylon_template.png)
   - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
     - [Nextjs-blog](https://github.com/Tatsukiyoshi/nextjs-blog)
     - [Vercel](https://vercel.com/tatsukiyoshi/)
@@ -541,12 +541,12 @@
         ```
         npx codemod@latest react/19/migration-recipe
         ```
-        ![Selection for CodeMod](../images/JavaScript/20240608_react19_select_codemod.png)
-        ![Now Execute CodeMod](../images/JavaScript/20240608_react19_codemod.png)
-        ![After CodeMod](../images/JavaScript/20240608_react19_after_codemod.png)
+        ![Selection for CodeMod](/images/JavaScript/20240608_react19_select_codemod.png)
+        ![Now Execute CodeMod](/images/JavaScript/20240608_react19_codemod.png)
+        ![After CodeMod](/images/JavaScript/20240608_react19_after_codemod.png)
 
         - node_modules等は、除外するとメッセージしておきながら、ファイルがあると走査対象になり、しまいには、エラーとなる始末。
-          ![CodeMod Error](../images/JavaScript/20240608_react19_codemod_error.png)
+          ![CodeMod Error](/images/JavaScript/20240608_react19_codemod_error.png)
           なので、node_modulesは削除して実行しましょう！ <BR />
           そうすれば、package.jsonによるDependencyの更新も行わない。
     - React 18.3.1
@@ -835,7 +835,7 @@
           - [Property 'of' does not exist on type 'typeof Observable [duplicate]](https://stackoverflow.com/questions/38067580/property-of-does-not-exist-on-type-typeof-observable)
       1.  Karma + Jasmine
           - 結果サンプル
-            ![パイプのテスト](../images/angular/pipe-param-test.png)
+            ![パイプのテスト](/images/angular/pipe-param-test.png)
 
       <details>
       <summary>トラブルシューティング</summary>
