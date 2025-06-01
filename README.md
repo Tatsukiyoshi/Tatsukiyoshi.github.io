@@ -84,7 +84,7 @@ OS                                 |Hardware            |Language               
       </details>
 
     - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
-      - [Upgrade@2025/02/01](/sub/Ubuntu/20250201_Upgrade.md)
+      - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade.md)
 
       <details>
       <summary>ディストリビューション・バージョン情報</summary>
@@ -123,7 +123,7 @@ OS                                 |Hardware            |Language               
       - 更新中
         ![Updating](/images/Chrome/20250529_Chrome_OS_Flex_Updating136.0.7103.150.png)
       - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
-        [Update Log](/sub/Chrome/20250525_Update.md)
+        [Update Log](/knowhow/sub/Chrome/20250525_Update.md)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
@@ -142,7 +142,7 @@ OS                                 |Hardware            |Language               
 
 - [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
-  - [Upgrade Log](/sub/Ubuntu/20250423_Upgrade.md)
+  - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade.md)
 
   <details>
   <summary>System Details</summary>
@@ -210,7 +210,7 @@ OS/言語を問わず利用するツールの情報
 - [Visual Studio Code 1.100.2](https://code.visualstudio.com/) <span style="color: red;">*<<2025/05/16 updated from 1.100.1>>*</span>
   - [以前の新機能](/history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
-  - インストールしている拡張機能の一覧は、[VSCode拡張機能](/sub/vscodeExtensions.md)にまとめている。<BR />
+  - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions.md)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
@@ -285,8 +285,8 @@ OSやツールのノウハウは、以下を参照
 - Windows <a id="WindowsKnowhow"></a>
   - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
-  - [システムロケールの変更](/windows/systemLocale.md)
-  - [フォントの変更](/windows/font.md)
+  - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
+  - [フォントの変更](/knowhow/sub/windows/font.md)
 - Mac <a id="MacKnowhow"></a>
   - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
@@ -682,4 +682,4 @@ OSやツールのノウハウは、以下を参照
     ![Export](/images/Penpot/20240421_Export.png)
     - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](/sub/Profile.md) | [トップへ戻る](#Top)
+[プロフィール](/knowhow/sub/Profile.md) | [トップへ戻る](#Top)

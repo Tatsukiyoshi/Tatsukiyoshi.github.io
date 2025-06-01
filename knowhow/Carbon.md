@@ -964,7 +964,7 @@
     さらに1時間程度後、フリーズしたので、強制再起動
 
 ### 環境更新 [on Ubuntu 24.04 **@2025/02/01** <span style="color: red;">*Updated!*</span>]
--   [LLVM 18 から 19 への更新](../sub/Ubuntu/20250201_Upgrade.md)を受け、環境更新を試みた
+-   [LLVM 18 から 19 への更新](/knowhow/sub/Ubuntu/20250201_Upgrade.md)を受け、環境更新を試みた
 
 1.  Carbon コードの取得
     ```
