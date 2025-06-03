@@ -285,10 +285,10 @@ OS/言語を問わず利用するツールの情報
 -------------------------------------|----------|--------
 [.NET](/knowhow/NET.md)             |2025/05/29|Update: Visual Studio 2022 17.14.3 Preview 1.0
 [Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](/knowhow/Kotlin.md)        |2025/05/29|Update: IntelliJ IDEA 2025.2 EAP 3
+[Kotlin](/knowhow/Kotlin.md)        |2025/06/01|Update: Android Studio Narwhal 2025.1.2 Canary 3
 [Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript.md)|2025/05/31|Update: Astro 5.8.1 / Svelter 5.33.10 / Vue 3.5.16
+[TypeScript](/knowhow/TypeScript.md)|2025/06/01|Update: Node.js 24.1.0
 [Python](/knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1

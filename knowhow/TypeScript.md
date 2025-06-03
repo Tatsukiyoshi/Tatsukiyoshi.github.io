@@ -24,14 +24,14 @@
   1.  Windows
       |Machine         |Category|Env / FW                        |Last Updated
       |----------------|--------|--------------------------------|----------
-      |Windows         |Common  |Node.js 22.12.0                 |[2024/12/11](https://nodejs.org/en)
+      |Windows         |Common  |Node.js 22.12.0                 |2024/12/11
       |                |        |[Bun 1.2.4](#bun)               |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                      |[2025/03/08](https://vitejs.dev/)
       |                |FW      |[React 19.0.0](#react)          |[2024/12/12](https://react.dev/)
       |                |        |- Bun 1.1.38                    |2024/11/29
       |                |        |[Deno 2.3.1](#deno)             |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)         |[2024/10/26](https://fresh.deno.dev/)
-      |Windows Insider |Common  |Node.js 22.15.0                 |2025/05/10
+      |Windows Insider |Common  |Node.js 24.1.0                  |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.14](#bun)              |[2025/05/22](https://bun.sh/)
       |                |        |Vite 6.3.5                      |[2025/05/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)      |[2025/03/16](https://typeorm.io/)
@@ -42,7 +42,7 @@
       |                |        |- Vite 6.2.3                    |2025/03/29
       |                |        |- [React 19.1.0](#react)        |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)      |2025/03/29
-      |                |Web FW  |[Angular 19.2.0](#angular)      |[2025/03/02](https://angular.dev/)
+      |                |Web FW  |[Angular 20.0.0](#angular)      |[2025/06/01](https://angular.dev/)
       |                |        |Angular 20.0.0-rc.0             |[2025/05/10](https://next.angular.dev/)
       |                |        |[Astro 5.8.1](#astro)           |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0                  |2025/04/03
