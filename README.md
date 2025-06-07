@@ -84,18 +84,22 @@ OS                                 |Hardware            |Language
   - Updated to Windows Insider Dev Channel
     - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
       ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+  - ノウハウ
+    - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
+    - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
+    - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
+    - [フォントの変更](/knowhow/sub/windows/font.md)
 
-- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a>
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows.md))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
     - Build 26200.5622 (Cumulative Update) <span style="color: red;">*<<2025/06/03 updated from Build 26200.5603 >>*</span>
       ![Cumulative Update](/images/Windows/20250603_WindowsUpdate_DevChannel.png)
       - AIコンポーネントも更新
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250603_Windows11_Build26200.png)
-    - [履歴](/history/Windows.md)
+        ![Version Information](/images/Windows/20250603_Windows11_Build26200.png)    
   - [Canary Channel](https://aka.ms/CanaryLatest)
 
-  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl.md))
     - [WSL 2.5.7.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/05/28 auto updated from 2.5.6.0>>*</span>
 
       <details>
@@ -163,14 +167,7 @@ OS                                 |Hardware            |Language
       REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
       REDHAT_SUPPORT_PRODUCT_VERSION="10.0"
       ```
-    - [履歴](/history/Wsl.md)
-
-  - ノウハウ
-    - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
-    - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
-    - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
-    - [フォントの変更](/knowhow/sub/windows/font.md)
-    - WSL
+    - ノウハウ
       - WSLバージョンを確認する
         ```
         wsl --version
@@ -189,14 +186,13 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a>
+- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac.md))
   - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](/images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
     - バージョン情報
       ![Sequoia 15.5](/images/Mac/20250516_MacOS_Sequoia15.5.png)
-  - [履歴](/history/Mac.md)
   - ノウハウ
     - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
       - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
@@ -228,7 +224,7 @@ OS                                 |Hardware            |Language
         brew upgrade
         ```
 
-- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a>
+- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome.md))
   - バージョン 136.0.7103.150 <span style="color: red;">*<<2025/05/29 updated from 136.0.7103.142>>*</span>
     ![Chrome OS Flexバージョン情報](/images/Chrome/20250529_Chrome_OS_Flex_136.0.7103.150.png)
       - 更新中
@@ -249,7 +245,6 @@ OS                                 |Hardware            |Language
         SUPPORT_URL="https://www.debian.org/support"
         BUG_REPORT_URL="https://bugs.debian.org/"
         ```
-  - [履歴](/history/Chrome.md)
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
@@ -290,7 +285,7 @@ OS                                 |Hardware            |Language
         - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
-- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
+- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop.md))
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade.md)
 
@@ -348,8 +343,7 @@ OS                                 |Hardware            |Language
     - 6.8.0-51 / Ubuntu 24.04
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 installed>>*</span>
-    ![Desktop](/images/Ubuntu/20250530_Budgie.png)
-  - [履歴](/history/UbuntuDesktop.md)
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
