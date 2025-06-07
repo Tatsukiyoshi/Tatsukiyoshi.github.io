@@ -1,5 +1,5 @@
 # トップページ <a id="Top"></a>
-[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [ノウハウ](#Knowhow)
+[ダイジェスト](#Digest) | [プログラミング言語](#ProgrammingLanguage) | [環境(OS/ツール/サービス)](#Environment) 
 
 ---
 ##  ダイジェスト <a id="Digest"></a>
