@@ -226,7 +226,7 @@ OS                                 |Hardware            |Language               
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png)
-  - [履歴](/history/Ubuntu%20Desktop.md)
+  - [履歴](/history/UbuntuDesktop.md)
 
 - [Oracle Cloud](/knowhow/OracleCloud.md)
 
