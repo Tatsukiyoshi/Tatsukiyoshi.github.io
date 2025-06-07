@@ -1,9 +1,12 @@
 # ダイジェスト
+
 - 2025年
+  - 6月
+    - 第１週（2025/6/1～2025/6/7）<[GitHub](2025/June/1st.md) | Zenn>
   - 5月
-    - 第４週（2025/5/25～2025/5/32）<[GitHub](digest_4th_May2025.md) | Zenn>
-    - 第３週（2025/5/18～2025/5/24）<[GitHub](digest_3rd_May2025.md) | Zenn>
-    - 第２週（2025/5/11～2025/5/17）<[GitHub](digest_2nd_May2025.md) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
+    - 第４週（2025/5/25～2025/5/31）<[GitHub](2025/May/4th.md) | Zenn>
+    - 第３週（2025/5/18～2025/5/24）<[GitHub](2025/May/3rd.md) | Zenn>
+    - 第２週（2025/5/11～2025/5/17）<[GitHub](2025/May/2nd.md) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
     - [第１週（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24)
   - [4月](https://zenn.dev/tatsukiyoshi/articles/ca721a62cbc949)
     - [第４週（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049)
@@ -80,3 +83,7 @@
     - [第５週（2024/3/25～3/31）](https://note.com/taishow2020/n/ne6dade977146)
     - [第４週（2024/3/18～3/24）](https://note.com/taishow2020/n/n0aa1d7326546)
     - [第３週（2024/3/11～3/17）](https://note.com/taishow2020/n/n524826153c94)
+
+##  履歴
+- Noteに投稿していたものの、技術に特化したサイトではないため、Zennに投稿するように変更
+- Zennでは、連続投稿を制約するように変更となったため、GitHub Pages内にまとめるように変更
