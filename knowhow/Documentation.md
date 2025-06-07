@@ -21,7 +21,7 @@
         "markdown-pdf.StatusbarMessageTimeout": 60000
         ```
       - PDF出力でエラーとなる場合、ChromiumかGoogle Chromeのパスを設定する
-        ![Executable Path](../images/VisualStudioCode/20240831_Markdown-pdf_ChromePath.png)
+        ![Executable Path](/images/VisualStudioCode/20240831_Markdown-pdf_ChromePath.png)
     - Draw.io Integration
     - Marp for Visual Studio Code
   - PlantUML

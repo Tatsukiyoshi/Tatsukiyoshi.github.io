@@ -20,19 +20,19 @@
 ##  ノウハウ
 ### [Java Platform Support](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
   - VSCode拡張機能からインストール
-    ![Java Platform Support](../images/Java/20231022_JavaPlatformSupport.png)
+    ![Java Platform Support](/images/Java/20231022_JavaPlatformSupport.png)
   - インストールすると、JDKがインストール済みかチェック<BR>
     インストールしていないので、エラーメッセージが出る
-    ![No JDK](../images/Java/20231022_JavaPlatformSupport_NoJDK.png)
+    ![No JDK](/images/Java/20231022_JavaPlatformSupport_NoJDK.png)
   - OKをクリックした後、右下にJDKのダウンロードを促す通知が出る！
-    ![JDK Downloader通知](../images/Java/20231022_JavaPlatformSupport_NoJDK2.png)
+    ![JDK Downloader通知](/images/Java/20231022_JavaPlatformSupport_NoJDK2.png)
   - 「Downloade JDK and setup automatically」をクリックすると、「JDK Downloader」画面が表示される
-    ![JDK Downloader](../images/Java/20231022_JavaPlatformSupport_JDKDownloader.png)
+    ![JDK Downloader](/images/Java/20231022_JavaPlatformSupport_JDKDownloader.png)
   - 「Download Oracle OpenJDK」を選択すると、バージョン等が表示される <BR>
     問題なければ、「Install and start setup」をクリック
-    ![JDK Downloader2](../images/Java/20231022_JavaPlatformSupport_JDKDownloader2.png)
+    ![JDK Downloader2](/images/Java/20231022_JavaPlatformSupport_JDKDownloader2.png)
   - インストール結果が右下に通知され、完了したので、「Reload now」をクリックして、再読み込みを行う <BR>
-    ![Restart](../images/Java/20231022_JavaPlatformSupport_JDKDownloader3.png)
+    ![Restart](/images/Java/20231022_JavaPlatformSupport_JDKDownloader3.png)
 
   <details>
   <summary>VSCodeログ</summary>
@@ -392,7 +392,7 @@
   - JSTLを利用する場合、ビルドバスにJARファイルの登録が必要
     - [Jakarta Standard Tag Library API](https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api)
     - [Jakarta Standard Tag Library Implementation](https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl)
-    ![ビルドパスへの登録](../images/eclipse/jstl_taglib.png)
+    ![ビルドパスへの登録](/images/eclipse/jstl_taglib.png)
   - [JSTLを用いたjspで起こるエラーを解決したい](https://teratail.com/questions/350891)
     - [「http://java.sun.com/jsp/jstl/core」のタグライブラリ記述子が見つかりません　の解決方法](https://qiita.com/cuore623/items/d894ab8f986904786f12)
     - [JSTL 1.2.5](https://mvnrepository.com/artifact/org.glassfish.web/javax.servlet.jsp.jstl/1.2.5)
@@ -521,10 +521,10 @@
 
 ###  Pleiades
   - pleiades 2025-03
-    ![Eclipse 4.35](../images/eclipse/20250321_2025-03_Eclipse4.35.png)
+    ![Eclipse 4.35](/images/eclipse/20250321_2025-03_Eclipse4.35.png)
     - Tomcat 10.1.39
   - Pleiades 2024-03
-    ![Eclipse 4.31](../images/eclipse/20240504_2024-03_Eclipse4.31.png)
+    ![Eclipse 4.31](/images/eclipse/20240504_2024-03_Eclipse4.31.png)
   - Pleiades 2022-06およびTomcat 10.0.20での対応
     - サーブレット等の作成は、[新規]-[その他]から行う。
   - バージョン移行
@@ -538,41 +538,41 @@
     1.  ワークスペースが表示される。
   - Windows Defender除外チェック <BR />
     Windows Defenderのチェック対象から除外するよう設定する
-    ![除外チェック](../images/eclipse/Windows_Defender_Exclusion_Check.png)
+    ![除外チェック](/images/eclipse/Windows_Defender_Exclusion_Check.png)
   - エンコード設定
     - 日本語を入出力する際、実行構成の設定を行う。
-      ![実行構成](../images/eclipse/eclipse_encode.png)
+      ![実行構成](/images/eclipse/eclipse_encode.png)
       - 共通タブのエンコードにて、その他を選択し、ドロップダウンリストから"MS932"を選択する。
   - Tomcat 実行構成
     - ランタイム環境
       - インストール可能な最新バージョンをインストールして設定する
-        ![ランタイム環境](../images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28.png)
+        ![ランタイム環境](/images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28.png)
     - サーバー
       - 設定したランタイム環境でサーバーを作成する
-        ![サーバー設定](../images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28_ServerSetup.png)
+        ![サーバー設定](/images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28_ServerSetup.png)
     - 起動時のメッセージが日本語のため、エンコードを「システム・エンコーディングを使用」を選択する。
-      ![実行構成](../images/eclipse/tomcat_configuration.png)
+      ![実行構成](/images/eclipse/tomcat_configuration.png)
 ### Jenkins
   - Jenkinsのセットアップ（LTS 2.479.2）
     - アンロック
-      ![Unlock Jenkins](../images/Java/20241207_Unlock_Jenkins.png)
+      ![Unlock Jenkins](/images/Java/20241207_Unlock_Jenkins.png)
     - プラグインのセットアップ
-      ![Plugin Setup](../images/Java/20241207_Jenkins_Plugin_Setup.png)
+      ![Plugin Setup](/images/Java/20241207_Jenkins_Plugin_Setup.png)
     - admin/admin
   - Jenkinsのセットアップ（LTS 2.401.3）
     - 非推奨のサービス起動でセットアップ
-      ![ダッシュボード](../images/jenkins/Jenkins_Dashboard.png)
+      ![ダッシュボード](/images/jenkins/Jenkins_Dashboard.png)
     - admin/admin
   - ポート番号変更
     - インストール時に変更する場合
-      ![Port Selection](../images/jenkins/Jenkins_Port.png)
+      ![Port Selection](/images/jenkins/Jenkins_Port.png)
     - jenkins.xmlで変更する場合
       ```
       <arguments>-Xrs 省略 --httpPort=8082 省略</arguments>
       ```
   - JUnitはじめ、プラグインの確認（Java本格入門 13章）
     - ビルド実行を確認するも、サンプルが良くないらしく、エラーになってしまう。環境としてはできているので、OKとする。
-      ![ビルド実行](../images/jenkins/Jenkins_Build.png)
+      ![ビルド実行](/images/jenkins/Jenkins_Build.png)
 ### Tomcat
   - [WindowsでインストールしたTomcatの起動ポートを変更する](https://mr-star.hatenablog.com/entry/tomcat/005)
     - ポート番号変更(${TOMCAT_HOME}/conf/server.xml)

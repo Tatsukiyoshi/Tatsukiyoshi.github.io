@@ -2,7 +2,7 @@
 ##  SQLServer Management Studio
 - SSMS 21.0.73 Preview 2.1
   - 64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-    ![SSMS21 Preview 2.1](../images/Database/20250105_SSMS21.0.73_Preview2.1.png)
+    ![SSMS21 Preview 2.1](/images/Database/20250105_SSMS21.0.73_Preview2.1.png)
   - コンポート名とバージョン情報
     ```
     SQL Server Management Studio						21.0.73.35617.110

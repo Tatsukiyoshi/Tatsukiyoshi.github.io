@@ -11,7 +11,7 @@
 - PowerShellのプロファイル
 
   作成したスクリプトを簡単に呼び出せるよう、PowerShellにプロファイルを設定。
-  ![プロファイル設定](../images/OCI/PowerShell_OCI_Ubuntu_20230224_231606.png)
+  ![プロファイル設定](/images/OCI/PowerShell_OCI_Ubuntu_20230224_231606.png)
 
   プロファイルにしておけば、PowerShellを起動して、プロファイルを選択することで接続できる。
-  ![プロファイル選択](../images/OCI/PowerShell_Profile_20230224_232526.png)
+  ![プロファイル選択](/images/OCI/PowerShell_Profile_20230224_232526.png)

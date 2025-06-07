@@ -33,9 +33,9 @@
         ```
 ### numpy/scikit-learn
   - VSCodeで実行してみた
-    ![グラフ表示](../images/python/20240102_matplotlib.png)
+    ![グラフ表示](/images/python/20240102_matplotlib.png)
   - Jupyter Notebookを使ってみた
-    ![Jupyter Notebook](../images/python/20240102_jupyter_notebook.png)
+    ![Jupyter Notebook](/images/python/20240102_jupyter_notebook.png)
 
 ### Django
   - [Django Tutorial](https://docs.djangoproject.com/ja/4.1/intro/tutorial01/)

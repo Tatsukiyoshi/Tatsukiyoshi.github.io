@@ -222,7 +222,7 @@
       sudo apt install clang cmake ninja-build
       ```
     - iOS Simulator on Mac OS
-      ![iOS Simulator](../images/flutter/20241229_iOS_Simulator.png)
+      ![iOS Simulator](/images/flutter/20241229_iOS_Simulator.png)
   - flutter 3.24.3 / Android Studio Ladybug
     - Java 21
     - Gradle 8.10
@@ -261,19 +261,19 @@
           ```
       - Functions（関数）・・・Blazeプランに変更しないと利用できない
         - デプロイされている関数を一覧で確認
-          ![一覧](../images/flutter/20231202_firebase_functions.png)
+          ![一覧](/images/flutter/20231202_firebase_functions.png)
         - Timerトリガの関数
           - Cloud Schedulerで実行周期を確認
-            ![Cloud Scheduler](../images/flutter/20231202_firebase_timer_trigger_functions.png)
+            ![Cloud Scheduler](/images/flutter/20231202_firebase_timer_trigger_functions.png)
     - [flutter icon](https://icons8.jp/icons/set/flutter)
     - 64Kを超えるメソッドを使用する
       [Multidex Support](https://docs.flutter.dev/deployment/android#enabling-multidex-support)
   - カスタムフォントの利用
     [公式ドキュメント](https://docs.flutter.dev/cookbook/design/fonts)
     - Raleway and Roboto Mono(Google Fonts)
-      ![Google Fonts](../images/flutter/Custom_Fonts_Google.png)
+      ![Google Fonts](/images/flutter/Custom_Fonts_Google.png)
     - LINESeed JP
-      ![LINESeed JP](../images/flutter/Custom_Fonts_LINE.png)
+      ![LINESeed JP](/images/flutter/Custom_Fonts_LINE.png)
   - Android Studio Update
     - [Kotlin dist downloading failed](https://github.com/flutter/flutter/issues/126248)
 

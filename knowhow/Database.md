@@ -119,7 +119,7 @@
               ```
               - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
   - MongoDB for VS Codeをインストールしておくとよい
-    ![VSCode](../images/MongoDB/20231216_MongoDB_VSCode.png)
+    ![VSCode](/images/MongoDB/20231216_MongoDB_VSCode.png)
 ### [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-2022)
   - [接続文字列](https://learn.microsoft.com/ja-jp/sql/connect/ado-net/connection-string-syntax?view=sql-server-ver16)
     ```
@@ -132,8 +132,8 @@
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
       - SSMS 21.0.1 / Visual Studio Installerでの Preview版からの更新不可 
-        ![SSMS 21.0.1](../images/Database/20250525_SSMS21.0.1.png)
-        ![SSMS 21.0.1 Installing](../images/Database/20250525_SSMS21.0.1_Installing.png)
+        ![SSMS 21.0.1](/images/Database/20250525_SSMS21.0.1.png)
+        ![SSMS 21.0.1 Installing](/images/Database/20250525_SSMS21.0.1_Installing.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
     - サーバ認証について、Windows認証モードとSQL Server認証モードが選択されているかを確認する
     - SQL Serverを再起動する
@@ -201,15 +201,15 @@
     ```
   - MySQL Shell for VS Code
     - VSCodeユーザ向けにもユーティリティがある！
-      ![Main](../images/Database/20240824_MySQL_Shell_for_VSCode.png)
+      ![Main](/images/Database/20240824_MySQL_Shell_for_VSCode.png)
     - 簡単にテーブルのデータを確認できる
-      ![Show Data](../images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
+      ![Show Data](/images/Database/20240824_MySQL_Shell_for_VSCode_ShowData.png)
   - [MySQL Community Server Container](https://dev.mysql.com/doc/refman/8.0/ja/docker-mysql-getting-started.html)
     - [docker hub](https://hub.docker.com/_/mysql)
   - MySQL Community Server 8.4.2 (LTS)
     - Oracleプロファイル作成のうえ、ダウンロード
     - インストールすると、MySQL Configuratorで設定する
-      ![MySQL Configurator](../images/Database/20240824_MySQL_Configurator_of_MySQL_Community_Server8.4.2.png)
+      ![MySQL Configurator](/images/Database/20240824_MySQL_Configurator_of_MySQL_Community_Server8.4.2.png)
       root/mysqlsuper
 
     <details>
