@@ -12,8 +12,8 @@
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
 ```
-言語                                 |最新トピック||
--------------------------------------|----------|--------
+Language                            |Updated   |Detail
+------------------------------------|----------|--------
 [.NET](/knowhow/NET.md)             |2025/05/29|Update: Visual Studio 2022 17.14.3 Preview 1.0
 [Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](/knowhow/Kotlin.md)        |2025/06/01|Update: Android Studio Narwhal 2025.1.2 Canary 3
@@ -25,10 +25,10 @@
 [Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 
-言語共通                                    |日付      |トピック
--------------------------------------------|----------|--------
+Common                                    |Updated   |Detail
+------------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database.md)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
-[Container](/knowhow/Container.md) |2025/03/13|Rancher Desktop 1.18.2
+[Container](/knowhow/Container.md)        |2025/06/08|Update: Rancher Desktop 1.19.1
 [Documentation](/knowhow/Documentation.md)|-
 [Exercism](/knowhow/Exercism.md)          |2024/08/03|tournament@Rust
 
