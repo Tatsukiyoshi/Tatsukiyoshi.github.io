@@ -42,8 +42,7 @@
       |                |        |- Vite 6.2.3                    |2025/03/29
       |                |        |- [React 19.1.0](#react)        |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)      |2025/03/29
-      |                |Web FW  |[Angular 20.0.0](#angular)      |[2025/06/01](https://angular.dev/)
-      |                |        |Angular 20.0.0-rc.0             |[2025/05/10](https://next.angular.dev/)
+      |                |Web FW  |[Angular 20.0.2](#angular)      |[2025/06/08](https://angular.dev/)
       |                |        |[Astro 5.8.1](#astro)           |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0                  |2025/04/03
       |                |        |- Bun 1.2.15                    |2025/05/22
@@ -608,6 +607,19 @@
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 20.0.2対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |jasmine-core             |5.8.0
+      1.  Angular 20.0.0対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |zone.js                  |0.15.1
+            |@types/jasmine           |5.1.8
+            |jasmine-core             |5.7.1
+            |typescript               |5.8.3
       1.  Angular 19.2.0対応
           - Update Dependencies
             |Component                |Version
