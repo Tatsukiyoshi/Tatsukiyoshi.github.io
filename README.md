@@ -86,9 +86,9 @@ OS                                 |Hardware            |Language
       ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
   - ノウハウ
     - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
-    - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
     - [フォントの変更](/knowhow/sub/windows/font.md)
+    - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize.md)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows.md))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
@@ -98,6 +98,7 @@ OS                                 |Hardware            |Language
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](/images/Windows/20250603_Windows11_Build26200.png)    
   - [Canary Channel](https://aka.ms/CanaryLatest)
+  - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl.md))
     - [WSL 2.5.7.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/05/28 auto updated from 2.5.6.0>>*</span>
