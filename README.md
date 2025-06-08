@@ -101,19 +101,19 @@ OS                                 |Hardware            |Language
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl.md))
-    - [WSL 2.5.7.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/05/28 auto updated from 2.5.6.0>>*</span>
+    - [WSL 2.5.8.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/03 auto updated from 2.5.7.0>>*</span>
 
       <details>
       <summary>カーネルバージョン: 6.6.87.1-1</summary>
 
       ```
-      WSL バージョン: 2.5.7.0
+      WSL バージョン: 2.5.8.0
       カーネル バージョン: 6.6.87.1-1
       WSLg バージョン: 1.0.66
       MSRDC バージョン: 1.2.6074
       Direct3D バージョン: 1.611.1-81528511
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-      Windows バージョン: 10.0.26200.5603
+      Windows バージョン: 10.0.26200.5622
       ```
       </details>
 
