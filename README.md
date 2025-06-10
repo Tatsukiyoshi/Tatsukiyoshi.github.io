@@ -92,11 +92,14 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows.md))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5622 (Cumulative Update) <span style="color: red;">*<<2025/06/03 updated from Build 26200.5603 >>*</span>
-      ![Cumulative Update](/images/Windows/20250603_WindowsUpdate_DevChannel.png)
+    - Build 26200.5641 (Cumulative Update) <span style="color: red;">*<<2025/06/11 updated from Build 26200.5622 >>*</span>
+      ![Cumulative Update](/images/Windows/20250611_WindowsUpdate_DevChannel.png)
       - AIコンポーネントも更新
+      - 更新後の開始画面に加え、リコールの開始画面
+        ![Startup](/images/Windows/20250611_CopilotPC_Startup.png)
+        ![ReCall](/images/Windows/20250611_ReCall_Startup.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250603_Windows11_Build26200.png)    
+        ![Version Information](/images/Windows/20250611_Windows11_Build26200.png)    
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
