@@ -14,7 +14,7 @@
   |                |- .NET 8.0.16                                    |[2025/05/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2022 17.14.5 Preview 1.0 |[2025/06/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
-  |                |- .NET 10.0.0-preview.4.25258.110                |[2025/05/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |- .NET 10.0.0-preview.5.25277.114                |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.4](#maui)               |[2025/05/17](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.3.11                   |2025/02/12
   |                |- .NET 9.0.6                                     |2025/06/11
@@ -49,11 +49,11 @@
       単語レベルでの間違いを指摘し、修正候補を提示する。
       ![スペルチェッカ](/images/VisualStudio/20230121_SpellChecker.png)
 ### .NET
-  - [.NET 10.0.0-preview4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2025/05/17* <span style="color: red;">Updated!</span>)
+  - [.NET 10.0.0-preview5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2025/06/11* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 10.0"を指定することで実現
       ![.NET 10 with VS2022](/images/VisualStudio/20250227_VS2022_dotnet10.png)
     - ターゲットフレームワークである".NET 10.0"のバージョンが表示できる
-      ![.NET 10.0.0-preview4](/images/VisualStudio/20250517_dotnet10_Preview4.png)
+      ![.NET 10.0.0-preview5](/images/VisualStudio/20250611_dotnet10_Preview5.png)
   - [.NET 9.0.6](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2025/06/11* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](/images/VisualStudio/20240314_VS2022_dotnet9.png)
@@ -79,72 +79,73 @@
 
   ```
   .NET SDK:
-  Version:           10.0.100-preview.4.25258.110
-  Commit:            c22dcd0c7a
-  Workload version:  10.0.100-preview.4.25263.1
-  MSBuild version:   17.15.0-preview-25258-110+c22dcd0c7
+  Version:           10.0.100-preview.5.25277.114
+  Commit:            ddf39a1b46
+  Workload version:  10.0.100-manifests.a07d1f1a
+  MSBuild version:   17.15.0-preview-25277-114+ddf39a1b4
 
   ランタイム環境:
   OS Name:     Windows
   OS Version:  10.0.26200
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.4.25258.110\
+  Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.5.25277.114\
 
   インストール済みの .NET ワークロード:
-  [android]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36203.30
-    Manifest Version:    36.0.0-preview.4.80/10.0.100-preview.4
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.android\36.0.0-preview.4.80\WorkloadManifest.json
+  [ios]
+    Installation Source: VS 17.14.36203.30
+    Manifest Version:    18.2.10695-net10-p3/10.0.100-preview.3
+    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.ios\18.2.10695-net10-p3\WorkloadManifest.json   
     Install Type:              Msi
 
-  [ios]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36203.30
-    Manifest Version:    18.4.10471-net10-p4/10.0.100-preview.4
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.ios\18.4.10471-net10-p4\WorkloadManifest.json   
+  [android]
+    Installation Source: VS 17.14.36203.30
+    Manifest Version:    36.0.0-preview.3.22/10.0.100-preview.3
+    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.android\36.0.0-preview.3.22\WorkloadManifest.json
     Install Type:              Msi
 
   [maccatalyst]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36203.30
-    Manifest Version:    18.4.10471-net10-p4/10.0.100-preview.4
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.maccatalyst\18.4.10471-net10-p4\WorkloadManifest.json
+    Installation Source: VS 17.14.36203.30
+    Manifest Version:    18.2.10695-net10-p3/10.0.100-preview.3
+    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.maccatalyst\18.2.10695-net10-p3\WorkloadManifest.json
     Install Type:              Msi
 
   [maui-windows]
-    Installation Source: SDK 10.0.100-preview.4, VS 17.14.36203.30
-    Manifest Version:    10.0.0-preview.4.25263.4/10.0.100-preview.4
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.4\microsoft.net.sdk.maui\10.0.0-preview.4.25263.4\WorkloadManifest.json
+    Installation Source: VS 17.14.36203.30
+    Manifest Version:    10.0.0-preview.3.25208.1/10.0.100-preview.3
+    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.3\microsoft.net.sdk.maui\10.0.0-preview.3.25208.1\WorkloadManifest.json
     Install Type:              Msi
 
   Configured to use workload sets when installing new manifests.
+  Workloads are configured to install and update using workload versions, but none were found. Run "dotnet workload restore" to install a workload version.
 
   Host:
-    Version:      10.0.0-preview.4.25258.110
+    Version:      10.0.0-preview.5.25277.114
     Architecture: x64
-    Commit:       c22dcd0c7a
+    Commit:       ddf39a1b46
 
   .NET SDKs installed:
     8.0.407 [C:\Program Files\dotnet\sdk]
     9.0.202 [C:\Program Files\dotnet\sdk]
     9.0.301 [C:\Program Files\dotnet\sdk]
-    10.0.100-preview.4.25258.110 [C:\Program Files\dotnet\sdk]
+    10.0.100-preview.5.25277.114 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.AspNetCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 10.0.0-preview.4.25258.110 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.NETCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 10.0.0-preview.4.25258.110 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
     Microsoft.WindowsDesktop.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 10.0.0-preview.4.25258.110 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
