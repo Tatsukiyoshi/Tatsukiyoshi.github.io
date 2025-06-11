@@ -17,7 +17,7 @@
   |                |[Android Studio Narwhal 2025.1.2 Canary 4](#android-studio) |[2025/06/08](https://developer.android.com/studio)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.1.2                                 |2025/05/29
+  |                |- Android Emulator v.36.1.4                                 |2025/06/11
 
 ##  ノウハウ
 ### IntelliJ IDEA
