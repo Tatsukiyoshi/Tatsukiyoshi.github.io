@@ -1,4 +1,7 @@
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14.5 Preview 1.0 対応
+    - 17.14.5 Preview 1.0 / MAUI 10.0.0-preview.5.25306.5 / Pixel 9 Pro API 36(Android 16)
+      ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250612_VS2022_17.14.5_Preview1.0_MAUI10.0.0preview5_Android16.png)
   - Visual Studio 2022 17.14.3 Preview 1.0
     ![VS2022 17.14.3 preview 1.0](/images/VisualStudio/20250529_Update_VS2022_17.14.3_Preview1.0.png)
   - Visual Studio 2022 17.14.2 Preview 1.0
