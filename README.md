@@ -19,7 +19,7 @@ Language                            |Updated   |Detail
 [Kotlin](/knowhow/Kotlin.md)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
 [Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript.md)|2025/06/08|Update: Angular 20.0.2
+[TypeScript](/knowhow/TypeScript.md)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
 [Python](/knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
