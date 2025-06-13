@@ -50,9 +50,10 @@
       |                |        |- React 19.1.0                  |2025/04/12
       |                |        |- Bun 1.2.12                    |2025/05/10
       |                |        |[Nuxt 3.16.0](#nuxt)            |[2025/03/23](https://nuxt.com/)
-      |                |        |React Native Windows 0.78.0     |[2025/03/02](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.2.4                     |2025/03/01
-      |                |        |- React Native 0.78.0           |2025/03/02
+      |                |        |React Native Windows 0.79.0     |[2025/06/13](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.16                    |2025/06/13
+      |                |        |- React Native 0.79.3           |2025/06/13
+      |                |        |- React 19.0.0                  |2025/06/13
       |                |        |- Windows SDK 10.0.26100        |2025/01/18
       |                |        |[Svelte 5.33.10](#svelte)       |[2025/05/31](https://svelte.dev/)
       |                |        |- Bun 1.2.15                    |2025/05/22
@@ -352,7 +353,10 @@
           ```sh
           bun windows
           ```
-          ![WindowsSample](/images/JavaScript/20250302_ReactNativeWindows0.78.png)
+          - React Native Windows 0.79.0
+            - React Native 0.79.3
+            - React 19.0.0
+              ![WindowsSample](/images/JavaScript/20250613_ReactNativeWindows0.79.0.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
