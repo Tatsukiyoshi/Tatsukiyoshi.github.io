@@ -62,7 +62,7 @@
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
-      |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/05/20](https://reactnative.dev/)
+      |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
       |                |        |- Bun 1.2.16                |2025/06/13
 
   1.  Mac OS

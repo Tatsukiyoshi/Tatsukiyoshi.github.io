@@ -6,7 +6,7 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/1～2025/6/7）](/digest/2025/June/1st.md) / [一覧](/digest/list.md)
+[最新ダイジェスト（2025/6/8～2025/6/14）](/digest/2025/June/2nd.md) / [一覧](/digest/list.md)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
