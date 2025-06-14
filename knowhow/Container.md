@@ -2,10 +2,11 @@
 ##  環境
   |Machine        |Env／FW                 |Last Updated
   |---------------|------------------------|----------
-  |Windows Insider|Rancher Desktop 1.18.2  |[2025/03/13](https://rancherdesktop.io/)
+  |Windows Insider|Rancher Desktop 1.19.1  |[2025/06/08](https://rancherdesktop.io/)
 
 ##  ノウハウ
-- [Rancher Desktop](https://rancherdesktop.io/)
+- [Rancher Desktop 1.19.1](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/06/08 from 1.18.2**</span>
+  ![Update](/images/Container/20250608_RancherDesktop1.19.1.png)
   - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
   - MySQL公式イメージでコンテナ化
     ```

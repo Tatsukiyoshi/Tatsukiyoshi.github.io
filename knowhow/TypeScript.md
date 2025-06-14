@@ -22,48 +22,48 @@
       |                               |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
 
   1.  Windows
-      |Machine         |Category|Env / FW                        |Last Updated
-      |----------------|--------|--------------------------------|----------
-      |Windows         |Common  |Node.js 22.12.0                 |2024/12/11
-      |                |        |[Bun 1.2.4](#bun)               |[2025/03/01](https://bun.sh/)
-      |                |        |Vite 6.2.1                      |[2025/03/08](https://vitejs.dev/)
-      |                |FW      |[React 19.0.0](#react)          |[2024/12/12](https://react.dev/)
-      |                |        |- Bun 1.1.38                    |2024/11/29
-      |                |        |[Deno 2.3.1](#deno)             |[2025/05/01](https://deno.land/)
-      |                |        |- [fresh 1.7.3](#fresh)         |[2024/10/26](https://fresh.deno.dev/)
-      |Windows Insider |Common  |Node.js 24.1.0                  |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.14](#bun)              |[2025/05/22](https://bun.sh/)
-      |                |        |Vite 6.3.5                      |[2025/05/21](https://vitejs.dev/)
-      |                |Library |[TypeORM 0.3.21](#typeorm)      |[2025/03/16](https://typeorm.io/)
-      |                |        |[Prisma 6.5.0](#prisma)         |[2025/03/19](https://www.prisma.io/)
-      |                |        |[Sequelize 6.37.6](#seq)        |[2025/03/19](https://sequelize.org/)
-      |                |        |[D3 7.9.0](#d3)                 |[2025/03/29](https://d3js.org/)
-      |                |        |- Bun 1.2.7                     |2025/03/29
-      |                |        |- Vite 6.2.3                    |2025/03/29
-      |                |        |- [React 19.1.0](#react)        |2025/03/29
-      |                |        |- [Svelte 5.25.3](#svelte)      |2025/03/29
-      |                |Web FW  |[Angular 20.0.0](#angular)      |[2025/06/01](https://angular.dev/)
-      |                |        |Angular 20.0.0-rc.0             |[2025/05/10](https://next.angular.dev/)
-      |                |        |[Astro 5.8.1](#astro)           |[2025/05/31](https://astro.build/)
-      |                |        |- React 19.1.0                  |2025/04/03
-      |                |        |- Bun 1.2.15                    |2025/05/22
-      |                |        |[Next.js 15.3.2](#nextjs)       |[2025/05/10](https://nextjs.org/)
-      |                |        |- React 19.1.0                  |2025/04/12
-      |                |        |- Bun 1.2.12                    |2025/05/10
-      |                |        |[Nuxt 3.16.0](#nuxt)            |[2025/03/23](https://nuxt.com/)
-      |                |        |React Native Windows 0.78.0     |[2025/03/02](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.2.4                     |2025/03/01
-      |                |        |- React Native 0.78.0           |2025/03/02
-      |                |        |- Windows SDK 10.0.26100        |2025/01/18
-      |                |        |[Svelte 5.33.10](#svelte)       |[2025/05/31](https://svelte.dev/)
-      |                |        |- Bun 1.2.15                    |2025/05/22
-      |                |        |- Vite 6.3.5                    |2025/05/21
-      |                |        |[Vue 3.5.16](#vue)              |[2025/05/31](https://jp.vuejs.org/)
-      |                |        |- Deno 2.3.5                    |2025/05/31
-      |                |        |- Bun 1.2.15                    |2025/05/22
-      |                |        |- Vite 6.3.5                    |2025/05/21
-      |                |Mobile  |[React Native 0.80.0-rc.2](#rn) |[2025/05/20](https://reactnative.dev/)
-      |                |        |- Bun 1.2.13                    |2025/05/11
+      |Machine         |Category|Env / FW                    |Last Updated
+      |----------------|--------|----------------------------|----------
+      |Windows         |Common  |Node.js 22.12.0             |2024/12/11
+      |                |        |[Bun 1.2.4](#bun)           |[2025/03/01](https://bun.sh/)
+      |                |        |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
+      |                |FW      |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
+      |                |        |- Bun 1.1.38                |2024/11/29
+      |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
+      |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
+      |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
+      |                |        |[Bun 1.2.16](#bun)          |[2025/06/13](https://bun.sh/)
+      |                |        |Vite 6.3.5                  |[2025/05/21](https://vitejs.dev/)
+      |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
+      |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
+      |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
+      |                |        |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)
+      |                |        |- Bun 1.2.7                 |2025/03/29
+      |                |        |- Vite 6.2.3                |2025/03/29
+      |                |        |- [React 19.1.0](#react)    |2025/03/29
+      |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
+      |                |Web FW  |[Angular 20.0.2](#angular)  |[2025/06/08](https://angular.dev/)
+      |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
+      |                |        |- React 19.1.0              |2025/04/03
+      |                |        |- Bun 1.2.15                |2025/05/22
+      |                |        |[Next.js 15.3.2](#nextjs)   |[2025/05/10](https://nextjs.org/)
+      |                |        |- React 19.1.0              |2025/04/12
+      |                |        |- Bun 1.2.12                |2025/05/10
+      |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
+      |                |        |React Native Windows 0.79.0 |[2025/06/13](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.16                |2025/06/13
+      |                |        |- React Native 0.79.3       |2025/06/13
+      |                |        |- React 19.0.0              |2025/06/13
+      |                |        |- Windows SDK 10.0.26100    |2025/01/18
+      |                |        |[Svelte 5.33.10](#svelte)   |[2025/05/31](https://svelte.dev/)
+      |                |        |- Bun 1.2.15                |2025/05/22
+      |                |        |- Vite 6.3.5                |2025/05/21
+      |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
+      |                |        |- Deno 2.3.5                |2025/05/31
+      |                |        |- Bun 1.2.15                |2025/05/22
+      |                |        |- Vite 6.3.5                |2025/05/21
+      |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
+      |                |        |- Bun 1.2.16                |2025/06/13
 
   1.  Mac OS
       |Machine    |Category|Env / FW                 |Last Updated
@@ -313,9 +313,11 @@
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
+        - React Native 0.80.0
+          - React 19.1.0
+            ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
         - React Native 0.80.0-rc.2
           - React 19.1.0
-            ![React Native 0.80.0-rc.2 Windows](/images/JavaScript/20250520_ReactNative_0.80.0-rc.2.png)
             ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
         - iOS
           - iOS エミュレータを起動
@@ -353,7 +355,10 @@
           ```sh
           bun windows
           ```
-          ![WindowsSample](/images/JavaScript/20250302_ReactNativeWindows0.78.png)
+          - React Native Windows 0.79.0
+            - React Native 0.79.3
+            - React 19.0.0
+              ![WindowsSample](/images/JavaScript/20250613_ReactNativeWindows0.79.0.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
@@ -608,6 +613,19 @@
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 20.0.2対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |jasmine-core             |5.8.0
+      1.  Angular 20.0.0対応
+          - Update Dependencies
+            |Component                |Version
+            |-------------------------|--------
+            |zone.js                  |0.15.1
+            |@types/jasmine           |5.1.8
+            |jasmine-core             |5.7.1
+            |typescript               |5.8.3
       1.  Angular 19.2.0対応
           - Update Dependencies
             |Component                |Version

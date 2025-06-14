@@ -6,29 +6,29 @@
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/1～2025/6/7）](/digest/2025/June/1st.md) / [一覧](/digest/list.md)
+[最新ダイジェスト（2025/6/8～2025/6/14）](/digest/2025/June/2nd.md) / [一覧](/digest/list.md)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
 ```
-言語                                 |最新トピック||
--------------------------------------|----------|--------
-[.NET](/knowhow/NET.md)             |2025/05/29|Update: Visual Studio 2022 17.14.3 Preview 1.0
+Language                            |Updated   |Detail
+------------------------------------|----------|--------
+[.NET](/knowhow/NET.md)             |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
 [Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](/knowhow/Kotlin.md)        |2025/06/01|Update: Android Studio Narwhal 2025.1.2 Canary 3
+[Kotlin](/knowhow/Kotlin.md)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
 [Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript.md)|2025/06/01|Update: Node.js 24.1.0
+[TypeScript](/knowhow/TypeScript.md)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
 [Python](/knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 
-言語共通                                    |日付      |トピック
--------------------------------------------|----------|--------
+Common                                    |Updated   |Detail
+------------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database.md)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
-[Container](/knowhow/Container.md) |2025/03/13|Rancher Desktop 1.18.2
+[Container](/knowhow/Container.md)        |2025/06/08|Update: Rancher Desktop 1.19.1
 [Documentation](/knowhow/Documentation.md)|-
 [Exercism](/knowhow/Exercism.md)          |2024/08/03|tournament@Rust
 
@@ -42,7 +42,9 @@
 ```
 知識を形にする
 ```
-- [全角入力対応コンポーネント](/design/fullWidthInputField/design.md)
+- 全角入力対応コンポーネント
+  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
+  - [Vue.js用](/design/fullWidthInputField/design_vuejs.md)
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index.md)
 - [Reactアプリ](/design/reactApp/index.md) / [詳細検討](/design/reactApp/detail.md)
 - [課題整理 with Dioxus](/design/dioxusApp/system.md)
@@ -86,33 +88,37 @@ OS                                 |Hardware            |Language
       ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
   - ノウハウ
     - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
-    - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
     - [フォントの変更](/knowhow/sub/windows/font.md)
+    - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize.md)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows.md))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5622 (Cumulative Update) <span style="color: red;">*<<2025/06/03 updated from Build 26200.5603 >>*</span>
-      ![Cumulative Update](/images/Windows/20250603_WindowsUpdate_DevChannel.png)
+    - Build 26200.5641 (Cumulative Update) <span style="color: red;">*<<2025/06/11 updated from Build 26200.5622 >>*</span>
+      ![Cumulative Update](/images/Windows/20250611_WindowsUpdate_DevChannel.png)
       - AIコンポーネントも更新
+      - 更新後の開始画面に加え、リコールの開始画面
+        ![Startup](/images/Windows/20250611_CopilotPC_Startup.png)
+        ![ReCall](/images/Windows/20250611_ReCall_Startup.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250603_Windows11_Build26200.png)    
+        ![Version Information](/images/Windows/20250611_Windows11_Build26200.png)    
   - [Canary Channel](https://aka.ms/CanaryLatest)
+  - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl.md))
-    - [WSL 2.5.7.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/05/28 auto updated from 2.5.6.0>>*</span>
+    - [WSL 2.5.8.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/03 auto updated from 2.5.7.0>>*</span>
 
       <details>
       <summary>カーネルバージョン: 6.6.87.1-1</summary>
 
       ```
-      WSL バージョン: 2.5.7.0
+      WSL バージョン: 2.5.8.0
       カーネル バージョン: 6.6.87.1-1
       WSLg バージョン: 1.0.66
       MSRDC バージョン: 1.2.6074
       Direct3D バージョン: 1.611.1-81528511
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-      Windows バージョン: 10.0.26200.5603
+      Windows バージョン: 10.0.26200.5622
       ```
       </details>
 
@@ -362,7 +368,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code April 2025 Recovery 3(1.100.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/04 updated from 1.100.2>>*</span>
+- [Visual Studio Code May 2025(1.101.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/13 updated from 1.100.3>>*</span>
   - [以前の新機能](/history/VSCode.md)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions.md)にまとめている。<BR />

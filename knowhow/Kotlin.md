@@ -10,24 +10,24 @@
 ##  環境
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2 EAP 3](#intellij-idea)                |[2025/05/29](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 EAP 4](#intellij-idea)                |[2025/06/12](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.2 Canary 3](#android-studio) |[2025/06/01](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.2 Canary 4](#android-studio) |[2025/06/08](https://developer.android.com/studio)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.1.2                                 |2025/05/29
+  |                |- Android Emulator v.36.1.4                                 |2025/06/11
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
   - IntelliJ IDEA 2025.2 EAP (Ultimate Edition)
     ```
-    Build #IU-252.18003.27, built on May 29, 2025
-    Source revision: 5430804b7be54
+    Build #IU-252.19874.12, built on June 3, 2025
+    Source revision: 1acbaa7dccd8d
     ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
-    有効期限: June 28, 2025
+    有効期限: July 3, 2025
     Runtime version: 21.0.7+6-b1020.35 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -38,67 +38,72 @@
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      JavaScriptDebugger (252.18003.27)
-      org.jetbrains.completion.full.line (252.18003.27)
-      idea.plugin.protoeditor (252.18003.27)
-      com.intellij.copyright (252.18003.27)
-      org.editorconfig.editorconfigjetbrains (252.18003.27)
-      org.jetbrains.plugins.yaml (252.18003.27)
-      org.toml.lang (252.18003.27)
-      com.intellij.jsonpath (252.18003.27)
-      com.intellij.properties (252.18003.27)
-      com.intellij.velocity (252.18003.27)
-      com.intellij.liquibase (252.18003.27)
-      com.intellij.freemarker (252.18003.27)
-      com.intellij.cdi (252.18003.27)
-      com.intellij.javaee (252.18003.27)
-      com.intellij.javaee.extensions (252.18003.27)
-      com.intellij.javaee.el (252.18003.27)
-      com.intellij.spring.boot.initializr (252.18003.27)
-      com.intellij.spring.boot (252.18003.27)
-      com.intellij.spring.messaging (252.18003.27)
-      com.intellij.spring (252.18003.27)
-      com.intellij.spring.security (252.18003.27)
-      com.intellij.spring.data (252.18003.27)
-      org.jetbrains.kotlin (252.18003.27-IJ)
-      intellij.ktor (252.18003.27)
-      com.intellij.spring.cloud (252.18003.27)
-      com.intellij.spring.integration (252.18003.27)
-      com.jetbrains.restWebServices (252.18003.27)
-      com.jetbrains.restClient (252.18003.27)
-      XPathView (252.18003.27)
-      Docker (252.18003.27)
-      com.intellij.ml.llm (252.18003.27)
-      com.intellij.settingsSync (252.18003.27)
-      org.jetbrains.idea.maven (252.18003.27)
-      org.jetbrains.plugins.gradle (252.18003.27)
-      com.intellij.reactivestreams (252.18003.27)
-      org.jetbrains.android (252.18003.27)
-      intellij.webpack (252.18003.27)
-      Dart (252.18003.27)
-      JavaScript (252.18003.27)
-      com.intellij.flyway (252.18003.27)
-      JBoss (252.18003.27)
-      Tomcat (252.18003.27)
-      com.intellij.javaee.jpa (252.18003.27)
-      com.intellij.javaee.jakarta.data (252.18003.27)
-      com.intellij.javaee.reverseEngineering (252.18003.27)
-      com.intellij.micronaut (252.18003.27)
-      com.intellij.quarkus (252.18003.27)
-      com.intellij.hibernate (252.18003.27)
-      com.intellij.react (252.18003.27)
-      intellij.vitejs (252.18003.27)
-      com.intellij.thymeleaf (252.18003.27)
-      NodeJS (252.18003.27)
-      tslint (252.18003.27)
-      com.intellij.plugins.webcomponents (252.18003.27)
-      intellij.prettierJS (252.18003.27)
-      intellij.nextjs (252.18003.27)
-      Karma (252.18003.27)
-      org.jetbrains.security.package-checker (252.18003.27)
-      com.intellij.beanValidation (252.18003.27)
-      com.intellij.spring.mvc (252.18003.27)
-    Kotlin: 252.18003.27-IJ
+      JavaScriptDebugger (252.19874.12)
+      com.intellij.java (252.19874.12)
+      org.jetbrains.completion.full.line (252.19874.12)
+      com.intellij.notebooks.core (252.19874.19)
+      com.intellij.copyright (252.19874.12)
+      org.editorconfig.editorconfigjetbrains (252.19874.12)
+      org.jetbrains.plugins.yaml (252.19874.12)
+      org.toml.lang (252.19874.20)
+      com.intellij.jsonpath (252.19874.12)
+      com.intellij.properties (252.19874.19)
+      com.intellij.velocity (252.19874.20)
+      com.intellij.liquibase (252.19874.12)
+      com.intellij.freemarker (252.19874.12)
+      com.intellij.cdi (252.19874.12)
+      com.intellij.javaee (252.19874.12)
+      com.intellij.javaee.extensions (252.19874.12)
+      com.intellij.javaee.el (252.19874.12)
+      com.intellij.spring.boot.initializr (252.19874.12)
+      com.intellij.spring.boot (252.19874.12)
+      com.intellij.spring.messaging (252.19874.12)
+      com.intellij.spring (252.19874.12)
+      com.intellij.spring.security (252.19874.12)
+      com.intellij.spring.data (252.19874.12)
+      org.jetbrains.kotlin (252.19874.12-IJ)
+      intellij.ktor (252.19874.12)
+      com.intellij.spring.cloud (252.19874.12)
+      com.intellij.spring.integration (252.19874.12)
+      com.jetbrains.restWebServices (252.19874.12)
+      com.jetbrains.restClient (252.19874.12)
+      XPathView (252.19874.12)
+      intellij.jupyter (252.19874.19)
+      Docker (252.19874.20)
+      com.intellij.ml.llm (252.19874.12)
+      com.intellij.settingsSync (252.19874.12)
+      org.jetbrains.idea.maven (252.19874.12)
+      org.jetbrains.plugins.gradle (252.19874.12)
+      com.intellij.reactivestreams (252.19874.12)
+      org.jetbrains.android (252.19874.12)
+      intellij.webpack (252.19874.12)
+      Dart (252.19874.7)
+      JavaScript (252.19874.12)
+      com.intellij.flyway (252.19874.12)
+      JBoss (252.19874.12)
+      Tomcat (252.19874.12)
+      com.intellij.javaee.jpa (252.19874.12)
+      com.intellij.javaee.jakarta.data (252.19874.12)
+      com.intellij.javaee.reverseEngineering (252.19874.12)
+      com.intellij.micronaut (252.19874.12)
+      com.intellij.quarkus (252.19874.12)
+      com.intellij.hibernate (252.19874.12)
+      com.intellij.react (252.19874.12)
+      intellij.vitejs (252.19874.12)
+      com.intellij.thymeleaf (252.19874.12)
+      NodeJS (252.19874.12)
+      org.jetbrains.plugins.vue (252.19874.29)
+      tslint (252.19874.12)
+      org.jetbrains.plugins.node-remote-interpreter (252.19874.29)
+      com.deadlock.scsyntax (252.19874.29)
+      com.intellij.plugins.webcomponents (252.19874.12)
+      intellij.prettierJS (252.19874.12)
+      intellij.nextjs (252.19874.12)
+      Karma (252.19874.12)
+      org.jetbrains.security.package-checker (252.19874.20)
+      com.intellij.beanValidation (252.19874.12)
+      com.intellij.spring.mvc (252.19874.12)
+    Kotlin: 252.19874.12-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -181,7 +186,7 @@
           </component>
         </project>
         ```
-  - [履歴](/history/IntelliIDEA.md)
+  - [履歴](/history/IntelliJIDEA.md)
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
     1. PATH環境変数にJDKおよびkotlinのパスを設定する
@@ -240,9 +245,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 3
+  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 4
     ```
-    Build #AI-251.25410.109.2512.13571611, built on May 30, 2025
+    Build #AI-251.26094.121.2512.13602698, built on June 5, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -286,6 +291,8 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Feature Drop Canary 4
+        - Android Gradle Plugin 8.12.0-alpha03 -> 8.12.0-alpha04
       - Narwhal Feature Drop Canary 3
         - Android Gradle Plugin 8.12.0-alpha02 -> 8.12.0-alpha03
       - Narwhal Feature Drop Canary 2
