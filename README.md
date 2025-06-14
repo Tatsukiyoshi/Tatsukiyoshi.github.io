@@ -42,7 +42,9 @@ Common                                    |Updated   |Detail
 ```
 知識を形にする
 ```
-- [全角入力対応コンポーネント](https://github.com/Tatsukiyoshi/YaFullWidthInputField)
+- 全角入力対応コンポーネント
+  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
+  - [Vue.js用](/design/fullWidthInputField/design_vuejs.md)
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index.md)
 - [Reactアプリ](/design/reactApp/index.md) / [詳細検討](/design/reactApp/detail.md)
 - [課題整理 with Dioxus](/design/dioxusApp/system.md)
