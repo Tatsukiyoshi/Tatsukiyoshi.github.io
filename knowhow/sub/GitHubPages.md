@@ -242,3 +242,49 @@ LanyonはPooleをベースにしたテーマで、スライド式のサイドバ
     ```_config.yml``` ファイルでテーマが jekyll-theme-minimal に設定されていることを確認してください。
 
     これらの変更を適用し、Jekyllサイトをローカルでビルドするか、GitHub Pagesにプッシュすると、左側にサイドバーが表示され、その右側にメインコンテンツが表示されるようになります。CSSの値を調整して、お好みのデザインにカスタマイズしてください。
+
+##  Jekyllサーバのセットアップ
+1.  RubyInstallerのインストール
+
+1.  JekyllとBundlerのインストール
+    ```
+    gem install jekyll bundler
+    ```
+
+    ```sh
+    Successfully installed webrick-1.9.1
+    Successfully installed unicode-display_width-2.6.0
+    Successfully installed terminal-table-3.0.2
+    Successfully installed safe_yaml-1.0.5
+    Successfully installed rouge-4.5.2
+    Successfully installed forwardable-extended-2.6.0
+    Successfully installed pathutil-0.16.2
+    Successfully installed mercenary-0.4.0
+    Successfully installed liquid-4.0.4
+    Successfully installed kramdown-2.5.1
+    Successfully installed kramdown-parser-gfm-1.1.0
+    Successfully installed ffi-1.17.2-x64-mingw-ucrt
+    Successfully installed rb-inotify-0.11.1
+    Successfully installed rb-fsevent-0.11.2
+    Successfully installed listen-3.9.0
+    Successfully installed jekyll-watch-2.2.1
+    Successfully installed google-protobuf-4.31.1-x64-mingw-ucrt
+    Successfully installed sass-embedded-1.89.2-x64-mingw-ucrt
+    Successfully installed jekyll-sass-converter-3.1.0
+    Successfully installed concurrent-ruby-1.3.5
+    Successfully installed i18n-1.14.7
+    Building native extensions. This could take a while...
+    Successfully installed http_parser.rb-0.8.0
+    Building native extensions. This could take a while...
+    Successfully installed eventmachine-1.2.7
+    Successfully installed em-websocket-0.5.3
+    Successfully installed colorator-1.1.0
+    Successfully installed public_suffix-6.0.2
+    Successfully installed addressable-2.8.7
+    Successfully installed jekyll-4.4.1
+    Successfully installed bundler-2.6.9
+    29 gems installed
+
+    A new release of RubyGems is available: 3.6.7 → 3.6.9!
+    Run `gem update --system 3.6.9` to update your installation.
+    ```

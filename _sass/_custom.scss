@@ -1,0 +1,30 @@
+// 例: bodyの背景色を変更する
+body {
+  background-color: scale-color($body-background-color, $lightness: 5%);
+}
+
+// 例: 見出しの色を変更
+h1, h2, h3, h4, h5, h6 {
+  color: $header-heading-color;
+}
+
+// 例: リンクの色を変更する
+a {
+  color: $link-color;
+
+  &:hover {
+    color: darken($link-color, 20%);
+  }
+}
+
+// 例: コードブロックのスタイルを変更
+pre {
+  background-color: $code-background-color;
+  padding: 10px;
+  border: 1px solid $border-color;
+}
+
+img {
+  max-width: 80%; /* 横幅を80%に制限 */
+  height: auto; /* 高さを自動調整 */
+}
