@@ -1,4 +1,4 @@
-  - name: Build with Jekyll
+- name: Build with Jekyll
     uses: jekyll/github-pages-action@v2
     with:
       jekyll_version: 3.9.3 # または必要な Jekyll のバージョン
