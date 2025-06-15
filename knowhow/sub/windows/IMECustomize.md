@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Microsoft IMEのカスタマイズ
 ##  キーの割り当てをカスタマイズする
 - これで、WindowsとMacの違いを吸収する

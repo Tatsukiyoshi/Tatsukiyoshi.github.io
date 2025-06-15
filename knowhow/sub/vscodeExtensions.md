@@ -1,3 +1,6 @@
+---
+layout: page
+---
 *   共通
     *   AsciiDoc
     *   asciidoctor-vscode

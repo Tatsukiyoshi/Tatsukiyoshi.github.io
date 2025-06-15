@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # [Exercism](https://exercism.io/my/tracks)
 
   Exercism は、Kotlin プログラミングの最後に紹介されている学習サイトである。
@@ -17,6 +20,7 @@
   ```
 
 ##  環境
+
   |Machine    |Env／FW      |Last Updated
   |-----------|-------------|----------
   |InsiderDev |CLI 1.5.3    |[2024/06/26](https://exercism.org/docs/using/solving-exercises/working-locally)

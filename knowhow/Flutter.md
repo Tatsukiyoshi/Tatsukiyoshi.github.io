@@ -1,11 +1,16 @@
+---
+layout: page
+---
 # Dart & Flutter
 
 ##  独学書
+
   |Text                                                                                |Date      |Status
   |------------------------------------------------------------------------------------|----------|---
   |[動かして学ぶ！Flutter開発入門](https://www.shoeisha.co.jp/book/detail/9784798177366) |2023/12/23|Chapter 4 Firebaseとの連携 <span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/flutter/introduction)
 
 ##  コンテンツ
+
   |Contents                                                                        |Date      |Status
   |--------------------------------------------------------------------------------|----------|---
   |[Flutterで始めるモバイルアプリ開発](https://codezine.jp/article/corner/830)       |2024/12/29|第29回 アプリ名やアイコン設定までFlutterで完結！ 開発者向けツールを紹介<span style="color: red;">*finished*</span>
@@ -13,26 +18,26 @@
 ##  環境
   1. Windows 11
 
-  |Machine        |Env / FW                                                                 |Last Updated
-  |---------------|-------------------------------------------------------------------------|----------
-  |Windows Insider|Flutter 3.32.0                                                           |[2025/05/25](https://docs.flutter.dev/release/release-notes)
-  |               |[Android Studio Narwhal 2025.1.2 Canary 2](Kotlin.md#android-studio)     |2025/05/25
-  |               |[Visual Studio Community 2022 17.14.2 Preview 1.0](NET.md)               |2025/05/25
+      |Machine        |Env / FW                                                              |Last Updated
+      |---------------|----------------------------------------------------------------------|----------
+      |Windows Insider|Flutter 3.32.0                                                        |[2025/05/25](https://docs.flutter.dev/release/release-notes)
+      |               |[Android Studio Narwhal 2025.1.2 Canary 2](Kotlin#android-studio)     |2025/05/25
+      |               |[Visual Studio Community 2022 17.14.2 Preview 1.0](NET)               |2025/05/25
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
 
-  |Machine        |Env / FW                     |Last Updated
-  |---------------|-----------------------------|----------
-  |Chrome OS Flex |Flutter 3.27.1               |2025/01/02
-  |               |Debian clang 14.0.6          |2025/01/02
-  |               |cmake 3.25.1                 |2025/01/02
-  |               |ninja 1.11.1                 |2025/01/02
+      |Machine        |Env / FW                     |Last Updated
+      |---------------|-----------------------------|----------
+      |Chrome OS Flex |Flutter 3.27.1               |2025/01/02
+      |               |Debian clang 14.0.6          |2025/01/02
+      |               |cmake 3.25.1                 |2025/01/02
+      |               |ninja 1.11.1                 |2025/01/02
 
   1.  Mac OS Sequoia 15.4.1
 
-  |Machine        |Env / FW                     |Last Updated
-  |---------------|-----------------------------|----------
-  |Mac OS         |Flutter 3.27.1               |2024/12/29
+      |Machine        |Env / FW                     |Last Updated
+      |---------------|-----------------------------|----------
+      |Mac OS         |Flutter 3.27.1               |2024/12/29
 
 ##  ノウハウ
   - flutter dev

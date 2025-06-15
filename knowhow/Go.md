@@ -1,6 +1,10 @@
+---
+layout: page
+---
 # Go
 
 ##  環境
+
   |Machine        |Env／FW       |Last Updated
   |---------------|--------------|----------
   |Chrome OS Flex |Go 1.24.2     |[2025/05/04](https://go.dev/dl/)

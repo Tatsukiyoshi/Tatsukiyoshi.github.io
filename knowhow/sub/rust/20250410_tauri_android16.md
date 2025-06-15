@@ -1,3 +1,6 @@
+---
+layout: page
+---
 #	Tauri on Android
 ##	Pixel 9 Pro / Android 16
 ```sh

@@ -1,12 +1,17 @@
+---
+layout: page
+---
 # .NET
 
 ##  独学書
+
   |Text                                                         |Date      |Status
   |-------------------------------------------------------------|----------|---
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  環境
+
   |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
   |Windows         |Visual Studio Community 2022 17.14.2             |[2025/05/25](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
@@ -28,7 +33,7 @@
   - Visual Studio Preview
     - Visual Studio 2022 17.14.5 Preview 1.0
       ![VS2022 17.14.5 preview 1.0](/images/VisualStudio/20250611_Update_VS2022_17.14.5_Preview1.0.png)
-  - [履歴](/history/VisualStudio.md)
+  - [履歴](/history/VisualStudio)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
   - [Visual Studio Client Detector Utility](https://learn.microsoft.com/ja-jp/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
@@ -286,7 +291,7 @@
       - Visual Studio 2022 17.14.5 Preview 1.0 対応
         - 17.14.5 Preview 1.0 / MAUI 10.0.0-preview.5.25306.5 / Pixel 9 Pro API 36(Android 16)
           ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250613_VS2022_17.14.5_Preview1.0_MAUI10.0.0preview5_Android16.png)
-      - [履歴](/history/VisualStudio.md)
+      - [履歴](/history/VisualStudio)
     - MAUIワークロードの更新
       ```
       dotnet workload update
@@ -493,7 +498,7 @@
       ```
       D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
       ```
-    - [履歴](/history/MAUI.md)
+    - [履歴](/history/MAUI)
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
 ### Azure

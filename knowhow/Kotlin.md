@@ -1,6 +1,10 @@
+---
+layout: page
+---
 # Kotlin
 
 ##  独学書
+
   |Text                                                       |Date      |Status
   |-----------------------------------------------------------|----------|---
   |Spring解体新書（バッチ編）                                   |2022/08/08|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/spring)
@@ -8,6 +12,7 @@
   |[はじめてのAndroidプログラミング](http://isbn.sbcr.jp/95815) |2019/10/12|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/kotlin/Android)
 
 ##  環境
+
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
   |Windows Insider |[IntelliJ IDEA 2025.2 EAP 4](#intellij-idea)                |[2025/06/12](https://www.jetbrains.com/ja-jp/idea/)
@@ -186,7 +191,7 @@
           </component>
         </project>
         ```
-  - [履歴](/history/IntelliJIDEA.md)
+  - [履歴](/history/IntelliJIDEA)
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
     1. PATH環境変数にJDKおよびkotlinのパスを設定する
@@ -205,7 +210,7 @@
     - IntelliJ IDEA 2025.2 EAP Build 2
     - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
     - Spring Framework
-    - [PostgreSQL 17.5](Database.md#postgresql)
+    - [PostgreSQL 17.5](Database#postgresql)
     - [Gradle 8.8](https://gradle.org/releases/)
     - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
     - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)

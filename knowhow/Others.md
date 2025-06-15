@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ##  Pascal
 
   - Delphi

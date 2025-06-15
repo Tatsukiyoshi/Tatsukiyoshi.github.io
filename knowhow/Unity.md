@@ -1,11 +1,16 @@
+---
+layout: page
+---
 # Unity
 
 ##  独学書
+
   |Text                                                                                                   |Date      |Status
   |-------------------------------------------------------------------------------------------------------|----------|--------
   |[Unityによるモバイルゲーム開発](https://github.com/oreilly-japan/mobile-game-development-with-unity-ja)  |2023/01/21|12章 「小惑星とダメージ」 <span style="color: red;">*finished*</span> ->[Gnome's Well](https://github.com/Tatsukiyoshi/GnomesWell) / [Rockfall](https://github.com/Tatsukiyoshi/Rockfall)
 
 ##  環境
+
   |Machine    |Env / FW          |Last Updated
   |-----------|------------------|----------
   |InsiderDev |Unity 2022.2.15f1 |[2023/04/16](https://unity.com/releases/editor/)
