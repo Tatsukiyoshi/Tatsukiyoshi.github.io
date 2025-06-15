@@ -1,6 +1,3 @@
----
-layout: page
----
 # トップページ <a id="Top"></a>
 [ダイジェスト](#Digest) | [プログラミング言語](#ProgrammingLanguage) | [環境(OS/ツール/サービス)](#Environment) 
 
