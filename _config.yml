@@ -1,7 +1,7 @@
-theme: jekyll-theme-lanyon
+theme: jekyll-theme-minimal
 title: リスキリング（プログラミング）
 description: 独学プログラミング演習
-markdown: kramdown
+markdown: GFM
 plugins:
   - jekyll-readme-index
 readme_index:
