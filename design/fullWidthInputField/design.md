@@ -173,9 +173,11 @@ const FullWidthNumberField: React.FC<FullWidthNumberFieldProps> = ({
         handleInternalChange(event as React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>);
       }}
       {...restProps}
+      {% raw %}
       inputProps={{
         ...restProps.inputProps
       }}
+      {% endraw %}
     />
   );
 };
@@ -286,7 +288,7 @@ function App() {
             min={1}
             required
             name="quantity"
-            sx={{ width: '15ch' }}
+            {% raw %}sx={{ width: '15ch' }}{% endraw %}
             helperText="1以上の値を入力"
           />
           {/* 年齢入力フィールド (整数のみ想定) */}
@@ -313,24 +315,24 @@ function App() {
             placeholder="外部から値が設定"
             helperText="初期値が設定されており、ボタンで変更可能"
           />
-          <Button variant="outlined" onClick={() => setControlledAmount('5000')} sx={{ mr: 1 }}>
+          <Button variant="outlined" onClick={() => setControlledAmount('5000')} {% raw %}sx={{ mr: 1 }}>{% endraw %}
             金額を5000に設定
           </Button>
           <Button variant="outlined" onClick={() => setControlledAmount('あ１２３')}>
             不正値を設定 (自動変換)
           </Button>
-          <Button variant="outlined" onClick={() => setControlledAmount(null)} sx={{ ml: 1 }}>
+          <Button variant="outlined" onClick={() => setControlledAmount(null)} {% raw %}sx={{ ml: 1 }}>{% endraw %}
             クリア
           </Button>
         </div>
 
-        <Box sx={{ mt: 3 }}>
+        <Box {% raw %}sx={{ mt: 3 }}{% endraw %}>
           <Button type="submit" variant="contained">
             送信
           </Button>
         </Box>
 
-        <Typography variant="h6" sx={{ mt: 3 }}>
+        <Typography variant="h6" {% raw %}sx={{ mt: 3 }}{% endraw %}>
           現在のフォーム状態:
         </Typography>
         <Typography variant="body1">
