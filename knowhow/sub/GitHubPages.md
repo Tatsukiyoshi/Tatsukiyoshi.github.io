@@ -2,7 +2,7 @@
 layout: page
 ---
 # GitHub Pagesのカスタマイズ
-##	Lanyonaテーマ適用
+##	Lanyonテーマ適用
 Lanyonテーマを適用するための手順と、関連する設定について説明します。
 
 LanyonはPooleをベースにしたテーマで、スライド式のサイドバーが特徴です。GitHub Pagesでサポートされている jekyll-lanyon-theme を利用することを前提とします。
