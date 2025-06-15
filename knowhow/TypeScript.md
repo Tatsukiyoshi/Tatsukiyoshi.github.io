@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # TypeScript & JavaScript
 
 ##  独学書

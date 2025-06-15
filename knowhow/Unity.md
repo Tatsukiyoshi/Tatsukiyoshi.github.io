@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Unity
 
 ##  独学書

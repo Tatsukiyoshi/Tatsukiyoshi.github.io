@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Java
 
 ##  独学書

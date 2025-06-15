@@ -18,7 +18,7 @@ layout: page
 
 Language                            |Updated   |Detail
 ------------------------------------|----------|--------
-[.NET](/knowhow/NET.md)             |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
+[.NET](/knowhow/NET)                |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
 [Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](/knowhow/Kotlin.md)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
 [Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Python
 
 ##  独学書

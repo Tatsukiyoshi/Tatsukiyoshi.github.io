@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # GitHub Pagesのカスタマイズ
 ##	Lanyonaテーマ適用
 Lanyonテーマを適用するための手順と、関連する設定について説明します。
@@ -133,7 +136,8 @@ LanyonはPooleをベースにしたテーマで、スライド式のサイドバ
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
+    {% raw %}{% seo %}{% endraw %}
+        {% include head.html %}
         <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>

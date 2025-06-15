@@ -1,3 +1,6 @@
+---
+layout: page
+---
 - Update History
   - Sequoia 15.4.1
     <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>

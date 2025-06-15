@@ -1,3 +1,6 @@
+---
+layout: page
+---
 #   Carbon
 
 ##  環境

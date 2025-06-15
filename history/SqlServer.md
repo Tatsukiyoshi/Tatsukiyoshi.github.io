@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ##  SQLServer
 ##  SQLServer Management Studio
 - SSMS 21.0.73 Preview 2.1

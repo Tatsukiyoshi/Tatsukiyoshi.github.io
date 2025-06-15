@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Chrome OS Flex
 - バージョン 136.0.7103.142 <span style="color: red;">*<<2025/05/25 updated from 136.0.7103.102>>*</span>
   ![Chrome OS Flexバージョン情報](/images/Chrome/20250525_Chrome_OS_Flex_136.0.7103.142.png)
