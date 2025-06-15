@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # トップページ <a id="Top"></a>
 [ダイジェスト](#Digest) | [プログラミング言語](#ProgrammingLanguage) | [環境(OS/ツール/サービス)](#Environment) 
 
@@ -12,6 +15,7 @@
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
 ```
+
 Language                            |Updated   |Detail
 ------------------------------------|----------|--------
 [.NET](/knowhow/NET.md)             |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
@@ -32,11 +36,11 @@ Common                                    |Updated   |Detail
 [Documentation](/knowhow/Documentation.md)|-
 [Exercism](/knowhow/Exercism.md)          |2024/08/03|tournament@Rust
 
-その他（更新停滞）                          |日付      |トピック
+Other                                      |Updated   |Detail
 -------------------------------------------|----------|--------
-[Pascal](/knowhow/Others.md#pascal)
-[Swift](/knowhow/Others.md#swift)
-[Unity](/knowhow/Unity.md)
+[Pascal](/knowhow/Others.md#pascal)||
+[Swift](/knowhow/Others.md#swift)||
+[Unity](/knowhow/Unity.md)||
 
 ###  創作物
 ```
@@ -56,10 +60,11 @@ Common                                    |Updated   |Detail
 [OS](#os) | [ツール](#Tools) | [サービス](#Service)
 
 ### OS <a id="OS"></a>
+
 OS                                 |Hardware            |Language
 -----------------------------------|--------------------|--------------------------------------------------
 [Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript
-[Windows on Arm](#WindowsArm)      |OmniBook X
+[Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
 [Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter
 [Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP 

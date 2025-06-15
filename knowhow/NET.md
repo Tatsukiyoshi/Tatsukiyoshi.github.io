@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # .NET
 
 ##  独学書
