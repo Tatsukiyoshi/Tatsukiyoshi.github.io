@@ -1,6 +1,3 @@
----
-layout: page
----
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)

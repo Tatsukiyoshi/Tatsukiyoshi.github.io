@@ -1,6 +1,3 @@
----
-layout: page
----
 # Documentation
 
   テキスト中心にドキュメント化できる言語やツールを試している

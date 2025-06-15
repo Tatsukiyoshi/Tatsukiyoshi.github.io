@@ -1,6 +1,3 @@
----
-layout: page
----
 # Kotlin
 
 ##  独学書

@@ -1,6 +1,3 @@
----
-layout: page
----
 #   .NET 10 Preview 4
 <details>
 <summary>MAUI Update Log</summary>

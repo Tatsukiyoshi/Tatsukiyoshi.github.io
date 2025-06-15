@@ -1,6 +1,3 @@
----
-layout: page
----
 # Rust
 
 ##  独学書

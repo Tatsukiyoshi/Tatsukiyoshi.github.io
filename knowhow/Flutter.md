@@ -1,6 +1,3 @@
----
-layout: page
----
 # Dart & Flutter
 
 ##  独学書

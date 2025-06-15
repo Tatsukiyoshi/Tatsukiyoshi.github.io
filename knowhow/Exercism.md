@@ -1,6 +1,3 @@
----
-layout: page
----
 # [Exercism](https://exercism.io/my/tracks)
 
   Exercism は、Kotlin プログラミングの最後に紹介されている学習サイトである。

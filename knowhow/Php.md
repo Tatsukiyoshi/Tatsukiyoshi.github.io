@@ -1,6 +1,3 @@
----
-layout: page
----
 # PHP
 
 ##  環境

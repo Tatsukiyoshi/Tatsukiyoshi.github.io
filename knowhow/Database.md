@@ -1,6 +1,3 @@
----
-layout: page
----
 # Database & SQL
 
 ##  環境

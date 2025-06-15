@@ -1,6 +1,3 @@
----
-layout: page
----
 # GitHub Pagesのカスタマイズ
 ##	Lanyonテーマ適用
 Lanyonテーマを適用するための手順と、関連する設定について説明します。

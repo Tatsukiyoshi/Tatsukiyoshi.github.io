@@ -1,6 +1,3 @@
----
-layout: page
----
 #   Oracle Cloud
 
 ##  ノウハウ

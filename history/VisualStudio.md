@@ -1,6 +1,3 @@
----
-layout: page
----
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.5 Preview 1.0 対応
     - 17.14.5 Preview 1.0 / MAUI 10.0.0-preview.5.25306.5 / Pixel 9 Pro API 36(Android 16)

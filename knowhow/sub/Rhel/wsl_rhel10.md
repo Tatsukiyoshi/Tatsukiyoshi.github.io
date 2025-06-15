@@ -1,6 +1,3 @@
----
-layout: page
----
 # RHEL10 on WSL
 
 - Red Hat Developerへの登録

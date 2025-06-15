@@ -1,6 +1,3 @@
----
-layout: page
----
 # Container
 ##  環境
 
