@@ -4,12 +4,14 @@ layout: page
 # TypeScript & JavaScript
 
 ##  独学書
+
   |Text                                           |Date      |Status
   |-----------------------------------------------|----------|-------
   |Angularアプリケーションプログラミング             |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
   |モダンJavaScriptの基本から始めるReact実践の教科書  |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
 
 ##  コンテンツ
+
   |Contents                                                                                         |Date      |Status
   |-------------------------------------------------------------------------------------------------|----------|-------
   |[Vercel＋Next.jsを活用したWebアプリケーション開発入門](https://codezine.jp/article/corner/925)       |2022/11/03|第4回 ブログを作りながら学ぶ、Next.jsの便利な4つの機能（グローバル設定、プリレンダリング、動的ルート、サーバーレス）
@@ -25,6 +27,7 @@ layout: page
       |                               |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
 
   1.  Windows
+
       |Machine         |Category|Env / FW                    |Last Updated
       |----------------|--------|----------------------------|----------
       |Windows         |Common  |Node.js 22.12.0             |2024/12/11
@@ -69,6 +72,7 @@ layout: page
       |                |        |- Bun 1.2.16                |2025/06/13
 
   1.  Mac OS
+
       |Machine    |Category|Env / FW                 |Last Updated
       |-----------|--------|-------------------------|----------
       |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26

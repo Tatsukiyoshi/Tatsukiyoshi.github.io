@@ -9,49 +9,49 @@ layout: page
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/8～2025/6/14）](/digest/2025/June/2nd.md) / [一覧](/digest/list.md)
+[最新ダイジェスト（2025/6/8～2025/6/14）](/digest/2025/June/2nd) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
 ```
 
-Language                            |Updated   |Detail
+Language                         |Updated   |Detail
+---------------------------------|----------|--------
+[.NET](/knowhow/NET)             |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
+[Rust](/knowhow/Rust)            |2025/05/14|Update: RustRover 2025.1.2
+[Kotlin](/knowhow/Kotlin)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
+[Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
+[Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
+[TypeScript](/knowhow/TypeScript)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
+[Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
+[Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
+[PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
+
+Common                                 |Updated   |Detail
+---------------------------------------|----------|--------
+[Database & SQL](/knowhow/Database)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
+[Container](/knowhow/Container)        |2025/06/08|Update: Rancher Desktop 1.19.1
+[Documentation](/knowhow/Documentation)|-
+[Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
+
+Other                               |Updated   |Detail
 ------------------------------------|----------|--------
-[.NET](/knowhow/NET)                |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
-[Rust](/knowhow/Rust.md)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](/knowhow/Kotlin.md)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
-[Java](/knowhow/Java.md)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](/knowhow/Flutter.md)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript.md)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
-[Python](/knowhow/Python.md)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon.md) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
-[Go](/knowhow/Go.md)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
-[PHP](/knowhow/Php.md)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
-
-Common                                    |Updated   |Detail
-------------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database.md)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
-[Container](/knowhow/Container.md)        |2025/06/08|Update: Rancher Desktop 1.19.1
-[Documentation](/knowhow/Documentation.md)|-
-[Exercism](/knowhow/Exercism.md)          |2024/08/03|tournament@Rust
-
-Other                                      |Updated   |Detail
--------------------------------------------|----------|--------
-[Pascal](/knowhow/Others.md#pascal)||
-[Swift](/knowhow/Others.md#swift)||
-[Unity](/knowhow/Unity.md)||
+[Pascal](/knowhow/Others#pascal) |          |
+[Swift](/knowhow/Others#swift)   |          |
+[Unity](/knowhow/Unity)             |          |
 
 ###  創作物
 ```
 知識を形にする
 ```
 - 全角入力対応コンポーネント
-  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
-  - [Vue.js用](/design/fullWidthInputField/design_vuejs.md)
-- [Tauriデスクトップアプリケーション](/design/tauriApp/index.md)
-- [Reactアプリ](/design/reactApp/index.md) / [詳細検討](/design/reactApp/detail.md)
-- [課題整理 with Dioxus](/design/dioxusApp/system.md)
+  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README)
+  - [Vue.js用](/design/fullWidthInputField/design_vuejs)
+- [Tauriデスクトップアプリケーション](/design/tauriApp/index)
+- [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
+- [課題整理 with Dioxus](/design/dioxusApp/system)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -93,11 +93,11 @@ OS                                 |Hardware            |Language
       ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
   - ノウハウ
     - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
-    - [システムロケールの変更](/knowhow/sub/windows/systemLocale.md)
-    - [フォントの変更](/knowhow/sub/windows/font.md)
-    - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize.md)
+    - [システムロケールの変更](/knowhow/sub/windows/systemLocale)
+    - [フォントの変更](/knowhow/sub/windows/font)
+    - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize)
 
-- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows.md))
+- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
     - Build 26200.5651 (Cumulative Update) <span style="color: red;">*<<2025/06/15 updated from Build 26200.5641 >>*</span>
       ![Cumulative Update](/images/Windows/20250615_WindowsUpdate_DevChannel.png)
@@ -106,7 +106,7 @@ OS                                 |Hardware            |Language
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
-  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl.md))
+  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
     - [WSL 2.5.9.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/11 auto updated from 2.5.8.0>>*</span>
 
       <details>
@@ -124,7 +124,7 @@ OS                                 |Hardware            |Language
       </details>
 
     - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
-      - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade.md)
+      - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade)
 
       <details>
       <summary>ディストリビューション・バージョン情報</summary>
@@ -147,7 +147,7 @@ OS                                 |Hardware            |Language
       </details>
 
     - [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10) <span style="color: red;">*<<2025/06/01 installed>>*</span>
-      - [インストール](/knowhow/sub/Rhel/wsl_rhel10.md)
+      - [インストール](/knowhow/sub/Rhel/wsl_rhel10)
 
       <details>
       <summary>ディストリビューション・バージョン情報</summary>
@@ -193,7 +193,7 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac.md))
+- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
   - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
     - ソフトウェアアップデート
@@ -231,13 +231,13 @@ OS                                 |Hardware            |Language
         brew upgrade
         ```
 
-- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome.md))
+- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
   - バージョン 136.0.7103.150 <span style="color: red;">*<<2025/05/29 updated from 136.0.7103.142>>*</span>
     ![Chrome OS Flexバージョン情報](/images/Chrome/20250529_Chrome_OS_Flex_136.0.7103.150.png)
       - 更新中
         ![Updating](/images/Chrome/20250529_Chrome_OS_Flex_Updating136.0.7103.150.png)
       - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
-        [Update Log](/knowhow/sub/Chrome/20250525_Update.md)
+        [Update Log](/knowhow/sub/Chrome/20250525_Update)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
@@ -292,9 +292,9 @@ OS                                 |Hardware            |Language
         - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
-- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop.md))
+- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
-  - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade.md)
+  - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
 
   <details>
   <summary>System Details</summary>
@@ -362,7 +362,7 @@ OS                                 |Hardware            |Language
           ```
           xrandr --output DSI-1 --rotate right
           ```
-- [Oracle Cloud](/knowhow/OracleCloud.md)
+- [Oracle Cloud](/knowhow/OracleCloud)
 
 ### ツール <a id="Tools"></a>
 ```
@@ -370,9 +370,9 @@ OS/言語を問わず利用するツールの情報
 ```
 **共通**
 - [Visual Studio Code May 2025(1.101.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/13 updated from 1.100.3>>*</span>
-  - [以前の新機能](/history/VSCode.md)
+  - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
-  - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions.md)にまとめている。<BR />
+  - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
     - Git 2.49.0 <span style="color: red;">*<<2025/03/18 updated from 2.48.1>>*</span>
@@ -702,4 +702,4 @@ OS/言語を問わず利用するツールの情報
       ![Export](/images/Penpot/20240421_Export.png)
       - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](/knowhow/sub/Profile.md) | [トップへ戻る](#Top)
+[プロフィール](/knowhow/sub/Profile) | [トップへ戻る](#Top)

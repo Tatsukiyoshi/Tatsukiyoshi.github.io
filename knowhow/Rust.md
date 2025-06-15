@@ -4,17 +4,20 @@ layout: page
 # Rust
 
 ##  独学書
+
   |Text                                                            |Date      |Status
   |----------------------------------------------------------------|----------|---
   |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/PerfectRust)
 
 ##  コンテンツ
+
   |Contents                                                                                    |Date      |Status
   |--------------------------------------------------------------------------------------------|----------|-------
   |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
 
 ##  環境
   1. Windows 11
+
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
@@ -33,6 +36,7 @@ layout: page
       |               |Vite 6.3.3                                     |2025/04/27
 
   1. Ubuntu 24.04.2 on Windows 11
+
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.86       |2025/04/16
@@ -42,16 +46,18 @@ layout: page
       |                |Vite 6.3.3      |2025/04/27
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
-      |Machine    |Env / FW                                     |Last Updated
-      |-----------|---------------------------------------------|----------
-      |Chrome OS  |Rust 1.86                                    |2025/04/11
-      |           |[Node.js 22.11.0](TypeScript.md#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.5.1                                  |2025/04/29
-      |           |React 19.1.0                                 |2025/04/11
-      |           |Bun 1.2.11                                   |2025/04/29
-      |           |Vite 6.3.3                                   |2025/04/29
+
+      |Machine    |Env / FW                                  |Last Updated
+      |-----------|------------------------------------------|----------
+      |Chrome OS  |Rust 1.86                                 |2025/04/11
+      |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
+      |           |Tauri 2.5.1                               |2025/04/29
+      |           |React 19.1.0                              |2025/04/11
+      |           |Bun 1.2.11                                |2025/04/29
+      |           |Vite 6.3.3                                |2025/04/29
 
   1.  Mac OS Sequoia 15.4.1
+
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.86            |2025/04/05
@@ -152,7 +158,7 @@ layout: page
       org.jetbrains.plugins.gitlab (251.25410.123-IU)
       org.jetbrains.plugins.github (251.25410.123-IU)
     ```
-    - [履歴](/history/RustRover.md)
+    - [履歴](/history/RustRover)
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](/images/rust/20231126_PostgreSQL.png)
@@ -263,7 +269,7 @@ layout: page
       passing --disable-metrics to vcpkg on the command line,
       or by setting the VCPKG_DISABLE_METRICS environment variable.
 
-      Read more about vcpkg telemetry at docs/about/privacy.md
+      Read more about vcpkg telemetry at docs/about/privacy
       PS C:\vcpkg> .\vcpkg.exe install openssl:x64-windows-static
       Computing installation plan...
       A suitable version of cmake was not found (required v3.27.1) Downloading portable cmake 3.27.1...
@@ -406,11 +412,11 @@ layout: page
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
     - Android 15 / Pixel 9
-      - [Log](/knowhow/sub/rust/20250410_tauri_android15.md)
+      - [Log](/knowhow/sub/rust/20250410_tauri_android15)
         ![On Android 15](/images/rust/20250409_Tauri2.4.1_Pixel9_Android15.png)
     - Android 16 / Pixel 9 Pro
       - error sending request for url
-        - [Log](/knowhow/sub/rust/20250410_tauri_android16.md)
+        - [Log](/knowhow/sub/rust/20250410_tauri_android16)
           ![error sending request for url](/images/rust/20250406_Tauri2.4.1_AndroidError.png)
           -> https://github.com/tauri-apps/tauri/issues/9509
   - V2.4.0
@@ -1625,7 +1631,7 @@ layout: page
     dx serve
     ```
   - 課題整理 <span style="color: red;">*researching from 2024/04/30*</span>
-    - [Overview](/design/dioxusApp/system.md)
+    - [Overview](/design/dioxusApp/system)
   ### Game Engine
   - [Bevy](https://bevyengine.org/)
     - Bevy 0.13
@@ -1651,7 +1657,7 @@ layout: page
         - [Can not set the icon to Windows desktop app](https://github.com/bevyengine/bevy/pull/8130)
         - [Rust: How to add a window icon in Bevy?](https://stackoverflow.com/questions/74586997/how-to-add-a-window-icon-in-bevy)
     - WSL2 and Ubuntu
-      - [Installing Linux dependencies](https://github.com/bevyengine/bevy/blob/main/docs/linux_dependencies.md)
+      - [Installing Linux dependencies](https://github.com/bevyengine/bevy/blob/main/docs/linux_dependencies)
         ```
         sudo apt-get install g++ pkg-config libx11-dev libasound2-dev libudev-dev
         ```

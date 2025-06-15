@@ -5,12 +5,12 @@ layout: page
 
 - 2025年
   - 6月
-    - 第２週（2025/6/8～2025/6/14）<[GitHub](2025/June/2nd.md) | Zenn>
-    - 第１週（2025/6/1～2025/6/7）<[GitHub](2025/June/1st.md) | Zenn>
+    - 第２週（2025/6/8～2025/6/14）<[GitHub](2025/June/2nd) | Zenn>
+    - 第１週（2025/6/1～2025/6/7）<[GitHub](2025/June/1st) | Zenn>
   - 5月
-    - 第４週（2025/5/25～2025/5/31）<[GitHub](2025/May/4th.md) | Zenn>
-    - 第３週（2025/5/18～2025/5/24）<[GitHub](2025/May/3rd.md) | Zenn>
-    - 第２週（2025/5/11～2025/5/17）<[GitHub](2025/May/2nd.md) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
+    - 第４週（2025/5/25～2025/5/31）<[GitHub](2025/May/4th) | Zenn>
+    - 第３週（2025/5/18～2025/5/24）<[GitHub](2025/May/3rd) | Zenn>
+    - 第２週（2025/5/11～2025/5/17）<[GitHub](2025/May/2nd) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
     - [第１週（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24)
   - [4月](https://zenn.dev/tatsukiyoshi/articles/ca721a62cbc949)
     - [第４週（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049)

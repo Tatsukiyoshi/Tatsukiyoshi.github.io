@@ -4,6 +4,7 @@ layout: page
 # Database & SQL
 
 ##  環境
+
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
@@ -185,7 +186,7 @@ layout: page
       ```
       >grant pg_read_all_data to <User>
       ```
-  - [PHP + Apache + PostgreSQL](./Php.md#postgresql)
+  - [PHP + Apache + PostgreSQL](./Php#postgresql)
 ### MySQL
   - DDL
     - rootパスワードの変更
