@@ -80,7 +80,7 @@ PLATFORMS
 DEPENDENCIES
   base64
   bigdecimal
-  jekyll (~> 3.3)
+  jekyll (~> 3.10)
   jekyll-readme-index
   jekyll-theme-lanyon
   kramdown-parser-gfm
