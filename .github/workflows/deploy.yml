@@ -1,0 +1,11 @@
+  - name: Build with Jekyll
+    uses: jekyll/github-pages-action@v2
+    with:
+      jekyll_version: 3.9.3 # または必要な Jekyll のバージョン
+      enable_cache: true
+
+  - name: Deploy to GitHub Pages
+    uses: JamesIves/github-pages-deploy-action@4.1.5
+    with:
+      branch: gh-pages # デプロイ先のブランチ
+      folder: _site
