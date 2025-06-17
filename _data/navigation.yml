@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: /
+  - title: ".NET"
+    url: /knowhow/NET/
+  - title: "Rust"
+    url: /knowhow/Rust/
