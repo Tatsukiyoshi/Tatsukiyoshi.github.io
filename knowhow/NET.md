@@ -11,9 +11,9 @@
 
   |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.2             |[2025/05/25](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-  |                |- .NET 9.0.5                                     |[2025/05/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |- .NET 8.0.16                                    |[2025/05/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |Windows         |Visual Studio Community 2022 17.14.5             |[2025/06/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |                |- .NET 9.0.6                                     |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |- .NET 8.0.17                                    |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2022 17.14.5 Preview 1.0 |[2025/06/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.5.25277.114                |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
@@ -171,9 +171,9 @@
 
   ```
   .NET SDK:
-  Version:           9.0.300
-  Commit:            15606fe0a8
-  Workload version:  9.0.300-manifests.af4147de
+  Version:           9.0.301
+  Commit:            a596cd22e2
+  Workload version:  9.0.300-manifests.07067f5b
   MSBuild version:   17.14.5+edd3bbf37
 
   ランタイム環境:
@@ -181,31 +181,31 @@
   OS Version:  10.0.26100
   OS Platform: Windows
   RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.300\
+  Base Path:   C:\Program Files\dotnet\sdk\9.0.301\
 
   インストール済みの .NET ワークロード:
   表示するインストール済みワークロードはありません。
   新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
 
   Host:
-    Version:      9.0.5
+    Version:      9.0.6
     Architecture: x64
-    Commit:       e36e4d1a8f
+    Commit:       3875b54e7b
 
   .NET SDKs installed:
     6.0.428 [C:\Program Files\dotnet\sdk]
-    9.0.300 [C:\Program Files\dotnet\sdk]
+    9.0.301 [C:\Program Files\dotnet\sdk]
 
   .NET runtimes installed:
     Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.5 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+    Microsoft.AspNetCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
     Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.5 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+    Microsoft.NETCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
     Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.5 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    Microsoft.WindowsDesktop.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
   Other architectures found:
     x86   [C:\Program Files (x86)\dotnet]
