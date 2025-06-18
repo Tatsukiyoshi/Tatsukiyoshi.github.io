@@ -674,7 +674,7 @@ OS/言語を問わず利用するツールの情報
       ```shell
       $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
       ```
-- [GitHub Desktop 3.4.16](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2025/02/23 updated from 3.4.8>>*</span>
+- [GitHub Desktop 3.5.0](https://desktop.github.com/release-notes/) <span style="color: red;">*<<2025/06/18 updated from 3.4.16>>*</span>
   - サイトでのリリース通知があってから、アップデートできるまでにはタイムラグがありそう
   - 起動したGitHub Desktopでアップデートできる場合とできない場合があるみたい
     - 3.4.5 -> 3.4.6 OK
