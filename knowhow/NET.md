@@ -11,7 +11,7 @@
 
   |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.5             |[2025/06/11](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.6 (June 2025) |[2025/06/18](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.6                                     |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.17                                    |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -25,8 +25,8 @@
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
-    - Visual Studio 2022 17.14.2
-      ![VS2022 17.14.2](/images/VisualStudio/20250525_Update_VS2022_17.14.2.png)
+    - Visual Studio 2022 17.14.6 (June 2025)
+      ![VS2022 17.14.6](/images/VisualStudio/20250618_Update_VS2022_17.14.6_SSMS21.3.6.png)
   - Visual Studio Preview
     - Visual Studio 2022 17.14.5 Preview 1.0
       ![VS2022 17.14.5 preview 1.0](/images/VisualStudio/20250611_Update_VS2022_17.14.5_Preview1.0.png)
@@ -173,7 +173,7 @@
   .NET SDK:
   Version:           9.0.301
   Commit:            a596cd22e2
-  Workload version:  9.0.300-manifests.07067f5b
+  Workload version:  9.0.300-manifests.e42facbb
   MSBuild version:   17.14.5+edd3bbf37
 
   ランタイム環境:
