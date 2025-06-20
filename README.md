@@ -15,7 +15,7 @@
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/06/12|Update: Visual Studio 2022 17.14.5 Preview 1.0 / .NET 10.0.0-preview.5.25277.114 / MAUI 10.0.0-preview.5 / .NET 9.0.6 / .NET 8.0.17
+[.NET](/knowhow/NET)             |2025/06/18|Update: Visual Studio 2022 17.14.6 (June 2025)
 [Rust](/knowhow/Rust)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](/knowhow/Kotlin)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
@@ -28,16 +28,16 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/05/25|Update: SQL Server Management Studio 21.0.1
+[Database & SQL](/knowhow/Database)    |2025/06/18|Update: SQL Server Management Studio 21.3.6 (June 2025)
 [Container](/knowhow/Container)        |2025/06/08|Update: Rancher Desktop 1.19.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
-Other                               |Updated   |Detail
-------------------------------------|----------|--------
+Other                            |Updated   |Detail
+---------------------------------|----------|--------
 [Pascal](/knowhow/Others#pascal) |          |
 [Swift](/knowhow/Others#swift)   |          |
-[Unity](/knowhow/Unity)             |          |
+[Unity](/knowhow/Unity)          |          |
 
 ###  創作物
 ```
@@ -366,7 +366,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code May 2025(1.101.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/13 updated from 1.100.3>>*</span>
+- [Visual Studio Code May 2025 Recovery 1(1.101.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/20 updated from 1.101.0>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
