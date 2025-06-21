@@ -1,4 +1,5 @@
 ---
+title:  Update History
 layout: single
 sidebar:
   nav: main

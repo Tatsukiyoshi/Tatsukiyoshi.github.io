@@ -1,4 +1,5 @@
 ---
+title:  Others
 layout: single
 sidebar:
   nav: main

@@ -1,4 +1,5 @@
 ---
+title: Update History of IntelliJ IDEA
 layout: single
 sidebar:
   nav: main

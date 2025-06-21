@@ -1,9 +1,10 @@
 ---
+title:  Update History of .NET MAUI
 layout: single
 sidebar:
   nav: main
 ---
-#   .NET 10 Preview 4
+## .NET 10 Preview 4
 <details>
 <summary>MAUI Update Log</summary>
 
@@ -185,7 +186,7 @@ Successfully updated workload(s): ios android maccatalyst maui-windows.
 ```
 </details>
 
-#   .NET 10 Preview 2
+##  .NET 10 Preview 2
 <details>
 <summary>MAUI Update Log</summary>
 
@@ -389,7 +390,7 @@ Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をイン�
 ```
 </details>
 
-#   .NET 10 Preview 1
+##  .NET 10 Preview 1
 
 <details>
     <summary>MAUI Update Log</summary>

@@ -1,10 +1,9 @@
 ---
+title:  Go
 layout: single
 sidebar:
   nav: main
 ---
-# Go
-
 ##  環境
 
   |Machine        |Env／FW       |Last Updated

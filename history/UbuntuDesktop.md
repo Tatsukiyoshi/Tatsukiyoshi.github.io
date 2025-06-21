@@ -1,4 +1,5 @@
 ---
+title:  Update History of Ubuntu Desktop
 layout: single
 sidebar:
   nav: main

@@ -1,10 +1,9 @@
 ---
+title:  Database & SQL
 layout: single
 sidebar:
   nav: main
 ---
-# Database & SQL
-
 ##  環境
 
   |Machine        |Env / FW                                             |Last Updated

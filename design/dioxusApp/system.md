@@ -1,9 +1,9 @@
 ---
+title:  System Overview (システム構成)
 layout: single
 sidebar:
   nav: main
 ---
-# System Overview (システム構成)
 As a framework for building web applications in Rust, he refers to a series of articles about Actix-Web and Dioxus.
 In this series, we need to call an API provided by an application in the same domain (built with Actix-Web) from a web application (built with Dioxus).
 However, since it is the same domain, when the process of calling is implemented after removing the constraint of CORS, a runtime exception occurs and the call cannot be made well.

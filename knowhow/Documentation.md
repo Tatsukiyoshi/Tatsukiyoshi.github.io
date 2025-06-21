@@ -1,12 +1,12 @@
 ---
+title:  Documentation
 layout: single
 sidebar:
   nav: main
 ---
-# Documentation
-
-  テキスト中心にドキュメント化できる言語やツールを試している
-
+```
+テキスト中心にドキュメント化できる言語やツールを試している
+```
 ##  環境
 
   |Machine    |Env／FW                                                               |Last Updated

@@ -1,4 +1,5 @@
 ---
+title:	基本検討
 layout: single
 sidebar:
   nav: main

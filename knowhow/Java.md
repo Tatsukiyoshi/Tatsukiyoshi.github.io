@@ -1,10 +1,9 @@
 ---
+title:  Java
 layout: single
 sidebar:
   nav: main
 ---
-# Java
-
 ##  独学書
 
   |Text                     |Date      |Status

@@ -1,9 +1,9 @@
 ---
+title:  コンポーネント定義 for Vue.js
 layout: single
 sidebar:
   nav: main
 ---
-# コンポーネント定義
 Reactターゲットに作成した全角入力できる数値入力フィールドをVue.jsで利用できるコンポーネントを作成します。
 
 ```html

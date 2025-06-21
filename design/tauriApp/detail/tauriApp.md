@@ -1,9 +1,9 @@
 ---
+title:  詳細検討
 layout: single
 sidebar:
   nav: main
 ---
-# 詳細検討
 ## システムトレイのメニュー
 
 1.  メニュー項目、および選んだ場合の処理
