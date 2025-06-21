@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+remote_theme: "mmistakes/minimal-mistakes"
 locale: "ja-JP"
 title: "リスキリング（プログラミング）"
 description: "独学プログラミング演習"
@@ -6,3 +6,4 @@ url: https://tatsukiyoshi.github.io
 baseurl: ""
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme

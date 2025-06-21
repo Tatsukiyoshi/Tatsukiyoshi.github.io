@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 ##  Pascal
 
   - Delphi
