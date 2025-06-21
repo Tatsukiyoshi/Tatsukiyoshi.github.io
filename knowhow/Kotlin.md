@@ -16,10 +16,10 @@
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.2 Canary 4](#android-studio) |[2025/06/08](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.2 Canary 6](#android-studio) |[2025/06/21](https://developer.android.com/studio)
   |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.1.4                                 |2025/06/11
+  |                |- Android Emulator v.36.1.5                                 |2025/06/21
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -232,9 +232,9 @@
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 4
+  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 6
     ```
-    Build #AI-251.26094.121.2512.13602698, built on June 5, 2025
+    Build #AI-251.26094.121.2512.13669762, built on June 19, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -245,10 +245,11 @@
     Cores: 8
     Registry:
       ide.experimental.ui=true
+      gradle.phased.sync.enabled=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
       Dart (251.25410.28)
-      io.flutter (85.3.2)
+      io.flutter (86.0.2)
     ```
   - バージョン共通
     - HyperVisor利用には、機能の有効化が必要
@@ -278,6 +279,9 @@
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Feature Drop Canary 6
+        - [Firebase AI Logic への再構成](https://firebase.google.com/docs/ai-logic?hl=ja)
+        - Android Gradle Plugin 8.12.0-alpha04 -> 8.12.0-alpha06
       - Narwhal Feature Drop Canary 4
         - Android Gradle Plugin 8.12.0-alpha03 -> 8.12.0-alpha04
       - Narwhal Feature Drop Canary 3
