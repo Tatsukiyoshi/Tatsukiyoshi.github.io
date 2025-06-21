@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # ダイジェスト
 
 - 2025年

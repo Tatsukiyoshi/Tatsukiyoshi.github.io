@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # RHEL10 on WSL
 
 - Red Hat Developerへの登録

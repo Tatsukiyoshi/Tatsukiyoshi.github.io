@@ -1,4 +1,9 @@
-*   共通
+---
+layout: single
+sidebar:
+  nav: main
+---
+s*   共通
     *   AsciiDoc
     *   asciidoctor-vscode
     *   Code Runner

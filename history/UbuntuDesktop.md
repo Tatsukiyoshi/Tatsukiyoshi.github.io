@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](/images/Ubuntu/20250111_Ubuntu24.10.png)
 

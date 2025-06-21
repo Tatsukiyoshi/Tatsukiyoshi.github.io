@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # System Overview (システム構成)
 As a framework for building web applications in Rust, he refers to a series of articles about Actix-Web and Dioxus.
 In this series, we need to call an API provided by an application in the same domain (built with Actix-Web) from a web application (built with Dioxus).

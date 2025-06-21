@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 1.  概要
 
 	Reactで表形式とグラフ（折れ線、棒）を使ってデータを表示するアプリを作る

@@ -1,10 +1,9 @@
 ---
+title:  Rust
 layout: single
 sidebar:
   nav: main
 ---
-# Rust
-
 ##  独学書
 
   |Text                                                            |Date      |Status

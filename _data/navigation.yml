@@ -2,6 +2,14 @@ main:
   - title: "Home"
     url: /
   - title: ".NET"
-    url: /knowhow/NET/
+    url: /knowhow/NET
   - title: "Rust"
-    url: /knowhow/Rust/
+    url: /knowhow/Rust
+  - title: "Kotlin"
+    url: /knowhow/Kotlin
+  - title: "Java"
+    url: /knowhow/Java
+  - title: "Flutter"
+    url: /knowhow/Flutter
+  - title: "Typescript"
+    url: /knowhow/Typescript

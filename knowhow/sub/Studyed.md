@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 *   演習完了テキスト一覧
     演習を完了したテキストは以下の通り。
 
