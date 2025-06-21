@@ -1,10 +1,9 @@
 ---
+title:  .NET
 layout: single
 sidebar:
   nav: main
 ---
-# .NET
-
 ##  独学書
 
   |Text                                                         |Date      |Status

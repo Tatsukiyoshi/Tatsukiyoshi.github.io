@@ -1,4 +1,5 @@
 ---
+title: Update History of SQL Server and SQL Server Management Studio
 layout: single
 sidebar:
   nav: main

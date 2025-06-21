@@ -1,10 +1,9 @@
 ---
+title:  PHP
 layout: single
 sidebar:
   nav: main
 ---
-# PHP
-
 ##  環境
 
   |Machine        |Env / FW        |Last Updated

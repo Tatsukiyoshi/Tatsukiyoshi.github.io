@@ -1,10 +1,9 @@
 ---
+title:  Python
 layout: single
 sidebar:
   nav: main
 ---
-# Python
-
 ##  独学書
 
   |Text                                                 |Date      |Status

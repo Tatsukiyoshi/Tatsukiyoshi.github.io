@@ -1,9 +1,10 @@
 ---
+title:  Visual Studio Code 拡張機能
 layout: single
 sidebar:
   nav: main
 ---
-s*   共通
+*   共通
     *   AsciiDoc
     *   asciidoctor-vscode
     *   Code Runner

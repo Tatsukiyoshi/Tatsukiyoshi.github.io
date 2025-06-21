@@ -1,10 +1,9 @@
 ---
+title:  RHEL10 on WSL
 layout: single
 sidebar:
   nav: main
 ---
-# RHEL10 on WSL
-
 - Red Hat Developerへの登録
   - [Subscription](https://access.redhat.com/management/subscriptions)
     - Red Hat Developer Subscription for Individuals が有効になっていることを確認

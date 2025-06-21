@@ -1,9 +1,10 @@
 ---
+title:  Exercism
 layout: single
 sidebar:
   nav: main
 ---
-# [Exercism](https://exercism.io/my/tracks)
+## [My Tracks](https://exercism.io/my/tracks)
 
   Exercism は、Kotlin プログラミングの最後に紹介されている学習サイトである。
   様々なプログラミング言語に対応した問題を管理し、順次ダウンロードすることで、コードを作成し、テスト実行により回答を確認できるサイト。

@@ -1,10 +1,9 @@
 ---
+title:  Dart & Flutter
 layout: single
 sidebar:
   nav: main
 ---
-# Dart & Flutter
-
 ##  独学書
 
   |Text                                                                                |Date      |Status

@@ -1,4 +1,5 @@
 ---
+title:	Visual Studio Code
 layout: single
 sidebar:
   nav: main

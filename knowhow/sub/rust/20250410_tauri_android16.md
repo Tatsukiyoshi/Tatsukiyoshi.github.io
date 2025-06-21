@@ -1,9 +1,9 @@
 ---
+title:  Tauri on Android 16
 layout: single
 sidebar:
   nav: main
 ---
-#	Tauri on Android
 ##	Pixel 9 Pro / Android 16
 ```sh
 $ tauri android dev

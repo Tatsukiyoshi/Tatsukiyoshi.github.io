@@ -1,10 +1,9 @@
 ---
+title:  Kotlin
 layout: single
 sidebar:
   nav: main
 ---
-# Kotlin
-
 ##  独学書
 
   |Text                                                       |Date      |Status

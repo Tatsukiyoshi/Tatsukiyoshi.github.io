@@ -1,10 +1,9 @@
 ---
+title:  Carbon
 layout: single
 sidebar:
   nav: main
 ---
-#   Carbon
-
 ##  環境
 
   |Machine         |Env / FW      |Last Updated

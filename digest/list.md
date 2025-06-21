@@ -1,10 +1,9 @@
 ---
+title:  ダイジェスト
 layout: single
 sidebar:
   nav: main
 ---
-# ダイジェスト
-
 - 2025年
   - 6月
     - 第３週（2025/6/15～2025/6/21）<[GitHub](2025/June/3rd) | Zenn>

@@ -1,10 +1,9 @@
 ---
+title:	詳細検討
 layout: single
 sidebar:
   nav: main
 ---
-#	詳細検討
-
 - [Astroでアプリを作成する](https://github.com/Tatsukiyoshi/astro-react-grid-chart)
 	-	GitHubに新しいリポジトリを作成し、クローンする
 	-	クローンしたディレクトリの上位にて、プロジェクトを作成

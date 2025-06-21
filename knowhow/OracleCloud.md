@@ -1,10 +1,9 @@
 ---
+title:  Oracle Cloud
 layout: single
 sidebar:
   nav: main
 ---
-#   Oracle Cloud
-
 ##  ノウハウ
 - 接続スクリプト[<span style="color: red;">*2023/2/24*</span>]
 
