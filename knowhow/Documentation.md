@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # Documentation
 
   テキスト中心にドキュメント化できる言語やツールを試している

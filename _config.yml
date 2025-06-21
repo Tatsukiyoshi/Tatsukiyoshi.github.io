@@ -1,10 +1,9 @@
-theme: jekyll-theme-minimal
-title: リスキリング（プログラミング）
-description: 独学プログラミング演習
-markdown: GFM
+remote_theme: "mmistakes/minimal-mistakes"
+locale: "ja-JP"
+title: "リスキリング（プログラミング）"
+description: "独学プログラミング演習"
+url: https://tatsukiyoshi.github.io
+baseurl: ""
 plugins:
-  - jekyll-readme-index
-readme_index:
-  enabled:          true
-  remove_originals: true
-  with_frontmatter: false
+  - jekyll-include-cache
+  - jekyll-remote-theme

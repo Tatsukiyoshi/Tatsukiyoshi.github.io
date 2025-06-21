@@ -1,3 +1,10 @@
+---
+layout: single # Minimal Mistakesのシングルページレイアウト
+title: "リスキリング"
+permalink: /
+sidebar:
+  nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
+---
 # トップページ <a id="Top"></a>
 [ダイジェスト](#Digest) | [プログラミング言語](#ProgrammingLanguage) | [環境(OS/ツール/サービス)](#Environment) 
 
