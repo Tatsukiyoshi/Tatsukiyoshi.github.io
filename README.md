@@ -15,7 +15,7 @@
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/06/18|Update: Visual Studio 2022 17.14.6 (June 2025)
+[.NET](/knowhow/NET)             |2025/06/21|Update: Visual Studio 2022 17.14.6 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](/knowhow/Kotlin)        |2025/06/12|Update: IntelliJ IDEA 2025.2 EAP 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
