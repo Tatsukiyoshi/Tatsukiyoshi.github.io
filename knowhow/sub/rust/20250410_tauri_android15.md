@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 #	Tauri on Android
 ##	Pixel 9 / Android 15
 ```sh

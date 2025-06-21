@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # 仕様
 **Tauriで開発するアプリケーションの仕様をまとめる**
 

@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 #   .NET 10 Preview 4
 <details>
 <summary>MAUI Update Log</summary>

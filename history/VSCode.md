@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 - 新機能(1.97)
 	- GitHub Copilot
 		- モデルとして、新たにGeminiも選択可能になる<BR />

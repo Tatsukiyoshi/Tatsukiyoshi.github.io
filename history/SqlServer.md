@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 ##  SQLServer
 ##  SQLServer Management Studio
 - SSMS 21.0.73 Preview 2.1

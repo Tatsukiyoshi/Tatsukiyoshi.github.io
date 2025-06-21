@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # フォントの変更
 
 1.  フォントのインストール

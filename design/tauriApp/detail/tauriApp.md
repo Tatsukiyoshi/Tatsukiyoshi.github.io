@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 # 詳細検討
 ## システムトレイのメニュー
 

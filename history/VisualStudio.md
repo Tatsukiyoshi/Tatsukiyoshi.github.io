@@ -1,3 +1,8 @@
+---
+layout: single
+sidebar:
+  nav: main
+---
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.6 Preview 1.0
     ![VS2022 17.14.6 preview 1.0](/images/VisualStudio/20250621_Update_VS2022_17.14.6_Preview1.0.png)
