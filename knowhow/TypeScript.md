@@ -1,6 +1,7 @@
 ---
 title:  TypeScript & JavaScript
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---

@@ -1,6 +1,7 @@
 ---
 title:  .NET
 layout: single
+classes:  wide
 sidebar:
   nav: main
 ---

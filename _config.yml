@@ -4,6 +4,7 @@ title: "リスキリング（プログラミング）"
 description: "独学プログラミング演習"
 url: https://tatsukiyoshi.github.io
 baseurl: ""
+minimal_mistakes_skin: "mint"
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme

@@ -1,5 +1,6 @@
 ---
 layout: single # Minimal Mistakesのシングルページレイアウト
+classes: wide
 title: "リスキリング"
 permalink: /
 sidebar:
