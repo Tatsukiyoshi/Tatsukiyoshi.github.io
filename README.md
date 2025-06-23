@@ -101,6 +101,7 @@ OS                                 |Hardware            |Language
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale)
     - [フォントの変更](/knowhow/sub/windows/font)
     - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize)
+    - [シャットダウン](/knowhow/sub/windows/Shutdown)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
@@ -689,4 +690,4 @@ OS/言語を問わず利用するツールの情報
       ![Export](/images/Penpot/20240421_Export.png)
       - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
 ---
-[プロフィール](/knowhow/sub/Profile) | [トップへ戻る](#Top)
+[プロフィール](/sub/Profile) | [トップへ戻る](#Top)
