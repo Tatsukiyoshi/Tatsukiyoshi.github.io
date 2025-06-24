@@ -23,7 +23,7 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/06/21|Update: Visual Studio 2022 17.14.6 Preview 1.0
+[.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/05/14|Update: RustRover 2025.1.2
 [Kotlin](/knowhow/Kotlin)        |2025/06/21|Update: IntelliJ IDEA 2025.2 EAP 6 / Android Studio Narwhal 2025.1.2 Canary 6
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03

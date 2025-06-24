@@ -20,7 +20,7 @@ sidebar:
   |                |- .NET 9.0.6                                     |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.17                                    |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
-  |Windows Insider |Visual Studio Community 2022 17.14.6 Preview 1.0 |[2025/06/21](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |Windows Insider |Visual Studio Community 2022 17.14.7 Preview 1.0 |[2025/06/24](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.5.25277.114                |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.5](#maui)               |[2025/06/12](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                   |2025/06/12
@@ -33,8 +33,8 @@ sidebar:
     - Visual Studio 2022 17.14.6 (June 2025)
       ![VS2022 17.14.6](/images/VisualStudio/20250618_Update_VS2022_17.14.6_SSMS21.3.6.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14.6 Preview 1.0
-      ![VS2022 17.14.6 preview 1.0](/images/VisualStudio/20250621_Update_VS2022_17.14.6_Preview1.0.png)
+    - Visual Studio 2022 17.14.7 Preview 1.0
+      ![VS2022 17.14.7 preview 1.0](/images/VisualStudio/20250624_Update_VS2022_17.14.7_Preview1.0.png)
   - [履歴](/history/VisualStudio)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
@@ -100,25 +100,25 @@ sidebar:
 
   インストール済みの .NET ワークロード:
   [android]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36212.18
+    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
     Manifest Version:    36.0.0-preview.5.116/10.0.100-preview.5
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.android\36.0.0-preview.5.116\WorkloadManifest.json
     Install Type:              Msi
 
   [ios]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36212.18
+    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
     Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.ios\18.4.10622-net10-p5\WorkloadManifest.json
+    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.ios\18.4.10622-net10-p5\WorkloadManifest.json   
     Install Type:              Msi
 
   [maccatalyst]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36212.18
+    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
     Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maccatalyst\18.4.10622-net10-p5\WorkloadManifest.json
     Install Type:              Msi
 
   [maui-windows]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36212.18
+    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
     Manifest Version:    10.0.0-preview.5.25306.5/10.0.100-preview.5
     Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maui\10.0.0-preview.5.25306.5\WorkloadManifest.json
     Install Type:              Msi
