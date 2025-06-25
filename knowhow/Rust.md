@@ -23,18 +23,14 @@ sidebar:
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |               |[RustRover 2025.1.2](#rustrover)               |[2025/05/14](https://www.jetbrains.com/rust/)
-      |               |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
-      |               |Svelte 5.28.2                                  |2025/04/27
-      |               |Bun 1.2.10                                     |2025/04/27
-      |               |Vite 6.3.3                                     |2025/04/27
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.86                                      |2025/04/06
-      |               |Tauri 2.5.1                                    |2025/04/27
-      |               |React 19.1.0                                   |2025/04/06
-      |               |Bun 1.2.10                                     |2025/04/27
-      |               |Vite 6.3.3                                     |2025/04/27
+      |Windows Insider|Rust 1.87                                      |2025/06/25
+      |               |[Tauri 2.6.0](#tauridesktop-framework)         |[2025/06/25](https://tauri.app/)
+      |               |Svelte 5.34.8                                  |2025/06/25
+      |               |Bun 1.2.17                                     |2025/06/25
+      |               |Vite 7.0.0                                     |2025/06/25
 
   1. Ubuntu 24.04.2 on Windows 11
 
