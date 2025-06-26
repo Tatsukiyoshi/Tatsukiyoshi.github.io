@@ -36,11 +36,11 @@ sidebar:
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.86       |2025/04/16
-      |                |Tauri 2.5.1     |2025/04/27
+      |Windows Insider |Rust 1.87       |2025/06/26
+      |                |Tauri 2.6.0     |2025/06/26
       |                |React 19.1.0    |2025/04/03
-      |                |Bun 1.2.10      |2025/04/27
-      |                |Vite 6.3.3      |2025/04/27
+      |                |Bun 1.2.17      |2025/06/26
+      |                |Vite 7.0.0      |2025/06/26
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
 
@@ -373,10 +373,12 @@ sidebar:
   - V2.6.0
     - Windows
       ![On Windows](/images/rust/20250626_Tauri2.6.0_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250626_Tauri2.6.0_Ubuntu24.04.png)
   - V2.5.1
     - Windows
       ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
@@ -389,7 +391,7 @@ sidebar:
   - V2.5.0
     - Windows
       ![On Windows](/images/rust/20250417_Tauri2.5.0_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
@@ -402,7 +404,7 @@ sidebar:
   - V2.4.1
     - Windows
       ![On Windows](/images/rust/20250403_Tauri2.4.1_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)
