@@ -381,6 +381,8 @@ sidebar:
       ![On Chrome OS Flex](/images/rust/20250626_Tauri2.6.0_Chrome_OS_Flex.png)
     - iOS 18.5 / iPhone 16e
       ![On iPhone 16e](/images/rust/20250626_Tauri2.6.0_iPhone16e_iOS18.5.png)
+    - iOS 26.0 Beta 2 / iPhone 16 Pro
+      ![On iOS 26 Beta 2](/images/rust/20250627_Tauri2.6.0_iPhone16_Pro_iOS26.0B2.png)
   - V2.5.1
     - Windows
       ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
