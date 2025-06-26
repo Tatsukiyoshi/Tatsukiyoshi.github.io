@@ -370,6 +370,9 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.6.0
+    - Windows
+      ![On Windows](/images/rust/20250626_Tauri2.6.0_Windows.png)
   - V2.5.1
     - Windows
       ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
