@@ -37,7 +37,7 @@ sidebar:
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.87       |2025/06/26
-      |                |Tauri 2.6.0     |2025/06/26
+      |                |Tauri 2.6.1     |2025/06/27
       |                |React 19.1.0    |2025/04/03
       |                |Bun 1.2.17      |2025/06/26
       |                |Vite 7.0.0      |2025/06/26
@@ -371,6 +371,8 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.6.1
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250627_Tauri2.6.1_Ubuntu24.04.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250627_Tauri2.6.1_Pixel_9_Pro_Android16.png)
   - V2.6.0
