@@ -59,7 +59,7 @@ sidebar:
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.87            |2025/06/26
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.6.0          |2025/06/26
+      |           |Tauri 2.6.2          |2025/06/28
       |           |React 19.1.0         |2025/04/01
       |           |Bun 1.2.17           |2025/06/26
       |           |Vite 7.0.0           |2025/06/26
@@ -375,8 +375,14 @@ sidebar:
       ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250628_Tauri2.6.2_Pixel_9_Pro_Android16.png)
+    - iOS 18.5 / iPhone 16e
+      ![On iPhone 16e](/images/rust/20250628_Tauri2.6.2_iPhone16e_iOS18.5.png)
+    - iOS 26.0 Beta 2 / iPhone 16 Pro
+      ![On iOS 26 Beta 2](/images/rust/20250628_Tauri2.6.2_iPhone16_Pro_iOS26.0B2.png)
   - V2.6.1
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250627_Tauri2.6.1_Ubuntu24.04.png)
