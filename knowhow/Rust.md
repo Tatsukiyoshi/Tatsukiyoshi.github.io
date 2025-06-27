@@ -375,6 +375,8 @@ sidebar:
       ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250628_Tauri2.6.2_Pixel_9_Pro_Android16.png)
   - V2.6.1
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250627_Tauri2.6.1_Ubuntu24.04.png)
