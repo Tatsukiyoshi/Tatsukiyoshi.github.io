@@ -27,7 +27,7 @@ sidebar:
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.87                                      |2025/06/25
-      |               |[Tauri 2.6.1](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
+      |               |[Tauri 2.6.2](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
       |               |Svelte 5.34.8                                  |2025/06/25
       |               |Bun 1.2.17                                     |2025/06/25
       |               |Vite 7.0.0                                     |2025/06/25
@@ -37,7 +37,7 @@ sidebar:
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.87       |2025/06/26
-      |                |Tauri 2.6.1     |2025/06/27
+      |                |Tauri 2.6.2     |2025/06/27
       |                |React 19.1.0    |2025/04/03
       |                |Bun 1.2.17      |2025/06/26
       |                |Vite 7.0.0      |2025/06/26
@@ -370,6 +370,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.6.2
+    - Windows
+      ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
   - V2.6.1
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250627_Tauri2.6.1_Ubuntu24.04.png)
