@@ -27,7 +27,7 @@ sidebar:
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.87                                      |2025/06/25
-      |               |[Tauri 2.6.0](#tauridesktop-framework)         |[2025/06/25](https://tauri.app/)
+      |               |[Tauri 2.6.1](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
       |               |Svelte 5.34.8                                  |2025/06/25
       |               |Bun 1.2.17                                     |2025/06/25
       |               |Vite 7.0.0                                     |2025/06/25
@@ -370,6 +370,9 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.6.1
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250627_Tauri2.6.1_Pixel_9_Pro_Android16.png)
   - V2.6.0
     - Windows
       ![On Windows](/images/rust/20250626_Tauri2.6.0_Windows.png)
