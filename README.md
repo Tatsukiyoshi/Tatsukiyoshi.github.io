@@ -24,8 +24,8 @@ sidebar:
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/06/27|Update: Tauri 2.6.1
-[Kotlin](/knowhow/Kotlin)        |2025/06/28|Update: IntelliJ IDEA 2025.2 EAP 7 / Android Studio Narwhal 2025.1.2 Canary 6
+[Rust](/knowhow/Rust)            |2025/06/27|Update: Tauri 2.6.2
+[Kotlin](/knowhow/Kotlin)        |2025/06/28|Update: Kotlin 2.2.0 / Android Studio Narwhal 2025.1.2 Canary 7 / IntelliJ IDEA 2025.2 EAP 7
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0

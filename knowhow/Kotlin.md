@@ -17,11 +17,11 @@ sidebar:
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
   |Windows Insider |[IntelliJ IDEA 2025.2 EAP 7](#intellij-idea)                |[2025/06/28](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
+  |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.2 Canary 6](#android-studio) |[2025/06/21](https://developer.android.com/studio)
-  |                |- Kotlin 2.1.21                                             |[2025/05/16](https://kotlinlang.org/docs/home.html)
+  |                |[Android Studio Narwhal 2025.1.2 Canary 7](#android-studio) |[2025/06/28](https://developer.android.com/studio)
+  |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
   |                |- Android Emulator v.36.1.5                                 |2025/06/21
 
@@ -243,6 +243,43 @@ sidebar:
       - [Spring Boot 3.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
       - [Spring Batch 5.0 migration guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-Guide)
       - [MyBatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+    - throttleLimitの非推奨
+      - TaskExecutor::setThrottleLimit -> TaskExecutor::setConcurrencyLimit
+        - 修正前
+          ```java
+          @Bean
+          fun asyncTaskExecutor(): TaskExecutor {
+            return SimpleAsyncTaskExecutor("parallel_")
+          }
+
+          StepBuilder(...)
+            .taskExecutor(asyncTaskExecutor())      // executor
+            .throttleLimit(3)                       // 同時実行数
+            ...
+          ```
+        - 修正後
+          ```java
+          @Bean
+          fun asyncTaskExecutor(): TaskExecutor {
+            val executor = SimpleAsyncTaskExecutor("parallel_")
+            executor.concurrencyLimit = 3
+            return executor
+          }
+
+          StepBuilder(...)
+            .taskExecutor(asyncTaskExecutor())      // executor
+            ...
+          ```
+    - Kotlin 2.2.0
+      - AnnotationのターゲットをParameterに限定する
+        - 修正前
+          ```java
+          @Value("\${retry.num}")
+          ```
+        - 修正後
+          ```java
+          @param:Value($$"${retry.num}")
+          ```
 ### Kotlinプログラミング
   - Android
     - Chapter 22 coroutines
@@ -259,9 +296,9 @@ sidebar:
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 ### Android Studio
-  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 6
+  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 7
     ```
-    Build #AI-251.26094.121.2512.13669762, built on June 19, 2025
+    Build #AI-251.26094.121.2512.13699665, built on June 26, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -272,8 +309,8 @@ sidebar:
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      gradle.phased.sync.enabled=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+      gradle.phased.sync.enabled=true
     Non-Bundled Plugins:
       Dart (251.25410.28)
       io.flutter (86.0.2)
@@ -295,6 +332,16 @@ sidebar:
           ```
           path=F:\Program\.android\avd\Nexus_5X_API_28.avd
           ```
+    - Kotlin 2.2.0
+      - AnnotationのターゲットをParameterに限定する
+        - 修正前
+          ```java
+          @Value("\${retry.num}")
+          ```
+        - 修正後
+          ```java
+          @param:Value($$"${retry.num}")
+          ```
     - Junit 5
       - [AndroidStudioでJUnit5のテスト(ParameterizedTest)を実行する](https://tiratom.hatenablog.com/entry/2024/01/13/145809)
         - build.gradle(app)
@@ -306,6 +353,8 @@ sidebar:
           ```
   - バージョン対応履歴
     - Narwhal
+      - Narwhal Feature Drop Canary 7
+        - Android Gradle Plugin 8.12.0-alpha06 -> 8.12.0-alpha07
       - Narwhal Feature Drop Canary 6
         - [Firebase AI Logic への再構成](https://firebase.google.com/docs/ai-logic?hl=ja)
         - Android Gradle Plugin 8.12.0-alpha04 -> 8.12.0-alpha06
