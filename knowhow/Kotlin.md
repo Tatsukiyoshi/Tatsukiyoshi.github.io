@@ -628,6 +628,8 @@ sidebar:
           }
           ```
 ### Android
+  - Gemini 2.5
+    ![Gemini 2.5 Pro](/images/Android/20250628_Gemini_2.5_Pro.png)
   - Gemini
     ![Vertex AI Studio](/images/Android//20250419_Vertex_AI_Prompt.png)
   - Android 15 (API 35)
