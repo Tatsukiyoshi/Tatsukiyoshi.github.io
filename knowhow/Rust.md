@@ -48,7 +48,7 @@ sidebar:
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.87                                 |2025/06/26
       |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.6.0                               |2025/06/26
+      |           |Tauri 2.6.2                               |2025/06/28
       |           |React 19.1.0                              |2025/04/11
       |           |Bun 1.2.17                                |2025/06/26
       |           |Vite 7.0.0                                |2025/06/26
@@ -377,6 +377,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250628_Tauri2.6.2_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250628_Tauri2.6.2_Pixel_9_Pro_Android16.png)
     - iOS 18.5 / iPhone 16e
