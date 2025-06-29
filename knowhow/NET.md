@@ -55,6 +55,7 @@ sidebar:
     - スペルチェッカ (*17.5 Preview 5.0-*)
       単語レベルでの間違いを指摘し、修正候補を提示する。
       ![スペルチェッカ](/images/VisualStudio/20230121_SpellChecker.png)
+
 ### .NET
   - [.NET 10.0.0-preview5](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2025/06/11* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 10.0"を指定することで実現
@@ -500,17 +501,21 @@ sidebar:
       D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
       ```
     - [履歴](/history/MAUI)
+
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
+
 ### Azure
   - [Azureポータル](https://portal.azure.com/#home)
   - [Visual Studio Code を使用して Azure Functions を開発する](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-develop-vs-code?tabs=csharp)
     ![ブラウザから実行してみた](/images/Azure/20230701_FunctionsTrial.png)
+
 ### Blazor
   - [Blazor WebAssembly アプリケーションプログラミング自習書](https://qiita.com/jsakamoto/items/244163860b4626c02ba0)
   - [Getting Started with Blazor Scheduler Component](https://blazor.syncfusion.com/documentation/scheduler/getting-started)
     ![SyncFusion Schedule Component](/images/Blazor/20230322_SyncFusionSchedulerInit.png)
   - Blazor入門（日経ソフトウェア 2021年9月号）**@2021/09/26** <span style="color: red;">*finished*</span>
+
 ### C#
   - [やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)
     - [サポートページ](http://mana.on.coocan.jp/yasacs.html)
@@ -533,6 +538,7 @@ sidebar:
       </data>
       ```
       ![解析結果例](/images/VisualStudio/20230326_Analyze_XML_Resources.png)
+
 ### C++
   - C11/C++17 - [C++環境設定](https://code.visualstudio.com/docs/cpp/config-msvc)
     - HelloWorld

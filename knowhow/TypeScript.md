@@ -134,6 +134,7 @@ sidebar:
             ```sh
             npm config set scripts-prepend-node-path true
             ```
+
 ### Runtime
   - [Bun](https://bun.sh/) <a id="bun"></a>
     - Install
@@ -203,6 +204,7 @@ sidebar:
         ```
         deno run -Ar https://fresh.deno.dev/update
         ```
+
 ### ORM
   - [TypeORM](https://typeorm.io/) <a id="typeorm"></a>
     - プロジェクト作成
@@ -291,6 +293,7 @@ sidebar:
   - [Sequelize](https://sequelize.org/) <a id="seq"></a>
     - [Getting Started](https://sequelize.org/docs/v6/getting-started/)
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
+
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)
@@ -1009,6 +1012,7 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
 ### Others
 - electron
   - [Electronでアプリケーションを作ってみよう](https://qiita.com/Quramy/items/a4be32769366cfe55778)

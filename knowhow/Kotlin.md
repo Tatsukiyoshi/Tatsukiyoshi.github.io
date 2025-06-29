@@ -201,6 +201,7 @@ sidebar:
         </project>
         ```
   - [履歴](/history/IntelliJIDEA)
+
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
     1. PATH環境変数にJDKおよびkotlinのパスを設定する
@@ -214,6 +215,7 @@ sidebar:
         ```
         "kotlin": "cd $dir && kotlinc-jvm.bat $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
         ```
+
 ### Spring Boot
   - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
     - IntelliJ IDEA 2025.2 EAP Build 2
@@ -280,6 +282,7 @@ sidebar:
           ```java
           @param:Value($$"${retry.num}")
           ```
+
 ### Kotlinプログラミング
   - Android
     - Chapter 22 coroutines
@@ -897,6 +900,7 @@ sidebar:
                 syncEnabled = true
             }
             ```
+
 ### Androidプログラミング
   - プロジェクト残課題状況
     - AnimalBook

@@ -37,6 +37,7 @@ sidebar:
         ```
         python -m pip install django
         ```
+
 ### numpy/scikit-learn
   - VSCodeで実行してみた
     ![グラフ表示](/images/python/20240102_matplotlib.png)
@@ -85,6 +86,7 @@ sidebar:
 
     - 管理サイトのパスワード
       admin / djangoadmin
+
 ### Flet
   - [Flet-Counter](https://github.com/Tatsukiyoshi/Flet-Counter)
 

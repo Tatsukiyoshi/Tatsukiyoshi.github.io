@@ -103,7 +103,8 @@ sidebar:
     ```
     cargo run
     ```
-  ### WASM
+
+### WASM
   - [Wasmtime](https://wasmtime.dev/)
     - Install
       ```sh
@@ -126,7 +127,8 @@ sidebar:
       ```sh
       wasmtime hello.wasm
       ```
-  ### RustRover
+
+### RustRover
   - RustRover 2025.1.2 Build #RR-251.25410.115, built on May 7, 2025 <span style="color: red;">**Updated 2025/05/14**</span>
     ```
     RustRover 2025.1.2
@@ -182,7 +184,8 @@ sidebar:
         id = 99 &
         content = new-element
         ```
-  ### Visual Studio Code
+
+### Visual Studio Code
   - デバッグ
     - [デバッグについて](https://qiita.com/lechatthecat/items/c5444fdf0656cab6c0e4)
       - CodeLLDBをインストール
@@ -193,7 +196,8 @@ sidebar:
         - プロジェクト内のCargo.tomlに従って、構成ファイルが作成される
       - デバッグ開始（２回目以降）
         - LLDBを使って、デバッグ実行できる
-  ### クレート
+
+### クレート
   - サンプルWebApp(Actix-Web/SeaORM)
     ![Chapter18_WebApp_Search](/images/rust/20240105_WebApp_Search.png)
   - SeaORM
@@ -203,9 +207,11 @@ sidebar:
       ```
   - time
     - Rust 1.80 以降は、0.3.35 以上にする必要あり
-  ### セッション管理
+
+### セッション管理
   - [Redis](https://github.com/MicrosoftArchive/redis/releases)
-  ### SSL
+
+### SSL
   - ローカル認証局のインストール、証明鍵および秘密鍵の作成には、[mkcert 1.4.4](https://github.com/FiloSottile/mkcert)を利用
     - [Chocolatey v2.2.2](https://chocolatey.org/install)でインストール
       - Chocolatelyのインストール
@@ -366,7 +372,8 @@ sidebar:
           target_link_libraries(main PRIVATE OpenSSL::SSL OpenSSL::Crypto)
       ```
       </details>
-  ### Tauri(Desktop Framework)
+
+### Tauri(Desktop Framework)
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
@@ -1619,7 +1626,8 @@ sidebar:
   - デスクトップアプリケーションの参考情報
     - [Tauri(Rust+React+TypeScript) から始めるディスクトップアプリ #4[Menuの実装]](https://zenn.dev/wara0516/articles/5af7ab30483185)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
-  ### Slint
+
+### Slint
   - Install cargo-generate
     ```
     cargo install cargo-generate
@@ -1628,7 +1636,8 @@ sidebar:
     ```
     cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
     ```
-  ### Dioxus(Cross Platform Library)
+
+### Dioxus(Cross Platform Library)
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
   - V0.6.1
     ```
@@ -1662,7 +1671,8 @@ sidebar:
     ```
   - 課題整理 <span style="color: red;">*researching from 2024/04/30*</span>
     - [Overview](/design/dioxusApp/system)
-  ### Game Engine
+
+### Game Engine
   - [Bevy](https://bevyengine.org/)
     - Bevy 0.13
       - [Migration Guide](https://bevyengine.org/learn/migration-guides/0-12-to-0-13/)
@@ -1701,11 +1711,11 @@ sidebar:
         ```
   - [Fyrox](https://fyrox.rs/)
 
-  # Tauri Documents
-  ##  Splashscreen
+# Tauri Documents
+##  Splashscreen
   Webページが読み込みに時間がかかったり、メインウィンドウを表示する前に初期処理を実行する必要がある場合、スプラッシュスクリーンによって、ユーザの起動体験を改善できる。
 
-  ### Setup
+### Setup
   まず、実行環境のディレクトリにsplashscreen.html（スプラッシュスクリーンのためのHTMLコード）を作る。
 
   ```json
@@ -1731,7 +1741,7 @@ sidebar:
 
   さて、アプリケーション起動時には、メインウィンドウを非表示にして、スプラッシュスクリーンを表示するようにします。続けて、メインウィンドウが準備できたら、スプラッシュスクリーンを閉じる手段を準備する必要があります。何を待っているかによって、スプラッシュスクリーンを閉じる手段は決まる。
 
-  ### Waiting for Webpage
+### Waiting for Webpage
   Webコンテンツを待っているのであれば、フロントエンドからスプラッシュスクリーンを閉じるコマンドを準備したいでしょう。
 
   ```rust
@@ -1781,7 +1791,7 @@ sidebar:
   })
   ```
 
-  ### Waiting for Rust
+### Waiting for Rust
   サーバサイドでのRustコードの実行を待っているのであれば、setup関数ハンドラに置いて、Appインスタンスからアクセスできるようにする。
 
   ```rust
