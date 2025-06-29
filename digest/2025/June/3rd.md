@@ -1,6 +1,7 @@
 ---
 title: 2025年6月第3週（2025/6/15～2025/6/21）
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---

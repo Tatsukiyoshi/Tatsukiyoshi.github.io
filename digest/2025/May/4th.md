@@ -1,6 +1,7 @@
 ---
 title:  2025年5月第4週（2025/5/25～2025/5/31）
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---

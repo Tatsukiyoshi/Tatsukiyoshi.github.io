@@ -1,6 +1,7 @@
 ---
 title:  2025年5月第2週（2025/5/11～2025/5/17）
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---

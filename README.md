@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/15～2025/6/21）](/digest/2025/June/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/6/22～2025/6/28）](/digest/2025/June/4th) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -689,5 +689,6 @@ OS/言語を問わず利用するツールの情報
     - ファイルに出力する<BR />
       ![Export](/images/Penpot/20240421_Export.png)
       - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
+
 ---
 [プロフィール](/sub/Profile) | [トップへ戻る](#Top)
