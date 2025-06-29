@@ -82,8 +82,8 @@ sidebar:
       |           |        |Bun 1.2.10               |2025/04/26
       |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10             |2025/04/26
-      |           |        |React Native 0.80.0-rc.2 |[2025/05/20](https://reactnative.dev/)
-      |           |        |- Bun 1.2.13             |2025/02/24
+      |           |        |React Native 0.80.0.     |[2025/06/29](https://reactnative.dev/)
+      |           |        |- Bun 1.2.17             |2025/02/24
 
 ##  ノウハウ
 ### TypeScript
@@ -328,6 +328,7 @@ sidebar:
         - React Native 0.80.0
           - React 19.1.0
             ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
+            ![React Native 0.80.0 iOS](/images/Mac/20250629_ReactNative_0.80.0.png)
         - React Native 0.80.0-rc.2
           - React 19.1.0
             ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
