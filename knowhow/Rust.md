@@ -23,50 +23,46 @@ sidebar:
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
       |               |[RustRover 2025.1.2](#rustrover)               |[2025/05/14](https://www.jetbrains.com/rust/)
-      |               |[Tauri 2.5.1](#tauridesktop-framework)         |[2025/04/27](https://tauri.app/)
-      |               |Svelte 5.28.2                                  |2025/04/27
-      |               |Bun 1.2.10                                     |2025/04/27
-      |               |Vite 6.3.3                                     |2025/04/27
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.86                                      |2025/04/06
-      |               |Tauri 2.5.1                                    |2025/04/27
-      |               |React 19.1.0                                   |2025/04/06
-      |               |Bun 1.2.10                                     |2025/04/27
-      |               |Vite 6.3.3                                     |2025/04/27
+      |Windows Insider|Rust 1.87                                      |2025/06/25
+      |               |[Tauri 2.6.2](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
+      |               |Svelte 5.34.8                                  |2025/06/25
+      |               |Bun 1.2.17                                     |2025/06/25
+      |               |Vite 7.0.0                                     |2025/06/25
 
   1. Ubuntu 24.04.2 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.86       |2025/04/16
-      |                |Tauri 2.5.1     |2025/04/27
+      |Windows Insider |Rust 1.87       |2025/06/26
+      |                |Tauri 2.6.2     |2025/06/27
       |                |React 19.1.0    |2025/04/03
-      |                |Bun 1.2.10      |2025/04/27
-      |                |Vite 6.3.3      |2025/04/27
+      |                |Bun 1.2.17      |2025/06/26
+      |                |Vite 7.0.0      |2025/06/26
 
-  1. Chrome OS Flex 135.0.7049.104 (Official Build)
+  1. Chrome OS Flex 136.0.7103.158 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.86                                 |2025/04/11
+      |Chrome OS  |Rust 1.87                                 |2025/06/26
       |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.5.1                               |2025/04/29
+      |           |Tauri 2.6.2                               |2025/06/28
       |           |React 19.1.0                              |2025/04/11
-      |           |Bun 1.2.11                                |2025/04/29
-      |           |Vite 6.3.3                                |2025/04/29
+      |           |Bun 1.2.17                                |2025/06/26
+      |           |Vite 7.0.0                                |2025/06/26
 
-  1.  Mac OS Sequoia 15.4.1
+  1.  Mac OS Sequoia 15.5
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.86            |2025/04/05
+      |Mac OS     |Rust 1.87            |2025/06/26
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.5.1          |2025/04/27
+      |           |Tauri 2.6.2          |2025/06/28
       |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.10           |2025/04/26
-      |           |Vite 6.3.3           |2025/04/27
+      |           |Bun 1.2.17           |2025/06/26
+      |           |Vite 7.0.0           |2025/06/26
 
   ##  ノウハウ
   ### Rust
@@ -374,10 +370,43 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.6.2
+    - Windows
+      ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250628_Tauri2.6.2_Chrome_OS_Flex.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250628_Tauri2.6.2_Pixel_9_Pro_Android16.png)
+    - iOS 18.5 / iPhone 16e
+      ![On iPhone 16e](/images/rust/20250628_Tauri2.6.2_iPhone16e_iOS18.5.png)
+    - iOS 26.0 Beta 2 / iPhone 16 Pro
+      ![On iOS 26 Beta 2](/images/rust/20250628_Tauri2.6.2_iPhone16_Pro_iOS26.0B2.png)
+  - V2.6.1
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250627_Tauri2.6.1_Ubuntu24.04.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250627_Tauri2.6.1_Pixel_9_Pro_Android16.png)
+  - V2.6.0
+    - Windows
+      ![On Windows](/images/rust/20250626_Tauri2.6.0_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250626_Tauri2.6.0_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](/images/rust/20250626_Tauri2.6.0_Mac15.5.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250626_Tauri2.6.0_Chrome_OS_Flex.png)
+    - iOS 18.5 / iPhone 16e
+      ![On iPhone 16e](/images/rust/20250626_Tauri2.6.0_iPhone16e_iOS18.5.png)
+    - iOS 26.0 Beta 2 / iPhone 16 Pro
+      ![On iOS 26 Beta 2](/images/rust/20250627_Tauri2.6.0_iPhone16_Pro_iOS26.0B2.png)
   - V2.5.1
     - Windows
       ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
@@ -390,7 +419,7 @@ sidebar:
   - V2.5.0
     - Windows
       ![On Windows](/images/rust/20250417_Tauri2.5.0_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
@@ -403,7 +432,7 @@ sidebar:
   - V2.4.1
     - Windows
       ![On Windows](/images/rust/20250403_Tauri2.4.1_Windows.png)
-    - Ubuntu 24.04 on WSL2
+    - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - Mac OS
       ![On Mac OS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)

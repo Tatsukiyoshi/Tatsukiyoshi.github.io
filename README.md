@@ -1,5 +1,6 @@
 ---
 layout: single # Minimal Mistakesのシングルページレイアウト
+classes: wide
 title: "リスキリング"
 permalink: /
 sidebar:
@@ -13,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/15～2025/6/21）](/digest/2025/June/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/6/22～2025/6/28）](/digest/2025/June/4th) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -22,9 +23,9 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/06/21|Update: Visual Studio 2022 17.14.6 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/05/14|Update: RustRover 2025.1.2
-[Kotlin](/knowhow/Kotlin)        |2025/06/21|Update: IntelliJ IDEA 2025.2 EAP 6 / Android Studio Narwhal 2025.1.2 Canary 6
+[.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
+[Rust](/knowhow/Rust)            |2025/06/27|Update: Tauri 2.6.2
+[Kotlin](/knowhow/Kotlin)        |2025/06/28|Update: Kotlin 2.2.0 / Android Studio Narwhal 2025.1.2 Canary 7 / IntelliJ IDEA 2025.2 EAP 7
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
@@ -36,7 +37,7 @@ Language                         |Updated   |Detail
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/06/18|Update: SQL Server Management Studio 21.3.6 (June 2025)
-[Container](/knowhow/Container)        |2025/06/08|Update: Rancher Desktop 1.19.1
+[Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
@@ -100,30 +101,30 @@ OS                                 |Hardware            |Language
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale)
     - [フォントの変更](/knowhow/sub/windows/font)
     - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize)
+    - [シャットダウン](/knowhow/sub/windows/Shutdown)
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5651 (Cumulative Update) <span style="color: red;">*<<2025/06/15 updated from Build 26200.5641 >>*</span>
-      ![Cumulative Update](/images/Windows/20250615_WindowsUpdate_DevChannel.png)
+    - Build 26200.5670 (Cumulative Update) <span style="color: red;">*<<2025/06/28 updated from Build 26200.5661 >>*</span>
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250615_Windows11_Build26200.png)    
+        ![Version Information](/images/Windows/20250628_Windows11_Build26200.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
-    - [WSL 2.5.9.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/11 auto updated from 2.5.8.0>>*</span>
+    - [WSL 2.6.0.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/21 auto updated from 2.5.9.0>>*</span>
 
       <details>
       <summary>カーネルバージョン: 6.6.87.2-1</summary>
 
       ```
-      WSL バージョン: 2.5.9.0
+      WSL バージョン: 2.6.0.0
       カーネル バージョン: 6.6.87.2-1
       WSLg バージョン: 1.0.66
-      MSRDC バージョン: 1.2.6074
+      MSRDC バージョン: 1.2.6228
       Direct3D バージョン: 1.611.1-81528511
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-      Windows バージョン: 10.0.26200.5651
+      Windows バージョン: 10.0.26200.5661
       ```
       </details>
 
@@ -373,7 +374,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code May 2025 Recovery 1(1.101.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/20 updated from 1.101.0>>*</span>
+- [Visual Studio Code May 2025 Recovery 2(1.101.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/26 updated from 1.101.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -673,6 +674,7 @@ OS/言語を問わず利用するツールの情報
 **Mac**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
+- [Xcode 26 Beta 2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/06/26 Installed>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
@@ -687,5 +689,6 @@ OS/言語を問わず利用するツールの情報
     - ファイルに出力する<BR />
       ![Export](/images/Penpot/20240421_Export.png)
       - ファイル名は、小文字がよい。Next.JSには、SVGがよい。
+
 ---
-[プロフィール](/knowhow/sub/Profile) | [トップへ戻る](#Top)
+[プロフィール](/sub/Profile) | [トップへ戻る](#Top)

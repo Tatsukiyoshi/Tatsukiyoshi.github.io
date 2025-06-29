@@ -8,7 +8,7 @@ sidebar:
 
   |Machine        |Env／FW                 |Last Updated
   |---------------|------------------------|----------
-  |Windows Insider|Rancher Desktop 1.19.1  |[2025/06/08](https://rancherdesktop.io/)
+  |Windows Insider|Rancher Desktop 1.19.3  |[2025/06/24](https://rancherdesktop.io/)
 
 ##  ノウハウ
 - [Rancher Desktop 1.19.1](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/06/08 from 1.18.2**</span>

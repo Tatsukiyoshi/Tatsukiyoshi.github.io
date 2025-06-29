@@ -1,6 +1,7 @@
 ---
 title:  TypeScript & JavaScript
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---
@@ -581,6 +582,10 @@ sidebar:
     - モダンJavaScriptの基礎から始める挫折しないためのReact入門＠Udemy
     - [Tutorial](https://ja.reactjs.org/tutorial/tutorial.html) **@2021/10/10** <span style="color: red;">*Finished!*</span>
   - [Svelte](https://svelte.dev/) <a id="svelte"></a>
+    - SvelteKitでParse Error -> 環境が壊れている可能性が高いので初期化する
+      - `Lockfile`を削除する
+      - `node_modules`ディレクトリを削除する
+      - `.svelte-kit`ディレクトリを削除する
     - [Static Site Generator](https://svelte.jp/docs/kit/adapter-static)
     - [SvelteとReactの基本を比較](https://www.twilio.com/blog/react-svelte-comparing-basics-jp)
     - [Svelteのポート番号変更](https://stackoverflow.com/questions/57578775/how-to-change-the-default-port-5000-in-svelte)
