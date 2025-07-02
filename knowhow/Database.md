@@ -11,7 +11,7 @@ sidebar:
   |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.3.6 (June 2025)    |[2025/06/18](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-  |               |MongoDB 8.1.0                                        |[2025/05/14](https://www.mongodb.com/ja-jp)
+  |               |MongoDB 8.1.1                                        |[2025/07/02](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |               |MySQL Community Server 8.4.2                         |2024/08/24
@@ -62,49 +62,6 @@ sidebar:
         ```sh
         scoop update mongodb
         ```
-        1.  8.1.0へのアップデート
-            <details>
-            <summary>Update Log</summary>
-
-            ```
-            Updating Scoop...
-            Updating Buckets...
-            ...
-            Scoop was updated successfully!
-            mongodb: 8.0.4 -> 8.1.0
-            Updating one outdated app:
-            Updating 'mongodb' (8.0.4 -> 8.1.0)
-            Downloading new version
-            mongodb-windows-x86_64-8.1.0-signed.msi (705.1 MB) [==========================================================] 100%
-            Checking hash of mongodb-windows-x86_64-8.1.0-signed.msi ... ok.
-            Uninstalling 'mongodb' (8.0.4)
-            Removing shim 'mongod.shim'.
-            Removing shim 'mongod.exe'.
-            Removing shim 'mongos.shim'.
-            Removing shim 'mongos.exe'.
-            Unlinking ~\scoop\apps\mongodb\current
-            Installing 'mongodb' (8.1.0) [64bit] from 'C:\Users\taish\scoop\buckets\main\bucket\mongodb.json'
-            Loading mongodb-windows-x86_64-8.1.0-signed.msi from cache
-            Extracting mongodb-windows-x86_64-8.1.0-signed.msi ... done.
-            Running pre_install script...done.
-            Linking ~\scoop\apps\mongodb\current => ~\scoop\apps\mongodb\8.1.0
-            Creating shim for 'mongod'.
-            Creating shim for 'mongos'.
-            Persisting bin\mongod.cfg
-            Persisting data
-            Persisting log
-            'mongodb' (8.1.0) was installed successfully!
-            Notes
-            -----
-            Windows server 2012/2008 and Windows 7/8/8.1 need KB2999226 to provide Universal C Runtime support for Windows.
-            For more infomations, please refer to:
-            https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
-
-            mongod shim use "C:\Users\taish\scoop\apps\mongodb\current\bin\mongod.cfg" as the default config file.
-            To use a different config file, please run
-            "C:\Users\taish\scoop\apps\mongodb\current\bin\mongod.exe --config NEW_CONFIG_FILE"
-            ```
-            </details>
         1.  [8.1.0への移行](https://zenn.dev/tatsukiyoshi/articles/46cd0e6d8b462e)
             - 8.1では、"featureCompatibilityVersion"が8.0である必要あり
               - mongoshを起動し、下記を実行する

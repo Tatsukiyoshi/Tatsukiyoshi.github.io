@@ -21,8 +21,8 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |               |[RustRover 2025.1.2](#rustrover)               |[2025/05/14](https://www.jetbrains.com/rust/)
+      |Windows        |[Rust 1.88](#rust-1)                           |[2025/07/02](https://www.rust-lang.org/)
+      |               |[RustRover 2025.2 EAP 6](#rustrover)           |[2025/07/01](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
@@ -129,15 +129,14 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.1.2 Build #RR-251.25410.115, built on May 7, 2025 <span style="color: red;">**Updated 2025/05/14**</span>
+  - RustRover 2025.2 EAP Build #RR-252.23591.37, built on June 27, 2025 <span style="color: red;">**Updated 2025/07/01**</span>
     ```
-    RustRover 2025.1.2
-    Build #RR-251.25410.115, built on May 7, 2025
-    Source revision: f16670c80a66d
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年5月22日 まで有効です。
-    For non-commercial use only.
-    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
+    RustRover 2025.2 EAP
+    Build #RR-252.23591.37, built on June 27, 2025
+    Source revision: 936e08e520647
+    ライセンス対象: RustRover EAP user: Shinya Watanabe
+    有効期限: July 27, 2025
+    Runtime version: 21.0.7+6-b1038.54 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -147,15 +146,14 @@ sidebar:
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (251.23774.318)
-      ru.adelf.idea.dotenv (251.23774.318)
-      com.intellij.ml.llm (251.23774.42.28.7)
-      org.jetbrains.plugins.gitlab (251.25410.123-IU)
-      org.jetbrains.plugins.github (251.25410.123-IU)
+      com.jetbrains.space (252.23591.19)
+      ru.adelf.idea.dotenv (252.23591.19)
+      com.intellij.ml.llm (252.23591.37)
     ```
     - [履歴](/history/RustRover)
   - データベース
