@@ -237,12 +237,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 136.0.7103.158 <span style="color: red;">*<<2025/06/21 updated from 136.0.7103.150>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250621_Chrome_OS_Flex_136.0.7103.158.png)
+  - バージョン 137.0.7151.132 <span style="color: red;">*<<2025/07/03 updated from 136.0.7103.158>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250703_Chrome_OS_Flex_137.0.7151.132.png)
       - 更新中
-        ![Updating](/images/Chrome/20250621_Chrome_OS_Flex_Updating136.0.7103.158.png)
-      - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
-        [Update Log](/knowhow/sub/Chrome/20250525_Update)
+        ![Updating](/images/Chrome/20250703_Chrome_OS_Flex_Updating137.0.7151.132.png)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
