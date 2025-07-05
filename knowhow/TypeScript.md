@@ -50,7 +50,7 @@ sidebar:
       |                |        |- Vite 6.2.3                |2025/03/29
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
-      |                |Web FW  |[Angular 20.0.2](#angular)  |[2025/06/08](https://angular.dev/)
+      |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
       |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.15                |2025/05/22
@@ -82,7 +82,7 @@ sidebar:
       |           |        |Bun 1.2.10               |2025/04/26
       |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10             |2025/04/26
-      |           |        |React Native 0.80.0.     |[2025/06/29](https://reactnative.dev/)
+      |           |        |React Native 0.80.0      |[2025/06/29](https://reactnative.dev/)
       |           |        |- Bun 1.2.17             |2025/02/24
 
 ##  ノウハウ
