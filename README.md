@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/22～2025/6/28）](/digest/2025/June/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/6/29～2025/7/5）](/digest/2025/June/5th) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -25,7 +25,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/07/02|Update: Rust 1.88 / RustRover 2025.2 EAP 6
-[Kotlin](/knowhow/Kotlin)        |2025/06/28|Update: Kotlin 2.2.0 / Android Studio Narwhal 2025.1.2 Canary 7 / IntelliJ IDEA 2025.2 EAP 7
+[Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/07/05|Update: Svelte 5.35.2 / Bun 1.2.18 / Vite 7.0.2

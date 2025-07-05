@@ -611,6 +611,7 @@ sidebar:
       1.  コマンド
           * ng &lt;command&gt;
             - Commands:
+
               |Command | |
               |-|-|
               |ng analytics                  |Configures the gathering of Angular CLI usage metrics. &lt;BR&gt;See https://angular.io/cli/usage-analytics-gathering|
@@ -620,6 +621,7 @@ sidebar:
               |ng new [name]                 |Creates a new Angular workspace.  [aliases: n]
               |ng version                    |Outputs Angular CLI version.  [aliases: v]
             - Options:
+
               | | |
               |-|-|
               |--help  |Shows a help message for this command in the console.  [boolean]
@@ -632,11 +634,13 @@ sidebar:
           ```
       1.  Angular 20.0.2対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |jasmine-core             |5.8.0
       1.  Angular 20.0.0対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |zone.js                  |0.15.1
@@ -645,6 +649,7 @@ sidebar:
             |typescript               |5.8.3
       1.  Angular 19.2.0対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |rxjs                     |7.8.2
@@ -653,6 +658,7 @@ sidebar:
             |typescript               |5.8.2
       1.  Angular 19対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |angular-in-memory-web-api|0.19.0
@@ -777,6 +783,7 @@ sidebar:
             ```
       1.  Angular 17対応
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.14.0
@@ -791,12 +798,14 @@ sidebar:
             }
             ```
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.13.0
             |typescript                 |4.9.3
       1.  Angular 15対応
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.12.0
@@ -818,7 +827,7 @@ sidebar:
             TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
             ```
       1.  [ngx-bootstrap](https://valor-software.com/ngx-bootstrap)
-          [Get Started](https://valor-software.com/ngx-bootstrap/#/documentation#getting-started)
+          - [Get Started](https://valor-software.com/ngx-bootstrap/#/documentation#getting-started)
 
       1.  [ng2-validation](https://github.com/yuyang041060120/ng2-validation)
       1.  [国際化対応](https://angular.jp/guide/i18n-common-overview)
