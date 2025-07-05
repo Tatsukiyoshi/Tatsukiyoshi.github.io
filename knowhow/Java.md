@@ -432,6 +432,7 @@ sidebar:
     - [TODO: assertEqualsでなくassertThatを使うべきケースの理解](https://torazuka.hatenablog.com/entry/20111003/junit)
   - JavaDoc
     - [@paramタグ](https://www.javadrive.jp/javadoc/tag/index7.html)
+
 ### Spring Framework
   - [lombok 1.18.24](https://projectlombok.org/)
   - H2 DataBaseは、SQLを作成していることで操作する。データを直接操作することはない。
@@ -439,6 +440,7 @@ sidebar:
     ```
     localhost:8080/h2-console
     ```
+
 ### graalVM
   IntelliJ IDEAのプロジェクトにて、SDKをGraalVM CE 22.1.0を選択して実行。他のJDKより若干早い模様。
   <details>
@@ -558,6 +560,7 @@ sidebar:
         ![サーバー設定](/images/eclipse/20241026_Eclipse2024-09_Tomcat10.1.28_ServerSetup.png)
     - 起動時のメッセージが日本語のため、エンコードを「システム・エンコーディングを使用」を選択する。
       ![実行構成](/images/eclipse/tomcat_configuration.png)
+
 ### Jenkins
   - Jenkinsのセットアップ（LTS 2.479.2）
     - アンロック
@@ -579,6 +582,7 @@ sidebar:
   - JUnitはじめ、プラグインの確認（Java本格入門 13章）
     - ビルド実行を確認するも、サンプルが良くないらしく、エラーになってしまう。環境としてはできているので、OKとする。
       ![ビルド実行](/images/jenkins/Jenkins_Build.png)
+
 ### Tomcat
   - [WindowsでインストールしたTomcatの起動ポートを変更する](https://mr-star.hatenablog.com/entry/tomcat/005)
     - ポート番号変更(${TOMCAT_HOME}/conf/server.xml)
@@ -589,9 +593,11 @@ sidebar:
       ```
   - LifecycleExceptionで起動できない
     - Eclipseで起動する場合、関連する動的Webプロジェクトはすべてオープンしていないと発生するので、注意。
+
 ### H2 Database
   - 環境変数H2DRIVERSまたはCLASSPATHにH2*.jarを登録する。
   - データベースは、"H2 Console"で作成する。ただし、Embeddedモードでしか作成できない。
+
 ### Web App Sample
   - H2 Database コンソールを起動する
     ```

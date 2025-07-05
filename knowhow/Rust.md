@@ -21,8 +21,8 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows        |[Rust 1.86](#rust-1)                           |[2025/04/05](https://www.rust-lang.org/)
-      |               |[RustRover 2025.1.2](#rustrover)               |[2025/05/14](https://www.jetbrains.com/rust/)
+      |Windows        |[Rust 1.88](#rust-1)                           |[2025/07/02](https://www.rust-lang.org/)
+      |               |[RustRover 2025.2 EAP 6](#rustrover)           |[2025/07/01](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
@@ -103,7 +103,8 @@ sidebar:
     ```
     cargo run
     ```
-  ### WASM
+
+### WASM
   - [Wasmtime](https://wasmtime.dev/)
     - Install
       ```sh
@@ -126,16 +127,16 @@ sidebar:
       ```sh
       wasmtime hello.wasm
       ```
-  ### RustRover
-  - RustRover 2025.1.2 Build #RR-251.25410.115, built on May 7, 2025 <span style="color: red;">**Updated 2025/05/14**</span>
+
+### RustRover
+  - RustRover 2025.2 EAP Build #RR-252.23591.37, built on June 27, 2025 <span style="color: red;">**Updated 2025/07/01**</span>
     ```
-    RustRover 2025.1.2
-    Build #RR-251.25410.115, built on May 7, 2025
-    Source revision: f16670c80a66d
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年5月22日 まで有効です。
-    For non-commercial use only.
-    Runtime version: 21.0.6+9-b895.109 amd64 (JCEF 122.1.9)
+    RustRover 2025.2 EAP
+    Build #RR-252.23591.37, built on June 27, 2025
+    Source revision: 936e08e520647
+    ライセンス対象: RustRover EAP user: Shinya Watanabe
+    有効期限: July 27, 2025
+    Runtime version: 21.0.7+6-b1038.54 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -145,15 +146,14 @@ sidebar:
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
       org.toml.json.schema=false
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (251.23774.318)
-      ru.adelf.idea.dotenv (251.23774.318)
-      com.intellij.ml.llm (251.23774.42.28.7)
-      org.jetbrains.plugins.gitlab (251.25410.123-IU)
-      org.jetbrains.plugins.github (251.25410.123-IU)
+      com.jetbrains.space (252.23591.19)
+      ru.adelf.idea.dotenv (252.23591.19)
+      com.intellij.ml.llm (252.23591.37)
     ```
     - [履歴](/history/RustRover)
   - データベース
@@ -182,7 +182,8 @@ sidebar:
         id = 99 &
         content = new-element
         ```
-  ### Visual Studio Code
+
+### Visual Studio Code
   - デバッグ
     - [デバッグについて](https://qiita.com/lechatthecat/items/c5444fdf0656cab6c0e4)
       - CodeLLDBをインストール
@@ -193,7 +194,8 @@ sidebar:
         - プロジェクト内のCargo.tomlに従って、構成ファイルが作成される
       - デバッグ開始（２回目以降）
         - LLDBを使って、デバッグ実行できる
-  ### クレート
+
+### クレート
   - サンプルWebApp(Actix-Web/SeaORM)
     ![Chapter18_WebApp_Search](/images/rust/20240105_WebApp_Search.png)
   - SeaORM
@@ -203,9 +205,11 @@ sidebar:
       ```
   - time
     - Rust 1.80 以降は、0.3.35 以上にする必要あり
-  ### セッション管理
+
+### セッション管理
   - [Redis](https://github.com/MicrosoftArchive/redis/releases)
-  ### SSL
+
+### SSL
   - ローカル認証局のインストール、証明鍵および秘密鍵の作成には、[mkcert 1.4.4](https://github.com/FiloSottile/mkcert)を利用
     - [Chocolatey v2.2.2](https://chocolatey.org/install)でインストール
       - Chocolatelyのインストール
@@ -366,7 +370,8 @@ sidebar:
           target_link_libraries(main PRIVATE OpenSSL::SSL OpenSSL::Crypto)
       ```
       </details>
-  ### Tauri(Desktop Framework)
+
+### Tauri(Desktop Framework)
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
@@ -1619,7 +1624,8 @@ sidebar:
   - デスクトップアプリケーションの参考情報
     - [Tauri(Rust+React+TypeScript) から始めるディスクトップアプリ #4[Menuの実装]](https://zenn.dev/wara0516/articles/5af7ab30483185)
   - [LifeLogApp](https://github.com/Tatsukiyoshi/LifeLogApp)
-  ### Slint
+
+### Slint
   - Install cargo-generate
     ```
     cargo install cargo-generate
@@ -1628,7 +1634,8 @@ sidebar:
     ```
     cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
     ```
-  ### Dioxus(Cross Platform Library)
+
+### Dioxus(Cross Platform Library)
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
   - V0.6.1
     ```
@@ -1662,7 +1669,8 @@ sidebar:
     ```
   - 課題整理 <span style="color: red;">*researching from 2024/04/30*</span>
     - [Overview](/design/dioxusApp/system)
-  ### Game Engine
+
+### Game Engine
   - [Bevy](https://bevyengine.org/)
     - Bevy 0.13
       - [Migration Guide](https://bevyengine.org/learn/migration-guides/0-12-to-0-13/)
@@ -1701,11 +1709,11 @@ sidebar:
         ```
   - [Fyrox](https://fyrox.rs/)
 
-  # Tauri Documents
-  ##  Splashscreen
+# Tauri Documents
+##  Splashscreen
   Webページが読み込みに時間がかかったり、メインウィンドウを表示する前に初期処理を実行する必要がある場合、スプラッシュスクリーンによって、ユーザの起動体験を改善できる。
 
-  ### Setup
+### Setup
   まず、実行環境のディレクトリにsplashscreen.html（スプラッシュスクリーンのためのHTMLコード）を作る。
 
   ```json
@@ -1731,7 +1739,7 @@ sidebar:
 
   さて、アプリケーション起動時には、メインウィンドウを非表示にして、スプラッシュスクリーンを表示するようにします。続けて、メインウィンドウが準備できたら、スプラッシュスクリーンを閉じる手段を準備する必要があります。何を待っているかによって、スプラッシュスクリーンを閉じる手段は決まる。
 
-  ### Waiting for Webpage
+### Waiting for Webpage
   Webコンテンツを待っているのであれば、フロントエンドからスプラッシュスクリーンを閉じるコマンドを準備したいでしょう。
 
   ```rust
@@ -1781,7 +1789,7 @@ sidebar:
   })
   ```
 
-  ### Waiting for Rust
+### Waiting for Rust
   サーバサイドでのRustコードの実行を待っているのであれば、setup関数ハンドラに置いて、Appインスタンスからアクセスできるようにする。
 
   ```rust

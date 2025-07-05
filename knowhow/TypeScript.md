@@ -40,8 +40,8 @@ sidebar:
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.16](#bun)          |[2025/06/13](https://bun.sh/)
-      |                |        |Vite 6.3.5                  |[2025/05/21](https://vitejs.dev/)
+      |                |        |[Bun 1.2.18](#bun)          |[2025/07/05](https://bun.sh/)
+      |                |        |Vite 7.0.2                  |[2025/07/05](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -50,7 +50,7 @@ sidebar:
       |                |        |- Vite 6.2.3                |2025/03/29
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
-      |                |Web FW  |[Angular 20.0.2](#angular)  |[2025/06/08](https://angular.dev/)
+      |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
       |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.15                |2025/05/22
@@ -63,9 +63,9 @@ sidebar:
       |                |        |- React Native 0.79.3       |2025/06/13
       |                |        |- React 19.0.0              |2025/06/13
       |                |        |- Windows SDK 10.0.26100    |2025/01/18
-      |                |        |[Svelte 5.33.10](#svelte)   |[2025/05/31](https://svelte.dev/)
-      |                |        |- Bun 1.2.15                |2025/05/22
-      |                |        |- Vite 6.3.5                |2025/05/21
+      |                |        |[Svelte 5.35.2](#svelte)    |[2025/07/05](https://svelte.dev/)
+      |                |        |- Bun 1.2.18                |2025/07/05
+      |                |        |- Vite 7.0.2                |2025/07/05
       |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
@@ -82,8 +82,8 @@ sidebar:
       |           |        |Bun 1.2.10               |2025/04/26
       |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
       |           |        |- Bun 1.2.10             |2025/04/26
-      |           |        |React Native 0.80.0-rc.2 |[2025/05/20](https://reactnative.dev/)
-      |           |        |- Bun 1.2.13             |2025/02/24
+      |           |        |React Native 0.80.0      |[2025/06/29](https://reactnative.dev/)
+      |           |        |- Bun 1.2.17             |2025/02/24
 
 ##  ノウハウ
 ### TypeScript
@@ -134,6 +134,7 @@ sidebar:
             ```sh
             npm config set scripts-prepend-node-path true
             ```
+
 ### Runtime
   - [Bun](https://bun.sh/) <a id="bun"></a>
     - Install
@@ -203,6 +204,7 @@ sidebar:
         ```
         deno run -Ar https://fresh.deno.dev/update
         ```
+
 ### ORM
   - [TypeORM](https://typeorm.io/) <a id="typeorm"></a>
     - プロジェクト作成
@@ -291,6 +293,7 @@ sidebar:
   - [Sequelize](https://sequelize.org/) <a id="seq"></a>
     - [Getting Started](https://sequelize.org/docs/v6/getting-started/)
     - [Sequelizeを使用してデータベースを操作するための基本的な情報(2020.09更新）](https://qiita.com/mima_ita/items/014dcb42872f3a10855b)
+
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)
@@ -325,6 +328,7 @@ sidebar:
         - React Native 0.80.0
           - React 19.1.0
             ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
+            ![React Native 0.80.0 iOS](/images/Mac/20250629_ReactNative_0.80.0.png)
         - React Native 0.80.0-rc.2
           - React 19.1.0
             ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
@@ -607,6 +611,7 @@ sidebar:
       1.  コマンド
           * ng &lt;command&gt;
             - Commands:
+
               |Command | |
               |-|-|
               |ng analytics                  |Configures the gathering of Angular CLI usage metrics. &lt;BR&gt;See https://angular.io/cli/usage-analytics-gathering|
@@ -616,6 +621,7 @@ sidebar:
               |ng new [name]                 |Creates a new Angular workspace.  [aliases: n]
               |ng version                    |Outputs Angular CLI version.  [aliases: v]
             - Options:
+
               | | |
               |-|-|
               |--help  |Shows a help message for this command in the console.  [boolean]
@@ -628,11 +634,13 @@ sidebar:
           ```
       1.  Angular 20.0.2対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |jasmine-core             |5.8.0
       1.  Angular 20.0.0対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |zone.js                  |0.15.1
@@ -641,6 +649,7 @@ sidebar:
             |typescript               |5.8.3
       1.  Angular 19.2.0対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |rxjs                     |7.8.2
@@ -649,6 +658,7 @@ sidebar:
             |typescript               |5.8.2
       1.  Angular 19対応
           - Update Dependencies
+
             |Component                |Version
             |-------------------------|--------
             |angular-in-memory-web-api|0.19.0
@@ -773,6 +783,7 @@ sidebar:
             ```
       1.  Angular 17対応
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.14.0
@@ -787,12 +798,14 @@ sidebar:
             }
             ```
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.13.0
             |typescript                 |4.9.3
       1.  Angular 15対応
           - ライブラリのバージョン変更
+
             |ライブラリ                  |バージョン
             |---------------------------|----------
             |zone.js                    |0.12.0
@@ -814,7 +827,7 @@ sidebar:
             TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
             ```
       1.  [ngx-bootstrap](https://valor-software.com/ngx-bootstrap)
-          [Get Started](https://valor-software.com/ngx-bootstrap/#/documentation#getting-started)
+          - [Get Started](https://valor-software.com/ngx-bootstrap/#/documentation#getting-started)
 
       1.  [ng2-validation](https://github.com/yuyang041060120/ng2-validation)
       1.  [国際化対応](https://angular.jp/guide/i18n-common-overview)
@@ -1009,6 +1022,7 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
 ### Others
 - electron
   - [Electronでアプリケーションを作ってみよう](https://qiita.com/Quramy/items/a4be32769366cfe55778)

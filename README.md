@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/22～2025/6/28）](/digest/2025/June/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/6/29～2025/7/5）](/digest/2025/June/5th) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -24,11 +24,11 @@ sidebar:
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/06/27|Update: Tauri 2.6.2
-[Kotlin](/knowhow/Kotlin)        |2025/06/28|Update: Kotlin 2.2.0 / Android Studio Narwhal 2025.1.2 Canary 7 / IntelliJ IDEA 2025.2 EAP 7
+[Rust](/knowhow/Rust)            |2025/07/02|Update: Rust 1.88 / RustRover 2025.2 EAP 6
+[Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/06/13|Update: React Native Windows 0.79.0 / React Native 0.80.0
+[TypeScript](/knowhow/TypeScript)|2025/07/05|Update: Svelte 5.35.2 / Bun 1.2.18 / Vite 7.0.2
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -36,7 +36,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/06/18|Update: SQL Server Management Studio 21.3.6 (June 2025)
+[Database & SQL](/knowhow/Database)    |2025/07/02|Update: MongoDB 8.1.1
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
@@ -237,12 +237,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 136.0.7103.158 <span style="color: red;">*<<2025/06/21 updated from 136.0.7103.150>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250621_Chrome_OS_Flex_136.0.7103.158.png)
+  - バージョン 137.0.7151.132 <span style="color: red;">*<<2025/07/03 updated from 136.0.7103.158>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250703_Chrome_OS_Flex_137.0.7151.132.png)
       - 更新中
-        ![Updating](/images/Chrome/20250621_Chrome_OS_Flex_Updating136.0.7103.158.png)
-      - [Debian 12.11](https://www.debian.org/) <span style="color: red;">*<<2025/05/25 updated from 12.10>>*</span>
-        [Update Log](/knowhow/sub/Chrome/20250525_Update)
+        ![Updating](/images/Chrome/20250703_Chrome_OS_Flex_Updating137.0.7151.132.png)
         <details>
         <summary>ディストリビューション・バージョン情報</summary>
 
@@ -301,61 +299,64 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
 
-  <details>
-  <summary>System Details</summary>
+    <details>
+    <summary>System Details</summary>
 
-  ```
-  # System Details Report
-  ---
+    ```
+    # System Details Report
+    ---
 
-  ## Report details
-  - **Date generated:**                              2025-04-23 21:46:18
+    ## Report details
+    - **Date generated:**                              2025-06-30 20:00:34
 
-  ## Hardware Information:
-  - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
-  - **Memory:**                                      4.0 GiB
-  - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
-  - **Graphics:**                                    Intel® HD Graphics (CHV)
-  - **Disk Capacity:**                               125.1 GB
+    ## Hardware Information:
+    - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
+    - **Memory:**                                      4.0 GiB
+    - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
+    - **Graphics:**                                    Intel® HD Graphics (CHV)
+    - **Disk Capacity:**                               125.1 GB
 
-  ## Software Information:
-  - **Firmware Version:**                            T103HAF.307
-  - **OS Name:**                                     Ubuntu 25.04
-  - **OS Build:**                                    (null)
-  - **OS Type:**                                     64-bit
-  - **GNOME Version:**                               48
-  - **Windowing System:**                            Wayland
-  - **Kernel Version:**                              Linux 6.14.0-15-generic
-  ```
-  </details>
+    ## Software Information:
+    - **Firmware Version:**                            T103HAF.307
+    - **OS Name:**                                     Ubuntu 25.04
+    - **OS Build:**                                    (null)
+    - **OS Type:**                                     64-bit
+    - **GNOME Version:**                               48
+    - **Windowing System:**                            Wayland
+    - **Kernel Version:**                              Linux 6.14.0-22-generic
+    ```
+    </details>
 
-  <details>
-  <summary>ディストリビューション・バージョン情報</summary>
+    <details>
+    <summary>ディストリビューション・バージョン情報</summary>
 
-  ```
-  PRETTY_NAME="Ubuntu 25.04"
-  NAME="Ubuntu"
-  VERSION_ID="25.04"
-  VERSION="25.04 (Plucky Puffin)"
-  VERSION_CODENAME=plucky
-  ID=ubuntu
-  ID_LIKE=debian
-  HOME_URL="https://www.ubuntu.com/"
-  SUPPORT_URL="https://help.ubuntu.com/"
-  BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-  PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-  UBUNTU_CODENAME=plucky
-  LOGO=ubuntu-logo
-  ```
-  </details>
+    ```
+    PRETTY_NAME="Ubuntu 25.04"
+    NAME="Ubuntu"
+    VERSION_ID="25.04"
+    VERSION="25.04 (Plucky Puffin)"
+    VERSION_CODENAME=plucky
+    ID=ubuntu
+    ID_LIKE=debian
+    HOME_URL="https://www.ubuntu.com/"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    UBUNTU_CODENAME=plucky
+    LOGO=ubuntu-logo
+    ```
+    </details>
 
   - カーネルバージョン
-    - 6.14.0-15 / Ubuntu 25.04
+    - 6.14.0-22 / Ubuntu 25.04 <span style="color: red;">*<<2025/06/30 Updated>>*</span>
     - 6.11.0-13 / Ubuntu 24.10
     - 6.8.0-51 / Ubuntu 24.04
 
-  - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 installed>>*</span>
-    ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
+  - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png) I
+  - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>
+    ![Startup](/images/Ubuntu/20250630_Plasma.png)
+    - Visual Studio Codeが起動できないため、継続利用を断念
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
