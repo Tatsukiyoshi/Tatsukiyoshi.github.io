@@ -40,8 +40,8 @@ sidebar:
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.16](#bun)          |[2025/06/13](https://bun.sh/)
-      |                |        |Vite 6.3.5                  |[2025/05/21](https://vitejs.dev/)
+      |                |        |[Bun 1.2.18](#bun)          |[2025/07/05](https://bun.sh/)
+      |                |        |Vite 7.0.2                  |[2025/07/05](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -63,9 +63,9 @@ sidebar:
       |                |        |- React Native 0.79.3       |2025/06/13
       |                |        |- React 19.0.0              |2025/06/13
       |                |        |- Windows SDK 10.0.26100    |2025/01/18
-      |                |        |[Svelte 5.33.10](#svelte)   |[2025/05/31](https://svelte.dev/)
-      |                |        |- Bun 1.2.15                |2025/05/22
-      |                |        |- Vite 6.3.5                |2025/05/21
+      |                |        |[Svelte 5.35.2](#svelte)    |[2025/07/05](https://svelte.dev/)
+      |                |        |- Bun 1.2.18                |2025/07/05
+      |                |        |- Vite 7.0.2                |2025/07/05
       |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
