@@ -27,6 +27,8 @@ sidebar:
       |[Vercel](https://vercel.com/)  |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
       |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
       |                               |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
+      |                               |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
+      
 
   1.  Windows
 

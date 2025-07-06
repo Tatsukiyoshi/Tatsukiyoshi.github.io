@@ -28,7 +28,7 @@ Language                         |Updated   |Detail
 [Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/07/05|Update: Svelte 5.35.2 / Bun 1.2.18 / Vite 7.0.2
+[TypeScript](/knowhow/TypeScript)|2025/07/06|Add: Full-Width Input Field for Vue.js
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -52,8 +52,8 @@ Other                            |Updated   |Detail
 知識を形にする
 ```
 - 全角入力対応コンポーネント
-  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README)
-  - [Vue.js用](/design/fullWidthInputField/design_vuejs)
+  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
+  - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index)
 - [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
