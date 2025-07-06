@@ -72,6 +72,7 @@ sidebar:
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
+      |                |Test FW |[Playwright 1.53.2](#pw)    |[2025/07/06](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
       |                |        |- Bun 1.2.16                |2025/06/13
 
@@ -1024,6 +1025,21 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
+### Test
+- PlaywrightでのE2Eテスト <a id="pw"></a>
+  - Playwrightを追加する
+    ```
+    bun install -d @playwright/test@latest
+    ```
+  - Playwrightをインストールする
+    ```
+    bunx playwright install
+    ```
+  - Playwrightでのテストを実行する
+    ```
+    bunx playwright test
+    ```
 
 ### Others
 - electron
