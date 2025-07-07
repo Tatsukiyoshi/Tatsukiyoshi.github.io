@@ -64,8 +64,8 @@ sidebar:
       |           |Bun 1.2.17           |2025/06/26
       |           |Vite 7.0.0           |2025/06/26
 
-  ##  ノウハウ
-  ### Rust
+##  ノウハウ
+### Rust
   - Bug
     - 時差の計算結果が不正(1.72,2023/09/16)
       ![Duration](/images/rust/20230916_Rust_Duration_Bug.png)
