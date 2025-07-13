@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/29～2025/7/5）](/digest/2025/June/5th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/7/6～2025/7/12）](/digest/2025/July/1st) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
