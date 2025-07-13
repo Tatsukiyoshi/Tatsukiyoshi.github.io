@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/6/29～2025/7/5）](/digest/2025/June/5th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/7/6～2025/7/12）](/digest/2025/July/1st) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -23,12 +23,12 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/06/24|Update: Visual Studio 2022 17.14.7 Preview 1.0
+[.NET](/knowhow/NET)             |2025/07/12|Update: Visual Studio 2022 17.14.8 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/07/02|Update: Rust 1.88 / RustRover 2025.2 EAP 6
 [Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/07/05|Update: Svelte 5.35.2 / Bun 1.2.18 / Vite 7.0.2
+[TypeScript](/knowhow/TypeScript)|2025/07/06|Add: Full-Width Input Field for Vue.js / PlayWright 1.53.2
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -52,8 +52,8 @@ Other                            |Updated   |Detail
 知識を形にする
 ```
 - 全角入力対応コンポーネント
-  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README)
-  - [Vue.js用](/design/fullWidthInputField/design_vuejs)
+  - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
+  - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index)
 - [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
@@ -115,7 +115,9 @@ OS                                 |Hardware            |Language
     - [WSL 2.6.0.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/21 auto updated from 2.5.9.0>>*</span>
 
       <details>
-      <summary>カーネルバージョン: 6.6.87.2-1</summary>
+      <summary>
+      カーネルバージョン: 6.6.87.2-1
+      </summary>
 
       ```
       WSL バージョン: 2.6.0.0
@@ -126,13 +128,16 @@ OS                                 |Hardware            |Language
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
       Windows バージョン: 10.0.26200.5661
       ```
+
       </details>
 
     - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
       - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade)
 
       <details>
-      <summary>ディストリビューション・バージョン情報</summary>
+      <summary>
+      ディストリビューション・バージョン情報
+      </summary>
 
       ```
       PRETTY_NAME="Ubuntu 24.04.2 LTS"
@@ -149,13 +154,16 @@ OS                                 |Hardware            |Language
       UBUNTU_CODENAME=noble
       LOGO=ubuntu-logo
       ```
+      
       </details>
 
     - [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10) <span style="color: red;">*<<2025/06/01 installed>>*</span>
       - [インストール](/knowhow/sub/Rhel/wsl_rhel10)
 
       <details>
-      <summary>ディストリビューション・バージョン情報</summary>
+      <summary>
+      ディストリビューション・バージョン情報
+      </summary>
 
       ```
       NAME="Red Hat Enterprise Linux"
@@ -179,6 +187,8 @@ OS                                 |Hardware            |Language
       REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
       REDHAT_SUPPORT_PRODUCT_VERSION="10.0"
       ```
+
+      </details>
     - ノウハウ
       - WSLバージョンを確認する
         ```
@@ -242,7 +252,9 @@ OS                                 |Hardware            |Language
       - 更新中
         ![Updating](/images/Chrome/20250703_Chrome_OS_Flex_Updating137.0.7151.132.png)
         <details>
-        <summary>ディストリビューション・バージョン情報</summary>
+        <summary>
+        ディストリビューション・バージョン情報
+        </summary>
 
         ```
         PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
@@ -255,6 +267,8 @@ OS                                 |Hardware            |Language
         SUPPORT_URL="https://www.debian.org/support"
         BUG_REPORT_URL="https://bugs.debian.org/"
         ```
+
+        </details>
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
@@ -300,7 +314,9 @@ OS                                 |Hardware            |Language
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
 
     <details>
-    <summary>System Details</summary>
+    <summary>
+    System Details
+    </summary>
 
     ```
     # System Details Report
@@ -325,10 +341,13 @@ OS                                 |Hardware            |Language
     - **Windowing System:**                            Wayland
     - **Kernel Version:**                              Linux 6.14.0-22-generic
     ```
+    
     </details>
 
     <details>
-    <summary>ディストリビューション・バージョン情報</summary>
+    <summary>
+    ディストリビューション・バージョン情報
+    </summary>
 
     ```
     PRETTY_NAME="Ubuntu 25.04"
@@ -345,6 +364,7 @@ OS                                 |Hardware            |Language
     UBUNTU_CODENAME=plucky
     LOGO=ubuntu-logo
     ```
+
     </details>
 
   - カーネルバージョン
@@ -375,7 +395,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code May 2025 Recovery 2(1.101.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/06/26 updated from 1.101.1>>*</span>
+- [Visual Studio Code June 2025 (1.102.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/12 updated from 1.101.2>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -393,7 +413,9 @@ OS/言語を問わず利用するツールの情報
       brew upgrade git
       ```
       <details>
-      <summary>Update Log</summary>
+      <summary>
+      Update Log
+      </summary>
 
       ```
       ==> Auto-updating Homebrew...
@@ -589,6 +611,7 @@ OS/言語を問わず利用するツールの情報
       The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
       Subversion interoperability (git-svn) is now in the `git-svn` formula.
       ```
+
       </details>
   - ユーザ設定
     ```

@@ -21,12 +21,16 @@ sidebar:
 
 ##  環境
   1.  ホスティング・サービス
-  
-      |Host                           |FW              |Last Updated
-      |-------------------------------|----------------|----------
-      |[Vercel](https://vercel.com/)  |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
-      |                               |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
-      |                               |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
+
+  - [Vercel](https://vercel.com/)
+
+      |Verify                  |FW              |Last Updated
+      |------------------------|----------------|----------
+      |ReactGrid / ChartJs     |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
+      |                        |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
+      |InputField              |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
+      |                        |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
+      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/08](https://graph-libraries.vercel.app/)
 
   1.  Windows
 
@@ -50,6 +54,8 @@ sidebar:
       |                |        |- Vite 6.2.3                |2025/03/29
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
+      |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
+      |                |        |Recharts 3.0.2              |[2025/07/08](https://recharts.org/)
       |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
       |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
@@ -70,6 +76,7 @@ sidebar:
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
+      |                |Test FW |[Playwright 1.53.2](#pw)    |[2025/07/06](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
       |                |        |- Bun 1.2.16                |2025/06/13
 
@@ -80,8 +87,8 @@ sidebar:
       |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.10               |2025/04/26
-      |           |Mobile  |Lynx 3.2.0               |[2025/04/26](https://lynxjs.org)
-      |           |        |- Bun 1.2.10             |2025/04/26
+      |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
+      |           |        |- Bun 1.2.18             |2025/07/06
       |           |        |React Native 0.80.0      |[2025/06/29](https://reactnative.dev/)
       |           |        |- Bun 1.2.17             |2025/02/24
 
@@ -297,6 +304,8 @@ sidebar:
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)
+      - Lynx 3.3.0
+        ![LynxApp](/images/Mac/20250706_ReactLynxApp3.3.0.png)
       - ReactLynx
         - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
           ```
@@ -445,8 +454,8 @@ sidebar:
         ```
         ![Astro Starter](/images/JavaScript/20240103_Astro.png)
   - [jQuery 3.7.1](https://jquery.com/)
-    - [Chart.js 4.4.1](https://www.chartjs.org/docs/latest/)
-      ![Chart.Js](/images/php/20240103_php_jquery_chart.png)
+  - [Chart.js 4.4.1](https://www.chartjs.org/docs/latest/)
+    ![Chart.Js](/images/php/20240103_php_jquery_chart.png)
   - [Babylon.JS 6.0](https://www.babylonjs.com/)
     ![Template](/images/JavaScript/20240103_babylon_template.png)
   - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
@@ -1022,6 +1031,21 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
+### Test
+- PlaywrightでのE2Eテスト <a id="pw"></a>
+  - Playwrightを追加する
+    ```
+    bun install -d @playwright/test@latest
+    ```
+  - Playwrightをインストールする
+    ```
+    bunx playwright install
+    ```
+  - Playwrightでのテストを実行する
+    ```
+    bunx playwright test
+    ```
 
 ### Others
 - electron

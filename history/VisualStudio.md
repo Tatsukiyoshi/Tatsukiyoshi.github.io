@@ -5,6 +5,8 @@ sidebar:
   nav: main
 ---
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14.8 Preview 1.0
+    ![VS2022 17.14.8 preview 1.0](/images/VisualStudio/20250712_Update_VS2022_17.14.8_Preview1.0.png)
   - Visual Studio 2022 17.14.7 Preview 1.0
     ![VS2022 17.14.7 preview 1.0](/images/VisualStudio/20250624_Update_VS2022_17.14.7_Preview1.0.png)
   - Visual Studio 2022 17.14.6 Preview 1.0
@@ -51,7 +53,9 @@ sidebar:
       dotnet workload update --from-previous-sdk
       ```
       <details>
-      <summary>MAUI Update Log</summary>
+      <summary>
+      MAUI Update Log
+      </summary>
 
       ```
 
@@ -371,6 +375,7 @@ sidebar:
 
       ワークロード android ios maccatalyst maui-windows が正常に更新されました。
       ```
+
       </details>
 
 
