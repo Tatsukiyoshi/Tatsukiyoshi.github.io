@@ -29,3 +29,7 @@ sidebar:
 
 #	【7/12】
 -	**＜開発ツール＞** [Visual Studio CodeをJune 2025 (1.102.0)に更新](https://code.visualstudio.com/)
+
+- **＜.NET＞** [Visual Studio 2022を17.14.8 Preview 1.0に更新](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  - .NET 9.0.7 / .NET 8.0.17に更新するとともに、.NET MAUI 10 でAndroidアプリを再検証
+

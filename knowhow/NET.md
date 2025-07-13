@@ -20,12 +20,12 @@ sidebar:
   |                |- .NET 9.0.6                                     |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.17                                    |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
-  |Windows Insider |Visual Studio Community 2022 17.14.7 Preview 1.0 |[2025/06/24](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |Windows Insider |Visual Studio Community 2022 17.14.8 Preview 1.0 |[2025/07/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.0-preview.5.25277.114                |[2025/06/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.5](#maui)               |[2025/06/12](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                   |2025/06/12
-  |                |- .NET 9.0.6                                     |2025/06/11
-  |                |- .NET 8.0.17                                    |2025/06/11
+  |                |- .NET 9.0.7                                     |2025/07/12
+  |                |- .NET 8.0.18                                    |2025/07/12
 
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
@@ -33,8 +33,8 @@ sidebar:
     - Visual Studio 2022 17.14.6 (June 2025)
       ![VS2022 17.14.6](/images/VisualStudio/20250618_Update_VS2022_17.14.6_SSMS21.3.6.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14.7 Preview 1.0
-      ![VS2022 17.14.7 preview 1.0](/images/VisualStudio/20250624_Update_VS2022_17.14.7_Preview1.0.png)
+    - Visual Studio 2022 17.14.8 Preview 1.0
+      ![VS2022 17.14.8 preview 1.0](/images/VisualStudio/20250712_Update_VS2022_17.14.8_Preview1.0.png)
   - [履歴](/history/VisualStudio)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
@@ -62,15 +62,15 @@ sidebar:
       ![.NET 10 with VS2022](/images/VisualStudio/20250227_VS2022_dotnet10.png)
     - ターゲットフレームワークである".NET 10.0"のバージョンが表示できる
       ![.NET 10.0.0-preview5](/images/VisualStudio/20250611_dotnet10_Preview5.png)
-  - [.NET 9.0.6](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2025/06/11* <span style="color: red;">Updated!</span>)
+  - [.NET 9.0.7](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2025/07/12* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](/images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0.6](/images/VisualStudio/20250611_dotnet9.0.6.png)
+      ![.NET 9.0.7](/images/VisualStudio/20250712_dotnet9.0.7.png)
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
-  - [.NET 8.0.17](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2025/06/11* <span style="color: red;">Updated!</span>)
+  - [.NET 8.0.18](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2025/07/12* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.17](/images/VisualStudio/20250611_dotnet8.0.17.png)
+      ![.NET 8.0.18](/images/VisualStudio/20250712_dotnet8.0.18.png)
 
   - Wingetでのインストール
     ```
@@ -79,156 +79,157 @@ sidebar:
     winget install Microsoft.DotNet.SDK.Preview
     ```
   - .NET 環境情報
-  ```
-  dotnet --info
-  ```
-  <details>
-  <summary>Visual Studio 2022 Preview＠Windows Insider</summary>
+    ```
+    dotnet --info
+    ```
+    <details>
+    <summary>Visual Studio 2022 Preview＠Windows Insider</summary>
 
-  ```
-  .NET SDK:
-  Version:           10.0.100-preview.5.25277.114
-  Commit:            ddf39a1b46
-  Workload version:  10.0.100-preview.5.25306.3
-  MSBuild version:   17.15.0-preview-25277-114+ddf39a1b4
+    ```
+    .NET SDK:
+    Version:           10.0.100-preview.5.25277.114
+    Commit:            ddf39a1b46
+    Workload version:  10.0.100-preview.5.25306.3
+    MSBuild version:   17.15.0-preview-25277-114+ddf39a1b4
 
-  ランタイム環境:
-  OS Name:     Windows
-  OS Version:  10.0.26200
-  OS Platform: Windows
-  RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.5.25277.114\
+    ランタイム環境:
+    OS Name:     Windows
+    OS Version:  10.0.26200
+    OS Platform: Windows
+    RID:         win-x64
+    Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.5.25277.114\
 
-  インストール済みの .NET ワークロード:
-  [android]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
-    Manifest Version:    36.0.0-preview.5.116/10.0.100-preview.5
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.android\36.0.0-preview.5.116\WorkloadManifest.json
-    Install Type:              Msi
+    インストール済みの .NET ワークロード:
+    [android]
+      Installation Source: SDK 10.0.100-preview.5, VS 17.14.36301.6
+      Manifest Version:    36.0.0-preview.5.116/10.0.100-preview.5
+      Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.android\36.0.0-preview.5.116\WorkloadManifest.json
+      Install Type:              Msi
 
-  [ios]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
-    Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.ios\18.4.10622-net10-p5\WorkloadManifest.json   
-    Install Type:              Msi
+    [ios]
+      Installation Source: SDK 10.0.100-preview.5, VS 17.14.36301.6
+      Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
+      Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.ios\18.4.10622-net10-p5\WorkloadManifest.json
+      Install Type:              Msi
 
-  [maccatalyst]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
-    Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maccatalyst\18.4.10622-net10-p5\WorkloadManifest.json
-    Install Type:              Msi
+    [maccatalyst]
+      Installation Source: SDK 10.0.100-preview.5, VS 17.14.36301.6
+      Manifest Version:    18.4.10622-net10-p5/10.0.100-preview.5
+      Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maccatalyst\18.4.10622-net10-p5\WorkloadManifest.json
+      Install Type:              Msi
 
-  [maui-windows]
-    Installation Source: SDK 10.0.100-preview.5, VS 17.14.36221.1
-    Manifest Version:    10.0.0-preview.5.25306.5/10.0.100-preview.5
-    Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maui\10.0.0-preview.5.25306.5\WorkloadManifest.json
-    Install Type:              Msi
+    [maui-windows]
+      Installation Source: SDK 10.0.100-preview.5, VS 17.14.36301.6
+      Manifest Version:    10.0.0-preview.5.25306.5/10.0.100-preview.5
+      Manifest Path:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.5\microsoft.net.sdk.maui\10.0.0-preview.5.25306.5\WorkloadManifest.json
+      Install Type:              Msi
 
-  Configured to use workload sets when installing new manifests.
+    Configured to use workload sets when installing new manifests.
 
-  Host:
-    Version:      10.0.0-preview.5.25277.114
-    Architecture: x64
-    Commit:       ddf39a1b46
+    Host:
+      Version:      10.0.0-preview.5.25277.114
+      Architecture: x64
+      Commit:       ddf39a1b46
 
-  .NET SDKs installed:
-    8.0.407 [C:\Program Files\dotnet\sdk]
-    9.0.202 [C:\Program Files\dotnet\sdk]
-    9.0.301 [C:\Program Files\dotnet\sdk]
-    10.0.100-preview.5.25277.114 [C:\Program Files\dotnet\sdk]
+    .NET SDKs installed:
+      8.0.407 [C:\Program Files\dotnet\sdk]
+      9.0.202 [C:\Program Files\dotnet\sdk]
+      9.0.302 [C:\Program Files\dotnet\sdk]
+      10.0.100-preview.5.25277.114 [C:\Program Files\dotnet\sdk]
 
-  .NET runtimes installed:
-    Microsoft.AspNetCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+    .NET runtimes installed:
+      Microsoft.AspNetCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 8.0.18 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 9.0.7 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.NETCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 8.0.18 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 9.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.WindowsDesktop.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 8.0.18 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 9.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 9.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 10.0.0-preview.5.25277.114 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
-  Other architectures found:
-    x86   [C:\Program Files (x86)\dotnet]
-      registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+    Other architectures found:
+      x86   [C:\Program Files (x86)\dotnet]
+        registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
 
-  Environment variables:
-    Not set
+    Environment variables:
+      Not set
 
-  global.json file:
-    Not found
+    global.json file:
+      Not found
 
-  Learn more:
-    https://aka.ms/dotnet/info
+    Learn more:
+      https://aka.ms/dotnet/info
 
-  Download .NET:
-    https://aka.ms/dotnet/download
-  ```
-  </details>
-  <details>
-  <summary>Visual Studio 2022@Windows</summary>
+    Download .NET:
+      https://aka.ms/dotnet/download
+    ```
+    </details>
 
-  ```
-  .NET SDK:
-  Version:           9.0.301
-  Commit:            a596cd22e2
-  Workload version:  9.0.300-manifests.e42facbb
-  MSBuild version:   17.14.5+edd3bbf37
+    <details>
+      <summary>Visual Studio 2022@Windows</summary>
 
-  ランタイム環境:
-  OS Name:     Windows
-  OS Version:  10.0.26100
-  OS Platform: Windows
-  RID:         win-x64
-  Base Path:   C:\Program Files\dotnet\sdk\9.0.301\
+      ```
+      .NET SDK:
+      Version:           9.0.301
+      Commit:            a596cd22e2
+      Workload version:  9.0.300-manifests.e42facbb
+      MSBuild version:   17.14.5+edd3bbf37
 
-  インストール済みの .NET ワークロード:
-  表示するインストール済みワークロードはありません。
-  新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
+      ランタイム環境:
+      OS Name:     Windows
+      OS Version:  10.0.26100
+      OS Platform: Windows
+      RID:         win-x64
+      Base Path:   C:\Program Files\dotnet\sdk\9.0.301\
 
-  Host:
-    Version:      9.0.6
-    Architecture: x64
-    Commit:       3875b54e7b
+      インストール済みの .NET ワークロード:
+      表示するインストール済みワークロードはありません。
+      新しいマニフェストをインストールするときに loose manifests を使用するように構成されています。
 
-  .NET SDKs installed:
-    6.0.428 [C:\Program Files\dotnet\sdk]
-    9.0.301 [C:\Program Files\dotnet\sdk]
+      Host:
+        Version:      9.0.6
+        Architecture: x64
+        Commit:       3875b54e7b
 
-  .NET runtimes installed:
-    Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.AspNetCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-    Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.NETCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-    Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    Microsoft.WindowsDesktop.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      .NET SDKs installed:
+        6.0.428 [C:\Program Files\dotnet\sdk]
+        9.0.301 [C:\Program Files\dotnet\sdk]
 
-  Other architectures found:
-    x86   [C:\Program Files (x86)\dotnet]
-      registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+      .NET runtimes installed:
+        Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+        Microsoft.AspNetCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+        Microsoft.AspNetCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+        Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+        Microsoft.NETCore.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+        Microsoft.NETCore.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+        Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+        Microsoft.WindowsDesktop.App 8.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+        Microsoft.WindowsDesktop.App 9.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
-  Environment variables:
-    Not set
+      Other architectures found:
+        x86   [C:\Program Files (x86)\dotnet]
+          registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
 
-  global.json file:
-    Not found
+      Environment variables:
+        Not set
 
-  Learn more:
-    https://aka.ms/dotnet/info
+      global.json file:
+        Not found
 
-  Download .NET:
-    https://aka.ms/dotnet/download
-  ```
-  </details>
+      Learn more:
+        https://aka.ms/dotnet/info
+
+      Download .NET:
+        https://aka.ms/dotnet/download
+      ```
+    </details>
 
 ### Windows App SDK
   - Windows App SDK
@@ -245,6 +246,7 @@ sidebar:
     ```
     get-appxpackage *appruntime.1.6*
     ```
+
     <details>
     <summary>Windows App SDK 1.6.3</summary>
 

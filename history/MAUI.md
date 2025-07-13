@@ -6,7 +6,9 @@ sidebar:
 ---
 ## .NET 10 Preview 4
 <details>
-<summary>MAUI Update Log</summary>
+<summary>
+MAUI Update Log
+</summary>
 
 ```
 .NET 10.0 へようこそ!
@@ -184,11 +186,14 @@ Installing Microsoft.Maui.Essentials.Msi.x64 ..... Done
 
 Successfully updated workload(s): ios android maccatalyst maui-windows.
 ```
+
 </details>
 
 ##  .NET 10 Preview 2
 <details>
-<summary>MAUI Update Log</summary>
+<summary>
+MAUI Update Log
+</summary>
 
 ```
 .NET 10.0 へようこそ!
@@ -388,12 +393,16 @@ Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をイン�
 
 ワークロード maui-windows maccatalyst ios android が正常に更新されました。
 ```
+
 </details>
 
 ##  .NET 10 Preview 1
 
 <details>
-    <summary>MAUI Update Log</summary>
+<summary>
+MAUI Update Log
+</summary>
+
     ```
     広告マニフェスト microsoft.net.sdk.maui を更新しました。
     広告マニフェスト microsoft.net.workload.mono.toolchain.net6 を更新しました。
@@ -415,11 +424,14 @@ Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をイン�
 
     ワークロード android ios maccatalyst maui-windows が正常に更新されました。
     ```
+
 </details>
 
 #   .NET 9
 <details>
-    <summary>MAUI Update Log</summary>
+<summary>
+MAUI Update Log
+</summary>
 
     ```
     広告マニフェスト microsoft.net.sdk.android を更新しました。
@@ -659,4 +671,5 @@ Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.android-arm64.Msi.x64 をイン�
 
     ワークロード android ios maccatalyst maui-windows が正常に更新されました。
     ```
+
 </details>
