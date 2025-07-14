@@ -36,7 +36,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/07/02|Update: MongoDB 8.1.1
+[Database & SQL](/knowhow/Database)    |2025/07/14|Update: SQL Server Management Studio 21.4.8
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
