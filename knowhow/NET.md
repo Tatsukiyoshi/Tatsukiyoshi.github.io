@@ -16,7 +16,7 @@ sidebar:
 
   |Machine         |Env／FW                                          |Last Updated
   |----------------|-------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.8             |[2025/07/09](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.9(July 2025)  |[2025/07/16](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.7                                     |[2025/07/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.18                                    |[2025/07/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)      |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -30,8 +30,8 @@ sidebar:
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
-    - Visual Studio 2022 17.14.6 (June 2025)
-      ![VS2022 17.14.6](/images/VisualStudio/20250618_Update_VS2022_17.14.6_SSMS21.3.6.png)
+    - Visual Studio 2022 17.14.9 (July 2025)
+      ![VS2022 17.14.9](/images/VisualStudio/20250716_Update_VS2022_17.14.9.png)
   - Visual Studio Preview
     - Visual Studio 2022 17.14.8 Preview 1.0
       ![VS2022 17.14.8 preview 1.0](/images/VisualStudio/20250712_Update_VS2022_17.14.8_Preview1.0.png)
