@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/7/6～2025/7/12）](/digest/2025/July/1st) / [一覧](/digest/list)
+[最新ダイジェスト（2025/7/13～2025/7/19）](/digest/2025/July/2nd) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -23,7 +23,7 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/07/12|Update: Visual Studio 2022 17.14.8 Preview 1.0
+[.NET](/knowhow/NET)             |2025/07/16|Update: Visual Studio 2022 17.14.9 (July 2025)
 [Rust](/knowhow/Rust)            |2025/07/02|Update: Rust 1.88 / RustRover 2025.2 EAP 6
 [Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
@@ -36,7 +36,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/07/02|Update: MongoDB 8.1.1
+[Database & SQL](/knowhow/Database)    |2025/07/14|Update: SQL Server Management Studio 21.4.8
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
@@ -105,9 +105,10 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5670 (Cumulative Update) <span style="color: red;">*<<2025/06/28 updated from Build 26200.5661 >>*</span>
+    - Build 26200.5702 (Cumulative Update) <span style="color: red;">*<<2025/07/15 updated from Build 26200.5670 >>*</span>
+      ![Cumulative Update](/images/Windows/20250715_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250628_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250715_Windows11_Build26200.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -247,10 +248,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 137.0.7151.132 <span style="color: red;">*<<2025/07/03 updated from 136.0.7103.158>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250703_Chrome_OS_Flex_137.0.7151.132.png)
+  - バージョン 137.0.7151.137 <span style="color: red;">*<<2025/07/19 updated from 137.0.7151.132>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250719_Chrome_OS_Flex_137.0.7151.137.png)
       - 更新中
-        ![Updating](/images/Chrome/20250703_Chrome_OS_Flex_Updating137.0.7151.132.png)
+        ![Updating](/images/Chrome/20250719_Chrome_OS_Flex_Updating137.0.7151.137.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -395,7 +396,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 (1.102.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/12 updated from 1.101.2>>*</span>
+- [Visual Studio Code June 2025 Recovery 1(1.102.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/18 updated from 1.102.0>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -698,7 +699,7 @@ OS/言語を問わず利用するツールの情報
 **Mac**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-- [Xcode 26 Beta 2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/06/26 Installed>>*</span>
+- [Xcode 26 Beta 3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/13 Updated from 26 Beta 2>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>

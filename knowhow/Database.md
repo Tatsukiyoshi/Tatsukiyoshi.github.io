@@ -8,8 +8,8 @@ sidebar:
 
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
-  |Windows        |[SQL Server 2022 Developer 16.0.4175.1](#sql-server) |[2025/02/11](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
-  |               |- SQL Server Management Studio 21.3.6 (June 2025)    |[2025/06/18](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
+  |Windows        |[SQL Server 2022 Developer 16.0.4200.1](#sql-server) |[2025/07/09](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |               |- SQL Server Management Studio 21.4.8                |[2025/07/14](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MongoDB 8.1.1                                        |[2025/07/02](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
@@ -95,8 +95,8 @@ sidebar:
     - アップデート後の初回起動時に旧バージョンから設定をインポートできる
     - SQL Server Management Studio 21 <BR />
       64ビット化されたVisual Studioベースのため、Visual Studio Installer でインストール可能
-      - SSMS 21.3.6 (June 2025) 
-        ![SSMS 21.3.6](/images/VisualStudio/20250618_Update_VS2022_17.14.6_SSMS21.3.6.png)
+      - SSMS 21.4.8
+        ![SSMS 21.4.8](/images/Database/20250714_SSMS21.4.8.png)
   - [エラー:18456 でログインできない場合](https://qiita.com/sugasaki/items/a95c2495085e32851707)
     - サーバ認証について、Windows認証モードとSQL Server認証モードが選択されているかを確認する
     - SQL Serverを再起動する
