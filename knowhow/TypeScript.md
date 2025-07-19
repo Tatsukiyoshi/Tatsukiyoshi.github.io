@@ -26,8 +26,8 @@ sidebar:
 
       |Verify                  |FW              |Last Updated
       |------------------------|----------------|----------
-      |ReactGrid / ChartJs     |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
-      |                        |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
+      |ReactGrid / ChartJs     |Next.js 15.4.2  |[2025/07/19](https://next-grid-chart.vercel.app/)
+      |                        |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
       |InputField              |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
       |                        |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
       |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/08](https://graph-libraries.vercel.app/)
@@ -44,7 +44,7 @@ sidebar:
       |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.18](#bun)          |[2025/07/05](https://bun.sh/)
+      |                |        |[Bun 1.2.19](#bun)          |[2025/07/19](https://bun.sh/)
       |                |        |Vite 7.0.2                  |[2025/07/05](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
