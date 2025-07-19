@@ -178,7 +178,9 @@ sidebar:
       root/mysqlsuper
 
     <details>
-    <summary>Configulation Log</summary>
+    <summary>
+    Configulation Log
+    </summary>
 
     ```
     Beginning configuration step: Writing configuration file

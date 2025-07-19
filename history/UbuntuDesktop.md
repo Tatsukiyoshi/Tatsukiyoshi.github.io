@@ -8,7 +8,9 @@ sidebar:
   ![Version Information](/images/Ubuntu/20250111_Ubuntu24.10.png)
 
   <details>
-  <summary>System Details</summary>
+  <summary>
+  System Details
+  </summary>
 
   ```
   # System Details Report
@@ -36,7 +38,9 @@ sidebar:
   </details>
 
   <details>
-  <summary>ディストリビューション・バージョン情報</summary>
+  <summary>
+  ディストリビューション・バージョン情報
+  </summary>
 
   ```
   PRETTY_NAME="Ubuntu 24.10"
@@ -60,7 +64,9 @@ sidebar:
   ![Version Information](/images/Ubuntu/20250104_Ubuntu24.04.1.png)
 
   <details>
-  <summary>ディストリビューション・バージョン情報</summary>
+  <summary>
+  ディストリビューション・バージョン情報
+  </summary>
 
   ```
   PRETTY_NAME="Ubuntu 24.04.1 LTS"

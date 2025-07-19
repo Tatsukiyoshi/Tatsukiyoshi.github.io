@@ -51,7 +51,9 @@ sidebar:
     ```
   - flutter doctor -v
     <details>
-    <summary>Windows Insider</summary>
+    <summary>
+    Windows Insider
+    </summary>
 
     ```
     [√] Flutter (Channel stable, 3.32.0, on Microsoft Windows [Version 10.0.26200.5603], locale ja-JP) [723ms]
@@ -113,7 +115,9 @@ sidebar:
     </details>
 
     <details>
-    <summary>Mac OS</summary>
+    <summary>
+    Mac OS
+    </summary>
 
     ```
     [!] Flutter (Channel stable, 3.27.1, on macOS 15.2 24C101 darwin-arm64, locale ja-JP)
@@ -167,7 +171,9 @@ sidebar:
     </details>
 
     <details>
-    <summary>Chrome OS Flex</summary>
+    <summary>
+    Chrome OS Flex
+    </summary>
 
     ```
     [✓] Flutter (Channel stable, 3.27.1, on Debian GNU/Linux 12 (bookworm) 6.6.54-05528-gdd4efe62d86b, locale en_US.UTF-8)

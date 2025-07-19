@@ -32,7 +32,9 @@ sidebar:
 
 - [Rust](https://exercism.org/tracks/rust/exercises)
   <details>
-  <summary>Easy</summary>
+  <summary>
+  Easy
+  </summary>
 
     |名前                   |状態
     |----------------------|----------
@@ -60,7 +62,9 @@ sidebar:
   </details>
 
   <details>
-  <summary>Medium</summary>
+  <summary>
+  Medium
+  </summary>
 
     |名前                   |状態
     |----------------------|----------

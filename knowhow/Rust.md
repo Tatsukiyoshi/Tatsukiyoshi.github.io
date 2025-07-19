@@ -242,7 +242,9 @@ sidebar:
       [System.Environment]::SetEnvironmentVariable('OPENSSL_STATIC', $env:OPENSSL_STATIC, [System.EnvironmentVariableTarget]::User)
       ```
       <details>
-      <summary>セットアップログ</summary>
+      <summary>
+      セットアップログ
+      </summary>
 
       ```sh
       PS C:\> git clone https://github.com/Microsoft/vcpkg.git
@@ -585,7 +587,9 @@ sidebar:
                 ```
 
           <details>
-          <summary>bunで初期化した場合のビルドエラーログ</summary>
+          <summary>
+          bunで初期化した場合のビルドエラーログ
+          </summary>
 
             ```
           taishow2024@Air2024 tauri-mac-ios-app % bun tauri ios dev    

@@ -177,7 +177,9 @@ sidebar:
           iwr https://deno.land/install.ps1 -useb | iex
           ```
           <details>
-          <summary>インストール結果</summary>
+          <summary>
+          インストール結果
+          </summary>
 
           ```
             % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -227,7 +229,9 @@ sidebar:
     - Prisma Postgres
       - [Quick Start](https://www.prisma.io/docs/getting-started/quickstart-prismaPostgres)
         <details>
-        <summary>Log</summary>
+        <summary>
+        Log
+        </summary>
 
         ```
         PS D:\Repository\Weekend_Programming\js\prisma> npx try-prisma@latest --template databases/prisma-postgres --databaseUrl 'prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiN2ZkMDgxYzItY2MxNC00ZmVlLThhNDEtZWRlYzJjNzNlNTZkIiwidGVuYW50X2lkIjoiYjNmYTc3N2Y2MDJhY2YwOWQ2MWRkNmI1NjQ2Y2ExNDI3YWIyYjg4MjVkYzAzZDhlMmNjMzk4Y2M0YjBlMWU2NiIsImludGVybmFsX3NlY3JldCI6IjAyMTMyZWU1LTgxNTMtNDRiNS1hZTU2LWY5YTBjN2RkN2JiZiJ9.OSayNHa6Z5_vMPKVH-RekZznzOTkncVnbDVz_r5VVVU' --name hello-prisma-postgres --install npm
@@ -390,7 +394,9 @@ sidebar:
         npx @astrojs/upgrade beta
         ```
         <details>
-        <summary>Upgrade Log</summary>
+        <summary>
+        Upgrade Log
+        </summary>
 
         ```sh
         Need to install the following packages:
@@ -422,7 +428,9 @@ sidebar:
         npx @astrojs/upgrade
         ```
         <details>
-        <summary>Upgrade Log</summary>
+        <summary>
+        Upgrade Log
+        </summary>
 
         ```sh
         Need to install the following packages:
@@ -891,7 +899,9 @@ sidebar:
             ![パイプのテスト](/images/angular/pipe-param-test.png)
 
       <details>
-      <summary>トラブルシューティング</summary>
+      <summary>
+      トラブルシューティング
+      </summary>
 
       1.  パッケージインストールでのエラー 
           ```
