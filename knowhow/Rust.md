@@ -26,21 +26,21 @@ sidebar:
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.87                                      |2025/06/25
-      |               |[Tauri 2.6.2](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
-      |               |Svelte 5.34.8                                  |2025/06/25
-      |               |Bun 1.2.17                                     |2025/06/25
-      |               |Vite 7.0.0                                     |2025/06/25
+      |Windows Insider|Rust 1.88                                      |2025/07/21
+      |               |[Tauri 2.7.0](#tauridesktop-framework)         |[2025/07/21](https://tauri.app/)
+      |               |Svelte 5.36.12                                 |2025/07/21
+      |               |Bun 1.2.19                                     |2025/07/19
+      |               |Vite 7.0.5                                     |2025/07/21
 
   1. Ubuntu 24.04.2 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.87       |2025/06/26
-      |                |Tauri 2.6.2     |2025/06/27
+      |Windows Insider |Rust 1.88       |2025/07/21
+      |                |Tauri 2.7.0     |2025/07/21
       |                |React 19.1.0    |2025/04/03
-      |                |Bun 1.2.17      |2025/06/26
-      |                |Vite 7.0.0      |2025/06/26
+      |                |Bun 1.2.19      |2025/07/21
+      |                |Vite 7.0.5      |2025/07/21
 
   1. Chrome OS Flex 136.0.7103.158 (Official Build)
 
@@ -377,6 +377,13 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.7.0
+    - Windows
+      ![On Windows](/images/rust/20250721_Tauri2.7.0_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250721_Tauri2.7.0_Ubuntu24.04.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250721_Tauri2.7.0_Pixel_9_Pro_Android16.png)
   - V2.6.2
     - Windows
       ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
