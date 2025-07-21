@@ -28,7 +28,7 @@ Language                         |Updated   |Detail
 [Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/07/19|Update: Astro 5.12.0 / Next.js 15.4.2
+[TypeScript](/knowhow/TypeScript)|2025/07/21|Update: Astro 5.12.0 / Next.js 15.4.2 / Svelte 5.36.12
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1

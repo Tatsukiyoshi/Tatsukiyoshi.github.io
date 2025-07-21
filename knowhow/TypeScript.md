@@ -45,7 +45,7 @@ sidebar:
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.19](#bun)          |[2025/07/19](https://bun.sh/)
-      |                |        |Vite 7.0.2                  |[2025/07/05](https://vitejs.dev/)
+      |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -55,23 +55,23 @@ sidebar:
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
-      |                |        |Recharts 3.0.2              |[2025/07/08](https://recharts.org/)
+      |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
       |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
-      |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
+      |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
-      |                |        |- Bun 1.2.15                |2025/05/22
-      |                |        |[Next.js 15.3.2](#nextjs)   |[2025/05/10](https://nextjs.org/)
+      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |        |[Next.js 15.4.2](#nextjs)   |[2025/07/21](https://nextjs.org/)
       |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.12                |2025/05/10
+      |                |        |- Bun 1.2.19                |2025/07/19
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
       |                |        |React Native Windows 0.79.0 |[2025/06/13](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.16                |2025/06/13
       |                |        |- React Native 0.79.3       |2025/06/13
       |                |        |- React 19.0.0              |2025/06/13
       |                |        |- Windows SDK 10.0.26100    |2025/01/18
-      |                |        |[Svelte 5.35.2](#svelte)    |[2025/07/05](https://svelte.dev/)
-      |                |        |- Bun 1.2.18                |2025/07/05
-      |                |        |- Vite 7.0.2                |2025/07/05
+      |                |        |[Svelte 5.36.12](#svelte)   |[2025/07/21](https://svelte.dev/)
+      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |        |- Vite 7.0.5                |2025/07/21
       |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
