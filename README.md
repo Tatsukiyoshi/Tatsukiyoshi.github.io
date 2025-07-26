@@ -248,10 +248,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 137.0.7151.137 <span style="color: red;">*<<2025/07/19 updated from 137.0.7151.132>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250719_Chrome_OS_Flex_137.0.7151.137.png)
+  - バージョン 138.0.7204.163 <span style="color: red;">*<<2025/07/26 updated from 137.0.7151.137>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250726_Chrome_OS_Flex_138.0.7204.163.png)
       - 更新中
-        ![Updating](/images/Chrome/20250719_Chrome_OS_Flex_Updating137.0.7151.137.png)
+        ![Updating](/images/Chrome/20250726_Chrome_OS_Flex_Updating138.0.7204.163.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
