@@ -41,7 +41,8 @@ sidebar:
       |                |        |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |                |FW      |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
       |                |        |- Bun 1.1.38                |2024/11/29
-      |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
+      |                |        |[Deno 2.4.2](#deno)         |[2025/07/26](https://deno.land/)
+      |                |        |- Deno-webUI 2.5.9          |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.19](#bun)          |[2025/07/19](https://bun.sh/)
