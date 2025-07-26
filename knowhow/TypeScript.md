@@ -86,11 +86,11 @@ sidebar:
       |-----------|--------|-------------------------|----------
       |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.18               |2025/07/06
+      |           |        |Bun 1.2.19               |2025/07/21
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
       |           |        |- Bun 1.2.18             |2025/07/06
-      |           |        |React Native 0.80.0      |[2025/06/29](https://reactnative.dev/)
-      |           |        |- Bun 1.2.17             |2025/02/24
+      |           |        |React Native 0.80.2      |[2025/07/26](https://reactnative.dev/)
+      |           |        |- Bun 1.2.19             |2025/07/21
 
 ##  ノウハウ
 ### TypeScript
@@ -338,6 +338,9 @@ sidebar:
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
+        - React Native 0.80.2
+          - React 19.1.0
+            ![React Native 0.80.2 iOS](/images/Mac/20250726_ReactNative_0.80.2.png)
         - React Native 0.80.0
           - React 19.1.0
             ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
