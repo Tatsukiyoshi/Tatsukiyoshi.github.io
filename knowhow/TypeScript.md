@@ -30,7 +30,7 @@ sidebar:
       |                        |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
       |InputField              |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
       |                        |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
-      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/08](https://graph-libraries.vercel.app/)
+      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
 
   1.  Windows
 
