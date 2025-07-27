@@ -29,7 +29,7 @@ sidebar:
       |ReactGrid / ChartJs     |Next.js 15.4.2  |[2025/07/19](https://next-grid-chart.vercel.app/)
       |                        |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
       |InputField              |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
-      |                        |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
+      |                        |Vue 3.5.18      |[2025/07/27](https://ya-full-width-input-field-for-vue.vercel.app/)
       |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
 
   1.  Windows
@@ -77,7 +77,7 @@ sidebar:
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
-      |                |Test FW |[Playwright 1.53.2](#pw)    |[2025/07/06](https://Playwright.dev/)
+      |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
       |                |        |- Bun 1.2.16                |2025/06/13
 
