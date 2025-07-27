@@ -11,7 +11,7 @@ sidebar:
   |Windows        |[SQL Server 2022 Developer 16.0.4200.1](#sql-server) |[2025/07/09](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.4.8                |[2025/07/14](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |[PostgreSQL 17.2](#postgresql)                       |[2024/12/31](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-  |               |MongoDB 8.1.1                                        |[2025/07/02](https://www.mongodb.com/ja-jp)
+  |               |MongoDB 8.1.2                                        |[2025/07/26](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |               |MySQL Community Server 8.4.2                         |2024/08/24
@@ -178,7 +178,9 @@ sidebar:
       root/mysqlsuper
 
     <details>
-    <summary>Configulation Log</summary>
+    <summary>
+    Configulation Log
+    </summary>
 
     ```
     Beginning configuration step: Writing configuration file

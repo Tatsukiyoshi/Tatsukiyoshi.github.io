@@ -83,7 +83,9 @@ sidebar:
     dotnet --info
     ```
     <details>
-    <summary>Visual Studio 2022 Preview＠Windows Insider</summary>
+    <summary>
+    Visual Studio 2022 Preview＠Windows Insider
+    </summary>
 
     ```
     .NET SDK:
@@ -173,7 +175,9 @@ sidebar:
     </details>
 
     <details>
-      <summary>Visual Studio 2022@Windows</summary>
+      <summary>
+      Visual Studio 2022@Windows
+      </summary>
 
       ```
       .NET SDK:
@@ -248,7 +252,9 @@ sidebar:
     ```
 
     <details>
-    <summary>Windows App SDK 1.6.3</summary>
+    <summary>
+    Windows App SDK 1.6.3
+    </summary>
 
     ```
     Name              : Microsoft.WindowsAppRuntime.1.6
@@ -302,7 +308,9 @@ sidebar:
       ```
 
       <details>
-        <summary>MAUI Update Log</summary>
+        <summary>
+        MAUI Update Log
+        </summary>
 
         ```
         .NET 10.0 へようこそ!

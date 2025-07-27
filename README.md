@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/7/13～2025/7/19）](/digest/2025/July/2nd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/7/20～2025/7/26）](/digest/2025/July/3rd) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -24,11 +24,11 @@ sidebar:
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/07/16|Update: Visual Studio 2022 17.14.9 (July 2025)
-[Rust](/knowhow/Rust)            |2025/07/02|Update: Rust 1.88 / RustRover 2025.2 EAP 6
-[Kotlin](/knowhow/Kotlin)        |2025/07/05|Update: Android Studio Narwhal 2025.1.2 Canary 8
+[Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
+[Kotlin](/knowhow/Kotlin)        |2025/07/26|Update: IntelliJ IDEA 2025.2 Beta
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/07/06|Add: Full-Width Input Field for Vue.js / PlayWright 1.53.2
+[TypeScript](/knowhow/TypeScript)|2025/07/26|Update: React Native 0.80.2 on iOS 26 Beta 4
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -36,7 +36,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/07/14|Update: SQL Server Management Studio 21.4.8
+[Database & SQL](/knowhow/Database)    |2025/07/26|Update: MongoDB 8.1.2
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
@@ -105,10 +105,10 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5702 (Cumulative Update) <span style="color: red;">*<<2025/07/15 updated from Build 26200.5670 >>*</span>
-      ![Cumulative Update](/images/Windows/20250715_WindowsUpdate_DevChannel.png)
+    - Build 26200.5710 (Cumulative Update) <span style="color: red;">*<<2025/07/19 updated from Build 26200.5702 >>*</span>
+      ![Cumulative Update](/images/Windows/20250719_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250715_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250719_Windows11_Build26200.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -248,10 +248,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 137.0.7151.137 <span style="color: red;">*<<2025/07/19 updated from 137.0.7151.132>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250719_Chrome_OS_Flex_137.0.7151.137.png)
+  - バージョン 138.0.7204.163 <span style="color: red;">*<<2025/07/26 updated from 137.0.7151.137>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250726_Chrome_OS_Flex_138.0.7204.163.png)
       - 更新中
-        ![Updating](/images/Chrome/20250719_Chrome_OS_Flex_Updating137.0.7151.137.png)
+        ![Updating](/images/Chrome/20250726_Chrome_OS_Flex_Updating138.0.7204.163.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -396,7 +396,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 Recovery 1(1.102.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/18 updated from 1.102.0>>*</span>
+- [Visual Studio Code June 2025 Recovery 1(1.102.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/25 updated from 1.102.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />

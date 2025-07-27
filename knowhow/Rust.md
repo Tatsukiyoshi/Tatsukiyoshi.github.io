@@ -22,36 +22,36 @@ sidebar:
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.88](#rust-1)                           |[2025/07/02](https://www.rust-lang.org/)
-      |               |[RustRover 2025.2 EAP 6](#rustrover)           |[2025/07/01](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.2 EAP 9](#rustrover)           |[2025/07/25](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.87                                      |2025/06/25
-      |               |[Tauri 2.6.2](#tauridesktop-framework)         |[2025/06/27](https://tauri.app/)
-      |               |Svelte 5.34.8                                  |2025/06/25
-      |               |Bun 1.2.17                                     |2025/06/25
-      |               |Vite 7.0.0                                     |2025/06/25
+      |Windows Insider|Rust 1.88                                      |2025/07/21
+      |               |[Tauri 2.7.0](#tauridesktop-framework)         |[2025/07/21](https://tauri.app/)
+      |               |Svelte 5.36.12                                 |2025/07/21
+      |               |Bun 1.2.19                                     |2025/07/19
+      |               |Vite 7.0.5                                     |2025/07/21
 
   1. Ubuntu 24.04.2 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.87       |2025/06/26
-      |                |Tauri 2.6.2     |2025/06/27
+      |Windows Insider |Rust 1.88       |2025/07/21
+      |                |Tauri 2.7.0     |2025/07/21
       |                |React 19.1.0    |2025/04/03
-      |                |Bun 1.2.17      |2025/06/26
-      |                |Vite 7.0.0      |2025/06/26
+      |                |Bun 1.2.19      |2025/07/21
+      |                |Vite 7.0.5      |2025/07/21
 
-  1. Chrome OS Flex 136.0.7103.158 (Official Build)
+  1. Chrome OS Flex 138.0.7204.163 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.87                                 |2025/06/26
+      |Chrome OS  |Rust 1.88                                 |2025/07/26
       |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.6.2                               |2025/06/28
+      |           |Tauri 2.7.0                               |2025/07/26
       |           |React 19.1.0                              |2025/04/11
-      |           |Bun 1.2.17                                |2025/06/26
-      |           |Vite 7.0.0                                |2025/06/26
+      |           |Bun 1.2.19                                |2025/07/26
+      |           |Vite 7.0.6                                |2025/07/26
 
   1.  Mac OS Sequoia 15.5
 
@@ -59,10 +59,10 @@ sidebar:
       |-----------|---------------------|----------
       |Mac OS     |Rust 1.88            |2025/07/13
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.6.2          |2025/06/28
+      |           |Tauri 2.7.0          |2025/07/21
       |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.18           |2025/07/06
-      |           |Vite 7.0.4           |2025/07/13
+      |           |Bun 1.2.19           |2025/07/21
+      |           |Vite 7.0.5           |2025/07/21
 
 ##  ノウハウ
 ### Rust
@@ -129,14 +129,14 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.2 EAP Build #RR-252.23591.37, built on June 27, 2025 <span style="color: red;">**Updated 2025/07/01**</span>
+  - RustRover 2025.2 EAP Build #RR-252.23892.300, built on July 23, 2025 <span style="color: red;">**Updated 2025/07/25**</span>
     ```
     RustRover 2025.2 EAP
-    Build #RR-252.23591.37, built on June 27, 2025
-    Source revision: 936e08e520647
+    Build #RR-252.23892.300, built on July 23, 2025
+    Source revision: 4aa3766681f9b
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: July 27, 2025
-    Runtime version: 21.0.7+6-b1038.54 amd64 (JCEF 122.1.9)
+    有効期限: August 22, 2025
+    Runtime version: 21.0.7+6-b1038.58 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -146,14 +146,15 @@ sidebar:
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
+      terminal.new.ui.show.promotion=true
       org.toml.json.schema=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
-      com.jetbrains.space (252.23591.19)
-      ru.adelf.idea.dotenv (252.23591.19)
-      com.intellij.ml.llm (252.23591.37)
+      com.jetbrains.space (252.23892.201)
+      ru.adelf.idea.dotenv (252.23892.201)
+      com.jetbrains.rust (252.23892.300)
+      com.intellij.ml.llm (252.23892.300)
     ```
     - [履歴](/history/RustRover)
   - データベース
@@ -242,7 +243,9 @@ sidebar:
       [System.Environment]::SetEnvironmentVariable('OPENSSL_STATIC', $env:OPENSSL_STATIC, [System.EnvironmentVariableTarget]::User)
       ```
       <details>
-      <summary>セットアップログ</summary>
+      <summary>
+      セットアップログ
+      </summary>
 
       ```sh
       PS C:\> git clone https://github.com/Microsoft/vcpkg.git
@@ -375,6 +378,21 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.7.0
+    - Windows
+      ![On Windows](/images/rust/20250721_Tauri2.7.0_Windows.png)
+    - Ubuntu 24.04.2 on WSL2
+      ![On Ubuntu 24.04](/images/rust/20250721_Tauri2.7.0_Ubuntu24.04.png)
+    - Mac OS
+      ![On Mac OS](/images/rust/20250721_Tauri2.7.0_Mac15.5.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250726_Tauri2.7.0_Chrome_OS_Flex.png)
+    - Android 16 / Pixel 9 Pro
+      ![On Android 16](/images/rust/20250721_Tauri2.7.0_Pixel_9_Pro_Android16.png)
+    - iOS 18.5 / iPhone 16e
+      ![On iPhone 16e](/images/rust/20250721_Tauri2.7.0_iPhone16e_iOS18.5.png)
+    - iOS 26.0 Beta 3 / iPhone 16 Pro
+      ![On iOS 26 Beta 3](/images/rust/20250721_Tauri2.7.0_iPhone16_Pro_iOS26.0B3.png)
   - V2.6.2
     - Windows
       ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
@@ -585,7 +603,9 @@ sidebar:
                 ```
 
           <details>
-          <summary>bunで初期化した場合のビルドエラーログ</summary>
+          <summary>
+          bunで初期化した場合のビルドエラーログ
+          </summary>
 
             ```
           taishow2024@Air2024 tauri-mac-ios-app % bun tauri ios dev    

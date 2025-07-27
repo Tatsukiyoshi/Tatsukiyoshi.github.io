@@ -25,7 +25,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -45,7 +47,9 @@ sidebar:
     ./scripts/run_bazelisk.py run //toolchain -- help
     ```
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Starting local Bazel server (8.0.1) and connecting to it...
@@ -179,7 +183,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -199,7 +205,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     2025/04/06 00:36:53 Downloading https://releases.bazel.build/8.0.1/release/bazel-8.0.1-linux-x86_64...
@@ -334,7 +342,9 @@ sidebar:
         ```
 
         <details>
-        <summary>実行結果</summary>
+        <summary>
+        実行結果
+        </summary>
 
         ```
         Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
@@ -368,7 +378,9 @@ sidebar:
         ```
 
         <details>
-        <summary>実行結果</summary>
+        <summary>
+        実行結果
+        </summary>
 
         ```
         Reading package lists... Done
@@ -390,7 +402,9 @@ sidebar:
         ```
 
         <details>
-        <summary>実行結果</summary>
+        <summary>
+        実行結果
+        </summary>
 
         ```
         （出力なし）
@@ -405,7 +419,9 @@ sidebar:
         ```
 
         <details>
-        <summary>実行結果</summary>
+        <summary>
+        実行結果
+        </summary>
 
         ```
         Repository: 'deb http://apt.llvm.org/noble/ llvm-toolchain-noble-19 main'
@@ -433,7 +449,9 @@ sidebar:
         ```
 
         <details>
-        <summary>実行結果</summary>
+        <summary>
+        実行結果
+        </summary>
 
         ```
         Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
@@ -453,7 +471,9 @@ sidebar:
         ```
 
         <details>
-        <summary>アップグレードリスト確認結果１</summary>
+        <summary>
+        アップグレードリスト確認結果１
+        </summary>
 
         ```
         Listing... Done
@@ -467,7 +487,9 @@ sidebar:
         ```
 
         <details>
-        <summary>アップグレードリスト確認結果２</summary>
+        <summary>
+        アップグレードリスト確認結果２
+        </summary>
 
         ```
         Listing... Done
@@ -482,7 +504,9 @@ sidebar:
         ```
 
         <details>
-        <summary>インストール結果</summary>
+        <summary>
+        インストール結果
+        </summary>
 
         ```
         Reading package lists... Done
@@ -618,7 +642,9 @@ sidebar:
             ```
 
             <details>
-            <summary>設定結果</summary>
+            <summary>
+            設定結果
+            </summary>
 
             ```
             update-alternatives: using /usr/bin/clang-19 to provide /usr/bin/clang (clang) in auto mode
@@ -630,7 +656,9 @@ sidebar:
             ```
 
             <details>
-            <summary>設定結果</summary>
+            <summary>
+            設定結果
+            </summary>
 
             ```
             update-alternatives: using /usr/bin/clang++-19 to provide /usr/bin/clang++ (clang++) in auto mode
@@ -644,7 +672,9 @@ sidebar:
             # sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-19 100
             ```
             <details>
-            <summary>設定結果</summary>
+            <summary>
+            設定結果
+            </summary>
 
             ```
             update-alternatives: using /usr/bin/lld-19 to provide /usr/bin/lld (lld) in auto mode
@@ -657,7 +687,9 @@ sidebar:
         ```
 
         <details>
-        <summary>取得ログ</summary>
+        <summary>
+        取得ログ
+        </summary>
 
         ```
         Cloning into 'carbon-lang'...
@@ -677,7 +709,9 @@ sidebar:
         ```
 
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         Starting local Bazel server (8.0.1) and connecting to it...
@@ -810,7 +844,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -831,7 +867,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```sh
     2025/03/30 13:48:59 Downloading https://releases.bazel.build/8.0.1/release/bazel-8.0.1-linux-x86_64...
@@ -977,7 +1015,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -997,7 +1037,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Starting local Bazel server and connecting to it...
@@ -1081,7 +1123,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     INFO: Invocation ID: 87bae7b4-8736-404c-b4b3-13dc77ab5dde
@@ -1114,7 +1158,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Reading package lists... Done
@@ -1317,7 +1363,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -1337,7 +1385,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     2025/01/13 15:22:46 Downloading https://releases.bazel.build/8.0.0/release/bazel-8.0.0-linux-x86_64...
@@ -1422,7 +1472,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     INFO: Invocation ID: c74eaf33-c404-471e-b0a2-152ef8133939
@@ -1456,7 +1508,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Installing:                                                 
@@ -1737,7 +1791,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Cloning into 'carbon-lang'...
@@ -1758,7 +1814,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     Starting local Bazel server and connecting to it...
@@ -1784,7 +1842,9 @@ sidebar:
     ```
 
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     INFO: Invocation ID: d0c84f32-03f9-44b9-8e1d-f42fd2ad04d5
@@ -1809,7 +1869,9 @@ sidebar:
             git clone https://github.com/carbon-language/carbon-lang
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
 
             ```
             Cloning into 'carbon-lang'...
@@ -1828,7 +1890,9 @@ sidebar:
             bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
             
             ```
             2024/10/27 18:34:07 Downloading https://releases.bazel.build/7.3.0/release/bazel-7.3.0-linux-x86_64...
@@ -1857,7 +1921,9 @@ sidebar:
             git clone https://github.com/carbon-language/carbon-lang
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
 
             ```
             Cloning into 'carbon-lang'...
@@ -1876,7 +1942,9 @@ sidebar:
             bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
             
             ```
             2024/03/16 19:08:57 Downloading https://releases.bazel.build/7.1.0/release/bazel-7.1.0-linux-x86_64...
@@ -1903,7 +1971,9 @@ sidebar:
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         ```
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         taishow@Ideapad550-2023:~$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -2343,7 +2413,9 @@ sidebar:
         sudo apt-get install build-essential
         ```
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         Reading package lists... Done
@@ -2359,7 +2431,9 @@ sidebar:
         brew install gcc
         ```
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         ==> Fetching dependencies for gcc: gmp, isl, mpfr, libmpc, lz4, xz, zlib, zstd and binutils
@@ -2456,7 +2530,9 @@ sidebar:
         brew install bazelisk llvm
         ```
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         ==> Fetching bazelisk
@@ -2660,7 +2736,9 @@ sidebar:
             git clone https://github.com/carbon-language/carbon-lang
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
 
             ```
             Cloning into 'carbon-lang'...
@@ -2679,7 +2757,9 @@ sidebar:
             bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
             ```
             <details>
-            <summary>ログ</summary>
+            <summary>
+            ログ
+            </summary>
             
             ```
             2023/09/02 12:07:08 Downloading https://releases.bazel.build/6.0.0/release/bazel-6.0.0-linux-x86_64...
@@ -2728,7 +2808,9 @@ sidebar:
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     taishow@IdeaPad550-2022:~$  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -3117,7 +3199,9 @@ sidebar:
     brew install gcc
     ```
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     taishow@IdeaPad550-2022:~$ brew install gcc
@@ -3231,7 +3315,9 @@ sidebar:
     brew install bazelisk llvm
     ```
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     taishow@IdeaPad550-2022:~$ brew install bazelisk llvm
@@ -3453,7 +3539,9 @@ sidebar:
         git clone https://github.com/carbon-language/carbon-lang
         ```
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         Cloning into 'carbon-lang'...
@@ -3466,7 +3554,9 @@ sidebar:
         ```
     -   実行
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         cd carbon-lang
@@ -3569,7 +3659,9 @@ sidebar:
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     taishow@IdeaPad550-2022:~$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -3944,7 +4036,9 @@ sidebar:
     </details>
 1.  gccインストールログ
     <details>
-    <summary>ログ</summary>
+    <summary>
+    ログ
+    </summary>
 
     ```
     $ brew install gcc
@@ -4038,7 +4132,9 @@ sidebar:
 1.  carbon環境を構築
     -   Install bazelisk using Homebrew.
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```            
         $ brew install bazelisk
@@ -4066,7 +4162,9 @@ sidebar:
         ```
     -   Build and run the explorer.
         <details>
-        <summary>ログ</summary>
+        <summary>
+        ログ
+        </summary>
 
         ```
         $ cd carbon-lang

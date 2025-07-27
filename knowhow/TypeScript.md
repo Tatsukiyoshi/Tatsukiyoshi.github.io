@@ -26,11 +26,11 @@ sidebar:
 
       |Verify                  |FW              |Last Updated
       |------------------------|----------------|----------
-      |ReactGrid / ChartJs     |Next.js 15.1.7  |[2025/02/11](https://next-grid-chart.vercel.app/)
-      |                        |Astro 5.2.5     |[2025/02/11](https://astro-react-grid-chart.vercel.app/)
+      |ReactGrid / ChartJs     |Next.js 15.4.2  |[2025/07/19](https://next-grid-chart.vercel.app/)
+      |                        |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
       |InputField              |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
       |                        |Vue 3.5.17      |[2025/07/06](https://ya-full-width-input-field-for-vue.vercel.app/)
-      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/08](https://graph-libraries.vercel.app/)
+      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
 
   1.  Windows
 
@@ -41,11 +41,12 @@ sidebar:
       |                |        |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
       |                |FW      |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
       |                |        |- Bun 1.1.38                |2024/11/29
-      |                |        |[Deno 2.3.1](#deno)         |[2025/05/01](https://deno.land/)
+      |                |        |[Deno 2.4.2](#deno)         |[2025/07/26](https://deno.land/)
+      |                |        |- Deno-webUI 2.5.9          |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.18](#bun)          |[2025/07/05](https://bun.sh/)
-      |                |        |Vite 7.0.2                  |[2025/07/05](https://vitejs.dev/)
+      |                |        |[Bun 1.2.19](#bun)          |[2025/07/19](https://bun.sh/)
+      |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
@@ -55,23 +56,23 @@ sidebar:
       |                |        |- [React 19.1.0](#react)    |2025/03/29
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
-      |                |        |Recharts 3.0.2              |[2025/07/08](https://recharts.org/)
+      |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
       |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
-      |                |        |[Astro 5.8.1](#astro)       |[2025/05/31](https://astro.build/)
+      |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
-      |                |        |- Bun 1.2.15                |2025/05/22
-      |                |        |[Next.js 15.3.2](#nextjs)   |[2025/05/10](https://nextjs.org/)
+      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |        |[Next.js 15.4.2](#nextjs)   |[2025/07/21](https://nextjs.org/)
       |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.12                |2025/05/10
+      |                |        |- Bun 1.2.19                |2025/07/19
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
       |                |        |React Native Windows 0.79.0 |[2025/06/13](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.16                |2025/06/13
       |                |        |- React Native 0.79.3       |2025/06/13
       |                |        |- React 19.0.0              |2025/06/13
       |                |        |- Windows SDK 10.0.26100    |2025/01/18
-      |                |        |[Svelte 5.35.2](#svelte)    |[2025/07/05](https://svelte.dev/)
-      |                |        |- Bun 1.2.18                |2025/07/05
-      |                |        |- Vite 7.0.2                |2025/07/05
+      |                |        |[Svelte 5.36.12](#svelte)   |[2025/07/21](https://svelte.dev/)
+      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |        |- Vite 7.0.5                |2025/07/21
       |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                |2025/05/31
       |                |        |- Bun 1.2.15                |2025/05/22
@@ -86,11 +87,11 @@ sidebar:
       |-----------|--------|-------------------------|----------
       |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.18               |2025/07/06
+      |           |        |Bun 1.2.19               |2025/07/21
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
       |           |        |- Bun 1.2.18             |2025/07/06
-      |           |        |React Native 0.80.0      |[2025/06/29](https://reactnative.dev/)
-      |           |        |- Bun 1.2.17             |2025/02/24
+      |           |        |React Native 0.80.2      |[2025/07/26](https://reactnative.dev/)
+      |           |        |- Bun 1.2.19             |2025/07/21
 
 ##  ノウハウ
 ### TypeScript
@@ -177,7 +178,9 @@ sidebar:
           iwr https://deno.land/install.ps1 -useb | iex
           ```
           <details>
-          <summary>インストール結果</summary>
+          <summary>
+          インストール結果
+          </summary>
 
           ```
             % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -227,7 +230,9 @@ sidebar:
     - Prisma Postgres
       - [Quick Start](https://www.prisma.io/docs/getting-started/quickstart-prismaPostgres)
         <details>
-        <summary>Log</summary>
+        <summary>
+        Log
+        </summary>
 
         ```
         PS D:\Repository\Weekend_Programming\js\prisma> npx try-prisma@latest --template databases/prisma-postgres --databaseUrl 'prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiN2ZkMDgxYzItY2MxNC00ZmVlLThhNDEtZWRlYzJjNzNlNTZkIiwidGVuYW50X2lkIjoiYjNmYTc3N2Y2MDJhY2YwOWQ2MWRkNmI1NjQ2Y2ExNDI3YWIyYjg4MjVkYzAzZDhlMmNjMzk4Y2M0YjBlMWU2NiIsImludGVybmFsX3NlY3JldCI6IjAyMTMyZWU1LTgxNTMtNDRiNS1hZTU2LWY5YTBjN2RkN2JiZiJ9.OSayNHa6Z5_vMPKVH-RekZznzOTkncVnbDVz_r5VVVU' --name hello-prisma-postgres --install npm
@@ -334,6 +339,9 @@ sidebar:
         - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
+        - React Native 0.80.2
+          - React 19.1.0
+            ![React Native 0.80.2 iOS](/images/Mac/20250726_ReactNative_0.80.2.png)
         - React Native 0.80.0
           - React 19.1.0
             ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
@@ -390,7 +398,9 @@ sidebar:
         npx @astrojs/upgrade beta
         ```
         <details>
-        <summary>Upgrade Log</summary>
+        <summary>
+        Upgrade Log
+        </summary>
 
         ```sh
         Need to install the following packages:
@@ -422,7 +432,9 @@ sidebar:
         npx @astrojs/upgrade
         ```
         <details>
-        <summary>Upgrade Log</summary>
+        <summary>
+        Upgrade Log
+        </summary>
 
         ```sh
         Need to install the following packages:
@@ -891,7 +903,9 @@ sidebar:
             ![パイプのテスト](/images/angular/pipe-param-test.png)
 
       <details>
-      <summary>トラブルシューティング</summary>
+      <summary>
+      トラブルシューティング
+      </summary>
 
       1.  パッケージインストールでのエラー 
           ```
