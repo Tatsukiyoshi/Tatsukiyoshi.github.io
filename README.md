@@ -23,9 +23,9 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/07/16|Update: Visual Studio 2022 17.14.9 (July 2025)
+[.NET](/knowhow/NET)             |2025/07/27|Update: Visual Studio 2022 17.14.9 Preview 1.0 / .NET 10 Preview 6 / .NET MAUI 10 Preview 6
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/07/26|Update: IntelliJ IDEA 2025.2 Beta
+[Kotlin](/knowhow/Kotlin)        |2025/07/27|Update: Android Studio Narwhal 2025.1.3 Canary 2
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/07/27|Update: Vue 3.5.18 / Playwright 1.54.1
@@ -105,10 +105,10 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5710 (Cumulative Update) <span style="color: red;">*<<2025/07/19 updated from Build 26200.5702 >>*</span>
-      ![Cumulative Update](/images/Windows/20250719_WindowsUpdate_DevChannel.png)
+    - Build 26200.5722 (Cumulative Update) <span style="color: red;">*<<2025/07/29 updated from Build 26200.5710 >>*</span>
+      ![Cumulative Update](/images/Windows/20250729_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250719_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250729_Windows11_Build26200.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
