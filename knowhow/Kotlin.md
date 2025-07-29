@@ -16,7 +16,7 @@ sidebar:
 
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2 Beta](#intellij-idea)                 |[2025/07/26](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 RC](#intellij-idea)                   |[2025/07/29](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
@@ -28,12 +28,13 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.2 Beta (Ultimate Edition)
+  - IntelliJ IDEA 2025.2 RC (Ultimate Edition)
     ```
-    Build #IU-252.23892.248, built on July 18, 2025
-    Source revision: 307a94095ca20
-    ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
-    有効期限: August 17, 2025
+    Build #IU-252.23892.360, built on July 28, 2025
+    Source revision: c09a50f712ab4
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年8月27日 まで有効です。
+    Evaluation purpose only.
     Runtime version: 21.0.7+6-b1038.58 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -44,20 +45,71 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (252.23892.298)
-      org.editorconfig.editorconfigjetbrains (252.23892.298)
-      org.toml.lang (252.23892.253)
-      com.intellij.kubernetes (252.23892.298)
-      com.intellij.properties (252.23892.298)
-      com.intellij.velocity (252.23892.298)
-      com.intellij.swagger (252.23892.298)
-      intellij.jupyter (252.23892.298)
-      com.intellij.ml.llm (252.23892.248)
-      org.jetbrains.android (252.23892.248)
+      JavaScriptDebugger (252.23892.364)
+      com.intellij.java (252.23892.360)
+      org.jetbrains.completion.full.line (252.23892.360)
+      com.intellij.ml.llm (252.23892.360)
+      com.intellij.microservices.ui (252.23892.363)
+      com.intellij.copyright (252.23892.363)
+      org.jetbrains.security.package-checker (252.23892.363)
+      com.intellij.notebooks.core (252.23892.361)
+      intellij.jupyter (252.23892.361)
+      Subversion (252.23892.363)
+      org.jetbrains.plugins.gitlab (252.23892.364-IU)
+      org.jetbrains.plugins.github (252.23892.364-IU)
+      com.intellij.settingsSync (252.23892.360)
+      Docker (252.23892.364)
+      org.jetbrains.plugins.docker.gateway (252.23892.363)
+      com.jetbrains.restClient (252.23892.363)
+      com.intellij.mcpServer (252.23892.364)
+      org.editorconfig.editorconfigjetbrains (252.23892.363)
+      com.intellij.kubernetes (252.23892.364)
+      org.jetbrains.plugins.yaml (252.23892.363)
+      com.intellij.swagger (252.23892.363)
+      org.toml.lang (252.23892.361)
+      com.intellij.properties (252.23892.361)
+      com.intellij.liquibase (252.23892.360)
+      com.intellij.velocity (252.23892.361)
+      intellij.ktor (252.23892.360)
+      com.intellij.spring.boot (252.23892.360)
+      com.intellij.spring (252.23892.360)
+      com.intellij.spring.boot.initializr (252.23892.360)
+      com.intellij.spring.messaging (252.23892.360)
+      com.intellij.freemarker (252.23892.360)
+      com.intellij.spring.cloud (252.23892.360)
+      com.intellij.spring.integration (252.23892.360)
+      com.intellij.spring.security (252.23892.360)
+      com.jetbrains.restWebServices (252.23892.360)
+      com.intellij.javaee.el (252.23892.360)
+      com.intellij.spring.data (252.23892.360)
+      com.intellij.javaee (252.23892.360)
+      com.intellij.javaee.extensions (252.23892.360)
+      com.intellij.beanValidation (252.23892.360)
+      com.intellij.cdi (252.23892.360)
+      org.jetbrains.idea.maven (252.23892.360)
+      org.jetbrains.plugins.gradle (252.23892.360)
+      com.intellij.reactivestreams (252.23892.360)
+      org.jetbrains.android (252.23892.360)
+      com.intellij.thymeleaf (252.23892.360)
+      intellij.webpack (252.23892.360)
+      JavaScript (252.23892.364)
+      com.intellij.react (252.23892.364)
+      intellij.vitejs (252.23892.360)
+      com.intellij.spring.mvc (252.23892.360)
+      intellij.nextjs (252.23892.360)
+      com.intellij.plugins.webcomponents (252.23892.360)
+      tslint (252.23892.360)
       Dart (252.24322.5)
-      org.jetbrains.security.package-checker (252.23892.298)
-      com.intellij.microservices.ui (252.23892.298)
-    Kotlin: 252.23892.248-IJ
+      com.intellij.quarkus (252.23892.360)
+      com.intellij.micronaut (252.23892.360)
+      com.intellij.flyway (252.23892.360)
+      com.intellij.javaee.jakarta.data (252.23892.360)
+      com.intellij.javaee.jpa (252.23892.360)
+      Tomcat (252.23892.360)
+      JBoss (252.23892.360)
+      com.intellij.javaee.reverseEngineering (252.23892.360)
+      com.intellij.hibernate (252.23892.360)
+    Kotlin: 252.23892.360-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1

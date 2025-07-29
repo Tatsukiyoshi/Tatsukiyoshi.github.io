@@ -25,7 +25,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/07/27|Update: Visual Studio 2022 17.14.9 Preview 1.0 / .NET 10 Preview 6 / .NET MAUI 10 Preview 6
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/07/27|Update: Android Studio Narwhal 2025.1.3 Canary 2
+[Kotlin](/knowhow/Kotlin)        |2025/07/29|Update: IntelliJ IDEA 2025.2 RC
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/07/27|Update: Vue 3.5.18 / Playwright 1.54.1
