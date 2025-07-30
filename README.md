@@ -210,12 +210,12 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
-  - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
+  - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
+      ![Update Check](/images/Mac/20250730_MacOS_Sequoia15.6Updating.png)
     - バージョン情報
-      ![Sequoia 15.5](/images/Mac/20250516_MacOS_Sequoia15.5.png)
+      ![Sequoia 15.6](/images/Mac/20250730_MacOS_Sequoia15.6.png)
   - ノウハウ
     - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
       - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
