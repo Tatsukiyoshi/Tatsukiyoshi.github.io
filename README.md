@@ -396,7 +396,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 Recovery 1(1.102.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/25 updated from 1.102.1>>*</span>
+- [Visual Studio Code June 2025 Recovery 3(1.102.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/30 updated from 1.102.2>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
