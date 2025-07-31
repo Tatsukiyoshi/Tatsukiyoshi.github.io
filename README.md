@@ -695,6 +695,8 @@ OS/言語を問わず利用するツールの情報
     - 3.4.5 -> 3.4.6 OK
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
+- [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
+  ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
 
 **Mac**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
