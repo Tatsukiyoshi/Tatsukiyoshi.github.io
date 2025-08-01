@@ -78,8 +78,8 @@ sidebar:
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |[React Native 0.80.0](#rn)  |[2025/06/13](https://reactnative.dev/)
-      |                |        |- Bun 1.2.16                |2025/06/13
+      |                |Mobile  |[React Native 0.80.2](#rn)  |[2025/08/01](https://reactnative.dev/)
+      |                |        |- Bun 1.2.19                |2025/07/19
 
   1.  Mac OS
 
@@ -340,6 +340,8 @@ sidebar:
         - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
       - React Nativeで開発したアプリの実行
         - React Native 0.80.2
+          - React 19.1.1
+            ![React Native 0.80.2 Windows](/images/JavaScript/20250801_ReactNative_0.80.2.png)
           - React 19.1.0
             ![React Native 0.80.2 iOS](/images/Mac/20250726_ReactNative_0.80.2.png)
         - React Native 0.80.0
