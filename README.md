@@ -23,7 +23,7 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/07/27|Update: Visual Studio 2022 17.14.9 Preview 1.0 / .NET 10 Preview 6 / .NET MAUI 10 Preview 6
+[.NET](/knowhow/NET)             |2025/08/02|Update: Visual Studio 2022 17.14.10 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/07/29|Update: IntelliJ IDEA 2025.2 RC
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
