@@ -23,7 +23,7 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/02|Update: Visual Studio 2022 17.14.10 Preview 1.0
+[.NET](/knowhow/NET)             |2025/08/02|Update: Visual Studio 2022 17.14.10 Preview 1.0 / Visual Studio 2022 17.14.10
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/07/29|Update: IntelliJ IDEA 2025.2 RC
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
@@ -93,9 +93,8 @@ OS                                 |Hardware            |Language
       ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
   - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
     ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
-  - Updated to Windows Insider Dev Channel
-    - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-      ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+  - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
+    ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
     - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale)
@@ -109,6 +108,9 @@ OS                                 |Hardware            |Language
       ![Cumulative Update](/images/Windows/20250729_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](/images/Windows/20250729_Windows11_Build26200.png)
+    - Updated to Windows Insider Dev Channel
+      - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+        ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -656,7 +658,7 @@ OS/言語を問わず利用するツールの情報
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
  
 **Windows**
-- [PowerShell 7.5.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/04/28 updated from 7.5.0>>*</span>
+- [PowerShell 7.5.2](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/06/25 updated from 7.5.1>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget
@@ -695,13 +697,11 @@ OS/言語を問わず利用するツールの情報
     - 3.4.5 -> 3.4.6 OK
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
-- [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
-  ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
 
 **Mac**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-- [Xcode 26 Beta 3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/13 Updated from 26 Beta 2>>*</span>
+- [Xcode 26 Beta 4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/26 Updated from 26 Beta 3>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
