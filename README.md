@@ -104,10 +104,10 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5722 (Cumulative Update) <span style="color: red;">*<<2025/07/29 updated from Build 26200.5710 >>*</span>
-      ![Cumulative Update](/images/Windows/20250729_WindowsUpdate_DevChannel.png)
+    - Build 26200.5733 (Cumulative Update) <span style="color: red;">*<<2025/08/02 updated from Build 26200.5722 >>*</span>
+      ![Cumulative Update](/images/Windows/20250802_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250729_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250802_Windows11_Build26200.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
