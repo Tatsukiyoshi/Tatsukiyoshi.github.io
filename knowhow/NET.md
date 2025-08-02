@@ -300,10 +300,10 @@ sidebar:
     - Visual Studio
       - Status Bar対応改修（Visual Studio 2022 17.14.10 Preview 1.0）
         - 17.14.10 Preview 1.0 / MAUI 10.0.0-preview.6.25359.8 / Pixel 9 Pro API 36(Android 16)
-          ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250802_VS2022_17.14.10_Preview1.0_MAUI10.0.0preview6_Android16.png)
-      - Visual Studio 2022 17.14.9 Preview 1.0 対応
-        - 17.14.9 Preview 1.0 / MAUI 10.0.0-preview.6.25359.8 / Pixel 9 Pro API 36(Android 16)
-          ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250727_VS2022_17.14.9_Preview1.0_MAUI10.0.0preview6_Android16.png)
+          - Status Barを考慮したレイアウト変更成功（しかし、時計などの表示がない！）
+            ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250802_VS2022_17.14.10_Preview1.0_MAUI10.0.0preview6_Android16.png)
+          - OSのモードに従ったStatus Bar表示成功
+            ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250802_VS2022_17.14.10_Preview1.0_MAUI10.0.0preview6_Android16_2.png)
       - [履歴](/history/VisualStudio)
     - MAUIワークロードの更新
       ```
