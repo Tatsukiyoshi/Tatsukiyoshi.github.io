@@ -22,7 +22,7 @@ sidebar:
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)       |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2022 17.14.10 Preview 1.0 |[2025/08/02](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.100-preview.6.25358.103               |[2025/07/27](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.0-preview.5](#maui)                |[2025/06/12](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.0-preview.6](#maui)                |[2025/07/27](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                    |2025/06/12
   |                |- .NET 9.0.7                                      |2025/07/12
   |                |- .NET 8.0.18                                     |2025/07/12
