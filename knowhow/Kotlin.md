@@ -16,24 +16,25 @@ sidebar:
 
   |Machine         |Env／FW                                                     |Last Updated
   |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2 Beta](#intellij-idea)                 |[2025/07/26](https://www.jetbrains.com/ja-jp/idea/)
+  |Windows Insider |[IntelliJ IDEA 2025.2 RC](#intellij-idea)                   |[2025/07/29](https://www.jetbrains.com/ja-jp/idea/)
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.2 Canary 9](#android-studio) |[2025/07/21](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.3 Canary 2](#android-studio) |[2025/07/27](https://developer.android.com/studio)
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.1.7                                 |2025/07/21
+  |                |- Android Emulator v.36.2.1                                 |2025/07/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.2 Beta (Ultimate Edition)
+  - IntelliJ IDEA 2025.2 RC (Ultimate Edition)
     ```
-    Build #IU-252.23892.248, built on July 18, 2025
-    Source revision: 307a94095ca20
-    ライセンス対象: IntelliJ IDEA EAP user: Shinya Watanabe
-    有効期限: August 17, 2025
+    Build #IU-252.23892.360, built on July 28, 2025
+    Source revision: c09a50f712ab4
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年8月27日 まで有効です。
+    Evaluation purpose only.
     Runtime version: 21.0.7+6-b1038.58 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -44,20 +45,71 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (252.23892.298)
-      org.editorconfig.editorconfigjetbrains (252.23892.298)
-      org.toml.lang (252.23892.253)
-      com.intellij.kubernetes (252.23892.298)
-      com.intellij.properties (252.23892.298)
-      com.intellij.velocity (252.23892.298)
-      com.intellij.swagger (252.23892.298)
-      intellij.jupyter (252.23892.298)
-      com.intellij.ml.llm (252.23892.248)
-      org.jetbrains.android (252.23892.248)
+      JavaScriptDebugger (252.23892.364)
+      com.intellij.java (252.23892.360)
+      org.jetbrains.completion.full.line (252.23892.360)
+      com.intellij.ml.llm (252.23892.360)
+      com.intellij.microservices.ui (252.23892.363)
+      com.intellij.copyright (252.23892.363)
+      org.jetbrains.security.package-checker (252.23892.363)
+      com.intellij.notebooks.core (252.23892.361)
+      intellij.jupyter (252.23892.361)
+      Subversion (252.23892.363)
+      org.jetbrains.plugins.gitlab (252.23892.364-IU)
+      org.jetbrains.plugins.github (252.23892.364-IU)
+      com.intellij.settingsSync (252.23892.360)
+      Docker (252.23892.364)
+      org.jetbrains.plugins.docker.gateway (252.23892.363)
+      com.jetbrains.restClient (252.23892.363)
+      com.intellij.mcpServer (252.23892.364)
+      org.editorconfig.editorconfigjetbrains (252.23892.363)
+      com.intellij.kubernetes (252.23892.364)
+      org.jetbrains.plugins.yaml (252.23892.363)
+      com.intellij.swagger (252.23892.363)
+      org.toml.lang (252.23892.361)
+      com.intellij.properties (252.23892.361)
+      com.intellij.liquibase (252.23892.360)
+      com.intellij.velocity (252.23892.361)
+      intellij.ktor (252.23892.360)
+      com.intellij.spring.boot (252.23892.360)
+      com.intellij.spring (252.23892.360)
+      com.intellij.spring.boot.initializr (252.23892.360)
+      com.intellij.spring.messaging (252.23892.360)
+      com.intellij.freemarker (252.23892.360)
+      com.intellij.spring.cloud (252.23892.360)
+      com.intellij.spring.integration (252.23892.360)
+      com.intellij.spring.security (252.23892.360)
+      com.jetbrains.restWebServices (252.23892.360)
+      com.intellij.javaee.el (252.23892.360)
+      com.intellij.spring.data (252.23892.360)
+      com.intellij.javaee (252.23892.360)
+      com.intellij.javaee.extensions (252.23892.360)
+      com.intellij.beanValidation (252.23892.360)
+      com.intellij.cdi (252.23892.360)
+      org.jetbrains.idea.maven (252.23892.360)
+      org.jetbrains.plugins.gradle (252.23892.360)
+      com.intellij.reactivestreams (252.23892.360)
+      org.jetbrains.android (252.23892.360)
+      com.intellij.thymeleaf (252.23892.360)
+      intellij.webpack (252.23892.360)
+      JavaScript (252.23892.364)
+      com.intellij.react (252.23892.364)
+      intellij.vitejs (252.23892.360)
+      com.intellij.spring.mvc (252.23892.360)
+      intellij.nextjs (252.23892.360)
+      com.intellij.plugins.webcomponents (252.23892.360)
+      tslint (252.23892.360)
       Dart (252.24322.5)
-      org.jetbrains.security.package-checker (252.23892.298)
-      com.intellij.microservices.ui (252.23892.298)
-    Kotlin: 252.23892.248-IJ
+      com.intellij.quarkus (252.23892.360)
+      com.intellij.micronaut (252.23892.360)
+      com.intellij.flyway (252.23892.360)
+      com.intellij.javaee.jakarta.data (252.23892.360)
+      com.intellij.javaee.jpa (252.23892.360)
+      Tomcat (252.23892.360)
+      JBoss (252.23892.360)
+      com.intellij.javaee.reverseEngineering (252.23892.360)
+      com.intellij.hibernate (252.23892.360)
+    Kotlin: 252.23892.360-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -253,9 +305,9 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio
-  - Android Studio Narwhal Feature Drop | 2025.1.2 Canary 9
+  - Android Studio Narwhal Feature Drop | 2025.1.3 Canary 2
     ```
-    Build #AI-251.26094.121.2512.13760328, built on July 10, 2025
+    Build #AI-251.26094.121.2513.13829813, built on July 24, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -315,33 +367,39 @@ sidebar:
       - レイアウトが崩れる事象
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
-      - Narwhal Feature Drop Canary 9
-        - Android Gradle Plugin 8.12.0-alpha08 -> 8.12.0-alpha09
-      - Narwhal Feature Drop Canary 8
-        - Android Gradle Plugin 8.12.0-alpha07 -> 8.12.0-alpha08
-      - Narwhal Feature Drop Canary 7
-        - Android Gradle Plugin 8.12.0-alpha06 -> 8.12.0-alpha07
-      - Narwhal Feature Drop Canary 6
-        - [Firebase AI Logic への再構成](https://firebase.google.com/docs/ai-logic?hl=ja)
-        - Android Gradle Plugin 8.12.0-alpha04 -> 8.12.0-alpha06
-      - Narwhal Feature Drop Canary 4
-        - Android Gradle Plugin 8.12.0-alpha03 -> 8.12.0-alpha04
-      - Narwhal Feature Drop Canary 3
-        - Android Gradle Plugin 8.12.0-alpha02 -> 8.12.0-alpha03
-      - Narwhal Feature Drop Canary 2
-        - Android Gradle Plugin 8.11.0-alpha10 -> 8.12.0-alpha02
-        - Android Emulator 36.1.1
-        - Android Emulator HyperVisor Driver 2.2.0
-      - Narwhal Canary 10
-        - Android Gradle Plugin 8.11.0-alpha09 -> 8.11.0-alpha10
-      - Narwhal Canary 9
-        - Android Gradle Plugin 8.11.0-alpha08 -> 8.11.0-alpha09
-      - Narwhal Canary 8
-        - Android Gradle Plugin 8.11.0-alpha07 -> 8.11.0-alpha08
-      - Narwhal Canary 7
-        ![Upgrade_Suggested](/images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
-        - Gradle 8.11.1 -> 8.13
-        - Android Gradle Plugin 8.10.0-rc02 -> 8.11.0-alpha07
+      - Feature Drop 2025.1.3
+        - Canary 2
+          - Android Gradle Plugin 8.12.0-alpha09 -> 8.13.0-alpha02
+          - Android Emulator 36.2.1
+      - Feature Drop 2025.1.2 
+        - Canary 9
+          - Android Gradle Plugin 8.12.0-alpha08 -> 8.12.0-alpha09
+        - Canary 8
+          - Android Gradle Plugin 8.12.0-alpha07 -> 8.12.0-alpha08
+        - Canary 7
+          - Android Gradle Plugin 8.12.0-alpha06 -> 8.12.0-alpha07
+        - Canary 6
+          - [Firebase AI Logic への再構成](https://firebase.google.com/docs/ai-logic?hl=ja)
+          - Android Gradle Plugin 8.12.0-alpha04 -> 8.12.0-alpha06
+        - Canary 4
+          - Android Gradle Plugin 8.12.0-alpha03 -> 8.12.0-alpha04
+        - Canary 3
+          - Android Gradle Plugin 8.12.0-alpha02 -> 8.12.0-alpha03
+        - Canary 2
+          - Android Gradle Plugin 8.11.0-alpha10 -> 8.12.0-alpha02
+          - Android Emulator 36.1.1
+          - Android Emulator HyperVisor Driver 2.2.0
+      - 2025.1.1
+        - Canary 10
+          - Android Gradle Plugin 8.11.0-alpha09 -> 8.11.0-alpha10
+        - Canary 9
+          - Android Gradle Plugin 8.11.0-alpha08 -> 8.11.0-alpha09
+        - Canary 8
+          - Android Gradle Plugin 8.11.0-alpha07 -> 8.11.0-alpha08
+        - Canary 7
+          ![Upgrade_Suggested](/images/Android/20250418_AndroidStudio_UpgradeSuggested.png)
+          - Gradle 8.11.1 -> 8.13
+          - Android Gradle Plugin 8.10.0-rc02 -> 8.11.0-alpha07
     - Meerkat
       - Meerkat Feature Drop RC 2
         - Android Gradle Plugin 8.10.0-rc01 -> 8.10.0-rc02

@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/7/20～2025/7/26）](/digest/2025/July/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/7/27～2025/8/2）](/digest/2025/July/4th) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -23,12 +23,12 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/07/16|Update: Visual Studio 2022 17.14.9 (July 2025)
+[.NET](/knowhow/NET)             |2025/08/02|Update: Visual Studio 2022 17.14.10 Preview 1.0 / Visual Studio 2022 17.14.10
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/07/26|Update: IntelliJ IDEA 2025.2 Beta
+[Kotlin](/knowhow/Kotlin)        |2025/07/29|Update: IntelliJ IDEA 2025.2 RC
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
-[TypeScript](/knowhow/TypeScript)|2025/07/26|Update: React Native 0.80.2 on iOS 26 Beta 4
+[TypeScript](/knowhow/TypeScript)|2025/08/01|Update: React Native 0.80.2
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -93,9 +93,8 @@ OS                                 |Hardware            |Language
       ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
   - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
     ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
-  - Updated to Windows Insider Dev Channel
-    - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-      ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+  - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
+    ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
     - [USBメモリの復旧](https://jp.easeus.com/partition-manager/fix-usb-drive-incorrect-size.html)
     - [システムロケールの変更](/knowhow/sub/windows/systemLocale)
@@ -105,10 +104,13 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5710 (Cumulative Update) <span style="color: red;">*<<2025/07/19 updated from Build 26200.5702 >>*</span>
-      ![Cumulative Update](/images/Windows/20250719_WindowsUpdate_DevChannel.png)
+    - Build 26200.5733 (Cumulative Update) <span style="color: red;">*<<2025/08/02 updated from Build 26200.5722 >>*</span>
+      ![Cumulative Update](/images/Windows/20250802_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250719_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250802_Windows11_Build26200.png)
+    - Updated to Windows Insider Dev Channel
+      - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
+        ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -210,12 +212,12 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 - [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
-  - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
+  - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/Mac/20250516_MacOS_Sequoia15.5Updating.png)
+      ![Update Check](/images/Mac/20250730_MacOS_Sequoia15.6Updating.png)
     - バージョン情報
-      ![Sequoia 15.5](/images/Mac/20250516_MacOS_Sequoia15.5.png)
+      ![Sequoia 15.6](/images/Mac/20250730_MacOS_Sequoia15.6.png)
   - ノウハウ
     - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
       - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
@@ -248,10 +250,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.163 <span style="color: red;">*<<2025/07/26 updated from 137.0.7151.137>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250726_Chrome_OS_Flex_138.0.7204.163.png)
+  - バージョン 138.0.7204.178 <span style="color: red;">*<<2025/08/01 updated from 137.0.7151.163>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250801_Chrome_OS_Flex_138.0.7204.178.png)
       - 更新中
-        ![Updating](/images/Chrome/20250726_Chrome_OS_Flex_Updating138.0.7204.163.png)
+        ![Updating](/images/Chrome/20250801_Chrome_OS_Flex_Updating138.0.7204.178.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -396,7 +398,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 Recovery 1(1.102.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/25 updated from 1.102.1>>*</span>
+- [Visual Studio Code June 2025 Recovery 3(1.102.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/30 updated from 1.102.2>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -656,7 +658,7 @@ OS/言語を問わず利用するツールの情報
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
  
 **Windows**
-- [PowerShell 7.5.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/04/28 updated from 7.5.0>>*</span>
+- [PowerShell 7.5.2](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/06/25 updated from 7.5.1>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget
@@ -699,7 +701,7 @@ OS/言語を問わず利用するツールの情報
 **Mac**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-- [Xcode 26 Beta 3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/13 Updated from 26 Beta 2>>*</span>
+- [Xcode 26 Beta 4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/26 Updated from 26 Beta 3>>*</span>
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>

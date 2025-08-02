@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3" # Jekyllのバージョンを指定 (例: 4.3)
-gem "minimal-mistakes-jekyll", "~> 4.27.1" # Minimal Mistakesのバージョンを指定 (例: 4.27)
+gem "jekyll", "~> 4.4.1" # Jekyllのバージョンを指定 (例: 4.3)
+gem "minimal-mistakes-jekyll", "~> 4.27.2" # Minimal Mistakesのバージョンを指定 (例: 4.27)
 gem "jekyll-include-cache", "~> 0.2" # _config.ymlで指定したプラグイン
 gem "jekyll-remote-theme", "~> 0.4.2" # リモートテーマを使用するためのプラグイン
 gem "minima", github: "jekyll/minima"
