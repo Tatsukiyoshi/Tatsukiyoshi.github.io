@@ -20,10 +20,10 @@ sidebar:
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.3 Canary 2](#android-studio) |[2025/07/27](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 2025.1.3 Canary 3](#android-studio) |[2025/08/03](https://developer.android.com/studio)
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.2.1                                 |2025/07/27
+  |                |- Android Emulator v.36.2.2                                 |2025/08/03
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -305,9 +305,9 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio
-  - Android Studio Narwhal Feature Drop | 2025.1.3 Canary 2
+  - Android Studio Narwhal Feature Drop | 2025.1.3 Canary 3
     ```
-    Build #AI-251.26094.121.2513.13829813, built on July 24, 2025
+    Build #AI-251.26094.121.2513.13865387, built on August 1, 2025
     Runtime version: 21.0.6+-13391695-b895.109 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -318,8 +318,8 @@ sidebar:
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      gradle.phased.sync.enabled=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+      gradle.phased.sync.enabled=true
     Non-Bundled Plugins:
       Dart (251.27623.5)
       io.flutter (86.0.2)
@@ -368,6 +368,9 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
       - Feature Drop 2025.1.3
+        - Canary 3
+          - Android Gradle Plugin 8.13.0-alpha02 -> 8.13.0-alpha03
+          - Android Emulator 36.2.2
         - Canary 2
           - Android Gradle Plugin 8.12.0-alpha09 -> 8.13.0-alpha02
           - Android Emulator 36.2.1
