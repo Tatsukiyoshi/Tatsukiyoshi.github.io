@@ -71,7 +71,7 @@ OS                                 |Hardware            |Language
 [Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript
 [Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
-[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter
+[macOS](#Mac)                      |MacBook Air         |Rust / Flutter
 [Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP 
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon
 
@@ -211,7 +211,7 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
+- [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
   - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
     - ソフトウェアアップデート
@@ -409,7 +409,7 @@ OS/言語を問わず利用するツールの情報
       ```
       git update-git-for-windows
       ```
-  - Mac OS
+  - macOS
     - Git 2.50.0 <span style="color: red;">*<<2025/06/21 updated from 2.49.0>>*</span>
     - Macでの更新
       ```
@@ -698,7 +698,7 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 
-**Mac**
+**macOS**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
 - [Xcode 26 Beta 4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/26 Updated from 26 Beta 3>>*</span>

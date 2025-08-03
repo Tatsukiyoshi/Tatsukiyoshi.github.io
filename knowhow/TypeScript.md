@@ -81,11 +81,11 @@ sidebar:
       |                |Mobile  |[React Native 0.80.2](#rn)  |[2025/08/01](https://reactnative.dev/)
       |                |        |- Bun 1.2.19                |2025/07/19
 
-  1.  Mac OS
+  1.  macOS
 
       |Machine    |Category|Env / FW                 |Last Updated
       |-----------|--------|-------------------------|----------
-      |Mac OS     |Common  |Node.js 22.15.0          |2025/04/26
+      |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.19               |2025/07/21
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
@@ -107,7 +107,7 @@ sidebar:
         - ユーザディレクトリのAppData\Roaming\npm-cache
     - バージョンアップ
       - [Windowsでnode.jsやnpmのバージョンをアップデート・変更する方法｜バージョンが切り替わらないときの対処法（nodistの使い方）](https://prograshi.com/framework/nodejs/upgrade-or-change-node-version-in-windows/)
-      - Mac / homebrew + nodebrewでバージョン管理
+      - macOS / homebrew + nodebrewでバージョン管理
         - 一覧
           ```
           nodebrew list

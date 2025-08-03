@@ -23,7 +23,7 @@ Windows 11 25H2に向けた Insider Preview(Dev Channel)が短いスパンで2�
 
 # 【6/26】
 - **＜Rust＞** [Tauriを2.6.0に更新](https://tauri.studio/)
-  - [Rust 1.87への更新](https://www.rust-lang.org/)とあわせ、Windows、Mac、iOS、Android、Chrome OS Flexへ順次展開する
+  - [Rust 1.87への更新](https://www.rust-lang.org/)とあわせ、Windows、macOS、iOS、Android、Chrome OS Flexへ順次展開する
   - 展開中、リリースされた 2.6.1 / 2.6.2へ追随
   - 開発環境および実行環境についても、Bun 1.2.17 / Vite 7.0.0 と最新化
 

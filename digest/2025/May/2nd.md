@@ -31,7 +31,7 @@ sidebar:
     - Mongoshをインストールし、格納形式を8.0に変更することで起動できた
 
 # 【5/16】
-- **＜OS＞** [Mac OS Sequioa 15.5にアップデート](https://www.apple.com/jp/macos/macos-sequoia/)
+- **＜OS＞** [macOS Sequioa 15.5にアップデート](https://www.apple.com/jp/macos/macos-sequoia/)
 
 - **＜開発ツール＞** [Visual Studio Code 1.100.2に更新](https://code.visualstudio.com/)
 

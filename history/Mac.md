@@ -1,5 +1,5 @@
 ---
-title:  Update History of Mac OS
+title:  Update History of macOS
 layout: single
 sidebar:
   nav: main

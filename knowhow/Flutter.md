@@ -34,11 +34,11 @@ sidebar:
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
 
-  1.  Mac OS Sequoia 15.4.1
+  1.  macOS Sequoia 15.4.1
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |Mac OS         |Flutter 3.27.1               |2024/12/29
+      |macOS          |Flutter 3.27.1               |2024/12/29
 
 ##  ノウハウ
   - flutter dev
@@ -116,7 +116,7 @@ sidebar:
 
     <details>
     <summary>
-    Mac OS
+    macOS
     </summary>
 
     ```
@@ -233,7 +233,7 @@ sidebar:
       ```
       sudo apt install clang cmake ninja-build
       ```
-    - iOS Simulator on Mac OS
+    - iOS Simulator on macOS
       ![iOS Simulator](/images/flutter/20241229_iOS_Simulator.png)
   - flutter 3.24.3 / Android Studio Ladybug
     - Java 21
