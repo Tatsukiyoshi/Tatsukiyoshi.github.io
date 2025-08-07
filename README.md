@@ -25,7 +25,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/07|Update: Visual Studio 2022 17.14.11 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/08/03|Update: Android Studio Narwhal Feature Drop 2025.1.3 Canary 3
+[Kotlin](/knowhow/Kotlin)        |2025/08/07|Update: IntelliJ IDEA 2025.2
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/08/01|Update: React Native 0.80.2
