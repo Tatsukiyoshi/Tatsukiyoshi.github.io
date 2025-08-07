@@ -23,7 +23,7 @@ sidebar:
   |                |[Android Studio Narwhal 2025.1.3 Canary 3](#android-studio) |[2025/08/03](https://developer.android.com/studio)
   |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.2.2                                 |2025/08/03
+  |                |- Android Emulator v.36.2.3                                 |2025/08/07
 
 ##  ノウハウ
 ### IntelliJ IDEA
