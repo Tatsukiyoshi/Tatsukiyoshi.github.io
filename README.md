@@ -25,7 +25,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/07|Update: Visual Studio 2022 17.14.11 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/08/07|Update: IntelliJ IDEA 2025.2
+[Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/08/01|Update: React Native 0.80.2
@@ -398,7 +398,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 Recovery 3(1.102.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/30 updated from 1.102.2>>*</span>
+- [Visual Studio Code July 2025(1.103)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/08/08 updated from 1.102.3>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
