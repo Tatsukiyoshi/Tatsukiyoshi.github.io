@@ -20,7 +20,7 @@ Tauri 2.7.0をはじめ、OSやFrameworkの更新を検証
 
 # 【7/21】
 - **＜Rust＞**  [Tauriを2.7.0に更新](https://tauri.app/)
-  - Windows/Ubuntu on WSL2/Android 16/Mac OS/iOS 18.5/iOS 26 Beta3を対象に検証
+  - Windows/Ubuntu on WSL2/Android 16/macOS/iOS 18.5/iOS 26 Beta3を対象に検証
 
 - **＜Kotlin＞** [Android Studio Narwhalを2025.1.2 Canary 9に更新](https://developer.android.com/studio/)
 
@@ -42,7 +42,7 @@ Tauri 2.7.0をはじめ、OSやFrameworkの更新を検証
 - **＜Kotlin＞**  [IntelliJ IDEAを2025.2 Betaに更新](https://www.jetbrains.com/idea)
 
 - **＜TypeScript＞** [React Nativeを0.80.2に更新](https://reactnative.dev/)
-  - Mac OS/iOS 26 Beta4を対象に検証
+  - macOS/iOS 26 Beta4を対象に検証
 
 - **＜TypeScript＞** [DenoでWebUIにトライ](https://github.com/webui-dev/deno-webui)
   - 同時に、Denoを2.4.2に更新

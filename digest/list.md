@@ -5,6 +5,8 @@ sidebar:
   nav: main
 ---
 - 2025年
+  - 8月
+    - 第１週（2025/8/3～2025/8/9）<[GitHub](2025/August/1st) | Zenn>
   - 7月
     - 第４週（2025/7/27～2025/8/2）<[GitHub](2025/July/4th) | Zenn>
     - 第３週（2025/7/20～2025/7/26）<[GitHub](2025/July/3rd) | Zenn>

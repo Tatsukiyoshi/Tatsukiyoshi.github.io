@@ -14,7 +14,7 @@ sidebar:
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
 # 【6/29】
-- **＜TypeScript＞**  Mac OS で[React Native 0.80.0](https://reactnative.dev/)を動作再検証
+- **＜TypeScript＞**  macOS で[React Native 0.80.0](https://reactnative.dev/)を動作再検証
 
 # 【6/30】
 - **＜OS＞**  Ubuntu Desktop 25.04にKDE Plasmaを導入するも、VS Codeが起動できず、継続利用を断念

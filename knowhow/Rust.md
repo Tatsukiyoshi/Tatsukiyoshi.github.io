@@ -53,11 +53,11 @@ sidebar:
       |           |Bun 1.2.19                                |2025/07/26
       |           |Vite 7.0.6                                |2025/07/26
 
-  1.  Mac OS Sequoia 15.5
+  1.  macOS Sequoia 15.5
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |Mac OS     |Rust 1.88            |2025/07/13
+      |macOS      |Rust 1.88            |2025/07/13
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.7.0          |2025/07/21
       |           |React 19.1.0         |2025/04/01
@@ -383,8 +383,8 @@ sidebar:
       ![On Windows](/images/rust/20250721_Tauri2.7.0_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250721_Tauri2.7.0_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250721_Tauri2.7.0_Mac15.5.png)
+    - macOS
+      ![On macOS](/images/rust/20250721_Tauri2.7.0_Mac15.5.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250726_Tauri2.7.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
@@ -398,8 +398,8 @@ sidebar:
       ![On Windows](/images/rust/20250627_Tauri2.6.2_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
+    - macOS
+      ![On macOS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250628_Tauri2.6.2_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
@@ -420,8 +420,8 @@ sidebar:
       ![On Windows](/images/rust/20250626_Tauri2.6.0_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250626_Tauri2.6.0_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250626_Tauri2.6.0_Mac15.5.png)
+    - macOS
+      ![On macOS](/images/rust/20250626_Tauri2.6.0_Mac15.5.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250626_Tauri2.6.0_Chrome_OS_Flex.png)
     - iOS 18.5 / iPhone 16e
@@ -433,8 +433,8 @@ sidebar:
       ![On Windows](/images/rust/20250427_Tauri2.5.1_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
+    - macOS
+      ![On macOS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9a
@@ -446,8 +446,8 @@ sidebar:
       ![On Windows](/images/rust/20250417_Tauri2.5.0_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
+    - macOS
+      ![On macOS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
@@ -459,8 +459,8 @@ sidebar:
       ![On Windows](/images/rust/20250403_Tauri2.4.1_Windows.png)
     - Ubuntu 24.04.2 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)
+    - macOS
+      ![On macOS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)
     - Chrome OS Flex
       - 最初ウィンドウだけでコンテンツが表示されなかった。しかし、Reloadすることで表示された！
         ![On Chrome OS Flex](/images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
@@ -507,8 +507,8 @@ sidebar:
       ![On Windows](/images/rust/20250323_Tauri2.4.0_Windows.png)
     - Ubuntu 24.04 on WSL2
       ![On Ubuntu 24.04](/images/rust/20250323_Tauri2.4.0_Ubuntu24.04.png)
-    - Mac OS
-      ![On Mac OS](/images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
+    - macOS
+      ![On macOS](/images/rust/20250323_Tauri2.4.0_Mac15.3.2.png)
     - iOS 18.3 / iPhone 16e
       ![On iPhone 16e](/images/rust/20250323_Tauri2.4.0_iPhone16e_iOS18.3.png)
   - V2.0

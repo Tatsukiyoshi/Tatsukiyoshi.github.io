@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/7/27～2025/8/2）](/digest/2025/July/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/8/3～2025/8/9）](/digest/2025/August/1st) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -23,9 +23,9 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/02|Update: Visual Studio 2022 17.14.10 Preview 1.0 / Visual Studio 2022 17.14.10
+[.NET](/knowhow/NET)             |2025/08/09|Update: Visual Studio 2022 17.14.11
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/07/29|Update: IntelliJ IDEA 2025.2 RC
+[Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/05/25|Update: Flutter 3.32.0
 [TypeScript](/knowhow/TypeScript)|2025/08/01|Update: React Native 0.80.2
@@ -71,7 +71,7 @@ OS                                 |Hardware            |Language
 [Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript
 [Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
-[Mac OS](#Mac)                     |MacBook Air         |Rust / Flutter
+[macOS](#Mac)                      |MacBook Air         |Rust / Flutter
 [Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP 
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon
 
@@ -104,10 +104,10 @@ OS                                 |Hardware            |Language
 
 - [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5733 (Cumulative Update) <span style="color: red;">*<<2025/08/02 updated from Build 26200.5722 >>*</span>
-      ![Cumulative Update](/images/Windows/20250802_WindowsUpdate_DevChannel.png)
+    - Build 26200.5742 (Cumulative Update) <span style="color: red;">*<<2025/08/09 updated from Build 26200.5733 >>*</span>
+      ![Cumulative Update](/images/Windows/20250809_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250802_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250809_Windows11_Build26200.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -115,7 +115,7 @@ OS                                 |Hardware            |Language
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
   - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
-    - [WSL 2.6.0.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/06/21 auto updated from 2.5.9.0>>*</span>
+    - [WSL 2.6.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/08/08 auto updated from 2.6.0.0>>*</span>
 
       <details>
       <summary>
@@ -123,13 +123,13 @@ OS                                 |Hardware            |Language
       </summary>
 
       ```
-      WSL バージョン: 2.6.0.0
+      WSL バージョン: 2.6.1.0
       カーネル バージョン: 6.6.87.2-1
       WSLg バージョン: 1.0.66
-      MSRDC バージョン: 1.2.6228
+      MSRDC バージョン: 1.2.6353
       Direct3D バージョン: 1.611.1-81528511
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-      Windows バージョン: 10.0.26200.5661
+      Windows バージョン: 10.0.26200.5742
       ```
 
       </details>
@@ -211,7 +211,7 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-- [Mac OS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
+- [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
   - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
     - ソフトウェアアップデート
@@ -250,10 +250,10 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.178 <span style="color: red;">*<<2025/08/01 updated from 137.0.7151.163>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250801_Chrome_OS_Flex_138.0.7204.178.png)
+  - バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/09 updated from 137.0.7151.178>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250809_Chrome_OS_Flex_138.0.7204.221.png)
       - 更新中
-        ![Updating](/images/Chrome/20250801_Chrome_OS_Flex_Updating138.0.7204.178.png)
+        ![Updating](/images/Chrome/20250809_Chrome_OS_Flex_Updating138.0.7204.221.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -398,7 +398,7 @@ OS                                 |Hardware            |Language
 OS/言語を問わず利用するツールの情報
 ```
 **共通**
-- [Visual Studio Code June 2025 Recovery 3(1.102.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/07/30 updated from 1.102.2>>*</span>
+- [Visual Studio Code July 2025(1.103)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/08/08 updated from 1.102.3>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -409,7 +409,7 @@ OS/言語を問わず利用するツールの情報
       ```
       git update-git-for-windows
       ```
-  - Mac OS
+  - macOS
     - Git 2.50.0 <span style="color: red;">*<<2025/06/21 updated from 2.49.0>>*</span>
     - Macでの更新
       ```
@@ -698,7 +698,7 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 
-**Mac**
+**macOS**
 - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
   ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
 - [Xcode 26 Beta 4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/07/26 Updated from 26 Beta 3>>*</span>

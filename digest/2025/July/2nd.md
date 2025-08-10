@@ -14,7 +14,7 @@ Windows、Chrome OS Flex、Visual Studio、Visual Studio Codeの更新＋αと�
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
 # 【7/13】
-- **＜Rust＞** [Mac OSのRustを1.88に更新](https://www.rust-lang.org/)
+- **＜Rust＞** [macOSのRustを1.88に更新](https://www.rust-lang.org/)
 
 # 【7/14】
 - **＜Database＞** [SQL Server Management Studioを21.4.8に更新](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)

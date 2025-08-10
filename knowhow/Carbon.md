@@ -2799,7 +2799,7 @@ sidebar:
     -   WSL2のUbuntuを22.04.2に再更新したので、実行確認。実行できた模様。
         ![Carbon](/images/20230514_carbon_wsl2_ubuntu22.04.2.png)
 ### 環境構築（２回目）[on ubuntu 20.04 **@2022/11/13** <span style="color: red;">*Install Failed!*</span>]
-*   carbonは、LinuxまたはMac OSが必要。
+*   carbonは、LinuxまたはmacOSが必要。
 *   WindowsのWSL2であれば、Linux環境が構築できるので、下記を参考にしながら、Ubuntu20.04にインストールすることに。
     [Linux(WSL)でCarbonを動かしてみた](https://zenn.dev/shiena/articles/6ef15e65a87b96)
 
