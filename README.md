@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/7/27～2025/8/2）](/digest/2025/July/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/8/3～2025/8/9）](/digest/2025/August/1st) / [一覧](/digest/list)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -250,7 +250,7 @@ OS                                 |Hardware            |Language
         ```
 
 - [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/01 updated from 137.0.7151.178>>*</span>
+  - バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/09 updated from 137.0.7151.178>>*</span>
     ![Chrome OS Flexバージョン情報](/images/Chrome/20250809_Chrome_OS_Flex_138.0.7204.221.png)
       - 更新中
         ![Updating](/images/Chrome/20250809_Chrome_OS_Flex_Updating138.0.7204.221.png)
