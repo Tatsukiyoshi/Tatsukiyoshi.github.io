@@ -34,11 +34,11 @@ sidebar:
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
 
-  1.  macOS Sequoia 15.4.1
+  1.  macOS Sequoia 15.6
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.27.1               |2024/12/29
+      |macOS          |Flutter 3.32.8               |2025/08/10
 
 ##  ノウハウ
   - flutter dev
@@ -120,19 +120,15 @@ sidebar:
     </summary>
 
     ```
-    [!] Flutter (Channel stable, 3.27.1, on macOS 15.2 24C101 darwin-arm64, locale ja-JP)
-        • Flutter version 3.27.1 on channel stable at /Users/taishow2024/src/flutter
-        ! Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git is not a standard remote.
-          Set environment variable "FLUTTER_GIT_URL" to https://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:x-oauth-basic@github.com/flutter/flutter.git to
-          dismiss this error.
-        • Framework revision 17025dd882 (13 days ago), 2024-12-17 03:23:09 +0900
-        • Engine revision cb4b5fff73
-        • Dart version 3.6.0
-        • DevTools version 2.40.2
-        • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and
-          upgrades.
+    [✓] Flutter (Channel stable, 3.32.8, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [3.6s]
+        • Flutter version 3.32.8 on channel stable at /Users/taishow2024/src/flutter
+        • Upstream repository https://github.com/flutter/flutter.git
+        • Framework revision edada7c56e (2 weeks ago), 2025-07-25 14:08:03 +0000
+        • Engine revision ef0cd00091
+        • Dart version 3.8.1
+        • DevTools version 2.45.1
 
-    [✗] Android toolchain - develop for Android devices
+    [✗] Android toolchain - develop for Android devices [2.6s]
         ✗ Unable to locate Android SDK.
           Install Android Studio from: https://developer.android.com/studio/index.html
           On first launch it will assist you in installing the Android SDK components.
@@ -141,32 +137,32 @@ sidebar:
           `flutter config --android-sdk` to update to that location.
 
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 16.1)
-        • Xcode at /Applications/Xcode.app/Contents/Developer
-        • Build 16B40
-        • CocoaPods version 1.16.1
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [23.2s]
+        • Xcode at /Applications/Xcode-beta.app/Contents/Developer
+        • Build 17A5295f
+        • CocoaPods version 1.16.2
 
-    [✓] Chrome - develop for the web
+    [✓] Chrome - develop for the web [39ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [!] Android Studio (not installed)
+    [!] Android Studio (not installed) [38ms]
         • Android Studio not found; download from https://developer.android.com/studio/index.html
           (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
 
-    [✓] VS Code (version 1.96.2)
+    [✓] VS Code (version 1.103.0) [38ms]
         • VS Code at /Applications/Visual Studio Code.app/Contents
-        • Flutter extension version 3.102.0
+        • Flutter extension version 3.116.0
 
-    [✓] Connected device (4 available)
-        • iPhone 16 Pro (mobile)          • 17212119-2285-4ED4-80BC-E40A2F42FEF3 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-18-1 (simulator)
-        • macOS (desktop)                 • macos                                • darwin-arm64   • macOS 15.2 24C101 darwin-arm64
-        • Mac Designed for iPad (desktop) • mac-designed-for-ipad                • darwin         • macOS 15.2 24C101 darwin-arm64
-        • Chrome (web)                    • chrome                               • web-javascript • Google Chrome 131.0.6778.205
+    [✓] Connected device (3 available) [24.3s]
+        • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            •
+          com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
+        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 138.0.7204.185
 
-    [✓] Network resources
+    [✓] Network resources [600ms]
         • All expected network resources are available.
 
-    ! Doctor found issues in 3 categories.
+    ! Doctor found issues in 2 categories.
     ```
     </details>
 
