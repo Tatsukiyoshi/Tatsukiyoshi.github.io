@@ -38,9 +38,10 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.32.8               |2025/08/10
+      |macOS          |Flutter 3.33.0-1.0.pre-1343  |2025/08/11
 
 ##  ノウハウ
+### 設定
   - flutter dev
     -  [Get started](https://docs.flutter.dev/get-started/install)
     -  myapp - flutter demo
@@ -48,6 +49,10 @@ sidebar:
   - Setup
     ```
     Expand-Archive –Path $env:USERPROFILE\Downloads\flutter_windows_3.27.1-stable.zip -Destination $env:USERPROFILE\dev\
+    ```
+  - flutterの更新
+    ```
+    flutter upgrade
     ```
   - flutter doctor -v
     <details>
@@ -120,15 +125,19 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel stable, 3.32.8, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [3.6s]
-        • Flutter version 3.32.8 on channel stable at /Users/taishow2024/src/flutter
-        • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision edada7c56e (2 weeks ago), 2025-07-25 14:08:03 +0000
-        • Engine revision ef0cd00091
-        • Dart version 3.8.1
-        • DevTools version 2.45.1
+    [!] Flutter (Channel master, 3.33.0-1.0.pre-1343, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,878ms]
+        • Flutter version 3.33.0-1.0.pre-1343 on channel master at /Users/taishow2024/src/flutter
+        ! Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git is not a standard remote.
+          Set environment variable "FLUTTER_GIT_URL" to https://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:x-oauth-basic@github.com/flutter/flutter.git to dismiss this error.
+        • Framework revision 1590543f67 (2 days ago), 2025-08-08 23:18:19 -0400
+        • Engine revision d77a9629f2
+        • Dart version 3.10.0 (build 3.10.0-81.0.dev)
+        • DevTools version 2.49.0
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets,
+          enable-lldb-debugging
+        • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
 
-    [✗] Android toolchain - develop for Android devices [2.6s]
+    [✗] Android toolchain - develop for Android devices [489ms]
         ✗ Unable to locate Android SDK.
           Install Android Studio from: https://developer.android.com/studio/index.html
           On first launch it will assist you in installing the Android SDK components.
@@ -137,29 +146,20 @@ sidebar:
           `flutter config --android-sdk` to update to that location.
 
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [23.2s]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,079ms]
         • Xcode at /Applications/Xcode-beta.app/Contents/Developer
         • Build 17A5295f
         • CocoaPods version 1.16.2
 
-    [✓] Chrome - develop for the web [39ms]
+    [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [!] Android Studio (not installed) [38ms]
-        • Android Studio not found; download from https://developer.android.com/studio/index.html
-          (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
-
-    [✓] VS Code (version 1.103.0) [38ms]
-        • VS Code at /Applications/Visual Studio Code.app/Contents
-        • Flutter extension version 3.116.0
-
-    [✓] Connected device (3 available) [24.3s]
-        • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            •
-          com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
+    [✓] Connected device (3 available) [7.1s]
+        • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
         • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
         • Chrome (web)           • chrome                               • web-javascript • Google Chrome 138.0.7204.185
 
-    [✓] Network resources [600ms]
+    [✓] Network resources [277ms]
         • All expected network resources are available.
 
     ! Doctor found issues in 2 categories.
@@ -215,10 +215,38 @@ sidebar:
     ! Doctor found issues in 3 categories.
     ```
     </details>
-  - flutterの更新
-    ```
-    flutter upgrade
-    ```
+### 機能
+  - flutter gpu
+    - [Getting Started](https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11)
+    - flutter gpu(flutter_gpu_shaders)は、native-assetsを有効にする必要あり
+      ```
+      flutter config --enable-native-assets
+      ```
+      - サポートは、開発中のチャネル（masterチャネル）となるため、flutter SDKを切り替えることが必要
+        ```
+        flutter channel master
+        ```
+      - shaderを自動的にビルドするための設定（hook/build.dart）
+        ```dart
+        // Copy into: hook/build.dart
+        import 'package:native_assets_cli/native_assets_cli.dart';
+        import 'package:flutter_gpu_shaders/build.dart';
+
+        void main(List<String> args) async {
+          await build(args, (input, output) async {
+            await buildShaderBundleJson(
+                buildInput: input,
+                buildOutput: output,
+                manifestFileName: 'my_renderer.shaderbundle.json');
+          });
+        }
+        ```
+    - iOS 26 Beta 5
+      ```
+      flutter run -d 'iPhone 16 Pro'  --enable-impeller
+      ```
+      ![gpu on iOS 26 Beta 5](/images/flutter/20250811_gpu_iOS26_Beta5.png)
+### 履歴
   - flutter 3.27.1
     - Android Studio Meerkat 2024.3.1 Canary 6
       - AndroidManifest.xml に下記追加

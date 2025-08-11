@@ -27,7 +27,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](/knowhow/Flutter)      |2025/08/10|Update: Flutter 3.32.8 on macOS
+[Flutter](/knowhow/Flutter)      |2025/08/11|Update: Flutter 3.33.0-1.0.pre-1343 on macOS
 [TypeScript](/knowhow/TypeScript)|2025/08/01|Update: React Native 0.80.2
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
