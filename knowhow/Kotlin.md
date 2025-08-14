@@ -14,16 +14,16 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                                     |Last Updated
-  |----------------|------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2](#intellij-idea)                      |[2025/08/07](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
-  |                |- PostgreSQL JDBC Driver 42.7.5                             |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-  |                |Amazon Coretto 22.0.2                                       |2024/11/16
-  |                |[Android Studio Narwhal 2025.1.3 Canary 4](#android-studio) |[2025/08/08](https://developer.android.com/studio)
-  |                |- Kotlin 2.2.0                                              |[2025/06/28](https://kotlinlang.org/docs/home.html)
-  |                |- Android SDK Command-line Tools v.19                       |2025/03/14
-  |                |- Android Emulator v.36.2.3                                 |2025/08/07
+  |Machine         |Env／FW                                                       |Last Updated
+  |----------------|--------------------------------------------------------------|----------
+  |Windows Insider |[IntelliJ IDEA 2025.2](#intellij-idea)                        |[2025/08/07](https://www.jetbrains.com/ja-jp/idea/)
+  |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
+  |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+  |                |Amazon Coretto 22.0.2                                         |2024/11/16
+  |                |[Android Studio Narwhal 3 2025.1.3 Canary 4](#android-studio) |[2025/08/08](https://developer.android.com/studio)
+  |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
+  |                |- Android SDK Command-line Tools v.19                         |2025/03/14
+  |                |- Android Emulator v.36.2.3                                   |2025/08/07
 
 ##  ノウハウ
 ### IntelliJ IDEA
