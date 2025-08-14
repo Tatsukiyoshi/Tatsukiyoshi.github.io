@@ -20,7 +20,7 @@ OS                                 |Hardware            |Language
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-- [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
+##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
     - ついに、24H2が降臨
       ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
@@ -39,10 +39,11 @@ OS                                 |Hardware            |Language
     - [IMEのカスタマイズ](/knowhow/sub/windows/IMECustomize)
     - [シャットダウン](/knowhow/sub/windows/Shutdown)
 
+##  Windows on Arm
 - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
-- [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
+##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
     - Build 26200.5742 (Cumulative Update) <span style="color: red;">*<<2025/08/09 updated from Build 26200.5733 >>*</span>
       ![Cumulative Update](/images/Windows/20250809_WindowsUpdate_DevChannel.png)
@@ -54,7 +55,8 @@ OS                                 |Hardware            |Language
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
-  - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
+### WSL
+- [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
     - [WSL 2.6.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/08/08 auto updated from 2.6.0.0>>*</span>
 
       <details>
@@ -151,7 +153,7 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-- [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
+##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
   - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
     - ソフトウェアアップデート
@@ -189,11 +191,11 @@ OS                                 |Hardware            |Language
         brew upgrade
         ```
 
-- [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/09 updated from 137.0.7151.178>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250809_Chrome_OS_Flex_138.0.7204.221.png)
+##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
+  - バージョン 138.0.7204.232 <span style="color: red;">*<<2025/08/15 updated from 137.0.7151.221>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250815_Chrome_OS_Flex_138.0.7204.232.png)
       - 更新中
-        ![Updating](/images/Chrome/20250809_Chrome_OS_Flex_Updating138.0.7204.221.png)
+        ![Updating](/images/Chrome/20250815_Chrome_OS_Flex_Updating138.0.7204.232.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -252,6 +254,7 @@ OS                                 |Hardware            |Language
         - 何らかの原因でSecure Bootできなくなったことから、Bios / Secure Boot menuで、Delete all Secure Boot variablesを選択する
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
+##  Ubuntu Desktop
 - [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
