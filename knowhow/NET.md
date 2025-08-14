@@ -16,7 +16,7 @@ sidebar:
 
   |Machine         |Env／FW                                           |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.11             |[2025/08/09](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.12             |[2025/08/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.8                                      |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.19                                     |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)       |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
