@@ -24,7 +24,7 @@ sidebar:
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/13|Update: Visual Studio 2022 17.14.12
-[Rust](/knowhow/Rust)            |2025/07/26|Update: Rust 1.88 / Tauri 2.7.0 on Chrome OS Flex
+[Rust](/knowhow/Rust)            |2025/08/15|Update: RustRover 2025.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 3 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/11|Update: Flutter 3.33.0-1.0.pre-1343 on macOS
