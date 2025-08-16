@@ -49,6 +49,8 @@ OS                                 |Hardware            |Language
       ![Cumulative Update](/images/Windows/20250816_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](/images/Windows/20250816_Windows11_Build26200.png)
+      - AIアクション / My Phoneに送信
+        ![New Feature](/images/Windows/20250816_WindowsUpdate_NewFeature.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)

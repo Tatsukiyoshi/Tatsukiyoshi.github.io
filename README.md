@@ -34,7 +34,7 @@ Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/16|Update: Visual Studio 2022 17.14.12 Preview 1.0
+[.NET](/knowhow/NET)             |2025/08/16|Update: .NET 10 Preview 7 / .NET MAUI 10 Preview 7 / Visual Studio 2022 17.14.12 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/08/15|Update: RustRover 2025.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 3 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
