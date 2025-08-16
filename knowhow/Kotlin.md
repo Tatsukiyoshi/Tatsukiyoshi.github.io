@@ -20,7 +20,7 @@ sidebar:
   |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 3 2025.1.3 Canary 4](#android-studio) |[2025/08/08](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 3 2025.1.3 Canary 4](#AndroidStudio)  |[2025/08/08](https://developer.android.com/studio)
   |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                         |2025/03/14
   |                |- Android Emulator v.36.2.3                                   |2025/08/07
@@ -268,7 +268,7 @@ sidebar:
     ![Create API Key](/images/Android/20240410_API_Key_Gemini_API_Starter.png)
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
-### Android / Android Studio
+### Android / Android Studio <a id="AndroidStudio"></a>
   - Android Studio Narwhal 3 Feature Drop | 2025.1.3 Canary 4
     ```
     Build #AI-251.26094.121.2513.13898001, built on August 7, 2025
@@ -877,13 +877,47 @@ sidebar:
 
 ### Androidプログラミング
   - プロジェクト残課題状況
-    - AnimalBook
-      - [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) *Fixed*
-    - MyCountdownTimer *No Problem*
-      - リセット時に3:00に表示が戻らない
-        - リセット後、すぐにカウントダウンするため、2:59になることで問題なし
-    - MyScheduler
-      - [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
-    - MySlideshow
-      - 起動時にNotImplementedErrorで起動できない *Fixed*
-        - Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
+
+    AP | Status | Issue
+    ---| ------ | ------
+    AnimalBook | *Fixed* | [起動時にNullPointerExceptionが発生し、起動できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/654) 
+    MyCountdownTimer | *No Problem* | リセット時に3:00に表示が戻らない <BR /> リセット後、すぐにカウントダウンするため、2:59になることで問題なし
+    MyScheduler | *Fixed* | [入力したスケジュールが保存できない](https://github.com/Tatsukiyoshi/Weekend_Programming/issues/655)
+    MySlideshow | *Fixed* | 起動時にNotImplementedErrorで起動できない <BR /> -> Arctic Fox対応でビューバインディングを導入した際のコード移行漏れ
+
+  - `入力したスケジュールが保存できない`の主な修正内容:
+
+    1. 古いライブラリへの依存の解消
+
+        - 問題点:
+        
+          ビルドエラーの根本的な原因は、現在は利用できなくなった古いRealmデータベースのアダプターライブラリ (RealmRecyclerViewAdapter) を使おうとしていたことでした。
+        
+        - 解決策:
+        
+          この古いライブラリの使用をやめ、現在のAndroid開発で標準的に使われる ListAdapter という仕組みに置き換えました。
+
+    1. ScheduleAdapterの近代化
+
+        `ListAdapter` を使うように変更しました。これにより、リストの項目が追加・変更・削除された際に、効率的かつスムーズに画面を更新できるようになります。
+        各スケジュール項目が一意のIDを持つことをRecyclerViewに伝え(`setHasStableIds(true)`)、動作を安定させました。
+
+    1. ScheduleListFragment.kt の安定化
+
+        - 問題点:
+        
+          修正の過程で、データベースの変更通知と画面のライフサイクルのタイミングが競合し、クラッシュが発生していました。
+        
+        - 解決策:
+        
+          データベースの変更を監視する `RealmChangeListener` の実装方法を修正しました。具体的には、特定のデータセット（スケジュール一覧）のみを監視し、さらに画面が存在するときだけUIを更新するようにチェック処理を追加して、クラッシュを防ぎました。
+
+    1. MainActivity.kt のクラッシュ修正
+
+        - 問題点:
+        
+          アプリ起動時に、画面遷移を管理する `NavController` を不適切なタイミングで取得しようとしていたため、クラッシュが発生していました。
+        
+        - 解決策:
+        
+          Androidが推奨する安全な方法で `NavController` を取得するように修正し、起動時のクラッシュを解消しました。
