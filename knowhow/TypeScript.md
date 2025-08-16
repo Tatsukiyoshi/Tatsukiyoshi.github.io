@@ -20,19 +20,6 @@ sidebar:
   |[TypeScriptで学ぶJavaScriptフレームワーク「Vue.js」の利用法](https://codezine.jp/article/corner/878)|2024/05/22|第8回 TypeScriptとも相性抜群なライブラリ──Vue.jsで状態管理を行う新定番「Pinia」を解説！ <span style="color: red;">*finished*</span>
 
 ##  環境
-  1.  ホスティング・サービス
-
-  - [Vercel](https://vercel.com/)
-
-      |Verify                  |FW              |Last Updated
-      |------------------------|----------------|----------
-      |ReactGrid / ChartJs     |Next.js 15.4.2  |[2025/07/19](https://next-grid-chart.vercel.app/)
-      |                        |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
-      |D3 / ChartJS / Recharts |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
-      |InputField(Full-Width)  |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
-      |                        |Vue 3.5.18      |[2025/07/27](https://ya-full-width-input-field-for-vue.vercel.app/)
-      |AutoCompleteInputField  |React 19.1.1    |[2025/08/07](https://auto-complete-input-field.vercel.app/)
-
   1.  Windows
 
       |Machine         |Category|Env / FW                    |Last Updated
@@ -46,7 +33,7 @@ sidebar:
       |                |        |- Deno-webUI 2.5.9          |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.19](#bun)          |[2025/07/19](https://bun.sh/)
+      |                |        |[Bun 1.2.20](#bun)          |[2025/08/16](https://bun.sh/)
       |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
@@ -79,8 +66,8 @@ sidebar:
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |[React Native 0.80.2](#rn)  |[2025/08/01](https://reactnative.dev/)
-      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |Mobile  |[React Native 0.81](#rn)    |[2025/08/16](https://reactnative.dev/)
+      |                |        |- Bun 1.2.20                |2025/08/16
 
   1.  macOS
 

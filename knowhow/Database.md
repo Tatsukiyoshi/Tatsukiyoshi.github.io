@@ -17,7 +17,7 @@ sidebar:
   |               |MySQL Community Server 8.4.2                         |2024/08/24
   |Windows Insider|PostgreSQL 17.5                                      |2025/05/17
   |               |MySQL Community Server 9.1.0                         |[2025/01/04](https://dev.mysql.com/downloads/mysql/)
-  |Chrome OS Flex |PostgreSQL 17.5                                      |2025/05/17
+  |Chrome OS Flex |PostgreSQL 17.6                                      |2025/08/15
 
 ##  ノウハウ
 ### データベース全般
