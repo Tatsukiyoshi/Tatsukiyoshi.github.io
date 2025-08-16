@@ -7,7 +7,7 @@ sidebar:
   nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
 ---
 # トップページ <a id="Top"></a>
-[ダイジェスト](#Digest) | [プログラミング言語](#ProgrammingLanguage) | [環境(OS/ツール/サービス)](#Environment) 
+[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
 ---
 ##  ダイジェスト <a id="Digest"></a>
@@ -16,6 +16,17 @@ sidebar:
 ```
 [最新ダイジェスト（2025/8/3～2025/8/9）](/digest/2025/August/1st) / [一覧](/digest/list)
 
+##  環境 <a id="Environment"></a>
+```
+独学環境の情報
+```
+[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services)
+
+Platform                        |Updated   |Detail
+--------------------------------|----------|--------
+Windows Insider                 |2025/08/16|[Build 26200.5751](https://aka.ms/DevLatest)
+Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
 独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
@@ -23,7 +34,7 @@ sidebar:
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/13|Update: Visual Studio 2022 17.14.12
+[.NET](/knowhow/NET)             |2025/08/16|Update: Visual Studio 2022 17.14.12 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/08/15|Update: RustRover 2025.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/08|Update: Android Studio Narwhal 3 2025.1.3 Canary 4
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
@@ -57,12 +68,6 @@ Other                            |Updated   |Detail
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index)
 - [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
-
-##  環境 <a id="Environment"></a>
-```
-独学環境の情報
-```
-[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services)
 
 ---
 [プロフィール](/sub/Profile) | [トップへ戻る](#Top)
