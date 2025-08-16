@@ -20,10 +20,10 @@ sidebar:
   |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 3 2025.1.3 Canary 4](#AndroidStudio)  |[2025/08/08](https://developer.android.com/studio)
-  |                |- Kotlin 2.2.0                                                |[2025/06/28](https://kotlinlang.org/docs/home.html)
+  |                |[Android Studio Narwhal 4 2025.1.4 Canary 1](#AndroidStudio)  |[2025/08/16](https://developer.android.com/studio)
+  |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.3                                   |2025/08/07
+  |                |- Android Emulator v.36.2.4                                   |2025/08/16
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -269,9 +269,9 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
-  - Android Studio Narwhal 3 Feature Drop | 2025.1.3 Canary 4
+  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 1
     ```
-    Build #AI-251.26094.121.2513.13898001, built on August 7, 2025
+    Build #AI-251.26094.121.2514.13932717, built on August 14, 2025
     Runtime version: 21.0.7+-13880790-b1038.58 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -286,7 +286,7 @@ sidebar:
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
       Dart (251.27623.5)
-      io.flutter (87.0)
+      io.flutter (87.1)
     ```
   - 共通
     - HyperVisor利用には、機能の有効化が必要
@@ -334,6 +334,12 @@ sidebar:
       - レイアウトが崩れる事象
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
+      - Feature Drop 2025.1.4
+        - Canary 1
+          - Kotlin 2.2.0 -> 2.2.10
+          - Android Emulator 36.2.4
+          - Gradle 8.13 -> 9.0
+          - Android Gradle Plugin 8.13.0-alpha04 -> 9.0.0-alpha01
       - Feature Drop 2025.1.3
         - Canary 4
           - Android Gradle Plugin 8.13.0-alpha03 -> 8.13.0-alpha04
