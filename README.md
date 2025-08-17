@@ -38,7 +38,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/08/15|Update: RustRover 2025.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/16|Update: Kotlin 2.2.10 / Android Studio Narwhal 4 2025.1.4 Canary 1
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](/knowhow/Flutter)      |2025/08/11|Update: Flutter 3.33.0-1.0.pre-1343 on macOS
+[Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
 [TypeScript](/knowhow/TypeScript)|2025/08/16|Update: React Native 0.81 on Windows
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
