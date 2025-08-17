@@ -78,7 +78,7 @@ OS                                 |Hardware            |Language
 
       </details>
 
-    - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
+    - [Ubuntu 24.04.3](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/08/17 updated from Ubuntu 24.04.2>>*</span>
       - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade)
 
       <details>
@@ -87,10 +87,10 @@ OS                                 |Hardware            |Language
       </summary>
 
       ```
-      PRETTY_NAME="Ubuntu 24.04.2 LTS"
+      PRETTY_NAME="Ubuntu 24.04.3 LTS"
       NAME="Ubuntu"
       VERSION_ID="24.04"
-      VERSION="24.04.2 LTS (Noble Numbat)"
+      VERSION="24.04.3 LTS (Noble Numbat)"
       VERSION_CODENAME=noble
       ID=ubuntu
       ID_LIKE=debian

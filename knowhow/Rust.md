@@ -26,21 +26,21 @@ sidebar:
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.88                                      |2025/07/21
+      |Windows Insider|Rust 1.89                                      |2025/08/17
       |               |[Tauri 2.7.0](#tauridesktop-framework)         |[2025/07/21](https://tauri.app/)
-      |               |Svelte 5.36.12                                 |2025/07/21
-      |               |Bun 1.2.19                                     |2025/07/19
-      |               |Vite 7.0.5                                     |2025/07/21
+      |               |Svelte 5.38.1                                  |2025/08/17
+      |               |Bun 1.2.20                                     |2025/08/16
+      |               |Vite 7.1.2                                     |2025/08/17
 
-  1. Ubuntu 24.04.2 on Windows 11
+  1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.88       |2025/07/21
+      |Windows Insider |Rust 1.89       |2025/08/17
       |                |Tauri 2.7.0     |2025/07/21
-      |                |React 19.1.0    |2025/04/03
-      |                |Bun 1.2.19      |2025/07/21
-      |                |Vite 7.0.5      |2025/07/21
+      |                |React 19.1.1    |2025/08/17
+      |                |Bun 1.2.20      |2025/08/17
+      |                |Vite 7.1.2      |2025/08/17
 
   1. Chrome OS Flex 138.0.7204.163 (Official Build)
 
