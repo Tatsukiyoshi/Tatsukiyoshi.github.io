@@ -31,11 +31,16 @@ sidebar:
 - **＜開発ツール＞** [Visual Studio CodeをJuly 2025 Recovery 1(1.103.1)に更新](https://code.visualstudio.com/)  
 
 ##  【8/15】
+- **＜OS＞** [Chrome OS FlexをM-138系(138.0.7204.232)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+
 - **＜Rust＞** [RustRoverを2025.2に更新](https://www.jetbrains.com/rust/) 
 
 - **＜Database＞** [PostgreSQLを17.6に更新](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)＠Chrome OS Flex
 
 ##  【8/16】
+- **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26200.5751 が配信されたので、アップデート](https://aka.ms/DevLatest)
+  - ファイル選択にて、AIアクションやMy Phoneへの送信が可能に！
+
 - **＜.NET＞** [Visual Studio Community 2022 を 17.14.12 Preview 1.0に更新](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)  
   - [.NET 10.0.100-preview.7.25380.108](https://dotnet.microsoft.com/ja-jp/download/dotnet)  
   - [.NET MAUI 10.0.0-preview.7.25406.3](https://github.com/dotnet/maui)
@@ -49,6 +54,7 @@ sidebar:
   - 0.80.2同様の動作が確認できないので、継続調査とする
 
 ---
+##  生成AIの活用
 - 今回、このダイジェストを作成するために、`GitHub Copilot`経由で`GPT 4.1`に以下のプロンプトで指示
   - 2025/08/10～2025/08/16について、knowhow/ 配下の記載をもとに、OS, 開発ツール, .NET, Rust, Kotlin, Java, Flutter, TypeScript, Python, Database等、それぞれの作業内容を抽出して１日単位でまとめてください
   - OS等の更新、アップデートについては、Buildやバージョンを記載に含めてください
@@ -56,6 +62,7 @@ sidebar:
   - 各作業項目の入力となるリンクを追加してください
   - markdownで貼り付けできるように出力してください
 
-- 結果として、OSという指示だけだったためか、WindowsやChrome OS Flexのアップデート作業が抽出できず
-- 一方、開発ツールという指示だけで、Visual Studio CodeやXCodeの更新作業を抽出するという一貫性のなさが判明
+##  活用成果
+- "OS"という指示だけだったためか、WindowsやChrome OS Flexのアップデート作業が抽出できず
+- 一方、"開発ツール"という指示だけで、Visual Studio CodeやXCodeの更新作業を抽出するという一貫性のなさが判明
 - 次回以降、プロンプトの内容を見直していくこととする
