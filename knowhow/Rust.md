@@ -21,7 +21,7 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows        |[Rust 1.88](#rust-1)                           |[2025/07/02](https://www.rust-lang.org/)
+      |Windows        |[Rust 1.89](#rust-1)                           |[2025/08/19](https://www.rust-lang.org/)
       |               |[RustRover 2025.2](#rustrover)                 |[2025/08/15](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)

@@ -35,7 +35,7 @@ Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/16|Update: .NET 10 Preview 7 / .NET MAUI 10 Preview 7 / Visual Studio 2022 17.14.12 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/08/19|Update: Rust 1.89 + Tauri 2.8.1 (macOS / iOS 26 Beta 6 / Chrome OS Flex)
+[Rust](/knowhow/Rust)            |2025/08/19|Update: Rust 1.89 (Windows) / Rust 1.89 + Tauri 2.8.1 (macOS / iOS 26 Beta 6 / Chrome OS Flex)
 [Kotlin](/knowhow/Kotlin)        |2025/08/18|Update: IntelliJ IDEA 2025.2.1 Preview
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
@@ -47,7 +47,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/08/15|Update: PostgreSQL 17.6 on Chrome OS Flex
+[Database & SQL](/knowhow/Database)    |2025/08/19|Update: MongoDB 8.1.3
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
