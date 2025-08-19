@@ -35,7 +35,7 @@ Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/16|Update: .NET 10 Preview 7 / .NET MAUI 10 Preview 7 / Visual Studio 2022 17.14.12 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/08/17|Update: Rust 1.89
+[Rust](/knowhow/Rust)            |2025/08/19|Update: Rust 1.89 + Tauri 2.8.1 on macOS & iOS 26 Beta 6
 [Kotlin](/knowhow/Kotlin)        |2025/08/18|Update: IntelliJ IDEA 2025.2.1 Preview
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1

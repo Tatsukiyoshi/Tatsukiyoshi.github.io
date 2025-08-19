@@ -53,16 +53,16 @@ sidebar:
       |           |Bun 1.2.19                                |2025/07/26
       |           |Vite 7.0.6                                |2025/07/26
 
-  1.  macOS Sequoia 15.5
+  1.  macOS Sequoia 15.6
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.88            |2025/07/13
+      |macOS      |Rust 1.89            |2025/08/19
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.7.0          |2025/07/21
-      |           |React 19.1.0         |2025/04/01
-      |           |Bun 1.2.19           |2025/07/21
-      |           |Vite 7.0.5           |2025/07/21
+      |           |Tauri 2.8.1          |2025/08/19
+      |           |React 19.1.1         |2025/08/19
+      |           |Bun 1.2.20           |2025/08/19
+      |           |Vite 7.1.3           |2025/08/19
 
 ##  ノウハウ
 ### Rust
@@ -388,6 +388,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.8.1
+    - macOS
+      ![On macOS](/images/rust/20250819_Tauri2.8.1_Mac15.6.png)
+    - iOS 26.0 Beta 6 / iPhone 16 Pro
+      ![On iOS 26 Beta 6](/images/rust/20250819_Tauri2.8.1_iPhone16_Pro_iOS26.0B6.png)
   - V2.7.0
     - Windows
       ![On Windows](/images/rust/20250721_Tauri2.7.0_Windows.png)
