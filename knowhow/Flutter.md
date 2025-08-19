@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.33.0-1.0.pre-1343  |2025/08/11
+      |macOS          |Flutter 3.33.0-1.0.pre-1468  |2025/08/19
 
 ##  ノウハウ
 ### 設定
@@ -128,19 +128,18 @@ sidebar:
     </summary>
 
     ```
-    [!] Flutter (Channel master, 3.33.0-1.0.pre-1343, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,878ms]
-        • Flutter version 3.33.0-1.0.pre-1343 on channel master at /Users/taishow2024/src/flutter
-        ! Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git is not a standard remote.
-          Set environment variable "FLUTTER_GIT_URL" to https://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:x-oauth-basic@github.com/flutter/flutter.git to dismiss this error.
-        • Framework revision 1590543f67 (2 days ago), 2025-08-08 23:18:19 -0400
-        • Engine revision d77a9629f2
-        • Dart version 3.10.0 (build 3.10.0-81.0.dev)
+    [✓] Flutter (Channel master, 3.33.0-1.0.pre-1468, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,138ms]
+        • Flutter version 3.33.0-1.0.pre-1468 on channel master at /Users/taishow2024/src/flutter
+        • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
+        • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
+        • Framework revision e65380a220 (7 hours ago), 2025-08-18 21:29:27 -0400
+        • Engine revision e65380a220
+        • Dart version 3.10.0 (build 3.10.0-110.0.dev)
         • DevTools version 2.49.0
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets,
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file,
           enable-lldb-debugging
-        • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
 
-    [✗] Android toolchain - develop for Android devices [489ms]
+    [✗] Android toolchain - develop for Android devices [324ms]
         ✗ Unable to locate Android SDK.
           Install Android Studio from: https://developer.android.com/studio/index.html
           On first launch it will assist you in installing the Android SDK components.
@@ -149,7 +148,7 @@ sidebar:
           `flutter config --android-sdk` to update to that location.
 
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,079ms]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [789ms]
         • Xcode at /Applications/Xcode-beta.app/Contents/Developer
         • Build 17A5295f
         • CocoaPods version 1.16.2
@@ -157,15 +156,15 @@ sidebar:
     [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [7.1s]
+    [✓] Connected device (3 available) [6.3s]
         • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
         • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 138.0.7204.185
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 139.0.7258.128
 
-    [✓] Network resources [277ms]
+    [✓] Network resources [996ms]
         • All expected network resources are available.
 
-    ! Doctor found issues in 2 categories.
+    ! Doctor found issues in 1 category.
     ```
     </details>
 
@@ -221,14 +220,19 @@ sidebar:
 ### 機能
   - flutter gpu
     - [Getting Started](https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11)
-    - flutter gpu(flutter_gpu_shaders)は、native-assetsを有効にする必要あり
-      ```
-      flutter config --enable-native-assets
-      ```
-      - サポートは、開発中のチャネル（masterチャネル）となるため、flutter SDKを切り替えることが必要
+    - 設定
+      - native-assetsを有効にする（開発中のチャネル（masterチャネル）でのサポート）
         ```
-        flutter channel master
+        flutter config --enable-native-assets
         ```
+        - flutter SDKをmasterチャネルに切り替え
+          ```
+          flutter channel master
+          ```
+        - 更新可能とするための環境変数の設定（.zshenv）
+          ```
+          export FLUTTER_GIT_URL="https://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:x-oauth-basic@github.com/flutter/flutter.git"
+          ```
       - shaderを自動的にビルドするための設定（hook/build.dart）
         ```dart
         // Copy into: hook/build.dart
