@@ -42,16 +42,16 @@ sidebar:
       |                |Bun 1.2.20      |2025/08/17
       |                |Vite 7.1.2      |2025/08/17
 
-  1. Chrome OS Flex 138.0.7204.163 (Official Build)
+  1. Chrome OS Flex 138.0.7204.232 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.88                                 |2025/07/26
+      |Chrome OS  |Rust 1.89                                 |2025/08/19
       |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.7.0                               |2025/07/26
-      |           |React 19.1.0                              |2025/04/11
-      |           |Bun 1.2.19                                |2025/07/26
-      |           |Vite 7.0.6                                |2025/07/26
+      |           |Tauri 2.8.1                               |2025/08/19
+      |           |React 19.1.1                              |2025/08/19
+      |           |Bun 1.2.20                                |2025/08/19
+      |           |Vite 7.1.3                                |2025/08/19
 
   1.  macOS Sequoia 15.6
 
@@ -391,6 +391,8 @@ sidebar:
   - V2.8.1
     - macOS
       ![On macOS](/images/rust/20250819_Tauri2.8.1_Mac15.6.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250819_Tauri2.8.1_Chrome_OS_Flex.png)
     - iOS 26.0 Beta 6 / iPhone 16 Pro
       ![On iOS 26 Beta 6](/images/rust/20250819_Tauri2.8.1_iPhone16_Pro_iOS26.0B6.png)
   - V2.7.0
