@@ -248,6 +248,11 @@ sidebar:
           });
         }
         ```
+    - iOS 26 Beta 6
+      ```
+      flutter run -D macOS --enable-impeller --enable-flutter-gpu
+      ```
+      ![gpu on iOS 26 Beta 6](/images/flutter/20250820_gpu_iOS26_Beta6.png)
     - iOS 26 Beta 5
       ```
       flutter run -d 'iPhone 16 Pro'  --enable-impeller
