@@ -66,7 +66,8 @@ sidebar:
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |[React Native 0.81](#rn)    |[2025/08/16](https://reactnative.dev/)
+      |                |Mobile  |Expo 53.0.20                |2025/08/16
+      |                |        |- [React Native 0.81](#rn)  |2025/08/16
       |                |        |- Bun 1.2.20                |2025/08/16
 
   1.  macOS
@@ -78,7 +79,8 @@ sidebar:
       |           |        |Bun 1.2.19               |2025/07/21
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
       |           |        |- Bun 1.2.18             |2025/07/06
-      |           |        |React Native 0.80.2      |[2025/07/26](https://reactnative.dev/)
+      |           |        |Expo 53.0.20             |[2025/07/26](https://github.com/expo/expo)
+      |           |        |- React Native 0.80.2    |[2025/07/26](https://reactnative.dev/)
       |           |        |- Bun 1.2.19             |2025/07/21
 
 ##  ノウハウ
@@ -319,13 +321,23 @@ sidebar:
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
-      - Bun + React Native + TypeScript
-        ```
-        bun create expo expo-bun-sample
-        bun add -d typescript @react-native/typescript-config jest @types/react -y
-        ```
-        - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
-        - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
+        - Bun + React Native + TypeScript
+          ```
+          bun create expo expo-bun-sample
+          bun add -d typescript @react-native/typescript-config jest @types/react -y
+          ```
+          - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
+          - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
+        - Upgrade Next Version
+          1.  Upgrade
+              ```
+              bun install expo@^53.0.20
+              ```
+          1.  Upgrade Dependencies
+              ```
+              bunx expo install --fux
+              bunx expo-doctor
+              ```
       - React Nativeで開発したアプリの実行
         - React Native 0.80.2
           - React 19.1.1

@@ -163,35 +163,7 @@ OS                                 |Hardware            |Language
     - バージョン情報
       ![Sequoia 15.6](/images/Mac/20250730_MacOS_Sequoia15.6.png)
   - ノウハウ
-    - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
-      - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
-        ![CommandLineDeveloperTools](/images/Mac/20240813_CommandLineDeveloperTools.png)
-    - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
-    - gitには、PAT(Personal Access Token)を使ってPushする
-      -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
-    - iOS Simulatorの更新
-      - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
-      - XCodeで新しいバージョンをダウンロードする
-      - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-      ![Components Update](/images/Mac/20250301_XCode_Components_Update.png)
-      ![Components Updating](/images/Mac/20250301_XCode_Components_Updating.png)
-    - CocoaPods
-      - Homebrew / CocoaPodsのインストール
-        ```
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        ```
-        ```
-        brew install cocoapods
-        ```
-      - バージョンを確認する
-        ```
-        pod --version
-        ```
-      - 最新に更新する(CocoaPods/Ruby/Git)
-        ```
-        brew update
-        brew upgrade
-        ```
+    - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
   - バージョン 138.0.7204.232 <span style="color: red;">*<<2025/08/15 updated from 137.0.7151.221>>*</span>
