@@ -166,10 +166,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.232 <span style="color: red;">*<<2025/08/15 updated from 137.0.7151.221>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250815_Chrome_OS_Flex_138.0.7204.232.png)
+  - バージョン 139.0.7258.137 <span style="color: red;">*<<2025/08/21 updated from 138.0.7204.232>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250821_Chrome_OS_Flex_139.0.7258.137.png)
       - 更新中
-        ![Updating](/images/Chrome/20250815_Chrome_OS_Flex_Updating138.0.7204.232.png)
+        ![Updating](/images/Chrome/20250821_Chrome_OS_Flex_Updating139.0.7258.137.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報

@@ -4,11 +4,19 @@ layout: single
 sidebar:
   nav: main
 ---
-- バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/09 updated from 137.0.7151.178>>*</span>
+- バージョン 139.0.7258.137 <span style="color: red;">*<<2025/08/21 updated from 138.0.7204.232>>*</span>
+  ![Chrome OS Flexバージョン情報](/images/Chrome/20250821_Chrome_OS_Flex_139.0.7258.137.png)
+    - 更新中
+      ![Updating](/images/Chrome/20250821_Chrome_OS_Flex_Updating139.0.7258.137.png)
+- バージョン 138.0.7204.232 <span style="color: red;">*<<2025/08/15 updated from 138.0.7204.221>>*</span>
+  ![Chrome OS Flexバージョン情報](/images/Chrome/20250815_Chrome_OS_Flex_138.0.7204.232.png)
+    - 更新中
+      ![Updating](/images/Chrome/20250815_Chrome_OS_Flex_Updating138.0.7204.232.png)
+- バージョン 138.0.7204.221 <span style="color: red;">*<<2025/08/09 updated from 138.0.7204.178>>*</span>
   ![Chrome OS Flexバージョン情報](/images/Chrome/20250809_Chrome_OS_Flex_138.0.7204.221.png)
     - 更新中
       ![Updating](/images/Chrome/20250809_Chrome_OS_Flex_Updating138.0.7204.221.png)
-- バージョン 138.0.7204.178 <span style="color: red;">*<<2025/08/01 updated from 137.0.7151.163>>*</span>
+- バージョン 138.0.7204.178 <span style="color: red;">*<<2025/08/01 updated from 138.0.7204.163>>*</span>
   ![Chrome OS Flexバージョン情報](/images/Chrome/20250801_Chrome_OS_Flex_138.0.7204.178.png)
     - 更新中
       ![Updating](/images/Chrome/20250801_Chrome_OS_Flex_Updating138.0.7204.178.png)
