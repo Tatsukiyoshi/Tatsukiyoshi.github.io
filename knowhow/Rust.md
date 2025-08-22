@@ -42,13 +42,13 @@ sidebar:
       |                |Bun 1.2.20      |2025/08/17
       |                |Vite 7.1.3      |2025/08/22
 
-  1. Chrome OS Flex 138.0.7204.232 (Official Build)
+  1. Chrome OS Flex 139.0.7258.137 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.89                                 |2025/08/19
       |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.8.1                               |2025/08/19
+      |           |Tauri 2.8.2                               |2025/08/22
       |           |React 19.1.1                              |2025/08/19
       |           |Bun 1.2.20                                |2025/08/19
       |           |Vite 7.1.3                                |2025/08/19
@@ -393,6 +393,8 @@ sidebar:
       ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20250822_Tauri2.8.2_Ubuntu24.04.3.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250822_Tauri2.8.2_Chrome_OS_Flex.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250822_Tauri2.8.2_Pixel_9a_Android16_QPR2B1.png)
   - V2.8.1
