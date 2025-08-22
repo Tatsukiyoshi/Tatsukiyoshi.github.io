@@ -27,20 +27,20 @@ sidebar:
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.89                                      |2025/08/17
-      |               |[Tauri 2.7.0](#tauridesktop-framework)         |[2025/07/21](https://tauri.app/)
-      |               |Svelte 5.38.1                                  |2025/08/17
+      |               |[Tauri 2.8.2](#tauridesktop-framework)         |[2025/08/22](https://tauri.app/)
+      |               |Svelte 5.38.2                                  |2025/08/22
       |               |Bun 1.2.20                                     |2025/08/16
-      |               |Vite 7.1.2                                     |2025/08/17
+      |               |Vite 7.1.3                                     |2025/08/22
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.89       |2025/08/17
-      |                |Tauri 2.7.0     |2025/07/21
+      |                |Tauri 2.8.2     |2025/08/22
       |                |React 19.1.1    |2025/08/17
       |                |Bun 1.2.20      |2025/08/17
-      |                |Vite 7.1.2      |2025/08/17
+      |                |Vite 7.1.3      |2025/08/22
 
   1. Chrome OS Flex 138.0.7204.232 (Official Build)
 
@@ -388,6 +388,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.8.2
+    - Windows
+      ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20250822_Tauri2.8.2_Ubuntu24.04.3.png)
   - V2.8.1
     - macOS
       ![On macOS](/images/rust/20250819_Tauri2.8.1_Mac15.6.png)
