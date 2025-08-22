@@ -393,6 +393,8 @@ sidebar:
       ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20250822_Tauri2.8.2_Ubuntu24.04.3.png)
+    - Android 16 QPR2 Beta 1 / Pixel 9a
+      ![On Android 16](/images/rust/20250822_Tauri2.8.2_Pixel_9a_Android16_QPR2B1.png)
   - V2.8.1
     - macOS
       ![On macOS](/images/rust/20250819_Tauri2.8.1_Mac15.6.png)
