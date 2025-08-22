@@ -76,12 +76,13 @@ sidebar:
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.19               |2025/07/21
+      |           |        |Bun 1.2.20               |2025/08/19
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
       |           |        |- Bun 1.2.18             |2025/07/06
-      |           |        |Expo 53.0.20             |[2025/07/26](https://github.com/expo/expo)
-      |           |        |- React Native 0.80.2    |[2025/07/26](https://reactnative.dev/)
-      |           |        |- Bun 1.2.19             |2025/07/21
+      |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
+      |           |        |- Expo 54.0.0-preview.6  |[2025/08/22](https://github.com/expo/expo)
+      |           |        |- React 19.1.0           |2025/08/22
+      |           |        |- Bun 1.2.20             |2025/08/19
 
 ##  ノウハウ
 ### TypeScript
@@ -335,10 +336,13 @@ sidebar:
               ```
           1.  Upgrade Dependencies
               ```
-              bunx expo install --fux
+              bunx expo install --fix
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行
+        - React Native 0.81.0 / Expo SDK 54.0.0-preview.6
+          - React 19.1.0
+            ![React Native 0.81.0 iOS](/images/Mac/20250822_ReactNative_0.81.0.png)
         - React Native 0.80.2
           - React 19.1.1
             ![React Native 0.80.2 Windows](/images/JavaScript/20250801_ReactNative_0.80.2.png)

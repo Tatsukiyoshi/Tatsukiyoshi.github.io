@@ -35,11 +35,11 @@ Chrome OS Flex                  |2025/08/21|[139.0.7258.137](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/16|Update: .NET 10 Preview 7 / .NET MAUI 10 Preview 7 / Visual Studio 2022 17.14.12 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2 (Windows / Ubuntu 24.04.3 / Android 16 QPR2 Beta 1 / Chrome OS Flex)
+[Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/22|Update: Android Studio Narwhal 4 2025.1.4 Canary 2
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
-[TypeScript](/knowhow/TypeScript)|2025/08/16|Update: React Native 0.81 on Windows
+[TypeScript](/knowhow/TypeScript)|2025/08/22|Update: React Native 0.81.0 on macOS / Expo SDK 54.0.0-preview.6
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
