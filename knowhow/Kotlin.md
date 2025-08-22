@@ -20,10 +20,10 @@ sidebar:
   |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 4 2025.1.4 Canary 1](#AndroidStudio)  |[2025/08/16](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 4 2025.1.4 Canary 2](#AndroidStudio)  |[2025/08/22](https://developer.android.com/studio)
   |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.4                                   |2025/08/16
+  |                |- Android Emulator v.36.2.5                                   |2025/08/22
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -286,9 +286,9 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
-  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 1
+  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 2
     ```
-    Build #AI-251.26094.121.2514.13932717, built on August 14, 2025
+    Build #AI-251.27812.49.2514.13971338, built on August 21, 2025
     Runtime version: 21.0.7+-13880790-b1038.58 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -302,7 +302,7 @@ sidebar:
       gradle.phased.sync.enabled=true
       com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
     Non-Bundled Plugins:
-      Dart (251.27623.5)
+      Dart (251.27812.12)
       io.flutter (87.1)
     ```
   - 共通
@@ -345,6 +345,9 @@ sidebar:
     - Android Canary
       - API 36 Canary
         ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+    - Android 16 QPR2 Beta 1(Android Baklava Preview)
+      - Android Studio Narwhal Feature Drop 2025.1.4 Canary 2
+        ![MyApplication](/images/Android/20250822_MyApplication_BaklavaPreview.png)
     - Android 15 (API 35)
       - Android Studio Koala / Android SDK 35等を配置し、実行確認
         ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
@@ -352,6 +355,9 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
       - Feature Drop 2025.1.4
+        - Canary 2
+          - Android Emulator 36.2.5
+          - Android Gradle Plugin 9.0.0-alpha01 -> 9.0.0-alpha02
         - Canary 1
           - Kotlin 2.2.0 -> 2.2.10
           - Android Emulator 36.2.4
