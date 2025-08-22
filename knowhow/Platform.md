@@ -156,12 +156,12 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
-  - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
+  - [Sequoia 15.6.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/08/22 updated from Sequoia 15.6>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/Mac/20250730_MacOS_Sequoia15.6Updating.png)
+      ![Update Check](/images/Mac/20250822_macOS_Sequoia15.6.1Updating.png)
     - バージョン情報
-      ![Sequoia 15.6](/images/Mac/20250730_MacOS_Sequoia15.6.png)
+      ![Sequoia 15.6.1](/images/Mac/20250822_macOS_Sequoia15.6.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
