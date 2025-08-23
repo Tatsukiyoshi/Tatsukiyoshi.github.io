@@ -104,6 +104,7 @@ sidebar:
 
 ### PostgreSQL
   - PgAdmin対応表
+
     PostgreSQL | PgAdmin4
     -----------|-----------
     17.5       | 9.3
