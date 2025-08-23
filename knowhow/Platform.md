@@ -45,10 +45,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5751 (Cumulative Update) <span style="color: red;">*<<2025/08/16 updated from Build 26200.5742 >>*</span>
-      ![Cumulative Update](/images/Windows/20250816_WindowsUpdate_DevChannel.png)
+    - Build 26200.5761 (Cumulative Update) <span style="color: red;">*<<2025/08/23 updated from Build 26200.5751 >>*</span>
+      ![Cumulative Update](/images/Windows/20250823_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250816_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250823_Windows11_Build26200.png)
       - AIアクション / My Phoneに送信
         ![New Feature](/images/Windows/20250816_WindowsUpdate_NewFeature.png)
     - Updated to Windows Insider Dev Channel
