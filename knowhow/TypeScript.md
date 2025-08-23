@@ -45,7 +45,7 @@ sidebar:
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
-      |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
+      |                |Web FW  |[Angular 20.2.1](#angular)  |[2025/08/23](https://angular.dev/)
       |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.19                |2025/07/19
@@ -659,6 +659,14 @@ sidebar:
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 20.2.1対応
+          - Update Dependencies
+
+            |Component                |Version
+            |-------------------------|--------
+            |@types/jasmine           |5.1.9
+            |jasmine-core             |5.9.0
+            |typescript               |5.9.2
       1.  Angular 20.0.2対応
           - Update Dependencies
 
