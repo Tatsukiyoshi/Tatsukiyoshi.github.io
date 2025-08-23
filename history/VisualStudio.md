@@ -5,6 +5,8 @@ sidebar:
   nav: main
 ---
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14.13 (August 2025)
+    ![VS2022 17.14.13](/images/VisualStudio/20250823_Update_VS2022_17.14.13.png)
   - Visual Studio 2022 17.14.12 Preview 1.0
     ![VS2022 17.14.12 preview 1.0](/images/VisualStudio/20250816_Update_VS2022_17.14.12_Preview1.0.png)
     - 17.14.12 Preview 1.0 / MAUI 10.0.0-preview.7.25406.3 / Pixel 9 Pro API 36(Android 16)
