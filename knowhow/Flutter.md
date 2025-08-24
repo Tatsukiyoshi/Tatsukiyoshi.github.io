@@ -21,7 +21,7 @@ sidebar:
 
       |Machine        |Env / FW                                                              |Last Updated
       |---------------|----------------------------------------------------------------------|----------
-      |Windows Insider|Flutter 3.32.0                                                        |[2025/05/25](https://docs.flutter.dev/release/release-notes)
+      |Windows Insider|Flutter 3.35.1                                                        |[2025/08/17](https://docs.flutter.dev/release/release-notes)
       |               |[Android Studio Narwhal 2025.1.2 Canary 2](Kotlin#android-studio)     |2025/05/25
       |               |[Visual Studio Community 2022 17.14.2 Preview 1.0](NET)               |2025/05/25
 
@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.33.0-1.0.pre-1343  |2025/08/11
+      |macOS          |Flutter 3.33.0-1.0.pre-1468  |2025/08/19
 
 ##  ノウハウ
 ### 設定
@@ -61,58 +61,61 @@ sidebar:
     </summary>
 
     ```
-    [√] Flutter (Channel stable, 3.32.0, on Microsoft Windows [Version 10.0.26200.5603], locale ja-JP) [723ms]
-        • Flutter version 3.32.0 on channel stable at C:\Users\taish\dev\flutter
+    [√] Flutter (Channel stable, 3.35.1, on Microsoft Windows [Version 10.0.26200.5751], locale ja-JP) [602ms]
+        • Flutter version 3.35.1 on channel stable at C:\Users\taish\dev\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision be698c48a6 (6 days ago), 2025-05-19 12:59:14 -0700
-        • Engine revision 1881800949
-        • Dart version 3.8.0
-        • DevTools version 2.45.1
+        • Framework revision 20f8274939 (3 days ago), 2025-08-14 10:53:09 -0700
+        • Engine revision 1e9a811bf8
+        • Dart version 3.9.0
+        • DevTools version 2.48.0
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios,   
+          cli-animations, enable-lldb-debugging
 
-    [√] Windows Version (Windows 11 or higher, 24H2, 2009) [4.9s]
+    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [1,320ms]
 
-    [√] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [4.1s]
+    [√] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [2.4s]
         • Android SDK at C:\Users\taish\AppData\Local\Android\Sdk
-        • Platform android-36, build-tools 36.0.0
+        • Emulator version 36.2.4.0 (build_id 13899551) (CL:N/A)
+        • Platform android-CANARY, build-tools 36.0.0
         • ANDROID_HOME = C:\Users\taish\AppData\Local\Android\Sdk
         • Java binary at: C:\Program Files\Android\Android Studio Narwhal\jbr\bin\java
           This is the JDK bundled with the latest Android Studio installation on this machine.
           To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
-        • Java version OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+        • Java version OpenJDK Runtime Environment (build 21.0.7+-13880790-b1038.58)
         • All Android licenses accepted.
 
-    [√] Chrome - develop for the web [384ms]
+    [√] Chrome - develop for the web [325ms]
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.14.2 Preview 1.0) [383ms]
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.14.12 Preview 1.0) [324ms]
         • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Preview
-        • Visual Studio Community 2022 version 17.14.36121.58
+        • Visual Studio Community 2022 version 17.14.36408.4
         • The current Visual Studio installation is a pre-release version. It may not be supported by Flutter yet.
         • Windows 10 SDK version 10.0.26100.0
 
-    [√] Android Studio (version 2025.1.2) [124ms]
+    [√] Android Studio (version 2025.1.4) [93ms]
         • Android Studio at C:\Program Files\Android\Android Studio Narwhal
         • Flutter plugin can be installed from:
           https://plugins.jetbrains.com/plugin/9212-flutter
         • Dart plugin can be installed from:
           https://plugins.jetbrains.com/plugin/6351-dart
-        • Java version OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+        • Java version OpenJDK Runtime Environment (build 21.0.7+-13880790-b1038.58)
 
-    [√] IntelliJ IDEA Community Edition (version 2025.1) [122ms]
-        • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.4
-        • Flutter plugin version 85.2.4
-        • Dart plugin version 251.25410.28
+    [√] IntelliJ IDEA Ultimate Edition (version 2025.2) [91ms]
+        • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA 252.23892.248
+        • Flutter plugin version 85.3.2
+        • Dart plugin version 252.24322.5
 
-    [√] VS Code (version 1.100.2) [19ms]
+    [√] VS Code (version 1.103.1) [13ms]
         • VS Code at C:\Users\taish\AppData\Local\Programs\Microsoft VS Code
-        • Flutter extension version 3.110.0
+        • Flutter extension version 3.116.0
 
-    [√] Connected device (3 available) [2.4s]
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.5603]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 136.0.7103.114
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 137.0.3296.39
+    [√] Connected device (3 available) [438ms]
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.5751]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 139.0.7258.127
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 140.0.3485.11
 
-    [√] Network resources [656ms]
+    [√] Network resources [1,012ms]
         • All expected network resources are available.
 
     • No issues found!
@@ -125,19 +128,18 @@ sidebar:
     </summary>
 
     ```
-    [!] Flutter (Channel master, 3.33.0-1.0.pre-1343, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,878ms]
-        • Flutter version 3.33.0-1.0.pre-1343 on channel master at /Users/taishow2024/src/flutter
-        ! Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git is not a standard remote.
-          Set environment variable "FLUTTER_GIT_URL" to https://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:x-oauth-basic@github.com/flutter/flutter.git to dismiss this error.
-        • Framework revision 1590543f67 (2 days ago), 2025-08-08 23:18:19 -0400
-        • Engine revision d77a9629f2
-        • Dart version 3.10.0 (build 3.10.0-81.0.dev)
+    [✓] Flutter (Channel master, 3.33.0-1.0.pre-1468, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,138ms]
+        • Flutter version 3.33.0-1.0.pre-1468 on channel master at /Users/taishow2024/src/flutter
+        • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
+        • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
+        • Framework revision e65380a220 (7 hours ago), 2025-08-18 21:29:27 -0400
+        • Engine revision e65380a220
+        • Dart version 3.10.0 (build 3.10.0-110.0.dev)
         • DevTools version 2.49.0
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets,
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file,
           enable-lldb-debugging
-        • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
 
-    [✗] Android toolchain - develop for Android devices [489ms]
+    [✗] Android toolchain - develop for Android devices [324ms]
         ✗ Unable to locate Android SDK.
           Install Android Studio from: https://developer.android.com/studio/index.html
           On first launch it will assist you in installing the Android SDK components.
@@ -146,7 +148,7 @@ sidebar:
           `flutter config --android-sdk` to update to that location.
 
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,079ms]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [789ms]
         • Xcode at /Applications/Xcode-beta.app/Contents/Developer
         • Build 17A5295f
         • CocoaPods version 1.16.2
@@ -154,15 +156,15 @@ sidebar:
     [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [7.1s]
+    [✓] Connected device (3 available) [6.3s]
         • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
         • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 138.0.7204.185
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 139.0.7258.128
 
-    [✓] Network resources [277ms]
+    [✓] Network resources [996ms]
         • All expected network resources are available.
 
-    ! Doctor found issues in 2 categories.
+    ! Doctor found issues in 1 category.
     ```
     </details>
 
@@ -218,14 +220,19 @@ sidebar:
 ### 機能
   - flutter gpu
     - [Getting Started](https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11)
-    - flutter gpu(flutter_gpu_shaders)は、native-assetsを有効にする必要あり
-      ```
-      flutter config --enable-native-assets
-      ```
-      - サポートは、開発中のチャネル（masterチャネル）となるため、flutter SDKを切り替えることが必要
+    - 設定
+      - native-assetsを有効にする（開発中のチャネル（masterチャネル）でのサポート）
         ```
-        flutter channel master
+        flutter config --enable-native-assets
         ```
+        - flutter SDKをmasterチャネルに切り替え
+          ```
+          flutter channel master
+          ```
+        - 更新可能とするための環境変数の設定（.zshenv）
+          ```
+          export FLUTTER_GIT_URL="https://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:x-oauth-basic@github.com/flutter/flutter.git"
+          ```
       - shaderを自動的にビルドするための設定（hook/build.dart）
         ```dart
         // Copy into: hook/build.dart
@@ -241,6 +248,11 @@ sidebar:
           });
         }
         ```
+    - iOS 26 Beta 6
+      ```
+      flutter run -D macOS --enable-impeller --enable-flutter-gpu
+      ```
+      ![gpu on iOS 26 Beta 6](/images/flutter/20250820_gpu_iOS26_Beta6.png)
     - iOS 26 Beta 5
       ```
       flutter run -d 'iPhone 16 Pro'  --enable-impeller

@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/8/10～2025/8/16）](/digest/2025/August/2nd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/8/17～2025/8/23）](/digest/2025/August/3rd) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,8 +24,8 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/08/16|[Build 26200.5751](https://aka.ms/DevLatest)
-Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Windows Insider                 |2025/08/23|[Build 26200.5761](https://aka.ms/DevLatest)
+Chrome OS Flex                  |2025/08/21|[139.0.7258.137](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -34,12 +34,12 @@ Chrome OS Flex                  |2025/08/15|[138.0.7204.232](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/16|Update: .NET 10 Preview 7 / .NET MAUI 10 Preview 7 / Visual Studio 2022 17.14.12 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/08/15|Update: RustRover 2025.2
-[Kotlin](/knowhow/Kotlin)        |2025/08/16|Update: Kotlin 2.2.10 / Android Studio Narwhal 4 2025.1.4 Canary 1
+[.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
+[Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
+[Kotlin](/knowhow/Kotlin)        |2025/08/22|Update: Android Studio Narwhal 4 2025.1.4 Canary 2
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](/knowhow/Flutter)      |2025/08/11|Update: Flutter 3.33.0-1.0.pre-1343 on macOS
-[TypeScript](/knowhow/TypeScript)|2025/08/16|Update: React Native 0.81 on Windows
+[Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
+[TypeScript](/knowhow/TypeScript)|2025/08/23|Update: Angular 20.2.1
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -47,7 +47,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/08/15|Update: PostgreSQL 17.6 on Chrome OS Flex
+[Database & SQL](/knowhow/Database)    |2025/08/23|Update: SQL Server Management Studio 21.4.12
 [Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust

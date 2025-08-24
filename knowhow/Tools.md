@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code July 2025 Recovery 1(1.103.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/08/14 updated from 1.103>>*</span>
+- [Visual Studio Code July 2025 Recovery 2(1.103.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/08/22 updated from 1.103.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -312,9 +312,39 @@ OS/言語を問わず利用するツールの情報
     - 3.4.2 -> 3.4.5 NG
 
 ##  macOS <a id="macOS"></a>
-- [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
-  ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-- [Xcode 26 Beta 5](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/08/10 Updated from 26 Beta 4>>*</span>
+- Git
+  - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
+    - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
+      ![CommandLineDeveloperTools](/images/Mac/20240813_CommandLineDeveloperTools.png)
+  - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
+  - gitには、PAT(Personal Access Token)を使ってPushする
+    -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
+- XCode
+  - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
+    ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
+  - [Xcode 26 Beta 6](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/08/19 Updated from 26 Beta 5>>*</span>
+  - iOS Simulatorの更新
+    - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
+    - XCodeで新しいバージョンをダウンロードする
+    - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
+    ![Components Update](/images/Mac/20250301_XCode_Components_Update.png)
+    ![Components Updating](/images/Mac/20250301_XCode_Components_Updating.png)
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
+  - Homebrew / CocoaPodsのインストール
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+    ```
+    brew install cocoapods
+    ```
+  - バージョンを確認する
+    ```
+    pod --version
+    ```
+  - 最新に更新する(CocoaPods/Ruby/Git)
+    ```
+    brew update
+    brew upgrade
+    ```
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>

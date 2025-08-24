@@ -45,7 +45,7 @@ sidebar:
       |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
       |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
-      |                |Web FW  |[Angular 20.0.6](#angular)  |[2025/07/04](https://angular.dev/)
+      |                |Web FW  |[Angular 20.2.1](#angular)  |[2025/08/23](https://angular.dev/)
       |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
       |                |        |- React 19.1.0              |2025/04/03
       |                |        |- Bun 1.2.19                |2025/07/19
@@ -66,7 +66,8 @@ sidebar:
       |                |        |- Bun 1.2.15                |2025/05/22
       |                |        |- Vite 6.3.5                |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |[React Native 0.81](#rn)    |[2025/08/16](https://reactnative.dev/)
+      |                |Mobile  |Expo 53.0.20                |2025/08/16
+      |                |        |- [React Native 0.81](#rn)  |2025/08/16
       |                |        |- Bun 1.2.20                |2025/08/16
 
   1.  macOS
@@ -75,11 +76,13 @@ sidebar:
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.19               |2025/07/21
+      |           |        |Bun 1.2.20               |2025/08/19
       |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
       |           |        |- Bun 1.2.18             |2025/07/06
-      |           |        |React Native 0.80.2      |[2025/07/26](https://reactnative.dev/)
-      |           |        |- Bun 1.2.19             |2025/07/21
+      |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
+      |           |        |- Expo 54.0.0-preview.6  |[2025/08/22](https://github.com/expo/expo)
+      |           |        |- React 19.1.0           |2025/08/22
+      |           |        |- Bun 1.2.20             |2025/08/19
 
 ##  ノウハウ
 ### TypeScript
@@ -319,14 +322,27 @@ sidebar:
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
       - [Expo](https://expo.dev/)
-      - Bun + React Native + TypeScript
-        ```
-        bun create expo expo-bun-sample
-        bun add -d typescript @react-native/typescript-config jest @types/react -y
-        ```
-        - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
-        - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
+        - Bun + React Native + TypeScript
+          ```
+          bun create expo expo-bun-sample
+          bun add -d typescript @react-native/typescript-config jest @types/react -y
+          ```
+          - [Expo + React Nativeの開発でBun使ってみた](https://tech.fusic.co.jp/posts/2023-09-28-expo-bun/)
+          - [bunでReact Native expo環境を作る](https://gist.github.com/ksugawara61/ba1384cc39740570b035321dde9e62bd)
+        - Upgrade Next Version
+          1.  Upgrade
+              ```
+              bun install expo@^53.0.20
+              ```
+          1.  Upgrade Dependencies
+              ```
+              bunx expo install --fix
+              bunx expo-doctor
+              ```
       - React Nativeで開発したアプリの実行
+        - React Native 0.81.0 / Expo SDK 54.0.0-preview.6
+          - React 19.1.0
+            ![React Native 0.81.0 iOS](/images/Mac/20250822_ReactNative_0.81.0.png)
         - React Native 0.80.2
           - React 19.1.1
             ![React Native 0.80.2 Windows](/images/JavaScript/20250801_ReactNative_0.80.2.png)
@@ -643,6 +659,14 @@ sidebar:
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 20.2.1対応
+          - Update Dependencies
+
+            |Component                |Version
+            |-------------------------|--------
+            |@types/jasmine           |5.1.9
+            |jasmine-core             |5.9.0
+            |typescript               |5.9.2
       1.  Angular 20.0.2対応
           - Update Dependencies
 

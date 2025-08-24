@@ -16,11 +16,11 @@ sidebar:
 
   |Machine         |Env／FW                                           |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.12             |[2025/08/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.13             |[2025/08/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.8                                      |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.19                                     |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)       |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
-  |Windows Insider |Visual Studio Community 2022 17.14.12 Preview 1.0 |[2025/08/16](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
+  |Windows Insider |Visual Studio Community 2022 17.14.13 Preview 1.0 |[2025/08/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview)
   |                |- .NET 10.0.100-preview.7.25380.108               |[2025/08/16](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-preview.7.25406.3](#maui)        |[2025/08/16](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                    |2025/06/12
@@ -30,10 +30,11 @@ sidebar:
 ##  ノウハウ
 ### [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [プレビュー](https://visualstudio.microsoft.com/ja/vs/preview/)
   - Visual Studio
-    - Visual Studio 2022 17.14.12
+    - Visual Studio 2022 17.14.13 (August 2025)
+      ![VS2022 17.14.13](/images/VisualStudio/20250823_Update_VS2022_17.14.13.png)
   - Visual Studio Preview
-    - Visual Studio 2022 17.14.12 Preview 1.0
-      ![VS2022 17.14.12 preview 1.0](/images/VisualStudio/20250816_Update_VS2022_17.14.12_Preview1.0.png)
+    - Visual Studio 2022 17.14.13 Preview 1.0
+      ![VS2022 17.14.13 preview 1.0](/images/VisualStudio/20250823_Update_VS2022_17.14.13_Preview1.0.png)
   - [履歴](/history/VisualStudio)
   - [グローバル パッケージ、キャッシュ、および一時フォルダーを管理する](https://learn.microsoft.com/ja-jp/nuget/consume-packages/managing-the-global-packages-and-cache-folders)
     - NuGetパッケージは、既定では、ユーザフォルダに保存されるため、他のフォルダに保存する場合は、NUGET_PACKAGES環境変数でそのフォルダを指定する。
@@ -102,25 +103,25 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36408.4
+      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36414.22
       マニフェストのバージョン:    36.0.0-preview.7.229/10.0.100-preview.7
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.7\microsoft.net.sdk.android\36.0.0-preview.7.229\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36408.4
+      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36414.22
       マニフェストのバージョン:    18.5.10601-net10-p7/10.0.100-preview.7
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.7\microsoft.net.sdk.ios\18.5.10601-net10-p7\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36408.4
+      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36414.22
       マニフェストのバージョン:    18.5.10601-net10-p7/10.0.100-preview.7
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.7\microsoft.net.sdk.maccatalyst\18.5.10601-net10-p7\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36408.4
+      インストール ソース: SDK 10.0.100-preview.7, VS 17.14.36414.22
       マニフェストのバージョン:    10.0.0-preview.7.25406.3/10.0.100-preview.7
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-preview.7\microsoft.net.sdk.maui\10.0.0-preview.7.25406.3\WorkloadManifest.json
       インストールの種類:              Msi
@@ -297,8 +298,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0)
     - Visual Studio
-      - 17.14.12 Preview 1.0 / MAUI 10.0.0-preview.7.25406.3 / Pixel 9 Pro API 36(Android 16)
-        ![MAUI - Pixel 9 Pro API 36](/images/VisualStudio/20250816_VS2022_17.14.12_Preview1.0_MAUI10.0.0preview7_Android16.png)
+      - 17.14.13 Preview 1.0 / MAUI 10.0.0-preview.7.25406.3 / Pixel 9a (Android 16 QPR2 Beta 1)
+        ![MAUI - Pixel 9a Baklava Preview](/images/VisualStudio/20250823_VS2022_17.14.13_Preview1.0_MAUI10.0.0preview7_Android16_QPR2_Beta1.png)
       - [履歴](/history/VisualStudio)
     - MAUIワークロードの更新
       ```

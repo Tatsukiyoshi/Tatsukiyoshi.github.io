@@ -45,10 +45,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 25H2 (Build 26200 / Next of Windows 11 24H2)](https://aka.ms/DevLatest)
-    - Build 26200.5751 (Cumulative Update) <span style="color: red;">*<<2025/08/16 updated from Build 26200.5742 >>*</span>
-      ![Cumulative Update](/images/Windows/20250816_WindowsUpdate_DevChannel.png)
+    - Build 26200.5761 (Cumulative Update) <span style="color: red;">*<<2025/08/23 updated from Build 26200.5751 >>*</span>
+      ![Cumulative Update](/images/Windows/20250823_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250816_Windows11_Build26200.png)
+        ![Version Information](/images/Windows/20250823_Windows11_Build26200.png)
       - AIアクション / My Phoneに送信
         ![New Feature](/images/Windows/20250816_WindowsUpdate_NewFeature.png)
     - Updated to Windows Insider Dev Channel
@@ -78,7 +78,7 @@ OS                                 |Hardware            |Language
 
       </details>
 
-    - [Ubuntu 24.04.2](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/02/06 updated from Ubuntu 24.04.1>>*</span>
+    - [Ubuntu 24.04.3](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/08/17 updated from Ubuntu 24.04.2>>*</span>
       - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade)
 
       <details>
@@ -87,10 +87,10 @@ OS                                 |Hardware            |Language
       </summary>
 
       ```
-      PRETTY_NAME="Ubuntu 24.04.2 LTS"
+      PRETTY_NAME="Ubuntu 24.04.3 LTS"
       NAME="Ubuntu"
       VERSION_ID="24.04"
-      VERSION="24.04.2 LTS (Noble Numbat)"
+      VERSION="24.04.3 LTS (Noble Numbat)"
       VERSION_CODENAME=noble
       ID=ubuntu
       ID_LIKE=debian
@@ -156,48 +156,20 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
-  - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
+  - [Sequoia 15.6.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/08/22 updated from Sequoia 15.6>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/Mac/20250730_MacOS_Sequoia15.6Updating.png)
+      ![Update Check](/images/Mac/20250822_macOS_Sequoia15.6.1Updating.png)
     - バージョン情報
-      ![Sequoia 15.6](/images/Mac/20250730_MacOS_Sequoia15.6.png)
+      ![Sequoia 15.6.1](/images/Mac/20250822_macOS_Sequoia15.6.1.png)
   - ノウハウ
-    - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
-      - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
-        ![CommandLineDeveloperTools](/images/Mac/20240813_CommandLineDeveloperTools.png)
-    - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
-    - gitには、PAT(Personal Access Token)を使ってPushする
-      -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
-    - iOS Simulatorの更新
-      - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
-      - XCodeで新しいバージョンをダウンロードする
-      - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-      ![Components Update](/images/Mac/20250301_XCode_Components_Update.png)
-      ![Components Updating](/images/Mac/20250301_XCode_Components_Updating.png)
-    - CocoaPods
-      - Homebrew / CocoaPodsのインストール
-        ```
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        ```
-        ```
-        brew install cocoapods
-        ```
-      - バージョンを確認する
-        ```
-        pod --version
-        ```
-      - 最新に更新する(CocoaPods/Ruby/Git)
-        ```
-        brew update
-        brew upgrade
-        ```
+    - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 138.0.7204.232 <span style="color: red;">*<<2025/08/15 updated from 137.0.7151.221>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20250815_Chrome_OS_Flex_138.0.7204.232.png)
+  - バージョン 139.0.7258.137 <span style="color: red;">*<<2025/08/21 updated from 138.0.7204.232>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20250821_Chrome_OS_Flex_139.0.7258.137.png)
       - 更新中
-        ![Updating](/images/Chrome/20250815_Chrome_OS_Flex_Updating138.0.7204.232.png)
+        ![Updating](/images/Chrome/20250821_Chrome_OS_Flex_Updating139.0.7258.137.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
