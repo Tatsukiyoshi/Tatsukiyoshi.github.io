@@ -35,7 +35,7 @@ sidebar:
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.20](#bun)          |[2025/08/16](https://bun.sh/)
       |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
-      |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
+      |                |Library |[TypeORM 0.3.26](#typeorm)  |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
       |                |        |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)

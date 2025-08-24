@@ -19,6 +19,10 @@ sidebar:
     docker pull mysql
     docker run --name InsiderDev_MySQL -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:latest
     ```
+    - MySQL 9.4.0
+      ```
+      docker run --name InsiderDev_MySQL9.4 -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:9.4
+      ```
   - Container Build
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - Svelte
