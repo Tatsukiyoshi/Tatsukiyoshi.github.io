@@ -39,7 +39,7 @@ Language                         |Updated   |Detail
 [Kotlin](/knowhow/Kotlin)        |2025/08/22|Update: Android Studio Narwhal 4 2025.1.4 Canary 2
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
-[TypeScript](/knowhow/TypeScript)|2025/08/24|Update: TypeORM 0.3.26
+[TypeScript](/knowhow/TypeScript)|2025/08/24|Update: Expo SDK 54.0.0-preview.8
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
