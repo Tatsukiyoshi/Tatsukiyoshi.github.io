@@ -34,11 +34,11 @@ sidebar:
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
 
-  1.  macOS Sequoia 15.6
+  1.  macOS Sequoia 15.6.1
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.33.0-1.0.pre-1468  |2025/08/19
+      |macOS          |Flutter 3.36.0-1.0.pre-263   |2025/08/26
 
 ##  ノウハウ
 ### 設定
@@ -128,18 +128,18 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel master, 3.33.0-1.0.pre-1468, on macOS 15.6 24G84 darwin-arm64, locale ja-JP) [1,138ms]
-        • Flutter version 3.33.0-1.0.pre-1468 on channel master at /Users/taishow2024/src/flutter
+    [✓] Flutter (Channel master, 3.36.0-1.0.pre-263, on macOS 15.6.1 24G90 darwin-arm64, locale ja-JP) [1,211ms]
+        • Flutter version 3.36.0-1.0.pre-263 on channel master at /Users/taishow2024/src/flutter
         • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
         • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
-        • Framework revision e65380a220 (7 hours ago), 2025-08-18 21:29:27 -0400
-        • Engine revision e65380a220
-        • Dart version 3.10.0 (build 3.10.0-110.0.dev)
-        • DevTools version 2.49.0
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file,
-          enable-lldb-debugging
+        • Framework revision dcac1c528a (54 minutes ago), 2025-08-26 05:44:32 -0400
+        • Engine revision dcac1c528a
+        • Dart version 3.10.0 (build 3.10.0-137.0.dev)
+        • DevTools version 2.50.0
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,
+          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
 
-    [✗] Android toolchain - develop for Android devices [324ms]
+    [✗] Android toolchain - develop for Android devices [415ms]
         ✗ Unable to locate Android SDK.
           Install Android Studio from: https://developer.android.com/studio/index.html
           On first launch it will assist you in installing the Android SDK components.
@@ -148,20 +148,20 @@ sidebar:
           `flutter config --android-sdk` to update to that location.
 
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [789ms]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [909ms]
         • Xcode at /Applications/Xcode-beta.app/Contents/Developer
-        • Build 17A5295f
+        • Build 17A5305f
         • CocoaPods version 1.16.2
 
     [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [6.3s]
+    [✓] Connected device (3 available) [6.4s]
         • iPhone 16 Pro (mobile) • 105561CA-56A3-4CE1-923F-682DBDD99B52 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
-        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 139.0.7258.128
+        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 15.6.1 24G90 darwin-arm64
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 139.0.7258.139
 
-    [✓] Network resources [996ms]
+    [✓] Network resources [296ms]
         • All expected network resources are available.
 
     ! Doctor found issues in 1 category.
