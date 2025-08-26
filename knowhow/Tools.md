@@ -244,6 +244,8 @@ OS/言語を問わず利用するツールの情報
     git checkout <ブランチ名>
     ```
   - GitHub
+    - Feed
+      - フィルタ設定は、PCとモバイルで異なるため、設定はPCで行うべき。(2025/08/26現在)
     - GitHub Copilot Free
       ![GitHub Copilot Free](/images/GitHub/20241220_GitHub_Copilot_Free.png)
     - GitHub Pages
