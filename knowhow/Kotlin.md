@@ -23,7 +23,7 @@ sidebar:
   |                |[Android Studio Narwhal 4 2025.1.4 Canary 2](#AndroidStudio)  |[2025/08/22](https://developer.android.com/studio)
   |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.5                                   |2025/08/22
+  |                |- Android Emulator v.36.2.6                                   |2025/08/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -348,6 +348,8 @@ sidebar:
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
       - Android Studio Narwhal Feature Drop 2025.1.4 Canary 2
         ![MyApplication](/images/Android/20250822_MyApplication_BaklavaPreview.png)
+      - [EdgeToEdge](/knowhow/sub/Kotlin/EdgeToEdge)
+        ![MyScheduler](/images/Android/20250827_MyScheduler_BaklavaPreview.png)
     - Android 15 (API 35)
       - Android Studio Koala / Android SDK 35等を配置し、実行確認
         ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
