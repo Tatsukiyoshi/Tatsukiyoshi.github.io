@@ -33,7 +33,7 @@ sidebar:
       |                |        |- Deno-webUI 2.5.9          |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.20](#bun)          |[2025/08/16](https://bun.sh/)
+      |                |        |[Bun 1.2.21](#bun)          |[2025/08/30](https://bun.sh/)
       |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)  |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
@@ -46,12 +46,12 @@ sidebar:
       |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
       |                |Web FW  |[Angular 20.2.1](#angular)  |[2025/08/23](https://angular.dev/)
-      |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
-      |                |        |- React 19.1.0              |2025/04/03
-      |                |        |- Bun 1.2.19                |2025/07/19
-      |                |        |[Next.js 15.4.2](#nextjs)   |[2025/07/21](https://nextjs.org/)
-      |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.19                |2025/07/19
+      |                |        |[Astro 5.13.5](#astro)      |[2025/08/30](https://astro.build/)
+      |                |        |- React 19.1.1              |2025/08/30
+      |                |        |- Bun 1.2.21                |2025/08/30
+      |                |        |[Next.js 15.5.2](#nextjs)   |[2025/08/30](https://nextjs.org/)
+      |                |        |- React 19.1.1              |2025/08/30
+      |                |        |- Bun 1.2.21                |2025/08/30
       |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
       |                |        |React Native Windows 0.79.0 |[2025/06/13](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.16                |2025/06/13

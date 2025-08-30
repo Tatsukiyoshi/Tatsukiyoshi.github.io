@@ -39,7 +39,7 @@ Language                         |Updated   |Detail
 [Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/26|Update: Flutter 3.36.0-1.0.pre-263@macOS
-[TypeScript](/knowhow/TypeScript)|2025/08/24|Update: Expo SDK 54.0.0-preview.8
+[TypeScript](/knowhow/TypeScript)|2025/08/30|Update: Astro 5.13.5 / Next.js 15.5.2
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
@@ -48,7 +48,7 @@ Language                         |Updated   |Detail
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/08/24|Update: MySQL Community Server 9.4.0
-[Container](/knowhow/Container)        |2025/06/24|Update: Rancher Desktop 1.19.3
+[Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
