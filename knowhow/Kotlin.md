@@ -348,8 +348,8 @@ sidebar:
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
       - Android Studio Narwhal Feature Drop 2025.1.4 Canary 2
         ![MyApplication](/images/Android/20250822_MyApplication_BaklavaPreview.png)
-      - [EdgeToEdge](/knowhow/sub/Kotlin/EdgeToEdge)
-        ![MyScheduler](/images/Android/20250827_MyScheduler_BaklavaPreview.png)
+        - [EdgeToEdge](/knowhow/sub/Kotlin/EdgeToEdge)
+          ![MyScheduler](/images/Android/20250827_MyScheduler_BaklavaPreview.png)
     - Android 15 (API 35)
       - Android Studio Koala / Android SDK 35等を配置し、実行確認
         ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
@@ -869,40 +869,40 @@ sidebar:
           - lintでロケールを指定するよう指摘されるため、ロケールを指定するように変更
         - [Realm 環境の更新](https://docs.mongodb.com/realm/sdk/android/install/) <span style="color: red;">*Update at 2021.8.28*</span>
           - build.gradle(project)
-            ```json
+            ```js
             buildscript {
-                repositories {
-                    google()
-                    mavenCentral()
-                    jcenter()
-                }
-                dependencies {
-                    classpath "com.android.tools.build:gradle:7.0.1"
-                    classpath "io.realm:realm-gradle-plugin:10.7.0"
-                }
+              repositories {
+                google()
+                mavenCentral()
+                jcenter()
+              }
+              dependencies {
+                classpath "com.android.tools.build:gradle:7.0.1"
+                classpath "io.realm:realm-gradle-plugin:10.7.0"
+              }
             }
             allprojects {
-                repositories {
-                    google()
-                    mavenCentral()
-                    jcenter()
-                }
-                dependencies {
-                }
+              repositories {
+                google()
+                mavenCentral()
+                jcenter()
+              }
+              dependencies {
+              }
             }
             task clean(type: Delete) {
-                delete rootProject.buildDir
+              delete rootProject.buildDir
             }
             ```
           - build.gradle(app)
-            ```json
+            ```js
             plugins {
-                id 'kotlin-kapt'
-                id 'realm-android'
+              id 'kotlin-kapt'
+              id 'realm-android'
             }
             ...
             realm {
-                syncEnabled = true
+              syncEnabled = true
             }
             ```
 

@@ -21,6 +21,7 @@ sidebar:
 - Gemini 2.5によるエージェントサービス
 - GitHubアカウントを連携することで、GitHubでコーディングを行い、ブランチやPRを作成する
   ![Jules Agent](/images/Services/20250809_Jules.png)
+- GitHub Issueに"Jules"というラベルを作成すると、そのIssueを実行してくれる
 
 ##  [Penpot](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 v2.1 released>>*</span>
   - ノウハウ
