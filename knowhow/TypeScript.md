@@ -77,8 +77,8 @@ sidebar:
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.20               |2025/08/19
-      |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
-      |           |        |- Bun 1.2.18             |2025/07/06
+      |           |Mobile  |Lynx 3.4.0               |[2025/08/30](https://lynxjs.org)
+      |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
       |           |        |- Expo 54.0.0-preview.8  |[2025/08/26](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
@@ -300,8 +300,8 @@ sidebar:
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)
-      - Lynx 3.3.0
-        ![LynxApp](/images/Mac/20250706_ReactLynxApp3.3.0.png)
+      - Lynx 3.4.0
+        ![LynxApp](/images/Mac/20250830_ReactLynxApp3.4.0.png)
       - ReactLynx
         - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
           ```
