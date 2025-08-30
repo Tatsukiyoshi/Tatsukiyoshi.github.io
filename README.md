@@ -36,9 +36,9 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
-[Kotlin](/knowhow/Kotlin)        |2025/08/22|Update: Android Studio Narwhal 4 2025.1.4 Canary 2
+[Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Flutter](/knowhow/Flutter)      |2025/08/17|Update: Flutter 3.35.1
+[Flutter](/knowhow/Flutter)      |2025/08/26|Update: Flutter 3.36.0-1.0.pre-263@macOS
 [TypeScript](/knowhow/TypeScript)|2025/08/24|Update: Expo SDK 54.0.0-preview.8
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
 [Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
