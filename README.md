@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/8/17～2025/8/23）](/digest/2025/August/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/8/24～2025/8/30）](/digest/2025/August/4th) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -29,7 +29,9 @@ Chrome OS Flex                  |2025/08/21|[139.0.7258.137](https://chromerelea
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
-独学で取り組んでいる言語／データベース／ドキュメント作成の詳細は、各ページに記載
+独学で取り組んでいるリスキリングの環境や得られたノウハウについて、
+言語／データベース等カテゴリごとにまとめている
+それぞれについては、下記リストより参照
 ```
 
 Language                         |Updated   |Detail
@@ -37,13 +39,8 @@ Language                         |Updated   |Detail
 [.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
-[Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Flutter](/knowhow/Flutter)      |2025/08/26|Update: Flutter 3.36.0-1.0.pre-263@macOS
 [TypeScript](/knowhow/TypeScript)|2025/08/30|Update: Astro 5.13.5 / Next.js 15.5.2 / Angular 21.0.0-next.1 / Lynx 3.4.0
-[Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
-[Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
-[PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
@@ -54,6 +51,11 @@ Common                                 |Updated   |Detail
 
 Other                            |Updated   |Detail
 ---------------------------------|----------|--------
+[Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
+[Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
+[Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
+[PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 [Pascal](/knowhow/Others#pascal) |          |
 [Swift](/knowhow/Others#swift)   |          |
 [Unity](/knowhow/Unity)          |          |
