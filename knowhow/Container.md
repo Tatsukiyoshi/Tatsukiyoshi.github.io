@@ -11,7 +11,7 @@ sidebar:
   |Windows Insider|Rancher Desktop 1.20.0  |[2025/08/30](https://rancherdesktop.io/)
 
 ##  ノウハウ
-- [Rancher Desktop 1.20.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/06/24 from 1.19.1**</span>
+- [Rancher Desktop 1.20.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/08/30 from 1.19.3**</span>
   ![Update](/images/Container/20250608_RancherDesktop1.19.1.png)
   - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
   - MySQL公式イメージでコンテナ化
