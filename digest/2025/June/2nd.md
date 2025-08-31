@@ -25,7 +25,7 @@ sidebar:
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
 # 【6/8】
-- **＜コンテナ＞** [Rancher Desktopを1.19.1に更新](https://rancherdesktop.io/)
+- **＜Container＞** [Rancher Desktopを1.19.1に更新](https://rancherdesktop.io/)
 
 - **＜Kotlin＞** [Android Studio を Narwhal 2025.1.2 Canary 4に更新](https://developer.android.com/studio)
 

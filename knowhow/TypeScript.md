@@ -22,53 +22,53 @@ sidebar:
 ##  環境
   1.  Windows
 
-      |Machine         |Category|Env / FW                    |Last Updated
-      |----------------|--------|----------------------------|----------
-      |Windows         |Common  |Node.js 22.12.0             |2024/12/11
-      |                |        |[Bun 1.2.4](#bun)           |[2025/03/01](https://bun.sh/)
-      |                |        |Vite 6.2.1                  |[2025/03/08](https://vitejs.dev/)
-      |                |FW      |[React 19.0.0](#react)      |[2024/12/12](https://react.dev/)
-      |                |        |- Bun 1.1.38                |2024/11/29
-      |                |        |[Deno 2.4.2](#deno)         |[2025/07/26](https://deno.land/)
-      |                |        |- Deno-webUI 2.5.9          |[2025/07/26](https://github.com/webui-dev/deno-webui)
-      |                |        |- [fresh 1.7.3](#fresh)     |[2024/10/26](https://fresh.deno.dev/)
-      |Windows Insider |Common  |Node.js 24.1.0              |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.20](#bun)          |[2025/08/16](https://bun.sh/)
-      |                |        |Vite 7.0.5                  |[2025/07/21](https://vitejs.dev/)
-      |                |Library |[TypeORM 0.3.21](#typeorm)  |[2025/03/16](https://typeorm.io/)
-      |                |        |[Prisma 6.5.0](#prisma)     |[2025/03/19](https://www.prisma.io/)
-      |                |        |[Sequelize 6.37.6](#seq)    |[2025/03/19](https://sequelize.org/)
-      |                |        |[D3 7.9.0](#d3)             |[2025/03/29](https://d3js.org/)
-      |                |        |- Bun 1.2.7                 |2025/03/29
-      |                |        |- Vite 6.2.3                |2025/03/29
-      |                |        |- [React 19.1.0](#react)    |2025/03/29
-      |                |        |- [Svelte 5.25.3](#svelte)  |2025/03/29
-      |                |        |Chart.JS 4.5.0              |[2025/07/08](https://www.chartjs.org/)
-      |                |        |Recharts 3.1.0              |[2025/07/20](https://recharts.org/)
-      |                |Web FW  |[Angular 20.2.1](#angular)  |[2025/08/23](https://angular.dev/)
-      |                |        |[Astro 5.12.0](#astro)      |[2025/07/21](https://astro.build/)
-      |                |        |- React 19.1.0              |2025/04/03
-      |                |        |- Bun 1.2.19                |2025/07/19
-      |                |        |[Next.js 15.4.2](#nextjs)   |[2025/07/21](https://nextjs.org/)
-      |                |        |- React 19.1.0              |2025/04/12
-      |                |        |- Bun 1.2.19                |2025/07/19
-      |                |        |[Nuxt 3.16.0](#nuxt)        |[2025/03/23](https://nuxt.com/)
-      |                |        |React Native Windows 0.79.0 |[2025/06/13](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.2.16                |2025/06/13
-      |                |        |- React Native 0.79.3       |2025/06/13
-      |                |        |- React 19.0.0              |2025/06/13
-      |                |        |- Windows SDK 10.0.26100    |2025/01/18
-      |                |        |[Svelte 5.36.12](#svelte)   |[2025/07/21](https://svelte.dev/)
-      |                |        |- Bun 1.2.19                |2025/07/19
-      |                |        |- Vite 7.0.5                |2025/07/21
-      |                |        |[Vue 3.5.16](#vue)          |[2025/05/31](https://jp.vuejs.org/)
-      |                |        |- Deno 2.3.5                |2025/05/31
-      |                |        |- Bun 1.2.15                |2025/05/22
-      |                |        |- Vite 6.3.5                |2025/05/21
-      |                |Test FW |[Playwright 1.54.1](#pw)    |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |Expo 53.0.20                |2025/08/16
-      |                |        |- [React Native 0.81](#rn)  |2025/08/16
-      |                |        |- Bun 1.2.20                |2025/08/16
+      |Machine         |Category|Env / FW                           |Last Updated
+      |----------------|--------|-----------------------------------|----------
+      |Windows         |Common  |Node.js 22.12.0                    |2024/12/11
+      |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
+      |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
+      |                |FW      |[React 19.0.0](#react)             |[2024/12/12](https://react.dev/)
+      |                |        |- Bun 1.1.38                       |2024/11/29
+      |                |        |[Deno 2.4.2](#deno)                |[2025/07/26](https://deno.land/)
+      |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
+      |                |        |- [fresh 1.7.3](#fresh)            |[2024/10/26](https://fresh.deno.dev/)
+      |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
+      |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
+      |                |        |Vite 7.0.5                         |[2025/07/21](https://vitejs.dev/)
+      |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
+      |                |        |[Prisma 6.5.0](#prisma)            |[2025/03/19](https://www.prisma.io/)
+      |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
+      |                |        |[D3 7.9.0](#d3)                    |[2025/03/29](https://d3js.org/)
+      |                |        |- Bun 1.2.7                        |2025/03/29
+      |                |        |- Vite 6.2.3                       |2025/03/29
+      |                |        |- [React 19.1.0](#react)           |2025/03/29
+      |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
+      |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
+      |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
+      |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
+      |                |        |[Astro 5.13.5](#astro)             |[2025/08/30](https://astro.build/)
+      |                |        |- React 19.1.1                     |2025/08/30
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |[Next.js 15.5.2](#nextjs)          |[2025/08/30](https://nextjs.org/)
+      |                |        |- React 19.1.1                     |2025/08/30
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |[Nuxt 3.16.0](#nuxt)               |[2025/03/23](https://nuxt.com/)
+      |                |        |React Native Windows 0.79.0        |[2025/06/13](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.16                       |2025/06/13
+      |                |        |- React Native 0.79.3              |2025/06/13
+      |                |        |- React 19.0.0                     |2025/06/13
+      |                |        |- Windows SDK 10.0.26100           |2025/01/18
+      |                |        |[Svelte 5.36.12](#svelte)          |[2025/07/21](https://svelte.dev/)
+      |                |        |- Bun 1.2.19                       |2025/07/19
+      |                |        |- Vite 7.0.5                       |2025/07/21
+      |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
+      |                |        |- Deno 2.3.5                       |2025/05/31
+      |                |        |- Bun 1.2.15                       |2025/05/22
+      |                |        |- Vite 6.3.5                       |2025/05/21
+      |                |Test FW |[Playwright 1.54.1](#pw)           |[2025/07/27](https://Playwright.dev/)
+      |                |Mobile  |Expo 53.0.20                       |2025/08/16
+      |                |        |- [React Native 0.81](#rn)         |2025/08/16
+      |                |        |- Bun 1.2.20                       |2025/08/16
 
   1.  macOS
 
@@ -77,10 +77,10 @@ sidebar:
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.20               |2025/08/19
-      |           |Mobile  |Lynx 3.3.0               |[2025/07/06](https://lynxjs.org)
-      |           |        |- Bun 1.2.18             |2025/07/06
+      |           |Mobile  |[Lynx 3.4.0](#lynx)      |[2025/08/30](https://lynxjs.org)
+      |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
-      |           |        |- Expo 54.0.0-preview.6  |[2025/08/22](https://github.com/expo/expo)
+      |           |        |- Expo 54.0.0-preview.8  |[2025/08/26](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
       |           |        |- Bun 1.2.20             |2025/08/19
 
@@ -299,9 +299,13 @@ sidebar:
 
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
-    - [Lynx](https://lynxjs.org)
-      - Lynx 3.3.0
-        ![LynxApp](/images/Mac/20250706_ReactLynxApp3.3.0.png)
+    - [Lynx](https://lynxjs.org)/([履歴](/history/Lynx)) <a id="lynx"></a>
+      - Lynx 3.4.0
+        ![LynxApp](/images/Mac/20250830_ReactLynxApp3.4.0.png)
+        - Lynxのバージョンを動的表示するように改修
+          ```js
+          setVersion(SystemInfo.engineVersion)
+          ```
       - ReactLynx
         - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
           ```
@@ -339,22 +343,10 @@ sidebar:
               bunx expo install --fix
               bunx expo-doctor
               ```
-      - React Nativeで開発したアプリの実行
-        - React Native 0.81.0 / Expo SDK 54.0.0-preview.6
+      - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+        - React Native 0.81.0 / Expo SDK 54.0.0-preview.8
           - React 19.1.0
-            ![React Native 0.81.0 iOS](/images/Mac/20250822_ReactNative_0.81.0.png)
-        - React Native 0.80.2
-          - React 19.1.1
-            ![React Native 0.80.2 Windows](/images/JavaScript/20250801_ReactNative_0.80.2.png)
-          - React 19.1.0
-            ![React Native 0.80.2 iOS](/images/Mac/20250726_ReactNative_0.80.2.png)
-        - React Native 0.80.0
-          - React 19.1.0
-            ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
-            ![React Native 0.80.0 iOS](/images/Mac/20250629_ReactNative_0.80.0.png)
-        - React Native 0.80.0-rc.2
-          - React 19.1.0
-            ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
+            ![React Native 0.81.0 iOS](/images/Mac/20250826_ReactNative_0.81.0.png)
         - iOS
           - iOS エミュレータを起動
             ```

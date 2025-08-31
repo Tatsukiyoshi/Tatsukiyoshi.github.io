@@ -8,10 +8,10 @@ sidebar:
 
   |Machine        |Env／FW                 |Last Updated
   |---------------|------------------------|----------
-  |Windows Insider|Rancher Desktop 1.19.3  |[2025/06/24](https://rancherdesktop.io/)
+  |Windows Insider|Rancher Desktop 1.20.0  |[2025/08/30](https://rancherdesktop.io/)
 
 ##  ノウハウ
-- [Rancher Desktop 1.19.3](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/06/24 from 1.19.1**</span>
+- [Rancher Desktop 1.20.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/06/24 from 1.19.1**</span>
   ![Update](/images/Container/20250608_RancherDesktop1.19.1.png)
   - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
   - MySQL公式イメージでコンテナ化
@@ -19,6 +19,10 @@ sidebar:
     docker pull mysql
     docker run --name InsiderDev_MySQL -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:latest
     ```
+    - MySQL 9.4.0
+      ```
+      docker run --name InsiderDev_MySQL9.4 -e MYSQL_ROOT_PASSWORD=mysqlsuper -d -p 3306:3306 mysql:9.4
+      ```
   - Container Build
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
     - Svelte

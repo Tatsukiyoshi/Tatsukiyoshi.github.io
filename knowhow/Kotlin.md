@@ -20,10 +20,10 @@ sidebar:
   |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
   |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
   |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 4 2025.1.4 Canary 2](#AndroidStudio)  |[2025/08/22](https://developer.android.com/studio)
+  |                |[Android Studio Narwhal 4 2025.1.4 Canary 3](#AndroidStudio)  |[2025/08/30](https://developer.android.com/studio)
   |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
   |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.5                                   |2025/08/22
+  |                |- Android Emulator v.36.2.6                                   |2025/08/27
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -286,9 +286,9 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
-  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 2
+  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 3
     ```
-    Build #AI-251.27812.49.2514.13971338, built on August 21, 2025
+    Build #AI-251.27812.49.2514.14014849, built on August 29, 2025
     Runtime version: 21.0.7+-13880790-b1038.58 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -348,6 +348,8 @@ sidebar:
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
       - Android Studio Narwhal Feature Drop 2025.1.4 Canary 2
         ![MyApplication](/images/Android/20250822_MyApplication_BaklavaPreview.png)
+        - [EdgeToEdge](/knowhow/sub/Kotlin/EdgeToEdge)
+          ![MyScheduler](/images/Android/20250827_MyScheduler_BaklavaPreview.png)
     - Android 15 (API 35)
       - Android Studio Koala / Android SDK 35等を配置し、実行確認
         ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
@@ -355,6 +357,15 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
       - Feature Drop 2025.1.4
+        - Canary 3
+          - Android Gradle Plugin 9.0.0-alpha02 -> 9.0.0-alpha03
+          - Kotlin Pluginの記述が不要になった模様（MySchedulerがビルドできないので、以後変更される可能性あり）
+            ```js
+            plugins {
+              id 'com.android.application'
+              // id 'kotlin-android'
+            }
+            ```
         - Canary 2
           - Android Emulator 36.2.5
           - Android Gradle Plugin 9.0.0-alpha01 -> 9.0.0-alpha02
@@ -867,40 +878,40 @@ sidebar:
           - lintでロケールを指定するよう指摘されるため、ロケールを指定するように変更
         - [Realm 環境の更新](https://docs.mongodb.com/realm/sdk/android/install/) <span style="color: red;">*Update at 2021.8.28*</span>
           - build.gradle(project)
-            ```json
+            ```js
             buildscript {
-                repositories {
-                    google()
-                    mavenCentral()
-                    jcenter()
-                }
-                dependencies {
-                    classpath "com.android.tools.build:gradle:7.0.1"
-                    classpath "io.realm:realm-gradle-plugin:10.7.0"
-                }
+              repositories {
+                google()
+                mavenCentral()
+                jcenter()
+              }
+              dependencies {
+                classpath "com.android.tools.build:gradle:7.0.1"
+                classpath "io.realm:realm-gradle-plugin:10.7.0"
+              }
             }
             allprojects {
-                repositories {
-                    google()
-                    mavenCentral()
-                    jcenter()
-                }
-                dependencies {
-                }
+              repositories {
+                google()
+                mavenCentral()
+                jcenter()
+              }
+              dependencies {
+              }
             }
             task clean(type: Delete) {
-                delete rootProject.buildDir
+              delete rootProject.buildDir
             }
             ```
           - build.gradle(app)
-            ```json
+            ```js
             plugins {
-                id 'kotlin-kapt'
-                id 'realm-android'
+              id 'kotlin-kapt'
+              id 'realm-android'
             }
             ...
             realm {
-                syncEnabled = true
+              syncEnabled = true
             }
             ```
 

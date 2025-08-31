@@ -9,8 +9,8 @@ sidebar:
 
   |Verify                   |FW              |Last Updated
   |-------------------------|----------------|----------
-  |ReactGrid / ChartJs      |Next.js 15.4.2  |[2025/07/19](https://next-grid-chart.vercel.app/)
-  |                         |Astro 5.12.0    |[2025/07/19](https://astro-react-grid-chart.vercel.app/)
+  |ReactGrid / ChartJs      |Next.js 15.5.2  |[2025/08/30](https://next-grid-chart.vercel.app/)
+  |                         |Astro 5.13.5    |[2025/08/30](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
   |InputField(Full-Width)   |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
   |                         |Vue 3.5.18      |[2025/07/27](https://ya-full-width-input-field-for-vue.vercel.app/)
@@ -21,6 +21,7 @@ sidebar:
 - Gemini 2.5によるエージェントサービス
 - GitHubアカウントを連携することで、GitHubでコーディングを行い、ブランチやPRを作成する
   ![Jules Agent](/images/Services/20250809_Jules.png)
+- GitHub Issueに"Jules"というラベルを作成すると、そのIssueを実行してくれる
 
 ##  [Penpot](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 v2.1 released>>*</span>
   - ノウハウ
