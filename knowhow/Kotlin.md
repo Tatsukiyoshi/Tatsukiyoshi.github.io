@@ -14,16 +14,24 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                                       |Last Updated
-  |----------------|--------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2.1 Preview](#intellij-idea)              |[2025/08/18](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
-  |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-  |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 4 2025.1.4 Canary 3](#AndroidStudio)  |[2025/08/30](https://developer.android.com/studio)
-  |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
-  |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.6                                   |2025/08/27
+  1. Windows 11
+
+      |Machine         |Env / FW                                                      |Last Updated
+      |----------------|--------------------------------------------------------------|----------
+      |Windows Insider |[IntelliJ IDEA 2025.2.1 Preview](#intellij-idea)              |[2025/08/18](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
+      |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |                |Amazon Coretto 22.0.2                                         |2024/11/16
+      |                |[Android Studio Narwhal 4 2025.1.4 Canary 3](#AndroidStudio)  |[2025/08/30](https://developer.android.com/studio)
+      |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Command-line Tools v.19                         |2025/03/14
+      |                |- Android Emulator v.36.2.6                                   |2025/08/27
+
+  1. macOS Sequoia 15.6
+
+      |Machine         |Env / FW                                                      |Last Updated
+      |----------------|--------------------------------------------------------------|----------
+      |macOS           |Android Studio Narwhal 2025.1.2 Patch 2                       |[2025/08/31](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -272,6 +280,13 @@ sidebar:
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 
+### Kotlin Multiplatform Mobile
+  - [Kotlin マルチプラットフォームを使ってみる](https://developer.android.com/codelabs/kmp-get-started?hl=ja#0)
+    - Android StudioからXCodeでプロジェクトを開く
+      ![Open in XCode](/images/Kotlin/20250831_KMP_XCode26.png)
+    - XCodeから実行する
+      ![Run KMP](/images/Kotlin/20250831_KMP_iPhone16Pro_iOS26.png)
+
 ### Gemini
   - Gemini 2.5
     ![Gemini 2.5 Pro](/images/Android/20250628_Gemini_2.5_Pro.png)
@@ -286,25 +301,43 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
-  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 3
-    ```
-    Build #AI-251.27812.49.2514.14014849, built on August 29, 2025
-    Runtime version: 21.0.7+-13880790-b1038.58 amd64
-    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
-    Toolkit: sun.awt.windows.WToolkit
-    Windows 11.0
-    Kotlin plugin: K2 mode
-    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
-    Memory: 2048M
-    Cores: 8
-    Registry:
-      ide.experimental.ui=true
-      gradle.phased.sync.enabled=true
-      com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
-    Non-Bundled Plugins:
-      Dart (251.27812.12)
-      io.flutter (87.1)
-    ```
+  - Windows
+    - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 3
+      ```
+      Build #AI-251.27812.49.2514.14014849, built on August 29, 2025
+      Runtime version: 21.0.7+-13880790-b1038.58 amd64
+      VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+      Toolkit: sun.awt.windows.WToolkit
+      Windows 11.0
+      Kotlin plugin: K2 mode
+      GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+      Memory: 2048M
+      Cores: 8
+      Registry:
+        ide.experimental.ui=true
+        gradle.phased.sync.enabled=true
+        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+      Non-Bundled Plugins:
+        Dart (251.27812.12)
+        io.flutter (87.1)
+      ```
+  - macOS
+    - Android Studio Narwhal Feature Drop | 2025.1.2 Patch 2
+      ```
+      Build #AI-251.26094.121.2512.13991807, built on August 26, 2025
+      Runtime version: 21.0.6+-13391695-b895.109 aarch64
+      VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+      Toolkit: sun.lwawt.macosx.LWCToolkit
+      macOS 15.6.1
+      Kotlin plugin: K2 mode
+      GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+      Memory: 2048M
+      Cores: 8
+      Metal Rendering is ON
+      Registry:
+        ide.experimental.ui=true
+      ```
+      ![Android Studio Narwhal 2025.1.2](/images/Kotlin/20250831_AndroidStudio2025.1.2.png)
   - 共通
     - HyperVisor利用には、機能の有効化が必要
       ![HyperVisor](/images/Android/20250525_Windows_HyperVisor.png)

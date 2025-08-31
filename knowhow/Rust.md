@@ -53,7 +53,7 @@ sidebar:
       |           |Bun 1.2.20                                |2025/08/19
       |           |Vite 7.1.3                                |2025/08/19
 
-  1.  macOS Sequoia 15.6
+  1. macOS Sequoia 15.6
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------

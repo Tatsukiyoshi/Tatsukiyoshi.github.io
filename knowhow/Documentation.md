@@ -9,7 +9,7 @@ sidebar:
 ```
 ##  環境
 
-  |Machine    |Env／FW                                                               |Last Updated
+  |Machine    |Env / FW                                                              |Last Updated
   |-----------|----------------------------------------------------------------------|----------
   |Windows    |[TeX Live 2023](https://www.tug.org/texlive/)                         |2023/10/09
   |           |[Writerside 2023.2 EAP](https://www.jetbrains.com/ja-jp/writerside/)  |2023/10/28

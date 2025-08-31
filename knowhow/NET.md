@@ -14,7 +14,7 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                           |Last Updated
+  |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
   |Windows         |Visual Studio Community 2022 17.14.13             |[2025/08/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.8                                      |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)

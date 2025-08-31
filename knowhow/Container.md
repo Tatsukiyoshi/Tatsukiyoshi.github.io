@@ -6,7 +6,7 @@ sidebar:
 ---
 ##  環境
 
-  |Machine        |Env／FW                 |Last Updated
+  |Machine        |Env / FW                |Last Updated
   |---------------|------------------------|----------
   |Windows Insider|Rancher Desktop 1.20.0  |[2025/08/30](https://rancherdesktop.io/)
 
