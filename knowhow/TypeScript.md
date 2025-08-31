@@ -77,7 +77,7 @@ sidebar:
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.20               |2025/08/19
-      |           |Mobile  |Lynx 3.4.0               |[2025/08/30](https://lynxjs.org)
+      |           |Mobile  |[Lynx 3.4.0](#lynx)      |[2025/08/30](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
       |           |        |- Expo 54.0.0-preview.8  |[2025/08/26](https://github.com/expo/expo)
@@ -299,9 +299,13 @@ sidebar:
 
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
-    - [Lynx](https://lynxjs.org)
+    - [Lynx](https://lynxjs.org)/([履歴](/history/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
         ![LynxApp](/images/Mac/20250830_ReactLynxApp3.4.0.png)
+        - Lynxのバージョンを動的表示するように改修
+          ```js
+          setVersion(SystemInfo.engineVersion)
+          ```
       - ReactLynx
         - [QuickStart](https://lynxjs.org/guide/start/quick-start.html#ios-simulator-platform=macos-arm64,explorer-platform=ios-simulator)
           ```
@@ -339,25 +343,10 @@ sidebar:
               bunx expo install --fix
               bunx expo-doctor
               ```
-      - React Nativeで開発したアプリの実行
+      - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
         - React Native 0.81.0 / Expo SDK 54.0.0-preview.8
           - React 19.1.0
             ![React Native 0.81.0 iOS](/images/Mac/20250826_ReactNative_0.81.0.png)
-        - React Native 0.81.0 / Expo SDK 54.0.0-preview.6
-          - React 19.1.0
-            ![React Native 0.81.0 iOS](/images/Mac/20250822_ReactNative_0.81.0.png)
-        - React Native 0.80.2
-          - React 19.1.1
-            ![React Native 0.80.2 Windows](/images/JavaScript/20250801_ReactNative_0.80.2.png)
-          - React 19.1.0
-            ![React Native 0.80.2 iOS](/images/Mac/20250726_ReactNative_0.80.2.png)
-        - React Native 0.80.0
-          - React 19.1.0
-            ![React Native 0.80.0 Windows](/images/JavaScript/20250613_ReactNative_0.80.0.png)
-            ![React Native 0.80.0 iOS](/images/Mac/20250629_ReactNative_0.80.0.png)
-        - React Native 0.80.0-rc.2
-          - React 19.1.0
-            ![React Native 0.80.0-rc.2 iOS](/images/Mac/20250520_ReactNative_0.80.0-rc.2.png)
         - iOS
           - iOS エミュレータを起動
             ```
