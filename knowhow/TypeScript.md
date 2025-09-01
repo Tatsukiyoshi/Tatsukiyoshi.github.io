@@ -76,13 +76,13 @@ sidebar:
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.20               |2025/08/19
+      |           |        |Bun 1.2.21               |2025/08/30
       |           |Mobile  |[Lynx 3.4.0](#lynx)      |[2025/08/30](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
-      |           |        |React Native 0.81.0      |[2025/08/22](https://reactnative.dev/)
-      |           |        |- Expo 54.0.0-preview.8  |[2025/08/26](https://github.com/expo/expo)
+      |           |        |React Native 0.81.1      |[2025/09/01](https://reactnative.dev/)
+      |           |        |- Expo 54.0.0-preview.12 |[2025/09/01](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
-      |           |        |- Bun 1.2.20             |2025/08/19
+      |           |        |- Bun 1.2.21             |2025/08/30
 
 ##  ノウハウ
 ### TypeScript
@@ -344,9 +344,18 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
-        - React Native 0.81.0 / Expo SDK 54.0.0-preview.8
+        - React Native 0.81.1 / Expo SDK 54.0.0-preview.12
+          - EXPO_ROUTER_APP_ROOTに関するエラー
+            ```sh
+            ERROR node_modules/expo-router/_ctx.ios.js: node_modules/expo-router/_ctx.ios.js:Invalid call at line 2: process.env.EXPO_ROUTER_APP_ROOT
+            First argument of `require.context` should be a string denoting the directory to require.
+            ```
+            苦し紛れにbunで実行したら、解決
+            ```
+            bun --bun start
+            ```
           - React 19.1.0
-            ![React Native 0.81.0 iOS](/images/Mac/20250826_ReactNative_0.81.0.png)
+            ![React Native 0.81.1 iOS](/images/Mac/20250901_ReactNative_0.81.1.png)
         - iOS
           - iOS エミュレータを起動
             ```

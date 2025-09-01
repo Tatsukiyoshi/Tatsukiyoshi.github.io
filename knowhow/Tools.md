@@ -348,5 +348,10 @@ OS/言語を問わず利用するツールの情報
     brew update
     brew upgrade
     ```
+- watchman <br>
+  react native + expoでの実行エラーで watchmanに繋がらないみたいなエラーが出るので、インストール
+  ```
+  brew install watchman
+  ```
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>

@@ -40,7 +40,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
 [Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
 [Flutter](/knowhow/Flutter)      |2025/08/26|Update: Flutter 3.36.0-1.0.pre-263@macOS
-[TypeScript](/knowhow/TypeScript)|2025/08/30|Update: Astro 5.13.5 / Next.js 15.5.2 / Angular 21.0.0-next.1 / Lynx 3.4.0
+[TypeScript](/knowhow/TypeScript)|2025/09/01|Update: React Native 0.81.1 / Expo 54.0.0-preview.12
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
