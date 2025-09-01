@@ -8,6 +8,10 @@ assignees: Tatsukiyoshi
 ---
 
 リスキリング環境更新（yyyy年mm月第N週）
-- [ ]
 
-上記TaskおよびSub-issueでの実施内容をダイジェストとして、GitHub Pagesに公開
+## 概要
+Sub-issueおよび下記追加Issueでの実施内容をダイジェストとして、GitHub Pagesに公開
+
+## 追加Issue
+
+## 前回Issue
