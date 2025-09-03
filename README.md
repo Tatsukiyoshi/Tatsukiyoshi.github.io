@@ -38,7 +38,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
 [Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
-[Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
+[Kotlin](/knowhow/Kotlin)        |2025/09/03|Update: Android Studio Narwhal 3 2025.1.3@macOS
 [Flutter](/knowhow/Flutter)      |2025/09/02|Update: Flutter 3.36.0-1.0.pre-372@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/01|Update: React Native 0.81.1 / Expo 54.0.0-preview.12
 

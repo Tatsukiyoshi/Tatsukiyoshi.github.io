@@ -31,7 +31,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |macOS           |Android Studio Narwhal 2025.1.2 Patch 2                       |[2025/08/31](https://developer.android.com/studio)
+      |macOS           |Android Studio Narwhal 3 2025.1.3                             |[2025/09/03](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -322,10 +322,10 @@ sidebar:
         io.flutter (87.1)
       ```
   - macOS
-    - Android Studio Narwhal Feature Drop | 2025.1.2 Patch 2
+    - Android Studio Narwhal 3 Feature Drop | 2025.1.3
       ```
-      Build #AI-251.26094.121.2512.13991807, built on August 26, 2025
-      Runtime version: 21.0.6+-13391695-b895.109 aarch64
+      Build #AI-251.26094.121.2513.14007798, built on August 28, 2025
+      Runtime version: 21.0.7+-13880790-b1038.58 aarch64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.lwawt.macosx.LWCToolkit
       macOS 15.6.1
@@ -408,6 +408,7 @@ sidebar:
           - Gradle 8.13 -> 9.0
           - Android Gradle Plugin 8.13.0-alpha04 -> 9.0.0-alpha01
       - Feature Drop 2025.1.3
+        - Android Gradle Plugin 8.12.2 -> 8.13.0
         - Canary 4
           - Android Gradle Plugin 8.13.0-alpha03 -> 8.13.0-alpha04
         - Canary 3
