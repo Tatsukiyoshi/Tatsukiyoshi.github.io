@@ -37,7 +37,7 @@ Chrome OS Flex                  |2025/09/04|[139.0.7258.164](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/09/04|Update: Tauri 2.8.5@Chrome OS Flex / Bun 1.2.21 / Vite 7.1.4
+[Rust](/knowhow/Rust)            |2025/09/04|Update: Tauri 2.8.5
 [Kotlin](/knowhow/Kotlin)        |2025/09/03|Update: Android Studio Narwhal 3 2025.1.3@macOS
 [Flutter](/knowhow/Flutter)      |2025/09/02|Update: Flutter 3.36.0-1.0.pre-372@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/04|Update: Node.js 24.7@Chrome OS Flex

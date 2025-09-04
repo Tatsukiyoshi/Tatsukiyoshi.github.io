@@ -27,20 +27,20 @@ sidebar:
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.89                                      |2025/08/17
-      |               |[Tauri 2.8.2](#tauridesktop-framework)         |[2025/08/22](https://tauri.app/)
-      |               |Svelte 5.38.2                                  |2025/08/22
-      |               |Bun 1.2.20                                     |2025/08/16
-      |               |Vite 7.1.3                                     |2025/08/22
+      |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
+      |               |Svelte 5.38.2                                  |2025/09/04
+      |               |Bun 1.2.21                                     |2025/08/30
+      |               |Vite 7.1.4                                     |2025/09/04
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.89       |2025/08/17
-      |                |Tauri 2.8.2     |2025/08/22
+      |                |Tauri 2.8.5     |2025/09/04
       |                |React 19.1.1    |2025/08/17
-      |                |Bun 1.2.20      |2025/08/17
-      |                |Vite 7.1.3      |2025/08/22
+      |                |Bun 1.2.21      |2025/09/04
+      |                |Vite 7.1.4      |2025/09/04
 
   1. Chrome OS Flex 139.0.7258.164 (Official Build)
 
@@ -389,8 +389,14 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.8.5
+    - Windows
+      ![On Windows](/images/rust/20250904_Tauri2.8.5_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20250904_Tauri2.8.5_Ubuntu24.04.3.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250904_Tauri2.8.5_Chrome_OS_Flex.png)
+    - Android 16 QPR2 Beta 1 / Pixel 9a
+      ![On Android 16](/images/rust/20250904_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
   - V2.8.2
     - Windows
       ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)
