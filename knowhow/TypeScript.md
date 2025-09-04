@@ -119,6 +119,15 @@ sidebar:
           ```
           node -v
           ```
+      - Chrome OS Flex
+        - [nvmインストール](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
+          ```
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+          ```
+        - nodeインストール
+          ```
+          nvm install node
+          ```
     - トラブルシューティング
       - node.js 17以降で実行時エラーとなる（OpenSSL関連）
         - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える

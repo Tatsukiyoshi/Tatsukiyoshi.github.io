@@ -42,16 +42,16 @@ sidebar:
       |                |Bun 1.2.20      |2025/08/17
       |                |Vite 7.1.3      |2025/08/22
 
-  1. Chrome OS Flex 139.0.7258.137 (Official Build)
+  1. Chrome OS Flex 139.0.7258.164 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.89                                 |2025/08/19
-      |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.8.2                               |2025/08/22
+      |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
+      |           |Tauri 2.8.5                               |2025/09/04
       |           |React 19.1.1                              |2025/08/19
-      |           |Bun 1.2.20                                |2025/08/19
-      |           |Vite 7.1.3                                |2025/08/19
+      |           |Bun 1.2.21                                |2025/09/04
+      |           |Vite 7.1.4                                |2025/09/04
 
   1. macOS Sequoia 15.6
 
@@ -388,6 +388,9 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.8.5
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250904_Tauri2.8.5_Chrome_OS_Flex.png)
   - V2.8.2
     - Windows
       ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)
