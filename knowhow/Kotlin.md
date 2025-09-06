@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |Amazon Coretto 22.0.2                                         |2024/11/16
-      |                |[Android Studio Narwhal 4 2025.1.4 Canary 3](#AndroidStudio)  |[2025/08/30](https://developer.android.com/studio)
+      |                |[Android Studio Narwhal 4 2025.1.4 Canary 4](#AndroidStudio)  |[2025/09/06](https://developer.android.com/studio)
       |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.2.6                                   |2025/08/27
+      |                |- Android Emulator v.36.2.7                                   |2025/09/06
 
   1. macOS Sequoia 15.6
 
@@ -370,6 +370,9 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
       - Feature Drop 2025.1.4
+        - Canary 4
+          - Android Gradle Plugin 9.0.0-alpha03 -> 9.0.0-alpha04
+          - Android Emulator 36.2.7
         - Canary 3
           - Android Gradle Plugin 9.0.0-alpha02 -> 9.0.0-alpha03
           - Kotlin Pluginの記述が不要になった模様（MySchedulerがビルドできないので、以後変更される可能性あり）
