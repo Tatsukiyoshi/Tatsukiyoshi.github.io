@@ -96,7 +96,7 @@ sidebar:
 
     ランタイム環境:
     OS Name:     Windows
-    OS Version:  10.0.26200
+    OS Version:  10.0.26220
     OS Platform: Windows
     RID:         win-x64
     Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.7.25380.108\
