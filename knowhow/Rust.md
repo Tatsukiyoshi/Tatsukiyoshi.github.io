@@ -6,14 +6,14 @@ sidebar:
 ---
 ##  独学書
 
-  |Text                                                            |Date      |Status
-  |----------------------------------------------------------------|----------|---
+  |Text                                                           |Date      |Status
+  |---------------------------------------------------------------|----------|---
   |[パーフェクトRust](https://gihyo.jp/book/2023/978-4-297-13322-1) |2024/01/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/PerfectRust)
 
 ##  コンテンツ
 
-  |Contents                                                                                    |Date      |Status
-  |--------------------------------------------------------------------------------------------|----------|-------
+  |Contents                                                                                 |Date      |Status
+  |-----------------------------------------------------------------------------------------|----------|-------
   |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
 
 ##  環境
@@ -22,47 +22,47 @@ sidebar:
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.89](#rust-1)                           |[2025/08/19](https://www.rust-lang.org/)
-      |               |[RustRover 2025.2](#rustrover)                 |[2025/08/15](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.2.1](#rustrover)               |[2025/09/06](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.89                                      |2025/08/17
-      |               |[Tauri 2.8.2](#tauridesktop-framework)         |[2025/08/22](https://tauri.app/)
-      |               |Svelte 5.38.2                                  |2025/08/22
-      |               |Bun 1.2.20                                     |2025/08/16
-      |               |Vite 7.1.3                                     |2025/08/22
+      |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
+      |               |Svelte 5.38.2                                  |2025/09/04
+      |               |Bun 1.2.21                                     |2025/08/30
+      |               |Vite 7.1.4                                     |2025/09/04
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.89       |2025/08/17
-      |                |Tauri 2.8.2     |2025/08/22
+      |                |Tauri 2.8.5     |2025/09/04
       |                |React 19.1.1    |2025/08/17
-      |                |Bun 1.2.20      |2025/08/17
-      |                |Vite 7.1.3      |2025/08/22
+      |                |Bun 1.2.21      |2025/09/04
+      |                |Vite 7.1.4      |2025/09/04
 
-  1. Chrome OS Flex 139.0.7258.137 (Official Build)
+  1. Chrome OS Flex 139.0.7258.164 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.89                                 |2025/08/19
-      |           |[Node.js 22.11.0](TypeScript#typescript)  |[2024/11/24](https://nodejs.org/en)
-      |           |Tauri 2.8.2                               |2025/08/22
+      |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
+      |           |Tauri 2.8.5                               |2025/09/04
       |           |React 19.1.1                              |2025/08/19
-      |           |Bun 1.2.20                                |2025/08/19
-      |           |Vite 7.1.3                                |2025/08/19
+      |           |Bun 1.2.21                                |2025/09/04
+      |           |Vite 7.1.4                                |2025/09/04
 
-  1.  macOS Sequoia 15.6
+  1. macOS Sequoia 15.6.1
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
       |macOS      |Rust 1.89            |2025/08/19
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.8.2          |2025/08/22
+      |           |Tauri 2.8.5          |2025/09/04
       |           |React 19.1.1         |2025/08/19
-      |           |Bun 1.2.20           |2025/08/19
-      |           |Vite 7.1.3           |2025/08/19
+      |           |Bun 1.2.21           |2025/08/30
+      |           |Vite 7.1.4           |2025/09/04
 
 ##  ノウハウ
 ### Rust
@@ -129,13 +129,15 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.2 Build #RR-252.23892.452, built on August 5, 2025 <span style="color: red;">**Updated 2025/08/15**</span>
+  - RustRover 2025.2.1 Build #RR-252.25557.134, built on August 28, 2025 <span style="color: red;">**Updated 2025/09/06**</span>
     ```
-    Source revision: 46d96de2d5732
+    RustRover 2025.2.1
+    Build #RR-252.25557.134, built on August 28, 2025
+    Source revision: ee1e6cb62e111
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2026年5月22日 まで有効です。
     For non-commercial use only.
-    Runtime version: 21.0.7+6-b1038.58 amd64 (JCEF 122.1.9)
+    Runtime version: 21.0.8+1-b1038.68 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -145,26 +147,19 @@ sidebar:
     Registry:
       debugger.attach.dialog.enabled=true
       ide.experimental.ui=true
-      transferSettings.vscode.onlyCargoToml=true
-      org.toml.json.schema=false
       llm.ai.assistant.toolwindow.activation.on.start=false
+      org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
-      org.jetbrains.plugins.yaml (252.23892.464)
-      JavaScriptDebugger (252.23892.515)
-      org.jetbrains.completion.full.line (252.23892.458)
-      org.toml.lang (252.23892.464)
-      com.jetbrains.space (252.23892.201)
-      Subversion (252.23892.514)
+      JavaScriptDebugger (252.25557.178)
+      org.toml.lang (252.25557.135)
+      com.jetbrains.space (252.25557.23)
+      Subversion (252.25557.175)
       ru.adelf.idea.dotenv (252.23892.201)
-      com.intellij.copyright (252.23892.464)
-      com.jetbrains.rust (252.23892.452)
-      com.jetbrains.restClient (252.23892.464)
-      Docker (252.23892.515)
-      com.intellij.ml.llm (252.23892.530)
-      org.jetbrains.plugins.gitlab (252.23892.515-IU)
-      org.jetbrains.plugins.github (252.23892.515-IU)
-      com.intellij.react (252.23892.515)
-      Karma (252.25204.0)
+      com.jetbrains.rust (252.25557.134)
+      com.intellij.ml.llm (252.25557.171)
+      com.intellij.react (252.25557.178)
+      org.jetbrains.plugins.vue (252.25557.175)
     ```
     - [履歴](/history/RustRover)
   - データベース
@@ -388,6 +383,19 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.8.5
+    - Windows
+      ![On Windows](/images/rust/20250904_Tauri2.8.5_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20250904_Tauri2.8.5_Ubuntu24.04.3.png)
+    - macOS
+      ![On macOS](/images/rust/20250904_Tauri2.8.5_mac15.6.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250904_Tauri2.8.5_Chrome_OS_Flex.png)
+    - Android 16 QPR2 Beta 1 / Pixel 9a
+      ![On Android 16](/images/rust/20250904_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
+    - iOS 26.0 Beta 6 / iPhone 16 Pro
+      ![On iOS 26 Beta 6](/images/rust/20250904_Tauri2.8.5_iPhone16_Pro_iOS26.0B6.png)
   - V2.8.2
     - Windows
       ![On Windows](/images/rust/20250822_Tauri2.8.2_Windows.png)

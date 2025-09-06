@@ -15,7 +15,7 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                                                         |Last Updated
+  |Machine         |Env / FW                                                                        |Last Updated
   |----------------|--------------------------------------------------------------------------------|----------
   |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2025-03 (Eclipse 4.35)](#pleiades)|[2025/03/21](https://willbrains.jp/)
   |                |[Apache Tomcat 10.1.39](#tomcat)                                                |[2025/03/21](https://tomcat.apache.org/download-10.cgi)

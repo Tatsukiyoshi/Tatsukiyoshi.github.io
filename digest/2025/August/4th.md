@@ -25,7 +25,7 @@ sidebar:
 - **＜TypeScript＞**  [Expo SDKを54.0.0-preview.8に更新](https://github.com/expo/expo)/React Native 0.81.0の動作確認実施
 
 ##  【8/30】
-- **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26200.5770 が配信されたので、アップデート](https://aka.ms/DevLatest)
+- **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26220.5770 ~~26200.5770~~ が配信されたので、アップデート](https://aka.ms/DevLatest) 
 
 - **＜Container＞** [Rancher Desktopを1.20.0に更新](https://rancherdesktop.io/)
 

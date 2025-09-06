@@ -324,7 +324,7 @@ OS/言語を問わず利用するツールの情報
 - XCode
   - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
     ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-  - [Xcode 26 Beta 6](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/08/19 Updated from 26 Beta 5>>*</span>
+  - [Xcode 26 Beta 7](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/05 Updated from 26 Beta 6>>*</span>
   - iOS Simulatorの更新
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
@@ -348,5 +348,10 @@ OS/言語を問わず利用するツールの情報
     brew update
     brew upgrade
     ```
+- watchman <br>
+  react native + expoでの実行エラーで watchmanに繋がらないみたいなエラーが出るので、インストール
+  ```
+  brew install watchman
+  ```
 - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
