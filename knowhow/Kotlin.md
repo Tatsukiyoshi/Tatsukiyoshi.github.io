@@ -27,7 +27,7 @@ sidebar:
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
       |                |- Android Emulator v.36.2.7                                   |2025/09/06
 
-  1. macOS Sequoia 15.6
+  1. macOS Sequoia 15.6.1
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
@@ -282,10 +282,10 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 3
+    - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 4
       ```
-      Build #AI-251.27812.49.2514.14014849, built on August 29, 2025
-      Runtime version: 21.0.7+-13880790-b1038.58 amd64
+      Build #AI-251.27812.49.2514.14044074, built on September 4, 2025
+      Runtime version: 21.0.8+-14018985-b1038.68 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
@@ -295,8 +295,8 @@ sidebar:
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+        gradle.phased.sync.enabled=true
       Non-Bundled Plugins:
         Dart (251.27812.12)
         io.flutter (87.1)

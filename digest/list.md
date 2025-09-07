@@ -6,6 +6,7 @@ sidebar:
 ---
 - 2025年
   - 8月
+    - 第５週（2025/8/31～2025/9/6）<[GitHub](2025/August/5th) | Zenn>
     - 第４週（2025/8/24～2025/8/30）<[GitHub](2025/August/4th) | Zenn>
     - 第３週（2025/8/17～2025/8/23）<[GitHub](2025/August/3rd) | Zenn>
     - 第２週（2025/8/10～2025/8/16）<[GitHub](2025/August/2nd) | Zenn>
