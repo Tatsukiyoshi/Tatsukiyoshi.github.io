@@ -85,7 +85,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     mercenary (0.4.0)
-    minimal-mistakes-jekyll (4.27.2)
+    minimal-mistakes-jekyll (4.27.3)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
       jekyll-gist (~> 1.5)
@@ -126,9 +126,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-include-cache (~> 0.2)
-  jekyll-remote-theme (~> 0.4.2)
+  jekyll-remote-theme (~> 0.4.3)
   minima!
-  minimal-mistakes-jekyll (~> 4.27.2)
+  minimal-mistakes-jekyll (~> 4.27.3)
   wdm (>= 0.1.0)
 
 BUNDLED WITH

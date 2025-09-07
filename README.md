@@ -7,6 +7,7 @@ sidebar:
   nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
 ---
 # トップページ <a id="Top"></a>
+
 [ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
 ---
@@ -60,7 +61,7 @@ Other                            |Updated   |Detail
 [Swift](/knowhow/Others#swift)   |          |
 [Unity](/knowhow/Unity)          |          |
 
-###  創作物
+##  創作物
 ```
 知識を形にする
 ```
@@ -70,6 +71,14 @@ Other                            |Updated   |Detail
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index)
 - [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
+
+##  GitHub Pages環境
+
+Platform                        |Updated
+--------------------------------|----------
+jekyll 4.4.1                    |[2025/07/29](https://jekyllrb.com/)
+minimal-mistakes-jekyll 4.27.3  |[2025/09/07](https://mmistakes.github.io/minimal-mistakes/)
+jekyll-remote-theme 0.4.3       |2025/09/07
 
 ---
 [プロフィール](/sub/Profile) | [トップへ戻る](#Top)
