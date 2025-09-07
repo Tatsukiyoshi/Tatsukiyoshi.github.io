@@ -24,7 +24,7 @@ sidebar:
 
 ##  環境
 
-  |Machine    |Env／FW      |Last Updated
+  |Machine    |Env / FW     |Last Updated
   |-----------|-------------|----------
   |InsiderDev |CLI 1.5.3    |[2024/06/26](https://exercism.org/docs/using/solving-exercises/working-locally)
 

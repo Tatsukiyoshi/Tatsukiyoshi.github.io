@@ -14,27 +14,32 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                                       |Last Updated
-  |----------------|--------------------------------------------------------------|----------
-  |Windows Insider |[IntelliJ IDEA 2025.2.1 Preview](#intellij-idea)              |[2025/08/18](https://www.jetbrains.com/ja-jp/idea/)
-  |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
-  |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-  |                |Amazon Coretto 22.0.2                                         |2024/11/16
-  |                |[Android Studio Narwhal 4 2025.1.4 Canary 3](#AndroidStudio)  |[2025/08/30](https://developer.android.com/studio)
-  |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
-  |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-  |                |- Android Emulator v.36.2.6                                   |2025/08/27
+  1. Windows 11
+
+      |Machine         |Env / FW                                                      |Last Updated
+      |----------------|--------------------------------------------------------------|----------
+      |Windows Insider |[IntelliJ IDEA 2025.2.2 Preview](#intellij-idea)              |[2025/09/05](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.2.10                                               |[2025/08/18](https://kotlinlang.org/docs/home.html)
+      |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |                |Amazon Coretto 22.0.2                                         |2024/11/16
+      |                |[Android Studio Narwhal 4 2025.1.4 Canary 4](#AndroidStudio)  |[2025/09/06](https://developer.android.com/studio)
+      |                |- Kotlin 2.2.10                                               |[2025/08/16](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Command-line Tools v.19                         |2025/03/14
+      |                |- Android Emulator v.36.2.7                                   |2025/09/06
+
+  1. macOS Sequoia 15.6.1
+
+      |Machine         |Env / FW                                                      |Last Updated
+      |----------------|--------------------------------------------------------------|----------
+      |macOS           |Android Studio Narwhal 3 2025.1.3                             |[2025/09/03](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.2.1 Preview (Ultimate Edition)
+  - IntelliJ IDEA 2025.2.2 Preview (Ultimate Edition)
     ```
-    Build #IU-252.25557.23, built on August 13, 2025
-    Source revision: 42688719f7459
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年8月27日 まで有効です。
-    Evaluation purpose only.
+    Build #IU-252.26199.7, built on September 3, 2025
+    Source revision: b53cd35b81ae8
     Runtime version: 21.0.8+1-b1038.68 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -45,52 +50,35 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      JavaScriptDebugger (252.25557.35)
-      org.jetbrains.completion.full.line (252.25557.23)
-      com.jetbrains.sh (252.25557.34)
-      com.intellij.notebooks.core (252.25557.32)
-      Subversion (252.25557.34)
-      com.intellij.copyright (252.25557.34)
-      org.editorconfig.editorconfigjetbrains (252.25557.34)
-      org.jetbrains.plugins.yaml (252.25557.34)
-      org.toml.lang (252.25557.32)
-      com.intellij.kubernetes (252.25557.35)
-      com.jetbrains.plugins.webDeployment (252.25557.34)
-      org.jetbrains.plugins.terminal (252.25557.34)
-      com.intellij.properties (252.25557.32)
-      com.intellij.velocity (252.25557.32)
-      com.intellij.liquibase (252.25557.23)
-      com.intellij.javaee (252.25557.23)
-      com.intellij.spring.boot (252.25557.23)
-      com.intellij.spring (252.25557.23)
-      com.intellij.spring.data (252.25557.23)
-      org.jetbrains.kotlin (252.25557.23-IJ)
-      com.jetbrains.restClient (252.25557.34)
-      intellij.jupyter (252.25557.32)
-      Docker (252.25557.35)
-      com.intellij.ml.llm (252.25557.23)
-      tanvd.grazi (252.25557.23)
-      org.jetbrains.plugins.gitlab (252.25557.35-IU)
-      com.intellij.settingsSync (252.25557.23)
-      org.jetbrains.plugins.github (252.25557.35-IU)
-      org.jetbrains.plugins.remote-run (252.25557.34)
-      org.jetbrains.idea.maven (252.25557.23)
-      org.jetbrains.plugins.gradle (252.25557.23)
-      com.intellij.reactivestreams (252.25557.23)
-      org.jetbrains.android (252.25557.23)
+      JavaScriptDebugger (252.26199.7)
+      org.jetbrains.completion.full.line (252.26199.7)
+      com.intellij.notebooks.core (252.26199.11)
+      org.toml.lang (252.26199.11)
+      com.intellij.properties (252.26199.11)
+      com.intellij.velocity (252.26199.11)
+      com.intellij.liquibase (252.26199.7)
+      com.intellij.spring.boot (252.26199.7)
+      com.intellij.spring.data (252.26199.7)
+      org.jetbrains.kotlin (252.26199.7-IJ)
+      com.jetbrains.restClient (252.26199.7)
+      intellij.jupyter (252.26199.11)
+      org.jetbrains.plugins.kotlin.jupyter (252.26199.7)
+      Docker (252.26199.19)
+      com.intellij.ml.llm (252.26199.7)
+      tanvd.grazi (252.26199.7)
+      com.intellij.settingsSync (252.26199.7)
+      org.jetbrains.idea.maven (252.26199.7)
+      com.intellij.reactivestreams (252.26199.7)
+      org.jetbrains.android (252.26199.7)
       Dart (252.25557.23)
-      JavaScript (252.25557.35)
-      com.intellij.javaee.jpa (252.25557.23)
-      com.intellij.javaee.reverseEngineering (252.25557.23)
-      com.intellij.react (252.25557.35)
-      org.jetbrains.plugins.vue (252.25557.26)
-      intellij.prettierJS (252.25557.34)
-      Karma (252.25557.23)
-      com.intellij.mcpServer (252.25557.35)
-      org.jetbrains.security.package-checker (252.25557.34)
-      org.jetbrains.plugins.docker.gateway (252.25557.34)
-      com.intellij.microservices.ui (252.25557.34)
-    Kotlin: 252.25557.23-IJ
+      JavaScript (252.26199.7)
+      com.intellij.javaee.jpa (252.26199.7)
+      com.intellij.quarkus (252.26199.7)
+      com.intellij.react (252.26199.7)
+      org.jetbrains.plugins.vue (252.26199.19)
+      intellij.prettierJS (252.26199.7)
+      org.jetbrains.security.package-checker (252.26199.19)
+    Kotlin: 252.26199.7-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -272,6 +260,13 @@ sidebar:
     ```
   - [Spring Batch+Kotlinの事例](https://nulab.com/ja/blog/nulab/spring-boot-batch/)
 
+### Kotlin Multiplatform Mobile
+  - [Kotlin マルチプラットフォームを使ってみる](https://developer.android.com/codelabs/kmp-get-started?hl=ja#0)
+    - Android StudioからXCodeでプロジェクトを開く
+      ![Open in XCode](/images/Kotlin/20250831_KMP_XCode26.png)
+    - XCodeから実行する
+      ![Run KMP](/images/Kotlin/20250831_KMP_iPhone16Pro_iOS26.png)
+
 ### Gemini
   - Gemini 2.5
     ![Gemini 2.5 Pro](/images/Android/20250628_Gemini_2.5_Pro.png)
@@ -286,25 +281,43 @@ sidebar:
     ![Pixel 8 Emulator](/images/Android/20240410_Pixel8_Emulator_Gemini_API_Starter.png)
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
-  - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 3
-    ```
-    Build #AI-251.27812.49.2514.14014849, built on August 29, 2025
-    Runtime version: 21.0.7+-13880790-b1038.58 amd64
-    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
-    Toolkit: sun.awt.windows.WToolkit
-    Windows 11.0
-    Kotlin plugin: K2 mode
-    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
-    Memory: 2048M
-    Cores: 8
-    Registry:
-      ide.experimental.ui=true
-      gradle.phased.sync.enabled=true
-      com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
-    Non-Bundled Plugins:
-      Dart (251.27812.12)
-      io.flutter (87.1)
-    ```
+  - Windows
+    - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 4
+      ```
+      Build #AI-251.27812.49.2514.14044074, built on September 4, 2025
+      Runtime version: 21.0.8+-14018985-b1038.68 amd64
+      VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+      Toolkit: sun.awt.windows.WToolkit
+      Windows 11.0
+      Kotlin plugin: K2 mode
+      GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+      Memory: 2048M
+      Cores: 8
+      Registry:
+        ide.experimental.ui=true
+        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+        gradle.phased.sync.enabled=true
+      Non-Bundled Plugins:
+        Dart (251.27812.12)
+        io.flutter (87.1)
+      ```
+  - macOS
+    - Android Studio Narwhal 3 Feature Drop | 2025.1.3
+      ```
+      Build #AI-251.26094.121.2513.14007798, built on August 28, 2025
+      Runtime version: 21.0.7+-13880790-b1038.58 aarch64
+      VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+      Toolkit: sun.lwawt.macosx.LWCToolkit
+      macOS 15.6.1
+      Kotlin plugin: K2 mode
+      GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+      Memory: 2048M
+      Cores: 8
+      Metal Rendering is ON
+      Registry:
+        ide.experimental.ui=true
+      ```
+      ![Android Studio Narwhal 2025.1.2](/images/Kotlin/20250831_AndroidStudio2025.1.2.png)
   - 共通
     - HyperVisor利用には、機能の有効化が必要
       ![HyperVisor](/images/Android/20250525_Windows_HyperVisor.png)
@@ -357,6 +370,9 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
     - Narwhal
       - Feature Drop 2025.1.4
+        - Canary 4
+          - Android Gradle Plugin 9.0.0-alpha03 -> 9.0.0-alpha04
+          - Android Emulator 36.2.7
         - Canary 3
           - Android Gradle Plugin 9.0.0-alpha02 -> 9.0.0-alpha03
           - Kotlin Pluginの記述が不要になった模様（MySchedulerがビルドできないので、以後変更される可能性あり）
@@ -375,6 +391,7 @@ sidebar:
           - Gradle 8.13 -> 9.0
           - Android Gradle Plugin 8.13.0-alpha04 -> 9.0.0-alpha01
       - Feature Drop 2025.1.3
+        - Android Gradle Plugin 8.12.2 -> 8.13.0
         - Canary 4
           - Android Gradle Plugin 8.13.0-alpha03 -> 8.13.0-alpha04
         - Canary 3

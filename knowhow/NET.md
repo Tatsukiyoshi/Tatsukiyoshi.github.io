@@ -14,7 +14,7 @@ sidebar:
 
 ##  環境
 
-  |Machine         |Env／FW                                           |Last Updated
+  |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
   |Windows         |Visual Studio Community 2022 17.14.13             |[2025/08/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.8                                      |[2025/08/09](https://dotnet.microsoft.com/ja-jp/download/dotnet)
@@ -96,7 +96,7 @@ sidebar:
 
     ランタイム環境:
     OS Name:     Windows
-    OS Version:  10.0.26200
+    OS Version:  10.0.26220
     OS Platform: Windows
     RID:         win-x64
     Base Path:   C:\Program Files\dotnet\sdk\10.0.100-preview.7.25380.108\

@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/8/24～2025/8/30）](/digest/2025/August/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/8/31～2025/9/6）](/digest/2025/August/5th) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,8 +24,8 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/08/30|[Build 26200.5770](https://aka.ms/DevLatest)
-Chrome OS Flex                  |2025/08/21|[139.0.7258.137](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Windows Insider                 |2025/08/30|[Build 26220.5770](https://aka.ms/DevLatest)
+Chrome OS Flex                  |2025/09/04|[139.0.7258.164](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -37,10 +37,10 @@ Chrome OS Flex                  |2025/08/21|[139.0.7258.137](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
-[Rust](/knowhow/Rust)            |2025/08/22|Update: Tauri 2.8.2
-[Kotlin](/knowhow/Kotlin)        |2025/08/30|Update: Android Studio Narwhal 4 2025.1.4 Canary 3
-[Flutter](/knowhow/Flutter)      |2025/08/26|Update: Flutter 3.36.0-1.0.pre-263@macOS
-[TypeScript](/knowhow/TypeScript)|2025/08/30|Update: Astro 5.13.5 / Next.js 15.5.2 / Angular 21.0.0-next.1 / Lynx 3.4.0
+[Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
+[Kotlin](/knowhow/Kotlin)        |2025/09/06|Update: Android Studio Narwhal 4 2025.1.4 Canary 4
+[Flutter](/knowhow/Flutter)      |2025/09/02|Update: Flutter 3.36.0-1.0.pre-372@macOS
+[TypeScript](/knowhow/TypeScript)|2025/09/04|Update: Node.js 24.7@Chrome OS Flex
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
