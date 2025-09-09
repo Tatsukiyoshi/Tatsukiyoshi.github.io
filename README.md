@@ -41,7 +41,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
 [Kotlin](/knowhow/Kotlin)        |2025/09/06|Update: Android Studio Narwhal 4 2025.1.4 Canary 4
 [Flutter](/knowhow/Flutter)      |2025/09/02|Update: Flutter 3.36.0-1.0.pre-372@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/04|Update: Node.js 24.7@Chrome OS Flex
+[TypeScript](/knowhow/TypeScript)|2025/09/09|Update: React Native Windows 0.80.0-preview.6
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
