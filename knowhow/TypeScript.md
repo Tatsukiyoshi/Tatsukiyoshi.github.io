@@ -77,7 +77,7 @@ sidebar:
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.21               |2025/08/30
-      |           |Mobile  |[Lynx 3.4.0](#lynx)      |[2025/08/30](https://lynxjs.org)
+      |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.1      |[2025/09/01](https://reactnative.dev/)
       |           |        |- Expo 54.0.0-preview.16 |[2025/09/09](https://github.com/expo/expo)
