@@ -5,6 +5,25 @@ sidebar:
   nav: main
 ---
 
+- React Native 0.81.1 / Expo SDK 54.0.0-preview.16
+  - [Mismatch between JavaScript code version and Worklets Babel plugin version](https://docs.swmansion.com/react-native-worklets/docs/guides/troubleshooting)
+    ```
+    expo start -c
+    ```
+  - React 19.1.0
+    ![React Native 0.81.1 iOS](/images/Mac/20250909_ReactNative_0.81.1.png)
+- React Native 0.81.1 / Expo SDK 54.0.0-preview.12
+  - EXPO_ROUTER_APP_ROOTに関するエラー
+    ```sh
+    ERROR node_modules/expo-router/_ctx.ios.js: node_modules/expo-router/_ctx.ios.js:Invalid call at line 2: process.env.EXPO_ROUTER_APP_ROOT
+    First argument of `require.context` should be a string denoting the directory to require.
+    ```
+    苦し紛れにbunで実行したら、解決
+    ```
+    bun --bun start
+    ```
+  - React 19.1.0
+    ![React Native 0.81.1 iOS](/images/Mac/20250901_ReactNative_0.81.1.png)
 - React Native 0.81.0 / Expo SDK 54.0.0-preview.8
   - React 19.1.0
     ![React Native 0.81.0 iOS](/images/Mac/20250826_ReactNative_0.81.0.png)
