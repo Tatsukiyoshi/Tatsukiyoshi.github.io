@@ -705,3 +705,12 @@ sidebar:
     - デバイスマネージャーでAndroid Studioで作成したイメージは使えず、新たにイメージを作成
       ![AndroidDeviceManager](/images/VisualStudio/20240412_Android_Device_Manager.png)
     - サンプルコードのままでは、Androidターゲットはビルドできない (*2024/04/12*)
+  - 注目した変更
+    - GitHub Copilot (*17.10 Preview 3.0-*) <BR/>
+      ![GitHub Copilot](/images/VisualStudio/20240412_GitHub_Copilot.png)    
+    - ようこそ画面 (*17.6 Preview 2.0-*)
+      ダイアログではなく、IDEにクイックアクションなどをまとめたようこそ画面が。
+      ![ようこそ](/images/VisualStudio/20230317_VS2022_17.6_Preview2.0_welcome.png)
+    - スペルチェッカ (*17.5 Preview 5.0-*)
+      単語レベルでの間違いを指摘し、修正候補を提示する。
+      ![スペルチェッカ](/images/VisualStudio/20230121_SpellChecker.png)
