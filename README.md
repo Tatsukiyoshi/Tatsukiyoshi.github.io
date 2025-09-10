@@ -45,7 +45,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/09/10|Update: SQL Server 2022 Developer 16.0.4212.1
+[Database & SQL](/knowhow/Database)    |2025/09/10|Update: SQL Server 2022 Developer 16.0.4212.1 / SQL Server Management Studio 21.5.14
 [Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
