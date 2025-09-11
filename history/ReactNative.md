@@ -5,6 +5,9 @@ sidebar:
   nav: main
 ---
 
+- React Native 0.81.4 / Expo SDK 54.0.1
+  - React 19.1.0
+    ![React Native 0.81.4 iOS](/images/Mac/20250911_ReactNative_0.81.4.png)
 - React Native 0.81.1 / Expo SDK 54.0.0-preview.16
   - [Mismatch between JavaScript code version and Worklets Babel plugin version](https://docs.swmansion.com/react-native-worklets/docs/guides/troubleshooting)
     ```
