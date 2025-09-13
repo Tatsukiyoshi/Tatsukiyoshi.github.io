@@ -39,7 +39,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/09/10|Update: Visual Studio Community 2026 18.0.0 Insiders / Visual Studio Community 2022 17.14.14
 [Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
-[Kotlin](/knowhow/Kotlin)        |2025/09/06|Update: Android Studio Narwhal 4 2025.1.4 Canary 4
+[Kotlin](/knowhow/Kotlin)        |2025/09/13|Update: Android Studio Narwhal 4 2025.1.4 Canary 5 / Kotlin 2.2.20
 [Flutter](/knowhow/Flutter)      |2025/09/09|Update: Flutter 3.37.0-1.0.pre-58@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/11|Update: React Native 0.81.4 / Expo SDK 54.0.1
 
