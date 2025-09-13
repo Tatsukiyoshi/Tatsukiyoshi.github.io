@@ -124,7 +124,7 @@ sidebar:
       - Build 26120.3576 (Cumulative Update) <span style="color: red;">*<<2025/03/18 updated from Build 26120.3380 >>*</span>
         ![Cumulative Update](/images/Windows/20250318_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-          ![Version Information](./images/Windows/20250318_Windows11_Build26120.png)
+          ![Version Information](/images/Windows/20250318_Windows11_Build26120.png)
       - Build 26120.3380 (Cumulative Update) <span style="color: red;">*<<2025/03/11 updated from Build 26120.3360 >>*</span>
         ![Cumulative Update](/images/Windows/20250311_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
