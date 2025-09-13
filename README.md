@@ -25,7 +25,7 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/09/06|[Build 26220.5790](https://aka.ms/DevLatest)
+Windows Insider                 |2025/09/13|[Build 26220.6682](https://aka.ms/DevLatest)
 Chrome OS Flex                  |2025/09/12|[139.0.7258.172](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
