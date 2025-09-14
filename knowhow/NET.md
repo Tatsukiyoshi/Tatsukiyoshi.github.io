@@ -21,11 +21,11 @@ sidebar:
   |                |- .NET 8.0.20                                     |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.6.3](#windows-app-sdk)       |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/09/12](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
-  |                |- .NET 10.0.100-preview.7.25380.108               |[2025/08/16](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.0-preview.7.25406.3](#maui)        |[2025/08/16](https://github.com/dotnet/maui)
+  |                |- .NET 10.0.100-rc.1.25451.107                    |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |  - [MAUI 10.0.0-rc.1.25452.6](#maui)             |[2025/09/10](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                    |2025/06/12
-  |                |- .NET 9.0.8                                      |2025/08/07
-  |                |- .NET 8.0.19                                     |2025/08/07
+  |                |- .NET 9.0.9                                      |2025/09/10
+  |                |- .NET 8.0.20                                     |2025/09/10
 
 ## [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
 - Visual Studio Community 2026 18.0.0 Insiders
