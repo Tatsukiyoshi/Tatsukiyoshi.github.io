@@ -28,7 +28,7 @@ sidebar:
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
       |Windows Insider|Rust 1.89                                      |2025/08/17
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
-      |               |Svelte 5.38.2                                  |2025/09/04
+      |               |Svelte 5.38.6                                  |2025/09/04
       |               |Bun 1.2.21                                     |2025/08/30
       |               |Vite 7.1.4                                     |2025/09/04
 

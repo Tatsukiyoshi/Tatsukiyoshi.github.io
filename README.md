@@ -7,6 +7,7 @@ sidebar:
   nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
 ---
 # トップページ <a id="Top"></a>
+
 [ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
 ---
@@ -14,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/8/31～2025/9/6）](/digest/2025/August/5th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/9/7～2025/9/13）](/digest/2025/September/1st) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,8 +25,8 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/09/06|[Build 26220.5790](https://aka.ms/DevLatest)
-Chrome OS Flex                  |2025/09/04|[139.0.7258.164](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Windows Insider                 |2025/09/13|[Build 26220.6682](https://aka.ms/DevLatest)
+Chrome OS Flex                  |2025/09/12|[139.0.7258.172](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -36,15 +37,15 @@ Chrome OS Flex                  |2025/09/04|[139.0.7258.164](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/08/23|Update: Visual Studio Community 2022 17.14.13 / Visual Studio Community 2022 17.14.13 Preview 1.0
+[.NET](/knowhow/NET)             |2025/09/10|Update: Visual Studio Community 2026 18.0.0 Insiders / Visual Studio Community 2022 17.14.14
 [Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
-[Kotlin](/knowhow/Kotlin)        |2025/09/06|Update: Android Studio Narwhal 4 2025.1.4 Canary 4
-[Flutter](/knowhow/Flutter)      |2025/09/02|Update: Flutter 3.36.0-1.0.pre-372@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/04|Update: Node.js 24.7@Chrome OS Flex
+[Kotlin](/knowhow/Kotlin)        |2025/09/13|Update: Android Studio Narwhal 4 2025.1.4 Canary 5 / Kotlin 2.2.20
+[Flutter](/knowhow/Flutter)      |2025/09/09|Update: Flutter 3.37.0-1.0.pre-58@macOS
+[TypeScript](/knowhow/TypeScript)|2025/09/11|Update: React Native 0.81.4 / Expo SDK 54.0.1
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/08/24|Update: MySQL Community Server 9.4.0
+[Database & SQL](/knowhow/Database)    |2025/09/10|Update: SQL Server 2022 Developer 16.0.4212.1 / SQL Server Management Studio 21.5.14
 [Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
@@ -60,7 +61,7 @@ Other                            |Updated   |Detail
 [Swift](/knowhow/Others#swift)   |          |
 [Unity](/knowhow/Unity)          |          |
 
-###  創作物
+##  創作物
 ```
 知識を形にする
 ```
@@ -70,6 +71,14 @@ Other                            |Updated   |Detail
 - [Tauriデスクトップアプリケーション](/design/tauriApp/index)
 - [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
+
+##  GitHub Pages環境
+
+Platform                        |Updated
+--------------------------------|----------
+jekyll 4.4.1                    |[2025/07/29](https://jekyllrb.com/)
+minimal-mistakes-jekyll 4.27.3  |[2025/09/07](https://mmistakes.github.io/minimal-mistakes/)
+jekyll-remote-theme 0.4.3       |2025/09/07
 
 ---
 [プロフィール](/sub/Profile) | [トップへ戻る](#Top)

@@ -53,10 +53,10 @@ sidebar:
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |[Nuxt 3.16.0](#nuxt)               |[2025/03/23](https://nuxt.com/)
-      |                |        |React Native Windows 0.79.0        |[2025/06/13](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.2.16                       |2025/06/13
-      |                |        |- React Native 0.79.3              |2025/06/13
-      |                |        |- React 19.0.0                     |2025/06/13
+      |                |        |React Native Windows 0.80.0-pre.6  |[2025/09/09](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |- React Native 0.80.0              |2025/09/09
+      |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
       |                |        |[Svelte 5.36.12](#svelte)          |[2025/07/21](https://svelte.dev/)
       |                |        |- Bun 1.2.19                       |2025/07/19
@@ -77,12 +77,13 @@ sidebar:
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
       |           |        |Bun 1.2.21               |2025/08/30
-      |           |Mobile  |[Lynx 3.4.0](#lynx)      |[2025/08/30](https://lynxjs.org)
+      |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
-      |           |        |React Native 0.81.1      |[2025/09/01](https://reactnative.dev/)
-      |           |        |- Expo 54.0.0-preview.12 |[2025/09/01](https://github.com/expo/expo)
+      |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
+      |           |        |- Expo 54.0.1            |[2025/09/11](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
       |           |        |- Bun 1.2.21             |2025/08/30
+      |           |        |- Expo Go 54.0.4         |2025/09/11
 
 ##  ノウハウ
 ### TypeScript
@@ -353,18 +354,9 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
-        - React Native 0.81.1 / Expo SDK 54.0.0-preview.12
-          - EXPO_ROUTER_APP_ROOTに関するエラー
-            ```sh
-            ERROR node_modules/expo-router/_ctx.ios.js: node_modules/expo-router/_ctx.ios.js:Invalid call at line 2: process.env.EXPO_ROUTER_APP_ROOT
-            First argument of `require.context` should be a string denoting the directory to require.
-            ```
-            苦し紛れにbunで実行したら、解決
-            ```
-            bun --bun start
-            ```
+        - React Native 0.81.4 / Expo SDK 54.0.1
           - React 19.1.0
-            ![React Native 0.81.1 iOS](/images/Mac/20250901_ReactNative_0.81.1.png)
+            ![React Native 0.81.4 iOS](/images/Mac/20250911_ReactNative_0.81.4.png)
         - iOS
           - iOS エミュレータを起動
             ```
@@ -401,6 +393,16 @@ sidebar:
           ```sh
           bun windows
           ```
+        - 履歴
+          - React Native Windows 0.80.0-preview.6
+            - React Native 0.80.0
+            - React 19.1.0
+              ![React Native Windows 0.80.0-preview.6](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6.png)
+            - Migrate to the New Architecture
+              ```
+              npx react-native init-windows --template cpp-app --overwrite
+              ```
+              ![React Native Windows 0.80.0-preview.6 with New Architecture](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6_NewArchitecture.png)
           - React Native Windows 0.79.0
             - React Native 0.79.3
             - React 19.0.0
