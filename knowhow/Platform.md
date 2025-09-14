@@ -241,7 +241,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2025-06-30 20:00:34
+    - **Date generated:**                              2025-09-14 21:48:07
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -256,10 +256,9 @@ OS                                 |Hardware            |Language
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
     - **GNOME Version:**                               48
-    - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 6.14.0-22-generic
+    - **Windowing System:**                            X11
+    - **Kernel Version:**                              Linux 6.14.0-29-generic
     ```
-    
     </details>
 
     <details>
@@ -286,9 +285,7 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 6.14.0-22 / Ubuntu 25.04 <span style="color: red;">*<<2025/06/30 Updated>>*</span>
-    - 6.11.0-13 / Ubuntu 24.10
-    - 6.8.0-51 / Ubuntu 24.04
+    - 6.14.0-29 / Ubuntu 25.04 <span style="color: red;">*<<2025/09/14 Updated from 6.14.0-22>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) I
