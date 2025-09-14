@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.2.2 Preview](#intellij-idea)              |[2025/09/05](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.2.2 RC](#intellij-idea)                   |[2025/09/14](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |Amazon Coretto 22.0.2                                         |2024/11/16
@@ -36,11 +36,11 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.2.2 Preview (Ultimate Edition)
+  - IntelliJ IDEA 2025.2.2 RC (Ultimate Edition)
     ```
-    Build #IU-252.26199.7, built on September 3, 2025
-    Source revision: b53cd35b81ae8
-    Runtime version: 21.0.8+1-b1038.68 amd64 (JCEF 122.1.9)
+    Build #IU-252.26199.74, built on September 10, 2025
+    Source revision: 64ef3c3fe7d7a
+    Runtime version: 21.0.8+1-b1038.71 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -50,35 +50,19 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      JavaScriptDebugger (252.26199.7)
-      org.jetbrains.completion.full.line (252.26199.7)
-      com.intellij.notebooks.core (252.26199.11)
-      org.toml.lang (252.26199.11)
-      com.intellij.properties (252.26199.11)
-      com.intellij.velocity (252.26199.11)
-      com.intellij.liquibase (252.26199.7)
-      com.intellij.spring.boot (252.26199.7)
-      com.intellij.spring.data (252.26199.7)
-      org.jetbrains.kotlin (252.26199.7-IJ)
-      com.jetbrains.restClient (252.26199.7)
-      intellij.jupyter (252.26199.11)
-      org.jetbrains.plugins.kotlin.jupyter (252.26199.7)
-      Docker (252.26199.19)
-      com.intellij.ml.llm (252.26199.7)
-      tanvd.grazi (252.26199.7)
-      com.intellij.settingsSync (252.26199.7)
-      org.jetbrains.idea.maven (252.26199.7)
-      com.intellij.reactivestreams (252.26199.7)
-      org.jetbrains.android (252.26199.7)
+      org.jetbrains.completion.full.line (252.26199.74)
+      com.intellij.notebooks.core (252.26199.83)
+      org.toml.lang (252.26199.83)
       Dart (252.25557.23)
-      JavaScript (252.26199.7)
-      com.intellij.javaee.jpa (252.26199.7)
-      com.intellij.quarkus (252.26199.7)
-      com.intellij.react (252.26199.7)
-      org.jetbrains.plugins.vue (252.26199.19)
-      intellij.prettierJS (252.26199.7)
-      org.jetbrains.security.package-checker (252.26199.19)
-    Kotlin: 252.26199.7-IJ
+      com.intellij.properties (252.26199.83)
+      com.jetbrains.restClient (252.26199.74)
+      intellij.jupyter (252.26199.83)
+      org.jetbrains.plugins.kotlin.jupyter (252.26199.74)
+      Docker (252.26199.84)
+      com.intellij.ml.llm (252.26199.74)
+      org.jetbrains.android (252.26199.74)
+      org.jetbrains.security.package-checker (252.26199.84)
+    Kotlin: 252.26199.74-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
