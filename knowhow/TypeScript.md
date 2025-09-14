@@ -404,6 +404,11 @@ sidebar:
               ```
               ![React Native Windows 0.80.0-preview.6 with New Architecture](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6_NewArchitecture.png)
             - with Visual Studio 2026 Insiders
+              - Visual Studio 2026 Insiderでソリューションを開き、ターミナルで以下を実行
+                ```
+                yarn start
+                ```
+              - その後、ソリューションを実行すれば、アプリが実行できる
               ![React Native Windows 0.80.0-preview.6 with New VS2026](/images/JavaScript/20250914_ReactNativeWindows0.80.0-preview.6_VS2026.png)
           - React Native Windows 0.79.0
             - React Native 0.79.3
