@@ -54,7 +54,7 @@ Other                            |Updated   |Detail
 ---------------------------------|----------|--------
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 [Pascal](/knowhow/Others#pascal) |          |
