@@ -152,13 +152,13 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/Mac))
+##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
   - [Sequoia 15.6.1](https://www.apple.com/jp/macos/macos-sequoia/)
     <span style="color: red;">*<<2025/08/22 updated from Sequoia 15.6>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/Mac/20250822_macOS_Sequoia15.6.1Updating.png)
+      ![Update Check](/images/macOS/20250822_macOS_Sequoia15.6.1Updating.png)
     - バージョン情報
-      ![Sequoia 15.6.1](/images/Mac/20250822_macOS_Sequoia15.6.1.png)
+      ![Sequoia 15.6.1](/images/macOS/20250822_macOS_Sequoia15.6.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 

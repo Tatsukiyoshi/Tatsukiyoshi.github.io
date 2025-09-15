@@ -632,7 +632,7 @@ sidebar:
           - アンインストールのうえ、ユーザフォルダ配下にあるファイルを削除
           - 新規インストールを行い、起動確認
           - JetBrainsの日本語化パッケージを適用
-            [Android Studio Dolphin 日本語化を行いました（Mac）](https://zenn.dev/kurayasu/articles/c2d3bd2a046596)
+            [Android Studio Dolphin 日本語化を行いました（macOS）](https://zenn.dev/kurayasu/articles/c2d3bd2a046596)
     - Chipmunk 対応
       - Gradle 7.3.3 and Android Gradle Plugin 7.2.0
     - Arctic Fox 対応として吸収すべき課題 **@2021/11/23** <span style="color: red;">*updated!*</span>

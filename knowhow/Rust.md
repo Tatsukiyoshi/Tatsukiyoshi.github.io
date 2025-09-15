@@ -613,7 +613,7 @@ sidebar:
           ```
           bun tauri ios dev
           ```
-          ![iOS Emulator](/images/Mac/20240817_Tauri2.0RC2_iOS_Target.png)
+          ![iOS Emulator](/images/macOS/20240817_Tauri2.0RC2_iOS_Target.png)
 
           - 現状、bun で初期化を行うと、ビルドでエラーとなるため、npm で初期化を行うことで回避する
             ```

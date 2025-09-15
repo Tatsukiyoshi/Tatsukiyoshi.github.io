@@ -311,7 +311,7 @@ sidebar:
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)/([履歴](/history/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
-        ![LynxApp](/images/Mac/20250830_ReactLynxApp3.4.0.png)
+        ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
         - Lynxのバージョンを動的表示するように改修
           ```js
           setVersion(SystemInfo.engineVersion)
@@ -322,16 +322,16 @@ sidebar:
           bun create rspeedy@latest
           ```
           1.  DownLoad LynxExplorer / Install on Simulator
-              ![LynxExplorer](/images/Mac/20250426_ReactLynx_Explorer.png)
+              ![LynxExplorer](/images/macOS/20250426_ReactLynx_Explorer.png)
           1.  Execute Code
               ```
               bun run dev
               ```
-              ![App QR Code](/images/Mac/20250426_ReactLynx_QRcode.png)
+              ![App QR Code](/images/macOS/20250426_ReactLynx_QRcode.png)
           1.  Execute LynxApp
               - Copy URL
               - Paste URL to LynxExplorer
-                ![LynxApp](/images/Mac/20250426_ReactLynxApp.png)
+                ![LynxApp](/images/macOS/20250426_ReactLynxApp.png)
 
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
@@ -356,7 +356,7 @@ sidebar:
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
         - React Native 0.81.4 / Expo SDK 54.0.1
           - React 19.1.0
-            ![React Native 0.81.4 iOS](/images/Mac/20250911_ReactNative_0.81.4.png)
+            ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
         - iOS
           - iOS エミュレータを起動
             ```
