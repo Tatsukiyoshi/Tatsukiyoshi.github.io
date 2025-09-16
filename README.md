@@ -40,7 +40,7 @@ Language                         |Updated   |Detail
 [.NET](/knowhow/NET)             |2025/09/10|Update: Visual Studio Community 2026 18.0.0 Insiders / Visual Studio Community 2022 17.14.14
 [Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
 [Kotlin](/knowhow/Kotlin)        |2025/09/14|Update: IntelliJ IDEA 2025.2.2 RC
-[Flutter](/knowhow/Flutter)      |2025/09/09|Update: Flutter 3.37.0-1.0.pre-58@macOS
+[Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/11|Update: React Native 0.81.4 / Expo SDK 54.0.1
 
 Common                                 |Updated   |Detail
