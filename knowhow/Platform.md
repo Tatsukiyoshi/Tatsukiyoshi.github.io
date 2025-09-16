@@ -153,12 +153,19 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Sequoia 15.6.1](https://www.apple.com/jp/macos/macos-sequoia/)
-    <span style="color: red;">*<<2025/08/22 updated from Sequoia 15.6>>*</span>
+  - [Tahoe 26.0](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/09/16 updated from Sequoia 15.6.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20250822_macOS_Sequoia15.6.1Updating.png)
+      ![Update Check](/images/macOS/20250916_macOS_Tahoe26.0Update.png)
+    - アップデート後初期表示
+      ![Updated1](/images/macOS/20250916_macOS_Tahoe26.0Updated1.png)
+      ![Updated2](/images/macOS/20250916_macOS_Tahoe26.0Updated2.png)
+      ![Updated3](/images/macOS/20250916_macOS_Tahoe26.0Updated3.png)
+      ![Updated4](/images/macOS/20250916_macOS_Tahoe26.0Updated4.png)
+      ![Updated5](/images/macOS/20250916_macOS_Tahoe26.0Updated5.png)
+      ![Greeting](/images/macOS/20250916_macOS_Tahoe26.0Greeting.png)
     - バージョン情報
-      ![Sequoia 15.6.1](/images/macOS/20250822_macOS_Sequoia15.6.1.png)
+      ![Tahoe 26.0](/images/macOS/20250916_macOS_Tahoe26.0.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 

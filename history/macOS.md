@@ -5,6 +5,37 @@ sidebar:
   nav: main
 ---
 - Update History
+  - [Tahoe 26.0](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/09/16 updated from Sequoia 15.6.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20250916_macOS_Tahoe26.0Update.png)
+    - アップデート後初期表示
+      ![Updated1](/images/macOS/20250916_macOS_Tahoe26.0Updated1.png)
+      ![Updated2](/images/macOS/20250916_macOS_Tahoe26.0Updated2.png)
+      ![Updated3](/images/macOS/20250916_macOS_Tahoe26.0Updated3.png)
+      ![Updated4](/images/macOS/20250916_macOS_Tahoe26.0Updated4.png)
+      ![Updated5](/images/macOS/20250916_macOS_Tahoe26.0Updated5.png)
+      ![Greeting](/images/macOS/20250916_macOS_Tahoe26.0Greeting.png)
+    - バージョン情報
+      ![Tahoe 26.0](/images/macOS/20250916_macOS_Tahoe26.0.png)
+  - [Sequoia 15.6.1](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/08/22 updated from Sequoia 15.6>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20250822_macOS_Sequoia15.6.1Updating.png)
+    - バージョン情報
+      ![Sequoia 15.6.1](/images/macOS/20250822_macOS_Sequoia15.6.1.png)
+  - [Sequoia 15.6](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/07/30 updated from Sequoia 15.5>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20250730_MacOS_Sequoia15.6Updating.png)
+    - バージョン情報
+      ![Sequoia 15.6](/images/macOS/20250730_MacOS_Sequoia15.6.png)
+  - [Sequoia 15.5](https://www.apple.com/jp/macos/macos-sequoia/)
+    <span style="color: red;">*<<2025/05/16 updated from Sequoia 15.4.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20250516_MacOS_Sequoia15.5Updating.png)
+    - バージョン情報
+      ![Sequoia 15.5](/images/macOS/20250516_MacOS_Sequoia15.5.png)
   - Sequoia 15.4.1
     <span style="color: red;">*<<2025/04/17 updated from Sequoia 15.4>>*</span>
     - ソフトウェアアップデート
