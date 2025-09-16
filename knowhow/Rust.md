@@ -61,8 +61,8 @@ sidebar:
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.8.5          |2025/09/04
       |           |React 19.1.1         |2025/08/19
-      |           |Bun 1.2.21           |2025/08/30
-      |           |Vite 7.1.4           |2025/09/04
+      |           |Bun 1.2.22           |2025/09/16
+      |           |Vite 7.1.5           |2025/09/16
 
 ##  ノウハウ
 ### Rust
@@ -384,6 +384,17 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.8.5
+    - iOS 26.0 / iPhone 17 Pro
+      - FE/BEともにクリーンして再ビルド
+        ```
+        cargo clean
+        ```
+        ```
+        rm -rf node_modules/
+        bun install
+        bun tauri ios dev
+        ```
+        ![On iOS 26](/images/rust/20250916_Tauri2.8.5_iPhone17_Pro_iOS26.png)
     - Windows
       ![On Windows](/images/rust/20250904_Tauri2.8.5_Windows.png)
     - Ubuntu 24.04.3 on WSL2
