@@ -48,6 +48,8 @@ OS                                 |Hardware            |Language
     - Build 26220.6682 (Cumulative Update) <span style="color: red;">*<<2025/09/13 updated from Build 26220.5790 >>*</span>
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](/images/Windows/20250913_Windows11_Build26220.png)
+      - Emoji 16.0（指紋等が追加）
+        ![Emoji 16.0](/images/Windows/20250913_Windows11_Emoji16.0.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
