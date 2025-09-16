@@ -82,7 +82,7 @@ sidebar:
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
       |           |        |- Expo 54.0.1            |[2025/09/11](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
-      |           |        |- Bun 1.2.21             |2025/08/30
+      |           |        |- Bun 1.2.22             |2025/09/16
       |           |        |- Expo Go 54.0.4         |2025/09/11
 
 ##  ノウハウ
@@ -354,6 +354,9 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+        - React Native 0.81.4 / Expo SDK 54.0.1 / iOS 26 / iPhone Air
+          - React 19.1.0
+            ![React Native 0.81.4 iOS](/images/macOS/20250916_ReactNative_0.81.4.png)
         - React Native 0.81.4 / Expo SDK 54.0.1
           - React 19.1.0
             ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
