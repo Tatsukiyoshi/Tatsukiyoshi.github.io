@@ -42,7 +42,7 @@ sidebar:
       |                |Bun 1.2.22      |2025/09/20
       |                |Vite 7.1.6      |2025/09/20
 
-  1. Chrome OS Flex 139.0.7258.164 (Official Build)
+  1. Chrome OS Flex 140.0.7339.201 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
@@ -53,16 +53,16 @@ sidebar:
       |           |Bun 1.2.22                                |2025/09/20
       |           |Vite 7.1.6                                |2025/09/20
 
-  1. macOS Sequoia 15.6.1
+  1. macOS Tahoe 26
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.89            |2025/08/19
+      |macOS      |Rust 1.90            |2025/09/20
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.8.5          |2025/09/04
       |           |React 19.1.1         |2025/08/19
       |           |Bun 1.2.22           |2025/09/16
-      |           |Vite 7.1.5           |2025/09/16
+      |           |Vite 7.1.6           |2025/09/20
 
 ##  ノウハウ
 ### Rust
@@ -388,10 +388,14 @@ sidebar:
       ![On Windows](/images/rust/20250920_Tauri2.8.5_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20250920_Tauri2.8.5_Ubuntu24.04.3.png)
+    - macOS 26
+      ![On macOS](/images/rust/20250920_Tauri2.8.5_mac26.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250920_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
+    - iOS 26.0 / iPhone 17 Pro
+      ![On iOS 26](/images/rust/20250920_Tauri2.8.5_iPhone17_Pro_iOS26.png)
   - V2.8.5 + Rust 1.89
     - iOS 26.0 / iPhone 17 Pro
       - FE/BEともにクリーンして再ビルド
