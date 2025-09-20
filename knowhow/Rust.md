@@ -46,12 +46,12 @@ sidebar:
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.89                                 |2025/08/19
+      |Chrome OS  |Rust 1.90                                 |2025/09/20
       |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
       |           |React 19.1.1                              |2025/08/19
-      |           |Bun 1.2.21                                |2025/09/04
-      |           |Vite 7.1.4                                |2025/09/04
+      |           |Bun 1.2.22                                |2025/09/20
+      |           |Vite 7.1.6                                |2025/09/20
 
   1. macOS Sequoia 15.6.1
 
@@ -388,6 +388,8 @@ sidebar:
       ![On Windows](/images/rust/20250920_Tauri2.8.5_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20250920_Tauri2.8.5_Ubuntu24.04.3.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250920_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
   - V2.8.5 + Rust 1.89
