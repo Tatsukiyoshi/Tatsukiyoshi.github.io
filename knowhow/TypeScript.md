@@ -34,7 +34,7 @@ sidebar:
       |                |        |- [fresh 1.7.3](#fresh)            |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
-      |                |        |Vite 7.0.5                         |[2025/07/21](https://vitejs.dev/)
+      |                |        |Vite 7.1.6                         |[2025/09/20](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)            |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
@@ -58,9 +58,9 @@ sidebar:
       |                |        |- React Native 0.80.0              |2025/09/09
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.36.12](#svelte)          |[2025/07/21](https://svelte.dev/)
-      |                |        |- Bun 1.2.19                       |2025/07/19
-      |                |        |- Vite 7.0.5                       |2025/07/21
+      |                |        |[Svelte 5.39.3](#svelte)           |[2025/09/20](https://svelte.dev/)
+      |                |        |- Bun 1.2.22                       |2025/09/20
+      |                |        |- Vite 7.1.6                       |2025/09/20
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22
@@ -360,6 +360,8 @@ sidebar:
         - React Native 0.81.4 / Expo SDK 54.0.1
           - React 19.1.0
             ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
+        - Expo SDKは、React Native リビジョン２つごとにバージョンアップする模様
+          - 例）Expo 54は、React Native 0.81に対応し、Expo 55は、React Native 0.83に対応する
         - iOS
           - iOS エミュレータを起動
             ```
