@@ -26,21 +26,21 @@ sidebar:
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
-      |Windows Insider|Rust 1.89                                      |2025/08/17
+      |Windows Insider|Rust 1.90                                      |2025/09/20
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
-      |               |Svelte 5.38.6                                  |2025/09/04
+      |               |Svelte 5.39.3                                  |2025/09/20
       |               |Bun 1.2.21                                     |2025/08/30
-      |               |Vite 7.1.4                                     |2025/09/04
+      |               |Vite 7.1.6                                     |2025/09/20
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.89       |2025/08/17
+      |Windows Insider |Rust 1.90       |2025/09/20
       |                |Tauri 2.8.5     |2025/09/04
       |                |React 19.1.1    |2025/08/17
-      |                |Bun 1.2.21      |2025/09/04
-      |                |Vite 7.1.4      |2025/09/04
+      |                |Bun 1.2.22      |2025/09/20
+      |                |Vite 7.1.6      |2025/09/20
 
   1. Chrome OS Flex 139.0.7258.164 (Official Build)
 
@@ -383,7 +383,14 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
-  - V2.8.5
+  - V2.8.5 + Rust 1.90
+    - Windows
+      ![On Windows](/images/rust/20250920_Tauri2.8.5_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20250920_Tauri2.8.5_Ubuntu24.04.3.png)
+    - Android 16 QPR2 Beta 1 / Pixel 9a
+      ![On Android 16](/images/rust/20250920_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
+  - V2.8.5 + Rust 1.89
     - iOS 26.0 / iPhone 17 Pro
       - FE/BEともにクリーンして再ビルド
         ```
