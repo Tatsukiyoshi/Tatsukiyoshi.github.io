@@ -1,6 +1,7 @@
 ---
 title:  Carbon
 layout: single
+classes: wide
 sidebar:
   nav: main
 ---
@@ -8,16 +9,933 @@ sidebar:
 
   |Machine         |Env / FW      |Last Updated
   |----------------|--------------|----------
-  |Windows Insider |Carbon        |2025/04/06
-  |                |- clang 19.1.7|2025/04/06
-  |Ubuntu Desktop  |Carbon        |2025/04/27
-  |                |- clang 20.1.2|2025/04/26
+  |Windows Insider |Carbon        |[2025/09/15](https://github.com/carbon-language/carbon-lang)
+  |                |- bazel 8.3.1 |2025/09/15
+  |                |- clang 21.1.1|[2025/09/15](https://llvm.org/)
+  |Ubuntu Desktop  |Carbon        |2025/09/15
+  |                |- bazel 8.3.1 |2025/09/14
+  |                |- clang 21.1.1|[2025/09/14](https://llvm.org/)
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
+### Ubuntu 24.04.3 環境更新（３回目） [**2025/09/15** <span style="color: red;">*Updated with 21.1.1 instead of the previous 19.1.7*</span>]
+1.  clang-21, libc++-21-dev, libc++abi-21-dev, lld-21の導入
+	1.  必要なパッケージのインストール
+		```
+		sudo apt update
+		```
+
+		-	前回インストール済みのため、インストール対象なし
+			```
+			sudo apt install -y wget software-properties-common gnupg
+			```
+
+	1.	LLVM GPGキーの追加
+		-	前回追加済みのため、上書き
+			```
+			wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/llvm-archive-keyring.gpg
+			```
+
+	1.  LLVM APTリポジトリの追加
+		```
+		sudo add-apt-repository "deb http://apt.llvm.org/noble/ llvm-toolchain-noble-21 main"
+		# 必要であればソースリポジトリも追加
+		# sudo add-apt-repository "deb-src http://apt.llvm.org/noble/ llvm-toolchain-noble-21 main"
+		```
+
+		<details>
+		<summary>
+		追加結果
+		</summary>
+
+		```
+		Repository: 'deb http://apt.llvm.org/noble/ llvm-toolchain-noble-21 main'
+		Description:
+		Archive for codename: llvm-toolchain-noble-21 components: main
+		More info: http://apt.llvm.org/noble/
+		Adding repository.
+		Press [ENTER] to continue or Ctrl-c to cancel.
+		Adding deb entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_noble_-noble.list
+		Adding disabled deb-src entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_noble_-noble.list
+		Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+		Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+		Hit:1 https://apt.llvm.org/noble llvm-toolchain-noble-19 InRelease
+		Hit:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+		Get:2 https://apt.llvm.org/noble llvm-toolchain-noble-21 InRelease [5554 B]
+		Hit:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+		Get:7 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 Packages [13.1 kB]
+		Fetched 18.7 kB in 1s (16.8 kB/s)
+		Reading package lists... Done
+		```
+
+		</details>
+
+	1.  パッケージリストの更新
+		```
+		sudo apt update
+		```
+
+		<details>
+		<summary>
+		更新結果
+		</summary>
+
+		```
+		Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+		Hit:4 http://archive.ubuntu.com/ubuntu noble InRelease
+		Hit:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+		Hit:1 https://apt.llvm.org/noble llvm-toolchain-noble-19 InRelease
+		Hit:2 https://apt.llvm.org/noble llvm-toolchain-noble-21 InRelease
+		Hit:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+		Reading package lists... Done
+		Building dependency tree... Done
+		Reading state information... Done
+		All packages are up to date.
+		```
+		</details>
+
+	1.  Clang 21と関連パッケージのインストール
+		```
+		sudo apt install -y clang-21 libc++-21-dev libc++abi-21-dev lld-21
+		```
+
+		<details>
+		<summary>
+		インストール結果
+		</summary>
+
+		```
+		Reading package lists... Done
+		Building dependency tree... Done
+		Reading state information... Done
+		The following additional packages will be installed:
+			clang-tools-21 libc++1-21 libc++abi1-21 libclang-common-21-dev libclang-cpp21 libclang-rt-21-dev libclang1-21
+			libllvm21 libunwind-21 libunwind-21-dev llvm-21 llvm-21-dev llvm-21-linker-tools llvm-21-runtime llvm-21-tools
+		Suggested packages:
+			clang-21-doc wasi-libc llvm-21-doc
+		The following packages will be REMOVED:
+			libc++-19-dev libc++1-19 libc++abi-19-dev libc++abi1-19 libunwind-19 libunwind-19-dev
+		The following NEW packages will be installed:
+			clang-21 clang-tools-21 libc++-21-dev libc++1-21 libc++abi-21-dev libc++abi1-21 libclang-common-21-dev
+			libclang-cpp21 libclang-rt-21-dev libclang1-21 libllvm21 libunwind-21 libunwind-21-dev lld-21 llvm-21
+			llvm-21-dev llvm-21-linker-tools llvm-21-runtime llvm-21-tools
+		0 upgraded, 19 newly installed, 6 to remove and 0 not upgraded.
+		Need to get 151 MB of archives.
+		After this operation, 855 MB of additional disk space will be used.
+		Get:1 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libllvm21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [30.9 MB]
+		Get:2 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libclang-cpp21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [13.9 MB]
+		Get:3 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libclang-common-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [796 kB]
+		Get:4 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 llvm-21-linker-tools amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [1379 kB]
+		Get:5 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libclang1-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [8281 kB]
+		Get:6 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 clang-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [122 kB]
+		Get:7 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 clang-tools-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [9697 kB]
+		Get:8 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libunwind-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [66.5 kB]
+		Get:9 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libc++abi1-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [116 kB]
+		Get:10 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libc++1-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [363 kB]
+		Get:11 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libc++abi-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [142 kB]
+		Get:12 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libunwind-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [88.0 kB]
+		Get:13 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libc++-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [1563 kB]
+		Get:14 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 libclang-rt-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [4145 kB]
+		Get:15 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 lld-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [1581 kB]
+		Get:16 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 llvm-21-runtime amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [614 kB]
+		Get:17 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 llvm-21 amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [20.2 MB]
+		Get:18 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 llvm-21-tools amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [598 kB]
+		Get:19 https://apt.llvm.org/noble llvm-toolchain-noble-21/main amd64 llvm-21-dev amd64 1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29 [56.4 MB]
+		Fetched 151 MB in 6s (23.8 MB/s)
+		(Reading database ... 64081 files and directories currently installed.)
+		Removing libc++-19-dev (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Removing libc++1-19 (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Removing libc++abi-19-dev (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Removing libc++abi1-19 (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Removing libunwind-19-dev (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Removing libunwind-19 (1:19.1.7~++20250804090312+cd708029e0b2-1~exp1~20250804210325.79) ...
+		Selecting previously unselected package libllvm21:amd64.
+		(Reading database ... 62800 files and directories currently installed.)
+		Preparing to unpack .../00-libllvm21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libllvm21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libclang-cpp21.
+		Preparing to unpack .../01-libclang-cpp21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libclang-cpp21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libclang-common-21-dev:amd64.
+		Preparing to unpack .../02-libclang-common-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libclang-common-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package llvm-21-linker-tools.
+		Preparing to unpack .../03-llvm-21-linker-tools_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking llvm-21-linker-tools (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libclang1-21.
+		Preparing to unpack .../04-libclang1-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libclang1-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package clang-21.
+		Preparing to unpack .../05-clang-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking clang-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package clang-tools-21.
+		Preparing to unpack .../06-clang-tools-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking clang-tools-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libunwind-21:amd64.
+		Preparing to unpack .../07-libunwind-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libunwind-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libc++abi1-21:amd64.
+		Preparing to unpack .../08-libc++abi1-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libc++abi1-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libc++1-21:amd64.
+		Preparing to unpack .../09-libc++1-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libc++1-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libc++abi-21-dev:amd64.
+		Preparing to unpack .../10-libc++abi-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libc++abi-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libunwind-21-dev:amd64.
+		Preparing to unpack .../11-libunwind-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libunwind-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libc++-21-dev:amd64.
+		Preparing to unpack .../12-libc++-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libc++-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package libclang-rt-21-dev:amd64.
+		Preparing to unpack .../13-libclang-rt-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking libclang-rt-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package lld-21.
+		Preparing to unpack .../14-lld-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking lld-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package llvm-21-runtime.
+		Preparing to unpack .../15-llvm-21-runtime_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking llvm-21-runtime (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package llvm-21.
+		Preparing to unpack .../16-llvm-21_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking llvm-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package llvm-21-tools.
+		Preparing to unpack .../17-llvm-21-tools_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking llvm-21-tools (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Selecting previously unselected package llvm-21-dev.
+		Preparing to unpack .../18-llvm-21-dev_1%3a21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29_amd64.deb ...
+		Unpacking llvm-21-dev (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libllvm21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up llvm-21-linker-tools (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libunwind-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libclang-rt-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libclang-common-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libclang1-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libunwind-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up lld-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libclang-cpp21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up llvm-21-tools (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up llvm-21-runtime (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libc++abi1-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up clang-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libc++abi-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up clang-tools-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libc++1-21:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up llvm-21 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up libc++-21-dev:amd64 (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Setting up llvm-21-dev (1:21.1.1~++20250908083528+fa462a66e418-1~exp1~20250908083545.29) ...
+		Processing triggers for systemd (255.4-1ubuntu8.10) ...
+		Processing triggers for man-db (2.12.0-4build2) ...
+		Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+
+	1.  優先度の設定
+		1.  clang
+			```
+			# 例: clang の優先度を設定
+			# sudo update-alternatives --remove clang /usr/bin/clang-19
+			# sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-21 100
+			```
+
+		1.  clang++
+			```
+			# sudo update-alternatives --remove clang++ /usr/bin/clang++-19
+			# sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-21 100
+			```
+
+		1.  lld
+			```
+			# sudo update-alternatives --remove lld /usr/bin/lld-19
+			# sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-21 100
+			```
+
+1.  Carbon コードの取得
+	```
+	git clone https://github.com/carbon-language/carbon-lang
+	```
+	-	前回取得済みのため、Git Graphで最新取得
+
+1.  ツールチェーンのヘルプ表示
+	```
+	cd carbon-lang
+	./scripts/run_bazelisk.py run //toolchain -- help
+	```
+
+    <details>
+    <summary>
+    実行結果
+    </summary>
+
+    ```
+    2025/09/15 02:05:29 Downloading https://releases.bazel.build/8.3.1/release/bazel-8.3.1-linux-x86_64...
+    Downloading: 61 MB out of 61 MB (100%)
+    Extracting Bazel installation...
+    Starting local Bazel server (8.3.1) and connecting to it...
+    INFO: Invocation ID: 5438876c-5fca-4908-940b-05338d33cf0a
+    INFO: Analyzed target //toolchain:toolchain (113 packages loaded, 12574 targets configured).
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 34190.115s, Critical Path: 239.65s
+    INFO: 4609 processes: 44 action cache hit, 9 disk cache hit, 838 internal, 3762 linux-sandbox.
+    INFO: Build completed successfully, 4609 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+20ac6b927
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] build-runtimes [OPTIONS]
+    carbon [OPTIONS] clang [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>... -- [<CLANG-ARG>...]
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+    carbon [OPTIONS] lld [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] llvm ar [<ARG>...]
+    carbon [OPTIONS] llvm cgdata [<ARG>...]
+    carbon [OPTIONS] llvm cxxfilt [<ARG>...]
+    carbon [OPTIONS] llvm debuginfod-find [<ARG>...]
+    carbon [OPTIONS] llvm dsymutil [<ARG>...]
+    carbon [OPTIONS] llvm dwp [<ARG>...]
+    carbon [OPTIONS] llvm gsymutil [<ARG>...]
+    carbon [OPTIONS] llvm ifs [<ARG>...]
+    carbon [OPTIONS] llvm libtool-darwin [<ARG>...]
+    carbon [OPTIONS] llvm lipo [<ARG>...]
+    carbon [OPTIONS] llvm ml [<ARG>...]
+    carbon [OPTIONS] llvm mt [<ARG>...]
+    carbon [OPTIONS] llvm nm [<ARG>...]
+    carbon [OPTIONS] llvm objcopy [<ARG>...]
+    carbon [OPTIONS] llvm objdump [<ARG>...]
+    carbon [OPTIONS] llvm profdata [<ARG>...]
+    carbon [OPTIONS] llvm rc [<ARG>...]
+    carbon [OPTIONS] llvm readobj [<ARG>...]
+    carbon [OPTIONS] llvm sancov [<ARG>...]
+    carbon [OPTIONS] llvm size [<ARG>...]
+    carbon [OPTIONS] llvm symbolizer [<ARG>...]
+    carbon [OPTIONS] llvm ranlib [<ARG>...]
+    carbon [OPTIONS] llvm lib [<ARG>...]
+    carbon [OPTIONS] llvm dlltool [<ARG>...]
+    carbon [OPTIONS] llvm bitcode-strip [<ARG>...]
+    carbon [OPTIONS] llvm install-name-tool [<ARG>...]
+    carbon [OPTIONS] llvm strip [<ARG>...]
+    carbon [OPTIONS] llvm otool [<ARG>...]
+    carbon [OPTIONS] llvm windres [<ARG>...]
+    carbon [OPTIONS] llvm readelf [<ARG>...]
+    carbon [OPTIONS] llvm addr2line [<ARG>...]
+
+    Subcommands:
+    build-runtimes
+            Build Carbon's runtime libraries.
+
+            This subcommand builds Carbon's runtime libraries for a particular code generation target, either in their default location or a specified one.
+
+            Running this command directly is not necessary as Carbon will build and cache runtimes as needed when linking, but building them directly can aid in debugging issues or allow them to be prebuilt, possibly with customized code generation flags, and used explicitly when linking.
+
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    lld
+            Runs LLD with the provided arguments.
+
+            Note that a specific LLD platform must be selected, and it is actually that particular platform's LLD-driver that is run with the arguments. There is no generic LLD command line.
+
+            For a given platform, this is equivalent to running that platform's LLD alias directly, and provides the full command line interface.
+
+            Use `carbon lld --platform=elf -- ARGS` to separate the `ARGS` forwarded to LLD from the flags passed to the Carbon subcommand.
+
+            Note that typically it is better to use a higher level command to link code, such as invoking `carbon link` with the relevant flags. However, this subcommand supports when you already have a specific invocation using existing command line syntaxes, as well as testing and debugging of the underlying tool.
+
+    llvm
+            Runs LLVM's command line tools with the provided arguments.
+
+            This subcommand provides access to a collection of LLVM's command line tools via further subcommands. For each of these tools, their command line can be provided using positional arguments.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+        --include-diagnostic-kind
+            When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+
+### Ubuntu Desktop 25.04 環境更新（２回目） [**@2025/09/14** <span style="color: red;">*Updated!*</span>]
+1.  clang-21, libc++-21-dev, libc++abi-21-dev, lld-21の導入
+    1.  必要なパッケージのインストール
+        ```
+        sudo apt update
+        ```
+
+        <details>
+        <summary>
+        アップデートチェック結果
+        </summary>
+
+        ```
+        ヒット:1 http://security.ubuntu.com/ubuntu plucky-security InRelease           
+        ヒット:2 http://jp.archive.ubuntu.com/ubuntu plucky InRelease                  
+        ヒット:3 http://jp.archive.ubuntu.com/ubuntu plucky-updates InRelease
+        ヒット:4 http://jp.archive.ubuntu.com/ubuntu plucky-backports InRelease
+        アップグレードできるパッケージが 6 個あります。表示するには 'apt list --upgradable' を実行してください。
+        ```
+        </details>
+
+        ```
+        sudo apt list --upgradable
+        ```
+
+        <details>
+        <summary>
+        アップデート候補リスト
+        </summary>
+
+        ```
+        dconf-cli/plucky-updates 0.40.0-5ubuntu0.1 amd64 [0.40.0-5 からアップグレード可]
+        dconf-gsettings-backend/plucky-updates 0.40.0-5ubuntu0.1 amd64 [0.40.0-5 からア>
+        dconf-service/plucky-updates 0.40.0-5ubuntu0.1 amd64 [0.40.0-5 からアップグレー>
+        fwupd/plucky-updates 2.0.13-1~25.04.1 amd64 [2.0.7-1 からアップグレード可]
+        libdconf1/plucky-updates 0.40.0-5ubuntu0.1 amd64 [0.40.0-5 からアップグレード可]
+        libfwupd3/plucky-updates 2.0.13-1~25.04.1 amd64 [2.0.7-1 からアップグレード可]
+        ```
+        </details>
+
+    1.  LLVM GPGキーの追加
+        ```
+        wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/llvm-archive-keyring.gpg
+        ```
+
+    1.  LLVM APTリポジトリの追加
+        ```
+        sudo add-apt-repository "deb http://apt.llvm.org/plucky/ llvm-toolchain-plucky-21 main"
+        # 必要であればソースリポジトリも追加
+        # sudo add-apt-repository "deb-src http://apt.llvm.org/plucky/ llvm-toolchain-plucky-21 main"
+        ```
+
+        <details>
+        <summary>
+        追加結果
+        </summary>
+
+        ```
+        リポジトリ: 'deb http://apt.llvm.org/plucky/ llvm-toolchain-plucky-21 main'
+        概要：
+        Archive for codename: llvm-toolchain-plucky-21 components: main
+        より詳しい情報: http://apt.llvm.org/plucky/
+        リポジトリを追加しています。
+        続けるには「Enter」キーを、中止するにはCtrl-cを押してください。
+        debエントリを/etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_plucky_-plucky.listに追加
+        無効なdeb-srcエントリを/etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_plucky_-plucky.listに追加
+        ヒット:2 http://security.ubuntu.com/ubuntu plucky-security InRelease           
+        取得:1 https://apt.llvm.org/plucky llvm-toolchain-plucky-21 InRelease [5,555 B]
+        ヒット:3 http://jp.archive.ubuntu.com/ubuntu plucky InRelease      
+        ヒット:4 http://jp.archive.ubuntu.com/ubuntu plucky-updates InRelease
+        取得:5 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 Packages [13.1 kB]
+        ヒット:6 http://jp.archive.ubuntu.com/ubuntu plucky-backports InRelease
+        18.7 kB を 2秒 で取得しました (10.0 kB/s)
+        パッケージリストを読み込んでいます... 完了
+        N: リポジトリ 'http://apt.llvm.org/plucky llvm-toolchain-plucky-21 InRelease' がアーキテクチャ 'i386' をサポートしないため設定ファイル 'main/binary-i386/Packages' の取得をスキップ
+        N: Some sources can be modernized. Run 'apt modernize-sources' to do so.
+        ```
+        </details>
+
+    1.  パッケージリストの更新
+        ```
+        sudo apt update
+        ```
+
+        <details>
+        <summary>
+        パッケージリストの更新結果
+        </summary>
+
+        ```
+        ヒット:2 http://security.ubuntu.com/ubuntu plucky-security InRelease           
+        ヒット:3 http://jp.archive.ubuntu.com/ubuntu plucky InRelease                  
+        ヒット:4 http://jp.archive.ubuntu.com/ubuntu plucky-updates InRelease          
+        ヒット:5 http://jp.archive.ubuntu.com/ubuntu plucky-backports InRelease        
+        ヒット:1 https://apt.llvm.org/plucky llvm-toolchain-plucky-21 InRelease        
+        アップグレードできるパッケージが 2 個あります。表示するには 'apt list --upgradable' を実行してください。
+        Notice: リポジトリ 'http://apt.llvm.org/plucky llvm-toolchain-plucky-21 InRelease' がアーキテクチャ 'i386' をサポートしないため設定ファイル 'main/binary-i386/Packages' の取得をスキップ
+        Notice: Some sources can be modernized. Run 'apt modernize-sources' to do so.
+        ```
+        </details>
+
+    1.  Clang 21と関連パッケージのインストール
+        ```
+        sudo apt install -y clang-21 libc++-21-dev libc++abi-21-dev lld-21
+        ```
+
+        <details>
+        <summary>
+        パッケージインストールログ
+        </summary>
+
+        ```
+        Installing:                                                
+        clang-21  libc++-21-dev  libc++abi-21-dev  lld-21
+
+        Installing dependencies:
+        clang-tools-21          libclang-rt-21-dev  llvm-21
+        libc++1-21              libclang1-21        llvm-21-dev
+        libc++abi1-21           libllvm21           llvm-21-linker-tools
+        libclang-common-21-dev  libunwind-21        llvm-21-runtime
+        libclang-cpp21          libunwind-21-dev    llvm-21-tools
+
+        提案パッケージ:
+        clang-21-doc  wasi-libc  llvm-21-doc
+
+        REMOVING:
+        libc++-20-dev  libc++1-20        libc++abi-dev  libunwind-20
+        libc++-dev     libc++abi-20-dev  libc++abi1-20  libunwind-20-dev
+
+        Summary:
+        Upgrading: 0, Installing: 19, Removing: 8, Not Upgrading: 2
+        Download size: 146 MB
+        Space needed: 826 MB / 69.7 GB available
+
+        取得:1 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libllvm21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [30.8 MB]
+        取得:2 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libclang-cpp21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [13.8 MB]
+        取得:3 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libclang-common-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [796 kB]
+        取得:4 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 llvm-21-linker-tools amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [1,349 kB]
+        取得:5 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libclang1-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [8,216 kB]
+        取得:6 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 clang-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [122 kB]
+        取得:7 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 clang-tools-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [9,613 kB]
+        取得:8 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libunwind-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [66.4 kB]
+        取得:9 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libc++abi1-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [114 kB]
+        取得:10 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libc++1-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [353 kB]
+        取得:11 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libc++abi-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [142 kB]
+        取得:12 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libunwind-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [87.8 kB]
+        取得:13 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libc++-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [1,559 kB]
+        取得:14 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 libclang-rt-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [4,146 kB]
+        取得:15 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 lld-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [1,573 kB]
+        取得:16 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 llvm-21-runtime amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [608 kB]
+        取得:17 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 llvm-21 amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [20.1 MB]
+        取得:18 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 llvm-21-tools amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [587 kB]
+        取得:19 https://apt.llvm.org/plucky llvm-toolchain-plucky-21/main amd64 llvm-21-dev amd64 1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28 [52.1 MB]
+        146 MB を 58秒 で取得しました (2,502 kB/s)                                     
+        (データベースを読み込んでいます ... 現在 437756 個のファイルとディレクトリがイン
+        ストールされています。)
+        libc++-dev:amd64 (1:20.0-63ubuntu1) を削除しています ...
+        libc++-20-dev:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        libc++1-20:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        libc++abi-dev:amd64 (1:20.0-63ubuntu1) を削除しています ...
+        libc++abi-20-dev:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        libc++abi1-20:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        libunwind-20-dev:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        libunwind-20:amd64 (1:20.1.2-0ubuntu1) を削除しています ...
+        以前に未選択のパッケージ libllvm21:amd64 を選択しています。
+        (データベースを読み込んでいます ... 現在 435349 個のファイルとディレクトリがイン
+        ストールされています。)
+        .../00-libllvm21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.
+        28_amd64.deb を展開する準備をしています ...
+        libllvm21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28
+        ) を展開しています...
+        以前に未選択のパッケージ libclang-cpp21 を選択しています。
+        .../01-libclang-cpp21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28_amd64.deb を展開する準備をしています ...
+        libclang-cpp21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28)
+        を展開しています...
+        以前に未選択のパッケージ libclang-common-21-dev:amd64 を選択しています。
+        .../02-libclang-common-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20
+        250908083736.28_amd64.deb を展開する準備をしています ...
+        libclang-common-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025
+        0908083736.28) を展開しています...
+        以前に未選択のパッケージ llvm-21-linker-tools を選択しています。
+        .../03-llvm-21-linker-tools_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~2025
+        0908083736.28_amd64.deb を展開する準備をしています ...
+        llvm-21-linker-tools (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~202509080837
+        36.28) を展開しています...
+        以前に未選択のパッケージ libclang1-21 を選択しています。
+        .../04-libclang1-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~202509080837
+        36.28_amd64.deb を展開する準備をしています ...
+        libclang1-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) 
+        を展開しています...
+        以前に未選択のパッケージ clang-21 を選択しています。
+        .../05-clang-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.2
+        8_amd64.deb を展開する準備をしています ...
+        clang-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を展
+        開しています...
+        以前に未選択のパッケージ clang-tools-21 を選択しています。
+        .../06-clang-tools-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28_amd64.deb を展開する準備をしています ...
+        clang-tools-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28)
+        を展開しています...
+        以前に未選択のパッケージ libunwind-21:amd64 を選択しています。
+        .../07-libunwind-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~202509080837
+        36.28_amd64.deb を展開する準備をしています ...
+        libunwind-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736
+        .28) を展開しています...
+        以前に未選択のパッケージ libc++abi1-21:amd64 を選択しています。
+        .../08-libc++abi1-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083
+        736.28_amd64.deb を展開する準備をしています ...
+        libc++abi1-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808373
+        6.28) を展開しています...
+        以前に未選択のパッケージ libc++1-21:amd64 を選択しています。
+        .../09-libc++1-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736
+        .28_amd64.deb を展開する準備をしています ...
+        libc++1-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.2
+        8) を展開しています...
+        以前に未選択のパッケージ libc++abi-21-dev:amd64 を選択しています。
+        .../10-libc++abi-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908
+        083736.28_amd64.deb を展開する準備をしています ...
+        libc++abi-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28) を展開しています...
+        以前に未選択のパッケージ libunwind-21-dev:amd64 を選択しています。
+        .../11-libunwind-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908
+        083736.28_amd64.deb を展開する準備をしています ...
+        libunwind-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28) を展開しています...
+        以前に未選択のパッケージ libc++-21-dev:amd64 を選択しています。
+        .../12-libc++-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083
+        736.28_amd64.deb を展開する準備をしています ...
+        libc++-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808373
+        6.28) を展開しています...
+        以前に未選択のパッケージ libclang-rt-21-dev:amd64 を選択しています。
+        .../13-libclang-rt-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~202509
+        08083736.28_amd64.deb を展開する準備をしています ...
+        libclang-rt-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908
+        083736.28) を展開しています...
+        以前に未選択のパッケージ lld-21 を選択しています。
+        .../14-lld-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28_
+        amd64.deb を展開する準備をしています ...
+        lld-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を展開
+        しています...
+        以前に未選択のパッケージ llvm-21-runtime を選択しています。
+        .../15-llvm-21-runtime_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~202509080
+        83736.28_amd64.deb を展開する準備をしています ...
+        llvm-21-runtime (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28
+        ) を展開しています...
+        以前に未選択のパッケージ llvm-21 を選択しています。
+        .../16-llvm-21_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28
+        _amd64.deb を展開する準備をしています ...
+        llvm-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を展開
+        しています...
+        以前に未選択のパッケージ llvm-21-tools を選択しています。
+        .../17-llvm-21-tools_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083
+        736.28_amd64.deb を展開する準備をしています ...
+        llvm-21-tools (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) 
+        を展開しています...
+        以前に未選択のパッケージ llvm-21-dev を選択しています。
+        .../18-llvm-21-dev_1%3a21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808373
+        6.28_amd64.deb を展開する準備をしています ...
+        llvm-21-dev (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を
+        展開しています...
+        libllvm21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28
+        ) を設定しています ...
+        llvm-21-linker-tools (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~202509080837
+        36.28) を設定しています ...
+        libunwind-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736
+        .28) を設定しています ...
+        libclang-rt-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908
+        083736.28) を設定しています ...
+        libclang-common-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025
+        0908083736.28) を設定しています ...
+        libclang1-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) 
+        を設定しています ...
+        libunwind-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28) を設定しています ...
+        lld-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を設定
+        しています ...
+        libclang-cpp21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28)
+        を設定しています ...
+        llvm-21-tools (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) 
+        を設定しています ...
+        llvm-21-runtime (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28
+        ) を設定しています ...
+        libc++abi1-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808373
+        6.28) を設定しています ...
+        clang-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を設
+        定しています ...
+        libc++abi-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808
+        3736.28) を設定しています ...
+        clang-tools-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28)
+        を設定しています ...
+        libc++1-21:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.2
+        8) を設定しています ...
+        llvm-21 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を設定
+        しています ...
+        libc++-21-dev:amd64 (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~2025090808373
+        6.28) を設定しています ...
+        llvm-21-dev (1:21.1.1~++20250908083722+fa462a66e418-1~exp1~20250908083736.28) を
+        設定しています ...
+        systemd (257.4-1ubuntu3.1) のトリガを処理しています ...
+        man-db (2.13.0-1) のトリガを処理しています ...
+        libc-bin (2.41-6ubuntu1.1) のトリガを処理しています ...
+        ```
+
+    1.  優先度の設定
+        1.  clang
+            ```
+            # 例: clang の優先度を設定
+            # sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-21 100
+            ```
+
+            <details>
+            <summary>
+            設定結果
+            </summary>
+
+            ```
+            update-alternatives: /usr/bin/clang (clang) を提供するために自動モードで /usr/bin/clang-21 を使います
+            ```
+            </details>
+        1.  clang++
+            ```
+            # sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-21 100
+            ```
+
+            <details>
+            <summary>
+            設定結果
+            </summary>
+
+            ```
+            update-alternatives: /usr/bin/clang++ (clang++) を提供するために自動モードで /usr/bin/clang++-21 を使います
+            ```
+
+            </details>
+
+        1.  lld
+            ```
+            # sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-21 100
+            ```
+
+            <details>
+            <summary>
+            設定結果
+            </summary>
+
+            ```
+            update-alternatives: /usr/bin/lld (lld) を提供するために自動モードで /usr/bin/lld-21 を使います
+            ```
+            </details>
+
+1.  Carbon コードの取得
+    ```
+    git clone https://github.com/carbon-language/carbon-lang
+    ```
+
+    <details>
+    <summary>
+    取得ログ
+    </summary>
+
+    ```
+    Cloning into 'carbon-lang'...
+    remote: Enumerating objects: 126027, done.
+    remote: Counting objects: 100% (2486/2486), done.
+    remote: Compressing objects: 100% (841/841), done.
+    remote: Total 126027 (delta 2188), reused 1645 (delta 1645), pack-reused 123541 (from 4)
+    Receiving objects: 100% (126027/126027), 70.81 MiB | 3.36 MiB/s, done.
+    Resolving deltas: 100% (105917/105917), done.
+    Updating files: 100% (4719/4719), done.
+    ```
+    </details>
+
+1.  ツールチェーンのヘルプ表示
+    ```
+    cd carbon-lang
+    ./scripts/run_bazelisk.py run //toolchain -- help
+    ```
+
+    <details>
+    <summary>
+    実行ログ
+    </summary>
+
+    ```
+    2025/09/14 22:23:54 Downloading https://releases.bazel.build/8.3.1/release/bazel-8.3.1-linux-x86_64...
+    Downloading: 61 MB out of 61 MB (100%) 
+    Extracting Bazel installation...
+    Starting local Bazel server (8.3.1) and connecting to it...
+    INFO: Invocation ID: bf3ecd1c-380f-421d-b395-a26b650a84ef
+    INFO: Analyzed target //toolchain:toolchain (113 packages loaded, 12574 targets configured).
+    ...
+    ```
+    実行中、充電不備によるバッテリー切れ
+
+    充電後再開
+    ```
+    Starting local Bazel server (8.3.1) and connecting to it...
+    INFO: Invocation ID: 4c89744f-9a47-4016-a630-c81413dc954a
+    WARNING: Found stale downloads from previous build, deleting...
+    INFO: Analyzed target //toolchain:toolchain (113 packages loaded, 12574 targets configured).
+    WARNING: Remote Cache: mandatory output external/+llvm_project+llvm-project/llvm/_objs/SandboxIR/Use.pic.o was not created
+    WARNING: Remote Cache: mandatory output external/+llvm_project+llvm-project/llvm/_objs/ProfileData/ItaniumManglingCanonicalizer.pic.o was not created
+    WARNING: Remote Cache: mandatory output external/+llvm_project+llvm-project/llvm/_objs/SandboxIR/User.pic.o was not created
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 44850.136s, Critical Path: 1490.70s
+    INFO: 2230 processes: 2428 action cache hit, 3 disk cache hit, 42 internal, 2185 processwrapper-sandbox.
+    INFO: Build completed successfully, 2230 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+20ac6b927
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] build-runtimes [OPTIONS]
+    carbon [OPTIONS] clang [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>... -- [<CLANG-ARG>...]
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+    carbon [OPTIONS] lld [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] llvm ar [<ARG>...]
+    carbon [OPTIONS] llvm cgdata [<ARG>...]
+    carbon [OPTIONS] llvm cxxfilt [<ARG>...]
+    carbon [OPTIONS] llvm debuginfod-find [<ARG>...]
+    carbon [OPTIONS] llvm dsymutil [<ARG>...]
+    carbon [OPTIONS] llvm dwp [<ARG>...]
+    carbon [OPTIONS] llvm gsymutil [<ARG>...]
+    carbon [OPTIONS] llvm ifs [<ARG>...]
+    carbon [OPTIONS] llvm libtool-darwin [<ARG>...]
+    carbon [OPTIONS] llvm lipo [<ARG>...]
+    carbon [OPTIONS] llvm ml [<ARG>...]
+    carbon [OPTIONS] llvm mt [<ARG>...]
+    carbon [OPTIONS] llvm nm [<ARG>...]
+    carbon [OPTIONS] llvm objcopy [<ARG>...]
+    carbon [OPTIONS] llvm objdump [<ARG>...]
+    carbon [OPTIONS] llvm profdata [<ARG>...]
+    carbon [OPTIONS] llvm rc [<ARG>...]
+    carbon [OPTIONS] llvm readobj [<ARG>...]
+    carbon [OPTIONS] llvm sancov [<ARG>...]
+    carbon [OPTIONS] llvm size [<ARG>...]
+    carbon [OPTIONS] llvm symbolizer [<ARG>...]
+    carbon [OPTIONS] llvm ranlib [<ARG>...]
+    carbon [OPTIONS] llvm lib [<ARG>...]
+    carbon [OPTIONS] llvm dlltool [<ARG>...]
+    carbon [OPTIONS] llvm bitcode-strip [<ARG>...]
+    carbon [OPTIONS] llvm install-name-tool [<ARG>...]
+    carbon [OPTIONS] llvm strip [<ARG>...]
+    carbon [OPTIONS] llvm otool [<ARG>...]
+    carbon [OPTIONS] llvm windres [<ARG>...]
+    carbon [OPTIONS] llvm readelf [<ARG>...]
+    carbon [OPTIONS] llvm addr2line [<ARG>...]
+
+    Subcommands:
+    build-runtimes
+            Build Carbon's runtime libraries.
+
+            This subcommand builds Carbon's runtime libraries for a particular code generation target, either in their default location or a specified one.
+
+            Running this command directly is not necessary as Carbon will build and cache runtimes as needed when linking, but building them directly can aid in debugging issues or allow them to be prebuilt, possibly with customized code generation flags, and used explicitly when linking.
+
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    lld
+            Runs LLD with the provided arguments.
+
+            Note that a specific LLD platform must be selected, and it is actually that particular platform's LLD-driver that is run with the arguments. There is no generic LLD command line.
+
+            For a given platform, this is equivalent to running that platform's LLD alias directly, and provides the full command line interface.
+
+            Use `carbon lld --platform=elf -- ARGS` to separate the `ARGS` forwarded to LLD from the flags passed to the Carbon subcommand.
+
+            Note that typically it is better to use a higher level command to link code, such as invoking `carbon link` with the relevant flags. However, this subcommand supports when you already have a specific invocation using existing command line syntaxes, as well as testing and debugging of the underlying tool.
+
+    llvm
+            Runs LLVM's command line tools with the provided arguments.
+
+            This subcommand provides access to a collection of LLVM's command line tools via further subcommands. For each of these tools, their command line can be provided using positional arguments.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+        --include-diagnostic-kind
+            When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+    </details>
+
 ### 環境更新（１回目） [on Ubuntu Desktop 25.04 **@2025/04/27** <span style="color: red;">*Updated!*</span>]
 1.  Carbon コードの取得
     ```
@@ -666,9 +1584,6 @@ sidebar:
             </details>
         1.  lld
             ```
-            # 例: clang の優先度を設定
-            # sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-19 100
-            # sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-19 100
             # sudo update-alternatives --install /usr/bin/lld lld /usr/bin/lld-19 100
             ```
             <details>
@@ -4195,31 +5110,26 @@ sidebar:
         ```
         </details>
 
-#   LLVM
+##  ノウハウ
+### LLVM
+- LLVM 16.0.6
 
-  |端末       |環境／FW      |最終更新
-  |-----------|-------------|----------
-  |InsiderDev |LLVM 16.0.6  |[2023/09/02](https://llvm.org/)
+    Carbon環境を再構築したため、最新である16.0.6をインストール。**@2023/09/02**
 
-  - LLVM
-    - LLVM 16.0.6
+- LLVM 15.0.4
 
-      Carbon環境を再構築したため、最新である16.0.6をインストール。**@2023/09/02**
+    Carbon環境構築にLLVMが必要なため、インストール。最新は、15.0.4。**@2022/11/13**
 
-    - LLVM 15.0.4
+- LLVM 12.0
 
-      Carbon環境構築にLLVMが必要なため、インストール。最新は、15.0.4。**@2022/11/13**
+    - [for Ubuntu](https://apt.llvm.org/)
+    ```
+    apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python-clang
+    ```
+    - [for Windows](https://releases.llvm.org/download.html)
 
-    - LLVM 12.0
-
-      - [for Ubuntu](https://apt.llvm.org/)
-        ```
-        apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python-clang
-        ```
-      - [for Windows](https://releases.llvm.org/download.html)
-
-    - 「きつねさんでもわかるLLVM」で学習中
-      - DummyCCompiler実践中
-        **@2021/01/11** : Front-End(to Chapter 5.9) finished
-      - [きつねさんでもわかるLLVM公式リポジトリ](https://github.com/Kmotiko/DummyCCompiler)
+- 「きつねさんでもわかるLLVM」で学習中
+    - DummyCCompiler実践中
+    **@2021/01/11** : Front-End(to Chapter 5.9) finished
+    - [きつねさんでもわかるLLVM公式リポジトリ](https://github.com/Kmotiko/DummyCCompiler)
 

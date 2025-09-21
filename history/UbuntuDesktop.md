@@ -4,6 +4,7 @@ layout: single
 sidebar:
   nav: main
 ---
+##  Ubuntu Desktop
 - [Ubuntu Desktop 24.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/01/11 updated from 24.04.1>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](/images/Ubuntu/20250111_Ubuntu24.10.png)
 
@@ -84,3 +85,10 @@ sidebar:
   LOGO=ubuntu-logo
   ```
   </details>
+
+##  Unix Kernel
+- カーネルバージョン
+  - 6.14.0-29 / Ubuntu 25.04 <span style="color: red;">*<<2025/09/14 Updated>>*</span>
+  - 6.14.0-22 / Ubuntu 25.04 <span style="color: red;">*<<2025/06/30 Updated>>*</span>
+  - 6.11.0-13 / Ubuntu 24.10
+  - 6.8.0-51 / Ubuntu 24.04
