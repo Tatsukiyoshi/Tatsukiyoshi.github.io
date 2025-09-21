@@ -15,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/9/7～2025/9/13）](/digest/2025/September/1st) / [一覧](/digest/list)
+[最新ダイジェスト（2025/9/14～2025/9/20）](/digest/2025/September/2nd) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -26,7 +26,8 @@ sidebar:
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
 Windows Insider                 |2025/09/13|[Build 26220.6682](https://aka.ms/DevLatest)
-Chrome OS Flex                  |2025/09/12|[139.0.7258.172](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+macOS                           |2025/09/16|[Tahoe 26.0](https://www.apple.com/jp/os/macos/)
+Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -37,11 +38,11 @@ Chrome OS Flex                  |2025/09/12|[139.0.7258.172](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/09/10|Update: Visual Studio Community 2026 18.0.0 Insiders / Visual Studio Community 2022 17.14.14
-[Rust](/knowhow/Rust)            |2025/09/06|Update: RustRover 2025.2.1
-[Kotlin](/knowhow/Kotlin)        |2025/09/13|Update: Android Studio Narwhal 4 2025.1.4 Canary 5 / Kotlin 2.2.20
-[Flutter](/knowhow/Flutter)      |2025/09/09|Update: Flutter 3.37.0-1.0.pre-58@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/11|Update: React Native 0.81.4 / Expo SDK 54.0.1
+[.NET](/knowhow/NET)             |2025/09/17|Update: Visual Studio Community 2026 18.0.0 Insiders [11012.119]
+[Rust](/knowhow/Rust)            |2025/09/20|Update: Rust 1.90
+[Kotlin](/knowhow/Kotlin)        |2025/09/14|Update: IntelliJ IDEA 2025.2.2 RC
+[Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS
+[TypeScript](/knowhow/TypeScript)|2025/09/20|Update: Svelte 5.39.3
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
@@ -54,7 +55,7 @@ Other                            |Updated   |Detail
 ---------------------------------|----------|--------
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon) |2025/04/27|Update: carbon on Ubuntu Desktop 25.04
+[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 [Pascal](/knowhow/Others#pascal) |          |

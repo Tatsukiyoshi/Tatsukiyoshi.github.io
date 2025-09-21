@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code August 2025 (1.104)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/09/12 updated from 1.103.2>>*</span>
+- [Visual Studio Code August 2025 Recovery 2(1.104.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/09/18 updated from 1.104>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -317,20 +317,24 @@ OS/言語を問わず利用するツールの情報
 - Git
   - gitを有効化するには、コマンドラインデベロッパーツールをインストールする
     - [コマンドラインデベロッパツールのインストール](https://tracpath.com/bootcamp/git-install-to-mac.html)
-      ![CommandLineDeveloperTools](/images/Mac/20240813_CommandLineDeveloperTools.png)
+      ![CommandLineDeveloperTools](/images/macOS/20240813_CommandLineDeveloperTools.png)
   - gitを最新化するには、[homebrew](https://brew.sh)を使って、gitをインストールする
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
-- XCode
-  - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
-    ![iOS 18.5 Simulator](/images/Mac/20250531_Download_iOS18.5_Simulator.png)
-  - [Xcode 26 Beta 7](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/05 Updated from 26 Beta 6>>*</span>
+- Xcode
+  - [Xcode 26](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/16 Updated from 26 Beta 7>>*</span>
+    ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
+    ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
   - iOS Simulatorの更新
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-    ![Components Update](/images/Mac/20250301_XCode_Components_Update.png)
-    ![Components Updating](/images/Mac/20250301_XCode_Components_Updating.png)
+    ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
+    ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
+  - 履歴
+    - [Xcode 26 Beta 7](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/05 Updated from 26 Beta 6>>*</span>
+    - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
+      ![iOS 18.5 Simulator](/images/macOS/20250531_Download_iOS18.5_Simulator.png)
 - [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
   - Homebrew / CocoaPodsのインストール
     ```

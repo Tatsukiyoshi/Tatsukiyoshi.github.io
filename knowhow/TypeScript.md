@@ -34,7 +34,7 @@ sidebar:
       |                |        |- [fresh 1.7.3](#fresh)            |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
-      |                |        |Vite 7.0.5                         |[2025/07/21](https://vitejs.dev/)
+      |                |        |Vite 7.1.6                         |[2025/09/20](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.5.0](#prisma)            |[2025/03/19](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
@@ -58,9 +58,9 @@ sidebar:
       |                |        |- React Native 0.80.0              |2025/09/09
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.36.12](#svelte)          |[2025/07/21](https://svelte.dev/)
-      |                |        |- Bun 1.2.19                       |2025/07/19
-      |                |        |- Vite 7.0.5                       |2025/07/21
+      |                |        |[Svelte 5.39.3](#svelte)           |[2025/09/20](https://svelte.dev/)
+      |                |        |- Bun 1.2.22                       |2025/09/20
+      |                |        |- Vite 7.1.6                       |2025/09/20
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22
@@ -82,7 +82,7 @@ sidebar:
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
       |           |        |- Expo 54.0.1            |[2025/09/11](https://github.com/expo/expo)
       |           |        |- React 19.1.0           |2025/08/22
-      |           |        |- Bun 1.2.21             |2025/08/30
+      |           |        |- Bun 1.2.22             |2025/09/16
       |           |        |- Expo Go 54.0.4         |2025/09/11
 
 ##  ノウハウ
@@ -311,7 +311,7 @@ sidebar:
   - マルチプラットフォーム（モバイル/デスクトップ）
     - [Lynx](https://lynxjs.org)/([履歴](/history/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
-        ![LynxApp](/images/Mac/20250830_ReactLynxApp3.4.0.png)
+        ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
         - Lynxのバージョンを動的表示するように改修
           ```js
           setVersion(SystemInfo.engineVersion)
@@ -322,16 +322,16 @@ sidebar:
           bun create rspeedy@latest
           ```
           1.  DownLoad LynxExplorer / Install on Simulator
-              ![LynxExplorer](/images/Mac/20250426_ReactLynx_Explorer.png)
+              ![LynxExplorer](/images/macOS/20250426_ReactLynx_Explorer.png)
           1.  Execute Code
               ```
               bun run dev
               ```
-              ![App QR Code](/images/Mac/20250426_ReactLynx_QRcode.png)
+              ![App QR Code](/images/macOS/20250426_ReactLynx_QRcode.png)
           1.  Execute LynxApp
               - Copy URL
               - Paste URL to LynxExplorer
-                ![LynxApp](/images/Mac/20250426_ReactLynxApp.png)
+                ![LynxApp](/images/macOS/20250426_ReactLynxApp.png)
 
     - React Native <a id="rn"></a>
       - [Configuring Metro](https://reactnative.dev/docs/metro)
@@ -354,9 +354,14 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+        - React Native 0.81.4 / Expo SDK 54.0.1 / iOS 26 / iPhone Air
+          - React 19.1.0
+            ![React Native 0.81.4 iOS](/images/macOS/20250916_ReactNative_0.81.4.png)
         - React Native 0.81.4 / Expo SDK 54.0.1
           - React 19.1.0
-            ![React Native 0.81.4 iOS](/images/Mac/20250911_ReactNative_0.81.4.png)
+            ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
+        - Expo SDKは、React Native リビジョン２つごとにバージョンアップする模様
+          - 例）Expo 54は、React Native 0.81に対応し、Expo 55は、React Native 0.83に対応する
         - iOS
           - iOS エミュレータを起動
             ```
@@ -403,6 +408,21 @@ sidebar:
               npx react-native init-windows --template cpp-app --overwrite
               ```
               ![React Native Windows 0.80.0-preview.6 with New Architecture](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6_NewArchitecture.png)
+            - with Visual Studio 2026 Insiders
+              1.  Use Visual Studio
+                  - Visual Studio 2026 Insiderでソリューションを開き、ターミナルで以下を実行
+                    ```
+                    yarn start
+                    ```
+                  - その後、ソリューションを実行すれば、アプリが実行できる
+                    ![React Native Windows 0.80.0-preview.6 with VS2026](/images/JavaScript/20250914_ReactNativeWindows0.80.0-preview.6_VS2026.png)
+              1.  Use x64 Native Tools Command Prompt
+                  - x64 Native Tools Command Promptを起動し、プロジェクトのディレクトリに移動
+                  - 下記コマンドで実行
+                    ```
+                    npx @react-native-community/cli run-windows
+                    ```
+                    ![React Native Windows 0.80.0-preview.6 with x64 Native Tools Command Prompt](/images/JavaScript/20250914_ReactNativeWindows0.80.0-preview.6_VSx64NativePrompt.png)
           - React Native Windows 0.79.0
             - React Native 0.79.3
             - React 19.0.0
