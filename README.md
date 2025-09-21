@@ -43,6 +43,8 @@ Language                         |Updated   |Detail
 [Kotlin](/knowhow/Kotlin)        |2025/09/14|Update: IntelliJ IDEA 2025.2.2 RC
 [Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/21|Update: Deno 2.5.1 / fresh 2.1.1 / Vue 3.5.21
+[Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
+[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
@@ -54,8 +56,6 @@ Common                                 |Updated   |Detail
 Other                            |Updated   |Detail
 ---------------------------------|----------|--------
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
 [Pascal](/knowhow/Others#pascal) |          |
