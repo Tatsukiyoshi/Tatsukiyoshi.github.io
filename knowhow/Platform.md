@@ -45,11 +45,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.6682 (Cumulative Update) <span style="color: red;">*<<2025/09/13 updated from Build 26220.5790 >>*</span>
+    - Build 26220.6690 (Cumulative Update) <span style="color: red;">*<<2025/09/13 updated from Build 26220.6682 >>*</span>
+      ![Cumulative Update](/images/Windows/20250921_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250913_Windows11_Build26220.png)
-      - Emoji 16.0（指紋等が追加）
-        ![Emoji 16.0](/images/Windows/20250913_Windows11_Emoji16.0.png)
+        ![Version Information](/images/Windows/20250921_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
