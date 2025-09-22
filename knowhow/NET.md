@@ -19,7 +19,7 @@ sidebar:
   |Windows         |Visual Studio Community 2022 17.14.14             |[2025/09/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.9                                      |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.20                                     |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |- [Windows App SDK 1.6.3](#windows-app-sdk)       |[2024/11/23](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |                |- [Windows App SDK 1.8.0](#windows-app-sdk)       |[2025/09/19](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/09/17](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.100-rc.1.25451.107                    |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-rc.1.25452.6](#maui)             |[2025/09/10](https://github.com/dotnet/maui)
@@ -252,8 +252,8 @@ sidebar:
     </details>
 
 ### Windows App SDK
-  - Windows App SDK
-    ![Hello World](/images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
+  - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0
+    ![Hello World](/images/VisualStudio/20250922_VS2022_17.14.14_AppSDK1.8.0.png)
   - NET 8.0
     - [.NET SDK で小さい RID グラフを使う](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/sdk/8.0/rid-graph)
       ```xml

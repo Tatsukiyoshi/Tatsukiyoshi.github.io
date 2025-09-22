@@ -7,6 +7,8 @@ sidebar:
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.14
     ![VS2022 17.14.14](/images/VisualStudio/20250910_Update_VS2022_17.14.14.png)
+    - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0
+      ![Hello World](/images/VisualStudio/20250922_VS2022_17.14.14_AppSDK1.8.0.png)
   - Visual Studio 2022 17.14.13 Preview 1.0
     ![VS2022 17.14.13 preview 1.0](/images/VisualStudio/20250823_Update_VS2022_17.14.13_Preview1.0.png)
   - Visual Studio 2022 17.14.13 (August 2025)
@@ -71,6 +73,8 @@ sidebar:
     ![VS2022 17.12.3](/images/VisualStudio/20241206_Update_VS2022_17.12.3.png)
   - SSMS 20.2.3
     ![Setup](/images/Database/20240824_Install_SSMS20.2.3.png)
+  - 17.11.5 / Windows App SDK 1.6.1
+    ![Hello World](/images/VisualStudio/20241011_VS2022_17.11.5_AppSDK1.6.1.png)
   - 17.10.3
     - GitHub Copilotの利用
       - 早速、無料試用版の利用開始を促される <BR />
