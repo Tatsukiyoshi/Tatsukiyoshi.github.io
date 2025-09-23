@@ -7,6 +7,8 @@ sidebar:
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.15
     ![VS2022 17.14.15](/images/VisualStudio/20250923_Update_VS2022_17.14.15.png)
+    - [チュートリアル: Microsoft Expression Blend を使用してボタンを作成する](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/controls/walkthrough-create-a-button-by-using-microsoft-expression-blend)
+      ![WPF on Blend](/images/VisualStudio/20250923_WPF_Blend.png)
   - Visual Studio 2022 17.14.14
     ![VS2022 17.14.14](/images/VisualStudio/20250910_Update_VS2022_17.14.14.png)
     - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0

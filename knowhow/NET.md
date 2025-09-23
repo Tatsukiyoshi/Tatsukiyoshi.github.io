@@ -7,8 +7,8 @@ sidebar:
 ---
 ##  独学書
 
-  |Text                                                         |Date      |Status
-  |-------------------------------------------------------------|----------|---
+  |Text                                                        |Date      |Status
+  |------------------------------------------------------------|----------|---
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
@@ -338,6 +338,10 @@ sidebar:
       ```
       D:\AndroidSdk\emulator\emulator.exe -avd Pixel_3a_API_34_extension_level_7_x86_64
       ```
+
+### Blend & WPF
+  - [チュートリアル: Microsoft Expression Blend を使用してボタンを作成する](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/controls/walkthrough-create-a-button-by-using-microsoft-expression-blend)
+    ![WPF on Blend](/images/VisualStudio/20250923_WPF_Blend.png)
 
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)

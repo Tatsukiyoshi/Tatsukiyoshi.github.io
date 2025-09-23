@@ -15,9 +15,9 @@ sidebar:
   |Machine   |Env / FW                   |Last Updated
   |----------|---------------------------|----------
   |Chrome OS |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
-  |          |pip 25.2                      |2025/09/21
+  |          |pip 25.2                   |2025/09/21
   |          |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
-  |          |TkEasyGUI 1.0.38     |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
+  |          |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
 
 ##  ノウハウ
 ### Python
