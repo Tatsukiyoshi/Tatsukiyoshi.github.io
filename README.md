@@ -45,6 +45,7 @@ Language                         |Updated   |Detail
 [TypeScript](/knowhow/TypeScript)|2025/09/21|Update: Deno 2.5.1 / fresh 2.1.1 / Vue 3.5.21
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
 [Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
+[Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
@@ -58,14 +59,14 @@ Other                            |Updated   |Detail
 [Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
-[Pascal](/knowhow/Others#pascal) |          |
-[Swift](/knowhow/Others#swift)   |          |
+[Pascal](/knowhow/Pascal)        |          |
 [Unity](/knowhow/Unity)          |          |
 
 ##  創作物
 ```
 知識を形にする
 ```
+- [Win UI 3への移行手順](/design/WinUI3App/migration_from_WPF)
 - 全角入力対応コンポーネント
   - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
   - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)
