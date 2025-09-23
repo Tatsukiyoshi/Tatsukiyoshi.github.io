@@ -5,6 +5,8 @@ sidebar:
   nav: main
 ---
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14.15
+    ![VS2022 17.14.15](/images/VisualStudio/20250923_Update_VS2022_17.14.15.png)
   - Visual Studio 2022 17.14.14
     ![VS2022 17.14.14](/images/VisualStudio/20250910_Update_VS2022_17.14.14.png)
     - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0

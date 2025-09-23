@@ -38,7 +38,7 @@ Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/09/19|Update: Windows App SDK 1.8.0
+[.NET](/knowhow/NET)             |2025/09/23|Update: Visual Studio Community 2022 17.14.15
 [Rust](/knowhow/Rust)            |2025/09/21|Update: RustRover 2025.2.2
 [Kotlin](/knowhow/Kotlin)        |2025/09/14|Update: IntelliJ IDEA 2025.2.2 RC
 [Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS

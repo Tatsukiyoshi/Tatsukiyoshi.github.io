@@ -16,7 +16,7 @@ sidebar:
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows         |Visual Studio Community 2022 17.14.14             |[2025/09/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+  |Windows         |Visual Studio Community 2022 17.14.15             |[2025/09/23](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.9                                      |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.20                                     |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.8.0](#windows-app-sdk)       |[2025/09/19](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
@@ -32,8 +32,8 @@ sidebar:
   ![VS2026 18.0.0 Insiders](/images/VisualStudio/20250917_Update_VS2026_18.0.0_Insiders.png)
 
 ## [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
-- Visual Studio 2022 17.14.14
-  ![VS2022 17.14.14](/images/VisualStudio/20250910_Update_VS2022_17.14.14.png)
+- Visual Studio 2022 17.14.15
+  ![VS2022 17.14.15](/images/VisualStudio/20250923_Update_VS2022_17.14.15.png)
 
 - ノウハウ
   - ワークロード
