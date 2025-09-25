@@ -33,7 +33,7 @@ sidebar:
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
       |                |        |Vite 7.1.6                         |[2025/09/20](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
-      |                |        |[Prisma 6.5.0](#prisma)            |[2025/03/19](https://www.prisma.io/)
+      |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
       |                |        |[D3 7.9.0](#d3)                    |[2025/03/29](https://d3js.org/)
       |                |        |- Bun 1.2.7                        |2025/03/29
