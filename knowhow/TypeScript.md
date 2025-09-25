@@ -66,9 +66,10 @@ sidebar:
       |                |        |- Bun 1.2.15                       |2025/05/22
       |                |        |- Vite 6.3.5                       |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)           |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |Expo 53.0.20                       |2025/08/16
-      |                |        |- [React Native 0.81](#rn)         |2025/08/16
+      |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
+      |                |        |- Expo 53.0.20                     |2025/08/16
       |                |        |- Bun 1.2.20                       |2025/08/16
+      |                |Gen AI  |[Genkit js 1.19.3](#genkit)        |[2025/09/25](https://genkit.dev/)
 
   1.  macOS
 
@@ -1094,6 +1095,27 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
+### AI
+- [Genkit](https://genkit.dev/) <a id="genkit"></a>
+  - パッケージのインストール
+    1.  グローバル
+        ```
+        npm install -g genkit-cli
+        ```
+    1.  プロジェクト
+        ```
+        npm install genkit @genkit-ai/google-genai
+        ```
+  - 実行
+    ```
+    npx tsx src/index.ts
+    ```
+  - Developer UIの起動
+    ```
+    genkit start -- npx tsx --watch src/index.ts
+    ```
+    ![Genkit Developer UI](/images/JavaScript/20250925_GenKit_DeveloperUI.png)
 
 ### Test
 - PlaywrightでのE2Eテスト <a id="pw"></a>

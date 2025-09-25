@@ -42,7 +42,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/09/21|Update: RustRover 2025.2.2
 [Kotlin](/knowhow/Kotlin)        |2025/09/25|Update: Android Studio Otter 2025.2.1 Canary 1 / Android Emulator v.36.3.1
 [Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/25|Update: Prisma 6.16.2
+[TypeScript](/knowhow/TypeScript)|2025/09/25|Update: Prisma 6.16.2 / Genkit js 1.19.3
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
 [Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
