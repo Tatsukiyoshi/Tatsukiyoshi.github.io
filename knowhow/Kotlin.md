@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |Amazon Coretto 22.0.2                                         |2024/11/16
-      |                |[Android Studio Narwhal 4 2025.1.4 Canary 5](#AndroidStudio)  |[2025/09/12](https://developer.android.com/studio)
+      |                |[Android Studio Otter 2025.2.1 Canary 1](#AndroidStudio)      |[2025/09/25](https://developer.android.com/studio)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.2.8                                   |2025/09/12
+      |                |- Android Emulator v.36.3.1                                   |2025/09/25
 
   1. macOS Sequoia 15.6.1
 
@@ -266,14 +266,13 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Narwhal 4 Feature Drop | 2025.1.4 Canary 5
+    - Android Studio Otter | 2025.2.1 Canary 1
       ```
-      Build #AI-251.27812.49.2514.14085407, built on September 11, 2025
+      Build #AI-252.25557.131.2521.14126747, built on September 19, 2025
       Runtime version: 21.0.8+-14018985-b1038.68 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
-      Kotlin plugin: K2 mode
       GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
       Memory: 2048M
       Cores: 8
@@ -282,7 +281,7 @@ sidebar:
         gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (251.27812.12)
+        Dart (252.25557.23)
         io.flutter (87.1)
       ```
   - macOS
@@ -338,7 +337,7 @@ sidebar:
           testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
           testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.2'
           ```
-  - 対応履歴
+  - Android
     - Android Canary
       - API 36 Canary
         ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
@@ -352,6 +351,11 @@ sidebar:
         ![MyApplication](/images/Android/20240724_MyApplication_API35.png)
       - レイアウトが崩れる事象
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
+  - 対応履歴
+    - Otter
+      - Canary 1
+        - Android Gradle Plugin 9.0.0-alpha05 -> 9.0.0-alpha06
+        - Android Emulator 36.3.1
     - Narwhal
       - Feature Drop 2025.1.4
         - Canary 5
