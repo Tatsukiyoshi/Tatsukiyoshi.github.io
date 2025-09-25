@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.2.2 RC](#intellij-idea)                   |[2025/09/14](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.2.2](#intellij-idea)                      |[2025/09/25](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |Amazon Coretto 22.0.2                                         |2024/11/16
@@ -36,10 +36,10 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.2.2 RC (Ultimate Edition)
+  - IntelliJ IDEA 2025.2.2 (Ultimate Edition)
     ```
-    Build #IU-252.26199.74, built on September 10, 2025
-    Source revision: 64ef3c3fe7d7a
+    Build #IU-252.26199.169, built on September 19, 2025
+    Source revision: 7fd6c69de64ef
     Runtime version: 21.0.8+1-b1038.71 amd64 (JCEF 122.1.9)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -50,19 +50,21 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (252.26199.74)
-      com.intellij.notebooks.core (252.26199.83)
-      org.toml.lang (252.26199.83)
+      org.jetbrains.completion.full.line (252.26199.169)
+      com.intellij.notebooks.core (252.26199.169)
+      com.intellij.copyright (252.26199.169)
+      org.editorconfig.editorconfigjetbrains (252.26199.169)
+      org.jetbrains.plugins.yaml (252.26199.169)
+      org.toml.lang (252.26199.169)
       Dart (252.25557.23)
-      com.intellij.properties (252.26199.83)
-      com.jetbrains.restClient (252.26199.74)
-      intellij.jupyter (252.26199.83)
-      org.jetbrains.plugins.kotlin.jupyter (252.26199.74)
-      Docker (252.26199.84)
-      com.intellij.ml.llm (252.26199.74)
-      org.jetbrains.android (252.26199.74)
-      org.jetbrains.security.package-checker (252.26199.84)
-    Kotlin: 252.26199.74-IJ
+      com.intellij.properties (252.26199.169)
+      org.jetbrains.kotlin (252.26199.169-IJ)
+      com.jetbrains.restClient (252.26199.169)
+      intellij.jupyter (252.26199.169)
+      com.intellij.ml.llm (252.26199.169)
+      org.jetbrains.android (252.26199.169)
+      org.jetbrains.security.package-checker (252.26199.169)
+    Kotlin: 252.26199.169-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
