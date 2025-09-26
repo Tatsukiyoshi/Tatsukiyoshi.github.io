@@ -43,7 +43,7 @@ sidebar:
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
-      |                |        |[Astro 5.13.5](#astro)             |[2025/08/30](https://astro.build/)
+      |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
