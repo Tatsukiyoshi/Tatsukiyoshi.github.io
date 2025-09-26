@@ -17,10 +17,10 @@ sidebar:
 
   |Machine         |Env / FW                                                                        |Last Updated
   |----------------|--------------------------------------------------------------------------------|----------
-  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2025-03 (Eclipse 4.35)](#pleiades)|[2025/03/21](https://willbrains.jp/)
-  |                |[Apache Tomcat 10.1.39](#tomcat)                                                |[2025/03/21](https://tomcat.apache.org/download-10.cgi)
-  |                |[H2 Database 2.2.232](#h2-database)                                             |[2024/11/16](https://www.h2database.com/html/main.html)
-  |                |Amazon Coretto 22.0.1                                                           |[2024/05/04](https://docs.aws.amazon.com/corretto/index.html)
+  |Windows Insider |[Pleiades All in One Eclipse Standard Edition 2025-09 (Eclipse 4.37)](#pleiades)|[2025/09/27](https://willbrains.jp/)
+  |                |- [Apache Tomcat 10.1.36](#tomcat)                                              |[2025/09/27](https://tomcat.apache.org/download-10.cgi)
+  |                |- [H2 Database 2.2.232](#h2-database)                                           |[2024/11/16](https://www.h2database.com/html/main.html)
+  |                |- Microsoft Build of Open JDK 21.0.8+9                                          |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
   |                |[Jenkins LTS 2.479.2](#jenkins)                                                 |[2024/12/07](https://www.jenkins.io/download/)
 
 ##  ノウハウ
@@ -532,6 +532,8 @@ sidebar:
   </details>
 
 ###  Pleiades
+  - pleiades 2025-09
+    - Servlet/JSPに使用しているJSTLがJava 25/Jakarta EE 11をサポートしていないため、Java 25へのアップデートは保留
   - pleiades 2025-03
     ![Eclipse 4.35](/images/eclipse/20250321_2025-03_Eclipse4.35.png)
     - Tomcat 10.1.39
