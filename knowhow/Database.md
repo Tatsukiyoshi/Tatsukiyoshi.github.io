@@ -15,7 +15,7 @@ sidebar:
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MySQL Community Server 9.4.0                         |[2025/08/24](https://dev.mysql.com/downloads/mysql/)
-  |Chrome OS Flex |PostgreSQL 17.6                                      |2025/08/15
+  |Chrome OS Flex |PostgreSQL 18.0                                      |2025/09/27
 
 ##  ノウハウ
 ### データベース全般
