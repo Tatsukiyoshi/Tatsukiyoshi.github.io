@@ -15,7 +15,9 @@ sidebar:
   |Machine   |Env / FW                   |Last Updated
   |----------|---------------------------|----------
   |Chrome OS |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
+  |          |pip 25.2                   |2025/09/21
   |          |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
+  |          |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
 
 ##  ノウハウ
 ### Python
@@ -43,6 +45,10 @@ sidebar:
     ![グラフ表示](/images/python/20240102_matplotlib.png)
   - Jupyter Notebookを使ってみた
     ![Jupyter Notebook](/images/python/20240102_jupyter_notebook.png)
+
+### TkEasyGUI
+  - [First Code](https://kujirahand.com/TkEasyGUI/)
+    ![Started](/images/python/20250921_TkEasyGUI_Started.png)
 
 ### Django
   - [Django Tutorial](https://docs.djangoproject.com/ja/4.1/intro/tutorial01/)

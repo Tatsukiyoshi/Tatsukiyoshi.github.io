@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code August 2025 Recovery 2(1.104.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/09/18 updated from 1.104>>*</span>
+- [Visual Studio Code August 2025 Recovery 2(1.104.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/09/26 updated from 1.104.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />

@@ -40,6 +40,9 @@ sidebar:
 ##  【9/18】
 - **＜開発ツール＞** [Visual Studio CodeをAugust 2025 Recovery 2(1.104.1)に更新](https://code.visualstudio.com/)
 
+##  【9/19】
+- **＜.NET＞** [Windows App SDK 1.8.0に更新](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+
 ##  【9/20】
 - **＜OS＞**  [Chrome OS FlexをM-140系にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - 初回は、140.0.7339.201にアップデート

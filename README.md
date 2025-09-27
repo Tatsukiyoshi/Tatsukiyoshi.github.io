@@ -15,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/9/14～2025/9/20）](/digest/2025/September/2nd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/9/21～2025/9/27）](/digest/2025/September/3rd) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -25,7 +25,7 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/09/13|[Build 26220.6682](https://aka.ms/DevLatest)
+Windows Insider                 |2025/09/21|[Build 26220.6690](https://aka.ms/DevLatest)
 macOS                           |2025/09/16|[Tahoe 26.0](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
@@ -38,34 +38,35 @@ Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/09/17|Update: Visual Studio Community 2026 18.0.0 Insiders [11012.119]
-[Rust](/knowhow/Rust)            |2025/09/20|Update: Rust 1.90
-[Kotlin](/knowhow/Kotlin)        |2025/09/14|Update: IntelliJ IDEA 2025.2.2 RC
-[Flutter](/knowhow/Flutter)      |2025/09/16|Update: Flutter 3.37.0-1.0.pre-132@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/20|Update: Svelte 5.39.3
+[.NET](/knowhow/NET)             |2025/09/27|Update: Visual Studio Community 2022 17.14.16
+[Rust](/knowhow/Rust)            |2025/09/21|Update: RustRover 2025.2.2
+[Kotlin](/knowhow/Kotlin)        |2025/09/25|Update: Android Studio Otter 2025.2.1 Canary 1 / Android Emulator v.36.3.1 / IntelliJ IDEA 2025.2.2
+[Flutter](/knowhow/Flutter)      |2025/09/25|Update: Flutter 3.37.0-1.0.pre-285@macOS
+[TypeScript](/knowhow/TypeScript)|2025/09/27|Update: Astro 5.14.1
+[Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
+[Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
+[Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
+[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/09/10|Update: SQL Server 2022 Developer 16.0.4212.1 / SQL Server Management Studio 21.5.14
+[Database & SQL](/knowhow/Database)    |2025/09/27|Update: PostgreSQL 18.0@Chrome OS Flex
 [Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
 Other                            |Updated   |Detail
 ---------------------------------|----------|--------
-[Java](/knowhow/Java)            |2025/03/21|Setup: Pleiades 2025-03
-[Python](/knowhow/Python)        |2025/03/08|Setup: Python 3.13.2
-[Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
-[Pascal](/knowhow/Others#pascal) |          |
-[Swift](/knowhow/Others#swift)   |          |
+[Pascal](/knowhow/Pascal)        |          |
 [Unity](/knowhow/Unity)          |          |
 
 ##  創作物
 ```
 知識を形にする
 ```
+- [Win UI 3への移行手順](/design/WinUI3App/migration_from_WPF)
 - 全角入力対応コンポーネント
   - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
   - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)

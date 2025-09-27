@@ -29,14 +29,11 @@ sidebar:
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |                |FW      |[React 19.0.0](#react)             |[2024/12/12](https://react.dev/)
       |                |        |- Bun 1.1.38                       |2024/11/29
-      |                |        |[Deno 2.4.2](#deno)                |[2025/07/26](https://deno.land/)
-      |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
-      |                |        |- [fresh 1.7.3](#fresh)            |[2024/10/26](https://fresh.deno.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
       |                |        |Vite 7.1.6                         |[2025/09/20](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
-      |                |        |[Prisma 6.5.0](#prisma)            |[2025/03/19](https://www.prisma.io/)
+      |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
       |                |        |[D3 7.9.0](#d3)                    |[2025/03/29](https://d3js.org/)
       |                |        |- Bun 1.2.7                        |2025/03/29
@@ -46,9 +43,12 @@ sidebar:
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
-      |                |        |[Astro 5.13.5](#astro)             |[2025/08/30](https://astro.build/)
+      |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
+      |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
+      |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
       |                |        |[Next.js 15.5.2](#nextjs)          |[2025/08/30](https://nextjs.org/)
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
@@ -66,9 +66,10 @@ sidebar:
       |                |        |- Bun 1.2.15                       |2025/05/22
       |                |        |- Vite 6.3.5                       |2025/05/21
       |                |Test FW |[Playwright 1.54.1](#pw)           |[2025/07/27](https://Playwright.dev/)
-      |                |Mobile  |Expo 53.0.20                       |2025/08/16
-      |                |        |- [React Native 0.81](#rn)         |2025/08/16
+      |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
+      |                |        |- Expo 53.0.20                     |2025/08/16
       |                |        |- Bun 1.2.20                       |2025/08/16
+      |                |Gen AI  |[Genkit js 1.19.3](#genkit)        |[2025/09/25](https://genkit.dev/)
 
   1.  macOS
 
@@ -204,18 +205,21 @@ sidebar:
         ```sh
         deno upgrade
         ```
-    - [fresh 1.6.3](https://fresh.deno.dev/) <a id="fresh"></a>
+    - [fresh 2.1.1](https://fresh.deno.dev/) <a id="fresh"></a>
       - [Get Started](https://fresh.deno.dev/docs/getting-started)
         ```
         deno run -A -r https://fresh.deno.dev my-project
         cd my-project
-        deno task start
+        deno task dev
         ```
       - Update
         ```
         deno run -Ar https://fresh.deno.dev/update
         ```
-
+    - [Deno-WebUI v2.5.9 (Beta)](https://github.com/webui-dev/deno-webui)
+      ```
+      deno run --allow-read --allow-write --allow-net --allow-env --allow-ffi minimal.ts
+      ```
 ### ORM
   - [TypeORM](https://typeorm.io/) <a id="typeorm"></a>
     - プロジェクト作成
@@ -1091,6 +1095,27 @@ sidebar:
       ```
       npx nuxi upgrade
       ```
+
+### AI
+- [Genkit](https://genkit.dev/) <a id="genkit"></a>
+  - パッケージのインストール
+    1.  グローバル
+        ```
+        npm install -g genkit-cli
+        ```
+    1.  プロジェクト
+        ```
+        npm install genkit @genkit-ai/google-genai
+        ```
+  - 実行
+    ```
+    npx tsx src/index.ts
+    ```
+  - Developer UIの起動
+    ```
+    genkit start -- npx tsx --watch src/index.ts
+    ```
+    ![Genkit Developer UI](/images/JavaScript/20250925_GenKit_DeveloperUI.png)
 
 ### Test
 - PlaywrightでのE2Eテスト <a id="pw"></a>
