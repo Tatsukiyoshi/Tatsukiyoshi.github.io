@@ -52,7 +52,9 @@ sidebar:
       |                |        |[Next.js 15.5.2](#nextjs)          |[2025/08/30](https://nextjs.org/)
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[Nuxt 3.16.0](#nuxt)               |[2025/03/23](https://nuxt.com/)
+      |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |- Vite 7.1.7                       |2025/09/28
       |                |        |React Native Windows 0.80.0-pre.6  |[2025/09/09](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- React Native 0.80.0              |2025/09/09
