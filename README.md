@@ -40,7 +40,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/09/27|Update: Visual Studio Community 2022 17.14.16
 [Rust](/knowhow/Rust)            |2025/09/21|Update: RustRover 2025.2.2
-[Kotlin](/knowhow/Kotlin)        |2025/09/25|Update: Android Studio Otter 2025.2.1 Canary 1 / Android Emulator v.36.3.1 / IntelliJ IDEA 2025.2.2
+[Kotlin](/knowhow/Kotlin)        |2025/09/28|Update: IntelliJ IDEA 2025.3 EAP 3 / Android Studio Otter 2025.2.1 Canary 3
 [Flutter](/knowhow/Flutter)      |2025/09/25|Update: Flutter 3.37.0-1.0.pre-285@macOS
 [TypeScript](/knowhow/TypeScript)|2025/09/28|Update: Nuxt 4.1.2
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
