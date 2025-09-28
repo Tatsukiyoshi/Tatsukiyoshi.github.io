@@ -19,7 +19,7 @@ sidebar:
   |Windows         |Visual Studio Community 2022 17.14.16             |[2025/09/27](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.9                                      |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.20                                     |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |- [Windows App SDK 1.8.0](#windows-app-sdk)       |[2025/09/19](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |                |- [Windows App SDK 1.8.1](#windows-app-sdk)       |[2025/09/24](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/09/24](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.100-rc.1.25451.107                    |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-rc.1.25452.6](#maui)             |[2025/09/10](https://github.com/dotnet/maui)
