@@ -25,7 +25,7 @@ sidebar:
       |               |[RustRover 2025.2.2](#rustrover)               |[2025/09/21](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
-      |               |[Slint 1.11.0](#slint)                         |[2025/04/27](https://slint.dev/)
+      |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.90                                      |2025/09/20
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
       |               |Svelte 5.39.3                                  |2025/09/20
@@ -1722,6 +1722,9 @@ sidebar:
     ```
     cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
     ```
+  - Run with [Material 3](https://material.slint.dev/getting-started/)
+    - Slint 1.13.1
+      ![Slint 1.13.1](/images/rust/20250928_Slint1.13.1.png)
 
 ### Dioxus(Cross Platform Library)
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
