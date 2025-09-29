@@ -273,7 +273,7 @@ OS/言語を問わず利用するツールの情報
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
  
 ##  Windows <a id="Windows"></a>
-- [PowerShell 7.5.2](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/06/25 updated from 7.5.1>>*</span>
+- [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget
