@@ -21,7 +21,7 @@ sidebar:
       |Windows Insider |[IntelliJ IDEA 2025.3 EAP 3](#intellij-idea)                  |[2025/09/28](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |Amazon Coretto 22.0.2                                         |2024/11/16
+      |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
       |                |[Android Studio Otter 2025.2.1 Canary 3](#AndroidStudio)      |[2025/09/28](https://developer.android.com/studio)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
