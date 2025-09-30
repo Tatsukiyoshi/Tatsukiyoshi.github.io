@@ -55,9 +55,9 @@ sidebar:
       |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- Vite 7.1.7                       |2025/09/28
-      |                |        |React Native Windows 0.80.0-pre.6  |[2025/09/09](https://microsoft.github.io/react-native-windows/)
+      |                |        |React Native Windows 0.80.0-pre.7  |[2025/09/30](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |- React Native 0.80.0              |2025/09/09
+      |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
       |                |        |[Svelte 5.39.3](#svelte)           |[2025/09/20](https://svelte.dev/)
@@ -405,6 +405,10 @@ sidebar:
           bun windows
           ```
         - 履歴
+          - React Native Windows 0.80.0-preview.7
+            - React Native 0.80.2
+            - React 19.1.0
+              ![React Native Windows 0.80.0-preview.7](/images/JavaScript/20250930_ReactNativeWindows0.80.0-preview.7.png)
           - React Native Windows 0.80.0-preview.6
             - React Native 0.80.0
             - React 19.1.0
