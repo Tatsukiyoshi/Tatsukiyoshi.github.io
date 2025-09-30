@@ -7,7 +7,11 @@ sidebar:
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)
-      - Build 26220.6690 (Cumulative Update) <span style="color: red;">*<<2025/09/13 updated from Build 26220.6682 >>*</span>
+      - Build 26220.6760 (Cumulative Update) <span style="color: red;">*<<2025/09/30 updated from Build 26220.6690 >>*</span>
+        ![Cumulative Update](/images/Windows/20250930_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](/images/Windows/20250930_Windows11_Build26220.png)
+      - Build 26220.6690 (Cumulative Update) <span style="color: red;">*<<2025/09/21 updated from Build 26220.6682 >>*</span>
         ![Cumulative Update](/images/Windows/20250921_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](/images/Windows/20250921_Windows11_Build26220.png)
