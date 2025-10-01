@@ -46,6 +46,7 @@ Language                         |Updated   |Detail
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
+[Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 
 Common                                 |Updated   |Detail
@@ -59,7 +60,6 @@ Other                            |Updated   |Detail
 ---------------------------------|----------|--------
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
-[Pascal](/knowhow/Pascal)        |          |
 [Unity](/knowhow/Unity)          |          |
 
 ##  創作物
