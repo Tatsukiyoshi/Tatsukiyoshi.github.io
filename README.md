@@ -41,7 +41,7 @@ Language                         |Updated   |Detail
 [.NET](/knowhow/NET)             |2025/10/02|Try: Math.net 6.0.0-beta2
 [Rust](/knowhow/Rust)            |2025/09/28|Update: Slint 1.13.1 / RustRover 2025.3 EAP 3
 [Kotlin](/knowhow/Kotlin)        |2025/09/28|Update: IntelliJ IDEA 2025.3 EAP 3 / Android Studio Otter 2025.2.1 Canary 3
-[Flutter](/knowhow/Flutter)      |2025/09/25|Update: Flutter 3.37.0-1.0.pre-285@macOS
+[Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/03|Update: Babylon.js 8.30.1
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
