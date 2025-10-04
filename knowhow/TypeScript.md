@@ -42,7 +42,7 @@ sidebar:
       |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
-      |                |        |Babylon.js 8.30.1                  |[2025/10/03](https://www.babylonjs.com/)
+      |                |        |[Babylon.js 8.30.1](#babylonjs)    |[2025/10/03](https://www.babylonjs.com/)
       |                |        |- react 19.2.0                     |[2025/10/03](https://react.dev/)
       |                |        |- react-babylonjs 3.2.4            |[2025/10/03](https://github.com/brianzinn/react-babylonjs)
       |                |        |- bun 1.2.21                       |2025/08/30
@@ -521,7 +521,7 @@ sidebar:
   - [jQuery 3.7.1](https://jquery.com/)
   - [Chart.js 4.4.1](https://www.chartjs.org/docs/latest/)
     ![Chart.Js](/images/php/20240103_php_jquery_chart.png)
-  - [Babylon.JS](https://www.babylonjs.com/)
+  - [Babylon.JS](https://www.babylonjs.com/) <a id="babylonjs"></a>
     - Babylon.JS 8.3.1
       ![Babylon.js with react](/images/JavaScript/20251003_babylon_8.3.1_with_react.png)
     - Babylon.JS 6.0
