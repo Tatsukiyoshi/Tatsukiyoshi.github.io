@@ -15,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/9/21～2025/9/27）](/digest/2025/September/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/9/28～2025/10/4）](/digest/2025/September/4th) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -25,9 +25,9 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/09/21|[Build 26220.6690](https://aka.ms/DevLatest)
+Windows Insider                 |2025/09/30|[Build 26220.6760](https://aka.ms/DevLatest)
 macOS                           |2025/09/16|[Tahoe 26.0](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/10/03|[140.0.7339.229](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -38,14 +38,15 @@ Chrome OS Flex                  |2025/09/20|[140.0.7339.201](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/09/27|Update: Visual Studio Community 2022 17.14.16
-[Rust](/knowhow/Rust)            |2025/09/21|Update: RustRover 2025.2.2
-[Kotlin](/knowhow/Kotlin)        |2025/09/25|Update: Android Studio Otter 2025.2.1 Canary 1 / Android Emulator v.36.3.1 / IntelliJ IDEA 2025.2.2
-[Flutter](/knowhow/Flutter)      |2025/09/25|Update: Flutter 3.37.0-1.0.pre-285@macOS
-[TypeScript](/knowhow/TypeScript)|2025/09/27|Update: Astro 5.14.1
+[.NET](/knowhow/NET)             |2025/10/02|Try: Math.net 6.0.0-beta2
+[Rust](/knowhow/Rust)            |2025/09/28|Update: Slint 1.13.1 / RustRover 2025.3 EAP 3
+[Kotlin](/knowhow/Kotlin)        |2025/10/03|Update: Android Studio Otter 2025.2.1 Canary 4 / Android Emulator v.36.3.2
+[Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
+[TypeScript](/knowhow/TypeScript)|2025/10/03|Update: Babylon.js 8.30.1
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
+[Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/09/15|Update: Carbon@Ubuntu 24.04.3 / Carbon@Ubuntu Desktop 25.04
 
 Common                                 |Updated   |Detail
@@ -59,7 +60,6 @@ Other                            |Updated   |Detail
 ---------------------------------|----------|--------
 [Go](/knowhow/Go)                |2025/05/04|Setup: Go 1.24.2 / GoLand 2025.1
 [PHP](/knowhow/Php)              |2025/05/04|Setup: PHP 8.2.8 / PhpStorm 2025.1
-[Pascal](/knowhow/Pascal)        |          |
 [Unity](/knowhow/Unity)          |          |
 
 ##  創作物

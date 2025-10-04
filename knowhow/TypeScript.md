@@ -31,7 +31,7 @@ sidebar:
       |                |        |- Bun 1.1.38                       |2024/11/29
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
-      |                |        |Vite 7.1.6                         |[2025/09/20](https://vitejs.dev/)
+      |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
@@ -42,6 +42,11 @@ sidebar:
       |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
+      |                |        |Babylon.js 8.30.1                  |[2025/10/03](https://www.babylonjs.com/)
+      |                |        |- react 19.2.0                     |[2025/10/03](https://react.dev/)
+      |                |        |- react-babylonjs 3.2.4            |[2025/10/03](https://github.com/brianzinn/react-babylonjs)
+      |                |        |- bun 1.2.21                       |2025/08/30
+      |                |        |- vite 7.1.9                       |2025/10/03
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
       |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
       |                |        |- React 19.1.1                     |2025/08/30
@@ -52,10 +57,12 @@ sidebar:
       |                |        |[Next.js 15.5.2](#nextjs)          |[2025/08/30](https://nextjs.org/)
       |                |        |- React 19.1.1                     |2025/08/30
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[Nuxt 3.16.0](#nuxt)               |[2025/03/23](https://nuxt.com/)
-      |                |        |React Native Windows 0.80.0-pre.6  |[2025/09/09](https://microsoft.github.io/react-native-windows/)
+      |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |- React Native 0.80.0              |2025/09/09
+      |                |        |- Vite 7.1.7                       |2025/09/28
+      |                |        |React Native Windows 0.80.0-pre.7  |[2025/09/30](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
       |                |        |[Svelte 5.39.3](#svelte)           |[2025/09/20](https://svelte.dev/)
@@ -403,6 +410,10 @@ sidebar:
           bun windows
           ```
         - 履歴
+          - React Native Windows 0.80.0-preview.7
+            - React Native 0.80.2
+            - React 19.1.0
+              ![React Native Windows 0.80.0-preview.7](/images/JavaScript/20250930_ReactNativeWindows0.80.0-preview.7.png)
           - React Native Windows 0.80.0-preview.6
             - React Native 0.80.0
             - React 19.1.0
@@ -510,8 +521,11 @@ sidebar:
   - [jQuery 3.7.1](https://jquery.com/)
   - [Chart.js 4.4.1](https://www.chartjs.org/docs/latest/)
     ![Chart.Js](/images/php/20240103_php_jquery_chart.png)
-  - [Babylon.JS 6.0](https://www.babylonjs.com/)
-    ![Template](/images/JavaScript/20240103_babylon_template.png)
+  - [Babylon.JS](https://www.babylonjs.com/)
+    - Babylon.JS 8.3.1
+      ![Babylon.js with react](/images/JavaScript/20251003_babylon_8.3.1_with_react.png)
+    - Babylon.JS 6.0
+      ![Template](/images/JavaScript/20240103_babylon_template.png)
   - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
     - [Nextjs-blog](https://github.com/Tatsukiyoshi/nextjs-blog)
     - [Vercel](https://vercel.com/tatsukiyoshi/)
