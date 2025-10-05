@@ -271,7 +271,19 @@ OS/言語を問わず利用するツールの情報
           ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
     - GitHub ProjectsでBoard作成してみた
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
- 
+- [proto 0.53.1](https://moonrepo.dev/proto) <span style="color: red;">*<<2025/10/05 installed>>*</span>
+  - インストール
+    - Windows
+      ```
+      irm https://moonrepo.dev/install/proto.ps1 | iex
+      ```
+  - ツールのインストール
+    - [Pkl 0.29.1](https://pkl-lang.org/) <span style="color: red;">*<<2025/10/05 installed>>*</span>
+      ```
+      proto plugin add pkl https://raw.githubusercontent.com/milesj/proto-plugins/refs/heads/master/pkl.toml
+      proto install pkl --pin
+      ```
+
 ##  Windows <a id="Windows"></a>
 - [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>
   - インストール
