@@ -14,7 +14,7 @@ sidebar:
 
   |Contents                                                                                 |Date      |Status
   |-----------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2025/10/05|第10回 RustとDioxusで投稿アプリのSPAに新規投稿機能を実装しよう
 
 ##  環境
   1. Windows 11
@@ -24,13 +24,14 @@ sidebar:
       |Windows        |[Rust 1.90](#rust-1)                           |[2025/09/21](https://www.rust-lang.org/)
       |               |[RustRover 2025.3 EAP 3](#rustrover)           |[2025/09/28](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
-      |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.90                                      |2025/09/20
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
       |               |Svelte 5.39.3                                  |2025/09/20
       |               |Bun 1.2.21                                     |2025/08/30
       |               |Vite 7.1.6                                     |2025/09/20
+      |               |[Dioxus 0.7.0-rc.0](#dioxus)                   |[2025/10/05](https://dioxuslabs.com/)
+      |               |- Visual Studio Community 2022 17.14.16        |[2025/10/05](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11
 
@@ -1715,8 +1716,13 @@ sidebar:
     - Slint 1.13.1
       ![Slint 1.13.1](/images/rust/20250928_Slint1.13.1.png)
 
-### Dioxus(Cross Platform Library)
+### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
+    - cmakeクレートのビルドには、Visual Studio 2022が必要
+  - V0.7.0-rc.0
+    ```
+    cargo install dioxus-cli --version 0.7.0-rc.0 --locked --bins
+    ```
   - V0.6.1
     ```
     cargo install dioxus-cli --version 0.6.1 --force
