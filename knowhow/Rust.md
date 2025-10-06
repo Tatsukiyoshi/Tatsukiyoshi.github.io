@@ -26,6 +26,8 @@ sidebar:
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.90                                      |2025/09/20
+      |               |- cargo-generate 0.23.5                        |2025/10/06
+      |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
       |               |Svelte 5.39.3                                  |2025/09/20
       |               |Bun 1.2.21                                     |2025/08/30
