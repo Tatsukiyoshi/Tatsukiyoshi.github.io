@@ -14,7 +14,7 @@ sidebar:
 
   |Contents                                                                                 |Date      |Status
   |-----------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2025/10/05|第11回 RustとDioxusで投稿アプリのSPAに編集機能と削除機能を実装しよう
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2025/10/06|第14回 Rust and WebAssemblyでSPAに更新削除機能を実装しよう
 
 ##  環境
   1. Windows 11
