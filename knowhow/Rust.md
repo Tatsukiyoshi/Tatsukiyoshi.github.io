@@ -205,6 +205,10 @@ sidebar:
       ```
       sea-orm-cli generate entity -u postgres://postgres:pgsuper@localhost:5432/sample_db -o src/models 
       ```
+  - sqlx for SQLite
+    ```
+    cargo add sqlx --features "sqlite runtime-tokio chrono"
+    ```
   - time
     - Rust 1.80 以降は、0.3.35 以上にする必要あり
 

@@ -51,7 +51,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/09/27|Update: PostgreSQL 18.0@Chrome OS Flex
+[Database & SQL](/knowhow/Database)    |2025/10/07|Update: SQLite 3.50.4
 [Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
