@@ -72,7 +72,7 @@ sidebar:
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22
       |                |        |- Vite 6.3.5                       |2025/05/21
-      |                |Test FW |[Playwright 1.54.1](#pw)           |[2025/07/27](https://Playwright.dev/)
+      |                |Test FW |[Playwright 1.56.0](#pw)           |[2025/10/07](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
       |                |        |- Expo 53.0.20                     |2025/08/16
       |                |        |- Bun 1.2.20                       |2025/08/16
