@@ -39,7 +39,7 @@ Chrome OS Flex                  |2025/10/03|[140.0.7339.229](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/10/02|Try: Math.net 6.0.0-beta2
-[Rust](/knowhow/Rust)            |2025/10/06|Update: wasm-pack 0.13.1
+[Rust](/knowhow/Rust)            |2025/10/07|Update: RustRover 2025.3 EAP 4
 [Kotlin](/knowhow/Kotlin)        |2025/10/03|Update: Android Studio Otter 2025.2.1 Canary 4 / Android Emulator v.36.3.2
 [Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/07|Update: React Native Windows 0.80.0-preview.8 / Playwright 1.56.0 / Vue 3.5.22
