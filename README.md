@@ -42,7 +42,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/10/06|Update: wasm-pack 0.13.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/03|Update: Android Studio Otter 2025.2.1 Canary 4 / Android Emulator v.36.3.2
 [Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/05|Update: Svelte 5.39.8
+[TypeScript](/knowhow/TypeScript)|2025/10/07|Update: React Native Windows 0.80.0-preview.8
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
