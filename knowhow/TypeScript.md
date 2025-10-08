@@ -27,8 +27,6 @@ sidebar:
       |Windows         |Common  |Node.js 22.12.0                    |2024/12/11
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
-      |                |FW      |[React 19.0.0](#react)             |[2024/12/12](https://react.dev/)
-      |                |        |- Bun 1.1.38                       |2024/11/29
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
       |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
@@ -36,9 +34,9 @@ sidebar:
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
       |                |        |[D3 7.9.0](#d3)                    |[2025/03/29](https://d3js.org/)
-      |                |        |- Bun 1.2.7                        |2025/03/29
-      |                |        |- Vite 6.2.3                       |2025/03/29
-      |                |        |- [React 19.1.0](#react)           |2025/03/29
+      |                |        |- bun 1.2.21                       |2025/08/30
+      |                |        |- Vite 7.1.9                       |2025/10/03
+      |                |        |- [React 19.2.0](#react)           |2025/10/08
       |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
@@ -49,8 +47,8 @@ sidebar:
       |                |        |- vite 7.1.9                       |2025/10/03
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
       |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
-      |                |        |- React 19.1.1                     |2025/08/30
-      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |- React 19.2.0                     |2025/10/08
+      |                |        |- Bun 1.2.23                       |2025/10/05
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
@@ -60,6 +58,8 @@ sidebar:
       |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- Vite 7.1.7                       |2025/09/28
+      |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
+      |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |[React Native Windows 0.80.0-pre.8](#rnw) |[2025/10/07](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- React Native 0.80.2              |2025/09/30

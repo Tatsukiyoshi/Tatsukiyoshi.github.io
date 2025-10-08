@@ -41,9 +41,9 @@ sidebar:
       |----------------|----------------|----------
       |Windows Insider |Rust 1.90       |2025/09/20
       |                |Tauri 2.8.5     |2025/09/04
-      |                |React 19.1.1    |2025/08/17
-      |                |Bun 1.2.22      |2025/09/20
-      |                |Vite 7.1.6      |2025/09/20
+      |                |React 19.2.0    |2025/10/08
+      |                |Bun 1.2.23      |2025/10/08
+      |                |Vite 7.1.9      |2025/10/08
 
   1. Chrome OS Flex 140.0.7339.201 (Official Build)
 
@@ -393,6 +393,8 @@ sidebar:
       ![On macOS](/images/rust/20250920_Tauri2.8.5_mac26.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
+    - Android 16 (API 36.1) / Pixel 9a / React 19.2.0
+      ![On Android 16](/images/rust/20251008_Tauri2.8.5_Pixel_9a_Android16.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250920_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
     - iOS 26.0 / iPhone 17 Pro
