@@ -52,9 +52,9 @@ sidebar:
       |Chrome OS  |Rust 1.90                                 |2025/09/20
       |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
-      |           |React 19.1.1                              |2025/08/19
-      |           |Bun 1.2.22                                |2025/09/20
-      |           |Vite 7.1.6                                |2025/09/20
+      |           |React 19.2.0                              |2025/10/08
+      |           |Bun 1.2.23                                |2025/10/08
+      |           |Vite 7.1.9                                |2025/10/08
 
   1. macOS Tahoe 26
 
