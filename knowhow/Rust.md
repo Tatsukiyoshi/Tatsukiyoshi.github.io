@@ -32,7 +32,7 @@ sidebar:
       |               |Svelte 5.39.3                                  |2025/09/20
       |               |Bun 1.2.21                                     |2025/08/30
       |               |Vite 7.1.6                                     |2025/09/20
-      |               |[Dioxus 0.7.0-rc.0](#dioxus)                   |[2025/10/05](https://dioxuslabs.com/)
+      |               |[Dioxus 0.7.0-rc.1](#dioxus)                   |[2025/10/09](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.16        |[2025/10/05](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11

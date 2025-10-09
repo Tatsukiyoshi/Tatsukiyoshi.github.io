@@ -39,7 +39,7 @@ Chrome OS Flex                  |2025/10/03|[140.0.7339.229](https://chromerelea
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/10/02|Try: Math.net 6.0.0-beta2
-[Rust](/knowhow/Rust)            |2025/10/07|Update: RustRover 2025.3 EAP 4
+[Rust](/knowhow/Rust)            |2025/10/09|Update: Dioxus 0.7.0-rc.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/07|Update: IntelliJ IDEA 2025.3 EAP 4 / Android Emulator v.36.3.3
 [Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/08|Update: React 19.2.0
