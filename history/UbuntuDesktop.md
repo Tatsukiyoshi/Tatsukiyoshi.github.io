@@ -88,6 +88,7 @@ sidebar:
 
 ##  Unix Kernel
 - カーネルバージョン
+  - 6.14.0-33 / Ubuntu 25.04 <span style="color: red;">*<<2025/10/10 Updated from 6.14.0-29>>*</span>
   - 6.14.0-29 / Ubuntu 25.04 <span style="color: red;">*<<2025/09/14 Updated>>*</span>
   - 6.14.0-22 / Ubuntu 25.04 <span style="color: red;">*<<2025/06/30 Updated>>*</span>
   - 6.11.0-13 / Ubuntu 24.10
