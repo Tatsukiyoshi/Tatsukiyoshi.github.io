@@ -38,7 +38,7 @@ Chrome OS Flex                  |2025/10/11|[140.0.7339.242](https://chromerelea
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/09|Update: Visual Studio Community 2026 18.0.0 Insiders [11104.47]
+[.NET](/knowhow/NET)             |2025/10/11|Update: Visual Studio Community 2026 18.0.0 Insiders [11109.219]
 [Rust](/knowhow/Rust)            |2025/10/09|Update: Dioxus 0.7.0-rc.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/11|Update: Android Studio Otter 2025.2.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS

@@ -21,7 +21,7 @@ sidebar:
   |                |- .NET 8.0.20                                     |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.8.1](#windows-app-sdk)       |[2025/09/24](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/09](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/11](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.100-rc.1.25451.107                    |[2025/09/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-rc.1.25452.6](#maui)             |[2025/09/10](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.35.5.10                    |2025/06/12
@@ -29,8 +29,8 @@ sidebar:
   |                |- .NET 8.0.20                                     |2025/09/10
 
 ## [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
-- Visual Studio Community 2026 18.0.0 Insiders [11104.47]
-  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251009_Update_VS2026_18.0.0_Insiders.png)
+- Visual Studio Community 2026 18.0.0 Insiders [11109.219]
+  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251011_Update_VS2026_18.0.0_Insiders.png)
 
 ## [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
 - Visual Studio 2022 17.14.16
@@ -113,25 +113,25 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11104.47
+      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11109.219
       マニフェストのバージョン:    36.0.0-rc.1.285/10.0.100-rc.1
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.1\microsoft.net.sdk.android\36.0.0-rc.1.285\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11104.47
+      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11109.219
       マニフェストのバージョン:    18.5.10727-net10-rc.1/10.0.100-rc.1
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.1\microsoft.net.sdk.ios\18.5.10727-net10-rc.1\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11104.47
+      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11109.219
       マニフェストのバージョン:    18.5.10727-net10-rc.1/10.0.100-rc.1
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.1\microsoft.net.sdk.maccatalyst\18.5.10727-net10-rc.1\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11104.47
+      インストール ソース: SDK 10.0.100-rc.1, VS 17.14.36518.9, VS 18.0.11109.219
       マニフェストのバージョン:    10.0.0-rc.1.25452.6/10.0.100-rc.1
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.1\microsoft.net.sdk.maui\10.0.0-rc.1.25452.6\WorkloadManifest.json
       インストールの種類:              Msi
