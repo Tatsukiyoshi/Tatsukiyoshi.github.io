@@ -27,7 +27,7 @@ Platform                        |Updated   |Detail
 --------------------------------|----------|--------
 Windows Insider                 |2025/10/07|[Build 26220.6772](https://aka.ms/DevLatest)
 macOS                           |2025/09/16|[Tahoe 26.0](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/10/03|[140.0.7339.229](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/10/11|[140.0.7339.242](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
