@@ -125,6 +125,11 @@ sidebar:
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 
 ### PostgreSQL
+- PostgreSQL 18.0@Chrome OS Flex
+  ```
+  psql (PostgreSQL) 18.0 (Debian 18.0-1.pgdg12+3)
+  ```
+- PostgreSQL@Windows  (postgres/pgsuper)
   - PgAdmin対応表
 
     PostgreSQL | PgAdmin4
@@ -137,7 +142,6 @@ sidebar:
     16.4       | 8.10
     16.1       | 7.8
     16         | 7.6
-  - postgres/pgsuper
   - バージョン更新
     ```
     winget install --id PostgreSQL.PostgreSQL.17 -e
