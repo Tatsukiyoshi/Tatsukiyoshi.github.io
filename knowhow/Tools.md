@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code August 2025 Recovery 3(1.104.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/10/03 updated from 1.104.2>>*</span>
+- [Visual Studio Code September 2025 (1.105.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/10/10 updated from 1.104.3>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -271,7 +271,19 @@ OS/言語を問わず利用するツールの情報
           ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
     - GitHub ProjectsでBoard作成してみた
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
- 
+- [proto 0.53.1](https://moonrepo.dev/proto) <span style="color: red;">*<<2025/10/05 installed>>*</span>
+  - インストール
+    - Windows
+      ```
+      irm https://moonrepo.dev/install/proto.ps1 | iex
+      ```
+  - ツールのインストール
+    - [Pkl 0.29.1](https://pkl-lang.org/) <span style="color: red;">*<<2025/10/05 installed>>*</span>
+      ```
+      proto plugin add pkl https://raw.githubusercontent.com/milesj/proto-plugins/refs/heads/master/pkl.toml
+      proto install pkl --pin
+      ```
+
 ##  Windows <a id="Windows"></a>
 - [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>
   - インストール

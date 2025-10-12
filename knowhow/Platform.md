@@ -45,10 +45,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.6760 (Cumulative Update) <span style="color: red;">*<<2025/09/30 updated from Build 26220.6690 >>*</span>
-      ![Cumulative Update](/images/Windows/20250930_WindowsUpdate_DevChannel.png)
+    - Build 26220.6780 (Cumulative Update) <span style="color: red;">*<<2025/10/11 updated from Build 26220.6772 >>*</span>
+      ![Cumulative Update](/images/Windows/20251011_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20250930_Windows11_Build26220.png)
+        ![Version Information](/images/Windows/20251011_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -154,27 +154,20 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Tahoe 26.0](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2025/09/16 updated from Sequoia 15.6.1>>*</span>
+  - [Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/10/11 updated from Sequoia 26.0>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20250916_macOS_Tahoe26.0Update.png)
-    - アップデート後初期表示
-      ![Updated1](/images/macOS/20250916_macOS_Tahoe26.0Updated1.png)
-      ![Updated2](/images/macOS/20250916_macOS_Tahoe26.0Updated2.png)
-      ![Updated3](/images/macOS/20250916_macOS_Tahoe26.0Updated3.png)
-      ![Updated4](/images/macOS/20250916_macOS_Tahoe26.0Updated4.png)
-      ![Updated5](/images/macOS/20250916_macOS_Tahoe26.0Updated5.png)
-      ![Greeting](/images/macOS/20250916_macOS_Tahoe26.0Greeting.png)
+      ![Update Check](/images/macOS/20251011_macOS_Tahoe26.0.1Update.png)
     - バージョン情報
-      ![Tahoe 26.0](/images/macOS/20250916_macOS_Tahoe26.0.png)
+      ![Tahoe 26.0](/images/macOS/20251011_macOS_Tahoe26.0.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 140.0.7339.229 <span style="color: red;">*<<2025/10/03 updated from 140.0.7339.201>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251003_Chrome_OS_Flex_140.0.7339.229.png)
-      - 更新中
-        ![Updating](/images/Chrome/20251003_Chrome_OS_Flex_Updating140.0.7339.229.png)
+  - バージョン 140.0.7339.242 <span style="color: red;">*<<2025/10/11 updated from 140.0.7339.229>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20251011_Chrome_OS_Flex_140.0.7339.242.png)
+      - 更新中（再起動前）
+        ![Updating](/images/Chrome/20251011_Chrome_OS_Flex_Updating140.0.7339.242.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -249,7 +242,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2025-09-14 21:48:07
+    - **Date generated:**                              2025-10-10 00:43:05
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -265,7 +258,7 @@ OS                                 |Hardware            |Language
     - **OS Type:**                                     64-bit
     - **GNOME Version:**                               48
     - **Windowing System:**                            X11
-    - **Kernel Version:**                              Linux 6.14.0-29-generic
+    - **Kernel Version:**                              Linux 6.14.0-33-generic
     ```
     </details>
 
@@ -293,7 +286,7 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 6.14.0-29 / Ubuntu 25.04 <span style="color: red;">*<<2025/09/14 Updated from 6.14.0-22>>*</span>
+    - 6.14.0-33 / Ubuntu 25.04 <span style="color: red;">*<<2025/10/10 Updated from 6.14.0-29>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) I

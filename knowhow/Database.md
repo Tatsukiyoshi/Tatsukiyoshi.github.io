@@ -15,6 +15,7 @@ sidebar:
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MySQL Community Server 9.4.0                         |[2025/08/24](https://dev.mysql.com/downloads/mysql/)
+  |               |SQLite 3.50.4                                        |[2025/10/07](https://www.sqlite.org/download.html)
   |Chrome OS Flex |PostgreSQL 18.0                                      |2025/09/27
 
 ##  ノウハウ
@@ -22,6 +23,29 @@ sidebar:
   - [データベースを作成し、テーブルを追加する](https://docs.microsoft.com/ja-jp/visualstudio/data-tools/create-a-sql-database-by-using-a-designer?view=vs-2019)
   - [大量データの作成、日付の加工](https://www.excellence-blog.com/2017/06/01/sql-server%E3%81%B8%E5%A4%A7%E9%87%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E9%AB%98%E9%80%9F%E3%81%A7%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/)
 
+### SQLite
+  - [インストール](https://www.sqlite.org/download.html)
+  - CLIツール
+    ```
+    cargo install sqlx-cli --no-default-features --features sqlite
+    ```
+  - データベース作成
+    ```
+    sqlx database create --database-url "sqlite:./database.db"
+    ```
+  - テーブル作成
+    - マイグレーションファイル作成
+      ```
+      sqlx migrate add -r create_posts_table
+      ```
+    - テーブル作成
+      ```
+      sqlx migrate run --database-url sqlite:./database.db
+      ```
+  - 接続文字列
+    ```
+    DATABASE_URL=sqlite:./database.db
+    ```
 ### MongoDB
   - インストール
     1.  Scoopのインストール
@@ -101,6 +125,11 @@ sidebar:
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 
 ### PostgreSQL
+- PostgreSQL 18.0@Chrome OS Flex
+  ```
+  psql (PostgreSQL) 18.0 (Debian 18.0-1.pgdg12+3)
+  ```
+- PostgreSQL@Windows  (postgres/pgsuper)
   - PgAdmin対応表
 
     PostgreSQL | PgAdmin4
@@ -113,7 +142,6 @@ sidebar:
     16.4       | 8.10
     16.1       | 7.8
     16         | 7.6
-  - postgres/pgsuper
   - バージョン更新
     ```
     winget install --id PostgreSQL.PostgreSQL.17 -e

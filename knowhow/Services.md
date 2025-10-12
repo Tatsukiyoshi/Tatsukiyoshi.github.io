@@ -13,7 +13,7 @@ sidebar:
   |                         |Astro 5.14.1    |[2025/09/27](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.1.0    |[2025/07/20](https://graph-libraries.vercel.app/)
   |InputField(Full-Width)   |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
-  |                         |Vue 3.5.18      |[2025/07/27](https://ya-full-width-input-field-for-vue.vercel.app/)
+  |                         |Vue 3.5.22      |[2025/10/07](https://ya-full-width-input-field-for-vue.vercel.app/)
   |InputField(AutoComplete) |React 19.1.1    |[2025/08/07](https://auto-complete-input-field.vercel.app/)
 
 ##  [Jules](https://jules.google.com/)

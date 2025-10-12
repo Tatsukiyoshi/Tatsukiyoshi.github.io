@@ -5,6 +5,12 @@ sidebar:
   nav: main
 ---
 - Update History
+  - [Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/10/11 updated from Sequoia 26.0>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20251011_macOS_Tahoe26.0.1Update.png)
+    - バージョン情報
+      ![Tahoe 26.0](/images/macOS/20251011_macOS_Tahoe26.0.1.png)
   - [Tahoe 26.0](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2025/09/16 updated from Sequoia 15.6.1>>*</span>
     - ソフトウェアアップデート

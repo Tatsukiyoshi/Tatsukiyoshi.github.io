@@ -27,8 +27,6 @@ sidebar:
       |Windows         |Common  |Node.js 22.12.0                    |2024/12/11
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
-      |                |FW      |[React 19.0.0](#react)             |[2024/12/12](https://react.dev/)
-      |                |        |- Bun 1.1.38                       |2024/11/29
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
       |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
       |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
@@ -36,9 +34,9 @@ sidebar:
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
       |                |        |[D3 7.9.0](#d3)                    |[2025/03/29](https://d3js.org/)
-      |                |        |- Bun 1.2.7                        |2025/03/29
-      |                |        |- Vite 6.2.3                       |2025/03/29
-      |                |        |- [React 19.1.0](#react)           |2025/03/29
+      |                |        |- bun 1.2.21                       |2025/08/30
+      |                |        |- Vite 7.1.9                       |2025/10/03
+      |                |        |- [React 19.2.0](#react)           |2025/10/08
       |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
       |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
@@ -49,8 +47,8 @@ sidebar:
       |                |        |- vite 7.1.9                       |2025/10/03
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
       |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
-      |                |        |- React 19.1.1                     |2025/08/30
-      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |- React 19.2.0                     |2025/10/08
+      |                |        |- Bun 1.2.23                       |2025/10/05
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
@@ -60,19 +58,21 @@ sidebar:
       |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- Vite 7.1.7                       |2025/09/28
-      |                |        |React Native Windows 0.80.0-pre.7  |[2025/09/30](https://microsoft.github.io/react-native-windows/)
+      |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
+      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |[React Native Windows 0.80.0-pre.8](#rnw) |[2025/10/07](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.39.3](#svelte)           |[2025/09/20](https://svelte.dev/)
-      |                |        |- Bun 1.2.22                       |2025/09/20
-      |                |        |- Vite 7.1.6                       |2025/09/20
+      |                |        |[Svelte 5.39.8](#svelte)           |[2025/10/05](https://svelte.dev/)
+      |                |        |- Bun 1.2.23                       |2025/10/05
+      |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22
       |                |        |- Vite 6.3.5                       |2025/05/21
-      |                |Test FW |[Playwright 1.54.1](#pw)           |[2025/07/27](https://Playwright.dev/)
+      |                |Test FW |[Playwright 1.56.0](#pw)           |[2025/10/07](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
       |                |        |- Expo 53.0.20                     |2025/08/16
       |                |        |- Bun 1.2.20                       |2025/08/16
@@ -389,7 +389,7 @@ sidebar:
             ```sh
             react-native run-android
             ```
-      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows)
+      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows) / [履歴](/history/javascript/ReactNativeWindows) <a id="rnw"></a>
         - 前提条件
           - Node.js development
           - .NET Desktop development
@@ -409,39 +409,10 @@ sidebar:
           ```sh
           bun windows
           ```
-        - 履歴
-          - React Native Windows 0.80.0-preview.7
-            - React Native 0.80.2
-            - React 19.1.0
-              ![React Native Windows 0.80.0-preview.7](/images/JavaScript/20250930_ReactNativeWindows0.80.0-preview.7.png)
-          - React Native Windows 0.80.0-preview.6
-            - React Native 0.80.0
-            - React 19.1.0
-              ![React Native Windows 0.80.0-preview.6](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6.png)
-            - Migrate to the New Architecture
-              ```
-              npx react-native init-windows --template cpp-app --overwrite
-              ```
-              ![React Native Windows 0.80.0-preview.6 with New Architecture](/images/JavaScript/20250909_ReactNativeWindows0.80.0-preview.6_NewArchitecture.png)
-            - with Visual Studio 2026 Insiders
-              1.  Use Visual Studio
-                  - Visual Studio 2026 Insiderでソリューションを開き、ターミナルで以下を実行
-                    ```
-                    yarn start
-                    ```
-                  - その後、ソリューションを実行すれば、アプリが実行できる
-                    ![React Native Windows 0.80.0-preview.6 with VS2026](/images/JavaScript/20250914_ReactNativeWindows0.80.0-preview.6_VS2026.png)
-              1.  Use x64 Native Tools Command Prompt
-                  - x64 Native Tools Command Promptを起動し、プロジェクトのディレクトリに移動
-                  - 下記コマンドで実行
-                    ```
-                    npx @react-native-community/cli run-windows
-                    ```
-                    ![React Native Windows 0.80.0-preview.6 with x64 Native Tools Command Prompt](/images/JavaScript/20250914_ReactNativeWindows0.80.0-preview.6_VSx64NativePrompt.png)
-          - React Native Windows 0.79.0
-            - React Native 0.79.3
-            - React 19.0.0
-              ![WindowsSample](/images/JavaScript/20250613_ReactNativeWindows0.79.0.png)
+        - React Native Windows 0.80.0-preview.8
+          - React Native 0.80.2
+          - React 19.1.0
+            ![React Native Windows 0.80.0-preview.8](/images/JavaScript/20251007_ReactNativeWindows0.80.0-preview.8.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)

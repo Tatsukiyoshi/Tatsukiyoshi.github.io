@@ -14,7 +14,7 @@ sidebar:
 
   |Contents                                                                                 |Date      |Status
   |-----------------------------------------------------------------------------------------|----------|-------
-  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2024/05/17|第8回 RustとDioxusでSPAを新バージョンに対応させよう
+  |[Webアプリ実装で学ぶ、現場で役立つRust入門](https://atmarkit.itmedia.co.jp/ait/series/36943/)  |2025/10/07|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/rust/ITWebApp)
 
 ##  環境
   1. Windows 11
@@ -22,15 +22,18 @@ sidebar:
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.90](#rust-1)                           |[2025/09/21](https://www.rust-lang.org/)
-      |               |[RustRover 2025.3 EAP 3](#rustrover)           |[2025/09/28](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.3 EAP 4](#rustrover)           |[2025/10/07](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
-      |               |[Dioxus 0.6.1](#dioxuscross-platform-library)  |[2024/12/31](https://dioxuslabs.com/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.90                                      |2025/09/20
+      |               |- cargo-generate 0.23.5                        |2025/10/06
+      |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
       |               |Svelte 5.39.3                                  |2025/09/20
       |               |Bun 1.2.21                                     |2025/08/30
       |               |Vite 7.1.6                                     |2025/09/20
+      |               |[Dioxus 0.7.0-rc.1](#dioxus)                   |[2025/10/09](https://dioxuslabs.com/)
+      |               |- Visual Studio Community 2022 17.14.16        |[2025/10/05](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11
 
@@ -38,9 +41,9 @@ sidebar:
       |----------------|----------------|----------
       |Windows Insider |Rust 1.90       |2025/09/20
       |                |Tauri 2.8.5     |2025/09/04
-      |                |React 19.1.1    |2025/08/17
-      |                |Bun 1.2.22      |2025/09/20
-      |                |Vite 7.1.6      |2025/09/20
+      |                |React 19.2.0    |2025/10/08
+      |                |Bun 1.2.23      |2025/10/08
+      |                |Vite 7.1.9      |2025/10/08
 
   1. Chrome OS Flex 140.0.7339.201 (Official Build)
 
@@ -49,9 +52,9 @@ sidebar:
       |Chrome OS  |Rust 1.90                                 |2025/09/20
       |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
-      |           |React 19.1.1                              |2025/08/19
-      |           |Bun 1.2.22                                |2025/09/20
-      |           |Vite 7.1.6                                |2025/09/20
+      |           |React 19.2.0                              |2025/10/08
+      |           |Bun 1.2.23                                |2025/10/08
+      |           |Vite 7.1.9                                |2025/10/08
 
   1. macOS Tahoe 26
 
@@ -60,9 +63,9 @@ sidebar:
       |macOS      |Rust 1.90            |2025/09/20
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.8.5          |2025/09/04
-      |           |React 19.1.1         |2025/08/19
-      |           |Bun 1.2.22           |2025/09/16
-      |           |Vite 7.1.6           |2025/09/20
+      |           |React 19.2.0         |2025/10/08
+      |           |Bun 1.2.23           |2025/10/08
+      |           |Vite 7.1.9           |2025/10/08
 
 ##  ノウハウ
 ### Rust
@@ -129,14 +132,12 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3 EAP Build #RR-253.22441.30, built on September 25, 2025 <span style="color: red;">**Updated 2025/09/28**</span>
+  - RustRover 2025.3 EAP Build #RR-253.24325.42, built on October 3, 2025 <span style="color: red;">**Updated 2025/10/07**</span>
     ```
-    RustRover 2025.3 EAP
-    Build #RR-253.22441.30, built on September 25, 2025
-    Source revision: e7ac7ca89930a
+    Source revision: 494355c3f56d3
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: October 25, 2025
-    Runtime version: 21.0.8+9-b1138.52 amd64 (JCEF 137.0.17)
+    有効期限: November 2, 2025
+    Runtime version: 21.0.8+9-b1140.54 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -145,14 +146,17 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
       terminal.new.ui.show.promotion=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
       transferSettings.vscode.onlyCargoToml=true
     Non-Bundled Plugins:
-      com.jetbrains.space (253.22441.25)
-      ru.adelf.idea.dotenv (253.22441.25)
-      com.intellij.ml.llm (253.22441.30)
+      com.intellij.qt (253.24325.50)
+      com.jetbrains.space (253.24325.21)
+      ru.adelf.idea.dotenv (253.24325.21)
+      com.jetbrains.rust (253.24325.42)
+      com.intellij.ml.llm (253.24325.42)
+      com.intellij.lang.qml (253.24325.50)
     ```
     - [履歴](/history/RustRover)
   - データベース
@@ -202,6 +206,10 @@ sidebar:
       ```
       sea-orm-cli generate entity -u postgres://postgres:pgsuper@localhost:5432/sample_db -o src/models 
       ```
+  - sqlx for SQLite
+    ```
+    cargo add sqlx --features "sqlite runtime-tokio chrono"
+    ```
   - time
     - Rust 1.80 以降は、0.3.35 以上にする必要あり
 
@@ -385,6 +393,8 @@ sidebar:
       ![On macOS](/images/rust/20250920_Tauri2.8.5_mac26.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
+    - Android 16 (API 36.1) / Pixel 9a / React 19.2.0
+      ![On Android 16](/images/rust/20251008_Tauri2.8.5_Pixel_9a_Android16.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250920_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
     - iOS 26.0 / iPhone 17 Pro
@@ -1715,8 +1725,13 @@ sidebar:
     - Slint 1.13.1
       ![Slint 1.13.1](/images/rust/20250928_Slint1.13.1.png)
 
-### Dioxus(Cross Platform Library)
+### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
+    - cmakeクレートのビルドには、Visual Studio 2022が必要
+  - V0.7.0-rc.0
+    ```
+    cargo install dioxus-cli --version 0.7.0-rc.0 --locked --bins
+    ```
   - V0.6.1
     ```
     cargo install dioxus-cli --version 0.6.1 --force
