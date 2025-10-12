@@ -41,6 +41,8 @@ sidebar:
   - ReactベースのAstro、Next.jsのプロジェクトやD3、Tauriといった関連プロジェクトについても更新
 
 ##  【10/9】
+- **＜.NET＞**  [Visual Studio Community 2026 18.0.0 Insidersを 11104.47](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)に更新
+
 - **＜Rust＞**  [Dioxus 0.7.0-rc.1](https://dioxuslabs.com/)に更新
 
 ##  【10/10】
