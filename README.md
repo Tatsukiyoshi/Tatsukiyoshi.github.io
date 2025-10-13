@@ -42,7 +42,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/10/09|Update: Dioxus 0.7.0-rc.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/11|Update: Android Studio Otter 2025.2.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/10/03|Update: Flutter 3.37.0-1.0.pre-397@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/08|Update: React 19.2.0
+[TypeScript](/knowhow/TypeScript)|2025/10/13|Update: Bun 1.3.0 / Astro 5.14.4 / Next.js 15.5.4 / Nuxt 4.1.3 / Svelte 5.39.11
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38

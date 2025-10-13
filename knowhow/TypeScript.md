@@ -28,7 +28,7 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.2.21](#bun)                 |[2025/08/30](https://bun.sh/)
+      |                |        |[Bun 1.3.0](#bun)                  |[2025/10/13](https://bun.sh/)
       |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -46,18 +46,18 @@ sidebar:
       |                |        |- bun 1.2.21                       |2025/08/30
       |                |        |- vite 7.1.9                       |2025/10/03
       |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
-      |                |        |[Astro 5.14.1](#astro)             |[2025/09/27](https://astro.build/)
+      |                |        |[Astro 5.14.4](#astro)             |[2025/09/27](https://astro.build/)
       |                |        |- React 19.2.0                     |2025/10/08
-      |                |        |- Bun 1.2.23                       |2025/10/05
+      |                |        |- Bun 1.3.0                        |2025/10/13
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
-      |                |        |[Next.js 15.5.2](#nextjs)          |[2025/08/30](https://nextjs.org/)
-      |                |        |- React 19.1.1                     |2025/08/30
-      |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[Nuxt 4.1.2](#nuxt)                |[2025/09/28](https://nuxt.com/)
-      |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |- Vite 7.1.7                       |2025/09/28
+      |                |        |[Next.js 15.5.4](#nextjs)          |[2025/10/13](https://nextjs.org/)
+      |                |        |- React 19.2.0                     |2025/10/13
+      |                |        |- Bun 1.3.0                        |2025/10/13
+      |                |        |[Nuxt 4.1.3](#nuxt)                |[2025/10/13](https://nuxt.com/)
+      |                |        |- Bun 1.3.0                        |2025/10/13
+      |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
       |                |        |- Bun 1.2.21                       |2025/08/30
       |                |        |[React Native Windows 0.80.0-pre.8](#rnw) |[2025/10/07](https://microsoft.github.io/react-native-windows/)
@@ -65,8 +65,8 @@ sidebar:
       |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.39.8](#svelte)           |[2025/10/05](https://svelte.dev/)
-      |                |        |- Bun 1.2.23                       |2025/10/05
+      |                |        |[Svelte 5.39.11](#svelte)          |[2025/10/13](https://svelte.dev/)
+      |                |        |- Bun 1.3.0                        |2025/10/13
       |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
