@@ -422,6 +422,19 @@ sidebar:
       - 背景にWindowsスポットライトを設定してみた！
       - メモ帳にタブがついた！
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
+- Windows History
+  - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
+    - 更新完了後のバージョン情報
+      ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
+  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
+    - ついに、24H2が降臨
+      ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
+    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
+      ![Almost Ready After Shapeup](/images/Windows/20241123_Windows11Update_24H2_2.png)
+    - インストール中に謎のフォルダ出現（2025年？）
+      ![Nexstgo.sav](/images/Windows/20241123_Windows11Update_24H2_3.png)
+    - 更新完了後のバージョン情報
+      ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
 - Windows on Arm History
   - Windows 11 on Arm 24H2 Build 26100.2314 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
     ![Version Information](/images/Windows/20241114_OmniBookX_WindowsVersion.png)

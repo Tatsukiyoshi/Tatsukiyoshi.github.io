@@ -21,15 +21,9 @@ OS                                 |Hardware            |Language
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
-  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
-    - ついに、24H2が降臨
-      ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
-    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
-      ![Almost Ready After Shapeup](/images/Windows/20241123_Windows11Update_24H2_2.png)
-    - インストール中に謎のフォルダ出現（2025年？）
-      ![Nexstgo.sav](/images/Windows/20241123_Windows11Update_24H2_3.png)
+  - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
     - 更新完了後のバージョン情報
-      ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
+      ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
   - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
     ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
