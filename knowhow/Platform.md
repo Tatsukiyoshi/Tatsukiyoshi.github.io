@@ -20,12 +20,12 @@ OS                                 |Hardware            |Language
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
+##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
   - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
-    - 更新完了後のバージョン情報
-      ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
-    - 更新後のアップデート
+    - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+      - バージョン情報
+        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
   - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
     ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ

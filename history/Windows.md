@@ -424,6 +424,10 @@ sidebar:
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
 - Windows History
   - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
+    - アップデート(2025-10)
+      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+      - バージョン情報
+        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
     - 更新完了後のバージョン情報
       ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
   - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
