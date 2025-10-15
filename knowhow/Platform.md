@@ -24,6 +24,8 @@ OS                                 |Hardware            |Language
   - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
     - 更新完了後のバージョン情報
       ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
+    - 更新後のアップデート
+      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
   - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
     ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
