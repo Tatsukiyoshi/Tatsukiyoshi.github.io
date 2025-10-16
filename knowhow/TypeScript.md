@@ -76,7 +76,7 @@ sidebar:
       |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
       |                |        |- Expo 53.0.20                     |2025/08/16
       |                |        |- Bun 1.2.20                       |2025/08/16
-      |                |Gen AI  |[Genkit js 1.19.3](#genkit)        |[2025/09/25](https://genkit.dev/)
+      |                |Gen AI  |[Genkit JS 1.21.0](#genkit)        |[2025/10/16](https://genkit.dev/)
 
   1.  macOS
 
