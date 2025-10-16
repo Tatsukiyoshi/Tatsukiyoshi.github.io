@@ -12,15 +12,191 @@ sidebar:
   |Windows Insider |Carbon        |[2025/09/15](https://github.com/carbon-language/carbon-lang)
   |                |- bazel 8.3.1 |2025/09/15
   |                |- clang 21.1.1|[2025/09/15](https://llvm.org/)
-  |Ubuntu Desktop  |Carbon        |2025/09/15
+  |Ubuntu Desktop  |Carbon        |2025/10/16
   |                |- bazel 8.3.1 |2025/09/14
-  |                |- clang 21.1.1|[2025/09/14](https://llvm.org/)
+  |                |- clang 21.1.3|[2025/10/14](https://llvm.org/)
 
 ##  概要
 -   [carbon language](https://github.com/carbon-language/carbon-lang)
     *   [公式Dockerfile](https://github.com/carbon-language/carbon-lang/blob/trunk/docker/ubuntu2204/base/Dockerfile)
 
 ##  導入
+### Ubuntu Desktop 25.04 環境更新（３回目） [**@2025/10/16** <span style="color: red;">*Updated!*</span>]
+-   ソフトウェ更新により、clang 21.1.3に更新
+
+-   更新後、ビルドしたところ、i386関連エラー（-fPIC指定に関するエラーやlibunwind.aがリンクできないエラー）が連発し、ビルドできないため、下記手順で再インストールを実施
+
+    -   LLVM GPGキー追加
+        ```
+        wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo tee /etc/apt/trusted.gpg.d/apt.llvm.org.asc
+        ```
+    -   LLVM APT リポジトリの再追加
+        ```
+        sudo add-apt-repository "deb [arch=amd64] http://apt.llvm.org/noble/ llvm-toolchain-noble-21 main"
+        ```
+    -   clangの手動アンインストールと手動インストール
+
+    -   libunwind.aがリンクできないエラーへの対応として、誤ったパッケージ(libunwind-dev)をインストールしていたため、置換
+        ```
+        sudo apt install libunwind-21-dev
+        ```
+
+-   対策後、ビルド実施し、正常終了
+
+    <details>
+    <summary>
+    ビルド結果
+    </summary>
+
+    ```
+    INFO: Invocation ID: 1779aea1-af8f-4d0f-a629-1d622ee63738
+    INFO: Analyzed target //toolchain:toolchain (0 packages loaded, 0 targets configured).
+    INFO: Found 1 target...
+    Target //toolchain:carbon up-to-date:
+    bazel-bin/toolchain/carbon
+    INFO: Elapsed time: 31211.383s, Critical Path: 1348.76s
+    INFO: 1959 processes: 303 action cache hit, 535 disk cache hit, 44 internal, 1380 processwrapper-sandbox.
+    INFO: Build completed successfully, 1959 total actions
+    INFO: Running command line: bazel-bin/toolchain/carbon <args omitted>
+    Carbon Language toolchain version: 0.0.0-0.dev+b2c2bdde3
+
+    This is the unified Carbon Language toolchain driver. Its subcommands provide all of the core behavior of the toolchain, including compilation, linking, and developer tools. Each of these has its own subcommand, and you can pass a specific subcommand to the `help` subcommand to get details about its usage.
+
+    Usage:
+    carbon [OPTIONS] build-runtimes [OPTIONS]
+    carbon [OPTIONS] clang [--build-runtimes] [<ARG>...]
+    carbon [OPTIONS] compile [OPTIONS] <FILE>... -- [<CLANG-ARG>...]
+    carbon [OPTIONS] format [--output=FILE] <FILE>...
+    carbon [OPTIONS] language-server
+    carbon [OPTIONS] link [OPTIONS] <OBJECT_FILE>...
+    carbon [OPTIONS] lld [OPTIONS] [<ARG>...]
+    carbon [OPTIONS] llvm ar [<ARG>...]
+    carbon [OPTIONS] llvm cgdata [<ARG>...]
+    carbon [OPTIONS] llvm cxxfilt [<ARG>...]
+    carbon [OPTIONS] llvm debuginfod-find [<ARG>...]
+    carbon [OPTIONS] llvm dsymutil [<ARG>...]
+    carbon [OPTIONS] llvm dwp [<ARG>...]
+    carbon [OPTIONS] llvm gsymutil [<ARG>...]
+    carbon [OPTIONS] llvm ifs [<ARG>...]
+    carbon [OPTIONS] llvm libtool-darwin [<ARG>...]
+    carbon [OPTIONS] llvm lipo [<ARG>...]
+    carbon [OPTIONS] llvm ml [<ARG>...]
+    carbon [OPTIONS] llvm mt [<ARG>...]
+    carbon [OPTIONS] llvm nm [<ARG>...]
+    carbon [OPTIONS] llvm objcopy [<ARG>...]
+    carbon [OPTIONS] llvm objdump [<ARG>...]
+    carbon [OPTIONS] llvm profdata [<ARG>...]
+    carbon [OPTIONS] llvm rc [<ARG>...]
+    carbon [OPTIONS] llvm readobj [<ARG>...]
+    carbon [OPTIONS] llvm sancov [<ARG>...]
+    carbon [OPTIONS] llvm size [<ARG>...]
+    carbon [OPTIONS] llvm symbolizer [<ARG>...]
+    carbon [OPTIONS] llvm ranlib [<ARG>...]
+    carbon [OPTIONS] llvm lib [<ARG>...]
+    carbon [OPTIONS] llvm dlltool [<ARG>...]
+    carbon [OPTIONS] llvm bitcode-strip [<ARG>...]
+    carbon [OPTIONS] llvm install-name-tool [<ARG>...]
+    carbon [OPTIONS] llvm strip [<ARG>...]
+    carbon [OPTIONS] llvm otool [<ARG>...]
+    carbon [OPTIONS] llvm windres [<ARG>...]
+    carbon [OPTIONS] llvm readelf [<ARG>...]
+    carbon [OPTIONS] llvm addr2line [<ARG>...]
+
+    Subcommands:
+    build-runtimes
+            Build Carbon's runtime libraries.
+
+            This subcommand builds Carbon's runtime libraries for a particular code generation target, either in their default location or a specified one.
+
+            Running this command directly is not necessary as Carbon will build and cache runtimes as needed when linking, but building them directly can aid in debugging issues or allow them to be prebuilt, possibly with customized code generation flags, and used explicitly when linking.
+
+    clang
+            Runs Clang on arguments.
+
+            This is equivalent to running the `clang` command line directly, and provides the full command line interface.
+
+            Use `carbon clang -- ARGS` to pass flags to `clang`. Although there are currently no flags for `carbon clang`, the `--` reserves the ability to add flags in the future.
+
+            This is provided to help guarantee consistent compilation of C++ files, both when Clang is invoked directly and when a Carbon file importing a C++ file results in an indirect Clang invocation.
+
+    compile
+            Compile Carbon source code.
+
+            This subcommand runs the Carbon compiler over input source code, checking it for errors and producing the requested output.
+
+            Error messages are written to the standard error stream.
+
+            Different phases of the compiler can be selected to run, and intermediate state can be written to standard output as these phases progress.
+
+    format
+            Format Carbon source code.
+
+    language-server
+            Runs the language server.
+
+    link
+            Link Carbon executables.
+
+            This subcommand links Carbon executables by combining object files.
+
+            TODO: Support linking binary libraries, both archives and shared libraries. TODO: Support linking against binary libraries.
+
+    lld
+            Runs LLD with the provided arguments.
+
+            Note that a specific LLD platform must be selected, and it is actually that particular platform's LLD-driver that is run with the arguments. There is no generic LLD command line.
+
+            For a given platform, this is equivalent to running that platform's LLD alias directly, and provides the full command line interface.
+
+            Use `carbon lld --platform=elf -- ARGS` to separate the `ARGS` forwarded to LLD from the flags passed to the Carbon subcommand.
+
+            Note that typically it is better to use a higher level command to link code, such as invoking `carbon link` with the relevant flags. However, this subcommand supports when you already have a specific invocation using existing command line syntaxes, as well as testing and debugging of the underlying tool.
+
+    llvm
+            Runs LLVM's command line tools with the provided arguments.
+
+            This subcommand provides access to a collection of LLVM's command line tools via further subcommands. For each of these tools, their command line can be provided using positional arguments.
+
+    help
+            Prints help information for the command, including a description, command line usage, and details of each subcommand and option that can be provided.
+
+    version
+            Prints the version of this command.
+
+    Command options:
+    -v, --verbose
+            Enable verbose logging to the stderr stream.
+
+        --runtimes-cache=PATH
+            Specify a custom runtimes cache location.
+
+            By default, the runtimes cache is located in the `carbon_runtimes` subdirectory of `$XDG_CACHE_HOME` (or `$HOME/.cache` if not set). If unable to use either, it will be placed in a temporary directory that is removed when the command completes. This flag overrides that logic with a specific path. It has no effect if --prebuilt-runtimes is set.
+
+        --prebuilt-runtimes=PATH
+            Path to prebuilt runtimes tree.
+
+            If this option is provided, runtimes will not be built on demand and this path will be used instead.
+
+        --fuzzing
+            Configure the command line for fuzzing.
+
+        --include-diagnostic-kind
+            When printing diagnostics, include the diagnostic kind as part of output. This applies to each message that forms a diagnostic, not just the primary message.
+
+        --no-threads
+            Controls whether threads are used to build runtimes.
+
+            When enabled (the default), Carbon will try to build runtime libraries using threads to parallelize the operation. How many threads is controlled automatically by the system.
+
+            Disabling threads ensures a single threaded build of the runtimes which can help when there are errors or other output.
+
+    For questions, issues, or bug reports, please use our GitHub project:
+
+    https://github.com/carbon-language/carbon-lang
+    ```
+
+    </details>
+
 ### Ubuntu 24.04.3 環境更新（３回目） [**2025/09/15** <span style="color: red;">*Updated with 21.1.1 instead of the previous 19.1.7*</span>]
 1.  clang-21, libc++-21-dev, libc++abi-21-dev, lld-21の導入
 	1.  必要なパッケージのインストール
