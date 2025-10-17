@@ -6,6 +6,15 @@ sidebar:
 ---
 
 # .NET MAUI 10
+##  .NET MAUI 10-rc.2
+- 18.0.0 Insiders / MAUI 10.0.0-rc.2.25504.7 / Pixel 9a (Android 16)
+  ![MAUI - Pixel 9a](/images/VisualStudio/20251017_VS2026_18.0.0_Insiders_MAUI10.0.0rc2_Android16.png)
+  - Android SDK設定の見直し
+    - 初期値
+      ![Default Setting](/images/VisualStudio/20251017_Android_SDK_Setting_Default.png)
+    - 実働設定(Android Studioに合わせる)
+      ![Fit to Android Studio](/images/VisualStudio/20251017_Android_SDK_Setting.png)
+
 ##  .NET MAUI 10-rc.1
 - 18.0.0 Insiders / MAUI 10.0.0-rc.1.25452.6 / Pixel 9 Pro (Android 16)
   ![MAUI - Pixel 9 Pro](/images/VisualStudio/20250910_VS2026_18.0.0_Insiders_MAUI10.0.0rc1_Android16.png)
