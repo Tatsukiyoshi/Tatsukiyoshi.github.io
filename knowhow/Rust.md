@@ -45,16 +45,16 @@ sidebar:
       |                |- Bun 1.2.23    |2025/10/08
       |                |- Vite 7.1.9    |2025/10/08
 
-  1. Chrome OS Flex 140.0.7339.201 (Official Build)
+  1. Chrome OS Flex 141.0.7390.115 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.90                                 |2025/09/20
-      |           |[Node.js 24.7.0](TypeScript#typescript)   |[2025/09/04](https://nodejs.org/en)
+      |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
       |           |- React 19.2.0                            |2025/10/08
-      |           |- Bun 1.2.23                              |2025/10/08
-      |           |- Vite 7.1.9                              |2025/10/08
+      |           |- Bun 1.3.0                              |2025/10/18
+      |           |- Vite 7.1.10                              |2025/10/18
 
   1. macOS Tahoe 26
 
