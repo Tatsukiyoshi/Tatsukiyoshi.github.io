@@ -31,7 +31,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |macOS           |Android Studio Narwhal 3 2025.1.3                             |[2025/09/03](https://developer.android.com/studio)
+      |macOS           |Android Studio Narwhal 4 2025.1.4                             |[2025/10/18](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
