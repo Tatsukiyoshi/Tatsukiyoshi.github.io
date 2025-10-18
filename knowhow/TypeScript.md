@@ -39,7 +39,7 @@ sidebar:
       |                |        |- [React 19.2.0](#react)           |2025/10/08
       |                |        |- [Svelte 5.25.3](#svelte)         |2025/03/29
       |                |        |Chart.JS 4.5.0                     |[2025/07/08](https://www.chartjs.org/)
-      |                |        |Recharts 3.1.0                     |[2025/07/20](https://recharts.org/)
+      |                |        |Recharts 3.3.0                     |[2025/10/18](https://recharts.org/)
       |                |        |[Babylon.js 8.30.1](#babylonjs)    |[2025/10/03](https://www.babylonjs.com/)
       |                |        |- react 19.2.0                     |[2025/10/03](https://react.dev/)
       |                |        |- react-babylonjs 3.2.4            |[2025/10/03](https://github.com/brianzinn/react-babylonjs)

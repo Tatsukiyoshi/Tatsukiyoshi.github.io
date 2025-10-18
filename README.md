@@ -43,7 +43,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/10/15|Update: Dioxus 0.7.0-rc.2
 [Kotlin](/knowhow/Kotlin)        |2025/10/18|Update: Android Studio Otter 2025.2.2 Canary 1
 [Flutter](/knowhow/Flutter)      |2025/10/18|Update: Flutter 3.37.0-1.0.pre-566@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/16|Update: Genkit JS 1.21.0
+[TypeScript](/knowhow/TypeScript)|2025/10/18|Update: Recharts 3.3.0
 [Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
