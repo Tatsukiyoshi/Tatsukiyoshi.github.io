@@ -283,6 +283,12 @@ OS/言語を問わず利用するツールの情報
       proto plugin add pkl https://raw.githubusercontent.com/milesj/proto-plugins/refs/heads/master/pkl.toml
       proto install pkl --pin
       ```
+- [Zed](https://zed.dev)
+  - Windows
+    - [Zed 0.208.5](https://zed.dev/windows) <span style="color: red;">*<<2025/10/18 installed>>*</span>
+      ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
+  - macOS
+    - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  Windows <a id="Windows"></a>
 - [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>
@@ -369,5 +375,4 @@ OS/言語を問わず利用するツールの情報
   ```
   brew install watchman
   ```
-- [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [GIMP 3.0](https://www.gimp.org/) <span style="color: red;">*<<2025/03/18 updated from 3.0.0 RC1>>*</span>
