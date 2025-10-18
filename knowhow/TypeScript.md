@@ -159,6 +159,10 @@ sidebar:
         ```
         powershell -c "irm bun.sh/install.ps1 | iex"
         ```
+        - Specific Version
+          ```
+          iex "& {$(irm https://bun.com/install.ps1)} -Version 1.3.0"
+          ```
       - WSL2
         ```sh
         curl -fsSL https://bun.sh/install | bash
@@ -179,6 +183,15 @@ sidebar:
       ```
       bun install --save-text-lockfile
       ```
+    - uninstall
+      - スクリプトの実行有効化
+        ```
+        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+        ```
+      - 実行
+        ```
+        powershell -c "~/.bun/uninstall.ps1"
+        ```
   - [Deno](https://deno.land/) <a id="deno"></a>
     - Denoを試してみる
       - インストール
