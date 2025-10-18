@@ -224,9 +224,9 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
-  - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
+- [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+  ![Version Information](/images/Ubuntu/20251019_Ubuntu25.10.png)
+  - [Upgrade Log](/knowhow/sub/Ubuntu/20251019_Upgrade)
 
     <details>
     <summary>
@@ -238,7 +238,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2025-10-10 00:43:05
+    - **Date generated:**                              2025-10-19 00:50:47
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -249,12 +249,12 @@ OS                                 |Hardware            |Language
 
     ## Software Information:
     - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu 25.04
+    - **OS Name:**                                     Ubuntu 25.10
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
-    - **GNOME Version:**                               48
-    - **Windowing System:**                            X11
-    - **Kernel Version:**                              Linux 6.14.0-33-generic
+    - **GNOME Version:**                               49
+    - **Windowing System:**                            Wayland
+    - **Kernel Version:**                              Linux 6.17.0-5-generic
     ```
     </details>
 
@@ -264,25 +264,25 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu 25.04"
+    PRETTY_NAME="Ubuntu 25.10"
     NAME="Ubuntu"
-    VERSION_ID="25.04"
-    VERSION="25.04 (Plucky Puffin)"
-    VERSION_CODENAME=plucky
+    VERSION_ID="25.10"
+    VERSION="25.10 (Questing Quokka)"
+    VERSION_CODENAME=questing
     ID=ubuntu
     ID_LIKE=debian
     HOME_URL="https://www.ubuntu.com/"
     SUPPORT_URL="https://help.ubuntu.com/"
     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=plucky
+    UBUNTU_CODENAME=questing
     LOGO=ubuntu-logo
     ```
 
     </details>
 
   - カーネルバージョン
-    - 6.14.0-33 / Ubuntu 25.04 <span style="color: red;">*<<2025/10/10 Updated from 6.14.0-29>>*</span>
+    - 6.17.0-5 / Ubuntu 25.10 <span style="color: red;">*<<2025/10/19 Updated from 6.14.0-33>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) I
