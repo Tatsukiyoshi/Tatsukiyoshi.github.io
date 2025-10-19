@@ -279,8 +279,11 @@ sidebar:
     </details>
 
 ### Windows App SDK
-  - Visual Studio Community 2026 Insiders / Windows App SDK 1.8.0
-    ![WPF Capture](/captures/20250924_winappsdk1.80.mp4)
+  - Visual Studio Community 2026 Insiders / Windows App SDK 1.8.1
+    <video src="/captures/20250924_winappsdk1.80.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+      お使いのブラウザは動画タグをサポートしていません。
+      <a href="/captures/20250924_winappsdk1.80.mp4" download>こちら</a>から動画をダウンロードしてください。
+    </video>
   - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0
     ![Hello World](/images/VisualStudio/20250922_VS2022_17.14.14_AppSDK1.8.0.png)
   - NET 8.0
@@ -382,7 +385,11 @@ sidebar:
 ### Blend & WPF
   - [チュートリアル: Microsoft Expression Blend を使用してボタンを作成する](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/controls/walkthrough-create-a-button-by-using-microsoft-expression-blend)
     ![WPF on Blend](/images/VisualStudio/20250923_WPF_Blend.png)
-    ![WPF Capture](/captures/20250924_wpf.mp4)
+
+    <video src="/captures/20250924_wpf.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+      お使いのブラウザは動画タグをサポートしていません。
+      <a href="/captures/20250924_wpf.mp4" download>こちら</a>から動画をダウンロードしてください。
+    </video>
 
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
