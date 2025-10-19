@@ -22,7 +22,7 @@ sidebar:
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
       |Windows        |[Rust 1.90](#rust-1)                           |[2025/09/21](https://www.rust-lang.org/)
-      |               |[RustRover 2025.3 EAP 4](#rustrover)           |[2025/10/07](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.3 EAP 6](#rustrover)           |[2025/10/19](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.90                                      |2025/09/20
@@ -132,12 +132,12 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3 EAP Build #RR-253.24325.42, built on October 3, 2025 <span style="color: red;">**Updated 2025/10/07**</span>
+  - RustRover 2025.3 EAP Build #RR-253.27642.33, built on October 17, 2025 <span style="color: red;">**Updated 2025/10/19**</span>
     ```
-    Source revision: 494355c3f56d3
+    Source revision: a2e545ae0693d
     ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: November 2, 2025
-    Runtime version: 21.0.8+9-b1140.54 amd64 (JCEF 137.0.17)
+    有効期限: November 16, 2025
+    Runtime version: 21.0.8+9-b1163.59 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -146,17 +146,22 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      org.toml.json.schema=false
-      terminal.new.ui.show.promotion=true
       transferSettings.vscode.onlyCargoToml=true
+      org.toml.json.schema=false
+      llm.ai.assistant.toolwindow.activation.on.start=false
+      terminal.new.ui.show.promotion=true
     Non-Bundled Plugins:
-      com.intellij.qt (253.24325.50)
-      com.jetbrains.space (253.24325.21)
-      ru.adelf.idea.dotenv (253.24325.21)
-      com.jetbrains.rust (253.24325.42)
-      com.intellij.ml.llm (253.24325.42)
-      com.intellij.lang.qml (253.24325.50)
+      JavaScriptDebugger (253.27642.35)
+      org.toml.lang (253.27642.34)
+      com.jetbrains.space (253.27642.17)
+      ru.adelf.idea.dotenv (253.27642.17)
+      com.jetbrains.rust (253.27642.33)
+      Docker (253.27642.37)
+      com.intellij.ml.llm (253.27642.33)
+      intellij.webpack (253.27642.35)
+      com.intellij.react (253.27642.35)
+      org.jetbrains.plugins.vue (253.27642.37)
+      com.intellij.mcpServer (253.27642.35)
     ```
     - [履歴](/history/RustRover)
   - データベース

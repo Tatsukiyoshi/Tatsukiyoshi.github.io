@@ -41,7 +41,7 @@ Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/downlo
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/10/17|Update: Visual Studio Community 2026 18.0.0 Insiders [11111.16] / .NET 10.0.100-rc.2.25502.107 / .NET MAUI 10.0.0-rc.2.25504.7
-[Rust](/knowhow/Rust)            |2025/10/15|Update: Dioxus 0.7.0-rc.2
+[Rust](/knowhow/Rust)            |2025/10/19|Update: RustRover 2025.3 EAP 6
 [Kotlin](/knowhow/Kotlin)        |2025/10/19|Update: IntelliJ IDEA 2025.3 EAP 5
 [Flutter](/knowhow/Flutter)      |2025/10/18|Update: Flutter 3.37.0-1.0.pre-566@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/18|Update: Recharts 3.3.0
