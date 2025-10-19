@@ -20,16 +20,12 @@ OS                                 |Hardware            |Language
   - (v) Chrome OS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a>
-  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
-    - ついに、24H2が降臨
-      ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
-    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
-      ![Almost Ready After Shapeup](/images/Windows/20241123_Windows11Update_24H2_2.png)
-    - インストール中に謎のフォルダ出現（2025年？）
-      ![Nexstgo.sav](/images/Windows/20241123_Windows11Update_24H2_3.png)
-    - 更新完了後のバージョン情報
-      ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
+##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
+  - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
+    - アップデート(2025-10)
+      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+      - バージョン情報
+        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
   - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
     ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
@@ -45,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.6780 (Cumulative Update) <span style="color: red;">*<<2025/10/11 updated from Build 26220.6772 >>*</span>
-      ![Cumulative Update](/images/Windows/20251011_WindowsUpdate_DevChannel.png)
+    - Build 26220.6972 (Quality Update) <span style="color: red;">*<<2025/10/18 updated from Build 26220.6780 >>*</span>
+      ![Cumulative Update](/images/Windows/20251018_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251011_Windows11_Build26220.png)
+        ![Version Information](/images/Windows/20251018_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -164,10 +160,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 140.0.7339.242 <span style="color: red;">*<<2025/10/11 updated from 140.0.7339.229>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251011_Chrome_OS_Flex_140.0.7339.242.png)
+  - バージョン 141.0.7390.115 <span style="color: red;">*<<2025/10/17 updated from 140.0.7339.242>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20251017_Chrome_OS_Flex_141.0.7390.115.png)
       - 更新中（再起動前）
-        ![Updating](/images/Chrome/20251011_Chrome_OS_Flex_Updating140.0.7339.242.png)
+        ![Updating](/images/Chrome/20251017_Chrome_OS_Flex_Updating141.0.7390.115.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -228,9 +224,9 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
-  - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
+- [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+  ![Version Information](/images/Ubuntu/20251019_Ubuntu25.10.png)
+  - [Upgrade Log](/knowhow/sub/Ubuntu/20251019_Upgrade)
 
     <details>
     <summary>
@@ -242,7 +238,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2025-10-10 00:43:05
+    - **Date generated:**                              2025-10-19 00:50:47
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -253,12 +249,12 @@ OS                                 |Hardware            |Language
 
     ## Software Information:
     - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu 25.04
+    - **OS Name:**                                     Ubuntu 25.10
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
-    - **GNOME Version:**                               48
-    - **Windowing System:**                            X11
-    - **Kernel Version:**                              Linux 6.14.0-33-generic
+    - **GNOME Version:**                               49
+    - **Windowing System:**                            Wayland
+    - **Kernel Version:**                              Linux 6.17.0-5-generic
     ```
     </details>
 
@@ -268,25 +264,25 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu 25.04"
+    PRETTY_NAME="Ubuntu 25.10"
     NAME="Ubuntu"
-    VERSION_ID="25.04"
-    VERSION="25.04 (Plucky Puffin)"
-    VERSION_CODENAME=plucky
+    VERSION_ID="25.10"
+    VERSION="25.10 (Questing Quokka)"
+    VERSION_CODENAME=questing
     ID=ubuntu
     ID_LIKE=debian
     HOME_URL="https://www.ubuntu.com/"
     SUPPORT_URL="https://help.ubuntu.com/"
     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=plucky
+    UBUNTU_CODENAME=questing
     LOGO=ubuntu-logo
     ```
 
     </details>
 
   - カーネルバージョン
-    - 6.14.0-33 / Ubuntu 25.04 <span style="color: red;">*<<2025/10/10 Updated from 6.14.0-29>>*</span>
+    - 6.17.0-5 / Ubuntu 25.10 <span style="color: red;">*<<2025/10/19 Updated from 6.14.0-33>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) I

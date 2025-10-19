@@ -7,6 +7,10 @@ sidebar:
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)
+      - Build 26220.6972 (Quality Update) <span style="color: red;">*<<2025/10/18 updated from Build 26220.6780 >>*</span>
+        ![Cumulative Update](/images/Windows/20251018_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](/images/Windows/20251018_Windows11_Build26220.png)
       - Build 26220.6780 (Cumulative Update) <span style="color: red;">*<<2025/10/11 updated from Build 26220.6772 >>*</span>
         ![Cumulative Update](/images/Windows/20251011_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
@@ -422,6 +426,23 @@ sidebar:
       - 背景にWindowsスポットライトを設定してみた！
       - メモ帳にタブがついた！
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
+- Windows History
+  - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
+    - アップデート(2025-10)
+      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+      - バージョン情報
+        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
+    - 更新完了後のバージョン情報
+      ![Version Information](/images/Windows/20251013_MiniS12_WindowsVersion.png)
+  - Windows 11 24H2 <span style="color: red;">*<<2024/11/23 updated from 23H2(10.0.22631.4460)>>*</span>
+    - ついに、24H2が降臨
+      ![Cumulative Update](/images/Windows/20241123_Windows11Update_24H2.png)
+    - しかし、空き容量不足のため、WSL2アンインストールで何とか準備OK！
+      ![Almost Ready After Shapeup](/images/Windows/20241123_Windows11Update_24H2_2.png)
+    - インストール中に謎のフォルダ出現（2025年？）
+      ![Nexstgo.sav](/images/Windows/20241123_Windows11Update_24H2_3.png)
+    - 更新完了後のバージョン情報
+      ![Version Information](/images/Windows/20241123_MiniS12_WindowsVersion.png)
 - Windows on Arm History
   - Windows 11 on Arm 24H2 Build 26100.2314 <span style="color: red;">*<<2024/11/14 setup>>*</span><a id="WindowsArm"></a>
     ![Version Information](/images/Windows/20241114_OmniBookX_WindowsVersion.png)

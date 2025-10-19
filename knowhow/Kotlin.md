@@ -22,16 +22,16 @@ sidebar:
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.1 Canary 5](#AndroidStudio)      |[2025/10/11](https://developer.android.com/studio)
+      |                |[Android Studio Otter 2025.2.2 Canary 1](#AndroidStudio)      |[2025/10/18](https://developer.android.com/studio)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.3.3                                   |2025/10/07
+      |                |- Android Emulator v.36.3.4                                   |2025/10/18
 
   1. macOS Sequoia 15.6.1
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |macOS           |Android Studio Narwhal 3 2025.1.3                             |[2025/09/03](https://developer.android.com/studio)
+      |macOS           |Android Studio Narwhal 4 2025.1.4                             |[2025/10/18](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -284,9 +284,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter | 2025.2.1 Canary 5
+    - Android Studio Otter 2 Feature Drop | 2025.2.2 Canary 1
       ```
-      Build #AI-252.25557.131.2521.14240541, built on October 9, 2025
+      Build #AI-252.25557.131.2522.14279661, built on October 16, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -373,16 +373,21 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Otter
-      - Canary 5
-        - Android Gradle Plugin 9.0.0-alpha09 -> 9.0.0-alpha10
-      - Canary 4
-        - Android Gradle Plugin 9.0.0-alpha08 -> 9.0.0-alpha09
-        - Android Emulator 36.3.2
-      - Canary 3
-        - Android Gradle Plugin 9.0.0-alpha06 -> 9.0.0-alpha08
-      - Canary 1
-        - Android Gradle Plugin 9.0.0-alpha05 -> 9.0.0-alpha06
-        - Android Emulator 36.3.1
+      - Feature Drop 2025.2.2
+        - Canary 1
+          - Android Gradle Plugin 9.0.0-alpha10 -> 9.0.0-alpha11
+          - Android Emulator 36.3.4
+      - 2025.2.1
+        - Canary 5
+          - Android Gradle Plugin 9.0.0-alpha09 -> 9.0.0-alpha10
+        - Canary 4
+          - Android Gradle Plugin 9.0.0-alpha08 -> 9.0.0-alpha09
+          - Android Emulator 36.3.2
+        - Canary 3
+          - Android Gradle Plugin 9.0.0-alpha06 -> 9.0.0-alpha08
+        - Canary 1
+          - Android Gradle Plugin 9.0.0-alpha05 -> 9.0.0-alpha06
+          - Android Emulator 36.3.1
     - Narwhal
       - Feature Drop 2025.1.4
         - Canary 5

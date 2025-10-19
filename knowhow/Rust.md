@@ -29,11 +29,11 @@ sidebar:
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.8.5](#tauridesktop-framework)         |[2025/09/04](https://tauri.app/)
-      |               |Svelte 5.39.3                                  |2025/09/20
-      |               |Bun 1.2.21                                     |2025/08/30
-      |               |Vite 7.1.6                                     |2025/09/20
-      |               |[Dioxus 0.7.0-rc.1](#dioxus)                   |[2025/10/09](https://dioxuslabs.com/)
-      |               |- Visual Studio Community 2022 17.14.16        |[2025/10/05](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |- Svelte 5.39.3                                |2025/09/20
+      |               |- Bun 1.2.21                                   |2025/08/30
+      |               |- Vite 7.1.6                                   |2025/09/20
+      |               |[Dioxus 0.7.0-rc.2](#dioxus)                   |[2025/10/15](https://dioxuslabs.com/)
+      |               |- Visual Studio Community 2022 17.14.17        |[2025/10/17](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11
 
@@ -41,20 +41,20 @@ sidebar:
       |----------------|----------------|----------
       |Windows Insider |Rust 1.90       |2025/09/20
       |                |Tauri 2.8.5     |2025/09/04
-      |                |React 19.2.0    |2025/10/08
-      |                |Bun 1.2.23      |2025/10/08
-      |                |Vite 7.1.9      |2025/10/08
+      |                |- React 19.2.0  |2025/10/08
+      |                |- Bun 1.2.23    |2025/10/08
+      |                |- Vite 7.1.9    |2025/10/08
 
-  1. Chrome OS Flex 140.0.7339.201 (Official Build)
+  1. Chrome OS Flex 141.0.7390.115 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.90                                 |2025/09/20
-      |           |[Node.js 24.7.0](TypeScript#typescript)  |[2025/09/04](https://nodejs.org/en)
+      |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
-      |           |React 19.2.0                              |2025/10/08
-      |           |Bun 1.2.23                                |2025/10/08
-      |           |Vite 7.1.9                                |2025/10/08
+      |           |- React 19.2.0                            |2025/10/08
+      |           |- Bun 1.3.0                               |2025/10/18
+      |           |- Vite 7.1.10                             |2025/10/18
 
   1. macOS Tahoe 26
 
@@ -63,9 +63,9 @@ sidebar:
       |macOS      |Rust 1.90            |2025/09/20
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.8.5          |2025/09/04
-      |           |React 19.2.0         |2025/10/08
-      |           |Bun 1.2.23           |2025/10/08
-      |           |Vite 7.1.9           |2025/10/08
+      |           |- React 19.2.0       |2025/10/08
+      |           |- Bun 1.2.23         |2025/10/08
+      |           |- Vite 7.1.9         |2025/10/08
 
 ##  ノウハウ
 ### Rust
@@ -1728,6 +1728,10 @@ sidebar:
 ### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
     - cmakeクレートのビルドには、Visual Studio 2022が必要
+  - V0.7.0-rc.2
+    ```
+    cargo install dioxus-cli --version 0.7.0-rc.2 --locked --bins
+    ```
   - V0.7.0-rc.0
     ```
     cargo install dioxus-cli --version 0.7.0-rc.0 --locked --bins
