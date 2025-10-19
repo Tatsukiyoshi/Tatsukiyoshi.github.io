@@ -53,8 +53,8 @@ sidebar:
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.8.5                               |2025/09/04
       |           |- React 19.2.0                            |2025/10/08
-      |           |- Bun 1.3.0                              |2025/10/18
-      |           |- Vite 7.1.10                              |2025/10/18
+      |           |- Bun 1.3.0                               |2025/10/18
+      |           |- Vite 7.1.10                             |2025/10/18
 
   1. macOS Tahoe 26
 
