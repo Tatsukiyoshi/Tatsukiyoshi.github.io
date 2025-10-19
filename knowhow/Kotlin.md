@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3 EAP 4](#intellij-idea)                  |[2025/10/07](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3 EAP 5](#intellij-idea)                  |[2025/10/19](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
@@ -36,11 +36,11 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3 EAP (Ultimate Edition)
+  - IntelliJ IDEA 2025.3 EAP
     ```
-    Build #IU-253.24325.38, built on October 3, 2025
-    Source revision: 494355c3f56d3
-    Runtime version: 21.0.8+9-b1140.54 amd64 (JCEF 137.0.17)
+    Build #IU-253.25908.13, built on October 7, 2025
+    Source revision: f672237f1a83d
+    Runtime version: 21.0.8+9-b1148.57 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -50,37 +50,48 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.24325.39)
-      com.intellij.debugger.collections.visualizer (253.24325.40)
-      com.intellij.java (253.24325.38)
-      org.jetbrains.completion.full.line (253.24325.38)
-      JavaScriptDebugger (253.24325.40)
-      intellij.webp (253.24325.21)
-      Subversion (253.24325.39)
-      com.intellij.copyright (253.24325.38)
-      org.editorconfig.editorconfigjetbrains (253.24325.50)
-      org.jetbrains.plugins.yaml (253.24325.38)
-      com.intellij.javaee (253.24325.40)
-      org.toml.lang (253.24325.39)
-      com.intellij.spring (253.24325.40)
-      com.intellij.properties (253.24325.39)
-      com.intellij.spring.boot.initializr (253.24325.38)
-      com.intellij.java-i18n (253.24325.38)
-      Dart (253.24325.37)
-      com.jetbrains.restClient (253.24325.38)
-      intellij.jupyter (253.24325.39)
-      org.jetbrains.plugins.kotlin.jupyter (253.24325.38)
-      com.intellij.ml.llm (253.24325.38)
-      tanvd.grazi (253.24325.38)
-      org.jetbrains.plugins.gitlab (253.24325.38)
-      com.intellij.settingsSync (253.24325.38)
-      org.jetbrains.plugins.github (253.24325.38)
-      org.jetbrains.idea.maven (253.24325.38)
-      org.jetbrains.plugins.gradle (253.24325.38)
-      org.jetbrains.android (253.24325.38)
-      com.intellij.mcpServer (253.24325.40)
-      org.jetbrains.security.package-checker (253.24325.44)
-    Kotlin: 253.24325.38-IJ
+      com.intellij.notebooks.core (253.25908.29)
+      com.intellij.debugger.collections.visualizer (253.25908.29)
+      com.intellij.java (253.25908.13)
+      org.jetbrains.completion.full.line (253.25908.13)
+      training (253.25908.29)
+      JavaScriptDebugger (253.25908.20)
+      intellij.webp (253.25908.13)
+      Subversion (253.25908.26)
+      HtmlTools (253.25908.20)
+      com.intellij.copyright (253.25908.20)
+      org.editorconfig.editorconfigjetbrains (253.25908.20)
+      org.jetbrains.plugins.yaml (253.25908.20)
+      com.jetbrains.sh (253.25908.20)
+      com.intellij.javaee (253.25908.29)
+      org.toml.lang (253.25908.29)
+      com.intellij.jsonpath (253.25908.13)
+      com.intellij.spring (253.25908.29)
+      org.jetbrains.plugins.terminal (253.25908.20)
+      com.intellij.properties (253.25908.29)
+      com.intellij.spring.boot.initializr (253.25908.13)
+      com.intellij.java-i18n (253.25908.13)
+      Dart (253.25908.13)
+      com.intellij.thymeleaf (253.25908.13)
+      com.intellij.javaee.el (253.25908.13)
+      com.jetbrains.restClient (253.25908.20)
+      XPathView (253.25908.13)
+      com.intellij.tasks (253.25908.20)
+      intellij.jupyter (253.25908.29)
+      org.jetbrains.plugins.kotlin.jupyter (253.25908.13)
+      Docker (253.25908.29)
+      com.intellij.ml.llm (253.25908.13)
+      tanvd.grazi (253.25908.13)
+      org.jetbrains.plugins.gitlab (253.25908.20)
+      com.intellij.settingsSync (253.25908.13)
+      org.jetbrains.plugins.github (253.25908.20)
+      org.jetbrains.idea.maven (253.25908.13)
+      org.jetbrains.plugins.gradle (253.25908.13)
+      org.jetbrains.android (253.25908.13)
+      PerforceDirectPlugin (253.25908.20)
+      org.jetbrains.security.package-checker (253.25908.36)
+      com.intellij.microservices.ui (253.25908.29)
+    Kotlin: 253.25908.13-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
