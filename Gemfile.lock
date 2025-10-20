@@ -123,6 +123,7 @@ GEM
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.6.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -135,6 +136,7 @@ DEPENDENCIES
   jekyll-remote-theme (~> 0.4.3)
   minima!
   minimal-mistakes-jekyll (~> 4.27.3)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.6.9
