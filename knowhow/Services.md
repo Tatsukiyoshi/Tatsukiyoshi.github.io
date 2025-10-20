@@ -23,6 +23,13 @@ sidebar:
   ![Jules Agent](/images/Services/20250809_Jules.png)
 - GitHub Issueに"Jules"というラベルを作成すると、そのIssueを実行してくれる
 
+##  [Open AI](https://platform.openai.com/)
+- Open AI API利用
+  - APIキーの作成
+    ![CreateAPIKey1](/images/OpenAI/20251020_CreateAPIKey.png)
+    ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
+    ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
+
 ##  [Penpot](https://design.penpot.app/) <span style="color: red;">*<<2024/07/10 v2.1 released>>*</span>
   - ノウハウ
     - 日本語表示に切り替える<BR />
