@@ -17,7 +17,7 @@ OS/言語を問わず利用するツールの情報
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
-    - Git 2.50.0 <span style="color: red;">*<<2025/06/17 updated from 2.49.0>>*</span>
+    - Git 2.51.1 <span style="color: red;">*<<2025/10/21 updated from 2.50.0>>*</span>
     - Windowsでの更新
       ```
       git update-git-for-windows
