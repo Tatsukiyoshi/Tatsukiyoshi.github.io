@@ -51,10 +51,10 @@ sidebar:
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.90                                 |2025/09/20
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.8.5                               |2025/09/04
+      |           |Tauri 2.9.0                               |2025/10/21
       |           |- React 19.2.0                            |2025/10/08
       |           |- Bun 1.3.0                               |2025/10/18
-      |           |- Vite 7.1.10                             |2025/10/18
+      |           |- Vite 7.1.11                             |2025/10/21
 
   1. macOS Tahoe 26.0.1
 
@@ -392,6 +392,8 @@ sidebar:
   - V2.9.0
     - macOS 26
       ![On macOS](/images/rust/20251021_Tauri2.9.0_mac26.0.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251021_Tauri2.9.0_Chrome_OS_Flex.png)
     - iOS 26.0 / iPhone 17 Pro
       ![On iOS 26](/images/rust/20251021_Tauri2.9.0_iPhone17_Pro_iOS26.png)
   - V2.8.5 + Rust 1.90
