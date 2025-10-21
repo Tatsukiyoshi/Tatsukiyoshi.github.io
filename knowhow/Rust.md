@@ -56,16 +56,16 @@ sidebar:
       |           |- Bun 1.3.0                               |2025/10/18
       |           |- Vite 7.1.10                             |2025/10/18
 
-  1. macOS Tahoe 26
+  1. macOS Tahoe 26.0.1
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
       |macOS      |Rust 1.90            |2025/09/20
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.8.5          |2025/09/04
+      |           |Tauri 2.9.0          |2025/10/21
       |           |- React 19.2.0       |2025/10/08
-      |           |- Bun 1.2.23         |2025/10/08
-      |           |- Vite 7.1.9         |2025/10/08
+      |           |- Bun 1.3.0          |2025/10/21
+      |           |- Vite 7.1.11        |2025/10/21
 
 ##  ノウハウ
 ### Rust
@@ -389,6 +389,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.9.0
+    - macOS 26
+      ![On macOS](/images/rust/20251021_Tauri2.9.0_mac26.0.1.png)
+    - iOS 26.0 / iPhone 17 Pro
+      ![On iOS 26](/images/rust/20251021_Tauri2.9.0_iPhone17_Pro_iOS26.png)
   - V2.8.5 + Rust 1.90
     - Windows
       ![On Windows](/images/rust/20250920_Tauri2.8.5_Windows.png)
