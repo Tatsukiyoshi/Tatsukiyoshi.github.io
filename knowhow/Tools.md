@@ -23,7 +23,7 @@ OS/言語を問わず利用するツールの情報
       git update-git-for-windows
       ```
   - macOS
-    - Git 2.50.0 <span style="color: red;">*<<2025/06/21 updated from 2.49.0>>*</span>
+    - Git 2.51.1 <span style="color: red;">*<<2025/10/21 updated from 2.50.0>>*</span>
     - Macでの更新
       ```
       brew upgrade git
