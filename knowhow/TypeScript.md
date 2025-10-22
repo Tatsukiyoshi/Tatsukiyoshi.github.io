@@ -52,7 +52,7 @@ sidebar:
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
-      |                |        |[Next.js 15.5.4](#nextjs)          |[2025/10/13](https://nextjs.org/)
+      |                |        |[Next.js 16.0.0](#nextjs)          |[2025/10/22](https://nextjs.org/)
       |                |        |- React 19.2.0                     |2025/10/13
       |                |        |- Bun 1.3.0                        |2025/10/13
       |                |        |[Nuxt 4.1.3](#nuxt)                |[2025/10/13](https://nuxt.com/)
@@ -543,6 +543,10 @@ sidebar:
     - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
       ```
       bun create next-app
+      ```
+    - Next.js 16.0.0
+      ```
+      npx @next/codemod@canary upgrade latest
       ```
     - Next.js 13新機能
       - Appフォルダ

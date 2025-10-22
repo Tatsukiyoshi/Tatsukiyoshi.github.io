@@ -9,7 +9,7 @@ sidebar:
 
   |Verify                   |FW              |Last Updated
   |-------------------------|----------------|----------
-  |ReactGrid / ChartJs      |Next.js 15.5.2  |[2025/08/30](https://next-grid-chart.vercel.app/)
+  |ReactGrid / ChartJs      |Next.js 16.0.0  |[2025/10/22](https://next-grid-chart.vercel.app/)
   |                         |Astro 5.14.1    |[2025/09/27](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.2.0    |[2025/10/18](https://graph-libraries.vercel.app/)
   |InputField(Full-Width)   |React 19.1.0    |[2025/05/22](https://ya-full-width-input-field.vercel.app/)
