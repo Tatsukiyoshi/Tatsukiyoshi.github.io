@@ -15,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/10/12～2025/10/18）](/digest/2025/October/2nd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/10/19～2025/10/25）](/digest/2025/October/3rd) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -30,6 +30,17 @@ Windows                         |2025/10/15|[25H2(26200.6899)](https://www.micro
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
+
+Tools                           |Updated   |Detail
+--------------------------------|----------|--------
+Visual Studio Code              |2025/10/16|[September 2025 Recovery 1](https://code.visualstudio.com/)
+Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
+Zed                             |2025/10/18|[0.208.5](https://zed.dev)
+PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
+GitHub Desktop                  |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
+Xcode                           |2025/09/16|[26.0](https://developer.apple.com/jp/xcode/)
+CocoaPods                       |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
+GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
