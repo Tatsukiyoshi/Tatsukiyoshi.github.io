@@ -25,7 +25,7 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/10/18|[Build 26220.6972](https://aka.ms/DevLatest)
+Windows Insider                 |2025/10/25|[Build 26220.6982](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
