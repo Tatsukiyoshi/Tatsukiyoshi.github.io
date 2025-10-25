@@ -34,11 +34,11 @@ sidebar:
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
 
-  1.  macOS Sequoia 15.6.1
+  1.  macOS Sequoia 26.0.1
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.37.0-1.0.pre-566   |2025/10/18
+      |macOS          |Flutter 3.38.0-1.0.pre-240   |2025/10/25
 
 ##  ノウハウ
 ### 設定
@@ -128,18 +128,18 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel master, 3.37.0-1.0.pre-566, on macOS 26.0.1 25A362 darwin-arm64, locale ja-JP) [2.2s]
-        • Flutter version 3.37.0-1.0.pre-566 on channel master at /Users/taishow2024/src/flutter
+    [✓] Flutter (Channel master, 3.38.0-1.0.pre-240, on macOS 26.0.1 25A362 darwin-arm64, locale ja-JP) [1,705ms]
+        • Flutter version 3.38.0-1.0.pre-240 on channel master at /Users/taishow2024/src/flutter
         • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
         • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
-        • Framework revision 2f110cc7e5 (14 hours ago), 2025-10-16 19:07:39 -0700
-        • Engine revision 5187246256
-        • Dart version 3.11.0 (build 3.11.0-25.0.dev)
+        • Framework revision 4f36fce1ee (9 hours ago), 2025-10-24 20:42:26 -0400
+        • Engine revision 4f36fce1ee
+        • Dart version 3.11.0 (build 3.11.0-57.0.dev)
         • DevTools version 2.51.0
         • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,
           enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
 
-    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.6s]
+    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.1s]
         • Android SDK at /Users/taishow2024/Library/Android/sdk
         • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
         • Platform android-36, build-tools 36.1.0-rc1
@@ -149,20 +149,20 @@ sidebar:
         • Java version OpenJDK Runtime Environment (build 21.0.8+-14018985-b1038.68)
         • All Android licenses accepted.
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,990ms]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,764ms]
         • Xcode at /Applications/Xcode.app/Contents/Developer
         • Build 17A324
         • CocoaPods version 1.16.2
 
-    [✓] Chrome - develop for the web [5ms]
+    [✓] Chrome - develop for the web [3ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [10.5s]
+    [✓] Connected device (3 available) [10.9s]
         • iPhone 17 Pro (mobile) • 156A82AF-0122-45D9-BB69-05425EF502E9 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
         • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.0.1 25A362 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 141.0.7390.77
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 141.0.7390.123
 
-    [✓] Network resources [997ms]
+    [✓] Network resources [851ms]
         • All expected network resources are available.
 
     • No issues found!
@@ -250,8 +250,11 @@ sidebar:
         }
         ```
     - iOS 26
-      ![gpu on iOS 26](/images/flutter/20251003_gpu_iOS26.png)
+      ![gpu on iOS 26](/images/flutter/20251025_gpu_iOS26.png)
 ### 履歴
+  - flutter GPU
+    - flutter 3.37
+      ![gpu on iOS 26](/images/flutter/20251003_gpu_iOS26.png)
   - flutter 3.27.1
     - Android Studio Meerkat 2024.3.1 Canary 6
       - AndroidManifest.xml に下記追加

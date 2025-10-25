@@ -17,13 +17,13 @@ OS/言語を問わず利用するツールの情報
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 - [Git](https://git-scm.com/download)
   - Windows
-    - Git 2.50.0 <span style="color: red;">*<<2025/06/17 updated from 2.49.0>>*</span>
+    - Git 2.51.1 <span style="color: red;">*<<2025/10/21 updated from 2.50.0>>*</span>
     - Windowsでの更新
       ```
       git update-git-for-windows
       ```
   - macOS
-    - Git 2.50.0 <span style="color: red;">*<<2025/06/21 updated from 2.49.0>>*</span>
+    - Git 2.51.1 <span style="color: red;">*<<2025/10/21 updated from 2.50.0>>*</span>
     - Macでの更新
       ```
       brew upgrade git
@@ -271,6 +271,12 @@ OS/言語を問わず利用するツールの情報
           ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
     - GitHub ProjectsでBoard作成してみた
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
+- [Zed](https://zed.dev)
+  - Windows
+    - [Zed 0.208.5](https://zed.dev/windows) <span style="color: red;">*<<2025/10/18 installed>>*</span>
+      ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
+  - macOS
+    - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 - [proto 0.53.1](https://moonrepo.dev/proto) <span style="color: red;">*<<2025/10/05 installed>>*</span>
   - インストール
     - Windows
@@ -283,12 +289,6 @@ OS/言語を問わず利用するツールの情報
       proto plugin add pkl https://raw.githubusercontent.com/milesj/proto-plugins/refs/heads/master/pkl.toml
       proto install pkl --pin
       ```
-- [Zed](https://zed.dev)
-  - Windows
-    - [Zed 0.208.5](https://zed.dev/windows) <span style="color: red;">*<<2025/10/18 installed>>*</span>
-      ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
-  - macOS
-    - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 ##  Windows <a id="Windows"></a>
 - [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>

@@ -15,7 +15,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/10/12～2025/10/18）](/digest/2025/October/2nd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/10/19～2025/10/25）](/digest/2025/October/3rd) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -25,11 +25,22 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/10/18|[Build 26220.6972](https://aka.ms/DevLatest)
+Windows Insider                 |2025/10/25|[Build 26220.6982](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
+
+Tools                           |Updated   |Detail
+--------------------------------|----------|--------
+Visual Studio Code              |2025/10/16|[September 2025 Recovery 1](https://code.visualstudio.com/)
+Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
+Zed                             |2025/10/18|[0.208.5](https://zed.dev)
+PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
+GitHub Desktop                  |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
+Xcode                           |2025/09/16|[26.0](https://developer.apple.com/jp/xcode/)
+CocoaPods                       |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
+GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
@@ -40,12 +51,12 @@ Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/downlo
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/17|Update: Visual Studio Community 2026 18.0.0 Insiders [11111.16] / .NET 10.0.100-rc.2.25502.107 / .NET MAUI 10.0.0-rc.2.25504.7
-[Rust](/knowhow/Rust)            |2025/10/15|Update: Dioxus 0.7.0-rc.2
-[Kotlin](/knowhow/Kotlin)        |2025/10/18|Update: Android Studio Otter 2025.2.2 Canary 1
-[Flutter](/knowhow/Flutter)      |2025/10/18|Update: Flutter 3.37.0-1.0.pre-566@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/18|Update: Recharts 3.3.0
-[Java](/knowhow/Java)            |2025/09/27|Update: Pleiades 2025-09
+[.NET](/knowhow/NET)             |2025/10/25|Update: Visual Studio Community 2026 18.0.0 Insiders [11121.172]
+[Rust](/knowhow/Rust)            |2025/10/25|Update: Tauri 2.9.1
+[Kotlin](/knowhow/Kotlin)        |2025/10/23|Update: IntelliJ IDEA 2025.3 EAP 7
+[Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
+[TypeScript](/knowhow/TypeScript)|2025/10/25|Update: React Native Windows 0.80.0-preview.9
+[Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13

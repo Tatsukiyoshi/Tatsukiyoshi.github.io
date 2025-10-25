@@ -28,7 +28,7 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.0](#bun)                  |[2025/10/13](https://bun.sh/)
+      |                |        |[Bun 1.3.1](#bun)                  |[2025/10/25](https://bun.sh/)
       |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -45,14 +45,14 @@ sidebar:
       |                |        |- react-babylonjs 3.2.4            |[2025/10/03](https://github.com/brianzinn/react-babylonjs)
       |                |        |- bun 1.2.21                       |2025/08/30
       |                |        |- vite 7.1.9                       |2025/10/03
-      |                |Web FW  |[Angular 21.0.0-next.1](#angular)  |[2025/08/30](https://angular.dev/)
+      |                |Web FW  |[Angular 21.0.0-next.9](#angular)  |[2025/10/24](https://angular.dev/)
       |                |        |[Astro 5.14.4](#astro)             |[2025/09/27](https://astro.build/)
       |                |        |- React 19.2.0                     |2025/10/08
       |                |        |- Bun 1.3.0                        |2025/10/13
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
-      |                |        |[Next.js 15.5.4](#nextjs)          |[2025/10/13](https://nextjs.org/)
+      |                |        |[Next.js 16.0.0](#nextjs)          |[2025/10/22](https://nextjs.org/)
       |                |        |- React 19.2.0                     |2025/10/13
       |                |        |- Bun 1.3.0                        |2025/10/13
       |                |        |[Nuxt 4.1.3](#nuxt)                |[2025/10/13](https://nuxt.com/)
@@ -60,8 +60,8 @@ sidebar:
       |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[React Native Windows 0.80.0-pre.8](#rnw) |[2025/10/07](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.2.21                       |2025/08/30
+      |                |        |[React Native Windows 0.80.0-pre.9](#rnw) |[2025/10/25](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.3.1                        |2025/10/25
       |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
@@ -422,10 +422,10 @@ sidebar:
           ```sh
           bun windows
           ```
-        - React Native Windows 0.80.0-preview.8
+        - React Native Windows 0.80.0-preview.9
           - React Native 0.80.2
           - React 19.1.0
-            ![React Native Windows 0.80.0-preview.8](/images/JavaScript/20251007_ReactNativeWindows0.80.0-preview.8.png)
+            ![React Native Windows 0.80.0-preview.9](/images/JavaScript/20251025_ReactNativeWindows0.80.0-preview.9.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
@@ -543,6 +543,10 @@ sidebar:
     - [Next.js and Bun](https://bun.sh/guides/ecosystem/nextjs)
       ```
       bun create next-app
+      ```
+    - Next.js 16.0.0
+      ```
+      npx @next/codemod@canary upgrade latest
       ```
     - Next.js 13新機能
       - Appフォルダ
@@ -692,6 +696,10 @@ sidebar:
       1.  Quick Start
           ```sh
           git clone https://github.com/angular/quickstart.git
+          ```
+      1.  Angular 21.0.0-next.8対応
+          ```
+          ng update @angular/cli @angular/core --next
           ```
       1.  Angular 20.2.1対応
           - Update Dependencies

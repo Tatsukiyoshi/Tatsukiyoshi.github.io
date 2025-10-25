@@ -21,7 +21,7 @@ sidebar:
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.8.1](#windows-app-sdk)       |[2025/09/24](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/17](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/25](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.100-rc.2.25502.107                    |[2025/10/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-rc.2.25504.7](#maui)             |[2025/10/17](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
@@ -29,12 +29,12 @@ sidebar:
   |                |- .NET 8.0.21                                     |2025/10/17
 
 ## [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
-- Visual Studio Community 2026 18.0.0 Insiders [11111.16]
-  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251017_Update_VS2026_18.0.0_Insiders.png)
+- Visual Studio Community 2026 18.0.0 Insiders [11121.172]
+  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251025_Update_VS2026_18.0.0_Insiders.png)
 
 ## [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
-- Visual Studio 2022 17.14.17
-  ![VS2022 17.14.17](/images/VisualStudio/20251015_Update_VS2022_17.14.17.png)
+- Visual Studio 2022 17.14.18 (October 2025)
+  ![VS2022 17.14.18](/images/VisualStudio/20251021_Update_VS2022_17.14.18.png)
 
 - ノウハウ
   - ワークロード
@@ -113,25 +113,25 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [maui-windows]
-      インストール ソース: VS 17.14.36603.0, VS 18.0.11111.16
+      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
       マニフェストのバージョン:    10.0.0-rc.2.25504.7/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.maui\10.0.0-rc.2.25504.7\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: VS 17.14.36603.0, VS 18.0.11111.16
+      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
       マニフェストのバージョン:    26.0.10970-net10-rc.2/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.maccatalyst\26.0.10970-net10-rc.2\WorkloadManifest.json
       インストールの種類:              Msi
 
     [android]
-      インストール ソース: VS 17.14.36603.0, VS 18.0.11111.16
+      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
       マニフェストのバージョン:    36.0.0-rc.2.332/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.android\36.0.0-rc.2.332\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: VS 17.14.36603.0, VS 18.0.11111.16
+      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
       マニフェストのバージョン:    26.0.10970-net10-rc.2/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.ios\26.0.10970-net10-rc.2\WorkloadManifest.json
       インストールの種類:              Msi
@@ -279,8 +279,11 @@ sidebar:
     </details>
 
 ### Windows App SDK
-  - Visual Studio Community 2026 Insiders / Windows App SDK 1.8.0
-    ![WPF Capture](/captures/20250924_winappsdk1.80.mp4)
+  - Visual Studio Community 2026 Insiders / Windows App SDK 1.8.1
+    <video src="/captures/20250924_winappsdk1.80.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+      お使いのブラウザは動画タグをサポートしていません。
+      <a href="/captures/20250924_winappsdk1.80.mp4" download>こちら</a>から動画をダウンロードしてください。
+    </video>
   - Visual Studio 2022 17.14.14 / Windows App SDK 1.8.0
     ![Hello World](/images/VisualStudio/20250922_VS2022_17.14.14_AppSDK1.8.0.png)
   - NET 8.0
@@ -382,7 +385,11 @@ sidebar:
 ### Blend & WPF
   - [チュートリアル: Microsoft Expression Blend を使用してボタンを作成する](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/controls/walkthrough-create-a-button-by-using-microsoft-expression-blend)
     ![WPF on Blend](/images/VisualStudio/20250923_WPF_Blend.png)
-    ![WPF Capture](/captures/20250924_wpf.mp4)
+
+    <video src="/captures/20250924_wpf.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+      お使いのブラウザは動画タグをサポートしていません。
+      <a href="/captures/20250924_wpf.mp4" download>こちら</a>から動画をダウンロードしてください。
+    </video>
 
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)

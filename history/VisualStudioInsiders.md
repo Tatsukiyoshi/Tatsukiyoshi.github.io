@@ -5,6 +5,10 @@ sidebar:
   nav: main
 ---
 ##  Visual Studio Community 2026 Insiders
+- Visual Studio Community 2026 18.0.0 Insiders [11121.172]
+  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251025_Update_VS2026_18.0.0_Insiders.png)
+- Visual Studio Community 2026 18.0.0 Insiders [11116.177]
+  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251021_Update_VS2026_18.0.0_Insiders.png)
 - Visual Studio Community 2026 18.0.0 Insiders [11111.16]
   ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251017_Update_VS2026_18.0.0_Insiders.png)
 - Visual Studio Community 2026 18.0.0 Insiders [11109.219]

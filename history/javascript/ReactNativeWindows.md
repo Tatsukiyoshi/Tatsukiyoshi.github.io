@@ -5,6 +5,10 @@ classes: wide
 sidebar:
   nav: main
 ---
+- React Native Windows 0.80.0-preview.9
+  - React Native 0.80.2
+  - React 19.1.0
+    ![React Native Windows 0.80.0-preview.9](/images/JavaScript/20251025_ReactNativeWindows0.80.0-preview.9.png)
 - React Native Windows 0.80.0-preview.8
   - React Native 0.80.2
   - React 19.1.0
