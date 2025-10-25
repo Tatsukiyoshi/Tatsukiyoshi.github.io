@@ -28,10 +28,10 @@ sidebar:
       |Windows Insider|Rust 1.90                                      |2025/09/20
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.0](#tauridesktop-framework)         |[2025/10/21](https://tauri.app/)
-      |               |- Svelte 5.41.1                                |2025/10/21
-      |               |- Bun 1.3.0                                    |2025/10/21
-      |               |- Vite 7.1.11                                  |2025/10/21
+      |               |[Tauri 2.9.1](#tauridesktop-framework)         |[2025/10/25](https://tauri.app/)
+      |               |- Svelte 5.41.3                                |2025/10/25
+      |               |- Bun 1.3.1                                    |2025/10/25
+      |               |- Vite 7.1.12                                  |2025/10/25
       |               |[Dioxus 0.7.0-rc.3](#dioxus)                   |[2025/10/21](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.18        |[2025/10/21](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
@@ -40,10 +40,10 @@ sidebar:
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.90       |2025/09/20
-      |                |Tauri 2.9.0     |2025/10/21
+      |                |Tauri 2.9.1     |2025/10/25
       |                |- React 19.2.0  |2025/10/08
-      |                |- Bun 1.3.0     |2025/10/21
-      |                |- Vite 7.1.11   |2025/10/21
+      |                |- Bun 1.3.1     |2025/10/25
+      |                |- Vite 7.1.12   |2025/10/25
 
   1. Chrome OS Flex 141.0.7390.115 (Official Build)
 
@@ -389,6 +389,14 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/)
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.9.1
+    - Windows
+      ![On Windows](/images/rust/20251025_Tauri2.9.1_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251025_Tauri2.9.1_Ubuntu24.04.3.png)
+    - Android Canary / Pixel 9a / React 19.2.0
+      - Java 25導入を試していたことでエラーとなったので、JDK21を有効化してリンク！
+        ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
   - V2.9.0
     - Windows
       ![On Windows](/images/rust/20251021_Tauri2.9.0_Windows.png)
