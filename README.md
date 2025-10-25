@@ -44,7 +44,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/10/25|Update: Tauri 2.9.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/23|Update: IntelliJ IDEA 2025.3 EAP 7
 [Flutter](/knowhow/Flutter)      |2025/10/18|Update: Flutter 3.37.0-1.0.pre-566@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/22|Update: Next.js 16.0.0
+[TypeScript](/knowhow/TypeScript)|2025/10/25|Update: React Native Windows 0.80.0-preview.9
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
