@@ -51,10 +51,10 @@ sidebar:
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.90                                 |2025/09/20
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.9.0                               |2025/10/21
+      |           |Tauri 2.9.1                               |2025/10/25
       |           |- React 19.2.0                            |2025/10/08
-      |           |- Bun 1.3.0                               |2025/10/18
-      |           |- Vite 7.1.11                             |2025/10/21
+      |           |- Bun 1.3.1                               |2025/10/25
+      |           |- Vite 7.1.12                             |2025/10/25
 
   1. macOS Tahoe 26.0.1
 
@@ -396,6 +396,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20251025_Tauri2.9.1_Ubuntu24.04.3.png)
     - macOS 26
       ![On macOS](/images/rust/20251025_Tauri2.9.1_mac26.0.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251025_Tauri2.9.1_Chrome_OS_Flex.png)
     - Android Canary / Pixel 9a / React 19.2.0
       - Java 25導入を試していたことでエラーとなったので、JDK21を有効化してリンク！
         ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
