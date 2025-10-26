@@ -697,6 +697,22 @@ sidebar:
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 21.0.0-next.9対応
+          - Standard
+            ```
+            ng update @angular/cli @angular/core --next
+            ```
+          - Use Material
+            ```
+            ng update @angular/cli @angular/core @angular/cdk @angular/material --next
+            ```
+          - Update Dependencies
+
+            |Component                |Version
+            |-------------------------|--------
+            |@types/jasmine           |5.1.12
+            |jasmine-core             |5.12.0
+            |karma-coverage           |2.2.1
       1.  Angular 21.0.0-next.8対応
           ```
           ng update @angular/cli @angular/core --next
