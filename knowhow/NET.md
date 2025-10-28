@@ -29,12 +29,11 @@ sidebar:
   |                |- .NET 8.0.21                                     |2025/10/17
 
 ## [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
-- Visual Studio Community 2026 18.0.0 Insiders [11121.172]
-  ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251025_Update_VS2026_18.0.0_Insiders.png)
+- Visual Studio Community 2026 18.0.0 Insiders [11123.170]
 
 ## [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
-- Visual Studio 2022 17.14.18 (October 2025)
-  ![VS2022 17.14.18](/images/VisualStudio/20251021_Update_VS2022_17.14.18.png)
+- Visual Studio 2022 17.14.19
+  ![VS2026 17.14.19](/images/VisualStudio/20251028_Update_VS2022_17.14.19_VS2026_18.0.0_Insiders.png)
 
 - ノウハウ
   - ワークロード
@@ -113,31 +112,31 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [maui-windows]
-      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
+      インストール ソース: VS 17.14.36623.8, VS 18.0.11123.170
       マニフェストのバージョン:    10.0.0-rc.2.25504.7/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.maui\10.0.0-rc.2.25504.7\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
+      インストール ソース: VS 17.14.36623.8, VS 18.0.11123.170
       マニフェストのバージョン:    26.0.10970-net10-rc.2/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.maccatalyst\26.0.10970-net10-rc.2\WorkloadManifest.json
       インストールの種類:              Msi
 
     [android]
-      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
+      インストール ソース: VS 17.14.36623.8, VS 18.0.11123.170
       マニフェストのバージョン:    36.0.0-rc.2.332/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.android\36.0.0-rc.2.332\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: VS 17.14.36616.10, VS 18.0.11121.172
+      インストール ソース: VS 17.14.36623.8, VS 18.0.11123.170
       マニフェストのバージョン:    26.0.10970-net10-rc.2/10.0.100-rc.2
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100-rc.2\microsoft.net.sdk.ios\26.0.10970-net10-rc.2\WorkloadManifest.json
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
-    ワークロード セットがインストールされていません。"dotnet workload restore" を実行してワークロード セットをインストールします。      
+    ワークロード セットがインストールされていません。"dotnet workload restore" を実行してワークロード セットをインストールします。
 
     Host:
       Version:      10.0.0-rc.2.25502.107

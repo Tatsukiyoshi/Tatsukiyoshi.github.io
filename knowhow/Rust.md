@@ -33,7 +33,7 @@ sidebar:
       |               |- Bun 1.3.1                                    |2025/10/25
       |               |- Vite 7.1.12                                  |2025/10/25
       |               |[Dioxus 0.7.0-rc.3](#dioxus)                   |[2025/10/21](https://dioxuslabs.com/)
-      |               |- Visual Studio Community 2022 17.14.18        |[2025/10/21](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |- Visual Studio Community 2022 17.14.19        |[2025/10/28](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11
 

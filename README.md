@@ -51,7 +51,7 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/25|Update: Visual Studio Community 2026 18.0.0 Insiders [11121.172]
+[.NET](/knowhow/NET)             |2025/10/28|Update: Visual Studio Community 2026 18.0.0 Insiders [11123.170] / Visual Studio Community 2022 17.14.19
 [Rust](/knowhow/Rust)            |2025/10/25|Update: Tauri 2.9.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/23|Update: IntelliJ IDEA 2025.3 EAP 7
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
