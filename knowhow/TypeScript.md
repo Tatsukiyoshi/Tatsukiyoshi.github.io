@@ -426,6 +426,9 @@ sidebar:
           - React Native 0.80.2
           - React 19.1.0
             ![React Native Windows 0.80.0-preview.10](/images/JavaScript/20251028_ReactNativeWindows0.80.0-preview.10.png)
+      - モノレポ構成でのWebとモバイル共有化
+        ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)
+        ![React Native](/images/JavaScript/20251030_Sharing_ReactNative.png)
     - [Gluon](https://gluonjs.org/)
   - [Astro](https://astro.build/) <a id="astro"></a>
     - [Astro with Docker Container](https://zenn.dev/tatsukiyoshi/articles/a94bd125bf660f)
