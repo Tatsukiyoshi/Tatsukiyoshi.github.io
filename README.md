@@ -53,7 +53,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/10/28|Update: Visual Studio Community 2026 18.0.0 Insiders [11123.170] / Visual Studio Community 2022 17.14.19
 [Rust](/knowhow/Rust)            |2025/10/31|Update: Tauri 2.9.2@macOS+iOS26.1 Beta
-[Kotlin](/knowhow/Kotlin)        |2025/10/23|Update: IntelliJ IDEA 2025.3 EAP 7
+[Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/28|Update: React Native Windows 0.80.0-preview.10
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
