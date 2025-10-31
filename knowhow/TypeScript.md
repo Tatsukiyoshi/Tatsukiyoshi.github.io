@@ -60,7 +60,7 @@ sidebar:
       |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[React Native Windows 0.80.0-pre.10](#rnw) |[2025/10/28](https://microsoft.github.io/react-native-windows/)
+      |                |        |[React Native Windows 0.80.0](#rnw)|[2025/10/31](https://microsoft.github.io/react-native-windows/)
       |                |        |- Bun 1.3.1                        |2025/10/25
       |                |        |- React Native 0.80.2              |2025/09/30
       |                |        |- React 19.1.0                     |2025/09/09
@@ -422,10 +422,11 @@ sidebar:
           ```sh
           bun windows
           ```
-        - React Native Windows 0.80.0-preview.10
+        - React Native Windows 0.80.0
           - React Native 0.80.2
           - React 19.1.0
-            ![React Native Windows 0.80.0-preview.10](/images/JavaScript/20251028_ReactNativeWindows0.80.0-preview.10.png)
+            ![React Native Windows 0.80.0](/images/JavaScript/20251031_ReactNativeWindows0.80.0.png)
+          - 発生しているエラーは、依存パッケージを再インストールすることで解消
       - モノレポ構成でのWebとモバイル共有化
         ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)
         ![React Native](/images/JavaScript/20251030_Sharing_ReactNative.png)

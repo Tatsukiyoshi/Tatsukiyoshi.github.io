@@ -55,7 +55,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/10/31|Update: Dioxus 0.7.0 / Tauri 2.9.2@macOS+iOS26.1 Beta
 [Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/28|Update: React Native Windows 0.80.0-preview.10
+[TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
