@@ -277,6 +277,7 @@ OS/言語を問わず利用するツールの情報
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
+- [HTTPS対応 ローカル開発サーバー](/knowhow/HttpsServer)
 - [proto 0.53.1](https://moonrepo.dev/proto) <span style="color: red;">*<<2025/10/05 installed>>*</span>
   - インストール
     - Windows
@@ -340,7 +341,7 @@ OS/言語を問わず利用するツールの情報
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
 - Xcode
-  - [Xcode 26](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/16 Updated from 26 Beta 7>>*</span>
+  - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>
     ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
     ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
   - iOS Simulatorの更新
@@ -350,6 +351,8 @@ OS/言語を問わず利用するツールの情報
     ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
     ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>
+    - [Xcode 26](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/16 Updated from 26 Beta 7>>*</span>
     - [Xcode 26 Beta 7](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/05 Updated from 26 Beta 6>>*</span>
     - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
       ![iOS 18.5 Simulator](/images/macOS/20250531_Download_iOS18.5_Simulator.png)

@@ -5,6 +5,9 @@ sidebar:
   nav: main
 ---
 
+##  Gemini
+- [依頼用プロンプト例](/sub/Gemini/Prompt1)
+
 ##  [Vercel](https://vercel.com/)
 
   |Verify                   |FW              |Last Updated

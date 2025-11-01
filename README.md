@@ -10,12 +10,11 @@ sidebar:
 
 [ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
----
 ##  ダイジェスト <a id="Digest"></a>
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/10/19～2025/10/25）](/digest/2025/October/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/10/26～2025/11/1）](/digest/2025/October/4th) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -25,7 +24,7 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/10/25|[Build 26220.6982](https://aka.ms/DevLatest)
+Windows Insider                 |2025/11/01|[Build 26220.7051](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
@@ -51,11 +50,11 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/25|Update: Visual Studio Community 2026 18.0.0 Insiders [11121.172]
-[Rust](/knowhow/Rust)            |2025/10/25|Update: Tauri 2.9.1
-[Kotlin](/knowhow/Kotlin)        |2025/10/23|Update: IntelliJ IDEA 2025.3 EAP 7
+[.NET](/knowhow/NET)             |2025/10/28|Update: Visual Studio Community 2026 18.0.0 Insiders [11123.170] / Visual Studio Community 2022 17.14.19
+[Rust](/knowhow/Rust)            |2025/10/31|Update: Dioxus 0.7.0 / Tauri 2.9.2@macOS+iOS26.1 Beta
+[Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/25|Update: React Native Windows 0.80.0-preview.9
+[TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
@@ -65,7 +64,7 @@ Language                         |Updated   |Detail
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/10/07|Update: SQLite 3.50.4
-[Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
+[Container](/knowhow/Container)        |2025/11/01|Update: Rancher Desktop 1.20.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
