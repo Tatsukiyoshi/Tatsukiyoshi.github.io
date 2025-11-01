@@ -277,6 +277,7 @@ OS/言語を問わず利用するツールの情報
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
+- [HTTPS対応 ローカル開発サーバー](/knowhow/HttpsServer)
 - [proto 0.53.1](https://moonrepo.dev/proto) <span style="color: red;">*<<2025/10/05 installed>>*</span>
   - インストール
     - Windows
