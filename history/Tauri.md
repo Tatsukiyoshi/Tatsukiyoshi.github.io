@@ -8,6 +8,8 @@ sidebar:
   - V2.9.2
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
     - iOS 26.1 Beta / iPhone 17 Pro
       ![On iOS 26](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
   - V2.9.1
