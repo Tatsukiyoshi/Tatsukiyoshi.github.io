@@ -10,7 +10,6 @@ sidebar:
 
 [ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
 
----
 ##  ダイジェスト <a id="Digest"></a>
 ```
 毎週日曜日に更新
@@ -25,7 +24,7 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/10/25|[Build 26220.6982](https://aka.ms/DevLatest)
+Windows Insider                 |2025/11/01|[Build 26220.7051](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
@@ -65,7 +64,7 @@ Language                         |Updated   |Detail
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/10/07|Update: SQLite 3.50.4
-[Container](/knowhow/Container)        |2025/08/30|Update: Rancher Desktop 1.20.0
+[Container](/knowhow/Container)        |2025/11/01|Update: Rancher Desktop 1.20.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
