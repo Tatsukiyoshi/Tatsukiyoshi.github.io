@@ -8,7 +8,7 @@ sidebar:
 2025年10月第4週（2025/10/26～2025/11/1）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
 
 # Topic
-- React Native Windows が 再三のRCリリースの後、0.80.0を公開
+- 再三のRCリリースの後、React Native Windows 0.80.0 / Dioxus 0.7.0がそれぞれ公開
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
