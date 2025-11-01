@@ -22,6 +22,8 @@ sidebar:
 - **＜.NET＞**  [Visual Studio Community 2022 17.14.19](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)に更新
 
 ##  【10/31】
+- **＜Rust＞**  [Dioxus 0.7.0](https://dioxuslabs.com/)に更新
+
 - **＜Rust＞**  macOSで[Tauri 2.9.2](https://tauri.app/)に更新、iOS 26.1 Betaのシミュレータで動作検証
   - そのため、[Xcode 26.1 RC](https://developer.apple.com/jp/xcode/)に更新
 
