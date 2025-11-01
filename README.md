@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/10/19～2025/10/25）](/digest/2025/October/3rd) / [一覧](/digest/list)
+[最新ダイジェスト（2025/10/26～2025/11/1）](/digest/2025/October/4th) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```

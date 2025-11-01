@@ -6,7 +6,7 @@ sidebar:
 ---
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.19
-    ![VS2026 17.14.19](/images/VisualStudio/20251028_Update_VS2022_17.14.19_VS2026_18.0.0_Insiders.png)VS2022_17.14.18.png)
+    ![VS2026 17.14.19](/images/VisualStudio/20251028_Update_VS2022_17.14.19_VS2026_18.0.0_Insiders.png)
   - Visual Studio 2022 17.14.18 (October 2025)
     ![VS2022 17.14.18](/images/VisualStudio/20251021_Update_VS2022_17.14.18.png)
   - Visual Studio 2022 17.14.17

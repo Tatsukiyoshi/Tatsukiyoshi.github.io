@@ -21,7 +21,7 @@ sidebar:
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- [Windows App SDK 1.8.1](#windows-app-sdk)       |[2025/09/24](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/25](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.0.0 Insiders      |[2025/10/28](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.100-rc.2.25502.107                    |[2025/10/17](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.0-rc.2.25504.7](#maui)             |[2025/10/17](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
@@ -352,8 +352,6 @@ sidebar:
             ![Default Setting](/images/VisualStudio/20251017_Android_SDK_Setting_Default.png)
           - 実働設定(Android Studioに合わせる)
             ![Fit to Android Studio](/images/VisualStudio/20251017_Android_SDK_Setting.png)
-      - 18.0.0 Insiders / MAUI 10.0.0-rc.1.25452.6 / Pixel 9 Pro (Android 16)
-        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20250910_VS2026_18.0.0_Insiders_MAUI10.0.0rc1_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update
