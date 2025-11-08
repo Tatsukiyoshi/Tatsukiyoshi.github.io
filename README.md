@@ -51,7 +51,7 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/11/04|Update: Visual Studio Community 2026 18.0.0 Insiders [11201.2]
-[Rust](/knowhow/Rust)            |2025/11/01|Update: Rust 1.91 + Tauri 2.9.2@Chrome OS Flex
+[Rust](/knowhow/Rust)            |2025/11/08|Update: Rust 1.91 + Tauri 2.9.2@macOS 26.1
 [Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
