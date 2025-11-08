@@ -27,7 +27,7 @@ Platform                        |Updated   |Detail
 Windows Insider                 |2025/11/01|[Build 26220.7051](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/11/01|[141.0.7390.134](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools                           |Updated   |Detail
@@ -50,8 +50,8 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/28|Update: Visual Studio Community 2026 18.0.0 Insiders [11123.170] / Visual Studio Community 2022 17.14.19
-[Rust](/knowhow/Rust)            |2025/10/31|Update: Dioxus 0.7.0 / Tauri 2.9.2@macOS+iOS26.1 Beta
+[.NET](/knowhow/NET)             |2025/11/04|Update: Visual Studio Community 2026 18.0.0 Insiders [11201.2]
+[Rust](/knowhow/Rust)            |2025/11/01|Update: Rust 1.91 + Tauri 2.9.2@Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
