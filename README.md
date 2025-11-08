@@ -37,7 +37,7 @@ Git                             |2025/10/21|[2.51.1](https://git-scm.com/downloa
 Zed                             |2025/10/18|[0.208.5](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop                  |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
-Xcode                           |2025/10/31|[26.1 RC](https://developer.apple.com/jp/xcode/)
+Xcode                           |2025/11/08|[26.1](https://developer.apple.com/jp/xcode/)
 CocoaPods                       |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
 GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
