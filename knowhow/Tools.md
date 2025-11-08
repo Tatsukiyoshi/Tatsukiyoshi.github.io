@@ -341,7 +341,7 @@ OS/言語を問わず利用するツールの情報
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
 - Xcode
-  - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>
+  - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
     ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
   - iOS Simulatorの更新
@@ -351,6 +351,7 @@ OS/言語を問わず利用するツールの情報
     ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
     ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>
     - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>
     - [Xcode 26](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/16 Updated from 26 Beta 7>>*</span>

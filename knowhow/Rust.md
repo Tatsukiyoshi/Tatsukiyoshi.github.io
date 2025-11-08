@@ -56,16 +56,16 @@ sidebar:
       |           |- Bun 1.3.1                               |2025/10/25
       |           |- Vite 7.1.12                             |2025/10/25
 
-  1. macOS Tahoe 26.0.1
+  1. macOS Tahoe 26.1
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.90            |2025/09/20
+      |macOS      |Rust 1.91            |2025/11/08
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.9.2          |2025/10/31
       |           |- React 19.2.0       |2025/10/08
-      |           |- Bun 1.3.1          |2025/10/25
-      |           |- Vite 7.1.12        |2025/10/25
+      |           |- Bun 1.3.2          |2025/11/08
+      |           |- Vite 7.2.2         |2025/11/08
 
 ##  ノウハウ
 ### Rust
@@ -390,12 +390,16 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.2
+    - macOS 26.1
+      ![On macOS](/images/rust/20251108_Tauri2.9.2_macOS26.1.png)
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
+    - iOS 26.2 Beta / iPhone 17 Pro
+      ![On iOS 26.2 Beta](/images/rust/20251108_Tauri2.9.2_iPhone17_Pro_iOS26.2Beta.png)
     - iOS 26.1 Beta / iPhone 17 Pro
-      ![On iOS 26](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
+      ![On iOS 26.1 Beta](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
   - npm and yarn
     - [Node.js](https://nodejs.org/ja)インストール
     - yarnインストール
