@@ -25,13 +25,13 @@ sidebar:
       |               |[RustRover 2025.3 EAP 6](#rustrover)           |[2025/10/19](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
-      |Windows Insider|Rust 1.90                                      |2025/09/20
+      |Windows Insider|Rust 1.91                                      |2025/11/08
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.1](#tauridesktop-framework)         |[2025/10/25](https://tauri.app/)
-      |               |- Svelte 5.41.3                                |2025/10/25
-      |               |- Bun 1.3.1                                    |2025/10/25
-      |               |- Vite 7.1.12                                  |2025/10/25
+      |               |[Tauri 2.9.2](#tauridesktop-framework)         |[2025/11/08](https://tauri.app/)
+      |               |- Svelte 5.43.4                                |2025/11/08
+      |               |- Bun 1.3.2                                    |2025/11/08
+      |               |- Vite 7.2.2                                   |2025/11/08
       |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.19        |[2025/10/28](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
@@ -39,11 +39,11 @@ sidebar:
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.90       |2025/09/20
-      |                |Tauri 2.9.1     |2025/10/25
+      |Windows Insider |Rust 1.91       |2025/11/08
+      |                |Tauri 2.9.2     |2025/11/08
       |                |- React 19.2.0  |2025/10/08
-      |                |- Bun 1.3.1     |2025/10/25
-      |                |- Vite 7.1.12   |2025/10/25
+      |                |- Bun 1.3.2     |2025/11/08
+      |                |- Vite 7.2.2    |2025/11/08
 
   1. Chrome OS Flex 141.0.7390.134 (Official Build)
 
@@ -390,12 +390,19 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.2
+    - Windows
+      ![On Windows](/images/rust/20251108_Tauri2.9.2_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251108_Tauri2.9.2_Ubuntu24.04.3.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251108_Tauri2.9.2_macOS26.1.png)
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
+    - Android Canary / Pixel 9a / React 19.2.0
+      - Java 25導入を試していたことでエラーとなったので、JAVA_HOMEをJDK21に変更化してリンク！
+        ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251108_Tauri2.9.2_iPhone17_Pro_iOS26.2Beta.png)
     - iOS 26.1 Beta / iPhone 17 Pro
