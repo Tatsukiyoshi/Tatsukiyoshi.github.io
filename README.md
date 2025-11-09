@@ -27,7 +27,7 @@ Platform                        |Updated   |Detail
 Windows Insider                 |2025/11/09|[Build 26220.7070](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/11/08|[Tahoe 26.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/11/01|[141.0.7390.134](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/11/09|[141.0.7390.135](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools                           |Updated   |Detail
