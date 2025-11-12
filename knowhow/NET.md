@@ -27,14 +27,15 @@ sidebar:
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- .NET 9.0.10                                     |2025/10/17
   |                |- .NET 8.0.21                                     |2025/10/17
+  |                |Visual Studio Community 2022 17.14.20             |2025/11/12
 
 ## [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
 - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
   ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
 
 ## [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
-- Visual Studio 2022 17.14.19
-  ![VS2022 17.14.19](/images/VisualStudio/20251028_Update_VS2022_17.14.19_VS2026_18.0.0_Insiders.png)
+- Visual Studio 2022 17.14.20
+  ![VS2022 17.14.20](/images/VisualStudio/20251112_Update_VS2022_17.14.20.png)
 
 - ノウハウ
   - ワークロード
