@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.2 Canary 3](#AndroidStudio)      |[2025/10/31](https://developer.android.com/studio)
-      |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Otter 2025.2.2 Canary 4](#AndroidStudio)      |[2025/11/12](https://developer.android.com/studio)
+      |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.3.6                                   |2025/10/31
+      |                |- Android Emulator v.36.3.8                                   |2025/11/12
 
   1. macOS Sequoia 15.6.1
 
@@ -347,9 +347,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter 2 Feature Drop | 2025.2.2 Canary 3
+    - Android Studio Otter 2 Feature Drop | 2025.2.2 Canary 4
       ```
-      Build #AI-252.25557.131.2522.14357309, built on October 30, 2025
+      Build #AI-252.27397.103.2522.14395761, built on November 6, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -359,8 +359,8 @@ sidebar:
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
         gradle.phased.sync.enabled=true
+        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
         Dart (252.25557.23)
         io.flutter (88.0.0)
@@ -437,6 +437,10 @@ sidebar:
   - 対応履歴
     - Otter
       - Feature Drop 2025.2.2
+        - Canary 4
+          - Gradle 9.1.0
+          - Android Gradle Plugin 9.0.0-alpha13 -> 9.0.0-alpha14
+          - Android Emulator 36.3.x
         - Canary 3
           - Android Gradle Plugin 9.0.0-alpha11 -> 9.0.0-alpha13
           - Android Emulator 36.3.6
