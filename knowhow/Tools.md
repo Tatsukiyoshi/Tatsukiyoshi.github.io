@@ -273,7 +273,7 @@ OS/言語を問わず利用するツールの情報
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.208.5](https://zed.dev/windows) <span style="color: red;">*<<2025/10/18 installed>>*</span>
+    - [Zed 0.212.4](https://zed.dev/windows) <span style="color: red;">*<<2025/11/13 updated from 0.208.5>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
