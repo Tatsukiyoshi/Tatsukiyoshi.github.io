@@ -50,7 +50,7 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/11/14|Update: .NET MAUI 10.0.10
+[.NET](/knowhow/NET)             |2025/11/15|Update: Windows App SDK 1.8.3
 [Rust](/knowhow/Rust)            |2025/11/09|Update: Rust 1.91 + Tauri 2.9.2@Windows and Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/11/13|Update: IntelliJ IDEA 2025.3 EAP 8
 [Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS

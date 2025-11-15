@@ -19,12 +19,12 @@ sidebar:
   |Windows         |Visual Studio Community 2022 17.14.17             |[2025/10/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.10                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |- [Windows App SDK 1.8.1](#windows-app-sdk)       |[2025/09/24](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
-  |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
   |Windows Insider |Visual Studio Community 2026 18.0.0               |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.0                                     |[2025/11/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.10](#maui)                         |[2025/11/14](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
+  |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
+  |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
   |                |- .NET 9.0.11                                     |2025/11/12
   |                |- .NET 8.0.22                                     |2025/11/12
   |                |Visual Studio Community 2022 17.14.20             |2025/11/12
@@ -274,7 +274,7 @@ sidebar:
     </details>
 
 ### Windows App SDK
-  - Visual Studio Community 2026 Insiders / Windows App SDK 1.8.1
+  - Visual Studio Community 2026 / Windows App SDK 1.8.3
     <video src="/captures/20250924_winappsdk1.80.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
       お使いのブラウザは動画タグをサポートしていません。
       <a href="/captures/20250924_winappsdk1.80.mp4" download>こちら</a>から動画をダウンロードしてください。
