@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.38.0-1.0.pre-240   |2025/10/25
+      |macOS          |Flutter 3.39.0-1.0.pre-129   |2025/11/15
 
 ##  ノウハウ
 ### 設定
@@ -249,12 +249,9 @@ sidebar:
           });
         }
         ```
-    - iOS 26
-      ![gpu on iOS 26](/images/flutter/20251025_gpu_iOS26.png)
+    - iOS 26.2 Beta
+      ![gpu on iOS 26.2 Beta](/images/flutter/20251115_gpu_iOS26.2Beta.png)
 ### 履歴
-  - flutter GPU
-    - flutter 3.37
-      ![gpu on iOS 26](/images/flutter/20251003_gpu_iOS26.png)
   - flutter 3.27.1
     - Android Studio Meerkat 2024.3.1 Canary 6
       - AndroidManifest.xml に下記追加
