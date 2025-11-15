@@ -16,7 +16,7 @@ sidebar:
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MySQL Community Server 9.4.0                         |[2025/08/24](https://dev.mysql.com/downloads/mysql/)
   |               |SQLite 3.50.4                                        |[2025/10/07](https://www.sqlite.org/download.html)
-  |Chrome OS Flex |PostgreSQL 18.0                                      |2025/09/27
+  |Chrome OS Flex |PostgreSQL 18.1                                      |2025/11/16
 
 ##  ノウハウ
 ### データベース全般
