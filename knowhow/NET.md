@@ -275,7 +275,7 @@ sidebar:
 
 ### Windows App SDK
   - Visual Studio Community 2026 / Windows App SDK 1.8.3
-    <video src="/captures/20250924_winappsdk1.80.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+    <video src="/captures/20250924_winappsdk1.80.mp4" controls width="100%" height="auto" poster="/images/vehicle005.png">
       お使いのブラウザは動画タグをサポートしていません。
       <a href="/captures/20250924_winappsdk1.80.mp4" download>こちら</a>から動画をダウンロードしてください。
     </video>
@@ -374,7 +374,7 @@ sidebar:
   - [チュートリアル: Microsoft Expression Blend を使用してボタンを作成する](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/controls/walkthrough-create-a-button-by-using-microsoft-expression-blend)
     ![WPF on Blend](/images/VisualStudio/20250923_WPF_Blend.png)
 
-    <video src="/captures/20250924_wpf.mp4" controls width="100%" height="auto" poster="/path/to/poster.jpg">
+    <video src="/captures/20250924_wpf.mp4" controls width="100%" height="auto" poster="/images/vehicle005.png">
       お使いのブラウザは動画タグをサポートしていません。
       <a href="/captures/20250924_wpf.mp4" download>こちら</a>から動画をダウンロードしてください。
     </video>
