@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/10/26～2025/11/1）](/digest/2025/October/4th) / [一覧](/digest/list)
+[最新ダイジェスト（2025/11/2～2025/11/15）](/digest/2025/November/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,20 +24,20 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/11/01|[Build 26220.7051](https://aka.ms/DevLatest)
+Windows Insider                 |2025/11/09|[Build 26220.7070](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                           |2025/10/11|[Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/10/17|[141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+macOS                           |2025/11/08|[Tahoe 26.1](https://www.apple.com/jp/os/macos/)
+Chrome OS Flex                  |2025/11/16|[142.0.7444.147](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools                           |Updated   |Detail
 --------------------------------|----------|--------
-Visual Studio Code              |2025/10/16|[September 2025 Recovery 1](https://code.visualstudio.com/)
+Visual Studio Code              |2025/11/13|[October 2025](https://code.visualstudio.com/)
 Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
-Zed                             |2025/10/18|[0.208.5](https://zed.dev)
+Zed                             |2025/11/13|[0.212.4](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop                  |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
-Xcode                           |2025/09/16|[26.0](https://developer.apple.com/jp/xcode/)
+Xcode                           |2025/11/08|[26.2 Beta](https://developer.apple.com/jp/xcode/)
 CocoaPods                       |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
 GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
@@ -50,10 +50,10 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/10/28|Update: Visual Studio Community 2026 18.0.0 Insiders [11123.170] / Visual Studio Community 2022 17.14.19
-[Rust](/knowhow/Rust)            |2025/10/31|Update: Dioxus 0.7.0 / Tauri 2.9.2@macOS+iOS26.1 Beta
-[Kotlin](/knowhow/Kotlin)        |2025/10/31|Update: Android Studio Otter 2025.2.2 Canary 3 / Android Emulator v.36.3.6
-[Flutter](/knowhow/Flutter)      |2025/10/25|Update: Flutter 3.38.0-1.0.pre-240@macOS
+[.NET](/knowhow/NET)             |2025/11/15|Update: Windows App SDK 1.8.3
+[Rust](/knowhow/Rust)            |2025/11/09|Update: Rust 1.91 + Tauri 2.9.2@Windows and Chrome OS Flex
+[Kotlin](/knowhow/Kotlin)        |2025/11/13|Update: IntelliJ IDEA 2025.3 EAP 8
+[Flutter](/knowhow/Flutter)      |2025/11/15|Update: Flutter 3.39.0-1.0.pre-129@macOS
 [TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
@@ -63,7 +63,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/10/07|Update: SQLite 3.50.4
+[Database & SQL](/knowhow/Database)    |2025/11/16|Update: PostgreSQL 18.1@Chrome OS Flex
 [Container](/knowhow/Container)        |2025/11/01|Update: Rancher Desktop 1.20.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust

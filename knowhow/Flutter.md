@@ -21,9 +21,9 @@ sidebar:
 
       |Machine        |Env / FW                                                              |Last Updated
       |---------------|----------------------------------------------------------------------|----------
-      |Windows Insider|Flutter 3.35.1                                                        |[2025/08/17](https://docs.flutter.dev/release/release-notes)
+      |Windows Insider|Flutter 3.38.1                                                        |[2025/11/14](https://docs.flutter.dev/release/release-notes)
       |               |[Android Studio Narwhal 4 2025.1.4 Canary 4](Kotlin#android-studio)   |2025/09/06
-      |               |[Visual Studio Community 2026 18.0.0 Insiders](NET)                   |2025/09/12
+      |               |[Visual Studio Community 2026 18.0.0](NET)                            |2025/11/12
 
   1. Chrome OS Flex 135.0.7049.104 (Official Build)
 
@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.38.0-1.0.pre-240   |2025/10/25
+      |macOS          |Flutter 3.39.0-1.0.pre-129   |2025/11/15
 
 ##  ノウハウ
 ### 設定
@@ -61,61 +61,44 @@ sidebar:
     </summary>
 
     ```
-    [√] Flutter (Channel stable, 3.35.1, on Microsoft Windows [Version 10.0.26220.6682], locale ja-JP) [781ms]
-        • Flutter version 3.35.1 on channel stable at C:\Users\taish\dev\flutter
+    [√] Flutter (Channel stable, 3.38.1, on Microsoft Windows [Version 10.0.26220.7070], locale ja-JP) [558ms]
+        • Flutter version 3.38.1 on channel stable at C:\Users\taish\dev\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 20f8274939 (5 weeks ago), 2025-08-14 10:53:09 -0700
-        • Engine revision 1e9a811bf8
-        • Dart version 3.9.0
-        • DevTools version 2.48.0
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios,    
-          cli-animations, enable-lldb-debugging
+        • Framework revision b45fa18946 (33 hours ago), 2025-11-12 22:09:06 -0600
+        • Engine revision b5990e5ccc
+        • Dart version 3.10.0
+        • DevTools version 2.51.1
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android,
+          enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
 
-    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.4s]
+    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.1s]
 
-    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [4.2s]
-        • Android SDK at C:\Users\taish\AppData\Local\Android\Sdk
-        • Emulator version 36.2.8.0 (build_id 14056829) (CL:N/A)
-        • Platform android-CANARY, build-tools 36.1.0-rc1
-        • ANDROID_HOME = C:\Users\taish\AppData\Local\Android\Sdk
+    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [2.7s]
+        • Android SDK at D:\Android\Sdk
+        • Emulator version 36.3.8.0 (build_id 14396629) (CL:N/A)
+        • Platform android-CANARY, build-tools 36.1.0
+        • ANDROID_HOME = D:\Android\Sdk
         • Java binary at: D:\Program Files\Android\Android Studio\jbr\bin\java
           This is the JDK bundled with the latest Android Studio installation on this machine.
           To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
-        • Java version OpenJDK Runtime Environment (build 21.0.8+-14018985-b1038.68)
+        • Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
         • All Android licenses accepted.
 
-    [√] Chrome - develop for the web [423ms]
+    [√] Chrome - develop for the web [184ms]
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.0.0 Insiders [11012.119]) [421ms]
-        • Visual Studio at D:\Program Files\Microsoft Visual Studio\18\Insiders
-        • Visual Studio Community 2026 version 18.0.11012.119
-        • The current Visual Studio installation is a pre-release version. It may not be supported by Flutter yet.
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.0.0) [183ms]
+        • Visual Studio at D:\Program Files\Microsoft Visual Studio\18\Community
+        • Visual Studio Community 2026 version 18.0.11205.157
         • Windows 10 SDK version 10.0.26100.0
 
-    [√] Android Studio (version 2025.1.4) [119ms]
-        • Android Studio at D:\Program Files\Android\Android Studio
-        • Flutter plugin can be installed from:
-          https://plugins.jetbrains.com/plugin/9212-flutter
-        • Dart plugin can be installed from:
-          https://plugins.jetbrains.com/plugin/6351-dart
-        • Java version OpenJDK Runtime Environment (build 21.0.8+-14018985-b1038.68)
+    [√] Connected device (4 available) [933ms]
+        • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 16 (API 36) (emulator)
+        • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Version 10.0.26220.7070]
+        • Chrome (web)                 • chrome        • web-javascript • Google Chrome 142.0.7444.60
+        • Edge (web)                   • edge          • web-javascript • Microsoft Edge 143.0.3650.19
 
-    [√] IntelliJ IDEA Ultimate Edition (version 2025.2) [117ms]
-        • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA 252.23892.248
-        • Flutter plugin version 85.3.2
-        • Dart plugin version 252.25557.23
-
-    [√] VS Code (version 1.104.0) [12ms]
-        • VS Code at C:\Users\taish\AppData\Local\Programs\Microsoft VS Code
-        • Flutter extension version 3.118.0
-
-    [√] Connected device (3 available) [2.4s]
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26220.6682]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 139.0.7258.155
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 141.0.3537.13
-
-    [√] Network resources [546ms]
+    [√] Network resources [510ms]
         • All expected network resources are available.
 
     • No issues found!
@@ -249,12 +232,9 @@ sidebar:
           });
         }
         ```
-    - iOS 26
-      ![gpu on iOS 26](/images/flutter/20251025_gpu_iOS26.png)
+    - iOS 26.2 Beta
+      ![gpu on iOS 26.2 Beta](/images/flutter/20251115_gpu_iOS26.2Beta.png)
 ### 履歴
-  - flutter GPU
-    - flutter 3.37
-      ![gpu on iOS 26](/images/flutter/20251003_gpu_iOS26.png)
   - flutter 3.27.1
     - Android Studio Meerkat 2024.3.1 Canary 6
       - AndroidManifest.xml に下記追加

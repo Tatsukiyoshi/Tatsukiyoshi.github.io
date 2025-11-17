@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code September 2025 Recovery 1(1.105.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/10/16 updated from 1.105.0>>*</span>
+- [Visual Studio Code October 2025 (1.106)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/11/13 updated from 1.105.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -273,7 +273,7 @@ OS/言語を問わず利用するツールの情報
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.208.5](https://zed.dev/windows) <span style="color: red;">*<<2025/10/18 installed>>*</span>
+    - [Zed 0.212.4](https://zed.dev/windows) <span style="color: red;">*<<2025/11/13 updated from 0.208.5>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
@@ -341,7 +341,7 @@ OS/言語を問わず利用するツールの情報
   - gitには、PAT(Personal Access Token)を使ってPushする
     -> [アクセストークンがないとGitHubでpushができない](https://qiita.com/masa_code/items/bb935c499f20d0fae7b0)
 - Xcode
-  - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>
+  - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
     ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
   - iOS Simulatorの更新
@@ -351,6 +351,8 @@ OS/言語を問わず利用するツールの情報
     ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
     ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
+    - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>
     - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>
     - [Xcode 26](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/16 Updated from 26 Beta 7>>*</span>
     - [Xcode 26 Beta 7](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/09/05 Updated from 26 Beta 6>>*</span>

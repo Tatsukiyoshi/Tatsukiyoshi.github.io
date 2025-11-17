@@ -41,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7051 (Quality Update) <span style="color: red;">*<<2025/11/01 auto updated from Build 26220.6982 >>*</span>
-      ![Quality Update](/images/Windows/20251101_WindowsUpdate_DevChannel.png)
+    - Build 26220.7070 (Quality Update) <span style="color: red;">*<<2025/11/09 updated from Build 26220.7052 >>*</span>
+      ![Quality Update](/images/Windows/20251108_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251101_Windows11_Build26220.png)
+        ![Version Information](/images/Windows/20251109_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -150,20 +150,22 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2025/10/11 updated from Sequoia 26.0>>*</span>
+  - [Tahoe 26.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/11/08 updated from Sequoia 26.0.1>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20251011_macOS_Tahoe26.0.1Update.png)
+      ![Update Check](/images/macOS/20251108_macOS_Tahoe26.1Update.png)
     - バージョン情報
-      ![Tahoe 26.0](/images/macOS/20251011_macOS_Tahoe26.0.1.png)
+      ![Tahoe 26.1](/images/macOS/20251108_macOS_Tahoe26.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 141.0.7390.115 <span style="color: red;">*<<2025/10/17 updated from 140.0.7339.242>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251017_Chrome_OS_Flex_141.0.7390.115.png)
-      - 更新中（再起動前）
-        ![Updating](/images/Chrome/20251017_Chrome_OS_Flex_Updating141.0.7390.115.png)
+  - バージョン 142.0.7444.147 <span style="color: red;">*<<2025/11/16 updated from 141.0.7390.135>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20251116_Chrome_OS_Flex_142.0.7444.147.png)
+      - 更新中
+        ![Updating](/images/Chrome/20251116_Chrome_OS_Flex_Updating142.0.7444.147.png)
+      - ファームウェア更新
+        ![FirmwareUpdate](/images/Chrome/20251116_Firmware_Update.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報

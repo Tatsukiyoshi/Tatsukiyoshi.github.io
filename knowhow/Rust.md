@@ -25,47 +25,47 @@ sidebar:
       |               |[RustRover 2025.3 EAP 6](#rustrover)           |[2025/10/19](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
-      |Windows Insider|Rust 1.90                                      |2025/09/20
+      |Windows Insider|Rust 1.91                                      |2025/11/08
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.1](#tauridesktop-framework)         |[2025/10/25](https://tauri.app/)
-      |               |- Svelte 5.41.3                                |2025/10/25
-      |               |- Bun 1.3.1                                    |2025/10/25
-      |               |- Vite 7.1.12                                  |2025/10/25
+      |               |[Tauri 2.9.2](#tauridesktop-framework)         |[2025/11/08](https://tauri.app/)
+      |               |- Svelte 5.43.4                                |2025/11/08
+      |               |- Bun 1.3.2                                    |2025/11/08
+      |               |- Vite 7.2.2                                   |2025/11/08
       |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
-      |               |- Visual Studio Community 2022 17.14.19        |[2025/10/28](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |- Visual Studio Community 2022 17.14.20        |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.90       |2025/09/20
-      |                |Tauri 2.9.1     |2025/10/25
+      |Windows Insider |Rust 1.91       |2025/11/08
+      |                |Tauri 2.9.2     |2025/11/08
       |                |- React 19.2.0  |2025/10/08
-      |                |- Bun 1.3.1     |2025/10/25
-      |                |- Vite 7.1.12   |2025/10/25
+      |                |- Bun 1.3.2     |2025/11/08
+      |                |- Vite 7.2.2    |2025/11/08
 
-  1. Chrome OS Flex 141.0.7390.115 (Official Build)
+  1. Chrome OS Flex 141.0.7390.135 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.90                                 |2025/09/20
+      |Chrome OS  |Rust 1.91                                 |2025/11/01
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.9.1                               |2025/10/25
+      |           |Tauri 2.9.2                               |2025/11/01
       |           |- React 19.2.0                            |2025/10/08
-      |           |- Bun 1.3.1                               |2025/10/25
-      |           |- Vite 7.1.12                             |2025/10/25
+      |           |- Bun 1.3.2                               |2025/11/09
+      |           |- Vite 7.2.2                             |2025/11/09
 
-  1. macOS Tahoe 26.0.1
+  1. macOS Tahoe 26.1
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.90            |2025/09/20
+      |macOS      |Rust 1.91            |2025/11/08
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.9.2          |2025/10/31
       |           |- React 19.2.0       |2025/10/08
-      |           |- Bun 1.3.1          |2025/10/25
-      |           |- Vite 7.1.12        |2025/10/25
+      |           |- Bun 1.3.2          |2025/11/08
+      |           |- Vite 7.2.2         |2025/11/08
 
 ##  ノウハウ
 ### Rust
@@ -390,10 +390,23 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.2
+    - Windows
+      ![On Windows](/images/rust/20251108_Tauri2.9.2_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251108_Tauri2.9.2_Ubuntu24.04.3.png)
+    - macOS 26.1
+      ![On macOS](/images/rust/20251108_Tauri2.9.2_macOS26.1.png)
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251109_Tauri2.9.2_Chrome_OS_Flex.png)
+    - Android Canary / Pixel 9a / React 19.2.0
+      - Java 25導入を試していたことでエラーとなったので、JAVA_HOMEをJDK21に変更化してリンク！
+        ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
+    - iOS 26.2 Beta / iPhone 17 Pro
+      ![On iOS 26.2 Beta](/images/rust/20251108_Tauri2.9.2_iPhone17_Pro_iOS26.2Beta.png)
     - iOS 26.1 Beta / iPhone 17 Pro
-      ![On iOS 26](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
+      ![On iOS 26.1 Beta](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
   - npm and yarn
     - [Node.js](https://nodejs.org/ja)インストール
     - yarnインストール
@@ -406,73 +419,73 @@ sidebar:
       ```
   - セットアップについて
     - Windows 11
-    1.  Start a New Tauri Project
-        ```
-        npx create-tauri-app
-        ```
-    1.  Install Tauri CLI package as a dev dependency
-        ```
-        npm init
-        npm install -D @tauri-apps/cli
-        ```
-    1.  install Tauri CLI as a cargo subcommand
-        ```
-        cargo install tauri-cli --locked --version "^1.0.0-rc"
-        ```
-    1.  Install Tauri API Package as a Dependency (optional)
-        ```
-        npm install @tauri-apps/api
-        ```
-    1.  Initialize Tauri in Your App
-        ```
-        cargo tauri init
-        ```
-    1.  Check tauri info to Make Sure Everything Is Set up Properly
-        ```
-        cargo tauri info
-        ```
+      1.  Start a New Tauri Project
+          ```
+          npx create-tauri-app
+          ```
+      1.  Install Tauri CLI package as a dev dependency
+          ```
+          npm init
+          npm install -D @tauri-apps/cli
+          ```
+      1.  install Tauri CLI as a cargo subcommand
+          ```
+          cargo install tauri-cli --locked --version "^1.0.0-rc"
+          ```
+      1.  Install Tauri API Package as a Dependency (optional)
+          ```
+          npm install @tauri-apps/api
+          ```
+      1.  Initialize Tauri in Your App
+          ```
+          cargo tauri init
+          ```
+      1.  Check tauri info to Make Sure Everything Is Set up Properly
+          ```
+          cargo tauri info
+          ```
 
-        ```txt
-        Environment
-          › OS: Windows 10.0.25393 X64
-          › Webview2: 114.0.1823.51
-          › MSVC: 
-          › Node.js: 20.0.0
-          › npm: 9.1.2
-          › pnpm: Not installed!
-          › yarn: 1.22.19
-          › rustup: 1.26.0
-          › rustc: 1.70.0
-          › cargo: 1.70.0
-          › Rust toolchain: stable-x86_64-pc-windows-msvc 
+          ```txt
+          Environment
+            › OS: Windows 10.0.25393 X64
+            › Webview2: 114.0.1823.51
+            › MSVC: 
+            › Node.js: 20.0.0
+            › npm: 9.1.2
+            › pnpm: Not installed!
+            › yarn: 1.22.19
+            › rustup: 1.26.0
+            › rustc: 1.70.0
+            › cargo: 1.70.0
+            › Rust toolchain: stable-x86_64-pc-windows-msvc 
 
-        Packages
-          › @tauri-apps/cli [NPM]: 1.0.0-rc.13
-          › @tauri-apps/api [NPM]: 1.4.0
-          › tauri [RUST]: 1.4.1,
-          › tauri-build [RUST]: 1.4.0,
-          › tao [RUST]: 0.16.2,
-          › wry [RUST]: 0.24.3,
+          Packages
+            › @tauri-apps/cli [NPM]: 1.0.0-rc.13
+            › @tauri-apps/api [NPM]: 1.4.0
+            › tauri [RUST]: 1.4.1,
+            › tauri-build [RUST]: 1.4.0,
+            › tao [RUST]: 0.16.2,
+            › wry [RUST]: 0.24.3,
 
-        App
-          › build-type: bundle
-          › CSP: unset
-          › distDir: /public
-          › devPath: http://localhost:8083/
-          › framework: Svelte
-          › bundler: Rollup
+          App
+            › build-type: bundle
+            › CSP: unset
+            › distDir: /public
+            › devPath: http://localhost:8083/
+            › framework: Svelte
+            › bundler: Rollup
 
-        App directory structure
-          ├─ .vscode
-          ├─ node_modules
-          ├─ public
-          ├─ src
-          └─ src-tauri
-        ```
-    1.  Start Tauri Development Window
-        ```
-        cargo tauri dev
-        ```
+          App directory structure
+            ├─ .vscode
+            ├─ node_modules
+            ├─ public
+            ├─ src
+            └─ src-tauri
+          ```
+      1.  Start Tauri Development Window
+          ```
+          cargo tauri dev
+          ```
     - Ubuntu 24.04
       - Tauri 1.x
         - そもそも、libjavascriptcoregtk-4.1ではなく、libjavascriptcoregtk-4.0を必要としているため、対応不可と判断。
@@ -485,49 +498,49 @@ sidebar:
           ```
           ![Tauri 2.0Beta](/images/rust/20240418_Tauri2.0_Ubuntu24.04.png)
     - Ubuntu 22.04
-    1.  必須パッケージインストール
-        ```
-        sudo apt -y install build-essential
-        sudo apt -y install libdbus-1-dev
-        sudo apt -y install libssl-dev
-        sudo apt -y install libgtk-3-dev
-        sudo apt -y install libwebkit2gtk-4.0-dev
-        ```
-    1.  npmインストール
-        ```
-        sudo apt-get install npm -y
-        ```
-    1.  nodeインストール
-        ```
-        sudo npm install n -g
-        sudo n stable
-        node -v
-        ```
-    1.  yarnインストール
-        ```
-        sudo npm install yarn -g
-        ```
-    1.  create tauri-app
-        ```
-        yarn create tauri-app
-        ```
-    1.  start tauri-app
-        ```
-        cd tauri-app
-        yarn
-        yarn tauri dev
-        ```
+      1.  必須パッケージインストール
+          ```
+          sudo apt -y install build-essential
+          sudo apt -y install libdbus-1-dev
+          sudo apt -y install libssl-dev
+          sudo apt -y install libgtk-3-dev
+          sudo apt -y install libwebkit2gtk-4.0-dev
+          ```
+      1.  npmインストール
+          ```
+          sudo apt-get install npm -y
+          ```
+      1.  nodeインストール
+          ```
+          sudo npm install n -g
+          sudo n stable
+          node -v
+          ```
+      1.  yarnインストール
+          ```
+          sudo npm install yarn -g
+          ```
+      1.  create tauri-app
+          ```
+          yarn create tauri-app
+          ```
+      1.  start tauri-app
+          ```
+          cd tauri-app
+          yarn
+          yarn tauri dev
+          ```
     - Chrome OS Flex
-    1.  npmインストール
-        ```
-        sudo apt install npm -y
-        ```
-    1.  nodeインストール
-        ```
-        sudo npm install n -g
-        sudo n stable
-        node -v
-        ```
+      1.  npmインストール
+          ```
+          sudo apt install npm -y
+          ```
+      1.  nodeインストール
+          ```
+          sudo npm install n -g
+          sudo n stable
+          node -v
+          ```
     - Build エラー対策
       ```
       export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig"
@@ -537,71 +550,71 @@ sidebar:
         sudo apt install libwebkit2gtk-4.0-dev
         ```
   - Tauri環境のアップデートについて
-  1.  windows 11 / Chrome OS Flex
-      ```
-      % cargo update
-      % npm update
-      ```
-  1.  Ubuntu 20.04.5 on Windows 11
-      ```
-      % yarn upgrade
-      ```
+    1.  windows 11 / Chrome OS Flex
+        ```
+        % cargo update
+        % npm update
+        ```
+    1.  Ubuntu 20.04.5 on Windows 11
+        ```
+        % yarn upgrade
+        ```
   - 環境情報
-  1.  Windows 11
-      ```
-      Default host: x86_64-pc-windows-msvc
-      rustup home:  C:\Users\taish\.rustup
-
-      stable-x86_64-pc-windows-msvc (default)
-      rustc 1.71.0 (8ede3aae2 2023-07-12)
-      ```
-      ![Tauri-app](/images/rust/20230504_tauri1.3_windows11.png)
-      - Mcafeeにウイルスとしてブロックされる
-        ![Mcafee抑止](/images/rust/20230723_tauri_virus_check_windows11.png)
-  1.  ubuntu 22.04.2 on Windows 11
-      ```
-      Default host: x86_64-unknown-linux-gnu
-      rustup home:  /home/taishow/.rustup
-
-      stable-x86_64-unknown-linux-gnu (default)
-      rustc 1.71.0 (8ede3aae2 2023-07-12)
-      ```
-      ![Tauri-app](/images/rust/20230728_tauri1.4_windows11_wsl.png)
-  1.  Chrome OS Flex
-      - Tauri環境確認
+    1.  Windows 11
         ```
-        bun tauri info
-        ```
-        ```
-        [✔] Environment
-            - OS: Debian 12.0.0 X64
-            ✔ webkit2gtk-4.0: 2.44.2
-            ✔ rsvg2: 2.54.7
-            ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
-            ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
-            ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
-            ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
-            - node: 16.19.0
-            - npm: 8.19.3
-            - bun: 1.1.20
+        Default host: x86_64-pc-windows-msvc
+        rustup home:  C:\Users\taish\.rustup
 
-        [-] Packages
-            - tauri [RUST]: 1.7.1
-            - tauri-build [RUST]: 1.5.3
-            - wry [RUST]: 0.24.10
-            - tao [RUST]: 0.16.8
-            - @tauri-apps/api [NPM]: 1.6.0
-            - @tauri-apps/cli [NPM]: 1.6.0
-
-        [-] App
-            - build-type: bundle
-            - CSP: unset
-            - distDir: /dist
-            - devPath: http://localhost:1420/
-            - framework: React
-            - bundler: Vite
+        stable-x86_64-pc-windows-msvc (default)
+        rustc 1.71.0 (8ede3aae2 2023-07-12)
         ```
-        ![Tauri-app](/images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
+        ![Tauri-app](/images/rust/20230504_tauri1.3_windows11.png)
+        - Mcafeeにウイルスとしてブロックされる
+          ![Mcafee抑止](/images/rust/20230723_tauri_virus_check_windows11.png)
+    1.  ubuntu 22.04.2 on Windows 11
+        ```
+        Default host: x86_64-unknown-linux-gnu
+        rustup home:  /home/taishow/.rustup
+
+        stable-x86_64-unknown-linux-gnu (default)
+        rustc 1.71.0 (8ede3aae2 2023-07-12)
+        ```
+        ![Tauri-app](/images/rust/20230728_tauri1.4_windows11_wsl.png)
+    1.  Chrome OS Flex
+        - Tauri環境確認
+          ```
+          bun tauri info
+          ```
+          ```
+          [✔] Environment
+              - OS: Debian 12.0.0 X64
+              ✔ webkit2gtk-4.0: 2.44.2
+              ✔ rsvg2: 2.54.7
+              ✔ rustc: 1.79.0 (129f3b996 2024-06-10)
+              ✔ cargo: 1.79.0 (ffa9cf99a 2024-06-03)
+              ✔ rustup: 1.27.1 (54dd3d00f 2024-04-24)
+              ✔ Rust toolchain: stable-x86_64-unknown-linux-gnu (default)
+              - node: 16.19.0
+              - npm: 8.19.3
+              - bun: 1.1.20
+
+          [-] Packages
+              - tauri [RUST]: 1.7.1
+              - tauri-build [RUST]: 1.5.3
+              - wry [RUST]: 0.24.10
+              - tao [RUST]: 0.16.8
+              - @tauri-apps/api [NPM]: 1.6.0
+              - @tauri-apps/cli [NPM]: 1.6.0
+
+          [-] App
+              - build-type: bundle
+              - CSP: unset
+              - distDir: /dist
+              - devPath: http://localhost:1420/
+              - framework: React
+              - bundler: Vite
+          ```
+          ![Tauri-app](/images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {

@@ -4,7 +4,11 @@ layout: single
 sidebar:
   nav: main
 ---
+- iOS 26.2 Beta
+    ![gpu on iOS 26.2 Beta](/images/flutter/20251115_gpu_iOS26.2Beta.png)
 - iOS 26
+    -   2025/10/25
+        ![gpu on iOS 26](/images/flutter/20251025_gpu_iOS26.png)
     -   2025/10/3
         ![gpu on iOS 26](/images/flutter/20251003_gpu_iOS26.png)
     -   2025/9/16

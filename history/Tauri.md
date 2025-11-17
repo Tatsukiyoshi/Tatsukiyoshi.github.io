@@ -6,10 +6,23 @@ sidebar:
 ---
 ##  Tauri
   - V2.9.2
+    - Windows
+      ![On Windows](/images/rust/20251108_Tauri2.9.2_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251108_Tauri2.9.2_Ubuntu24.04.3.png)
+    - macOS 26.1
+      ![On macOS](/images/rust/20251108_Tauri2.9.2_macOS26.1.png)
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
+    - Android Canary / Pixel 9a / React 19.2.0
+      - Java 25導入を試していたことでエラーとなったので、JAVA_HOMEをJDK21に変更化してリンク！
+        ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
+    - iOS 26.2 Beta / iPhone 17 Pro
+      ![On iOS 26.2 Beta](/images/rust/20251108_Tauri2.9.2_iPhone17_Pro_iOS26.2Beta.png)
     - iOS 26.1 Beta / iPhone 17 Pro
-      ![On iOS 26](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
+      ![On iOS 26.1 Beta](/images/rust/20251031_Tauri2.9.2_iPhone17_Pro_iOS26.1Beta.png)
   - V2.9.1
     - Windows
       ![On Windows](/images/rust/20251025_Tauri2.9.1_Windows.png)
