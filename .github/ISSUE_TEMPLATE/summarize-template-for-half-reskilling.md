@@ -1,9 +1,9 @@
 ---
-name: Summarize template for weekly reskilling
-about: 毎週のリスキリングをまとめるためのIssue用テンプレート
-title: Update Environment for Re-Skilling @yyyy/mm Nrd Half
+name: Summarize template for half reskilling
+about: 半期のリスキリングをまとめるためのIssue用テンプレート
+title: ''
 labels: ''
-assignees: Tatsukiyoshi
+assignees: ''
 
 ---
 
