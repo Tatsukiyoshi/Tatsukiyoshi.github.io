@@ -1,9 +1,9 @@
 ---
 name: Summarize template for half reskilling
 about: 半期のリスキリングをまとめるためのIssue用テンプレート
-title: ''
+title: Update Environment for Re-Skilling @yyyy/mm Nrd Half
 labels: ''
-assignees: ''
+assignees: Tatsukiyoshi
 
 ---
 
