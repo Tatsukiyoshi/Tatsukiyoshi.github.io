@@ -32,7 +32,7 @@ Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/downlo
 
 Tools                           |Updated   |Detail
 --------------------------------|----------|--------
-Visual Studio Code              |2025/11/18|[October 2025 Recovery 1](https://code.visualstudio.com/)
+Visual Studio Code              |2025/11/20|[October 2025 Recovery 2](https://code.visualstudio.com/)
 Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
 Zed                             |2025/11/13|[0.212.4](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)

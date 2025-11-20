@@ -45,6 +45,8 @@ OS                                 |Hardware            |Language
       ![Quality Update](/images/Windows/20251118_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
         ![Version Information](/images/Windows/20251118_Windows11_Build26220.png)
+      - AIエージェント機能
+        ![Settings for AI Agents](/images/Windows/20251118_Setting_for_AI_Agents.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
