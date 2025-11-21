@@ -271,7 +271,7 @@ OS/言語を問わず利用するツールの情報
           ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
     - GitHub ProjectsでBoard作成してみた
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
-- [Antigravity 1.11.3](https://antigravity.google/) <span style="color: red;">*<<2025/11/20 installed>>*</span>
+- [Antigravity 1.11.5](https://antigravity.google/) <span style="color: red;">*<<2025/11/21 updated from 1.11.3 >>*</span>
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
