@@ -7,10 +7,16 @@ sidebar:
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)
+      - Build 26220.7271 (Quality Update) <span style="color: red;">*<<2025/11/22 updated from Build 26220.7262 >>*</span>
+        ![Quality Update](/images/Windows/20251122_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](/images/Windows/20251122_Windows11_Build26220.png)
       - Build 26220.7262 (Quality Update) <span style="color: red;">*<<2025/11/18 updated from Build 26220.7070 >>*</span>
         ![Quality Update](/images/Windows/20251118_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
           ![Version Information](/images/Windows/20251118_Windows11_Build26220.png)
+        - AIエージェント機能
+          ![Settings for AI Agents](/images/Windows/20251118_Setting_for_AI_Agents.png)
       - Build 26220.7070 (Quality Update) <span style="color: red;">*<<2025/11/09 updated from Build 26220.7052 >>*</span>
         ![Quality Update](/images/Windows/20251108_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認

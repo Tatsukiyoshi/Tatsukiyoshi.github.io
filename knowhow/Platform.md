@@ -41,12 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7262 (Quality Update) <span style="color: red;">*<<2025/11/18 updated from Build 26220.7070 >>*</span>
-      ![Quality Update](/images/Windows/20251118_WindowsUpdate_DevChannel.png)
+    - Build 26220.7271 (Quality Update) <span style="color: red;">*<<2025/11/22 updated from Build 26220.7262 >>*</span>
+      ![Quality Update](/images/Windows/20251122_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251118_Windows11_Build26220.png)
-      - AIエージェント機能
-        ![Settings for AI Agents](/images/Windows/20251118_Setting_for_AI_Agents.png)
+        ![Version Information](/images/Windows/20251122_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
