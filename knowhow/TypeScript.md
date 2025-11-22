@@ -45,7 +45,7 @@ sidebar:
       |                |        |- react-babylonjs 3.2.4            |[2025/10/03](https://github.com/brianzinn/react-babylonjs)
       |                |        |- bun 1.2.21                       |2025/08/30
       |                |        |- vite 7.1.9                       |2025/10/03
-      |                |Web FW  |[Angular 21.0.0-next.9](#angular)  |[2025/10/24](https://angular.dev/)
+      |                |Web FW  |[Angular 21.0.0](#angular)         |[2025/11/21](https://angular.dev/)
       |                |        |[Astro 5.15.1](#astro)             |[2025/10/26](https://astro.build/)
       |                |        |- React 19.2.0                     |2025/10/08
       |                |        |- Bun 1.3.1                        |2025/10/26
@@ -701,6 +701,15 @@ sidebar:
           ```sh
           git clone https://github.com/angular/quickstart.git
           ```
+      1.  Angular 21.0.0対応
+          - Standard
+            ```
+            ng update @angular/cli@21 @angular/core@21
+            ```
+          - Use Material
+            ```
+            ng update @angular/cli@21 @angular/core@21 @angular/cdk@21 @angular/material@21
+            ```
       1.  Angular 21.0.0-next.9対応
           - Standard
             ```
