@@ -282,13 +282,13 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 6.17.0-5 / Ubuntu 25.10 <span style="color: red;">*<<2025/10/19 Updated from 6.14.0-33>>*</span>
+    - 6.17.0-6 / Ubuntu 25.10 <span style="color: red;">*<<2025/11/23 Updated from 6.17.0-5>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
-    ![Desktop](/images/Ubuntu/20250530_Budgie.png) I
-  - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>
-    ![Startup](/images/Ubuntu/20250630_Plasma.png)
-    - Visual Studio Codeが起動できないため、継続利用を断念
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
+  - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
+    ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
+    - 
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
