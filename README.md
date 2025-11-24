@@ -59,7 +59,7 @@ Language                         |Updated   |Detail
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
-[Carbon & LLVM](/knowhow/Carbon) |2025/10/16|Update: Carbon with llvm 21.1.3@Ubuntu Desktop 25.04
+[Carbon & LLVM](/knowhow/Carbon) |2025/11/24|Update: Carbon with llvm 21.1.5@Ubuntu 24.04.3
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
