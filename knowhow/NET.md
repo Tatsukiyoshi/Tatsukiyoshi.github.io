@@ -126,27 +126,27 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
       マニフェストのバージョン:    36.1.2/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
       マニフェストのバージョン:    26.1.10494/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
       マニフェストのバージョン:    10.0.0/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
@@ -159,7 +159,7 @@ sidebar:
     .NET SDKs installed:
       6.0.428 [C:\Program Files\dotnet\sdk]
       8.0.414 [C:\Program Files\dotnet\sdk]
-      9.0.307 [C:\Program Files\dotnet\sdk]
+      9.0.308 [C:\Program Files\dotnet\sdk]
       10.0.100-rc.1.25451.107 [C:\Program Files\dotnet\sdk]
       10.0.100 [C:\Program Files\dotnet\sdk]
 
