@@ -27,7 +27,7 @@ sidebar:
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
   |                |- .NET 9.0.11                                     |2025/11/12
   |                |- .NET 8.0.22                                     |2025/11/12
-  |                |Visual Studio Community 2022 17.14.20             |2025/11/12
+  |                |Visual Studio Community 2022 17.14.21             |2025/11/24
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
@@ -44,6 +44,12 @@ sidebar:
   ![VS2022 17.14.20](/images/VisualStudio/20251112_Update_VS2022_17.14.20.png)
 
 - ノウハウ
+  - [ネットワークインストールの作成](https://learn.microsoft.com/ja-jp/visualstudio/install/create-a-network-installation-of-visual-studio?view=vs-2022#create-the-layout?WT.mc_id=DT-MVP-4039701)
+    - ダウンロードしたインストーラで必要なレイアウトを作成する
+      ```
+      .\vs_Community.exe --layout D:\VSLayout --lang ja-JP
+      ```
+
   - ワークロード
     - .NET マルチプラットフォームアプリ
       ![.NET MultiPlatform](/images/VisualStudio/VS2022_dotnet_MultiPlatform_Workload.png)
