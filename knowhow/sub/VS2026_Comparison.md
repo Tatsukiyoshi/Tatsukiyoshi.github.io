@@ -7,6 +7,16 @@ sidebar:
 
 ##  VS2026 Comparison
 
+### VS2026 18.0.2 / Insiders Build 11222.16
+
+  VS2026 | Insiders | Detail
+  -------|----------|-----------
+  ○      | ○        | Fixed a crash that affected C++ programs using OpenMP.
+  ->     | ○        | VS2026 Insiders are unable to hotload WPF applications developed by the .NET framework 4.8
+  ○      | ○        | Visual Studio 2026 Insiders DataTips unreadable
+  ○      | ○        | Source control plugin change gives pop-up
+  ○      | ○        | Computing rename information message gets stuck on screen
+
 ### VS2026 18.0.1 / Insiders Build 11218.70
 
   VS2026 | Insiders | Detail

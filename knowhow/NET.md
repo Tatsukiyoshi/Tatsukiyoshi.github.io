@@ -19,7 +19,7 @@ sidebar:
   |Windows         |Visual Studio Community 2022 17.14.17             |[2025/10/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.10                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |Windows Insider |Visual Studio Community 2026 18.0.1               |[2025/11/20](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.0.2               |[2025/11/25](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.0                                     |[2025/11/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.10](#maui)                         |[2025/11/14](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
@@ -31,15 +31,12 @@ sidebar:
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  - 11月 2025 機能更新プログラム(18.0.1)
-    ![VS2026 18.0.1](/images/VisualStudio/20251120_Update_VS2026_18.0.1.png)
-
-- [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
-  - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
-    ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
-
-- [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
-
+  - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
+  - 11月 2025 機能更新プログラム(18.0.2)
+    ![VS2026 18.0.2](/images/VisualStudio/20251125_Update_VS2026_18.0.2.png)
+  - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
+    - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
+      ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
 - Visual Studio 2022 17.14.20
   ![VS2022 17.14.20](/images/VisualStudio/20251112_Update_VS2022_17.14.20.png)
 
@@ -126,25 +123,25 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    36.1.2/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    26.1.10494/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    26.1.10494/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11217.181
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    10.0.0/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
       インストールの種類:              Msi
