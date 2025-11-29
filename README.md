@@ -54,7 +54,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2025/11/09|Update: Rust 1.91 + Tauri 2.9.2@Windows and Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/11/29|Update: Android Studio Otter 2025.2.3 Canary 3
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
-[TypeScript](/knowhow/TypeScript)|2025/11/23|Re-Update: React Native Windows 0.80.0
+[TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38

@@ -46,9 +46,9 @@ sidebar:
       |                |        |- bun 1.2.21                       |2025/08/30
       |                |        |- vite 7.1.9                       |2025/10/03
       |                |Web FW  |[Angular 21.0.0](#angular)         |[2025/11/21](https://angular.dev/)
-      |                |        |[Astro 5.15.1](#astro)             |[2025/10/26](https://astro.build/)
+      |                |        |[Astro 5.16.2](#astro)             |[2025/11/29](https://astro.build/)
       |                |        |- React 19.2.0                     |2025/10/08
-      |                |        |- Bun 1.3.1                        |2025/10/26
+      |                |        |- Bun 1.3.3                        |2025/11/23
       |                |        |[Deno 2.5.1](#deno)                |[2025/09/21](https://deno.land/)
       |                |        |- Deno-webUI 2.5.9                 |[2025/07/26](https://github.com/webui-dev/deno-webui)
       |                |        |- [fresh 2.1.1](#fresh)            |[2025/09/21](https://fresh.deno.dev/)
