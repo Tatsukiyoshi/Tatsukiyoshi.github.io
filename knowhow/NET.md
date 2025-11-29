@@ -21,7 +21,7 @@ sidebar:
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |Windows Insider |Visual Studio Community 2026 18.0.2               |[2025/11/25](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.0                                     |[2025/11/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.10](#maui)                         |[2025/11/14](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.11](#maui)                         |[2025/11/29](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
@@ -347,8 +347,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
-      - 18.0.0 / MAUI 10.0.10 / Pixel 9 Pro (Android 16)
-        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20251114_VS2026_18.0.0_MAUI10.0.10_Android16.png)
+      - 18.0.2 / MAUI 10.0.11 / Pixel 9 Pro (Android 16)
+        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20251129_VS2026_18.0.2_MAUI10.0.11_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update
