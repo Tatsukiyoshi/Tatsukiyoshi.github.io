@@ -9,7 +9,7 @@ sidebar:
 
   |Machine         |Env / FW      |Last Updated
   |----------------|--------------|----------
-  |Windows Insider |Carbon        |[2025/09/15](https://github.com/carbon-language/carbon-lang)
+  |Windows Insider |Carbon        |[2025/11/24](https://github.com/carbon-language/carbon-lang)
   |                |- bazel 8.3.1 |2025/09/15
   |                |- clang 21.1.7|[2025/11/24](https://llvm.org/)
   |Ubuntu Desktop  |Carbon        |2025/10/16
