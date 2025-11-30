@@ -14,7 +14,7 @@ sidebar:
 ```
 毎週日曜日に更新
 ```
-[最新ダイジェスト（2025/11/2～2025/11/15）](/digest/2025/November/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2025/11/16～2025/11/29）](/digest/2025/November/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,15 +24,15 @@ sidebar:
 
 Platform                        |Updated   |Detail
 --------------------------------|----------|--------
-Windows Insider                 |2025/11/09|[Build 26220.7070](https://aka.ms/DevLatest)
+Windows Insider                 |2025/11/22|[Build 26220.7271](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/11/08|[Tahoe 26.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/11/16|[142.0.7444.147](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/11/22|[142.0.7444.181](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools                           |Updated   |Detail
 --------------------------------|----------|--------
-Visual Studio Code              |2025/11/13|[October 2025](https://code.visualstudio.com/)
+Visual Studio Code              |2025/11/28|[October 2025 Recovery 3](https://code.visualstudio.com/)
 Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
 Zed                             |2025/11/13|[0.212.4](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
@@ -50,16 +50,16 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/11/15|Update: Windows App SDK 1.8.3
+[.NET](/knowhow/NET)             |2025/11/29|Update: .NET MAUI 10.0.11
 [Rust](/knowhow/Rust)            |2025/11/09|Update: Rust 1.91 + Tauri 2.9.2@Windows and Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/11/13|Update: IntelliJ IDEA 2025.3 EAP 8
-[Flutter](/knowhow/Flutter)      |2025/11/15|Update: Flutter 3.39.0-1.0.pre-129@macOS
-[TypeScript](/knowhow/TypeScript)|2025/10/31|Update: React Native Windows 0.80.0
+[Kotlin](/knowhow/Kotlin)        |2025/11/29|Update: Android Studio Otter 2025.2.3 Canary 3 / IntelliJ IDEA 2025.3 RC
+[Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
+[TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
-[Carbon & LLVM](/knowhow/Carbon) |2025/10/16|Update: Carbon with llvm 21.1.3@Ubuntu Desktop 25.04
+[Carbon & LLVM](/knowhow/Carbon) |2025/11/24|Update: Carbon with llvm 21.1.5@Ubuntu 24.04.3
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------

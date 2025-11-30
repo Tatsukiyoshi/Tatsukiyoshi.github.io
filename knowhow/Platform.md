@@ -41,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7070 (Quality Update) <span style="color: red;">*<<2025/11/09 updated from Build 26220.7052 >>*</span>
-      ![Quality Update](/images/Windows/20251108_WindowsUpdate_DevChannel.png)
+    - Build 26220.7271 (Quality Update) <span style="color: red;">*<<2025/11/22 updated from Build 26220.7262 >>*</span>
+      ![Quality Update](/images/Windows/20251122_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251109_Windows11_Build26220.png)
+        ![Version Information](/images/Windows/20251122_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -160,12 +160,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 142.0.7444.147 <span style="color: red;">*<<2025/11/16 updated from 141.0.7390.135>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251116_Chrome_OS_Flex_142.0.7444.147.png)
+  - バージョン 142.0.7444.181 <span style="color: red;">*<<2025/11/22 updated from 142.0.7447.147>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20251122_Chrome_OS_Flex_142.0.7444.181.png)
       - 更新中
-        ![Updating](/images/Chrome/20251116_Chrome_OS_Flex_Updating142.0.7444.147.png)
-      - ファームウェア更新
-        ![FirmwareUpdate](/images/Chrome/20251116_Firmware_Update.png)
+        ![Updating](/images/Chrome/20251122_Chrome_OS_Flex_Updating142.0.7444.181.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -284,13 +282,13 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 6.17.0-5 / Ubuntu 25.10 <span style="color: red;">*<<2025/10/19 Updated from 6.14.0-33>>*</span>
+    - 6.17.0-6 / Ubuntu 25.10 <span style="color: red;">*<<2025/11/23 Updated from 6.17.0-5>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
-    ![Desktop](/images/Ubuntu/20250530_Budgie.png) I
-  - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>
-    ![Startup](/images/Ubuntu/20250630_Plasma.png)
-    - Visual Studio Codeが起動できないため、継続利用を断念
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
+  - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
+    ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
+    - 
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)

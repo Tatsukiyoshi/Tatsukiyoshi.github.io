@@ -18,14 +18,14 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3 EAP 8](#intellij-idea)                  |[2025/11/13](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3 RC](#intellij-idea)                     |[2025/11/29](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.2 Canary 4](#AndroidStudio)      |[2025/11/12](https://developer.android.com/studio)
+      |                |[Android Studio Otter 2025.2.3 Canary 3](#AndroidStudio)      |[2025/11/29](https://developer.android.com/studio)
       |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.3.8                                   |2025/11/12
+      |                |- Android Emulator v.36.4.1                                   |2025/11/12
 
   1. macOS Sequoia 15.6.1
 
@@ -36,11 +36,12 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3 EAP
-    ```    
-    Build #IU-253.28086.51, built on November 3, 2025
-    Source revision: 9ea59ce91cbd8
+  - IntelliJ IDEA 2025.3 RC Build #IU-253.28294.251, built on November 28, 2025
+    ```
+    Source revision: 8dc4c5f5a2662
     ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2025年12月28日 まで有効です。
+    Evaluation purpose only.
     Runtime version: 21.0.8+9-b1163.69 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -51,83 +52,69 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.28086.52)
-      com.intellij.debugger.collections.visualizer (253.28086.52)
-      JavaScript (253.28086.55)
-      com.intellij.java (253.28086.51)
-      org.jetbrains.completion.full.line (253.28086.51)
-      JavaScriptDebugger (253.28086.55)
-      intellij.webp (253.28086.9)
-      Subversion (253.28086.52)
-      HtmlTools (253.28086.55)
-      com.intellij.copyright (253.28086.51)
-      org.editorconfig.editorconfigjetbrains (253.28086.51)
-      org.jetbrains.plugins.yaml (253.28086.51)
-      org.toml.lang (253.28086.52)
-      com.intellij.jsonpath (253.28086.51)
-      com.intellij.javaee (253.28086.52)
-      com.intellij.spring (253.28086.52)
-      com.intellij.LineProfiler (253.28086.51)
-      com.intellij.properties (253.28086.52)
-      com.intellij.freemarker (253.28086.51)
-      com.intellij.velocity (253.28086.52)
-      com.intellij.spring.boot.initializr (253.28086.51)
-      com.intellij.java-i18n (253.28086.51)
-      com.intellij.cdi (253.28086.51)
-      com.intellij.javaee.extensions (253.28086.51)
-      com.intellij.spring.security (253.28086.51)
-      com.intellij.spring.boot (253.28086.51)
-      com.intellij.spring.messaging (253.28086.51)
-      com.intellij.liquibase (253.28086.51)
-      com.intellij.flyway (253.28086.51)
-      org.jetbrains.kotlin (253.28086.51-IJ)
-      intellij.ktor (253.28086.51)
-      com.intellij.spring.batch (253.28086.51)
-      com.intellij.spring.cloud (253.28086.51)
-      com.intellij.spring.integration (253.28086.51)
-      com.jetbrains.restWebServices (253.28086.51)
-      com.jetbrains.restClient (253.28086.51)
-      JBoss (253.28086.51)
-      Tomcat (253.28086.51)
-      XPathView (253.28086.51)
-      com.intellij.tasks (253.28086.52)
-      com.intellij.tasks.timeTracking (253.28086.52)
-      com.intellij.javaee.jpa (253.28086.51)
-      com.intellij.javaee.jakarta.data (253.28086.51)
-      com.intellij.spring.data (253.28086.51)
-      com.intellij.javaee.reverseEngineering (253.28086.51)
-      com.intellij.micronaut (253.28086.51)
-      com.intellij.hibernate (253.28086.51)
-      com.intellij.quarkus (253.28086.51)
-      intellij.jupyter (253.28086.52)
-      org.jetbrains.plugins.kotlin.jupyter (253.28086.51)
-      Docker (253.28086.57)
-      tanvd.grazi (253.28086.51)
-      org.jetbrains.plugins.gitlab (253.28086.51)
-      com.intellij.settingsSync (253.28086.51)
-      org.jetbrains.plugins.github (253.28086.51)
-      org.jetbrains.idea.maven (253.28086.51)
-      org.jetbrains.plugins.gradle (253.28086.51)
-      com.intellij.reactivestreams (253.28086.51)
-      intellij.webpack (253.28086.55)
-      Dart (253.28086.9)
-      com.intellij.react (253.28086.55)
-      intellij.vitejs (253.28086.52)
-      NodeJS (253.28086.52)
-      org.jetbrains.plugins.vue (253.28086.57)
-      tslint (253.28086.52)
-      org.jetbrains.plugins.node-remote-interpreter (253.28086.52)
-      com.deadlock.scsyntax (253.28086.52)
-      com.intellij.plugins.webcomponents (253.28086.52)
-      intellij.prettierJS (253.28086.52)
-      org.jetbrains.android (253.28086.51)
-      intellij.nextjs (253.28086.52)
-      Karma (253.28086.52)
-      io.flutter (88.0.0)
-      com.intellij.mcpServer (253.28086.55)
-      org.jetbrains.security.package-checker (253.28086.57)
-      com.intellij.spring.mvc (253.28086.51)
-    Kotlin: 253.28086.51-IJ
+      com.intellij.notebooks.core (253.28294.252)
+      com.intellij.debugger.collections.visualizer (253.28294.252)
+      com.intellij.java (253.28294.251)
+      intellij.jupyter (253.28294.252)
+      XPathView (253.28294.251)
+      JavaScript (253.28294.256)
+      tanvd.grazi (253.28294.251)
+      org.jetbrains.completion.full.line (253.28294.251)
+      com.intellij.copyright (253.28294.251)
+      org.jetbrains.plugins.gitlab (253.28294.251)
+      org.jetbrains.plugins.github (253.28294.251)
+      com.intellij.settingsSync (253.28294.251)
+      org.jetbrains.security.package-checker (253.28294.257)
+      intellij.webp (253.28294.218)
+      com.intellij.spring (253.28294.252)
+      JavaScriptDebugger (253.28294.256)
+      com.jetbrains.restClient (253.28294.251)
+      com.intellij.mcpServer (253.28294.256)
+      org.editorconfig.editorconfigjetbrains (253.28294.254)
+      org.jetbrains.plugins.yaml (253.28294.251)
+      Dart (500.0.0)
+      com.intellij.javaee (253.28294.252)
+      org.toml.lang (253.28294.252)
+      com.intellij.properties (253.28294.252)
+      com.intellij.freemarker (253.28294.251)
+      com.intellij.spring.boot.initializr (253.28294.251)
+      com.intellij.liquibase (253.28294.251)
+      com.intellij.flyway (253.28294.251)
+      com.intellij.velocity (253.28294.252)
+      intellij.ktor (253.28294.251)
+      org.jetbrains.kotlin (253.28294.251-IJ)
+      org.jetbrains.plugins.kotlin.jupyter (253.28294.251)
+      Docker (253.28294.257)
+      com.intellij.LineProfiler (253.28294.251)
+      org.jetbrains.idea.maven (253.28294.251)
+      org.jetbrains.plugins.gradle (253.28294.251)
+      com.intellij.reactivestreams (253.28294.251)
+      com.intellij.java-i18n (253.28294.251)
+      JBoss (253.28294.251)
+      Tomcat (253.28294.251)
+      com.intellij.micronaut (253.28294.251)
+      com.intellij.javaee.reverseEngineering (253.28294.251)
+      com.intellij.hibernate (253.28294.251)
+      com.intellij.javaee.jpa (253.28294.251)
+      com.jetbrains.restWebServices (253.28294.251)
+      com.intellij.javaee.jakarta.data (253.28294.251)
+      com.intellij.quarkus (253.28294.251)
+      com.intellij.cdi (253.28294.251)
+      com.intellij.javaee.extensions (253.28294.251)
+      com.intellij.spring.boot (253.28294.251)
+      com.intellij.spring.security (253.28294.251)
+      com.intellij.spring.cloud (253.28294.251)
+      com.intellij.spring.integration (253.28294.251)
+      com.intellij.spring.messaging (253.28294.251)
+      com.intellij.spring.data (253.28294.251)
+      com.intellij.spring.batch (253.28294.251)
+      intellij.webpack (253.28294.256)
+      com.intellij.react (253.28294.256)
+      org.jetbrains.plugins.vue (253.28294.257)
+      com.intellij.spring.mvc (253.28294.251)
+      org.jetbrains.android (253.28294.251)
+      io.flutter (88.1.0)
+    Kotlin: 253.28294.251-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -331,9 +318,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter 2 Feature Drop | 2025.2.2 Canary 4
+    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 3
       ```
-      Build #AI-252.27397.103.2522.14395761, built on November 6, 2025
+      Build #AI-252.28238.7.2523.14499447, built on November 26, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -346,8 +333,8 @@ sidebar:
         gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (252.25557.23)
-        io.flutter (88.0.0)
+        Dart (500.0.0)
+        io.flutter (88.1.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -420,11 +407,17 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Otter
+      - Feature Drop 2025.2.3
+        - Canary 3
+          - Android Gradle Plugin 9.0.0-beta02 -> 9.0.0-beta03
+        - Canary 2
+          - Android Gradle Plugin 9.0.0-alpha14 -> 9.0.0-beta02
+          - Android Emulator 36.4.1
       - Feature Drop 2025.2.2
         - Canary 4
           - Gradle 9.1.0
           - Android Gradle Plugin 9.0.0-alpha13 -> 9.0.0-alpha14
-          - Android Emulator 36.3.x
+          - Android Emulator 36.3.8
         - Canary 3
           - Android Gradle Plugin 9.0.0-alpha11 -> 9.0.0-alpha13
           - Android Emulator 36.3.6

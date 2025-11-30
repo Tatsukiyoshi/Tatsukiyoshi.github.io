@@ -6,6 +6,18 @@ sidebar:
   nav: main
 ---
 - React Native Windows 0.80.0
+  - React Native 0.80.0
+  - React 19.1.1
+    ![React Native Windows 0.80.0](/images/JavaScript/20251123_ReactNativeWindows0.80.0.png)
+  - 下記をVS2026 Developer PowerShellで実行
+    - React Nativeでプロジェクト再作成
+    - React Nativeのバージョンを最新からダウングレード（0.82.1→0.80.0）
+    - VS2026に合わせて、最新のWindows SDKをターゲットに変更
+    - ログ出力モードで実行(--logging指定：無しだと開発モードでのデプロイに失敗する)
+      ```
+      Failed to deploy: Enabling Developer Mode
+      ```
+- React Native Windows 0.80.0
   - React Native 0.80.2
   - React 19.1.0
     ![React Native Windows 0.80.0](/images/JavaScript/20251031_ReactNativeWindows0.80.0.png)

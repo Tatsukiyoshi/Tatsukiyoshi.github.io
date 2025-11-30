@@ -19,28 +19,34 @@ sidebar:
   |Windows         |Visual Studio Community 2022 17.14.17             |[2025/10/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
   |                |- .NET 9.0.10                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |- .NET 8.0.21                                     |[2025/10/15](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |Windows Insider |Visual Studio Community 2026 18.0.0               |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.0.2               |[2025/11/25](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.0                                     |[2025/11/12](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.10](#maui)                         |[2025/11/14](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.11](#maui)                         |[2025/11/29](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
   |                |- .NET 9.0.11                                     |2025/11/12
   |                |- .NET 8.0.22                                     |2025/11/12
-  |                |Visual Studio Community 2022 17.14.20             |2025/11/12
+  |                |Visual Studio Community 2022 17.14.21             |2025/11/24
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
-- [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
-  - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
-    ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
-
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  ![VS2026](/images/VisualStudio/20251112_Update_VS2022_17.14.20_VS2026_18.0.0_Insiders.png)
-
+  - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
+  - 11月 2025 機能更新プログラム(18.0.2)
+    ![VS2026 18.0.2](/images/VisualStudio/20251125_Update_VS2026_18.0.2.png)
+  - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
+    - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
+      ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
 - Visual Studio 2022 17.14.20
   ![VS2022 17.14.20](/images/VisualStudio/20251112_Update_VS2022_17.14.20.png)
 
 - ノウハウ
+  - [ネットワークインストールの作成](https://learn.microsoft.com/ja-jp/visualstudio/install/create-a-network-installation-of-visual-studio?view=vs-2022#create-the-layout?WT.mc_id=DT-MVP-4039701)
+    - ダウンロードしたインストーラで必要なレイアウトを作成する
+      ```
+      .\vs_Community.exe --layout D:\VSLayout --lang ja-JP
+      ```
+
   - ワークロード
     - .NET マルチプラットフォームアプリ
       ![.NET MultiPlatform](/images/VisualStudio/VS2022_dotnet_MultiPlatform_Workload.png)
@@ -117,27 +123,27 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11205.157
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    36.1.2/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11205.157
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11205.157
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    26.1.10494/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100, VS 17.14.36705.20, VS 18.0.11205.157
+      インストール ソース: SDK 10.0.100, VS 17.14.36717.8, VS 18.0.11222.15
       マニフェストのバージョン:    10.0.0/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
@@ -150,7 +156,7 @@ sidebar:
     .NET SDKs installed:
       6.0.428 [C:\Program Files\dotnet\sdk]
       8.0.414 [C:\Program Files\dotnet\sdk]
-      9.0.307 [C:\Program Files\dotnet\sdk]
+      9.0.308 [C:\Program Files\dotnet\sdk]
       10.0.100-rc.1.25451.107 [C:\Program Files\dotnet\sdk]
       10.0.100 [C:\Program Files\dotnet\sdk]
 
@@ -341,8 +347,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
-      - 18.0.0 / MAUI 10.0.10 / Pixel 9 Pro (Android 16)
-        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20251114_VS2026_18.0.0_MAUI10.0.10_Android16.png)
+      - 18.0.2 / MAUI 10.0.11 / Pixel 9 Pro (Android 16)
+        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20251129_VS2026_18.0.2_MAUI10.0.11_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update

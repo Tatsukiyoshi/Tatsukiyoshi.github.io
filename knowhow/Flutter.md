@@ -61,19 +61,19 @@ sidebar:
     </summary>
 
     ```
-    [√] Flutter (Channel stable, 3.38.1, on Microsoft Windows [Version 10.0.26220.7070], locale ja-JP) [558ms]
-        • Flutter version 3.38.1 on channel stable at C:\Users\taish\dev\flutter
+    [√] Flutter (Channel stable, 3.38.3, on Microsoft Windows [Version 10.0.26220.7271], locale ja-JP) [380ms]
+        • Flutter version 3.38.3 on channel stable at D:\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision b45fa18946 (33 hours ago), 2025-11-12 22:09:06 -0600
-        • Engine revision b5990e5ccc
-        • Dart version 3.10.0
+        • Framework revision 19074d12f7 (2 days ago), 2025-11-20 17:53:13 -0500
+        • Engine revision 13e658725d
+        • Dart version 3.10.1
         • DevTools version 2.51.1
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android,
-          enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios,
+          cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
 
-    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.1s]
+    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.5s]
 
-    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [2.7s]
+    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [2.3s]
         • Android SDK at D:\Android\Sdk
         • Emulator version 36.3.8.0 (build_id 14396629) (CL:N/A)
         • Platform android-CANARY, build-tools 36.1.0
@@ -84,21 +84,20 @@ sidebar:
         • Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
         • All Android licenses accepted.
 
-    [√] Chrome - develop for the web [184ms]
+    [√] Chrome - develop for the web [108ms]
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.0.0) [183ms]
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.0.1) [107ms]
         • Visual Studio at D:\Program Files\Microsoft Visual Studio\18\Community
-        • Visual Studio Community 2026 version 18.0.11205.157
+        • Visual Studio Community 2026 version 18.0.11217.181
         • Windows 10 SDK version 10.0.26100.0
 
-    [√] Connected device (4 available) [933ms]
-        • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 16 (API 36) (emulator)
-        • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Version 10.0.26220.7070]
-        • Chrome (web)                 • chrome        • web-javascript • Google Chrome 142.0.7444.60
-        • Edge (web)                   • edge          • web-javascript • Microsoft Edge 143.0.3650.19
+    [√] Connected device (3 available) [717ms]
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26220.7271]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 142.0.7444.176
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 143.0.3650.37
 
-    [√] Network resources [510ms]
+    [√] Network resources [719ms]
         • All expected network resources are available.
 
     • No issues found!

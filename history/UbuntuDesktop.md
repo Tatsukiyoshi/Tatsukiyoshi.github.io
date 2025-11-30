@@ -62,6 +62,12 @@ sidebar:
 
     </details>
 
+  - KDE Plasma
+    - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
+      ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
+    - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>
+      ![Startup](/images/Ubuntu/20250630_Plasma.png)
+      - Visual Studio Codeが起動できないため、継続利用を断念
 - [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
@@ -202,6 +208,7 @@ sidebar:
 
 ##  Unix Kernel
 - カーネルバージョン
+  - 6.17.0-6 / Ubuntu 25.10 <span style="color: red;">*<<2025/11/23 Updated from 6.17.0-5>>*</span>
   - 6.17.0-5 / Ubuntu 25.10 <span style="color: red;">*<<2025/10/19 Updated from 6.14.0-33>>*</span>
   - 6.14.0-33 / Ubuntu 25.04 <span style="color: red;">*<<2025/10/10 Updated from 6.14.0-29>>*</span>
   - 6.14.0-29 / Ubuntu 25.04 <span style="color: red;">*<<2025/09/14 Updated>>*</span>

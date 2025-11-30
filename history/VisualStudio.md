@@ -4,6 +4,12 @@ layout: single
 sidebar:
   nav: main
 ---
+##  Visual Studio 2026
+  - 11月 2025 機能更新プログラム(18.0.2)
+    ![VS2026 18.0.2](/images/VisualStudio/20251125_Update_VS2026_18.0.2.png)
+  - 11月 2025 機能更新プログラム(18.0.1)
+    ![VS2026 18.0.1](/images/VisualStudio/20251120_Update_VS2026_18.0.1.png)
+
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.19
     ![VS2022 17.14.19](/images/VisualStudio/20251028_Update_VS2022_17.14.19_VS2026_18.0.0_Insiders.png)
