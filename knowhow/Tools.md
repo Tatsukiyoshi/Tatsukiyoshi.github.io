@@ -277,7 +277,7 @@ OS/言語を問わず利用するツールの情報
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.212.4](https://zed.dev/windows) <span style="color: red;">*<<2025/11/13 updated from 0.208.5>>*</span>
+    - [Zed 0.214.7](https://zed.dev/windows) <span style="color: red;">*<<2025/12/03 updated from 0.212.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
