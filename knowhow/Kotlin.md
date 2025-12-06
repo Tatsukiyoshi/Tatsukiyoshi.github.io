@@ -166,15 +166,20 @@ sidebar:
         ```
 
 ### Spring Boot
-  - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
-    - IntelliJ IDEA 2025.2 EAP Build 2
-    - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
-    - Spring Framework
-    - [PostgreSQL 17.5](Database#postgresql)
-    - [Gradle 8.8](https://gradle.org/releases/)
-    - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
-    - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
+  - [Spring Boot 4.0.0](https://spring.io/projects/spring-boot)/Spring Batch 6.0.0/Spring Framework 7.0.0 <span style="color: red;">*2025/12/06 updated from 3.5.0*</span>
+    - 公式リリース
+      - [Spring Boot 4.0 Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes)
+      - [Spring Batch 6.0 Migration Guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide)
+    - [Spring Boot 4.0 / Spring Batch 6.0対応](/knowhow/sub/Kotlin/SpringBoot4)
   - History
+    - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
+      - IntelliJ IDEA 2025.2 EAP Build 2
+      - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
+      - Spring Framework
+      - [PostgreSQL 17.5](Database#postgresql)
+      - [Gradle 8.8](https://gradle.org/releases/)
+      - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
+      - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
     - Spring Boot 3.4.0 <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
       - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
         **他の検証同様、AssertJを使用するように修正**
