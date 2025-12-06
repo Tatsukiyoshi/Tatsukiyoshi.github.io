@@ -271,13 +271,13 @@ OS/言語を問わず利用するツールの情報
           ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
     - GitHub ProjectsでBoard作成してみた
       ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
-- [Antigravity 1.11.9](https://antigravity.google/) <span style="color: red;">*<<2025/11/30 updated from 1.11.5 >>*</span>
+- [Antigravity 1.11.14](https://antigravity.google/) <span style="color: red;">*<<2025/12/06 updated from 1.11.9 >>*</span>
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.214.7](https://zed.dev/windows) <span style="color: red;">*<<2025/12/03 updated from 0.212.4>>*</span>
+    - [Zed 0.215.3](https://zed.dev/windows) <span style="color: red;">*<<2025/12/06 updated from 0.214.7>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
