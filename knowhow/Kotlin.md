@@ -19,8 +19,8 @@ sidebar:
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
       |Windows Insider |[IntelliJ IDEA 2025.3 RC2](#intellij-idea)                    |[2025/12/06](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
-      |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |                |- Kotlin 2.2.21                                               |[2025/12/06](https://kotlinlang.org/docs/home.html)
+      |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
       |                |[Android Studio Otter 2025.2.3 Canary 3](#AndroidStudio)      |[2025/11/29](https://developer.android.com/studio)
       |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)

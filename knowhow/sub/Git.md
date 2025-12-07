@@ -1,5 +1,5 @@
 ---
-title:  EdgeToEdge GuideLine
+title:  Knowhow of Git and GitHub
 layout: single
 classes: wide
 sidebar:

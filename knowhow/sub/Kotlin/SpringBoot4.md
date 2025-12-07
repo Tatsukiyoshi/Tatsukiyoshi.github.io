@@ -6,6 +6,21 @@ sidebar:
   nav: main
 ---
 ##  Spring Boot 4.0 / Spring Batch 6.0対応
+### Gradleのバージョン変更（-> 8.14）
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.14-bin.zip
+```
+
+### 依存関係変更
+- Spring Batch Coreの追加
+  ```
+  implementation("org.springframework.batch:spring-batch-core")
+  ```
+- MyBatis Spring Boot Starterのバージョン変更
+  ```
+  implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:4.0.0")
+  ```
+
 ### Spring Batch 必須パラメータ不足エラーの解消ドキュメント
 1.  概要
     本ドキュメントは、Spring Boot 4.0.0 (Spring Batch 6.0.0) 環境において、JobIncrementerとJobParametersValidatorが同時に設定されたジョブを起動する際に発生する「必須パラメータ不足 (require1が欠落)」のエラーを解消するために行った修正とその設計意図を記録します。
