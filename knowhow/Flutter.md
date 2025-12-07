@@ -21,7 +21,7 @@ sidebar:
 
       |Machine        |Env / FW                                                              |Last Updated
       |---------------|----------------------------------------------------------------------|----------
-      |Windows Insider|Flutter 3.38.1                                                        |[2025/11/14](https://docs.flutter.dev/release/release-notes)
+      |Windows Insider|Flutter 3.38.3                                                        |[2025/11/23](https://docs.flutter.dev/release/release-notes)
       |               |[Android Studio Narwhal 4 2025.1.4 Canary 4](Kotlin#android-studio)   |2025/09/06
       |               |[Visual Studio Community 2026 18.0.0](NET)                            |2025/11/12
 

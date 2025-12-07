@@ -28,10 +28,10 @@ sidebar:
       |Windows Insider|Rust 1.91                                      |2025/11/08
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.2](#tauridesktop-framework)         |[2025/11/08](https://tauri.app/)
-      |               |- Svelte 5.43.4                                |2025/11/08
-      |               |- Bun 1.3.2                                    |2025/11/08
-      |               |- Vite 7.2.2                                   |2025/11/08
+      |               |[Tauri 2.9.4](#tauridesktop-framework)         |[2025/12/07](https://tauri.app/)
+      |               |- Svelte 5.45.6                                |2025/12/07
+      |               |- Bun 1.3.4                                    |2025/12/07
+      |               |- Vite 7.2.6                                   |2025/12/07
       |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.20        |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
@@ -40,10 +40,10 @@ sidebar:
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.91       |2025/11/08
-      |                |Tauri 2.9.2     |2025/11/08
-      |                |- React 19.2.0  |2025/10/08
-      |                |- Bun 1.3.2     |2025/11/08
-      |                |- Vite 7.2.2    |2025/11/08
+      |                |Tauri 2.9.4     |2025/12/07
+      |                |- React 19.2.1  |2025/12/07
+      |                |- Bun 1.3.4     |2025/12/07
+      |                |- Vite 7.2.6    |2025/12/07
 
   1. Chrome OS Flex 141.0.7390.135 (Official Build)
 
@@ -54,7 +54,7 @@ sidebar:
       |           |Tauri 2.9.2                               |2025/11/01
       |           |- React 19.2.0                            |2025/10/08
       |           |- Bun 1.3.2                               |2025/11/09
-      |           |- Vite 7.2.2                             |2025/11/09
+      |           |- Vite 7.2.2                              |2025/11/09
 
   1. macOS Tahoe 26.1
 
@@ -389,6 +389,13 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.9.4
+    - Windows
+      ![On Windows](/images/rust/20251207_Tauri2.9.4_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251207_Tauri2.9.4_Ubuntu24.04.3.png)
+    - Android Canary / Pixel 9a / React 19.2.1
+      ![On Android Canary](/images/rust/20251207_Tauri2.9.4_Pixel_9a_AndroidCanary.png)
   - V2.9.2
     - Windows
       ![On Windows](/images/rust/20251108_Tauri2.9.2_Windows.png)
