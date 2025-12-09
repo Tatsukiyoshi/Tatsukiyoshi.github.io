@@ -33,7 +33,7 @@ Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/downlo
 Tools                           |Updated   |Detail
 --------------------------------|----------|--------
 Visual Studio Code              |2025/11/28|[October 2025 Recovery 3](https://code.visualstudio.com/)
-Git                             |2025/10/21|[2.51.1](https://git-scm.com/download)
+Git                             |2025/12/09|[2.52.0](https://git-scm.com/download)
 Antigravity                     |2025/12/06|[1.11.14](https://antigravity.google/)
 Zed                             |2025/12/06|[0.215.3](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
