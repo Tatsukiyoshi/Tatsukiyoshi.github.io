@@ -62,10 +62,10 @@ sidebar:
       |-----------|---------------------|----------
       |macOS      |Rust 1.91            |2025/11/08
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.9.2          |2025/10/31
-      |           |- React 19.2.0       |2025/10/08
-      |           |- Bun 1.3.2          |2025/11/08
-      |           |- Vite 7.2.2         |2025/11/08
+      |           |Tauri 2.9.5          |2025/12/09
+      |           |- React 19.2.1       |2025/12/09
+      |           |- Bun 1.3.4          |2025/12/09
+      |           |- Vite 7.2.7         |2025/12/09
 
 ##  ノウハウ
 ### Rust
@@ -389,6 +389,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.9.5
+    - macOS 26.1
+      ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
+    - iOS 26.2 Beta / iPhone 17 Pro
+      ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
   - V2.9.4
     - Windows
       ![On Windows](/images/rust/20251207_Tauri2.9.4_Windows.png)
