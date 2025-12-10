@@ -347,8 +347,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
-      - 18.0.2 / MAUI 10.0.11 / Pixel 9 Pro (Android 16)
-        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20251129_VS2026_18.0.2_MAUI10.0.11_Android16.png)
+      - 18.1.0 / MAUI 10.0.11 / Pixel 9a (Android 16)
+        ![MAUI - Pixel 9a](/images/VisualStudio/20251210_VS2026_18.1.0_MAUI10.0.11_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update
