@@ -54,7 +54,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/12/10|Update: Visual Studio Community 2026 18.1.0 / .NET 10.0.1 / Visual Studio Community 2022 17.14.22
 [Rust](/knowhow/Rust)            |2025/12/09|Update: Tauri 2.9.5@macOS
-[Kotlin](/knowhow/Kotlin)        |2025/12/06|Update: IntelliJ IDEA 2025.3 RC2 / Kotlin 2.2.21
+[Kotlin](/knowhow/Kotlin)        |2025/12/13|Update: Android Studio Otter 2025.2.3 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002

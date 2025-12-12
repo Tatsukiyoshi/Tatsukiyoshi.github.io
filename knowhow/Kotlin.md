@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.2.21                                               |[2025/12/06](https://kotlinlang.org/docs/home.html)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.3 Canary 3](#AndroidStudio)      |[2025/11/29](https://developer.android.com/studio)
+      |                |[Android Studio Otter 2025.2.3 Canary 5](#AndroidStudio)      |[2025/12/13](https://developer.android.com/studio)
       |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.4.1                                   |2025/11/12
+      |                |- Android Emulator v.36.4.3                                   |2025/12/13
 
   1. macOS Sequoia 15.6.1
 
@@ -275,9 +275,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 3
+    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 5
       ```
-      Build #AI-252.28238.7.2523.14499447, built on November 26, 2025
+      Build #AI-252.28238.7.2523.14575018, built on December 11, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -287,11 +287,11 @@ sidebar:
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+        gradle.phased.sync.enabled=true
       Non-Bundled Plugins:
         Dart (500.0.0)
-        io.flutter (88.1.0)
+        io.flutter (88.2.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -365,6 +365,9 @@ sidebar:
   - 対応履歴
     - Otter
       - Feature Drop 2025.2.3
+        - Canary 5
+          - Android Gradle Plugin 9.0.0-beta03 -> 9.0.0-beta05
+          - Android Emulator 36.4.3
         - Canary 3
           - Android Gradle Plugin 9.0.0-beta02 -> 9.0.0-beta03
         - Canary 2
