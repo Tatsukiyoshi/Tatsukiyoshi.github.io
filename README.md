@@ -59,7 +59,7 @@ Language                         |Updated   |Detail
 [TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
-[Python](/knowhow/Python)        |2025/09/21|Try: TkEasyGUI 1.0.38
+[Python](/knowhow/Python)        |2025/12/13|Update: Python 3.14.2
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/12/08|Update: Carbon with llvm 21.1.8@Ubuntu 24.04.3
 
