@@ -28,10 +28,10 @@ sidebar:
       |Windows Insider|Rust 1.91                                      |2025/11/08
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.4](#tauridesktop-framework)         |[2025/12/07](https://tauri.app/)
-      |               |- Svelte 5.45.6                                |2025/12/07
+      |               |[Tauri 2.9.5](#tauridesktop-framework)         |[2025/12/13](https://tauri.app/)
+      |               |- Svelte 5.45.10                               |2025/12/13
       |               |- Bun 1.3.4                                    |2025/12/07
-      |               |- Vite 7.2.6                                   |2025/12/07
+      |               |- Vite 7.2.7                                   |2025/12/13
       |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.20        |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
@@ -40,10 +40,10 @@ sidebar:
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
       |Windows Insider |Rust 1.91       |2025/11/08
-      |                |Tauri 2.9.4     |2025/12/07
-      |                |- React 19.2.1  |2025/12/07
+      |                |Tauri 2.9.5     |2025/12/13
+      |                |- React 19.2.3  |2025/12/13
       |                |- Bun 1.3.4     |2025/12/07
-      |                |- Vite 7.2.6    |2025/12/07
+      |                |- Vite 7.2.7    |2025/12/13
 
   1. Chrome OS Flex 142.0.7444.220 (Official Build)
 
@@ -390,10 +390,16 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.5
+    - Windows
+      ![On Windows](/images/rust/20251213_Tauri2.9.5_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251213_Tauri2.9.5_Ubuntu24.04.3.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
+    - Android Canary / Pixel 9a / React 19.2.1
+      ![On Android Canary](/images/rust/20251213_Tauri2.9.5_Pixel_9a_AndroidCanary.png)
   - V2.9.4
     - Windows
       ![On Windows](/images/rust/20251207_Tauri2.9.4_Windows.png)
