@@ -81,6 +81,8 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 
+- [Claude Desktop 1.0.1768](https://claude.com/ja-jp/download) <span style="color: red;">*<<2025/12/12 Installed >>*</span>
+
 ##  macOS <a id="macOS"></a>
 - Xcode
   - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
