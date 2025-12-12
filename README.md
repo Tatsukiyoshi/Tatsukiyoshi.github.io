@@ -32,10 +32,10 @@ Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/downlo
 
 Tools                           |Updated   |Detail
 --------------------------------|----------|--------
-Visual Studio Code              |2025/11/28|[October 2025 Recovery 3](https://code.visualstudio.com/)
+Visual Studio Code              |2025/12/12|[November 2025](https://code.visualstudio.com/)
 Git                             |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity                     |2025/12/06|[1.11.14](https://antigravity.google/)
-Zed                             |2025/12/06|[0.215.3](https://zed.dev)
+Antigravity                     |2025/12/12|[1.11.17](https://antigravity.google/)
+Zed                             |2025/12/12|[0.216.1](https://zed.dev)
 PowerShell                      |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop                  |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Xcode                           |2025/11/08|[26.2 Beta](https://developer.apple.com/jp/xcode/)
