@@ -5,7 +5,7 @@ classes: wide
 sidebar:
   nav: main
 ---
-2025年11月前半（2025/11/16～2025/11/29）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
+2025年11月後半（2025/11/16～2025/11/29）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
 
 # Topic
 - 目立ったトピックはない中、Visual Studio CodeベースのIDEである、AntigravityをGoogleがリリース
