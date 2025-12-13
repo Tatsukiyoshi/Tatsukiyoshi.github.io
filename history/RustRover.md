@@ -4,6 +4,8 @@ layout: single
 sidebar:
   nav: main
 ---
+- 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/11/28**</span>
+- 2025.3 EAP Build #RR-253.27642.33, built on October 17, 2025 <span style="color: red;">**Updated 2025/10/19**</span>
 - 2025.3 EAP Build #RR-253.24325.42, built on October 3, 2025 <span style="color: red;">**Updated 2025/10/07**</span>
 - 2025.3 EAP Build #RR-253.22441.30, built on September 25, 2025 <span style="color: red;">**Updated 2025/09/28**</span>
 - 2025.2.2 Build #RR-252.26199.159, built on September 18, 2025 <span style="color: red;">**Updated 2025/09/21**</span>
