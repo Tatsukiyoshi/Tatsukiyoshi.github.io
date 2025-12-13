@@ -28,7 +28,7 @@ sidebar:
       |               |- Svelte 5.45.10                               |2025/12/13
       |               |- Bun 1.3.4                                    |2025/12/07
       |               |- Vite 7.2.7                                   |2025/12/13
-      |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
+      |               |[Dioxus 0.7.2](#dioxus)                        |[2025/12/13](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
@@ -699,7 +699,7 @@ sidebar:
 ### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
     - cmakeクレートのビルドには、Visual Studio 2022が必要
-  - V0.7.0
+  - V0.7.2 / V0.7.0
     ```
     cargo install dioxus-cli --locked --bins
     ```
