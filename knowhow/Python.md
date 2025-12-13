@@ -6,9 +6,10 @@ sidebar:
 ---
 ##  独学書
 
-  |Text                                                 |Date      |Status
-  |-----------------------------------------------------|----------|----
-  |[独学プログラマー](http://theselftaughtprogrammer.io/)|2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
+  |Text                                                  |Date      |Status
+  |------------------------------------------------------|----------|----
+  |[独学プログラマー](http://theselftaughtprogrammer.io/)   |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/13|第1章 MCPを30分で体験する <span style="color: red;">*finished*</span>
 
 ##  環境
 
@@ -18,7 +19,7 @@ sidebar:
   |                |pip 25.2                   |2025/09/21
   |                |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
   |                |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
-  |Windows Insider |Python 3.9.13              |2025/09/23
+  |Windows Insider |Python 3.14.2              |2025/12/12
 
 ##  ノウハウ
 ### Python
@@ -40,6 +41,13 @@ sidebar:
         ```
         python -m pip install django
         ```
+
+### MCP入門
+- Claude Desktopの設定
+  - 「ファイル」ー「設定」メニューから設定画面を開く
+  - 設定画面の「設定」ー「開発者」タブの「設定を編集」から行う
+    ![ローカルMCPサーバの設定](/images/python/20251212_claude_setting.png)
+  - 設定を反映するために、システムトレイに常駐するClaude Desktopを終了し、再起動する
 
 ### numpy/scikit-learn
   - VSCodeで実行してみた

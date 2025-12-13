@@ -18,14 +18,14 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3 RC](#intellij-idea)                     |[2025/11/29](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.2.20                                               |[2025/09/13](https://kotlinlang.org/docs/home.html)
-      |                |- PostgreSQL JDBC Driver 42.7.5                               |[2025/03/08](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |Windows Insider |[IntelliJ IDEA 2025.3 RC2](#intellij-idea)                    |[2025/12/06](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.2.21                                               |[2025/12/06](https://kotlinlang.org/docs/home.html)
+      |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.3 Canary 3](#AndroidStudio)      |[2025/11/29](https://developer.android.com/studio)
+      |                |[Android Studio Otter 2025.2.3 Canary 5](#AndroidStudio)      |[2025/12/13](https://developer.android.com/studio)
       |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.4.1                                   |2025/11/12
+      |                |- Android Emulator v.36.4.3                                   |2025/12/13
 
   1. macOS Sequoia 15.6.1
 
@@ -36,9 +36,9 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3 RC Build #IU-253.28294.251, built on November 28, 2025
+  - IntelliJ IDEA 2025.3 RC2 Build #IU-253.28294.325, built on December 5, 2025
     ```
-    Source revision: 8dc4c5f5a2662
+    Source revision: 6053cadb341e3
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2025年12月28日 まで有効です。
     Evaluation purpose only.
@@ -52,69 +52,21 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.28294.252)
-      com.intellij.debugger.collections.visualizer (253.28294.252)
-      com.intellij.java (253.28294.251)
-      intellij.jupyter (253.28294.252)
-      XPathView (253.28294.251)
-      JavaScript (253.28294.256)
-      tanvd.grazi (253.28294.251)
-      org.jetbrains.completion.full.line (253.28294.251)
-      com.intellij.copyright (253.28294.251)
-      org.jetbrains.plugins.gitlab (253.28294.251)
-      org.jetbrains.plugins.github (253.28294.251)
-      com.intellij.settingsSync (253.28294.251)
-      org.jetbrains.security.package-checker (253.28294.257)
+      com.intellij.notebooks.core (253.28294.332)
+      com.intellij.debugger.collections.visualizer (253.28294.332)
       intellij.webp (253.28294.218)
-      com.intellij.spring (253.28294.252)
-      JavaScriptDebugger (253.28294.256)
-      com.jetbrains.restClient (253.28294.251)
-      com.intellij.mcpServer (253.28294.256)
-      org.editorconfig.editorconfigjetbrains (253.28294.254)
-      org.jetbrains.plugins.yaml (253.28294.251)
+      org.toml.lang (253.28294.332)
       Dart (500.0.0)
-      com.intellij.javaee (253.28294.252)
-      org.toml.lang (253.28294.252)
-      com.intellij.properties (253.28294.252)
-      com.intellij.freemarker (253.28294.251)
-      com.intellij.spring.boot.initializr (253.28294.251)
-      com.intellij.liquibase (253.28294.251)
-      com.intellij.flyway (253.28294.251)
-      com.intellij.velocity (253.28294.252)
-      intellij.ktor (253.28294.251)
-      org.jetbrains.kotlin (253.28294.251-IJ)
-      org.jetbrains.plugins.kotlin.jupyter (253.28294.251)
-      Docker (253.28294.257)
-      com.intellij.LineProfiler (253.28294.251)
-      org.jetbrains.idea.maven (253.28294.251)
-      org.jetbrains.plugins.gradle (253.28294.251)
-      com.intellij.reactivestreams (253.28294.251)
-      com.intellij.java-i18n (253.28294.251)
-      JBoss (253.28294.251)
-      Tomcat (253.28294.251)
-      com.intellij.micronaut (253.28294.251)
-      com.intellij.javaee.reverseEngineering (253.28294.251)
-      com.intellij.hibernate (253.28294.251)
-      com.intellij.javaee.jpa (253.28294.251)
-      com.jetbrains.restWebServices (253.28294.251)
-      com.intellij.javaee.jakarta.data (253.28294.251)
-      com.intellij.quarkus (253.28294.251)
-      com.intellij.cdi (253.28294.251)
-      com.intellij.javaee.extensions (253.28294.251)
-      com.intellij.spring.boot (253.28294.251)
-      com.intellij.spring.security (253.28294.251)
-      com.intellij.spring.cloud (253.28294.251)
-      com.intellij.spring.integration (253.28294.251)
-      com.intellij.spring.messaging (253.28294.251)
-      com.intellij.spring.data (253.28294.251)
+      com.intellij.javaee (253.28294.332)
+      com.intellij.spring (253.28294.332)
+      com.intellij.properties (253.28294.332)
+      com.intellij.velocity (253.28294.332)
       com.intellij.spring.batch (253.28294.251)
-      intellij.webpack (253.28294.256)
-      com.intellij.react (253.28294.256)
-      org.jetbrains.plugins.vue (253.28294.257)
-      com.intellij.spring.mvc (253.28294.251)
-      org.jetbrains.android (253.28294.251)
+      intellij.jupyter (253.28294.332)
+      com.intellij.reactivestreams (253.28294.251)
+      org.jetbrains.android (253.28294.325)
       io.flutter (88.1.0)
-    Kotlin: 253.28294.251-IJ
+    Kotlin: 253.28294.325-IJ
     ```
 - History
   - IntelliJ IDEA 2024.3.4.1
@@ -214,15 +166,20 @@ sidebar:
         ```
 
 ### Spring Boot
-  - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
-    - IntelliJ IDEA 2025.2 EAP Build 2
-    - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
-    - Spring Framework
-    - [PostgreSQL 17.5](Database#postgresql)
-    - [Gradle 8.8](https://gradle.org/releases/)
-    - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
-    - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
+  - [Spring Boot 4.0.0](https://spring.io/projects/spring-boot)/Spring Batch 6.0.0/Spring Framework 7.0.0 <span style="color: red;">*2025/12/06 updated from 3.5.0*</span>
+    - 公式リリース
+      - [Spring Boot 4.0 Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes)
+      - [Spring Batch 6.0 Migration Guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide)
+    - [Spring Boot 4.0 / Spring Batch 6.0対応](/knowhow/sub/Kotlin/SpringBoot4)
   - History
+    - [Spring Boot 3.5.0](https://spring.io/projects/spring-boot)/Spring Batch 5.2.2/Spring Framework 6.2.7 <span style="color: red;">*2025/05/27 updated from 3.4.0*</span>
+      - IntelliJ IDEA 2025.2 EAP Build 2
+      - [Kotlin 2.1.21](https://kotlinlang.org/docs/home.html)
+      - Spring Framework
+      - [PostgreSQL 17.5](Database#postgresql)
+      - [Gradle 8.8](https://gradle.org/releases/)
+      - Amazon Coretto 22.0.1 + 言語レベル 21 / Graal VM Java17-22.2.0
+      - [Spring解体新書（バッチ編）](https://www.amazon.co.jp/gp/product/B09D3ZTJTB/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1)
     - Spring Boot 3.4.0 <span style="color: red;">*2024/12/14 updated from 3.3.4*</span>
       - [Deprecated AssertFile](https://zenn.dev/tatsukiyoshi/articles/040c31b4d1b439) <BR />
         **他の検証同様、AssertJを使用するように修正**
@@ -318,9 +275,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 3
+    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 5
       ```
-      Build #AI-252.28238.7.2523.14499447, built on November 26, 2025
+      Build #AI-252.28238.7.2523.14575018, built on December 11, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -330,11 +287,11 @@ sidebar:
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+        gradle.phased.sync.enabled=true
       Non-Bundled Plugins:
         Dart (500.0.0)
-        io.flutter (88.1.0)
+        io.flutter (88.2.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -408,6 +365,9 @@ sidebar:
   - 対応履歴
     - Otter
       - Feature Drop 2025.2.3
+        - Canary 5
+          - Android Gradle Plugin 9.0.0-beta03 -> 9.0.0-beta05
+          - Android Emulator 36.4.3
         - Canary 3
           - Android Gradle Plugin 9.0.0-beta02 -> 9.0.0-beta03
         - Canary 2

@@ -41,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7271 (Quality Update) <span style="color: red;">*<<2025/11/22 updated from Build 26220.7262 >>*</span>
-      ![Quality Update](/images/Windows/20251122_WindowsUpdate_DevChannel.png)
+    - Build 26220.7344 (Quality Update) <span style="color: red;">*<<2025/12/06 updated from Build 26220.7271 >>*</span>
+      ![Quality Update](/images/Windows/20251206_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251122_Windows11_Build26220.png)
+        ![Version Information](/images/Windows/20251206_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -53,21 +53,21 @@ OS                                 |Hardware            |Language
 
 ### WSL
 - [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
-    - [WSL 2.6.1.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/08/08 auto updated from 2.6.0.0>>*</span>
+    - [WSL 2.7.0.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/12/13 updated from 2.6.2.0>>*</span>
 
       <details>
       <summary>
-      カーネルバージョン: 6.6.87.2-1
+      カーネルバージョン: 6.6.114.1-1
       </summary>
 
       ```
-      WSL バージョン: 2.6.1.0
-      カーネル バージョン: 6.6.87.2-1
-      WSLg バージョン: 1.0.66
-      MSRDC バージョン: 1.2.6353
+      WSL バージョン: 2.7.0.0
+      カーネル バージョン: 6.6.114.1-1
+      WSLg バージョン: 1.0.71
+      MSRDC バージョン: 1.2.6676
       Direct3D バージョン: 1.611.1-81528511
       DXCore バージョン: 10.0.26100.1-240331-1435.ge-release
-      Windows バージョン: 10.0.26200.5742
+      Windows バージョン: 10.0.26220.7344
       ```
 
       </details>
@@ -160,10 +160,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 142.0.7444.181 <span style="color: red;">*<<2025/11/22 updated from 142.0.7447.147>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251122_Chrome_OS_Flex_142.0.7444.181.png)
+  - バージョン 142.0.7444.234 <span style="color: red;">*<<2025/12/13 updated from 142.0.7447.220>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20251213_Chrome_OS_Flex_142.0.7444.234.png)
       - 更新中
-        ![Updating](/images/Chrome/20251122_Chrome_OS_Flex_Updating142.0.7444.181.png)
+        ![Updating](/images/Chrome/20251213_Chrome_OS_Flex_Updating142.0.7444.234.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
