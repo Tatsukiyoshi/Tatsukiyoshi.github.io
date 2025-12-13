@@ -21,10 +21,6 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows        |[Rust 1.90](#rust-1)                           |[2025/09/21](https://www.rust-lang.org/)
-      |               |[RustRover 2025.3 EAP 10](#rustrover)          |[2025/11/28](https://www.jetbrains.com/rust/)
-      |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
-      |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
       |Windows Insider|Rust 1.91                                      |2025/11/08
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
@@ -33,7 +29,12 @@ sidebar:
       |               |- Bun 1.3.4                                    |2025/12/07
       |               |- Vite 7.2.7                                   |2025/12/13
       |               |[Dioxus 0.7.0](#dioxus)                        |[2025/10/31](https://dioxuslabs.com/)
-      |               |- Visual Studio Community 2022 17.14.20        |[2025/11/12](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
+      |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |[RustRover 2025.3 EAP](#rustrover)             |[2025/12/13](https://www.jetbrains.com/rust/)
+      |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
+      |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
 
   1. Ubuntu 24.04.3 on Windows 11
 
@@ -132,7 +133,7 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/11/28**</span>
+  - RustRover 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/12/13**</span> / [履歴](/history/RustRover)
     ```
     Source revision: 000c4398e4bff
     ライセンス対象: RustRover EAP user: Shinya Watanabe
@@ -146,51 +147,54 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
-      terminal.new.ui.show.promotion=true
-      org.toml.json.schema=false
-      transferSettings.vscode.onlyCargoToml=true
       llm.ai.assistant.toolwindow.activation.on.start=false
+      transferSettings.vscode.onlyCargoToml=true
+      llm.jcp.analytics.endpoint.url=https://api.jetbrains.cloud/analytics/events/push
+      org.toml.json.schema=false
+      terminal.new.ui.show.promotion=true
     Non-Bundled Plugins:
-      org.jetbrains.plugins.yaml (253.28294.251)
-      com.intellij.qt (253.28294.254)
+      org.jetbrains.plugins.yaml (253.28294.325)
+      com.intellij.qt (253.28294.337)
       com.jetbrains.sh (253.28294.218)
-      JavaScriptDebugger (253.28294.251)
+      JavaScriptDebugger (253.28294.325)
       com.jetbrains.plugins.webDeployment (253.28294.218)
-      org.toml.lang (253.28294.252)
+      org.toml.lang (253.28294.334)
       com.jetbrains.space (253.28294.218)
-      Subversion (253.28294.249)
-      ru.adelf.idea.dotenv (253.28294.218)
+      Subversion (253.28294.351)
+      ru.adelf.idea.dotenv (253.28294.351)
       HtmlTools (253.28294.218)
-      com.intellij.copyright (253.28294.251)
+      com.intellij.copyright (253.28294.325)
+      com.jetbrains.rust (253.28294.352)
       com.intellij.jsonpath (253.28294.218)
       org.jetbrains.plugins.remote-run (253.28294.218)
       org.jetbrains.plugins.terminal (253.28294.218)
-      com.jetbrains.restClient (253.28294.251)
+      com.jetbrains.restClient (253.28294.325)
       XPathView (253.28294.251)
       com.intellij.tasks (253.28294.218)
       com.intellij.tasks.timeTracking (253.28294.218)
-      Docker (253.28294.218)
-      com.intellij.ml.llm (253.28294.253)
+      Docker (253.28294.259)
+      com.intellij.ml.llm (253.28294.360)
       tanvd.grazi (253.28294.251)
-      org.jetbrains.plugins.gitlab (253.28294.251)
+      org.jetbrains.plugins.gitlab (253.28294.325)
       com.intellij.settingsSync (253.28294.251)
-      org.jetbrains.plugins.github (253.28294.251)
-      com.intellij.react (253.28294.251)
+      org.jetbrains.plugins.github (253.28294.325)
+      intellij.webpack (253.28294.256)
+      com.intellij.react (253.28294.325)
       intellij.vitejs (253.28294.249)
       NodeJS (253.28294.218)
-      org.jetbrains.plugins.vue (253.28294.249)
+      org.jetbrains.plugins.vue (253.28294.337)
       tslint (253.28294.249)
-      com.intellij.lang.qml (253.28294.254)
+      com.intellij.lang.qml (253.28294.337)
       org.jetbrains.plugins.node-remote-interpreter (253.28294.249)
       com.deadlock.scsyntax (253.28294.249)
       com.intellij.plugins.webcomponents (253.28294.249)
       intellij.prettierJS (253.28294.218)
       intellij.nextjs (253.28294.249)
       Karma (253.28294.218)
+      com.intellij.mcpServer (253.28294.336)
       PerforceDirectPlugin (253.28294.218)
       org.jetbrains.plugins.docker.gateway (253.28294.218)
     ```
-    - [履歴](/history/RustRover)
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
       ![ドライバー設定](/images/rust/20231126_PostgreSQL.png)

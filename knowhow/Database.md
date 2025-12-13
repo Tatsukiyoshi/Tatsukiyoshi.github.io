@@ -10,7 +10,7 @@ sidebar:
   |---------------|-----------------------------------------------------|----------
   |Windows        |[SQL Server 2022 Developer 16.0.4212.1](#sql-server) |[2025/09/10](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.5.14               |[2025/09/10](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
-  |               |MongoDB 8.2.0                                        |[2025/09/21](https://www.mongodb.com/ja-jp)
+  |               |MongoDB 8.2.2                                        |[2025/12/13](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
   |               |- Mongodump                                          |[2024/10/19](https://www.mongodb.com/ja-jp/docs/database-tools/mongodump/mongodump-compatibility-and-installation/#std-label-mongodump-compatibility-and-installation)
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
