@@ -27,7 +27,7 @@ Platform                        |Updated   |Detail
 Windows Insider                 |2025/12/06|[Build 26220.7344](https://aka.ms/DevLatest)
 Windows                         |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                           |2025/11/08|[Tahoe 26.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex                  |2025/12/08|[142.0.7444.220](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex                  |2025/12/13|[142.0.7444.234](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop                  |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools                           |Updated   |Detail
@@ -53,7 +53,7 @@ GIMP                            |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/12/10|Update: Visual Studio Community 2026 18.1.0 / .NET 10.0.1 / Visual Studio Community 2022 17.14.22
-[Rust](/knowhow/Rust)            |2025/12/13|Update: Tauri 2.9.5@Windows
+[Rust](/knowhow/Rust)            |2025/12/13|Update: Tauri 2.9.5@Windows and Chrome OS Flex
 [Kotlin](/knowhow/Kotlin)        |2025/12/13|Update: Android Studio Otter 2025.2.3 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2

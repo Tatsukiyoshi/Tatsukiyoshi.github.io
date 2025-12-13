@@ -45,14 +45,14 @@ sidebar:
       |                |- Bun 1.3.4     |2025/12/07
       |                |- Vite 7.2.7    |2025/12/13
 
-  1. Chrome OS Flex 142.0.7444.220 (Official Build)
+  1. Chrome OS Flex 142.0.7444.234 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
       |Chrome OS  |Rust 1.91                                 |2025/11/01
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.9.4                               |2025/12/08
-      |           |- React 19.2.1                            |2025/12/08
+      |           |Tauri 2.9.5                               |2025/12/13
+      |           |- React 19.2.3                            |2025/12/13
       |           |- Bun 1.3.4                               |2025/12/08
       |           |- Vite 7.2.7                              |2025/12/08
 
@@ -396,6 +396,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20251213_Tauri2.9.5_Ubuntu24.04.3.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
     - Android Canary / Pixel 9a / React 19.2.1
