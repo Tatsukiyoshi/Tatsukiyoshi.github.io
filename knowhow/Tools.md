@@ -2,7 +2,7 @@
 title:  Tools
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 
 ```
@@ -92,8 +92,8 @@ OS/言語を問わず利用するツールの情報
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-    ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
-    ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
+      ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
+      ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>

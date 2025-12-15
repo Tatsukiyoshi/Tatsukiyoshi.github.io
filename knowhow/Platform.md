@@ -2,7 +2,7 @@
 title:  Platform
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 
 OS                                 |Hardware            |Language

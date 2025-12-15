@@ -2,7 +2,7 @@
 title:  Python
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  独学書
 
@@ -190,6 +190,7 @@ sidebar:
     ![Inspector3](/images/python/20251214_mcp_inspector3.png)
   - 結果確認
     ![Inspector4](/images/python/20251214_mcp_inspector4.png)
+
 ### numpy/scikit-learn
   - VSCodeで実行してみた
     ![グラフ表示](/images/python/20240102_matplotlib.png)

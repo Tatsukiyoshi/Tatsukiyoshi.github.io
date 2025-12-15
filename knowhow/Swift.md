@@ -2,7 +2,7 @@
 title:  Swift
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 
 ##  環境
