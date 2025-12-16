@@ -9,7 +9,7 @@ sidebar:
   |Text                                                  |Date      |Status
   |------------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)   |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/14|第3章 最初のMCPサーバを作る <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/16|第5章 MCPをもっと便利に使う2つの通信方式 <span style="color: red;">*finished*</span>
 
 ##  環境
 
@@ -23,6 +23,8 @@ sidebar:
   |                |uv 0.9.17                  |2025/12/14
   |                |fastmcp 2.14.0             |2025/12/14
   |                |inspector 0.17.5           |2025/12/14
+  |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
+  |                |mcp-proxy 0.10.0           |2025/12/15
 
 ##  ノウハウ
 ### Python
@@ -190,6 +192,24 @@ sidebar:
     ![Inspector3](/images/python/20251214_mcp_inspector3.png)
   - 結果確認
     ![Inspector4](/images/python/20251214_mcp_inspector4.png)
+
+- 仲介ツール for Claude Desktop
+  - mcp-remote
+    - Claude Desktopでhttp接続するための設定(claude_desktop_config.json)
+      ```json
+      {
+        "mcpServers": {
+          "calculator-http": {
+            "command": "npx",
+            "args": ["mcp-remote@latest", "http://localhost:8000/mcp"]
+          }
+        }
+      }
+      ```
+  - mcp-proxy
+    ```
+    uv tool install mcp-proxy
+    ```
 
 ### numpy/scikit-learn
   - VSCodeで実行してみた
