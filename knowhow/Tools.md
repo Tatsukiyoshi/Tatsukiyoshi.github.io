@@ -85,9 +85,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  macOS <a id="macOS"></a>
 - Xcode
-  - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
-    ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
-    ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
+  - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
   - iOS Simulatorの更新
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
