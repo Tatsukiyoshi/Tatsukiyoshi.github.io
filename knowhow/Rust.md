@@ -57,16 +57,16 @@ sidebar:
       |           |- Bun 1.3.4                               |2025/12/08
       |           |- Vite 7.3.0                              |2025/12/17
 
-  1. macOS Tahoe 26.1
+  1. macOS Tahoe 26.2
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.91            |2025/11/08
+      |macOS      |Rust 1.92            |2025/12/18
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.9.5          |2025/12/09
-      |           |- React 19.2.1       |2025/12/09
+      |           |- React 19.2.3       |2025/12/18
       |           |- Bun 1.3.4          |2025/12/09
-      |           |- Vite 7.2.7         |2025/12/09
+      |           |- Vite 7.3.0         |2025/12/18
 
 ##  ノウハウ
 ### Rust
@@ -425,10 +425,14 @@ sidebar:
       ![On Windows](/images/rust/20251213_Tauri2.9.5_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20251213_Tauri2.9.5_Ubuntu24.04.3.png)
+    - macOS 26.2
+      ![On macOS](/images/rust/20251218_Tauri2.9.5_macOS26.2.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
     - Chrome OS Flex
       ![On Chrome OS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
+    - iOS 26.2 / iPhone 17 Pro
+      ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
     - Android Canary / Pixel 9a / React 19.2.1
