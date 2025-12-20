@@ -2,9 +2,9 @@ main:
   - title: "Home"
     url: /
   - title: "Environment"
-    url: /knowhow/Platform
+    url: /#Environment
   - title: "Programming"
-    url: /knowhow/NET
+    url: /#ProgrammingLanguage
 programming:
   - title: ".NET"
     url: /knowhow/NET
