@@ -32,7 +32,7 @@ sidebar:
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |               |[RustRover 2025.3 EAP](#rustrover)             |[2025/12/13](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.3.1](#rustrover)               |[2025/12/23](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
 
@@ -133,12 +133,13 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/12/13**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.1 Build #RR-253.29346.139, built on December 18, 2025 <span style="color: red;">**Updated 2025/12/23**</span> / [履歴](/history/RustRover)
     ```
-    Source revision: 000c4398e4bff
-    ライセンス対象: RustRover EAP user: Shinya Watanabe
-    有効期限: December 20, 2025
-    Runtime version: 21.0.8+9-b1163.69 amd64 (JCEF 137.0.17)
+    Source revision: 9478cb03fae44
+    ライセンス対象: Shinya Watanabe
+    サブスクリプションは 2026年5月22日 まで有効です。
+    For non-commercial use only.
+    Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -151,49 +152,11 @@ sidebar:
       transferSettings.vscode.onlyCargoToml=true
       llm.jcp.analytics.endpoint.url=https://api.jetbrains.cloud/analytics/events/push
       org.toml.json.schema=false
-      terminal.new.ui.show.promotion=true
     Non-Bundled Plugins:
-      org.jetbrains.plugins.yaml (253.28294.325)
-      com.intellij.qt (253.28294.337)
-      com.jetbrains.sh (253.28294.218)
-      JavaScriptDebugger (253.28294.325)
-      com.jetbrains.plugins.webDeployment (253.28294.218)
-      org.toml.lang (253.28294.334)
-      com.jetbrains.space (253.28294.218)
-      Subversion (253.28294.351)
-      ru.adelf.idea.dotenv (253.28294.351)
-      HtmlTools (253.28294.218)
-      com.intellij.copyright (253.28294.325)
-      com.jetbrains.rust (253.28294.352)
-      com.intellij.jsonpath (253.28294.218)
-      org.jetbrains.plugins.remote-run (253.28294.218)
-      org.jetbrains.plugins.terminal (253.28294.218)
-      com.jetbrains.restClient (253.28294.325)
-      XPathView (253.28294.251)
-      com.intellij.tasks (253.28294.218)
-      com.intellij.tasks.timeTracking (253.28294.218)
-      Docker (253.28294.259)
-      com.intellij.ml.llm (253.28294.360)
-      tanvd.grazi (253.28294.251)
-      org.jetbrains.plugins.gitlab (253.28294.325)
-      com.intellij.settingsSync (253.28294.251)
-      org.jetbrains.plugins.github (253.28294.325)
-      intellij.webpack (253.28294.256)
-      com.intellij.react (253.28294.325)
-      intellij.vitejs (253.28294.249)
-      NodeJS (253.28294.218)
-      org.jetbrains.plugins.vue (253.28294.337)
-      tslint (253.28294.249)
-      com.intellij.lang.qml (253.28294.337)
-      org.jetbrains.plugins.node-remote-interpreter (253.28294.249)
-      com.deadlock.scsyntax (253.28294.249)
-      com.intellij.plugins.webcomponents (253.28294.249)
-      intellij.prettierJS (253.28294.218)
-      intellij.nextjs (253.28294.249)
-      Karma (253.28294.218)
-      com.intellij.mcpServer (253.28294.336)
-      PerforceDirectPlugin (253.28294.218)
-      org.jetbrains.plugins.docker.gateway (253.28294.218)
+      com.jetbrains.space (253.29346.45)
+      ru.adelf.idea.dotenv (253.29346.157)
+      com.intellij.ml.llm (253.29346.157)
+      com.intellij.mcpServer (253.29346.142)
     ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
