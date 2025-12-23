@@ -9,7 +9,7 @@ sidebar:
   |Text                                                  |Date      |Status
   |------------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)   |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/16|第5章 MCPをもっと便利に使う2つの通信方式 <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/23|第6章 データベース連携サーバ <span style="color: red;">*finished*</span>
 
 ##  環境
 
@@ -21,7 +21,7 @@ sidebar:
   |                |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
   |Windows Insider |Python 3.14.2              |2025/12/12
   |                |uv 0.9.17                  |2025/12/14
-  |                |fastmcp 2.14.0             |2025/12/14
+  |                |fastmcp 2.14.1             |2025/12/23
   |                |inspector 0.17.5           |2025/12/14
   |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
   |                |mcp-proxy 0.10.0           |2025/12/15
@@ -60,12 +60,15 @@ sidebar:
         ```
 
 ### MCP入門
+- [ソースコード](https://github.com/gamasenninn/MCP_Learning)
 - 進捗
 
-  Contents                |Finished
-  ------------------------|---------
-  第1章 MCPを30分で体験する  |2025/12/13
-  第3章 最初のMCPサーバを作る |2025/12/14
+  Contents                            |Finished
+  ------------------------------------|---------
+  第1章 MCPを30分で体験する              |2025/12/13
+  第3章 最初のMCPサーバを作る             |2025/12/14
+  第5章 MCPをもっと便利に使う2つの通信方式  |2025/12/16
+  第6章 データベース連携サーバ             |2025/12/23
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
