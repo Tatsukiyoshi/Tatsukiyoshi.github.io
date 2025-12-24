@@ -12,6 +12,11 @@ sidebar:
   |[C++ プログラミング入門](http://examples.oreilly.com/core/)    |2021/10/17|Chapter 6 コンストラクタおよびデストラクタを用いた優れた抽象化<span style="color: red;">*finished*</span>
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
+##  コンテンツ
+  |Contents                                                    |Date      |Status
+  |------------------------------------------------------------|----------|---
+  [.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。<BR />マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2025/10/20|第３回 Open AIのAPIで本番実装に移行しよう<span style="color: red;">*finished*</span>
+
 ##  環境
 
   |Machine         |Env / FW                                          |Last Updated
