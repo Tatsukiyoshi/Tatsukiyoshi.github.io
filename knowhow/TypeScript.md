@@ -60,10 +60,10 @@ sidebar:
       |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[React Native Windows 0.80.0](#rnw)|[2025/11/23](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.3.3                        |2025/11/23
-      |                |        |- React Native 0.80.0              |2025/11/23
-      |                |        |- React 19.1.1                     |2025/11/23
+      |                |        |[React Native Windows 0.81.0](#rnw)|[2025/12/25](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.3.5                        |2025/12/25
+      |                |        |- React Native 0.81.5              |2025/12/25
+      |                |        |- React 19.2.3                     |2025/12/25
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
       |                |        |[Svelte 5.39.11](#svelte)          |[2025/10/13](https://svelte.dev/)
       |                |        |- Bun 1.3.0                        |2025/10/13
@@ -423,18 +423,10 @@ sidebar:
           ```sh
           bun windows
           ```
-        - React Native Windows 0.80.0
-          - React Native 0.80.0
-          - React 19.1.1
-            ![React Native Windows 0.80.0](/images/JavaScript/20251123_ReactNativeWindows0.80.0.png)
-          - 下記をVS2026 Developer PowerShellで実行
-            - React Nativeでプロジェクト再作成
-            - React Nativeのバージョンを最新からダウングレード（0.82.1→0.80.0）
-            - VS2026に合わせて、最新のWindows SDKをターゲットに変更
-            - ログ出力モードで実行(--logging指定：無しだと開発モードでのデプロイに失敗する)
-              ```
-              Failed to deploy: Enabling Developer Mode
-              ```
+        - React Native Windows 0.81.0
+          - React Native 0.81.5
+          - React 19.2.3
+            ![React Native Windows 0.81.0](/images/JavaScript/20251225_ReactNativeWindows0.81.0.png)
       - モノレポ構成でのWebとモバイル共有化
         ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)
         ![React Native](/images/JavaScript/20251030_Sharing_ReactNative.png)

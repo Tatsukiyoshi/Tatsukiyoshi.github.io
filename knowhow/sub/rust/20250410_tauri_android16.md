@@ -2,7 +2,7 @@
 title:  Tauri on Android 16
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##	Pixel 9 Pro / Android 16
 ```sh

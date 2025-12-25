@@ -2,7 +2,7 @@
 title:  Visual Studio Code 拡張機能
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 *   共通
     *   AsciiDoc

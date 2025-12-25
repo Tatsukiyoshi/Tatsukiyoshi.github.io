@@ -2,7 +2,7 @@
 title:  Update History of .NET MAUI
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 
 # .NET MAUI 10

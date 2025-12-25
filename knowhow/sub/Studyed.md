@@ -2,7 +2,7 @@
 title:  演習完了テキスト一覧
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 演習を完了したテキストは以下の通り。
 

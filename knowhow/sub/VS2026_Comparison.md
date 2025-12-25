@@ -2,7 +2,7 @@
 title:  VS2026履歴一覧
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 
 ##  VS2026 Comparison

@@ -2,7 +2,7 @@
 title:  Update History
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  Visual Studio Community 2026 Insiders
 - Visual Studio Community 2026 18.0.0 Insiders [11201.2]

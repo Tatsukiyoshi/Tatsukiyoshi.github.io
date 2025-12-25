@@ -2,7 +2,7 @@
 title:	Visual Studio Code
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 - 新機能(1.97)
 	- GitHub Copilot

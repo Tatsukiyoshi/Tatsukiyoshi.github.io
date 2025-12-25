@@ -2,7 +2,7 @@
 title:  Update Historys
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)

@@ -2,9 +2,11 @@
 title:  Update History
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  Visual Studio 2026
+  - 12月 2025 機能更新プログラム(18.1.1) <span style="color: red;">*<<2025/12/20 updated from 18.1.0>>*</span>
+    ![VS2026 18.1.1](/images/VisualStudio/20251220_Update_VS2022_17.14.23_VS2026_18.1.1.png)
   - 12月 2025 機能更新プログラム(18.1.0) <span style="color: red;">*<<2025/12/10 updated from 18.0.2>>*</span>
     ![VS2026 18.1.0](/images/VisualStudio/20251210_Update_VS2022_17.14.22_VS2026_18.1.0.png)
   - 11月 2025 機能更新プログラム(18.0.2)

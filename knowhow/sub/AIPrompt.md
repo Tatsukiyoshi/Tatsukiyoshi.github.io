@@ -2,7 +2,7 @@
 title:  プロンプト for 生成AI
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 
 | No. | 項目                     | 説明                                         |
