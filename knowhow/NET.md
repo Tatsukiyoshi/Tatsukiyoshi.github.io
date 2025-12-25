@@ -23,7 +23,7 @@ sidebar:
   |----------------|--------------------------------------------------|----------
   |Windows Insider |Visual Studio Community 2026 18.1.1               |[2025/12/20](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
   |                |- .NET 10.0.1                                     |[2025/12/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.11](#maui)                         |[2025/11/29](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.20](#maui)                         |[2025/12/25](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
@@ -128,13 +128,13 @@ sidebar:
     [android]
       インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
       マニフェストのバージョン:    36.1.2/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [ios]
       インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [maccatalyst]
@@ -146,7 +146,7 @@ sidebar:
     [maui-windows]
       インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
       マニフェストのバージョン:    10.0.0/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
@@ -308,8 +308,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
-      - 18.1.0 / MAUI 10.0.11 / Pixel 9a (Android 16)
-        ![MAUI - Pixel 9a](/images/VisualStudio/20251210_VS2026_18.1.0_MAUI10.0.11_Android16.png)
+      - 18.1.1 / MAUI 10.0.20 / Pixel 9a (Android 16)
+        ![MAUI - Pixel 9a](/images/VisualStudio/20251225_VS2026_18.1.1_MAUI10.0.20_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update
