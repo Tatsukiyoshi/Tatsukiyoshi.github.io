@@ -33,7 +33,7 @@ sidebar:
       |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |               |[RustRover 2025.3.1](#rustrover)               |[2025/12/23](https://www.jetbrains.com/rust/)
-      |               |[Bevy 0.16](#game-engine)                      |[2025/04/27](https://bevyengine.org/)
+      |               |[Bevy 0.17.3](#game-engine)                    |[2025/12/25](https://bevyengine.org/)
       |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
 
   1. Ubuntu 24.04.3 on Windows 11

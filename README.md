@@ -53,7 +53,7 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/12/25|Update: .NET MAUI 10.0.20
-[Rust](/knowhow/Rust)            |2025/12/23|Update: RustRover 2025.3.1
+[Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
 [Kotlin](/knowhow/Kotlin)        |2025/12/25|Update: IntelliJ IDEA 2025.3.1 / Kotlin 2.3.0 / Oracle JDK 25
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
