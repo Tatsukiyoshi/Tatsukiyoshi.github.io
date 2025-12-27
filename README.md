@@ -34,8 +34,8 @@ Tools               |Updated   |Detail
 --------------------|----------|--------
 Visual Studio Code  |2025/12/18|[November 2025 Recovery 1](https://code.visualstudio.com/)
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity         |2025/12/12|[1.11.17](https://antigravity.google/)
-Zed                 |2025/12/12|[0.216.1](https://zed.dev)
+Antigravity         |2025/12/28|[1.13.3](https://antigravity.google/)
+Zed                 |2025/12/28|[0.217.3](https://zed.dev)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      |2025/12/23|[1.0.2339](https://claude.com/)
