@@ -2,18 +2,18 @@
 title:  Container
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  環境
 
   |Machine        |Env / FW                |Last Updated
   |---------------|------------------------|----------
-  |Windows Insider|Rancher Desktop 1.20.1  |[2025/11/01](https://rancherdesktop.io/)
+  |Windows Insider|Rancher Desktop 1.21.0  |[2025/12/26](https://rancherdesktop.io/)
 
 ##  ノウハウ
-- [Rancher Desktop 1.20.1](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/11/01 from 1.20.0**</span>
-  ![Update](/images/Container/20250608_RancherDesktop1.19.1.png)
-  - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
+- [Rancher Desktop 1.21.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2025/12/26 from 1.20.1**</span> / [履歴](/history/Container)
+  - 導入
+    - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
   - MySQL公式イメージでコンテナ化
     ```
     docker pull mysql

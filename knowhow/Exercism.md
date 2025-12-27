@@ -2,7 +2,7 @@
 title:  Exercism
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ## [My Tracks](https://exercism.io/my/tracks)
 
