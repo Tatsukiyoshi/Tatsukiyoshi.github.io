@@ -138,6 +138,10 @@ sidebar:
           nvm install node
           ```
     - トラブルシューティング
+      - キャッシュクリア
+        ```
+        npm cache clean --force
+        ```
       - node.js 17以降で実行時エラーとなる（OpenSSL関連）
         - スクリプト実行時にnodeのopenssl-legacy-providerオプションを有効化するよう、package.jsonを書き換える
           [参考](https://howtojs.io/how-to-solve-digital-envelope-routines-unsupported-or-err_ossl_evp_unsupported-error-when-running-angular-application/)

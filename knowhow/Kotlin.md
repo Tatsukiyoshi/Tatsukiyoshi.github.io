@@ -23,7 +23,7 @@ sidebar:
       |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |[Android Studio Panda 2025.3.1 Canary 1](#AndroidStudio)      |[2025/12/20](https://developer.android.com/studio)
-      |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
+      |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
       |                |- Android Emulator v.36.4.5                                   |2025/12/20
 
