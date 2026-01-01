@@ -13,15 +13,16 @@ sidebar:
   |[やさしいＣ＃第３版](https://isbn2.sbcr.jp/03922/)             |2022/07/16|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/net/C%23/YCSSample)
 
 ##  コンテンツ
+
   |Contents                                                    |Date      |Status
   |------------------------------------------------------------|----------|---
-  [.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。<BR />マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2025/10/20|第３回 Open AIのAPIで本番実装に移行しよう<span style="color: red;">*finished*</span>
+  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2025/10/20|第３回 Open AIのAPIで本番実装に移行しよう<span style="color: red;">*finished*</span>
 
 ##  環境
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.1.1               |[2025/12/20](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)
+  |Windows Insider |Visual Studio Community 2026 18.1.1               |[2025/12/20](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   |                |- .NET 10.0.1                                     |[2025/12/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.20](#maui)                         |[2025/12/25](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17

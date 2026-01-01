@@ -1,20 +1,16 @@
 ---
 layout: single # Minimal Mistakesのシングルページレイアウト
 classes: wide
-title: "リスキリング"
+title: "リスキリング トップページ"
 permalink: /
 sidebar:
   nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
 ---
-# トップページ <a id="Top"></a>
-
-[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
-
 ##  ダイジェスト <a id="Digest"></a>
 ```
-毎週日曜日に更新
+隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2025/11/30～2025/12/13）](/digest/2025/December/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2025/12/14～2025/12/31）](/digest/2025/December/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
