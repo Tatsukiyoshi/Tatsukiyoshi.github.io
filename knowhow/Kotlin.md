@@ -22,7 +22,7 @@ sidebar:
       |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.1 Canary 1](#AndroidStudio)      |[2025/12/20](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.1 Canary 2](#AndroidStudio)      |[2026/01/01](https://developer.android.com/studio)
       |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
       |                |- Android Emulator v.36.4.5                                   |2025/12/20
@@ -288,9 +288,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 1 | 2025.3.1 Canary 1
+    - Android Studio Panda 1 | 2025.3.1 Canary 2
       ```
-      Build #AI-253.28294.334.2531.14612490, built on December 18, 2025
+      Build #AI-253.29346.138.2531.14643844, built on December 29, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -377,6 +377,8 @@ sidebar:
   - 対応履歴
     - Panda
       - 2025.3.1
+        - Canary 2
+          - Android Gradle Plugin 9.1.0-alpha01 -> 9.1.0-alpha02
         - Canary 1
           - Android Gradle Plugin 9.0.0-beta05 -> 9.1.0-alpha01
           - Android Emulator 36.4.5
