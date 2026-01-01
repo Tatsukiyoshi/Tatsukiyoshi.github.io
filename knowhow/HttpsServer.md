@@ -3,7 +3,7 @@ title:  HTTPS-enabled Local Development Server
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: environment
 ---
 # 🔒 HTTPS対応 ローカル開発サーバー構築・起動手順（PWA対応 & Bun併記）
 

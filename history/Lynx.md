@@ -2,7 +2,7 @@
 title:  Update History of Lynx
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 - Lynx 3.4.0
   ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)

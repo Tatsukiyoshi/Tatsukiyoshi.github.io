@@ -2,7 +2,7 @@
 title:  Tauri on Android 15
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##	Pixel 9 / Android 15
 ```sh

@@ -1,20 +1,16 @@
 ---
 layout: single # Minimal Mistakesのシングルページレイアウト
 classes: wide
-title: "リスキリング"
+title: "リスキリング トップページ"
 permalink: /
 sidebar:
   nav: main # _data/navigation.ymlで定義したナビゲーション名（例では'main'）
 ---
-# トップページ <a id="Top"></a>
-
-[ダイジェスト](#Digest) | [環境(OS/ツール/サービス)](#Environment) | [プログラミング言語](#ProgrammingLanguage)
-
 ##  ダイジェスト <a id="Digest"></a>
 ```
-毎週日曜日に更新
+隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2025/11/30～2025/12/13）](/digest/2025/December/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2025/12/14～2025/12/31）](/digest/2025/December/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -24,22 +20,22 @@ sidebar:
 
 Platform            |Updated   |Detail
 --------------------|----------|--------
-Windows Insider     |2025/12/06|[Build 26220.7344](https://aka.ms/DevLatest)
+Windows Insider     |2025/12/20|[Build 26220.7523](https://aka.ms/DevLatest)
 Windows             |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS               |2025/11/08|[Tahoe 26.1](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex      |2025/12/13|[142.0.7444.234](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+macOS               |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
+Chrome OS Flex      |2025/12/21|[143.0.7499.150](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop      |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools               |Updated   |Detail
 --------------------|----------|--------
-Visual Studio Code  |2025/12/12|[November 2025](https://code.visualstudio.com/)
+Visual Studio Code  |2025/12/18|[November 2025 Recovery 1](https://code.visualstudio.com/)
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity         |2025/12/12|[1.11.17](https://antigravity.google/)
-Zed                 |2025/12/12|[0.216.1](https://zed.dev)
+Antigravity         |2025/12/28|[1.13.3](https://antigravity.google/)
+Zed                 |2025/12/28|[0.217.3](https://zed.dev)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
-Claude Desktop      |2025/12/12|[1.0.1768](https://claude.com/)
-Xcode               |2025/11/08|[26.2 Beta](https://developer.apple.com/jp/xcode/)
+Claude Desktop      |2025/12/23|[1.0.2339](https://claude.com/)
+Xcode               |2025/12/17|[26.2](https://developer.apple.com/jp/xcode/)
 CocoaPods           |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
 GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
@@ -52,11 +48,11 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/12/10|Update: Visual Studio Community 2026 18.1.0 / .NET 10.0.1 / Visual Studio Community 2022 17.14.22
-[Rust](/knowhow/Rust)            |2025/12/13|Update: Dioxus 0.7.2 / RustRover 2025.3 / Rust 1.92.0 / Tauri 2.9.5@Windows and Chrome OS Flex
-[Kotlin](/knowhow/Kotlin)        |2025/12/13|Update: Android Studio Otter 2025.2.3 Canary 5
+[.NET](/knowhow/NET)             |2025/12/25|Update: .NET MAUI 10.0.20
+[Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
+[Kotlin](/knowhow/Kotlin)        |2025/12/25|Update: IntelliJ IDEA 2025.3.1 / Kotlin 2.3.0 / Oracle JDK 25
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
-[TypeScript](/knowhow/TypeScript)|2025/11/29|Update: Astro 5.16.2
+[TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2025/12/13|Update: Python 3.14.2
@@ -66,7 +62,7 @@ Language                         |Updated   |Detail
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/12/13|Update: MongoDB 8.2.2
-[Container](/knowhow/Container)        |2025/11/01|Update: Rancher Desktop 1.20.1
+[Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 

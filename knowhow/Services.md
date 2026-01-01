@@ -2,7 +2,7 @@
 title:  Services
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 
 ##  Gemini

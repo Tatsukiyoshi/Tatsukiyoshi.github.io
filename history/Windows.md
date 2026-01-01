@@ -2,11 +2,17 @@
 title:  Update Historys
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)
+      - Build 26220.7523 (Quality Update) <span style="color: red;">*<<2025/12/20 updated from Build 26220.7344 >>*</span>
+        ![Quality Update](/images/Windows/20251220_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](/images/Windows/20251220_Windows11_Build26220.png)
+        - スタートメニュー変わった？
+          ![StartMenu](/images/Windows/StartMenu_20251220.png)
       - Build 26220.7344 (Quality Update) <span style="color: red;">*<<2025/12/06 updated from Build 26220.7271 >>*</span>
         ![Quality Update](/images/Windows/20251206_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認

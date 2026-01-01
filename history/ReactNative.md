@@ -2,7 +2,7 @@
 title:  Update History of React Native
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 
 - React Native 0.81.4 / Expo SDK 54.0.1

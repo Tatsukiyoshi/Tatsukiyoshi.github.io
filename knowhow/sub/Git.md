@@ -3,7 +3,7 @@ title:  Knowhow of Git and GitHub
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: environment
 ---
 - GitHub
   - Feed

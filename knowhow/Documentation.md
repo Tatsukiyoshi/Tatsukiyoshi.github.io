@@ -2,7 +2,7 @@
 title:  Documentation
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ```
 テキスト中心にドキュメント化できる言語やツールを試している

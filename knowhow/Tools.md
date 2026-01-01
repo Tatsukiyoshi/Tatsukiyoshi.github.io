@@ -2,7 +2,7 @@
 title:  Tools
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 
 ```
@@ -11,18 +11,18 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code November 2025 (1.107.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/12/12 updated from 1.106.3>>*</span>
+- [Visual Studio Code November 2025 Recovery 1(1.107.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/12/18 updated from 1.107.0>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 - [Git](/knowhow/sub/Git)
-- [Antigravity 1.11.17](https://antigravity.google/) <span style="color: red;">*<<2025/12/12 updated from 1.11.14 >>*</span>
+- [Antigravity 1.13.3](https://antigravity.google/) <span style="color: red;">*<<2025/12/28 updated from 1.11.17 >>*</span>
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.216.1](https://zed.dev/windows) <span style="color: red;">*<<2025/12/12 updated from 0.215.3>>*</span>
+    - [Zed 0.217.3](https://zed.dev/windows) <span style="color: red;">*<<2025/12/28 updated from 0.216.1>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
@@ -81,19 +81,17 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 
-- [Claude Desktop 1.0.1768](https://claude.com/ja-jp/download) <span style="color: red;">*<<2025/12/12 Installed >>*</span>
+- [Claude Desktop 1.0.2339](https://claude.com/ja-jp/download) <span style="color: red;">*<<2025/12/23 Auto Updated from 1.0.1768 >>*</span>
 
 ##  macOS <a id="macOS"></a>
 - Xcode
-  - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
-    ![AppStore](/images/macOS/20250916_Xcode_26.0.png)
-    ![ios Simulator](/images/macOS/20250916_Xcode26_ios26Simulator.png)
+  - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
   - iOS Simulatorの更新
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
-    ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
-    ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
+      ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
+      ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>

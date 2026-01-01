@@ -2,7 +2,7 @@
 title:  Update History of WSL
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 -   Ubuntu 24.04.1 <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
     <details>

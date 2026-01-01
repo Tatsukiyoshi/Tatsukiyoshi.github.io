@@ -1,6 +1,11 @@
 main:
   - title: "Home"
     url: /
+  - title: "Environment"
+    url: /#Environment
+  - title: "Programming"
+    url: /#ProgrammingLanguage
+programming:
   - title: ".NET"
     url: /knowhow/NET
   - title: "Rust"
@@ -13,3 +18,14 @@ main:
     url: /knowhow/Flutter
   - title: "TypeScript"
     url: /knowhow/TypeScript
+  - title: "Python"
+    url: /knowhow/Python
+  - title: "Carbon"
+    url: /knowhow/Carbon
+environment:
+  - title: "Platform"
+    url: /knowhow/Platform
+  - title: "Tools"
+    url: /knowhow/Tools
+  - title: "Services"
+    url: /knowhow/Services

@@ -2,7 +2,7 @@
 title:  Java
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  独学書
 

@@ -3,7 +3,7 @@ title:  Carbon
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  環境
 

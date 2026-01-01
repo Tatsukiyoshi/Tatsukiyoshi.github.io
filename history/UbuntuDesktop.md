@@ -2,7 +2,7 @@
 title:  Update History of Ubuntu Desktop
 layout: single
 sidebar:
-  nav: main
+  nav: environment
 ---
 ##  Ubuntu Desktop
 - [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span><a id="UbuntuDesktop"></a>

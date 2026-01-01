@@ -2,7 +2,7 @@
 title:  Kotlin
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  独学書
 
@@ -18,14 +18,14 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3 RC2](#intellij-idea)                    |[2025/12/06](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.2.21                                               |[2025/12/06](https://kotlinlang.org/docs/home.html)
+      |Windows Insider |[IntelliJ IDEA 2025.3.1](#intellij-idea)                      |[2025/12/25](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
+      |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |- Microsoft Build of Open JDK 21.0.8+9                        |[2025/09/27](https://learn.microsoft.com/ja-jp/java/openjdk/download)
-      |                |[Android Studio Otter 2025.2.3 Canary 5](#AndroidStudio)      |[2025/12/13](https://developer.android.com/studio)
-      |                |- Kotlin 2.2.21                                               |[2025/11/12](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Panda 2025.3.1 Canary 1](#AndroidStudio)      |[2025/12/20](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.4.3                                   |2025/12/13
+      |                |- Android Emulator v.36.4.5                                   |2025/12/20
 
   1. macOS Sequoia 15.6.1
 
@@ -36,13 +36,10 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3 RC2 Build #IU-253.28294.325, built on December 5, 2025
+  - IntelliJ IDEA 2025.3.1 Build #IU-253.29346.138, built on December 18, 2025
     ```
-    Source revision: 6053cadb341e3
-    ライセンス対象: Shinya Watanabe
-    サブスクリプションは 2025年12月28日 まで有効です。
-    Evaluation purpose only.
-    Runtime version: 21.0.8+9-b1163.69 amd64 (JCEF 137.0.17)
+    Source revision: 9478cb03fae44
+    Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -52,23 +49,39 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.28294.332)
-      com.intellij.debugger.collections.visualizer (253.28294.332)
+      org.jetbrains.completion.full.line (253.29346.138)
       intellij.webp (253.28294.218)
-      org.toml.lang (253.28294.332)
+      Subversion (253.29346.170)
       Dart (500.0.0)
-      com.intellij.javaee (253.28294.332)
-      com.intellij.spring (253.28294.332)
-      com.intellij.properties (253.28294.332)
-      com.intellij.velocity (253.28294.332)
-      com.intellij.spring.batch (253.28294.251)
-      intellij.jupyter (253.28294.332)
-      com.intellij.reactivestreams (253.28294.251)
-      org.jetbrains.android (253.28294.325)
-      io.flutter (88.1.0)
-    Kotlin: 253.28294.325-IJ
+      com.intellij.spring (253.29346.157)
+      com.jetbrains.restClient (253.29346.170)
+      intellij.jupyter (253.29346.138)
+      org.jetbrains.plugins.kotlin.jupyter (253.29346.138)
+      org.jetbrains.idea.maven (253.29346.138)
+      org.jetbrains.android (253.29346.138)
+      io.flutter (88.2.0)
+      com.intellij.mcpServer (253.29346.142)
+    Kotlin: 253.29346.138-IJ
     ```
 - History
+  - IntelliJ IDEA 2025.3.1
+    - Update Kotlin 2.3.0 for Java 25
+      ```
+      plugins {
+        ...
+        kotlin("jvm") version "2.3.0"
+        kotlin("plugin.spring") version "2.3.0"
+      }
+      ...
+      java.sourceCompatibility = JavaVersion.VERSION_25
+      ...
+      tasks.named("compileKotlin", org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java) {
+        compilerOptions {
+          ...
+          apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3)
+        }
+      }
+      ```
   - IntelliJ IDEA 2024.3.4.1
     - Update PostgreSQL JDBC Driver
       ```kts
@@ -275,9 +288,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Otter 3 Feature Drop | 2025.2.3 Canary 5
+    - Android Studio Panda 1 | 2025.3.1 Canary 1
       ```
-      Build #AI-252.28238.7.2523.14575018, built on December 11, 2025
+      Build #AI-253.28294.334.2531.14612490, built on December 18, 2025
       Runtime version: 21.0.8+-14196175-b1038.72 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -288,7 +301,6 @@ sidebar:
       Registry:
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
-        gradle.phased.sync.enabled=true
       Non-Bundled Plugins:
         Dart (500.0.0)
         io.flutter (88.2.0)
@@ -363,6 +375,11 @@ sidebar:
       - レイアウトが崩れる事象
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
+    - Panda
+      - 2025.3.1
+        - Canary 1
+          - Android Gradle Plugin 9.0.0-beta05 -> 9.1.0-alpha01
+          - Android Emulator 36.4.5
     - Otter
       - Feature Drop 2025.2.3
         - Canary 5

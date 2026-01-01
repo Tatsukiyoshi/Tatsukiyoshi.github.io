@@ -3,8 +3,12 @@ title:  Update History of React Native Windows
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: programming
 ---
+- React Native Windows 0.81.0
+  - React Native 0.81.5
+  - React 19.2.3
+    ![React Native Windows 0.81.0](/images/JavaScript/20251225_ReactNativeWindows0.81.0.png)
 - React Native Windows 0.80.0
   - React Native 0.80.0
   - React 19.1.1

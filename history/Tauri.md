@@ -2,9 +2,39 @@
 title: Update History of Tauri
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
 ##  Tauri
+  - V2.9.5
+    - Windows on Rust 1.92 + Svelte 5.46.0
+      ![On Windows](/images/rust/20251221_Tauri2.9.5_Windows.png)
+    - Windows
+      ![On Windows](/images/rust/20251213_Tauri2.9.5_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251213_Tauri2.9.5_Ubuntu24.04.3.png)
+    - macOS 26.2
+      ![On macOS](/images/rust/20251218_Tauri2.9.5_macOS26.2.png)
+    - macOS 26.1
+      ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
+    - iOS 26.2 / iPhone 17 Pro
+      ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
+    - iOS 26.2 Beta / iPhone 17 Pro
+      ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
+    - Android Canary / Pixel 9a / Rust 1.92 + React 19.2.3
+      ![On Android Canary](/images/rust/20251221_Tauri2.9.5_Pixel_9a_AndroidCanary.png)
+    - Android Canary / Pixel 9a / React 19.2.3
+      ![On Android Canary](/images/rust/20251213_Tauri2.9.5_Pixel_9a_AndroidCanary.png)
+  - V2.9.4
+    - Windows
+      ![On Windows](/images/rust/20251207_Tauri2.9.4_Windows.png)
+    - Ubuntu 24.04.3 on WSL2
+      ![On Ubuntu 24.04.3](/images/rust/20251207_Tauri2.9.4_Ubuntu24.04.3.png)
+    - Chrome OS Flex
+      ![On Chrome OS Flex](/images/rust/20251208_Tauri2.9.4_Chrome_OS_Flex.png)
+    - Android Canary / Pixel 9a / React 19.2.1
+      ![On Android Canary](/images/rust/20251207_Tauri2.9.4_Pixel_9a_AndroidCanary.png)
   - V2.9.2
     - Windows
       ![On Windows](/images/rust/20251108_Tauri2.9.2_Windows.png)

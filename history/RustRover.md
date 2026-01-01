@@ -2,8 +2,10 @@
 title:  Update History of RustRover
 layout: single
 sidebar:
-  nav: main
+  nav: programming
 ---
+- 2025.3.1 Build #RR-253.29346.139, built on December 18, 2025 <span style="color: red;">**Updated 2025/12/23**</span>
+- 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/12/13**</span>
 - 2025.3 EAP Build #RR-253.28294.188, built on November 20, 2025 <span style="color: red;">**Updated 2025/11/28**</span>
 - 2025.3 EAP Build #RR-253.27642.33, built on October 17, 2025 <span style="color: red;">**Updated 2025/10/19**</span>
 - 2025.3 EAP Build #RR-253.24325.42, built on October 3, 2025 <span style="color: red;">**Updated 2025/10/07**</span>
