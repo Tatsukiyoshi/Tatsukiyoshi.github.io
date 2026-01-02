@@ -55,7 +55,7 @@ Language                         |Updated   |Detail
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
-[Python](/knowhow/Python)        |2025/12/13|Update: Python 3.14.2
+[Python](/knowhow/Python)        |2026/01/02|Update: fastmcp 2.14.2
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/12/08|Update: Carbon with llvm 21.1.8@Ubuntu 24.04.3
 

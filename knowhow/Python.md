@@ -9,7 +9,7 @@ sidebar:
   |Text                                                  |Date      |Status
   |------------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)   |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2025/12/23|第6章 データベース連携サーバ <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)|2026/01/02|第7章 外部API連携サーバ <span style="color: red;">*finished*</span>
 
 ##  環境
 
@@ -21,8 +21,8 @@ sidebar:
   |                |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
   |Windows Insider |Python 3.14.2              |2025/12/12
   |                |uv 0.9.17                  |2025/12/14
-  |                |fastmcp 2.14.1             |2025/12/23
-  |                |inspector 0.17.5           |2025/12/14
+  |                |fastmcp 2.14.2             |2026/01/02
+  |                |inspector 0.18.0           |2026/01/02
   |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
   |                |mcp-proxy 0.10.0           |2025/12/15
 
@@ -213,6 +213,14 @@ sidebar:
     ```
     uv tool install mcp-proxy
     ```
+- 外部API
+  - [OpenWeather API](https://api.openweathermap.org/)
+    - API Keyは下記リンクから取得する
+      ![API Key](/images/python/20260102_mcp_weather_api_key.png)
+    - 取得後、有効になるまで待つ（無効の場合、401認証エラーとなる）
+  - [News API](https://newsapi.org/)
+    - API Keyは下記リンクから取得する
+      ![API Key](/images/python/20260102_mcp_news_api_key.png)
 
 ### numpy/scikit-learn
   - VSCodeで実行してみた
