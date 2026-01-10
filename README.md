@@ -50,7 +50,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2025/12/25|Update: .NET MAUI 10.0.20
 [Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
-[Kotlin](/knowhow/Kotlin)        |2026/01/01|Update: Android Studio Panda 2025.3.1 Canary 2
+[Kotlin](/knowhow/Kotlin)        |2026/01/10|Update: Android Studio Panda 2025.3.1 Canary 4
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
