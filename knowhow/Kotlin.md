@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.1](#intellij-idea)                      |[2025/12/25](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3.1.1](#intellij-idea)                    |[2026/01/10](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
@@ -36,9 +36,9 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.1 Build #IU-253.29346.138, built on December 18, 2025
+  - IntelliJ IDEA 2025.3.1.1 Build #IU-253.29346.240, built on January 8, 2026
     ```
-    Source revision: 9478cb03fae44
+    Source revision: 45c13268926ea
     Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -49,19 +49,16 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (253.29346.138)
+      org.jetbrains.completion.full.line (253.29346.240)
       intellij.webp (253.28294.218)
-      Subversion (253.29346.170)
+      Subversion (253.29346.270)
       Dart (500.0.0)
-      com.intellij.spring (253.29346.157)
-      com.jetbrains.restClient (253.29346.170)
-      intellij.jupyter (253.29346.138)
-      org.jetbrains.plugins.kotlin.jupyter (253.29346.138)
-      org.jetbrains.idea.maven (253.29346.138)
-      org.jetbrains.android (253.29346.138)
+      com.intellij.spring (253.29346.270)
+      com.jetbrains.restClient (253.29346.270)
+      org.jetbrains.idea.maven (253.29346.240)
+      org.jetbrains.android (253.29346.240)
       io.flutter (88.2.0)
-      com.intellij.mcpServer (253.29346.142)
-    Kotlin: 253.29346.138-IJ
+    Kotlin: 253.29346.240-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.1
