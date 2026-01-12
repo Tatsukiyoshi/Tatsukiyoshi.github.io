@@ -161,10 +161,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 143.0.7499.150 <span style="color: red;">*<<2025/12/21 updated from 142.0.7447.234>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251221_Chrome_OS_Flex_143.0.7499.150.png)
+  - バージョン 143.0.7499.196 <span style="color: red;">*<<2025/12/21 updated from 143.0.7499.150>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20260112_Chrome_OS_Flex_143.0.7499.196.png)
       - 更新中
-        ![Updating](/images/Chrome/20251221_Chrome_OS_Flex_Updating143.0.7499.150.png)
+        ![Updating](/images/Chrome/20260112_Chrome_OS_Flex_Updating143.0.7499.196.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -183,7 +183,10 @@ OS                                 |Hardware            |Language
         ```
 
         </details>
-    - Debian 12.12 <span style="color: red;">*<<2025/09/12 updated from 12.11>>*</span>
+    - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
+      ```
+      cat /etc/debian_version
+      ```
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
