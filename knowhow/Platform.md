@@ -183,10 +183,12 @@ OS                                 |Hardware            |Language
         ```
 
         </details>
-    - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
-      ```
-      cat /etc/debian_version
-      ```
+      - ロック画面の温度表示
+        ![Weather](/images/Chrome/20260112_Chrome_OS_Flex_Weather.png)
+      - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
+        ```
+        cat /etc/debian_version
+        ```
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
