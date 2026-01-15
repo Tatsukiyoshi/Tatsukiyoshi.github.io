@@ -7,10 +7,11 @@ sidebar:
 ---
 ##  独学書
 
-  |Text                                           |Date      |Status
-  |-----------------------------------------------|----------|-------
-  |Angularアプリケーションプログラミング             |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
-  |モダンJavaScriptの基本から始めるReact実践の教科書  |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
+  |Text                                                                        |Date      |Status
+  |----------------------------------------------------------------------------|----------|-------
+  |Angularアプリケーションプログラミング                                            |2023/09/23|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/angular/practice)
+  |モダンJavaScriptの基本から始めるReact実践の教科書                                 |2022/07/02|*finished* ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/js/react/practice)
+  [Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8) |          |not started
 
 ##  コンテンツ
 
