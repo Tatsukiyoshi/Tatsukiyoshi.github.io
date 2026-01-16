@@ -48,7 +48,7 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/12/25|Update: .NET MAUI 10.0.20
+[.NET](/knowhow/NET)             |2026/01/16|Update: Visual Studio Community 2026 18.2.0 / .NET 10.0.2 / .NET MAUI 10.0.30 / Visual Studio Community 2022 17.14.24 / .NET 9.0.12 / .NET 8.0.23
 [Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
 [Kotlin](/knowhow/Kotlin)        |2026/01/10|Update: Android Studio Panda 2025.3.1 Canary 4 / IntelliJ IDEA 2025.3.1.1
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
