@@ -9,7 +9,7 @@ sidebar:
 
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|-------
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/17|第9章 MCPホストを自作する <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/18|第10章 MCPエージェントを作る <span style="color: red;">*finished*</span>
   |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |          |not started
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
@@ -24,6 +24,7 @@ sidebar:
   |                |inspector 0.18.0           |2026/01/02
   |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
   |                |mcp-proxy 0.10.0           |2025/12/15
+  |                |openai 2.15.0              |2026/01/17
 
 ##  ノウハウ
 ### MCP入門
@@ -39,6 +40,7 @@ sidebar:
   第7章 外部API連携サーバ                 |2026/01/02
   第8章 汎用MCPツール群を作る              |2026/01/17
   第9章 MCPホストを自作する               |2026/01/17
+  第10章 MCPエージェントを作る            |2026/01/18
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く

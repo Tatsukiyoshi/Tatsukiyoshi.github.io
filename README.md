@@ -30,7 +30,7 @@ Tools               |Updated   |Detail
 --------------------|----------|--------
 Visual Studio Code  |2026/01/15|[December 2025 Recovery 1](https://code.visualstudio.com/)
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity         |2025/12/28|[1.13.3](https://antigravity.google/)
+Antigravity         |2026/01/18|[1.14.2](https://antigravity.google/)
 Zed                 |2026/01/12|[0.218.6](https://zed.dev)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
@@ -55,7 +55,7 @@ Language                         |Updated   |Detail
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
-[Python](/knowhow/Python)        |2026/01/02|Update: fastmcp 2.14.2
+[Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/12/08|Update: Carbon with llvm 21.1.8@Ubuntu 24.04.3
 
@@ -63,7 +63,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/12/13|Update: MongoDB 8.2.2
 [Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
-[Model Context Protocol](/knowhow/mcp) |-
+[Model Context Protocol](/knowhow/mcp) |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
