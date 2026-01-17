@@ -9,7 +9,7 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)                           |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/17|第8章 汎用MCPツール群を作る <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/17|第9章 MCPホストを自作する <span style="color: red;">*finished*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
 
@@ -73,6 +73,7 @@ sidebar:
   第6章 データベース連携サーバ             |2025/12/23
   第7章 外部API連携サーバ                 |2026/01/02
   第8章 汎用MCPツール群を作る              |2026/01/17
+  第9章 MCPホストを自作する               |2026/01/17
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
