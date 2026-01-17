@@ -63,6 +63,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/12/13|Update: MongoDB 8.2.2
 [Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
+[Model Context Protocol](/knowhow/mcp) |-
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
