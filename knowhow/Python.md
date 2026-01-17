@@ -9,7 +9,7 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|----
   |[独学プログラマー](http://theselftaughtprogrammer.io/)                           |2019/10/05|<span style="color: red;">*finished*</span> ->[コード](https://github.com/Tatsukiyoshi/Weekend_Programming/tree/main/python/self-taught)
-  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/02|第7章 外部API連携サーバ <span style="color: red;">*finished*</span>
+  |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/17|第8章 汎用MCPツール群を作る <span style="color: red;">*started*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
 
@@ -23,7 +23,7 @@ sidebar:
   |                |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
   |Windows Insider |Python 3.14.2              |2025/12/12
   |                |uv 0.9.17                  |2025/12/14
-  |                |fastmcp 2.14.2             |2026/01/02
+  |                |fastmcp 2.14.3             |2026/01/17
   |                |inspector 0.18.0           |2026/01/02
   |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
   |                |mcp-proxy 0.10.0           |2025/12/15
@@ -71,12 +71,15 @@ sidebar:
   第3章 最初のMCPサーバを作る             |2025/12/14
   第5章 MCPをもっと便利に使う2つの通信方式  |2025/12/16
   第6章 データベース連携サーバ             |2025/12/23
+  第7章 外部API連携サーバ                 |2026/01/02
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
   - 設定画面の「設定」ー「開発者」タブの「設定を編集」から行う
     ![ローカルMCPサーバの設定](/images/python/20251212_claude_setting.png)
   - 設定を反映するために、システムトレイに常駐するClaude Desktopを終了し、再起動する
+  - Web検索の無効化
+    ![Web Off](/images/python/20260117_claude_web_off.png)
 
 - MCPサーバの作成(fastmcp)
   ```
@@ -223,6 +226,9 @@ sidebar:
   - [News API](https://newsapi.org/)
     - API Keyは下記リンクから取得する
       ![API Key](/images/python/20260102_mcp_news_api_key.png)
+  - [Tavily](https://tavily.com)
+    - API Keyは下記画面に表示のキーを使用する
+      ![API Key](/images/python/20260117_mcp_tavily_api_key.png)
 
 ### numpy/scikit-learn
   - VSCodeで実行してみた
