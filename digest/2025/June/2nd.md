@@ -3,7 +3,7 @@ title: 2025年6月第2週（2025/6/8～2025/6/14）
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: digest
 ---
 2025年6月第2週（2025/6/8～2025/6/14）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
 

@@ -3,7 +3,7 @@ title: 2025年12月後半
 layout: single
 classes: wide
 sidebar:
-  nav: main
+  nav: digest
 ---
 2025年12月後半（2025/12/14～2025/12/31）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
 
