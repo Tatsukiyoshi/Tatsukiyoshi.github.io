@@ -7,7 +7,7 @@ main:
     url: /#ProgrammingLanguage
 programming:
   - title: "MCP"
-    url: /knowhow/MCP
+    url: /knowhow/mcp
   - title: ".NET"
     url: /knowhow/NET
   - title: "Rust"
