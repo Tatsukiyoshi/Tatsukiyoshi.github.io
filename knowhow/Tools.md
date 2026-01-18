@@ -11,18 +11,18 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Visual Studio Code November 2025 Recovery 1(1.107.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2025/12/18 updated from 1.107.0>>*</span>
+- [Visual Studio Code December 2025 Recovery 1(1.108.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/01/15 updated from 1.108.0>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 - [Git](/knowhow/sub/Git)
-- [Antigravity 1.13.3](https://antigravity.google/) <span style="color: red;">*<<2025/12/28 updated from 1.11.17 >>*</span>
+- [Antigravity 1.14.2](https://antigravity.google/) <span style="color: red;">*<<2026/01/18 updated from 1.13.3 >>*</span>
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.217.3](https://zed.dev/windows) <span style="color: red;">*<<2025/12/28 updated from 0.216.1>>*</span>
+    - [Zed 0.219.4](https://zed.dev/windows) <span style="color: red;">*<<2026/01/18 updated from 0.218.6>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>

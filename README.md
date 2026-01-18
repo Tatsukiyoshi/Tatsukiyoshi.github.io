@@ -10,7 +10,7 @@ sidebar:
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2025/12/14～2025/12/31）](/digest/2025/December/2ndH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/1/1～2026/1/17）](/digest/2026/January/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -20,18 +20,18 @@ sidebar:
 
 Platform            |Updated   |Detail
 --------------------|----------|--------
-Windows Insider     |2025/12/20|[Build 26220.7523](https://aka.ms/DevLatest)
+Windows Insider     |2026/01/10|[Build 26220.7535](https://aka.ms/DevLatest)
 Windows             |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS               |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex      |2025/12/21|[143.0.7499.150](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex      |2026/01/12|[143.0.7499.196](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop      |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools               |Updated   |Detail
 --------------------|----------|--------
-Visual Studio Code  |2025/12/18|[November 2025 Recovery 1](https://code.visualstudio.com/)
+Visual Studio Code  |2026/01/15|[December 2025 Recovery 1](https://code.visualstudio.com/)
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity         |2025/12/28|[1.13.3](https://antigravity.google/)
-Zed                 |2025/12/28|[0.217.3](https://zed.dev)
+Antigravity         |2026/01/18|[1.14.2](https://antigravity.google/)
+Zed                 |2026/01/18|[0.219.4](https://zed.dev)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      |2025/12/23|[1.0.2339](https://claude.com/)
@@ -48,14 +48,14 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2025/12/25|Update: .NET MAUI 10.0.20
+[.NET](/knowhow/NET)             |2026/01/16|Update: Visual Studio Community 2026 18.2.0 / .NET 10.0.2 / .NET MAUI 10.0.30 / Visual Studio Community 2022 17.14.24 / .NET 9.0.12 / .NET 8.0.23
 [Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
-[Kotlin](/knowhow/Kotlin)        |2025/12/25|Update: IntelliJ IDEA 2025.3.1 / Kotlin 2.3.0 / Oracle JDK 25
+[Kotlin](/knowhow/Kotlin)        |2026/01/16|Update: Android Studio Panda 2025.3.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
-[Python](/knowhow/Python)        |2025/12/13|Update: Python 3.14.2
+[Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
 [Pascal](/knowhow/Pascal)        |2025/10/01|Setup: Delphi 13
 [Carbon & LLVM](/knowhow/Carbon) |2025/12/08|Update: Carbon with llvm 21.1.8@Ubuntu 24.04.3
 
@@ -63,6 +63,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2025/12/13|Update: MongoDB 8.2.2
 [Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
+[Model Context Protocol](/knowhow/mcp) |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 

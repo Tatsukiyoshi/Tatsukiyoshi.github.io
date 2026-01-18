@@ -40,11 +40,11 @@ sidebar:
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.91       |2025/11/08
+      |Windows Insider |Rust 1.92       |2025/12/21
       |                |Tauri 2.9.5     |2025/12/13
       |                |- React 19.2.3  |2025/12/13
       |                |- Bun 1.3.4     |2025/12/07
-      |                |- Vite 7.2.7    |2025/12/13
+      |                |- Vite 7.3.0    |2025/12/21
 
   1. Chrome OS Flex 142.0.7444.234 (Official Build)
 

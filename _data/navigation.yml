@@ -6,6 +6,8 @@ main:
   - title: "Programming"
     url: /#ProgrammingLanguage
 programming:
+  - title: "MCP"
+    url: /knowhow/MCP
   - title: ".NET"
     url: /knowhow/NET
   - title: "Rust"
@@ -29,3 +31,6 @@ environment:
     url: /knowhow/Tools
   - title: "Services"
     url: /knowhow/Services
+digest:
+  - title: "All Posts"
+    url: /digest/list

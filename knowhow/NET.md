@@ -22,27 +22,27 @@ sidebar:
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.1.1               |[2025/12/20](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  |                |- .NET 10.0.1                                     |[2025/12/10](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.20](#maui)                         |[2025/12/25](https://github.com/dotnet/maui)
+  |Windows Insider |Visual Studio Community 2026 18.2.0               |[2026/01/16](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |                |- .NET 10.0.2                                     |[2026/01/16](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |                |  - [MAUI 10.0.30](#maui)                         |[2026/01/16](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |                |- .NET 9.0.11                                     |2025/11/12
-  |                |- .NET 8.0.22                                     |2025/11/12
-  |                |Visual Studio Community 2022 17.14.23             |2025/12/20
+  |                |- .NET 9.0.12                                     |2026/01/16
+  |                |- .NET 8.0.23                                     |2026/01/16
+  |                |Visual Studio Community 2022 17.14.24             |2026/01/16
   |Windows         |Visual Studio Community 2022 17.14.21             |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
-  - 12月 2025 機能更新プログラム(18.1.1) <span style="color: red;">*<<2025/12/20 updated from 18.1.0>>*</span>
-    ![VS2026 18.1.1](/images/VisualStudio/20251220_Update_VS2022_17.14.23_VS2026_18.1.1.png)
+  - 1月 2026 機能更新プログラム(18.2.0) <span style="color: red;">*<<2026/01/16 updated from 18.1.1>>*</span>
+    ![VS2026 18.2.0](/images/VisualStudio/20260116_Update_VS2022_17.14.24_VS2026_18.2.0.png)
   - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
     - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
       ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
-- Visual Studio 2022 17.14.23 <span style="color: red;">*<<2025/12/20 updated from 17.14.22>>*</span>
-  ![VS2022 17.14.23](/images/VisualStudio/20251220_Update_VS2022_17.14.23_VS2026_18.1.1.png)
+- Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
+  ![VS2022 17.14.24](/images/VisualStudio/20260116_Update_VS2022_17.14.24_VS2026_18.2.0.png)
 
 - ノウハウ
   - [ネットワークインストールの作成](https://learn.microsoft.com/ja-jp/visualstudio/install/create-a-network-installation-of-visual-studio?view=vs-2022#create-the-layout?WT.mc_id=DT-MVP-4039701)
@@ -73,20 +73,20 @@ sidebar:
     ![NuGetパッケージマネージャ](/images/VisualStudio/20240407_Update_NuGet_Package.png)
 
 ## .NET
-  - [.NET 10.0.1](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2025/12/10* <span style="color: red;">Updated!</span>)
+  - [.NET 10.0.2](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)(*2026/01/16* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 10.0"を指定することで実現
       ![.NET 10 with VS2022](/images/VisualStudio/20250227_VS2022_dotnet10.png)
     - ターゲットフレームワークである".NET 10.0"のバージョンが表示できる
-      ![.NET 10.0.1](/images/VisualStudio/20251210_dotnet10.0.1.png)
-  - [.NET 9.0.11](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2025/11/12* <span style="color: red;">Updated!</span>)
+      ![.NET 10.0.2](/images/VisualStudio/20260116_dotnet10.0.2.png)
+  - [.NET 9.0.12](https://dotnet.microsoft.com/en-us/download/dotnet/9.0?hl=ja-JP)(*2026/01/16* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 9.0"を指定することで実現
       ![.NET 9 with VS2022](/images/VisualStudio/20240314_VS2022_dotnet9.png)
     - ターゲットフレームワークである".NET 9.0"のバージョンが表示できる
-      ![.NET 9.0.11](/images/VisualStudio/20251112_dotnet9.0.11.png)
+      ![.NET 9.0.12](/images/VisualStudio/20260116_dotnet9.0.12.png)
   - [.NET での破壊的変更](https://learn.microsoft.com/ja-jp/dotnet/core/compatibility/breaking-changes)
-  - [.NET 8.0.22](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2025/11/12* <span style="color: red;">Updated!</span>)
+  - [.NET 8.0.23](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)(*2026/01/16* <span style="color: red;">Updated!</span>)
     - ターゲットフレームワークに".NET 8.0"を指定していれば、".NET 8.0"のバージョンが表示できる
-      ![.NET 8.0.22](/images/VisualStudio/20251112_dotnet8.0.22.png)
+      ![.NET 8.0.23](/images/VisualStudio/20260116_dotnet8.0.23.png)
 
   - Wingetでのインストール
     ```
@@ -113,73 +113,73 @@ sidebar:
 
     ```
     .NET SDK:
-    Version:           10.0.101
-    Commit:            fad253f51b
+    Version:           10.0.102
+    Commit:            4452502459
     Workload version:  10.0.100.1
-    MSBuild version:   18.0.6+fad253f51
+    MSBuild version:   18.0.7+445250245
 
     ランタイム環境:
     OS Name:     Windows
     OS Version:  10.0.26220
     OS Platform: Windows
     RID:         win-x64
-    Base Path:   C:\Program Files\dotnet\sdk\10.0.101\
+    Base Path:   C:\Program Files\dotnet\sdk\10.0.102\
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
+      インストール ソース: SDK 10.0.100, VS 17.14.36908.2, VS 18.2.11408.102
       マニフェストのバージョン:    36.1.2/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
+      インストール ソース: SDK 10.0.100, VS 17.14.36908.2, VS 18.2.11408.102
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
+      インストール ソース: SDK 10.0.100, VS 17.14.36908.2, VS 18.2.11408.102
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json    
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100, VS 17.14.36811.4, VS 18.1.11312.151
+      インストール ソース: SDK 10.0.100, VS 17.14.36908.2, VS 18.2.11408.102
       マニフェストのバージョン:    10.0.0/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
 
     Host:
-      Version:      10.0.1
+      Version:      10.0.2
       Architecture: x64
-      Commit:       fad253f51b
+      Commit:       4452502459
 
     .NET SDKs installed:
       6.0.428 [C:\Program Files\dotnet\sdk]
       8.0.414 [C:\Program Files\dotnet\sdk]
-      9.0.308 [C:\Program Files\dotnet\sdk]
+      9.0.309 [C:\Program Files\dotnet\sdk]
       10.0.100-rc.1.25451.107 [C:\Program Files\dotnet\sdk]
-      10.0.101 [C:\Program Files\dotnet\sdk]
+      10.0.102 [C:\Program Files\dotnet\sdk]
 
     .NET runtimes installed:
       Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
       Microsoft.AspNetCore.App 8.0.20 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.AspNetCore.App 8.0.22 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.AspNetCore.App 9.0.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.AspNetCore.App 10.0.1 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 8.0.23 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 9.0.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 10.0.2 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
       Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
       Microsoft.NETCore.App 8.0.20 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.NETCore.App 8.0.22 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.NETCore.App 9.0.11 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.NETCore.App 10.0.1 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 8.0.23 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 9.0.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 10.0.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
       Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
       Microsoft.WindowsDesktop.App 8.0.20 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-      Microsoft.WindowsDesktop.App 8.0.22 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-      Microsoft.WindowsDesktop.App 9.0.11 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-      Microsoft.WindowsDesktop.App 10.0.1 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 8.0.23 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 9.0.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 10.0.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
     Other architectures found:
       x86   [C:\Program Files (x86)\dotnet]
@@ -309,8 +309,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
-      - 18.1.1 / MAUI 10.0.20 / Pixel 9a (Android 16)
-        ![MAUI - Pixel 9a](/images/VisualStudio/20251225_VS2026_18.1.1_MAUI10.0.20_Android16.png)
+      - 18.2.0 / MAUI 10.0.30 / Pixel 9a (Android 16)
+        ![MAUI - Pixel 9a](/images/VisualStudio/20260116_VS2026_18.2.0_MAUI10.0.30_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update

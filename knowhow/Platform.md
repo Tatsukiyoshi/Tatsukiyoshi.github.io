@@ -41,12 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7523 (Quality Update) <span style="color: red;">*<<2025/12/20 updated from Build 26220.7344 >>*</span>
-      ![Quality Update](/images/Windows/20251220_WindowsUpdate_DevChannel.png)
+    - Build 26220.7535 (Quality Update) <span style="color: red;">*<<2026/01/10 updated from Build 26220.7523 >>*</span>
+      ![Quality Update](/images/Windows/20260110_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20251220_Windows11_Build26220.png)
-      - スタートメニュー変わった？
-        ![StartMenu](/images/Windows/StartMenu_20251220.png)
+        ![Version Information](/images/Windows/20260110_Windows11_Build26220.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -163,10 +161,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 143.0.7499.150 <span style="color: red;">*<<2025/12/21 updated from 142.0.7447.234>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20251221_Chrome_OS_Flex_143.0.7499.150.png)
+  - バージョン 143.0.7499.196 <span style="color: red;">*<<2026/01/12 updated from 143.0.7499.150>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20260112_Chrome_OS_Flex_143.0.7499.196.png)
       - 更新中
-        ![Updating](/images/Chrome/20251221_Chrome_OS_Flex_Updating143.0.7499.150.png)
+        ![Updating](/images/Chrome/20260112_Chrome_OS_Flex_Updating143.0.7499.196.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -185,7 +183,12 @@ OS                                 |Hardware            |Language
         ```
 
         </details>
-    - Debian 12.12 <span style="color: red;">*<<2025/09/12 updated from 12.11>>*</span>
+      - ロック画面の温度表示
+        ![Weather](/images/Chrome/20260112_Chrome_OS_Flex_Weather.png)
+      - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
+        ```
+        cat /etc/debian_version
+        ```
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)

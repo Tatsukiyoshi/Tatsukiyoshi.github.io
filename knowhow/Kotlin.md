@@ -18,11 +18,11 @@ sidebar:
 
       |Machine         |Env / FW                                                      |Last Updated
       |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.1](#intellij-idea)                      |[2025/12/25](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3.1.1](#intellij-idea)                    |[2026/01/10](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.1 Canary 1](#AndroidStudio)      |[2025/12/20](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.1 Canary 5](#AndroidStudio)      |[2026/01/16](https://developer.android.com/studio)
       |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.19                         |2025/03/14
       |                |- Android Emulator v.36.4.5                                   |2025/12/20
@@ -36,9 +36,9 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.1 Build #IU-253.29346.138, built on December 18, 2025
+  - IntelliJ IDEA 2025.3.1.1 Build #IU-253.29346.240, built on January 8, 2026
     ```
-    Source revision: 9478cb03fae44
+    Source revision: 45c13268926ea
     Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
@@ -49,19 +49,16 @@ sidebar:
     Registry:
       ide.experimental.ui=true
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (253.29346.138)
+      org.jetbrains.completion.full.line (253.29346.240)
       intellij.webp (253.28294.218)
-      Subversion (253.29346.170)
+      Subversion (253.29346.270)
       Dart (500.0.0)
-      com.intellij.spring (253.29346.157)
-      com.jetbrains.restClient (253.29346.170)
-      intellij.jupyter (253.29346.138)
-      org.jetbrains.plugins.kotlin.jupyter (253.29346.138)
-      org.jetbrains.idea.maven (253.29346.138)
-      org.jetbrains.android (253.29346.138)
+      com.intellij.spring (253.29346.270)
+      com.jetbrains.restClient (253.29346.270)
+      org.jetbrains.idea.maven (253.29346.240)
+      org.jetbrains.android (253.29346.240)
       io.flutter (88.2.0)
-      com.intellij.mcpServer (253.29346.142)
-    Kotlin: 253.29346.138-IJ
+    Kotlin: 253.29346.240-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.1
@@ -288,10 +285,10 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 1 | 2025.3.1 Canary 1
+    - Android Studio Panda 1 | 2025.3.1 Canary 5
       ```
-      Build #AI-253.28294.334.2531.14612490, built on December 18, 2025
-      Runtime version: 21.0.8+-14196175-b1038.72 amd64
+      Build #AI-253.29346.138.2531.14721781, built on January 15, 2026
+      Runtime version: 21.0.9+-14649483-b1163.86 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
@@ -377,6 +374,13 @@ sidebar:
   - 対応履歴
     - Panda
       - 2025.3.1
+        - Canary 5
+          - Android Gradle Plugin 9.1.0-alpha04 -> 9.1.0-alpha05
+        - Canary 4
+          - Gradle 9.2.1
+          - Android Gradle Plugin 9.1.0-alpha02 -> 9.1.0-alpha04
+        - Canary 2
+          - Android Gradle Plugin 9.1.0-alpha01 -> 9.1.0-alpha02
         - Canary 1
           - Android Gradle Plugin 9.0.0-beta05 -> 9.1.0-alpha01
           - Android Emulator 36.4.5

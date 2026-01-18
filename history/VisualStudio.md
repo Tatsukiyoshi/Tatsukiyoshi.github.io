@@ -5,6 +5,8 @@ sidebar:
   nav: programming
 ---
 ##  Visual Studio 2026
+  - 1月 2026 機能更新プログラム(18.2.0) <span style="color: red;">*<<2026/01/16 updated from 18.1.1>>*</span>
+    ![VS2026 18.2.0](/images/VisualStudio/20260116_Update_VS2022_17.14.24_VS2026_18.2.0.png)
   - 12月 2025 機能更新プログラム(18.1.1) <span style="color: red;">*<<2025/12/20 updated from 18.1.0>>*</span>
     ![VS2026 18.1.1](/images/VisualStudio/20251220_Update_VS2022_17.14.23_VS2026_18.1.1.png)
   - 12月 2025 機能更新プログラム(18.1.0) <span style="color: red;">*<<2025/12/10 updated from 18.0.2>>*</span>
@@ -15,6 +17,8 @@ sidebar:
     ![VS2026 18.0.1](/images/VisualStudio/20251120_Update_VS2026_18.0.1.png)
 
 ##  Visual Studio 2022
+  - Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
+    ![VS2022 17.14.24](/images/VisualStudio/20260116_Update_VS2022_17.14.24_VS2026_18.2.0.png)
   - Visual Studio 2022 17.14.22 <span style="color: red;">*<<2025/12/10 updated from 17.14.21>>*</span>
     ![VS2022 17.14.22](/images/VisualStudio/20251210_Update_VS2022_17.14.22_VS2026_18.1.0.png)
   - Visual Studio 2022 17.14.19
