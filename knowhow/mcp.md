@@ -13,6 +13,7 @@ sidebar:
   |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |          |not started
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
+  |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入
 
 ##  環境
 
