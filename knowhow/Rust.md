@@ -50,12 +50,12 @@ sidebar:
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.92                                 |2025/12/17
+      |Chrome OS  |Rust 1.93                                 |2026/01/24
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.9.5                               |2025/12/13
       |           |- React 19.2.3                            |2025/12/13
-      |           |- Bun 1.3.4                               |2025/12/08
-      |           |- Vite 7.3.0                              |2025/12/17
+      |           |- Bun 1.3.6                               |2026/01/24
+      |           |- Vite 7.3.1                              |2026/01/24
 
   1. macOS Tahoe 26.2
 
