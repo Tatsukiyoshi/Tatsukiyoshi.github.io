@@ -21,7 +21,7 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|Rust 1.92                                      |2025/12/20
+      |Windows Insider|[Rust 1.92](#rust-1)                           |[2025/12/20](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.9.5](#tauridesktop-framework)         |[2025/12/13](https://tauri.app/)
@@ -30,11 +30,11 @@ sidebar:
       |               |- Vite 7.3.0                                   |2025/12/20
       |               |[Dioxus 0.7.2](#dioxus)                        |[2025/12/13](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
+      |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |               |[RustRover 2025.3.1](#rustrover)               |[2025/12/23](https://www.jetbrains.com/rust/)
-      |               |[Bevy 0.17.3](#game-engine)                    |[2025/12/25](https://bevyengine.org/)
-      |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
+      |               |[RustRover 2025.3.2](#rustrover)               |[2026/01/23](https://www.jetbrains.com/rust/)
+      |               |[Bevy 0.18.0](#game-engine)                    |[2026/01/23](https://bevyengine.org/)
+      |               |[Slint 1.14.1](#slint)                         |[2026/01/23](https://slint.dev/)
 
   1. Ubuntu 24.04.3 on Windows 11
 
@@ -133,9 +133,9 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3.1 Build #RR-253.29346.139, built on December 18, 2025 <span style="color: red;">**Updated 2025/12/23**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.2 Build #RR-253.29346.361, built on January 13, 2026 <span style="color: red;">**Updated 2026/01/23**</span> / [履歴](/history/RustRover)
     ```
-    Source revision: 9478cb03fae44
+    Source revision: 802d3c2c9fa39
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2026年5月22日 まで有効です。
     For non-commercial use only.
@@ -148,15 +148,14 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      transferSettings.vscode.onlyCargoToml=true
-      llm.jcp.analytics.endpoint.url=https://api.jetbrains.cloud/analytics/events/push
       org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (253.29346.45)
-      ru.adelf.idea.dotenv (253.29346.157)
-      com.intellij.ml.llm (253.29346.157)
-      com.intellij.mcpServer (253.29346.142)
+      ru.adelf.idea.dotenv (253.29346.379)
+      com.jetbrains.rust (253.29346.361)
+      com.intellij.ml.llm (253.29346.420)
     ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
