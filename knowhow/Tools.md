@@ -21,6 +21,25 @@ OS/言語を問わず利用するツールの情報
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
+  - for Chrome OS Flex / Linux(Debian/Ubuntu) 
+    1.  Add the repository to sources.list.d
+        ```
+        sudo mkdir -p /etc/apt/keyrings
+        curl -fsSL https://us-central1-apt.pkg.dev/doc/repo-signing-key.gpg | \
+        sudo gpg --dearmor --yes -o /etc/apt/keyrings/antigravity-repo-key.gpg
+        echo "deb [signed-by=/etc/apt/keyrings/antigravity-repo-key.gpg] https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/ antigravity-debian main" | \
+        sudo tee /etc/apt/sources.list.d/antigravity.list > /dev/null
+        ```
+    1.  Update the package cache
+        ```
+        sudo apt update
+        ```
+    1. Install the package
+        ```
+        sudo apt install antigravity
+        ```
+  - 日本語化
+    - 拡張機能からMicrosoftが提供するLanguage Packをインストールする
 
 - [Zed](https://zed.dev)
   - Windows
