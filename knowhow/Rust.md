@@ -21,14 +21,14 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|[Rust 1.92](#rust-1)                           |[2025/12/20](https://www.rust-lang.org/)
+      |Windows Insider|[Rust 1.93](#rust-1)                           |[2026/01/23](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.9.5](#tauridesktop-framework)         |[2025/12/13](https://tauri.app/)
-      |               |- Svelte 5.46.0                                |2025/12/20
-      |               |- Bun 1.3.5                                    |2025/12/20
-      |               |- Vite 7.3.0                                   |2025/12/20
-      |               |[Dioxus 0.7.2](#dioxus)                        |[2025/12/13](https://dioxuslabs.com/)
+      |               |- Svelte 5.48.0                                |2026/01/23
+      |               |- Bun 1.3.6                                    |2026/01/23
+      |               |- Vite 7.3.1                                   |2026/01/23
+      |               |[Dioxus 0.7.3](#dioxus)                        |[2026/01/23](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
@@ -40,11 +40,11 @@ sidebar:
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.92       |2025/12/21
+      |Windows Insider |Rust 1.93       |2026/01/23
       |                |Tauri 2.9.5     |2025/12/13
       |                |- React 19.2.3  |2025/12/13
-      |                |- Bun 1.3.4     |2025/12/07
-      |                |- Vite 7.3.0    |2025/12/21
+      |                |- Bun 1.3.6     |2026/01/23
+      |                |- Vite 7.3.1    |2026/01/23
 
   1. Chrome OS Flex 142.0.7444.234 (Official Build)
 
@@ -383,6 +383,8 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.5
+    - Windows on Rust 1.93 + Svelte 5.48.0
+      ![On Windows](/images/rust/20260123_Tauri2.9.5_Windows.png)
     - Windows on Rust 1.92 + Svelte 5.46.0
       ![On Windows](/images/rust/20251221_Tauri2.9.5_Windows.png)
     - Windows
@@ -399,6 +401,12 @@ sidebar:
       ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
+    - Android 36.1 / Pixel 9a / Rust 1.93 + React 19.2.3
+      - Java 25でビルドできないため、Tauriのみ、Java 21にダウングレード
+        ```
+        org.gradle.java.home=C:/Program Files/Microsoft/jdk-21.0.8.9-hotspot
+        ```
+        ![On Android Canary](/images/rust/20260123_Tauri2.9.5_Pixel_9a_Android36.1.png)
     - Android Canary / Pixel 9a / Rust 1.92 + React 19.2.3
       ![On Android Canary](/images/rust/20251221_Tauri2.9.5_Pixel_9a_AndroidCanary.png)
     - Android Canary / Pixel 9a / React 19.2.3
@@ -642,7 +650,7 @@ sidebar:
 ### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
     - cmakeクレートのビルドには、Visual Studio 2022が必要
-  - V0.7.2 / V0.7.0
+  - V0.7.3 / V0.7.2 / V0.7.0
     ```
     cargo install dioxus-cli --locked --bins
     ```

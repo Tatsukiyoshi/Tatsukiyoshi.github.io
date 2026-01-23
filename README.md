@@ -50,7 +50,7 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/01/16|Update: Visual Studio Community 2026 18.2.0 / .NET 10.0.2 / .NET MAUI 10.0.30 / Visual Studio Community 2022 17.14.24 / .NET 9.0.12 / .NET 8.0.23
-[Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1
+[Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1 / Dioxus 0.7.3
 [Kotlin](/knowhow/Kotlin)        |2026/01/16|Update: Android Studio Panda 2025.3.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
