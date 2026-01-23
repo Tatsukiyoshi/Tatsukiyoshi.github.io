@@ -29,7 +29,7 @@ Ubuntu Desktop      |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 Tools               |Updated   |Detail
 --------------------|----------|--------
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Visual Studio Code  |2026/01/15|[December 2025 Recovery 1](https://code.visualstudio.com/)
+Visual Studio Code  |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
 Antigravity         |2026/01/18|[1.14.2](https://antigravity.google/)
 Zed                 |2026/01/18|[0.219.4](https://zed.dev)
 Cursor              |2026/01/21|[2.34.1](https://www.cursor.com/)

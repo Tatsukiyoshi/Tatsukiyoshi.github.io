@@ -11,9 +11,8 @@ OS/言語を問わず利用するツールの情報
 [共通](#Common) | [Windows](#Windows) | [macOS](#macOS)
 
 ##  共通 <a id="Common"></a>
-- [Git](/knowhow/sub/Git)
-
-- [Visual Studio Code December 2025 Recovery 1(1.108.1)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/01/15 updated from 1.108.0>>*</span>
+### エディタ
+- [Visual Studio Code December 2025 Recovery 2(1.108.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/01/23 updated from 1.108.1>>*</span>
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
@@ -31,6 +30,9 @@ OS/言語を問わず利用するツールの情報
     - [Zed 0.152.3](https://zed.dev) <span style="color: red;">*<<2024/09/10 installed>>*</span>
 
 - [Cursor 2.34.1](https://www.cursor.com/) <span style="color: red;">*<<2026/01/21 installed>>*</span>
+
+### その他
+- [Git](/knowhow/sub/Git)
 
 - [HTTPS対応 ローカル開発サーバー](/knowhow/HttpsServer)
 
