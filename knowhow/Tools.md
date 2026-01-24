@@ -111,6 +111,21 @@ OS/言語を問わず利用するツールの情報
 
 - [Claude Desktop 1.0.2339](https://claude.com/ja-jp/download) <span style="color: red;">*<<2025/12/23 Auto Updated from 1.0.1768 >>*</span>
 
+- [mise 2026.1.6](https://mise.jdx.dev/) <span style="color: red;">*<<2026/01/24 installed >>*</span>
+  - インストール
+    ```
+    winget install jdx.mise
+    ```
+  - 更新
+    ```
+    mise self-update
+    ```
+  - ツールの更新
+    - bun upgrade
+      ```
+      mise use -g bun@latest
+      ```
+
 ##  macOS <a id="macOS"></a>
 - Xcode
   - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
