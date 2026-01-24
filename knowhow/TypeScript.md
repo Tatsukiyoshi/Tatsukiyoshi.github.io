@@ -520,6 +520,31 @@ sidebar:
       ![Template](/images/JavaScript/20240103_babylon_template.png)
   - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
     - [Nextjs-blog](https://github.com/Tatsukiyoshi/nextjs-blog)
+    - React Best Practice
+      1.  プロジェクトへの適用
+          ```sh
+          # プロジェクトルートで実行
+          mkdir -p .claude/skills
+          cd .claude/skills
+
+          # React Best Practiceスキルをダウンロード
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/vercel-labs/agent-skills.git
+          cd agent-skills
+          git sparse-checkout set skills/react-best-practices
+          mv skills/react-best-practices ../../react-best-practices
+          cd ../..
+          rm -rf agent-skills
+          ```
+      1.  .claude/instructions.md を作成（推奨）
+          - プロジェクトルートに .claude/instructions.md を作成して、常にこのスキルを参照するようにします：
+            ```markdown
+            # Project Instructions
+
+            ## React/Next.js Development
+            - Follow Vercel React Best Practices defined in `.claude/skills/react-best-practices/SKILL.md`
+            - Prioritize CRITICAL and HIGH impact rules
+            - Focus on eliminating waterfalls and bundle size optimization
+            ```
     - [Vercel](https://vercel.com/tatsukiyoshi/)
     - Vercelホスティングサービス
       - プロジェクト（ローカルリポジトリ）の作成
