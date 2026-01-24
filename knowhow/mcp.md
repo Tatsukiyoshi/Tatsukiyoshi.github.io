@@ -19,18 +19,34 @@ sidebar:
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Python 3.14.2              |2025/12/12
-  |                |uv 0.9.17                  |2025/12/14
-  |                |fastmcp 2.14.3             |2026/01/17
-  |                |inspector 0.18.0           |2026/01/02
-  |                |mcp-remote 0.1.31          |[2025/12/16](https://github.com/geelen/mcp-remote)
-  |                |mcp-proxy 0.10.0           |2025/12/15
-  |                |openai 2.15.0              |2026/01/17
+  |Windows Insider |Claude Code 2.1.19         |[2026/01/24](https://claude.ai/)
+  |                |Python 3.14.2              |2025/12/12
+  |                |- uv 0.9.17                |2025/12/14
+  |                |- fastmcp 2.14.3           |2026/01/17
+  |                |- inspector 0.18.0         |2026/01/02
+  |                |- mcp-remote 0.1.31        |[2025/12/16](https://github.com/geelen/mcp-remote)
+  |                |- mcp-proxy 0.10.0         |2025/12/15
+  |                |- openai 2.15.0            |2026/01/17
 
 ##  ノウハウ
 
 ### 基本構成
 ![技術要素構成](/images/mcp/architecture.png)
+
+### AI駆動開発入門
+- [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
+  - インストール
+    ```
+    irm https://claude.ai/install.ps1 | iex
+    ```
+  - 起動
+    ```
+    claude
+    ```
+  - 更新
+    ```
+    claude update
+    ```
 
 ### MCP入門
 - [ソースコード](https://github.com/gamasenninn/MCP_Learning)
