@@ -28,8 +28,8 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.3](#bun)                  |[2025/11/23](https://bun.sh/)
-      |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
+      |                |        |[Bun 1.3.6](#bun)                  |[2026/01/23](https://bun.sh/)
+      |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
@@ -65,9 +65,9 @@ sidebar:
       |                |        |- React Native 0.81.5              |2025/12/25
       |                |        |- React 19.2.3                     |2025/12/25
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.39.11](#svelte)          |[2025/10/13](https://svelte.dev/)
-      |                |        |- Bun 1.3.0                        |2025/10/13
-      |                |        |- Vite 7.1.9                       |2025/10/03
+      |                |        |[Svelte 5.48.1](#svelte)           |[2026/01/24](https://svelte.dev/)
+      |                |        |- Bun 1.3.6                        |2026/01/23
+      |                |        |- Vite 7.3.1                       |2026/01/23
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22

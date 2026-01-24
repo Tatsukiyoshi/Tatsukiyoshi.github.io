@@ -54,7 +54,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1 / Dioxus 0.7.3
 [Kotlin](/knowhow/Kotlin)        |2026/01/16|Update: Android Studio Panda 2025.3.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
-[TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
+[TypeScript](/knowhow/TypeScript)|2026/01/24|Update: Svelte 5.48.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
