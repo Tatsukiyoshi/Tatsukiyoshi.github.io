@@ -1,3 +1,10 @@
+---
+title:  指示ファイル（Claude Code用サンプル）
+layout: single
+classes:  wide
+sidebar:
+  nav: programming
+---
 # テストコード作成時の厳守事項
 ##  絶対に守ってください！
 ### テストコードの品質

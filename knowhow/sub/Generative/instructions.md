@@ -1,3 +1,10 @@
+---
+title:  指示ファイル（サンプル）
+layout: single
+classes:  wide
+sidebar:
+  nav: programming
+---
 # Project Instructions
 ## React/Next.js Development
 - Follow Vercel React Best Practices defined in `.claude/skills/react-best-practices/SKILL.md`

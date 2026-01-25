@@ -42,6 +42,16 @@ sidebar:
 ![技術要素構成](/images/mcp/architecture.png)
 
 ### AI駆動開発入門
+```
+AIエージェントを活用した開発スタイルの修得
+```
+- 進捗
+
+  Contents                                 |Finished
+  -----------------------------------------|---------
+  Chapter 1 Claude Code入門と開発環境構築     |2026/01/24
+  Chapter 2 Claude CodeによるAI駆動開発の基礎 |2026/01/25
+
 - [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
   - インストール
     ```
@@ -64,6 +74,9 @@ sidebar:
   - [instructions.md](/knowhow/sub/Generative/instructions)
 
 ### MCP入門
+```
+生成AIアプリの開発手順の修得
+```
 - [ソースコード](https://github.com/gamasenninn/MCP_Learning)
 - 進捗
 
