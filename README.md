@@ -65,7 +65,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/01/23|Update: MongoDB 8.2.3
 [Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
-[Model Context Protocol](/knowhow/mcp) |2026/01/24|Add: Claude Code 2.1.19
+[Model Context Protocol](/knowhow/Mcp) |2026/01/24|Add: Claude Code 2.1.19
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
