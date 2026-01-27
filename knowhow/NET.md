@@ -371,7 +371,8 @@ sidebar:
     - [アプリケーション構成ファイル](https://www.fenet.jp/dotnet/column/language/9654/)
     - ColorDialog
     - [Using custom fonts on a Label on Winforms](https://stackoverflow.com/questions/1297264/using-custom-fonts-on-a-label-on-winforms)
-      ![LINE Seed JP](/images/Windows/LINESeedJP.png)
+      - [LINE Seed JP](https://seed.line.me/index_jp.html)
+        ![LINE Seed JP](/images/Windows/LINESeedJP.png)
   - リソースファイル（XML形式）の解析
     - [C#でのXML読み込み方法とは](https://www.fenet.jp/dotnet/column/language/8240/)
       ```
