@@ -17,7 +17,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [Antigravity 1.14.2](https://antigravity.google/) <span style="color: red;">*<<2026/01/18 updated from 1.13.3 >>*</span>
+- [Antigravity 1.15.8](https://antigravity.google/) <span style="color: red;">*<<2026/01/28 updated from 1.14.2 >>*</span>
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
@@ -43,7 +43,7 @@ OS/言語を問わず利用するツールの情報
 
 - [Zed](https://zed.dev)
   - Windows
-    - [Zed 0.219.4](https://zed.dev/windows) <span style="color: red;">*<<2026/01/18 updated from 0.218.6>>*</span>
+    - [Zed 0.220.7](https://zed.dev/windows) <span style="color: red;">*<<2026/01/28 updated from 0.219.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.220.3](https://zed.dev) <span style="color: red;">*<<2026/01/23 Re-installed>>*</span>
