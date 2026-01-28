@@ -40,10 +40,11 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
-  - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7653 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7535 >>*</span>
-      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20260122_Windows11_Build26220.png)
+  - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
+    - Build 26300.7674 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7653 >>*</span>
+      ![Feature Update](/images/Windows/20260128_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260128_Windows11_Build26300.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
