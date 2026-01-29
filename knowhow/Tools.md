@@ -13,11 +13,17 @@ OS/言語を問わず利用するツールの情報
 ##  共通 <a id="Common"></a>
 ### エディタ
 - [Visual Studio Code December 2025 Recovery 2(1.108.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/01/23 updated from 1.108.1>>*</span>
+  ```
+  Atomをベースに開発された業界標準エディタ（Electonで実装）
+  ```
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
 - [Antigravity 1.15.8](https://antigravity.google/) <span style="color: red;">*<<2026/01/28 updated from 1.14.2 >>*</span>
+  ```
+  GoogleによるAIエディタ（Visual Studio Codeクローン）
+  ```
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
@@ -42,6 +48,9 @@ OS/言語を問わず利用するツールの情報
     - 拡張機能からMicrosoftが提供するLanguage Packをインストールする
 
 - [Zed](https://zed.dev)
+  ```
+  Atom開発者によるエディタ（Rustで実装）
+  ```
   - Windows
     - [Zed 0.220.7](https://zed.dev/windows) <span style="color: red;">*<<2026/01/28 updated from 0.219.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
@@ -49,6 +58,9 @@ OS/言語を問わず利用するツールの情報
     - [Zed 0.220.3](https://zed.dev) <span style="color: red;">*<<2026/01/23 Re-installed>>*</span>
 
 - [Cursor 2.34.1](https://www.cursor.com/) <span style="color: red;">*<<2026/01/21 installed>>*</span>
+  ```
+  元祖AIエディタ（Visual Studio Codeクローン）
+  ```
 
 ### その他
 - [Git](/knowhow/sub/Git)
