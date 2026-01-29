@@ -16,11 +16,40 @@ sidebar:
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
 
 ##  環境
+### 基本環境
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
   |Windows Insider |Claude Code 2.1.19         |[2026/01/24](https://claude.ai/)
-  |                |Next.js 16.1.4             |2026/01/24
+
+### MCP入門
+
+  |Machine         |Env / FW                   |Last Updated
+  |----------------|---------------------------|----------
+  |Windows Insider |Python 3.14.2              |2025/12/12
+  |                |- uv 0.9.17                |2025/12/14
+  |                |- fastmcp 2.14.3           |2026/01/17
+  |                |- inspector 0.18.0         |2026/01/02
+  |                |- mcp-remote 0.1.31        |[2025/12/16](https://github.com/geelen/mcp-remote)
+  |                |- mcp-proxy 0.10.0         |2025/12/15
+  |                |- openai 2.15.0            |2026/01/17
+
+### AI駆動開発入門
+  - AIチャットボット
+
+  |Machine         |Env / FW                   |Last Updated
+  |----------------|---------------------------|----------
+  |Windows Insider |Next.js 16.1.6             |2026/01/29
+  |                |- React 19.2.4             |2026/01/29
+  |                |- Bun 1.3.6                |2026/01/24
+  |                |- Prisma 6.19.2            |2026/01/29
+  |                |- MongoDB Atlas            |2026/01/28
+
+  - TODOアプリ
+
+  |Machine         |Env / FW                   |Last Updated
+  |----------------|---------------------------|----------
+  |Windows Insider |Next.js 16.1.4             |2026/01/24
   |                |- React 19.2.3             |2026/01/24
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Vite 7.3.1               |2026/01/24
@@ -28,13 +57,6 @@ sidebar:
   |                |React 19.2.3               |2026/01/24
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Vite 7.3.1               |2026/01/24
-  |                |Python 3.14.2              |2025/12/12
-  |                |- uv 0.9.17                |2025/12/14
-  |                |- fastmcp 2.14.3           |2026/01/17
-  |                |- inspector 0.18.0         |2026/01/02
-  |                |- mcp-remote 0.1.31        |[2025/12/16](https://github.com/geelen/mcp-remote)
-  |                |- mcp-proxy 0.10.0         |2025/12/15
-  |                |- openai 2.15.0            |2026/01/17
 
 ##  ノウハウ
 
@@ -66,13 +88,16 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
+- 指示ファイル
+  - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
+  - [instructions.md](/knowhow/sub/Generative/instructions)
+
 - TODOアプリ作成
   - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
   - [Vercel](https://todoapp-seven-ecru.vercel.app/)
 
-- 指示ファイル
-  - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
-  - [instructions.md](/knowhow/sub/Generative/instructions)
+- AIチャットボット
+  - Google Cloud + MongoDB Atlasで構築中
 
 ### MCP入門
 ```
