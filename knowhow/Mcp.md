@@ -15,6 +15,44 @@ sidebar:
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
 
+### MCP入門
+```
+生成AIアプリの開発手順の修得
+```
+- [ソースコード](https://github.com/gamasenninn/MCP_Learning)
+- 進捗
+
+  Contents                            |Finished
+  ------------------------------------|---------
+  第1章 MCPを30分で体験する              |2025/12/13
+  第3章 最初のMCPサーバを作る             |2025/12/14
+  第5章 MCPをもっと便利に使う2つの通信方式  |2025/12/16
+  第6章 データベース連携サーバ             |2025/12/23
+  第7章 外部API連携サーバ                 |2026/01/02
+  第8章 汎用MCPツール群を作る              |2026/01/17
+  第9章 MCPホストを自作する               |2026/01/17
+  第10章 MCPエージェントを作る            |2026/01/18
+
+### AI駆動開発入門
+```
+AIエージェントを活用した開発スタイルの修得
+```
+- 進捗
+
+  Contents                                 |Finished
+  -----------------------------------------|---------
+  Chapter 1 Claude Code入門と開発環境構築     |2026/01/24
+  Chapter 2 Claude CodeによるAI駆動開発の基礎 |2026/01/25
+  Chapter 3 MCPを活用したAIチャットボット開発   |
+
+  - TODOアプリ作成
+    - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
+    - [Vercel](https://todoapp-seven-ecru.vercel.app/)
+
+  - AIチャットボット
+    - [Google Cloud](https://cloud.google.com/)
+    - [MongoDB Atlas](https://cloud.mongodb.com/)
+
 ##  環境
 ### 基本環境
 
@@ -43,7 +81,7 @@ sidebar:
   |                |- React 19.2.4             |2026/01/29
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Prisma 6.19.2            |2026/01/29
-  |                |- MongoDB Atlas            |2026/01/28
+  |                |- MongoDB Atlas            |[2026/01/28](https://cloud.mongodb.com/)
 
   - TODOアプリ
 
@@ -63,18 +101,7 @@ sidebar:
 ### 基本構成
 ![技術要素構成](/images/mcp/architecture.png)
 
-### AI駆動開発入門
-```
-AIエージェントを活用した開発スタイルの修得
-```
-- 進捗
-
-  Contents                                 |Finished
-  -----------------------------------------|---------
-  Chapter 1 Claude Code入門と開発環境構築     |2026/01/24
-  Chapter 2 Claude CodeによるAI駆動開発の基礎 |2026/01/25
-  Chapter 3 MCPを活用したAIチャットボット開発   |
-
+### Claude AI
 - [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
   - インストール
     ```
@@ -88,34 +115,6 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
-- 指示ファイル
-  - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
-  - [instructions.md](/knowhow/sub/Generative/instructions)
-
-- TODOアプリ作成
-  - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
-  - [Vercel](https://todoapp-seven-ecru.vercel.app/)
-
-- AIチャットボット
-  - Google Cloud + MongoDB Atlasで構築中
-
-### MCP入門
-```
-生成AIアプリの開発手順の修得
-```
-- [ソースコード](https://github.com/gamasenninn/MCP_Learning)
-- 進捗
-
-  Contents                            |Finished
-  ------------------------------------|---------
-  第1章 MCPを30分で体験する              |2025/12/13
-  第3章 最初のMCPサーバを作る             |2025/12/14
-  第5章 MCPをもっと便利に使う2つの通信方式  |2025/12/16
-  第6章 データベース連携サーバ             |2025/12/23
-  第7章 外部API連携サーバ                 |2026/01/02
-  第8章 汎用MCPツール群を作る              |2026/01/17
-  第9章 MCPホストを自作する               |2026/01/17
-  第10章 MCPエージェントを作る            |2026/01/18
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
@@ -273,3 +272,14 @@ AIエージェントを活用した開発スタイルの修得
   - [Tavily](https://tavily.com)
     - API Keyは下記画面に表示のキーを使用する
       ![API Key](/images/python/20260117_mcp_tavily_api_key.png)
+
+- 指示ファイル
+  - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
+  - [instructions.md](/knowhow/sub/Generative/instructions)
+
+- [Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=ja)
+  ```
+  (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+
+  & $env:Temp\GoogleCloudSDKInstaller.exe
+  ```
