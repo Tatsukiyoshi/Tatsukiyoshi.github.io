@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.1 Canary 5](#AndroidStudio)      |[2026/01/16](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.2 Canary 1](#AndroidStudio)      |[2026/01/30](https://developer.android.com/studio)
       |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
-      |                |- Android SDK Command-line Tools v.19                         |2025/03/14
-      |                |- Android Emulator v.36.4.5                                   |2025/12/20
+      |                |- Android SDK Command-line Tools v.20                         |2026/01/30
+      |                |- Android Emulator v.36.5.1                                   |2026/01/30
 
   1. macOS Sequoia 15.6.1
 
@@ -285,13 +285,23 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 1 | 2025.3.1 Canary 5
+    - Android Studio Panda 2 | 2025.3.2 Canary 1
       ```
-      Build #AI-253.29346.138.2531.14721781, built on January 15, 2026
+      Build #AI-253.29346.138.2532.14775144, built on January 26, 2026
       Runtime version: 21.0.9+-14649483-b1163.86 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
+      StudioFlags with current overrides:
+        LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
+        PropertyOverrides(cache.size=474):
+          flags.configuration.level=PREVIEW
+        MendelOverrides(MendelFlagsProvider count=1):
+        ServerFlagOverrides(No server flags are enabled.):
+        AgpReleaseBranchProvider(releasedWithAgp=true):
+          gradle.ide.use.alongside.agp=true
+        AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
+          agp.test.suites.enabled=true
       GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
       Memory: 2048M
       Cores: 8
@@ -299,8 +309,8 @@ sidebar:
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (500.0.0)
-        io.flutter (88.2.0)
+        Dart (502.0.0)
+        io.flutter (89.0.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -373,6 +383,10 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Panda
+      - 2025.3.2
+        - Canary 1
+          - Android Gradle Plugin 9.1.0-alpha05 -> 9.1.0-alpha06
+          - Android Emulator 36.5.1
       - 2025.3.1
         - Canary 5
           - Android Gradle Plugin 9.1.0-alpha04 -> 9.1.0-alpha05
