@@ -10,7 +10,7 @@ sidebar:
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/1/1～2026/1/17）](/digest/2026/January/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/1/18～2026/1/31）](/digest/2026/January/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -31,7 +31,7 @@ Tools               |Updated   |Detail
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
 Visual Studio Code  |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
 Antigravity         |2026/01/28|[1.15.8](https://antigravity.google/)
-Zed                 |2026/01/28|[0.220.7](https://zed.dev)
+Zed                 |2026/01/30|[0.221.5](https://zed.dev)
 Cursor              |2026/01/21|[2.34.1](https://www.cursor.com/)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
@@ -50,7 +50,7 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/01/16|Update: Visual Studio Community 2026 18.2.0 / .NET 10.0.2 / .NET MAUI 10.0.30 / Visual Studio Community 2022 17.14.24 / .NET 9.0.12 / .NET 8.0.23
+[.NET](/knowhow/NET)             |2026/01/30|Update: Visual Studio Community 2026 18.2.1
 [Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1 / Dioxus 0.7.3
 [Kotlin](/knowhow/Kotlin)        |2026/01/16|Update: Android Studio Panda 2025.3.1 Canary 5
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
