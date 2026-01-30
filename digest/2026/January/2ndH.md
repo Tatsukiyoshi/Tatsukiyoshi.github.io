@@ -72,3 +72,5 @@ sidebar:
 - **＜開発ツール＞**  [Zed 0.221.5](https://zed.dev/)に更新
 
 - **＜.NET＞**  [Visual Studio Community 2026 18.2.1](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
+
+- **＜Kotlin＞**  [Android Studio Panda 2025.3.2 Canary 1](https://developer.android.com/studio)に更新
