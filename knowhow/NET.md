@@ -16,13 +16,13 @@ sidebar:
 
   |Contents                                                    |Date      |Status
   |------------------------------------------------------------|----------|---
-  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2025/10/20|第３回 Open AIのAPIで本番実装に移行しよう<span style="color: red;">*finished*</span>
+  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2026/01/30|第４回 .NET MAUI Blazorで構築したアプリを、モバイル環境に適用しよう<span style="color: red;">*started*</span>
 
 ##  環境
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.2.0               |[2026/01/16](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |Windows Insider |Visual Studio Community 2026 18.2.1               |[2026/01/30](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   |                |- .NET 10.0.2                                     |[2026/01/16](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.30](#maui)                         |[2026/01/16](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
