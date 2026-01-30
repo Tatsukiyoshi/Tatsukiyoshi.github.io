@@ -10,7 +10,7 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|-------
   |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/18|第10章 MCPエージェントを作る <span style="color: red;">*finished*</span>
-  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/01/26|Chapter 3 MCPを活用したAIチャットボット開発 <span style="color: red;">*started*</span>
+  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/01/30|Chapter 3 MCPを活用したAIチャットボット開発 <span style="color: red;">*finished*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
@@ -43,7 +43,7 @@ AIエージェントを活用した開発スタイルの修得
   -----------------------------------------|---------
   Chapter 1 Claude Code入門と開発環境構築     |2026/01/24
   Chapter 2 Claude CodeによるAI駆動開発の基礎 |2026/01/25
-  Chapter 3 MCPを活用したAIチャットボット開発   |
+  Chapter 3 MCPを活用したAIチャットボット開発   |2026/01/30
 
   - TODOアプリ作成
     - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
@@ -82,6 +82,8 @@ AIエージェントを活用した開発スタイルの修得
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Prisma 6.19.2            |2026/01/29
   |                |- MongoDB Atlas            |[2026/01/28](https://cloud.mongodb.com/)
+  |                |- Playwright 1.58.0        |[2026/01/30](https://Playwright.dev/)
+  |                |- Lighthouse CLI 0.15.1    |2026/01/30
 
   - TODOアプリ
 
