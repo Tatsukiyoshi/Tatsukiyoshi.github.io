@@ -9,7 +9,7 @@ sidebar:
   |Machine        |Env / FW                |Last Updated
   |---------------|------------------------|----------
   |Windows Insider|Rancher Desktop 1.22.0  |[2026/01/28](https://rancherdesktop.io/)
-  |               |Docker CLI
+  |               |Docker 29.1.4-rd        |
 
 ##  ノウハウ
 - [Rancher Desktop 1.22.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2026/01/28 from 1.21.0**</span> / [履歴](/history/Container)
