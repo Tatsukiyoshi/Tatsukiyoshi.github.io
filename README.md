@@ -33,7 +33,7 @@ Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
 Visual Studio Code  |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
 Antigravity         |2026/01/28|[1.15.8](https://antigravity.google/)
 Zed                 |2026/01/30|[0.221.5](https://zed.dev)
-Cursor              |2026/01/21|[2.34.1](https://www.cursor.com/)
+Cursor              |2026/01/31|[2.4.23](https://www.cursor.com/)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      |2026/01/30|[1.1.1520](https://claude.com/)
@@ -95,6 +95,9 @@ Platform                        |Updated
 jekyll 4.4.1                    |[2025/07/29](https://jekyllrb.com/)
 minimal-mistakes-jekyll 4.27.3  |[2025/09/07](https://mmistakes.github.io/minimal-mistakes/)
 jekyll-remote-theme 0.4.3       |2025/09/07
+
+---
+[ダイジェスト更新手順書](/docs/update-digest)
 
 ---
 [プロフィール](/sub/Profile) | [トップへ戻る](#Top)

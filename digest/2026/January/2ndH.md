@@ -15,7 +15,7 @@ sidebar:
 # Daily
 
 ##  【1/21】
-- **＜開発ツール＞**  [Cursor 2.34.1](https://www.cursor.com/)を導入
+- **＜開発ツール＞**  [Cursor 2.3.41](https://www.cursor.com/)を導入
 
 ##  【1/22】
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26220.7653 (Quality Update)](https://aka.ms/DevLatest)が配信されたので、アップデート
@@ -78,5 +78,10 @@ sidebar:
 - **＜Kotlin＞**  [Android Studio Panda 2025.3.2 Canary 1](https://developer.android.com/studio)に更新
 
 ##  【1/31】
+- **＜開発ツール＞**  [Cursor 2.4.23](https://www.cursor.com/)に更新
+
+- **＜MCP＞**  Claude Code スキル `/update-digest` を作成
+  - ダイジェスト更新作業を効率化するカスタムスキル
+
 - **＜.NET＞**  [.NET MAUI Blazorを学ぼう](https://codezine.jp/article/corner/1066) 第４回完了
   - .NET MAUI Blazorで構築したアプリを、モバイル環境に適用
