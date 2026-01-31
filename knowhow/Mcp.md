@@ -288,3 +288,11 @@ AIエージェントを活用した開発スタイルの修得
 - 指示ファイル
   - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
   - [instructions.md](/knowhow/sub/Generative/instructions)
+
+- Claude Codeスキル
+  - スキルとは、Claude Codeで繰り返し使用するワークフローをカスタムコマンドとして定義する機能
+  - 作成手順
+    1. プロジェクトルートに `.claude/skills` ディレクトリを作成
+    2. スキルファイル（Markdown形式）を作成
+       - ファイル名がスキル名になる（例: `update-digest.md` → `/update-digest`）
+    3. Claude Codeで `/スキル名` と入力して実行
