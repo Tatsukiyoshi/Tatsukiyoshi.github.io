@@ -40,11 +40,11 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
-  - [Dev Channel for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26220.7535 (Quality Update) <span style="color: red;">*<<2026/01/10 updated from Build 26220.7523 >>*</span>
-      ![Quality Update](/images/Windows/20260110_WindowsUpdate_DevChannel.png)
-      - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
-        ![Version Information](/images/Windows/20260110_Windows11_Build26220.png)
+  - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
+    - Build 26300.7674 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7653 >>*</span>
+      ![Feature Update](/images/Windows/20260128_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260128_Windows11_Build26300.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -161,10 +161,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 143.0.7499.196 <span style="color: red;">*<<2026/01/12 updated from 143.0.7499.150>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20260112_Chrome_OS_Flex_143.0.7499.196.png)
+  - バージョン 143.0.7499.203 <span style="color: red;">*<<2026/01/23 updated from 143.0.7499.196>>*</span>
+    ![Chrome OS Flexバージョン情報](/images/Chrome/20260123_ChromeOSFlex_143.0.7499.203.png)
       - 更新中
-        ![Updating](/images/Chrome/20260112_Chrome_OS_Flex_Updating143.0.7499.196.png)
+        ![Updating](/images/Chrome/20260123_ChromeOSFlex_Updating143.0.7499.203.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報

@@ -6,7 +6,15 @@ sidebar:
 ---
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
+    - for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)
+      - Build 26300.7674 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7653 >>*</span>
+        ![Feature Update](/images/Windows/20260128_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+          ![Version Information](/images/Windows/20260128_Windows11_Build26300.png)
     - for Windows 11 Next (Build 26220 / Next of Windows 11 25H2)
+      - Build 26220.7653 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7535 >>*</span>
+        - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認
+          ![Version Information](/images/Windows/20260122_Windows11_Build26220.png)
       - Build 26220.7535 (Quality Update) <span style="color: red;">*<<2026/01/10 updated from Build 26220.7523 >>*</span>
         ![Quality Update](/images/Windows/20260110_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報：今後復活予定）の代わりに「システム > バージョン情報」で確認

@@ -10,7 +10,7 @@ sidebar:
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/1/1～2026/1/17）](/digest/2026/January/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/1/18～2026/1/31）](/digest/2026/January/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -20,21 +20,23 @@ sidebar:
 
 Platform            |Updated   |Detail
 --------------------|----------|--------
-Windows Insider     |2026/01/10|[Build 26220.7535](https://aka.ms/DevLatest)
+Windows Insider     |2026/01/28|[Build 26300.7674](https://aka.ms/DevLatest)
 Windows             |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS               |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex      |2026/01/12|[143.0.7499.196](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Chrome OS Flex      |2026/01/23|[143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop      |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools               |Updated   |Detail
 --------------------|----------|--------
-Visual Studio Code  |2026/01/15|[December 2025 Recovery 1](https://code.visualstudio.com/)
 Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Antigravity         |2026/01/18|[1.14.2](https://antigravity.google/)
-Zed                 |2026/01/18|[0.219.4](https://zed.dev)
+Visual Studio Code  |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
+Antigravity         |2026/01/28|[1.15.8](https://antigravity.google/)
+Zed                 |2026/01/30|[0.221.5](https://zed.dev)
+Cursor              |2026/01/21|[2.34.1](https://www.cursor.com/)
 PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
-Claude Desktop      |2025/12/23|[1.0.2339](https://claude.com/)
+Claude Desktop      |2026/01/30|[1.1.1520](https://claude.com/)
+mise                |2026/01/24|[2026.1.6](https://mise.jdx.dev/) 
 Xcode               |2025/12/17|[26.2](https://developer.apple.com/jp/xcode/)
 CocoaPods           |2025/01/09|[1.16.2](https://github.com/CocoaPods/CocoaPods)
 GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
@@ -48,11 +50,11 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/01/16|Update: Visual Studio Community 2026 18.2.0 / .NET 10.0.2 / .NET MAUI 10.0.30 / Visual Studio Community 2022 17.14.24 / .NET 9.0.12 / .NET 8.0.23
-[Rust](/knowhow/Rust)            |2025/12/25|Update: Bevy 0.17.3
-[Kotlin](/knowhow/Kotlin)        |2026/01/16|Update: Android Studio Panda 2025.3.1 Canary 5
+[.NET](/knowhow/NET)             |2026/01/30|Update: Visual Studio Community 2026 18.2.1
+[Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1 / Dioxus 0.7.3
+[Kotlin](/knowhow/Kotlin)        |2026/01/30|Update: Android Studio Panda 2025.3.2 Canary 1 / Android Emulator 36.5.1
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
-[TypeScript](/knowhow/TypeScript)|2025/12/25|Update: React Native Windows 0.81.0
+[TypeScript](/knowhow/TypeScript)|2026/01/24|Update: Svelte 5.48.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
@@ -61,9 +63,9 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2025/12/13|Update: MongoDB 8.2.2
-[Container](/knowhow/Container)        |2025/12/26|Update: Rancher Desktop 1.21.0
-[Model Context Protocol](/knowhow/mcp) |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
+[Database & SQL](/knowhow/Database)    |2026/01/23|Update: MongoDB 8.2.3
+[Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
+[Model Context Protocol](/knowhow/Mcp) |2026/01/30|Add: Playwright 1.58.0 / Lighthouse CLI 0.15.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 

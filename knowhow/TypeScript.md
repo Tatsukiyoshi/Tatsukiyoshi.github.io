@@ -28,8 +28,8 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.3](#bun)                  |[2025/11/23](https://bun.sh/)
-      |                |        |Vite 7.1.9                         |[2025/10/03](https://vitejs.dev/)
+      |                |        |[Bun 1.3.6](#bun)                  |[2026/01/23](https://bun.sh/)
+      |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
       |                |        |[Sequelize 6.37.6](#seq)           |[2025/03/19](https://sequelize.org/)
@@ -65,9 +65,9 @@ sidebar:
       |                |        |- React Native 0.81.5              |2025/12/25
       |                |        |- React 19.2.3                     |2025/12/25
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
-      |                |        |[Svelte 5.39.11](#svelte)          |[2025/10/13](https://svelte.dev/)
-      |                |        |- Bun 1.3.0                        |2025/10/13
-      |                |        |- Vite 7.1.9                       |2025/10/03
+      |                |        |[Svelte 5.48.1](#svelte)           |[2026/01/24](https://svelte.dev/)
+      |                |        |- Bun 1.3.6                        |2026/01/23
+      |                |        |- Vite 7.3.1                       |2026/01/23
       |                |        |[Vue 3.5.16](#vue)                 |[2025/05/31](https://jp.vuejs.org/)
       |                |        |- Deno 2.3.5                       |2025/05/31
       |                |        |- Bun 1.2.15                       |2025/05/22
@@ -520,6 +520,31 @@ sidebar:
       ![Template](/images/JavaScript/20240103_babylon_template.png)
   - [Next.js](https://nextjs.org/) / [Vercel](https://vercel.com/) <a id="nextjs"></a>
     - [Nextjs-blog](https://github.com/Tatsukiyoshi/nextjs-blog)
+    - React Best Practice
+      1.  プロジェクトへの適用
+          ```sh
+          # プロジェクトルートで実行
+          mkdir -p .claude/skills
+          cd .claude/skills
+
+          # React Best Practiceスキルをダウンロード
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/vercel-labs/agent-skills.git
+          cd agent-skills
+          git sparse-checkout set skills/react-best-practices
+          mv skills/react-best-practices ../../react-best-practices
+          cd ../..
+          rm -rf agent-skills
+          ```
+      1.  .claude/instructions.md を作成（推奨）
+          - プロジェクトルートに .claude/instructions.md を作成して、常にこのスキルを参照するようにします：
+            ```markdown
+            # Project Instructions
+
+            ## React/Next.js Development
+            - Follow Vercel React Best Practices defined in `.claude/skills/react-best-practices/SKILL.md`
+            - Prioritize CRITICAL and HIGH impact rules
+            - Focus on eliminating waterfalls and bundle size optimization
+            ```
     - [Vercel](https://vercel.com/tatsukiyoshi/)
     - Vercelホスティングサービス
       - プロジェクト（ローカルリポジトリ）の作成

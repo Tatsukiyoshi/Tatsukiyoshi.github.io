@@ -21,52 +21,52 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|Rust 1.92                                      |2025/12/20
+      |Windows Insider|[Rust 1.93](#rust-1)                           |[2026/01/23](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.9.5](#tauridesktop-framework)         |[2025/12/13](https://tauri.app/)
-      |               |- Svelte 5.46.0                                |2025/12/20
-      |               |- Bun 1.3.5                                    |2025/12/20
-      |               |- Vite 7.3.0                                   |2025/12/20
-      |               |[Dioxus 0.7.2](#dioxus)                        |[2025/12/13](https://dioxuslabs.com/)
+      |               |- Svelte 5.48.0                                |2026/01/23
+      |               |- Bun 1.3.6                                    |2026/01/23
+      |               |- Vite 7.3.1                                   |2026/01/23
+      |               |[Dioxus 0.7.3](#dioxus)                        |[2026/01/23](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |Windows        |[Rust 1.92](#rust-1)                           |[2025/12/13](https://www.rust-lang.org/)
+      |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |               |[RustRover 2025.3.1](#rustrover)               |[2025/12/23](https://www.jetbrains.com/rust/)
-      |               |[Bevy 0.17.3](#game-engine)                    |[2025/12/25](https://bevyengine.org/)
-      |               |[Slint 1.13.1](#slint)                         |[2025/09/28](https://slint.dev/)
+      |               |[RustRover 2025.3.2](#rustrover)               |[2026/01/23](https://www.jetbrains.com/rust/)
+      |               |[Bevy 0.18.0](#game-engine)                    |[2026/01/23](https://bevyengine.org/)
+      |               |[Slint 1.14.1](#slint)                         |[2026/01/23](https://slint.dev/)
 
   1. Ubuntu 24.04.3 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.92       |2025/12/21
+      |Windows Insider |Rust 1.93       |2026/01/23
       |                |Tauri 2.9.5     |2025/12/13
       |                |- React 19.2.3  |2025/12/13
-      |                |- Bun 1.3.4     |2025/12/07
-      |                |- Vite 7.3.0    |2025/12/21
+      |                |- Bun 1.3.6     |2026/01/23
+      |                |- Vite 7.3.1    |2026/01/23
 
   1. Chrome OS Flex 142.0.7444.234 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.92                                 |2025/12/17
+      |Chrome OS  |Rust 1.93                                 |2026/01/24
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.9.5                               |2025/12/13
       |           |- React 19.2.3                            |2025/12/13
-      |           |- Bun 1.3.4                               |2025/12/08
-      |           |- Vite 7.3.0                              |2025/12/17
+      |           |- Bun 1.3.6                               |2026/01/24
+      |           |- Vite 7.3.1                              |2026/01/24
 
   1. macOS Tahoe 26.2
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.92            |2025/12/18
+      |macOS      |Rust 1.93            |2026/01/23
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.9.5          |2025/12/09
       |           |- React 19.2.3       |2025/12/18
-      |           |- Bun 1.3.4          |2025/12/09
-      |           |- Vite 7.3.0         |2025/12/18
+      |           |- Bun 1.3.6          |2026/01/23
+      |           |- Vite 7.3.1         |2026/01/23
 
 ##  ノウハウ
 ### Rust
@@ -133,9 +133,9 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3.1 Build #RR-253.29346.139, built on December 18, 2025 <span style="color: red;">**Updated 2025/12/23**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.2 Build #RR-253.29346.361, built on January 13, 2026 <span style="color: red;">**Updated 2026/01/23**</span> / [履歴](/history/RustRover)
     ```
-    Source revision: 9478cb03fae44
+    Source revision: 802d3c2c9fa39
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2026年5月22日 まで有効です。
     For non-commercial use only.
@@ -148,15 +148,14 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
-      transferSettings.vscode.onlyCargoToml=true
-      llm.jcp.analytics.endpoint.url=https://api.jetbrains.cloud/analytics/events/push
       org.toml.json.schema=false
+      transferSettings.vscode.onlyCargoToml=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (253.29346.45)
-      ru.adelf.idea.dotenv (253.29346.157)
-      com.intellij.ml.llm (253.29346.157)
-      com.intellij.mcpServer (253.29346.142)
+      ru.adelf.idea.dotenv (253.29346.379)
+      com.jetbrains.rust (253.29346.361)
+      com.intellij.ml.llm (253.29346.420)
     ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
@@ -384,6 +383,8 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.9.5
+    - Windows on Rust 1.93 + Svelte 5.48.0
+      ![On Windows](/images/rust/20260123_Tauri2.9.5_Windows.png)
     - Windows on Rust 1.92 + Svelte 5.46.0
       ![On Windows](/images/rust/20251221_Tauri2.9.5_Windows.png)
     - Windows
@@ -400,6 +401,12 @@ sidebar:
       ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
     - iOS 26.2 Beta / iPhone 17 Pro
       ![On iOS 26.2 Beta](/images/rust/20251209_Tauri2.9.5_iPhone17_Pro_iOS26.2Beta.png)
+    - Android 36.1 / Pixel 9a / Rust 1.93 + React 19.2.3
+      - Java 25でビルドできないため、Tauriのみ、Java 21にダウングレード
+        ```
+        org.gradle.java.home=C:/Program Files/Microsoft/jdk-21.0.8.9-hotspot
+        ```
+        ![On Android Canary](/images/rust/20260123_Tauri2.9.5_Pixel_9a_Android36.1.png)
     - Android Canary / Pixel 9a / Rust 1.92 + React 19.2.3
       ![On Android Canary](/images/rust/20251221_Tauri2.9.5_Pixel_9a_AndroidCanary.png)
     - Android Canary / Pixel 9a / React 19.2.3
@@ -643,7 +650,7 @@ sidebar:
 ### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
     - cmakeクレートのビルドには、Visual Studio 2022が必要
-  - V0.7.2 / V0.7.0
+  - V0.7.3 / V0.7.2 / V0.7.0
     ```
     cargo install dioxus-cli --locked --bins
     ```

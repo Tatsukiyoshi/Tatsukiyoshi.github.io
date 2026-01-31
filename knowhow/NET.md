@@ -16,13 +16,13 @@ sidebar:
 
   |Contents                                                    |Date      |Status
   |------------------------------------------------------------|----------|---
-  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2025/10/20|第３回 Open AIのAPIで本番実装に移行しよう<span style="color: red;">*finished*</span>
+  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2026/01/31|第４回 .NET MAUI Blazorで構築したアプリを、モバイル環境に適用しよう<span style="color: red;">*finished*</span>
 
 ##  環境
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.2.0               |[2026/01/16](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |Windows Insider |Visual Studio Community 2026 18.2.1               |[2026/01/30](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   |                |- .NET 10.0.2                                     |[2026/01/16](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.30](#maui)                         |[2026/01/16](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
@@ -309,6 +309,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
+      - 18.2.1 / MAUI Blazor / Pixel 9a (Android 16)
+        ![MAUI Blazor](/images/VisualStudio/20260131_VS2026_18.2.1_MAUI_Blazor_Android16.png)
       - 18.2.0 / MAUI 10.0.30 / Pixel 9a (Android 16)
         ![MAUI - Pixel 9a](/images/VisualStudio/20260116_VS2026_18.2.0_MAUI10.0.30_Android16.png)
     - MAUIワークロードの更新
@@ -371,7 +373,8 @@ sidebar:
     - [アプリケーション構成ファイル](https://www.fenet.jp/dotnet/column/language/9654/)
     - ColorDialog
     - [Using custom fonts on a Label on Winforms](https://stackoverflow.com/questions/1297264/using-custom-fonts-on-a-label-on-winforms)
-      ![LINE Seed JP](/images/Windows/LINESeedJP.png)
+      - [LINE Seed JP](https://seed.line.me/index_jp.html)
+        ![LINE Seed JP](/images/Windows/LINESeedJP.png)
   - リソースファイル（XML形式）の解析
     - [C#でのXML読み込み方法とは](https://www.fenet.jp/dotnet/column/language/8240/)
       ```

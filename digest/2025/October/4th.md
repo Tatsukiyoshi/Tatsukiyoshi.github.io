@@ -34,4 +34,4 @@ sidebar:
 ##  【11/1】
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26220.7051 (Quality Update)](https://aka.ms/DevLatest)が配信されたので、アップデート
 
-- **＜開発ツール＞**  [Rancher Desktop 1.20.1](https://rancherdesktop.io/)に更新
+- **＜Container＞**  [Rancher Desktop 1.20.1](https://rancherdesktop.io/)に更新

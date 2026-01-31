@@ -68,7 +68,7 @@ sidebar:
   - React Native 0.81.5ベースに更新
 
 ##  【12/26】
-- **＜開発ツール＞**  [Rancher Desktop 1.21.0](https://rancherdesktop.io/)に更新
+- **＜Container＞**  [Rancher Desktop 1.21.0](https://rancherdesktop.io/)に更新
 
 ##  【12/28】
 - **＜開発ツール＞** [Antigravity 1.13.3](https://antigravity.google/)に更新
