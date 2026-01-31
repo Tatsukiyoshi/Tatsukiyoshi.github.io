@@ -18,13 +18,14 @@ sidebar:
 ```
 [OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services)
 
-Platform            |Updated   |Detail
---------------------|----------|--------
-Windows Insider     |2026/01/28|[Build 26300.7674](https://aka.ms/DevLatest)
-Windows             |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS               |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
-Chrome OS Flex      |2026/01/23|[143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-Ubuntu Desktop      |2025/10/19|[25.10](https://jp.ubuntu.com/download)
+Platform                    |Updated   |Detail
+----------------------------|----------|--------
+Windows Insider             |2026/01/28|[Build 26300.7674](https://aka.ms/DevLatest)
+Windows                     |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
+macOS                       |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
+Chrome OS Flex              |2026/01/23|[143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
+[Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
 Tools               |Updated   |Detail
 --------------------|----------|--------

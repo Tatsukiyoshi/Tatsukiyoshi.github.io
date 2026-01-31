@@ -103,6 +103,16 @@ AIエージェントを活用した開発スタイルの修得
 ### 基本構成
 ![技術要素構成](/images/mcp/architecture.png)
 
+### Gemini
+- [依頼用プロンプト例](/sub/Gemini/Prompt1)
+
+### [Open AI](https://platform.openai.com/)
+- Open AI API利用
+  - APIキーの作成
+    ![CreateAPIKey1](/images/OpenAI/20251020_CreateAPIKey.png)
+    ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
+    ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
+
 ### Claude AI
 - [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
   - インストール
@@ -278,10 +288,3 @@ AIエージェントを活用した開発スタイルの修得
 - 指示ファイル
   - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
   - [instructions.md](/knowhow/sub/Generative/instructions)
-
-- [Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=ja)
-  ```
-  (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
-
-  & $env:Temp\GoogleCloudSDKInstaller.exe
-  ```
