@@ -57,7 +57,7 @@ OS/言語を問わず利用するツールの情報
   - macOS
     - [Zed 0.220.3](https://zed.dev) <span style="color: red;">*<<2026/01/23 Re-installed>>*</span>
 
-- [Cursor 2.34.1](https://www.cursor.com/) <span style="color: red;">*<<2026/01/21 installed>>*</span>
+- [Cursor 2.3.41](https://www.cursor.com/) <span style="color: red;">*<<2026/01/21 installed>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
