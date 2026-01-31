@@ -127,7 +127,7 @@ OS/言語を問わず利用するツールの情報
     winget install --id GitHub.cli
     ```
 
-- [Claude Desktop 1.0.2339](https://claude.com/ja-jp/download) <span style="color: red;">*<<2025/12/23 Auto Updated from 1.0.1768 >>*</span>
+- [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download) <span style="color: red;">*<<2026/01/30 Auto Updated from 1.0.2339 >>*</span>
 
 - [mise 2026.1.6](https://mise.jdx.dev/) <span style="color: red;">*<<2026/01/24 installed >>*</span>
   - インストール
