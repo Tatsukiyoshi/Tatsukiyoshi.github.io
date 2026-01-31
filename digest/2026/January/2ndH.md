@@ -69,8 +69,14 @@ sidebar:
 ##  【1/30】
 - **＜MCP＞**  AI駆動開発入門 Chapter 3 完了
 
+- **＜MCP＞**  [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download)に自動更新
+
 - **＜開発ツール＞**  [Zed 0.221.5](https://zed.dev/)に更新
 
 - **＜.NET＞**  [Visual Studio Community 2026 18.2.1](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
 
 - **＜Kotlin＞**  [Android Studio Panda 2025.3.2 Canary 1](https://developer.android.com/studio)に更新
+
+##  【1/31】
+- **＜.NET＞**  [.NET MAUI Blazorを学ぼう](https://codezine.jp/article/corner/1066) 第４回完了
+  - .NET MAUI Blazorで構築したアプリを、モバイル環境に適用
