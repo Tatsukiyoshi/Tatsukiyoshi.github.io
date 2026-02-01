@@ -32,7 +32,7 @@ sidebar:
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |               |[RustRover 2025.3.2](#rustrover)               |[2026/01/23](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.3.3](#rustrover)               |[2026/02/01](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.18.0](#game-engine)                    |[2026/01/23](https://bevyengine.org/)
       |               |[Slint 1.14.1](#slint)                         |[2026/01/23](https://slint.dev/)
 
@@ -133,13 +133,13 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3.2 Build #RR-253.29346.361, built on January 13, 2026 <span style="color: red;">**Updated 2026/01/23**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](/history/RustRover)
     ```
-    Source revision: 802d3c2c9fa39
+    Source revision: c3a2fac393b13
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2026年5月22日 まで有効です。
     For non-commercial use only.
-    Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
+    Runtime version: 21.0.9+1-b1163.94 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -148,14 +148,14 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
       transferSettings.vscode.onlyCargoToml=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (253.29346.45)
-      ru.adelf.idea.dotenv (253.29346.379)
-      com.jetbrains.rust (253.29346.361)
-      com.intellij.ml.llm (253.29346.420)
+      ru.adelf.idea.dotenv (253.30387.154)
+      com.jetbrains.rust (253.30387.122)
+      com.intellij.ml.llm (253.30387.147)
     ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能

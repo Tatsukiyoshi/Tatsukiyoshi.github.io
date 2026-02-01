@@ -21,7 +21,7 @@ sidebar:
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
 Windows Insider             |2026/01/28|[Build 26300.7674](https://aka.ms/DevLatest)
-Windows                     |2025/10/15|[25H2(26200.6899)](https://www.microsoft.com/ja-jp/windows/?r=1)
+Windows                     |2026/01/30|[25H2(26200.7705)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2025/12/17|[Tahoe 26.2](https://www.apple.com/jp/os/macos/)
 Chrome OS Flex              |2026/01/23|[143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
@@ -52,7 +52,7 @@ GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/01/30|Update: Visual Studio Community 2026 18.2.1
-[Rust](/knowhow/Rust)            |2026/01/23|Update: Rust 1.93.0 / RustRover 2025.3.2 / Bevy 0.18.0 / Slint 1.14.1 / Dioxus 0.7.3
+[Rust](/knowhow/Rust)            |2026/02/01|Update: RustRover 2025.3.3
 [Kotlin](/knowhow/Kotlin)        |2026/02/01|Update: Android Studio Panda 2025.3.2 Canary 2 / IntelliJ IDEA 2025.3.2
 [Flutter](/knowhow/Flutter)      |2025/11/23|Update: Flutter 3.38.3@Windows
 [TypeScript](/knowhow/TypeScript)|2026/01/24|Update: Svelte 5.48.1
