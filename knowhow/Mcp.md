@@ -19,7 +19,7 @@ sidebar:
 
   |Contents                                                    |Date      |Status
   |------------------------------------------------------------|----------|---
-  | Google Antigravityでエージェントファースト開発を始めよう|2026/02/01|第２回 エージェントに指示してブックマーク管理アプリを作成する <span style="color: red;">*finished*</span>
+  | [Google Antigravityでエージェントファースト開発を始めよう](https://news.mynavi.jp/techplus/series/antigravity/)|2026/02/01|第２回 エージェントに指示してブックマーク管理アプリを作成する <span style="color: red;">*finished*</span>
 
 ### MCP入門
 ```
