@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.39.0-1.0.pre-129   |2025/11/15
+      |macOS          |Flutter 3.41.0-0.2.pre       |2026/02/01
 
 ##  ノウハウ
 ### 設定
@@ -110,44 +110,48 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel master, 3.38.0-1.0.pre-240, on macOS 26.0.1 25A362 darwin-arm64, locale ja-JP) [1,705ms]
-        • Flutter version 3.38.0-1.0.pre-240 on channel master at /Users/taishow2024/src/flutter
+    [✓] Flutter (Channel master, 3.41.0-0.2.pre, on macOS 26.2 25C56 darwin-arm64, locale ja-JP) [2.7s]
+        • Flutter version 3.41.0-0.2.pre on channel master at /Users/taishow2024/src/flutter
         • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
         • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
-        • Framework revision 4f36fce1ee (9 hours ago), 2025-10-24 20:42:26 -0400
-        • Engine revision 4f36fce1ee
-        • Dart version 3.11.0 (build 3.11.0-57.0.dev)
-        • DevTools version 2.51.0
+        • Framework revision 1814874c2d (3 months ago), 2025-11-15 02:17:26 -0300
+        • Engine revision ab8d05efee
+        • Dart version 3.11.0 (build 3.11.0-138.0.dev)
+        • DevTools version 2.52.0
         • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,
           enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
 
-    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.1s]
+    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [4.1s]
         • Android SDK at /Users/taishow2024/Library/Android/sdk
         • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
         • Platform android-36, build-tools 36.1.0-rc1
-        • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
-          This is the JDK bundled with the latest Android Studio installation on this machine.
+        • Java binary at: /opt/homebrew/opt/openjdk/bin/java
+          This JDK is specified by the JAVA_HOME environment variable.
           To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
-        • Java version OpenJDK Runtime Environment (build 21.0.8+-14018985-b1038.68)
+        • Java version OpenJDK Runtime Environment Homebrew (build 25.0.1)
         • All Android licenses accepted.
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,764ms]
+    [!] Xcode - develop for iOS and macOS (Xcode 26.2) [4.6s]
         • Xcode at /Applications/Xcode.app/Contents/Developer
-        • Build 17A324
-        • CocoaPods version 1.16.2
+        • Build 17C52
+        ✗ CocoaPods installed but not working.
+            You appear to have CocoaPods installed but it is not working.
+            This can happen if the version of Ruby that CocoaPods was installed with is different from the one being used to invoke it.
+            This can usually be fixed by re-installing CocoaPods.
+          For re-installation instructions, see https://guides.cocoapods.org/using/getting-started.html#installation
 
-    [✓] Chrome - develop for the web [3ms]
+    [✓] Chrome - develop for the web [7ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [10.9s]
-        • iPhone 17 Pro (mobile) • 156A82AF-0122-45D9-BB69-05425EF502E9 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
-        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.0.1 25A362 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 141.0.7390.123
+    [✓] Connected device (3 available) [6.6s]
+        • iPhone 17 Pro (mobile) • 333ACE51-7729-4670-AF90-C0A0719B7B5E • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-2 (simulator)
+        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.2 25C56 darwin-arm64
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 144.0.7559.110
 
-    [✓] Network resources [851ms]
+    [✓] Network resources [1,630ms]
         • All expected network resources are available.
 
-    • No issues found!
+    ! Doctor found issues in 1 category.
     ```
     </details>
 
