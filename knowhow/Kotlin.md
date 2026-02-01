@@ -16,30 +16,30 @@ sidebar:
 
   1. Windows 11
 
-      |Machine         |Env / FW                                                      |Last Updated
-      |----------------|--------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.1.1](#intellij-idea)                    |[2026/01/10](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.3.0                                                |[2025/12/25](https://kotlinlang.org/docs/home.html)
-      |                |- Oracle JDK 25                                               |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
-      |                |- PostgreSQL JDBC Driver 42.7.7                               |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.2 Canary 1](#AndroidStudio)      |[2026/01/30](https://developer.android.com/studio)
-      |                |- Kotlin 2.3.0                                                |[2025/12/28](https://kotlinlang.org/docs/home.html)
-      |                |- Android SDK Command-line Tools v.20                         |2026/01/30
-      |                |- Android Emulator v.36.5.1                                   |2026/01/30
+      |Machine         |Env / FW                                                    |Last Updated
+      |----------------|------------------------------------------------------------|----------
+      |Windows Insider |[IntelliJ IDEA 2025.3.2](#intellij-idea)                    |[2026/02/01](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
+      |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
+      |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |                |[Android Studio Panda 2025.3.2 Canary 1](#AndroidStudio)    |[2026/01/30](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.0                                              |[2025/12/28](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Command-line Tools v.20                       |2026/01/30
+      |                |- Android Emulator v.36.5.1                                 |2026/01/30
 
   1. macOS Sequoia 15.6.1
 
-      |Machine         |Env / FW                                                      |Last Updated
-      |----------------|--------------------------------------------------------------|----------
-      |macOS           |Android Studio Narwhal 4 2025.1.4                             |[2025/10/18](https://developer.android.com/studio)
+      |Machine         |Env / FW                                                    |Last Updated
+      |----------------|------------------------------------------------------------|----------
+      |macOS           |Android Studio Narwhal 4 2025.1.4                           |[2025/10/18](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.1.1 Build #IU-253.29346.240, built on January 8, 2026
+  - IntelliJ IDEA 2025.3.2 Build #IU-253.30387.90, built on January 22, 2026
     ```
-    Source revision: 45c13268926ea
-    Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
+    Source revision: 61f1e2a0a8f30
+    Runtime version: 21.0.9+1-b1163.94 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -48,19 +48,39 @@ sidebar:
     Cores: 8
     Registry:
       ide.experimental.ui=true
+      maven.packagesearch.enabled=false
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (253.29346.240)
+      com.intellij.notebooks.core (253.30387.92)
+      org.jetbrains.completion.full.line (253.30387.90)
       intellij.webp (253.28294.218)
-      Subversion (253.29346.270)
-      Dart (500.0.0)
-      com.intellij.spring (253.29346.270)
-      com.jetbrains.restClient (253.29346.270)
-      org.jetbrains.idea.maven (253.29346.240)
-      org.jetbrains.android (253.29346.240)
-      io.flutter (88.2.0)
-    Kotlin: 253.29346.240-IJ
+      Subversion (253.30387.154)
+      Dart (502.0.0)
+      com.intellij.spring (253.30387.154)
+      org.jetbrains.plugins.terminal (253.30387.92)
+      com.jetbrains.restClient (253.30387.92)
+      intellij.jupyter (253.30387.92)
+      org.jetbrains.android (253.30387.90)
+      io.flutter (89.0.0)
+    Kotlin: 253.30387.90-IJ
     ```
 - History
+  - IntelliJ IDEA 2025.3.2
+    - 省略時動作が厳格化されたことを受け、明示的にインメモリを使用することを指定するように修正
+      ```yaml
+      spring:
+        datasource:
+          url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+          driver-class-name: org.h2.Driver
+          username: sa
+          password:
+        h2:
+          console:
+            enabled: true
+        batch:
+          ...
+          jdbc:
+            initialize-schema: always
+      ```
   - IntelliJ IDEA 2025.3.1
     - Update Kotlin 2.3.0 for Java 25
       ```
