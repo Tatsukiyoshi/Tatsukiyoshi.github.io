@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.41.0-0.2.pre       |2026/02/01
+      |macOS          |Flutter 3.41.0-1.0.pre-388   |2026/02/01
 
 ##  ノウハウ
 ### 設定
@@ -110,18 +110,18 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel master, 3.41.0-0.2.pre, on macOS 26.2 25C56 darwin-arm64, locale ja-JP) [1,749ms]
-        • Flutter version 3.41.0-0.2.pre on channel master at /Users/taishow2024/src/flutter
+    [✓] Flutter (Channel master, 3.41.0-1.0.pre-388, on macOS 26.2 25C56 darwin-arm64, locale ja-JP) [2.2s]
+        • Flutter version 3.41.0-1.0.pre-388 on channel master at /Users/taishow2024/src/flutter
         • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
         • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
-        • Framework revision 1814874c2d (3 months ago), 2025-11-15 02:17:26 -0300
-        • Engine revision ab8d05efee
-        • Dart version 3.11.0 (build 3.11.0-138.0.dev)
-        • DevTools version 2.52.0
+        • Framework revision 37a8bb1feb (4 hours ago), 2026-02-01 00:01:27 -0500
+        • Engine revision 37a8bb1feb
+        • Dart version 3.12.0 (build 3.12.0-98.0.dev)
+        • DevTools version 2.54.0
         • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,
-          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration, enable-riscv64
 
-    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [3.0s]
+    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.2s]
         • Android SDK at /Users/taishow2024/Library/Android/sdk
         • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
         • Platform android-36, build-tools 36.1.0-rc1
@@ -131,20 +131,20 @@ sidebar:
         • Java version OpenJDK Runtime Environment Homebrew (build 25.0.2)
         • All Android licenses accepted.
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.2) [5.4s]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.2) [1,709ms]
         • Xcode at /Applications/Xcode.app/Contents/Developer
         • Build 17C52
         • CocoaPods version 1.16.2
 
-    [✓] Chrome - develop for the web [7ms]
+    [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [10.6s]
+    [✓] Connected device (3 available) [7.5s]
         • iPhone 17 Pro (mobile) • 333ACE51-7729-4670-AF90-C0A0719B7B5E • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-2 (simulator)
         • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.2 25C56 darwin-arm64
         • Chrome (web)           • chrome                               • web-javascript • Google Chrome 144.0.7559.110
 
-    [✓] Network resources [1,560ms]
+    [✓] Network resources [283ms]
         • All expected network resources are available.
 
     • No issues found!
