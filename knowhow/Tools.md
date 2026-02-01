@@ -162,7 +162,7 @@ OS/言語を問わず利用するツールの情報
     - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
       ![iOS 18.5 Simulator](/images/macOS/20250531_Download_iOS18.5_Simulator.png)
 - Homebrew 5.0.5 <span style="color: red;">*<<2025/12/09 Updated>>*</span>
-- [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
+- [CocoaPods 1.16.2_2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2026/02/01 Updated from 1.16.2_1>>*</span>
   - Homebrew / CocoaPodsのインストール
     ```
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
