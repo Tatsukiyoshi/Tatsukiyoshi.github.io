@@ -15,6 +15,12 @@ sidebar:
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
 
+##  コンテンツ
+
+  |Contents                                                    |Date      |Status
+  |------------------------------------------------------------|----------|---
+  | Google Antigravityでエージェントファースト開発を始めよう|2026/02/01|第２回 エージェントに指示してブックマーク管理アプリを作成する <span style="color: red;">*finished*</span>
+
 ### MCP入門
 ```
 生成AIアプリの開発手順の修得
