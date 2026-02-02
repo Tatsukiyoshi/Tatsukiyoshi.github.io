@@ -125,6 +125,8 @@ sidebar:
   - [特定の位置にカラムを追加する](https://urashita.com/archives/13652)
 
 ### PostgreSQL
+- [Postgres Best Practices](https://github.com/supabase/agent-skills) <span style="color: red;">*<<2026/02/02 applied>>*</span>
+
 - PostgreSQL 18.0@Chrome OS Flex
   ```
   psql (PostgreSQL) 18.0 (Debian 18.0-1.pgdg12+3)

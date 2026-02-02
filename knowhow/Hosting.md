@@ -23,7 +23,7 @@ sidebar:
   |                         |Vue 3.5.22      |[2025/10/07](https://ya-full-width-input-field-for-vue.vercel.app/)
   |InputField(AutoComplete) |React 19.1.1    |[2025/08/07](https://auto-complete-input-field.vercel.app/)
 
-### Google Cloud
+### [Google Cloud](https://console.cloud.google.com/)
 - [Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=ja)
   ```
   (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
