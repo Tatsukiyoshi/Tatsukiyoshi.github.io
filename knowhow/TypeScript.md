@@ -137,6 +137,10 @@ sidebar:
           ```
           nvm install node
           ```
+    - セキュリティ対策
+      - パスワードのハッシュ化（bcrypt）
+      - JWT（JSON Webトークン）の検証（JOSE）
+
     - トラブルシューティング
       - キャッシュクリア
         ```
