@@ -27,20 +27,21 @@ Chrome OS Flex              |2026/01/23|[143.0.7499.203](https://chromereleases.
 Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 [Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
-Tools               |Updated   |Detail
---------------------|----------|--------
-Git                 |2025/12/09|[2.52.0](https://git-scm.com/download)
-Visual Studio Code  |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
-Antigravity         |2026/01/28|[1.15.8](https://antigravity.google/)
-Zed                 |2026/01/30|[0.221.5](https://zed.dev)
-Cursor              |2026/01/31|[2.4.23](https://www.cursor.com/)
-PowerShell          |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
-GitHub Desktop      |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
-Claude Desktop      |2026/01/30|[1.1.1520](https://claude.com/)
-mise                |2026/01/24|[2026.1.6](https://mise.jdx.dev/) 
-Xcode               |2025/12/17|[26.2](https://developer.apple.com/jp/xcode/)
-CocoaPods           |2026/02/01|[1.16.2_2](https://github.com/CocoaPods/CocoaPods)
-GIMP                |2025/03/18|[3.0](https://www.gimp.org/)
+Tools               |Win|mac|Chr|Updated   |Detail
+--------------------|---|---|---|----------|--------
+Git                 | * | * | * |2025/12/09|[2.52.0](https://git-scm.com/download)
+Visual Studio Code  | * | * | * |2026/01/23|[December 2025 Recovery 2](https://code.visualstudio.com/)
+Antigravity         | * | - | * |2026/01/28|[1.15.8](https://antigravity.google/)
+Zed                 | * | * | - |2026/01/30|[0.221.5](https://zed.dev)
+Cursor              | * | - | - |2026/01/31|[2.4.23](https://www.cursor.com/)
+Codex               |   | * |   |2026/02/03|[260202.859](https://openai.com/ja-JP/codex/)
+PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
+GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
+Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
+mise                | * |   |   |2026/01/24|[2026.1.6](https://mise.jdx.dev/)
+Xcode               |   | * |   |2025/12/17|[26.2](https://developer.apple.com/jp/xcode/)
+CocoaPods           |   | * |   |2026/02/01|[1.16.2_2](https://github.com/CocoaPods/CocoaPods)
+GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 ## プログラミング言語 <a id="ProgrammingLanguage"></a>
 ```
