@@ -125,9 +125,13 @@ OS/言語を問わず利用するツールの情報
     - 3.4.2 -> 3.4.5 NG
 
 - [GitHub CLI 2.85](https://cli.github.com/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
-  - インストール
+  - インストール@Windows
     ```
     winget install --id GitHub.cli
+    ```
+  - インストール@macOS
+    ```
+    brew install gh
     ```
 
 - [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download) <span style="color: red;">*<<2026/01/30 Auto Updated from 1.0.2339 >>*</span>
