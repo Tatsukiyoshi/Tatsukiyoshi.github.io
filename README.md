@@ -34,7 +34,7 @@ Visual Studio Code  | * | * | * |2026/02/05|[January 2026](https://code.visualst
 Antigravity         | * | - | * |2026/02/05|[1.16.5](https://antigravity.google/)
 Zed                 | * | * | - |2026/02/05|[0.222.2](https://zed.dev)
 Claude Code         | * | * | - |2026/02/04|[2.1.31](https://claude.ai/)
-Cursor              | * | - | - |2026/01/31|[2.4.23](https://www.cursor.com/)
+Cursor              | * | - | - |2026/02/05|[2.4.28](https://www.cursor.com/)
 Codex               |   | * |   |2026/02/05|[260204.1342](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
