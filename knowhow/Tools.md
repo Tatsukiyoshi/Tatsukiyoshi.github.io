@@ -57,9 +57,6 @@ OS/言語を問わず利用するツールの情報
   - macOS
     - [Zed 0.222.2](https://zed.dev) <span style="color: red;">*<<2026/02/05 updated from 0.220.3>>*</span>
 
-- [Codex 260202.859](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/03 installed>>*</span>
-  ![Codex](/images/macOS/20260203_macOS_Codex.png)
-
 - [Cursor 2.4.23](https://www.cursor.com/) <span style="color: red;">*<<2026/01/31 updated from 2.3.41>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
@@ -152,6 +149,9 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
+- [Codex 260204.1342](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/05 updated from 260202.859>>*</span>
+  ![Codex](/images/macOS/20260203_macOS_Codex.png)
+
 - Xcode
   - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
   - iOS Simulatorの更新
