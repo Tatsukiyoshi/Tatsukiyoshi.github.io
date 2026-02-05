@@ -37,6 +37,9 @@ YYYY年M月上期/下期（YYYY/M/D～YYYY/M/D）に[リスキリング（プロ
 ##  【M/D】
 - **＜カテゴリ＞**  [ツール名 バージョン](URL)に更新/導入
   - 補足情報（必要に応じて）
+- OSアップデートや環境個別更新の表記：
+  - 例：macOSで、[Flutter 3.41.0-1.0.pre-388](https://flutter.dev/)に更新
+  - 例：macOSおよびChrome OS Flexで、Rust 1.93に更新
 ```
 
 ## カテゴリ一覧
@@ -45,7 +48,7 @@ YYYY年M月上期/下期（YYYY/M/D～YYYY/M/D）に[リスキリング（プロ
 - MCP - Claude Desktop, Claude Code, MCP関連
 - .NET - Visual Studio, .NET, MAUI, Blazor
 - Rust - Rust言語、RustRover、Rust製ツール
-- JavaScript - Node.js, Bun, React, Svelte等
+- TypeScript - Node.js, Bun, React, Svelte等
 - Kotlin - Android Studio, IntelliJ IDEA, Kotlin
 - Container - Docker, Rancher Desktop等
 
@@ -85,6 +88,7 @@ knowhowファイル内で以下のパターンを確認して更新日を特定�
    - 各knowhowファイルを読み込む
    - 対象期間（上期: 第1週〜第2週、下期: 第3週以降）の更新を抽出
    - バージョン番号、公式URL、補足説明を確認
+   - Windows InsiderなどのOSアップデートは、Build番号を詳細に記載する（例：Build 26300.7733）
 
 5. 適切なカテゴリと形式でエントリを追加
    - 記載順は、カテゴリ一覧の順とする

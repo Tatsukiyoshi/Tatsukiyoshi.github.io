@@ -35,7 +35,7 @@ sidebar:
 - **＜OS＞**  [Chrome OS Flex 143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
   - [Antigravity](https://antigravity.io/)を導入
 
-- **＜Rust＞**  Rust 1.93@macOS / Chrome OS Flexに更新
+- **＜Rust＞**  macOSおよびChrome OS Flexで、Rust 1.93に更新
 
 - **＜JavaScript＞**  [Svelte 5.48.1](https://svelte.dev/)に更新
 

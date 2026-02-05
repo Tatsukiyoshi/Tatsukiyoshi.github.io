@@ -50,7 +50,7 @@ AIエージェントを活用した開発スタイルの修得
   Chapter 1 Claude Code入門と開発環境構築          |2026/01/24
   Chapter 2 Claude CodeによるAI駆動開発の基礎       |2026/01/25
   Chapter 3 MCPを活用したAIチャットボット開発        |2026/01/30
-  Chapter 4 並行処理とサブエージェントを使った開発手法 
+  Chapter 4 並行処理とサブエージェントを使った開発手法 |
 
   - TODOアプリ作成
     - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)

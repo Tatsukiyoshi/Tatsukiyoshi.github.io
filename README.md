@@ -66,9 +66,9 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2026/01/23|Update: MongoDB 8.2.3
+[Database & SQL](/knowhow/Database)    |2026/02/02|Update: Postgres Best Practices
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/01/30|Add: Playwright 1.58.0 / Lighthouse CLI 0.15.1
+[Model Context Protocol](/knowhow/Mcp) |2026/02/04|Update: Claude Code 2.1.31
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
