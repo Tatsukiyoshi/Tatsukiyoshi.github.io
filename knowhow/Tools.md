@@ -20,7 +20,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [Antigravity 1.15.8](https://antigravity.google/) <span style="color: red;">*<<2026/01/28 updated from 1.14.2 >>*</span>
+- [Antigravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -46,6 +46,9 @@ OS/言語を問わず利用するツールの情報
         ```
   - 日本語化
     - 拡張機能からMicrosoftが提供するLanguage Packをインストールする
+  - 更新
+    - Visual Studio Codeのクローンですけど！
+      ![Updating](/images/Antigravity/20260205_Antigravity_Updating.png)
 
 - [Zed](https://zed.dev)
   ```
