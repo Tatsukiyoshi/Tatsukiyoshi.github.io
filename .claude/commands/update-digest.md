@@ -39,11 +39,11 @@ YYYY年M月上期/下期（YYYY/M/D～YYYY/M/D）に[リスキリング（プロ
   - 補足情報（必要に応じて）
 - OSアップデートや環境個別更新の表記：
   - 例：macOSで、[Flutter 3.41.0-1.0.pre-388](https://flutter.dev/)に更新
-  - 例：macOSおよびChrome OS Flexで、Rust 1.93に更新
+  - 例：macOSおよびChromeOS Flexで、Rust 1.93に更新
 ```
 
 ## カテゴリ一覧
-- OS - Windows, macOS, Chrome OS Flex
+- OS - Windows, macOS, ChromeOS Flex
 - 開発ツール - エディタ、IDE以外のツール
 - MCP - Claude Desktop, Claude Code, MCP関連
 - .NET - Visual Studio, .NET, MAUI, Blazor

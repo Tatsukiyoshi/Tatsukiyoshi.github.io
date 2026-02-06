@@ -16,8 +16,8 @@ sidebar:
       ![On macOS](/images/rust/20251218_Tauri2.9.5_macOS26.2.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
     - iOS 26.2 / iPhone 17 Pro
       ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
     - iOS 26.2 Beta / iPhone 17 Pro
@@ -31,8 +31,8 @@ sidebar:
       ![On Windows](/images/rust/20251207_Tauri2.9.4_Windows.png)
     - Ubuntu 24.04.3 on WSL2
       ![On Ubuntu 24.04.3](/images/rust/20251207_Tauri2.9.4_Ubuntu24.04.3.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251208_Tauri2.9.4_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251208_Tauri2.9.4_Chrome_OS_Flex.png)
     - Android Canary / Pixel 9a / React 19.2.1
       ![On Android Canary](/images/rust/20251207_Tauri2.9.4_Pixel_9a_AndroidCanary.png)
   - V2.9.2
@@ -44,8 +44,8 @@ sidebar:
       ![On macOS](/images/rust/20251108_Tauri2.9.2_macOS26.1.png)
     - macOS 26.0.1
       ![On macOS](/images/rust/20251031_Tauri2.9.2_macOS26.0.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251101_Tauri2.9.2_Chrome_OS_Flex.png)
     - Android Canary / Pixel 9a / React 19.2.0
       - Java 25導入を試していたことでエラーとなったので、JAVA_HOMEをJDK21に変更化してリンク！
         ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
@@ -60,8 +60,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20251025_Tauri2.9.1_Ubuntu24.04.3.png)
     - macOS 26
       ![On macOS](/images/rust/20251025_Tauri2.9.1_mac26.0.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251025_Tauri2.9.1_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251025_Tauri2.9.1_Chrome_OS_Flex.png)
     - Android Canary / Pixel 9a / React 19.2.0
       - Java 25導入を試していたことでエラーとなったので、JDK21を有効化してリンク！
         ![On Android Canary](/images/rust/20251025_Tauri2.9.1_Pixel_9a_AndroidCanary.png)
@@ -74,8 +74,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20251022_Tauri2.9.0_Ubuntu24.04.3.png)
     - macOS 26
       ![On macOS](/images/rust/20251021_Tauri2.9.0_mac26.0.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251021_Tauri2.9.0_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251021_Tauri2.9.0_Chrome_OS_Flex.png)
     - Android Canary / Pixel 9a / React 19.2.0
       - Android 16だと動作せず（コンソールにエラー出力のうえ、エミュレータに何も出ず）
       - 初期化の上、Android Canaryで動作
@@ -93,8 +93,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20250920_Tauri2.8.5_Ubuntu24.04.3.png)
     - macOS 26
       ![On macOS](/images/rust/20250920_Tauri2.8.5_mac26.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250920_Tauri2.8.5_Chrome_OS_Flex.png)
     - Android 16 (API 36.1) / Pixel 9a / React 19.2.0
       ![On Android 16](/images/rust/20251008_Tauri2.8.5_Pixel_9a_Android16.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
@@ -119,8 +119,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20250904_Tauri2.8.5_Ubuntu24.04.3.png)
     - macOS
       ![On macOS](/images/rust/20250904_Tauri2.8.5_mac15.6.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250904_Tauri2.8.5_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250904_Tauri2.8.5_Chrome_OS_Flex.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250904_Tauri2.8.5_Pixel_9a_Android16_QPR2B1.png)
     - iOS 26.0 Beta 6 / iPhone 16 Pro
@@ -132,8 +132,8 @@ sidebar:
       ![On Ubuntu 24.04.3](/images/rust/20250822_Tauri2.8.2_Ubuntu24.04.3.png)
     - macOS
       ![On macOS](/images/rust/20250822_Tauri2.8.2_mac15.6.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250822_Tauri2.8.2_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250822_Tauri2.8.2_Chrome_OS_Flex.png)
     - Android 16 QPR2 Beta 1 / Pixel 9a
       ![On Android 16](/images/rust/20250822_Tauri2.8.2_Pixel_9a_Android16_QPR2B1.png)
     - iOS 26.0 Beta 6 / iPhone 16 Pro
@@ -141,8 +141,8 @@ sidebar:
   - V2.8.1
     - macOS
       ![On macOS](/images/rust/20250819_Tauri2.8.1_Mac15.6.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250819_Tauri2.8.1_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250819_Tauri2.8.1_Chrome_OS_Flex.png)
     - iOS 26.0 Beta 6 / iPhone 16 Pro
       ![On iOS 26 Beta 6](/images/rust/20250819_Tauri2.8.1_iPhone16_Pro_iOS26.0B6.png)
   - V2.7.0
@@ -152,8 +152,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250721_Tauri2.7.0_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250721_Tauri2.7.0_Mac15.5.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250726_Tauri2.7.0_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250726_Tauri2.7.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250721_Tauri2.7.0_Pixel_9_Pro_Android16.png)
     - iOS 18.5 / iPhone 16e
@@ -167,8 +167,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250628_Tauri2.6.2_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250628_Tauri2.6.2_Mac15.5.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250628_Tauri2.6.2_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250628_Tauri2.6.2_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250628_Tauri2.6.2_Pixel_9_Pro_Android16.png)
     - iOS 18.5 / iPhone 16e
@@ -189,8 +189,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250626_Tauri2.6.0_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250626_Tauri2.6.0_Mac15.5.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250626_Tauri2.6.0_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250626_Tauri2.6.0_Chrome_OS_Flex.png)
     - iOS 18.5 / iPhone 16e
       ![On iPhone 16e](/images/rust/20250626_Tauri2.6.0_iPhone16e_iOS18.5.png)
     - iOS 26.0 Beta 2 / iPhone 16 Pro
@@ -202,8 +202,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250427_Tauri2.5.1_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250427_Tauri2.5.1_Mac15.4.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250429_Tauri2.5.1_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9a
       ![On Android 16](/images/rust/20250427_Tauri2.5.1_Pixel9a_Android16.png)
     - iOS 18.4 / iPhone 16e
@@ -215,8 +215,8 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250416_Tauri2.5.0_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250417_Tauri2.5.0_Mac15.4.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20250417_Tauri2.5.0_Chrome_OS_Flex.png)
     - Android 16 / Pixel 9 Pro
       ![On Android 16](/images/rust/20250417_Tauri2.5.0_Pixel9Pro_Android16.png)
     - iOS 18.4 / iPhone 16e
@@ -228,9 +228,9 @@ sidebar:
       ![On Ubuntu 24.04](/images/rust/20250403_Tauri2.4.1_Ubuntu24.04.png)
     - macOS
       ![On macOS](/images/rust/20250403_Tauri2.4.1_Mac15.4.png)
-    - Chrome OS Flex
+    - ChromeOS Flex
       - 最初ウィンドウだけでコンテンツが表示されなかった。しかし、Reloadすることで表示された！
-        ![On Chrome OS Flex](/images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
+        ![On ChromeOS Flex](/images/rust/20250411_Tauri2.4.1_Chrome_OS_Flex.png)
     - iOS 18.4 / iPhone 16e
       - cannot build target -> [[bug] version '-sim' in target triple 'arm64-apple-ios13.0-simulator-sim' is invalid](https://github.com/tauri-apps/tauri/issues/13128)
     - Android 15 / Pixel 9

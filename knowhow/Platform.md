@@ -11,13 +11,13 @@ OS                                 |Hardware            |Language
 [Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
 [macOS](#Mac)                      |MacBook Air         |Rust / Flutter
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP 
+[ChromeOS Flex](#ChromeOSFlex)     |IdeaPad             |Rust / Flutter / Python / Go / PHP 
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
-  - (v) Chrome OS Flex環境を IdeaPad に再構築
+  - (v) ChromeOS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
@@ -160,9 +160,9 @@ OS                                 |Hardware            |Language
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
-##  [Chrome OS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
+##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
   - バージョン 143.0.7499.203 <span style="color: red;">*<<2026/01/23 updated from 143.0.7499.196>>*</span>
-    ![Chrome OS Flexバージョン情報](/images/Chrome/20260123_ChromeOSFlex_143.0.7499.203.png)
+    ![ChromeOS Flexバージョン情報](/images/Chrome/20260123_ChromeOSFlex_143.0.7499.203.png)
       - 更新中
         ![Updating](/images/Chrome/20260123_ChromeOSFlex_Updating143.0.7499.203.png)
         <details>
@@ -189,6 +189,7 @@ OS                                 |Hardware            |Language
         ```
         cat /etc/debian_version
         ```
+  - [リリース情報](https://helentech.jp/category/chromebook/chromeos/)
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
@@ -213,7 +214,7 @@ OS                                 |Hardware            |Language
         ```
     - アップデート
       - Visual Studio Code
-        ![Upgrade on Chrome OS Flex](/images/Chrome/20240119_code_1.85.2.png)
+        ![Upgrade on ChromeOS Flex](/images/Chrome/20240119_code_1.85.2.png)
     - カスタマイズ
       - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
         ![フォント設定](/images/Chrome/20240406_VSCode_IPAexMincho.png)
