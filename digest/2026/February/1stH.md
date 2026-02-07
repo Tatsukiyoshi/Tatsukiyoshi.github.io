@@ -10,7 +10,7 @@ sidebar:
 # Topic
 - 開発ツールのメジャー／マイナーアップデート（VS Code 1.109, Zed 0.222, Cursor 2.4.28等）
 - Windows Insider Build 26300.7733へのアップデート
-- Claude Code 2.1.31への更新
+- Claude Code 2.1.34への更新
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
@@ -43,3 +43,7 @@ sidebar:
 - **＜開発ツール＞**  [Zed 0.222.2](https://zed.dev/)に更新
 - **＜開発ツール＞**  [Cursor 2.4.28](https://www.cursor.com/)に更新
 - **＜開発ツール＞**  [Codex 260204.1342](https://openai.com/ja-JP/codex/)に更新
+
+##  【2/6】
+- **＜開発ツール＞**  Windowsで、[Zed 0.222.4](https://zed.dev/windows)に更新
+- **＜MCP＞**  [Claude Code 2.1.34](https://claude.ai/)に更新
