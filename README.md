@@ -68,7 +68,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/02|Update: Postgres Best Practices
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/02/07|Add: clsx 2.1.1
+[Model Context Protocol](/knowhow/Mcp) |2026/02/08|Add: tsx 4.19.4
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
