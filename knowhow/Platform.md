@@ -162,9 +162,9 @@ OS                                 |Hardware            |Language
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
   - バージョン 143.0.7499.203 <span style="color: red;">*<<2026/01/23 updated from 143.0.7499.196>>*</span>
-    ![ChromeOS Flexバージョン情報](/images/Chrome/20260123_ChromeOSFlex_143.0.7499.203.png)
+    ![ChromeOS Flexバージョン情報](/images/Chrome/20260123_ChromeOS_Flex_143.0.7499.203.png)
       - 更新中
-        ![Updating](/images/Chrome/20260123_ChromeOSFlex_Updating143.0.7499.203.png)
+        ![Updating](/images/Chrome/20260123_ChromeOS_Flex_Updating143.0.7499.203.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
