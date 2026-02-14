@@ -21,9 +21,9 @@ sidebar:
 
       |Machine        |Env / FW                                                              |Last Updated
       |---------------|----------------------------------------------------------------------|----------
-      |Windows Insider|Flutter 3.38.3                                                        |[2025/11/23](https://docs.flutter.dev/release/release-notes)
+      |Windows Insider|Flutter 3.41.1                                                        |[2026/02/15](https://docs.flutter.dev/release/release-notes)
       |               |[Android Studio Narwhal 4 2025.1.4 Canary 4](Kotlin#android-studio)   |2025/09/06
-      |               |[Visual Studio Community 2026 18.0.0](NET)                            |2025/11/12
+      |               |[Visual Studio Community 2026 18.3.0](NET)                            |2026/02/14
 
   1. ChromeOS Flex 135.0.7049.104 (Official Build)
 
@@ -61,43 +61,43 @@ sidebar:
     </summary>
 
     ```
-    [√] Flutter (Channel stable, 3.38.3, on Microsoft Windows [Version 10.0.26220.7271], locale ja-JP) [380ms]
-        • Flutter version 3.38.3 on channel stable at D:\flutter
+    [√] Flutter (Channel stable, 3.41.1, on Microsoft Windows [Version 10.0.26300.7760], locale ja-JP) [474ms]
+        • Flutter version 3.41.1 on channel stable at D:\flutter
         • Upstream repository https://github.com/flutter/flutter.git
-        • Framework revision 19074d12f7 (2 days ago), 2025-11-20 17:53:13 -0500
-        • Engine revision 13e658725d
-        • Dart version 3.10.1
-        • DevTools version 2.51.1
-        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios,
-          cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+        • Framework revision 582a0e7c55 (2 days ago), 2026-02-12 17:12:32 -0800
+        • Engine revision 3452d735bd
+        • Dart version 3.11.0
+        • DevTools version 2.54.1
+        • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,     
+          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
 
-    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [2.5s]
+    [√] Windows Version (Windows 11 or higher, 25H2, 2009) [1,239ms]
 
-    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [2.3s]
+    [√] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [2.2s]
         • Android SDK at D:\Android\Sdk
-        • Emulator version 36.3.8.0 (build_id 14396629) (CL:N/A)
+        • Emulator version 36.5.3.0 (build_id 14849922) (CL:N/A)
         • Platform android-CANARY, build-tools 36.1.0
         • ANDROID_HOME = D:\Android\Sdk
         • Java binary at: D:\Program Files\Android\Android Studio\jbr\bin\java
           This is the JDK bundled with the latest Android Studio installation on this machine.
           To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
-        • Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+        • Java version OpenJDK Runtime Environment (build 21.0.9+-14787801-b1163.94)
         • All Android licenses accepted.
 
-    [√] Chrome - develop for the web [108ms]
+    [√] Chrome - develop for the web [172ms]
         • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
 
-    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.0.1) [107ms]
+    [√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.3.0) [171ms]
         • Visual Studio at D:\Program Files\Microsoft Visual Studio\18\Community
-        • Visual Studio Community 2026 version 18.0.11217.181
+        • Visual Studio Community 2026 version 18.3.11505.172
         • Windows 10 SDK version 10.0.26100.0
 
-    [√] Connected device (3 available) [717ms]
-        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26220.7271]
-        • Chrome (web)      • chrome  • web-javascript • Google Chrome 142.0.7444.176
-        • Edge (web)        • edge    • web-javascript • Microsoft Edge 143.0.3650.37
+    [√] Connected device (3 available) [552ms]
+        • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26300.7760]
+        • Chrome (web)      • chrome  • web-javascript • Google Chrome 144.0.7559.133
+        • Edge (web)        • edge    • web-javascript • Microsoft Edge 145.0.3800.58
 
-    [√] Network resources [719ms]
+    [√] Network resources [528ms]
         • All expected network resources are available.
 
     • No issues found!
