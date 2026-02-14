@@ -35,7 +35,7 @@ sidebar:
 - **＜TypeScript＞**  [React Native 0.81.4](https://reactnative.dev/)を[Expo 54.0.1](https://github.com/expo/expo)およびExpo Go 54.0.4で検証
 
 ##  【9/12】
-- **＜OS＞**  [Chrome OS Flex 139.0.7258.172にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) 
+- **＜OS＞**  [ChromeOS Flex 139.0.7258.172にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex) 
 
 - **＜開発ツール＞** [Visual Studio Code August 2025 (1.104)に更新](https://code.visualstudio.com/)
 

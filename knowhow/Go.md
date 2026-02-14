@@ -8,7 +8,7 @@ sidebar:
 
   |Machine        |Env／FW       |Last Updated
   |---------------|--------------|----------
-  |Chrome OS Flex |Go 1.24.2     |[2025/05/04](https://go.dev/dl/)
+  |ChromeOS Flex |Go 1.24.2     |[2025/05/04](https://go.dev/dl/)
   |               |ToolBox 2.6.1 |2025/05/04
   |               |GoLand 2025.1 |2025/05/04
   
@@ -31,7 +31,7 @@ sidebar:
     go run cmd/main.go
     ```
 
-- Chrome OS Flex
+- ChromeOS Flex
   - 準備
     ```
     sudo apt install gnome-text-editor gimp vlc nautilus x11-apps -y

@@ -51,7 +51,7 @@ sidebar:
 - **＜開発ツール＞**  [Visual Studio Code August 2025 Recovery 2(1.104.2)に更新](https://code.visualstudio.com/)
 
 ##  【9/27】
-- **＜Database＞**  [PostgreSQL 18.0に更新](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)＠Chrome OS Flex
+- **＜Database＞**  [PostgreSQL 18.0に更新](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)＠ChromeOS Flex
 
 - **＜.NET＞** [Visual Studio Community 2022 17.14.16に更新](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 

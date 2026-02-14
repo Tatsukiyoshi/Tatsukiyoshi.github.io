@@ -23,7 +23,7 @@ sidebar:
 - **＜Kotlin＞**  [IntelliJ IDEA 2025.3.1.1](https://www.jetbrains.com/ja-jp/idea/)に更新
 
 ##  【1/12】
-- **＜OS＞**  [Chrome OS Flex 143.0.7499.196](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 143.0.7499.196](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
   - Debian 12.13ベースに更新
 
 ##  【1/15】

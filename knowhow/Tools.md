@@ -27,7 +27,7 @@ OS/言語を問わず利用するツールの情報
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
-  - for Chrome OS Flex / Linux(Debian/Ubuntu) 
+  - for ChromeOS Flex / Linux(Debian/Ubuntu) 
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings

@@ -25,11 +25,11 @@ sidebar:
       |               |[Android Studio Narwhal 4 2025.1.4 Canary 4](Kotlin#android-studio)   |2025/09/06
       |               |[Visual Studio Community 2026 18.0.0](NET)                            |2025/11/12
 
-  1. Chrome OS Flex 135.0.7049.104 (Official Build)
+  1. ChromeOS Flex 135.0.7049.104 (Official Build)
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |Chrome OS Flex |Flutter 3.27.1               |2025/01/02
+      |ChromeOS Flex |Flutter 3.27.1               |2025/01/02
       |               |Debian clang 14.0.6          |2025/01/02
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
@@ -153,7 +153,7 @@ sidebar:
 
     <details>
     <summary>
-    Chrome OS Flex
+    ChromeOS Flex
     </summary>
 
     ```
@@ -240,7 +240,7 @@ sidebar:
         ```xml
         <uses-permission android:name="android.permission.INTERNET"/>
         ```
-    - Chrome OS Flex
+    - ChromeOS Flex
       ```
       sudo apt install clang cmake ninja-build
       ```

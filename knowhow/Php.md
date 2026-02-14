@@ -8,13 +8,13 @@ sidebar:
 
   |Machine        |Env / FW        |Last Updated
   |---------------|----------------|----------
-  |Chrome OS Flex |ToolBox 2.6.1   |2025/05/04
+  |ChromeOS Flex |ToolBox 2.6.1   |2025/05/04
   |               |PhpStorm 2025.1 |2025/05/04
   |               |Php 8.2.8       |[2025/05/04](https://www.php.net/)
 
 ##  ノウハウ
-### Chrome OS Flex
-- Chrome OS Flex は Debianなので、一パッケージとしてインストールする
+### ChromeOS Flex
+- ChromeOS Flex は Debianなので、一パッケージとしてインストールする
   ```
   sudo apt install php -y
   ```

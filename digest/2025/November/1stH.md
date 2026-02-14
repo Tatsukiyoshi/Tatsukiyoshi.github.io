@@ -28,7 +28,7 @@ sidebar:
 ##  【11/9】
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26220.7052 (Quality Update)](https://aka.ms/DevLatest)が配信されたので、アップデート
 
-- **＜OS＞**  [Chrome OS Flex 141.0.7390.135](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 141.0.7390.135](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 ##  【11/12】
 - **＜.NET＞**  [Visual Studio Community 2026 18.0.0](https://visualstudio.microsoft.com/ja/)を再導入（Insidersと置換）

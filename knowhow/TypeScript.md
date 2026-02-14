@@ -128,7 +128,7 @@ sidebar:
           ```
           node -v
           ```
-      - Chrome OS Flex
+      - ChromeOS Flex
         - [nvmインストール](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
           ```
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -225,7 +225,7 @@ sidebar:
           </details>
 
           ![Deno Install](/images/JavaScript/Deno_install.png)
-        - Chrome OS Flex
+        - ChromeOS Flex
           ```sh
           curl -fsSL https://deno.land/x/install/install.sh | sh
           ```

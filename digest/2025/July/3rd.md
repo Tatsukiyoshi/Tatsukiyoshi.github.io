@@ -34,10 +34,10 @@ Tauri 2.7.0をはじめ、OSやFrameworkの更新を検証
 - **＜Rust＞**  [RustRoverを2025.2 EAP 9に更新](https://www.jetbrains.com/rust/)
 
 # 【7/26】
-- **＜OS＞**  [Chrome OS FlexをM-138系(138.0.7204.163)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS FlexをM-138系(138.0.7204.163)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜Rust＞**  [Tauriを2.7.0に更新](https://tauri.app/)
-  - 残っていた Chrome OS Flexを対象に検証
+  - 残っていた ChromeOS Flexを対象に検証
 
 - **＜Kotlin＞**  [IntelliJ IDEAを2025.2 Betaに更新](https://www.jetbrains.com/idea)
 

@@ -28,7 +28,7 @@ sidebar:
 
 - **＜開発ツール＞** [Xcode 26.2](https://developer.apple.com/jp/xcode/)に更新
 
-- **＜Rust＞** [Rust 1.92](https://www.rust-lang.org/)に更新 【Chrome OS Flex】
+- **＜Rust＞** [Rust 1.92](https://www.rust-lang.org/)に更新 【ChromeOS Flex】
 
 ##  【12/18】
 - **＜開発ツール＞**  [Visual Studio Code November 2025 Recovery 1(1.107.1)](https://code.visualstudio.com/)
@@ -48,7 +48,7 @@ sidebar:
 - **＜Kotlin＞**  [Android Studio Panda 2025.3.1 Canary 1](https://developer.android.com/studio)に更新
 
 ##  【12/21】
-- **＜OS＞**  [Chrome OS Flex 143.0.7499.150](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 143.0.7499.150](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 ##  【12/23】
 - **＜開発ツール>** [Claude Desktop 1.0.2339](https://claude.com/ja-jp/download)に更新
