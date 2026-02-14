@@ -10,10 +10,16 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|-------
   |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/18|第10章 MCPエージェントを作る <span style="color: red;">*finished*</span>
-  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/01/30|Chapter 3 MCPを活用したAIチャットボット開発 <span style="color: red;">*finished*</span>
+  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/02/01|Chapter 4 並行処理とサブエージェントを使った開発手法 <span style="color: red;">*started*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
+
+##  コンテンツ
+
+  |Contents                                                    |Date      |Status
+  |------------------------------------------------------------|----------|---
+  | [Google Antigravityでエージェントファースト開発を始めよう](https://news.mynavi.jp/techplus/series/antigravity/)|2026/02/01|第２回 エージェントに指示してブックマーク管理アプリを作成する <span style="color: red;">*finished*</span>
 
 ### MCP入門
 ```
@@ -39,11 +45,12 @@ AIエージェントを活用した開発スタイルの修得
 ```
 - 進捗
 
-  Contents                                 |Finished
-  -----------------------------------------|---------
-  Chapter 1 Claude Code入門と開発環境構築     |2026/01/24
-  Chapter 2 Claude CodeによるAI駆動開発の基礎 |2026/01/25
-  Chapter 3 MCPを活用したAIチャットボット開発   |2026/01/30
+  Contents                                      |Finished
+  ----------------------------------------------|---------
+  Chapter 1 Claude Code入門と開発環境構築          |2026/01/24
+  Chapter 2 Claude CodeによるAI駆動開発の基礎       |2026/01/25
+  Chapter 3 MCPを活用したAIチャットボット開発        |2026/01/30
+  Chapter 4 並行処理とサブエージェントを使った開発手法 |
 
   - TODOアプリ作成
     - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
@@ -53,12 +60,16 @@ AIエージェントを活用した開発スタイルの修得
     - [Google Cloud](https://cloud.google.com/)
     - [MongoDB Atlas](https://cloud.mongodb.com/)
 
+  - 営業日報システム
+    - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
+
 ##  環境
 ### 基本環境
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.19         |[2026/01/24](https://claude.ai/)
+  |Windows Insider |Claude Code 2.1.39         |[2026/02/11](https://claude.ai/)
+  |macOS           |Claude Code 2.1.31         |2026/02/04
 
 ### MCP入門
 
@@ -73,6 +84,21 @@ AIエージェントを活用した開発スタイルの修得
   |                |- openai 2.15.0            |2026/01/17
 
 ### AI駆動開発入門
+  - 営業日報システム
+
+  |Machine         |Env / FW                   |Last Updated
+  |----------------|---------------------------|----------
+  |Windows Insider |Next.js 16.1.6             |2026/02/02
+  |                |- React 19.2.4             |2026/02/02
+  |                |- Bun 1.3.8                |2026/02/07
+  |                |- Prisma 6.19.2            |2026/02/02
+  |                |- husky 9.1.7              |2026/02/02
+  |                |- zod 4.3.6                |2026/02/02
+  |                |- bcryptjs 3.0.3           |2026/02/03
+  |                |- jose 5.10.0              |2026/02/03
+  |                |- clsx 2.1.1               |2026/02/07
+  |                |- tsx 4.19.4               |2026/02/08
+
   - AIチャットボット
 
   |Machine         |Env / FW                   |Last Updated
@@ -102,6 +128,16 @@ AIエージェントを活用した開発スタイルの修得
 
 ### 基本構成
 ![技術要素構成](/images/mcp/architecture.png)
+
+### Gemini
+- [依頼用プロンプト例](/sub/Gemini/Prompt1)
+
+### [Open AI](https://platform.openai.com/)
+- Open AI API利用
+  - APIキーの作成
+    ![CreateAPIKey1](/images/OpenAI/20251020_CreateAPIKey.png)
+    ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
+    ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### Claude AI
 - [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
@@ -279,9 +315,10 @@ AIエージェントを活用した開発スタイルの修得
   - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
   - [instructions.md](/knowhow/sub/Generative/instructions)
 
-- [Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=ja)
-  ```
-  (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
-
-  & $env:Temp\GoogleCloudSDKInstaller.exe
-  ```
+- Claude Codeスキル
+  - スキルとは、Claude Codeで繰り返し使用するワークフローをカスタムコマンドとして定義する機能
+  - 作成手順
+    1. プロジェクトルートに `.claude/skills` ディレクトリを作成
+    2. スキルファイル（Markdown形式）を作成
+       - ファイル名がスキル名になる（例: `update-digest.md` → `/update-digest`）
+    3. Claude Codeで `/スキル名` と入力して実行

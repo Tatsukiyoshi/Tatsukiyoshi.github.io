@@ -28,7 +28,7 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.6](#bun)                  |[2026/01/23](https://bun.sh/)
+      |                |        |[Bun 1.3.8](#bun)                  |[2026/02/07](https://bun.sh/)
       |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -128,7 +128,7 @@ sidebar:
           ```
           node -v
           ```
-      - Chrome OS Flex
+      - ChromeOS Flex
         - [nvmインストール](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
           ```
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -137,6 +137,10 @@ sidebar:
           ```
           nvm install node
           ```
+    - セキュリティ対策
+      - パスワードのハッシュ化（bcrypt）
+      - JWT（JSON Webトークン）の検証（JOSE）
+
     - トラブルシューティング
       - キャッシュクリア
         ```
@@ -221,7 +225,7 @@ sidebar:
           </details>
 
           ![Deno Install](/images/JavaScript/Deno_install.png)
-        - Chrome OS Flex
+        - ChromeOS Flex
           ```sh
           curl -fsSL https://deno.land/x/install/install.sh | sh
           ```

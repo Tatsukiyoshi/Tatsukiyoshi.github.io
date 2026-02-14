@@ -11,7 +11,7 @@ sidebar:
 - 今週は何といっても、Apple系OSのアップデート祭り！
   - リスキリング環境としては、macOS Tahoe 26へのアップデートと、Xcode 26への更新
 - LLVM 21.1.1の公開を受け、Carbon環境を更新
-- Chrome OS FlexもM-140系にアップデート
+- ChromeOS FlexもM-140系にアップデート
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 ---
@@ -44,7 +44,7 @@ sidebar:
 - **＜.NET＞** [Windows App SDK 1.8.0に更新](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
 
 ##  【9/20】
-- **＜OS＞**  [Chrome OS FlexをM-140系にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS FlexをM-140系にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - 初回は、140.0.7339.201にアップデート
 
 - **＜Rust＞**  [Rustを1.90に更新](https://www.rust-lang.org/)

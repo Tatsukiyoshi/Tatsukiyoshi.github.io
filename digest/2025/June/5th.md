@@ -30,7 +30,7 @@ sidebar:
   - Rustと組み合わせて環境構築したMongoDBを最新化
 
 # 【7/3】
-- **＜OS＞**  [Chrome OS FlexをようやくM-137系(137.0.7151.132)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS FlexをようやくM-137系(137.0.7151.132)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 # 【7/4】
 - **＜TypeScript＞**  [Angularの更新、20.0.6で完了](https://angular.dev/)

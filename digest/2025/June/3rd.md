@@ -29,7 +29,7 @@ sidebar:
 - **＜開発ツール＞**  [Visual Studio Code を May 2025 Recovery 1(1.101.1)に更新](https://code.visualstudio.com/)
 
 # 【6/21】
-- **＜OS＞**  [Chrome OS Flexを136.0.7103.158にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS Flexを136.0.7103.158にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜開発ツール＞**  [Mec OS の Git を2.50.0に更新](https://git-scm.com/download)
 

@@ -29,9 +29,9 @@ sidebar:
   - 同時に、Bun 1.3.4に更新
 
 ##  【12/08】
-- **＜OS＞**  [Chrome OS Flex 142.0.7444.220](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 142.0.7444.220](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
-- **＜Rust＞**  [Tauri 2.9.4](https://tauri.app/)に更新 【Chrome OS Flex】
+- **＜Rust＞**  [Tauri 2.9.4](https://tauri.app/)に更新 【ChromeOS Flex】
   - 同時に、Bun 1.3.4およびVite 7.2.7に更新
 
 - **＜Carbon＞**  CLang 21.1.8への更新を受け、[Carbon](https://github.com/carbon-language/carbon-lang)環境を更新 【Ubuntu 24.04.3 on WSL】
@@ -42,7 +42,7 @@ sidebar:
 
 - **＜Rust＞**  [Tauri 2.9.5](https://tauri.app/)が公開されたため、Tauri 2.9.5に更新 【macOS】
   - 同時に、Bun 1.3.4およびVite 7.2.7に更新
-  - 更新したばかりのWindowsおよびChrome OS Flexは追随することに
+  - 更新したばかりのWindowsおよびChromeOS Flexは追随することに
 
 ##  【12/10】
 - **＜.NET＞**  [Visual Studio Community 2026 18.1.0](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)に更新
@@ -59,7 +59,7 @@ sidebar:
   - 独学に使用するPythonを最新化(3.14.2)
 
 ##  【12/13】
-- **＜OS＞**  [Chrome OS Flex 142.0.7444.234](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 142.0.7444.234](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 - **＜OS＞**  [WSL 2.7.0.0](https://github.com/microsoft/WSL)
   - プレリリース版の最新バージョン
@@ -68,4 +68,4 @@ sidebar:
   - 12/11に[Rust 1.92](https://www.rust-lang.org/)が公開されたので、併せて更新
   - 動作検証に使用しているMongoDBを[MongoDB 8.2.2](https://www.mongodb.com/ja-jp)に更新
 
-- **＜Rust＞**  [Tauri 2.9.5](https://tauri.app/)に更新 【Windows, Chrome OS Flex】
+- **＜Rust＞**  [Tauri 2.9.5](https://tauri.app/)に更新 【Windows, ChromeOS Flex】

@@ -32,7 +32,7 @@ sidebar:
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
-      |               |[RustRover 2025.3.2](#rustrover)               |[2026/01/23](https://www.jetbrains.com/rust/)
+      |               |[RustRover 2025.3.3](#rustrover)               |[2026/02/01](https://www.jetbrains.com/rust/)
       |               |[Bevy 0.18.0](#game-engine)                    |[2026/01/23](https://bevyengine.org/)
       |               |[Slint 1.14.1](#slint)                         |[2026/01/23](https://slint.dev/)
 
@@ -46,11 +46,11 @@ sidebar:
       |                |- Bun 1.3.6     |2026/01/23
       |                |- Vite 7.3.1    |2026/01/23
 
-  1. Chrome OS Flex 142.0.7444.234 (Official Build)
+  1. ChromeOS Flex 142.0.7444.234 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |Chrome OS  |Rust 1.93                                 |2026/01/24
+      |ChromeOS  |Rust 1.93                                 |2026/01/24
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.9.5                               |2025/12/13
       |           |- React 19.2.3                            |2025/12/13
@@ -133,13 +133,13 @@ sidebar:
       ```
 
 ### RustRover
-  - RustRover 2025.3.2 Build #RR-253.29346.361, built on January 13, 2026 <span style="color: red;">**Updated 2026/01/23**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](/history/RustRover)
     ```
-    Source revision: 802d3c2c9fa39
+    Source revision: c3a2fac393b13
     ライセンス対象: Shinya Watanabe
     サブスクリプションは 2026年5月22日 まで有効です。
     For non-commercial use only.
-    Runtime version: 21.0.9+1-b1163.86 amd64 (JCEF 137.0.17)
+    Runtime version: 21.0.9+1-b1163.94 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -148,14 +148,14 @@ sidebar:
     Cores: 4
     Registry:
       ide.experimental.ui=true
+      llm.ai.assistant.toolwindow.activation.on.start=false
       org.toml.json.schema=false
       transferSettings.vscode.onlyCargoToml=true
-      llm.ai.assistant.toolwindow.activation.on.start=false
     Non-Bundled Plugins:
       com.jetbrains.space (253.29346.45)
-      ru.adelf.idea.dotenv (253.29346.379)
-      com.jetbrains.rust (253.29346.361)
-      com.intellij.ml.llm (253.29346.420)
+      ru.adelf.idea.dotenv (253.30387.154)
+      com.jetbrains.rust (253.30387.122)
+      com.intellij.ml.llm (253.30387.147)
     ```
   - データベース
     - ドライバのインストール＋データソース設定をすることでアクセス可能
@@ -395,8 +395,8 @@ sidebar:
       ![On macOS](/images/rust/20251218_Tauri2.9.5_macOS26.2.png)
     - macOS 26.1
       ![On macOS](/images/rust/20251209_Tauri2.9.5_macOS26.1.png)
-    - Chrome OS Flex
-      ![On Chrome OS Flex](/images/rust/20251213_Tauri2.9.5_Chrome_OS_Flex.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20251213_Tauri2.9.5_ChromeOS_Flex.png)
     - iOS 26.2 / iPhone 17 Pro
       ![On iOS 26.2](/images/rust/20251218_Tauri2.9.5_iPhone17_Pro_iOS26.2.png)
     - iOS 26.2 Beta / iPhone 17 Pro
@@ -534,7 +534,7 @@ sidebar:
           yarn
           yarn tauri dev
           ```
-    - Chrome OS Flex
+    - ChromeOS Flex
       1.  npmインストール
           ```
           sudo apt install npm -y
@@ -554,7 +554,7 @@ sidebar:
         sudo apt install libwebkit2gtk-4.0-dev
         ```
   - Tauri環境のアップデートについて
-    1.  windows 11 / Chrome OS Flex
+    1.  windows 11 / ChromeOS Flex
         ```
         % cargo update
         % npm update
@@ -584,7 +584,7 @@ sidebar:
         rustc 1.71.0 (8ede3aae2 2023-07-12)
         ```
         ![Tauri-app](/images/rust/20230728_tauri1.4_windows11_wsl.png)
-    1.  Chrome OS Flex
+    1.  ChromeOS Flex
         - Tauri環境確認
           ```
           bun tauri info
@@ -618,7 +618,7 @@ sidebar:
               - framework: React
               - bundler: Vite
           ```
-          ![Tauri-app](/images/rust/20240714_Tauri1.7.1_Chrome_OS_Flex.png)
+          ![Tauri-app](/images/rust/20240714_Tauri1.7.1_ChromeOS_Flex.png)
   - フロントエンドサーバのポート番号変更
     ```
     "build": {

@@ -39,7 +39,7 @@ sidebar:
 - **＜Carbon＞**  Ubuntu Desktop 25.04にて[Carbon](https://github.com/carbon-language/carbon-lang)を最新化
 
 ##  【10/17】
-- **＜OS＞**  [Chrome OS Flex 141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 141.0.7390.115](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 - **＜.NET＞**  [Visual Studio Community 2026 18.0.0 Insidersを 11111.16](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)に更新
   - [.NET 10.0.100-rc.2.25502.107](https://dotnet.microsoft.com/ja-jp/download/dotnet)に更新

@@ -7,7 +7,15 @@ sidebar:
 - Windows Insider History
   - [Dev Channel](https://aka.ms/DevLatest)
     - for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)
-      - Build 26300.7674 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7653 >>*</span>
+      - Build 26300.7760 (Quality Update) <span style="color: red;">*<<2026/02/11 updated from Build 26300.7733 >>*</span>
+        ![Quality Update](/images/Windows/20260211_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+          ![Version Information](/images/Windows/20260211_Windows11_Build26300.png)
+      - Build 26300.7733 (Quality Update) <span style="color: red;">*<<2026/02/04 updated from Build 26300.7674 >>*</span>
+        ![Quality Update](/images/Windows/20260204_WindowsUpdate_DevChannel.png)
+        - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+          ![Version Information](/images/Windows/20260204_Windows11_Build26300.png)
+      - Build 26300.7674 (Feature Update) <span style="color: red;">*<<2026/01/28 updated from Build 26220.7653 >>*</span>
         ![Feature Update](/images/Windows/20260128_WindowsUpdate_DevChannel.png)
         - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
           ![Version Information](/images/Windows/20260128_Windows11_Build26300.png)
@@ -471,6 +479,7 @@ sidebar:
       - メモ帳にタブがついた！
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
 - Windows History
+  - Windows 11 25H2 Build 26200.7705 <span style="color: red;">*<<2026/01/30 auto updated from 25H2>>*</span>
   - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)

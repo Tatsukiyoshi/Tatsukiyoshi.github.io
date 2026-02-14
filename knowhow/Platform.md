@@ -11,17 +11,17 @@ OS                                 |Hardware            |Language
 [Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
 [macOS](#Mac)                      |MacBook Air         |Rust / Flutter
-[Chrome OS Flex](#ChromeOSFlex)    |IdeaPad             |Rust / Flutter / Python / Go / PHP 
+[ChromeOS Flex](#ChromeOSFlex)     |IdeaPad             |Rust / Flutter / Python / Go / PHP 
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon
 
 - 移行計画
   - (v) Windows Insider環境 を OmniBook Ultra Flip に構築
   - (v) Windows on Arm環境追加（OmniBook X）
-  - (v) Chrome OS Flex環境を IdeaPad に再構築
+  - (v) ChromeOS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
-  - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
+  - Windows 11 25H2 Build 26200.7705 <span style="color: red;">*<<2026/01/30 auto updated from 25H2>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
       - バージョン情報
@@ -41,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26300.7674 (Quality Update) <span style="color: red;">*<<2026/01/22 updated from Build 26220.7653 >>*</span>
-      ![Feature Update](/images/Windows/20260128_WindowsUpdate_DevChannel.png)
+    - Build 26300.7760 (Quality Update) <span style="color: red;">*<<2026/02/11 updated from Build 26300.7733 >>*</span>
+      ![Quality Update](/images/Windows/20260211_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260128_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260211_Windows11_Build26300.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -184,11 +184,12 @@ OS                                 |Hardware            |Language
 
         </details>
       - ロック画面の温度表示
-        ![Weather](/images/Chrome/20260112_Chrome_OS_Flex_Weather.png)
+        ![Weather](/images/Chrome/20260112_ChromeOS_Flex_Weather.png)
       - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
         ```
         cat /etc/debian_version
         ```
+  - [リリース情報](https://helentech.jp/category/chromebook/chromeos/)
   - ノウハウ
     - セットアップ
     - [インストールガイド](https://support.google.com/chromeosflex/answer/11552529?hl=ja)
@@ -213,7 +214,7 @@ OS                                 |Hardware            |Language
         ```
     - アップデート
       - Visual Studio Code
-        ![Upgrade on Chrome OS Flex](/images/Chrome/20240119_code_1.85.2.png)
+        ![Upgrade on ChromeOS Flex](/images/Chrome/20240119_code_1.85.2.png)
     - カスタマイズ
       - 追加された「IPAmj明朝フォント」をVisual Studio Codeで使ってみた
         ![フォント設定](/images/Chrome/20240406_VSCode_IPAexMincho.png)

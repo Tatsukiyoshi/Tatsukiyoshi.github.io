@@ -25,11 +25,11 @@ sidebar:
       |               |[Android Studio Narwhal 4 2025.1.4 Canary 4](Kotlin#android-studio)   |2025/09/06
       |               |[Visual Studio Community 2026 18.0.0](NET)                            |2025/11/12
 
-  1. Chrome OS Flex 135.0.7049.104 (Official Build)
+  1. ChromeOS Flex 135.0.7049.104 (Official Build)
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |Chrome OS Flex |Flutter 3.27.1               |2025/01/02
+      |ChromeOS Flex |Flutter 3.27.1               |2025/01/02
       |               |Debian clang 14.0.6          |2025/01/02
       |               |cmake 3.25.1                 |2025/01/02
       |               |ninja 1.11.1                 |2025/01/02
@@ -38,7 +38,7 @@ sidebar:
 
       |Machine        |Env / FW                     |Last Updated
       |---------------|-----------------------------|----------
-      |macOS          |Flutter 3.39.0-1.0.pre-129   |2025/11/15
+      |macOS          |Flutter 3.41.0-1.0.pre-388   |2026/02/01
 
 ##  ノウハウ
 ### 設定
@@ -110,41 +110,41 @@ sidebar:
     </summary>
 
     ```
-    [✓] Flutter (Channel master, 3.38.0-1.0.pre-240, on macOS 26.0.1 25A362 darwin-arm64, locale ja-JP) [1,705ms]
-        • Flutter version 3.38.0-1.0.pre-240 on channel master at /Users/taishow2024/src/flutter
+    [✓] Flutter (Channel master, 3.41.0-1.0.pre-388, on macOS 26.2 25C56 darwin-arm64, locale ja-JP) [2.2s]
+        • Flutter version 3.41.0-1.0.pre-388 on channel master at /Users/taishow2024/src/flutter
         • Upstream repository https://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:x-oauth-basic@github.com/flutter/flutter.git
         • FLUTTER_GIT_URL = https://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:x-oauth-basic@github.com/flutter/flutter.git
-        • Framework revision 4f36fce1ee (9 hours ago), 2025-10-24 20:42:26 -0400
-        • Engine revision 4f36fce1ee
-        • Dart version 3.11.0 (build 3.11.0-57.0.dev)
-        • DevTools version 2.51.0
+        • Framework revision 37a8bb1feb (4 hours ago), 2026-02-01 00:01:27 -0500
+        • Engine revision 37a8bb1feb
+        • Dart version 3.12.0 (build 3.12.0-98.0.dev)
+        • DevTools version 2.54.0
         • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations,
-          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+          enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration, enable-riscv64
 
-    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.1s]
+    [✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0-rc1) [2.2s]
         • Android SDK at /Users/taishow2024/Library/Android/sdk
         • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
         • Platform android-36, build-tools 36.1.0-rc1
-        • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
-          This is the JDK bundled with the latest Android Studio installation on this machine.
+        • Java binary at: /opt/homebrew/opt/openjdk/bin/java
+          This JDK is specified by the JAVA_HOME environment variable.
           To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
-        • Java version OpenJDK Runtime Environment (build 21.0.8+-14018985-b1038.68)
+        • Java version OpenJDK Runtime Environment Homebrew (build 25.0.2)
         • All Android licenses accepted.
 
-    [✓] Xcode - develop for iOS and macOS (Xcode 26.0) [1,764ms]
+    [✓] Xcode - develop for iOS and macOS (Xcode 26.2) [1,709ms]
         • Xcode at /Applications/Xcode.app/Contents/Developer
-        • Build 17A324
+        • Build 17C52
         • CocoaPods version 1.16.2
 
-    [✓] Chrome - develop for the web [3ms]
+    [✓] Chrome - develop for the web [5ms]
         • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
-    [✓] Connected device (3 available) [10.9s]
-        • iPhone 17 Pro (mobile) • 156A82AF-0122-45D9-BB69-05425EF502E9 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-0 (simulator)
-        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.0.1 25A362 darwin-arm64
-        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 141.0.7390.123
+    [✓] Connected device (3 available) [7.5s]
+        • iPhone 17 Pro (mobile) • 333ACE51-7729-4670-AF90-C0A0719B7B5E • ios            • com.apple.CoreSimulator.SimRuntime.iOS-26-2 (simulator)
+        • macOS (desktop)        • macos                                • darwin-arm64   • macOS 26.2 25C56 darwin-arm64
+        • Chrome (web)           • chrome                               • web-javascript • Google Chrome 144.0.7559.110
 
-    [✓] Network resources [851ms]
+    [✓] Network resources [283ms]
         • All expected network resources are available.
 
     • No issues found!
@@ -153,7 +153,7 @@ sidebar:
 
     <details>
     <summary>
-    Chrome OS Flex
+    ChromeOS Flex
     </summary>
 
     ```
@@ -240,7 +240,7 @@ sidebar:
         ```xml
         <uses-permission android:name="android.permission.INTERNET"/>
         ```
-    - Chrome OS Flex
+    - ChromeOS Flex
       ```
       sudo apt install clang cmake ninja-build
       ```

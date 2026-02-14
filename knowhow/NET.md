@@ -352,11 +352,6 @@ sidebar:
 ### ASP.NET MVC
   - [ASP.NET MVC でCRUD](https://qiita.com/zaburo/items/610bd34df3c819c67551)
 
-### Azure
-  - [Azureポータル](https://portal.azure.com/#home)
-  - [Visual Studio Code を使用して Azure Functions を開発する](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-develop-vs-code?tabs=csharp)
-    ![ブラウザから実行してみた](/images/Azure/20230701_FunctionsTrial.png)
-
 ### Blazor
   - [Blazor WebAssembly アプリケーションプログラミング自習書](https://qiita.com/jsakamoto/items/244163860b4626c02ba0)
   - [Getting Started with Blazor Scheduler Component](https://blazor.syncfusion.com/documentation/scheduler/getting-started)

@@ -41,7 +41,7 @@ sidebar:
     - その過程で、"Jetbrains AI"はまだまだいけてないことが発覚
 
 # 【5/17】
-- **＜OS＞** [Chrome OS Flex M-136（136.0.7103.102）にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞** [ChromeOS Flex M-136（136.0.7103.102）にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
   - M-135の最終版(135.0.7049.128)にアップデートした後に、M-136へのアップデート
 
 - **＜Database＞** [PostgreSQLを17.5に更新](https://www.enterprisedb.com/downloads/postgres)

@@ -32,10 +32,10 @@ sidebar:
 - **＜開発ツール＞**  [Zed 0.220.3](https://zed.dev/)に更新
 
 ##  【1/24】
-- **＜OS＞**  [Chrome OS Flex 143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 143.0.7499.203](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
   - [Antigravity](https://antigravity.io/)を導入
 
-- **＜Rust＞**  Rust 1.93@macOS / Chrome OS Flexに更新
+- **＜Rust＞**  macOSおよびChromeOS Flexで、Rust 1.93に更新
 
 - **＜JavaScript＞**  [Svelte 5.48.1](https://svelte.dev/)に更新
 
@@ -78,5 +78,10 @@ sidebar:
 - **＜Kotlin＞**  [Android Studio Panda 2025.3.2 Canary 1](https://developer.android.com/studio)に更新
 
 ##  【1/31】
+- **＜開発ツール＞**  [Cursor 2.4.23](https://www.cursor.com/)に更新
+
+- **＜MCP＞**  Claude Code スキル `/update-digest` を作成
+  - ダイジェスト更新作業を効率化するカスタムスキル
+
 - **＜.NET＞**  [.NET MAUI Blazorを学ぼう](https://codezine.jp/article/corner/1066) 第４回完了
   - .NET MAUI Blazorで構築したアプリを、モバイル環境に適用

@@ -33,7 +33,7 @@ sidebar:
 - **＜Database＞**  [MongoDB 8.1.3に更新](https://www.mongodb.com/ja-jp)
   - Rust 1.89単体の検証に活用
 
-- **＜Rust＞**  [Rust 1.89に更新](https://www.rust-lang.org/)@macOS & iOS 26 Beta 6 & Chrome OS Flex
+- **＜Rust＞**  [Rust 1.89に更新](https://www.rust-lang.org/)@macOS & iOS 26 Beta 6 & ChromeOS Flex
   - [Tauri 2.8.1](https://tauri.app/)が公開されたため、最新版で動作検証
 
 - **＜Flutter＞** [Flutter masterチャネルより、3.33.0-1.0.pre-1468に更新](https://docs.flutter.dev/release/release-notes)@macOS
@@ -41,7 +41,7 @@ sidebar:
   - 検証は、先週から活用している[Jules](https://jules.google.com/)とともに実施
 
 ##  【8/21】
-- **＜OS＞**  [Chrome OS Flex 139.0.7258.137にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS Flex 139.0.7258.137にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 ##  【8/22】
 - **＜OS＞**  [macOS Sequoia 15.6.1にアップデート](https://www.apple.com/jp/macos/macos-sequoia/)

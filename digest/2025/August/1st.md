@@ -36,6 +36,6 @@ sidebar:
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26200.5742 が配信されたので、アップデート](https://aka.ms/DevLatest)
   - スタートメニューから連携しているスマートフォンにアクセス可能
 
-- **＜OS＞** [Chrome OS FlexをM-138系(138.0.7204.221)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞** [ChromeOS FlexをM-138系(138.0.7204.221)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜.NET＞** [Visual Studio Community 2022を17.14.11に更新](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)

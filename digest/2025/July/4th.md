@@ -41,7 +41,7 @@ sidebar:
   - 以前導入したMoralerspaceが7/28に更新されたので、さっそく導入！
 
 # 【8/1】
-- **＜OS＞** [Chrome OS FlexをM-138系(138.0.7204.178)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞** [ChromeOS FlexをM-138系(138.0.7204.178)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜TypeScript＞** [React Nativeを0.80.2に更新](https://reactnative.dev/)
   - 先行して、macOSでiOSシミュレータで検証したため、Windowsでも検証

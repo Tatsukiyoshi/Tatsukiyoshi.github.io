@@ -39,7 +39,7 @@ sidebar:
 - **＜.NET＞**  [Math.NET 6.0.0-beta2でKDEを検証](https://numerics.mathdotnet.com/)
 
 ##  【10/3】
-- **＜OS＞**  [Chrome OS Flex 140.0.7339.229にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS Flex 140.0.7339.229にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜開発ツール＞** [Visual Studio Code August 2025 Recovery 3(1.104.3)に更新](https://code.visualstudio.com/)
 

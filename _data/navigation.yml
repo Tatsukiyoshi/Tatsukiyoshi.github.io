@@ -31,6 +31,8 @@ environment:
     url: /knowhow/Tools
   - title: "Services"
     url: /knowhow/Services
+  - title: "Hosting"
+    url: /knowhow/Hosting
 digest:
   - title: "All Posts"
     url: /digest/list

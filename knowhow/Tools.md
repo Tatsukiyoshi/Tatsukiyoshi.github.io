@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code December 2025 Recovery 2(1.108.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/01/23 updated from 1.108.1>>*</span>
+- [Visual Studio Code January 2026 Recovery 2(1.109.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/11 updated from 1.109.1>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -20,14 +20,14 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [Antigravity 1.15.8](https://antigravity.google/) <span style="color: red;">*<<2026/01/28 updated from 1.14.2 >>*</span>
+- [Antigravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
   - セットアップ
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
-  - for Chrome OS Flex / Linux(Debian/Ubuntu) 
+  - for ChromeOS Flex / Linux(Debian/Ubuntu) 
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -46,18 +46,21 @@ OS/言語を問わず利用するツールの情報
         ```
   - 日本語化
     - 拡張機能からMicrosoftが提供するLanguage Packをインストールする
+  - 更新
+    - Visual Studio Codeのクローンですけど！
+      ![Updating](/images/Antigravity/20260205_Antigravity_Updating.png)
 
 - [Zed](https://zed.dev)
   ```
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.221.5](https://zed.dev/windows) <span style="color: red;">*<<2026/01/30 updated from 0.220.7>>*</span>
+    - [Zed 0.222.4](https://zed.dev/windows) <span style="color: red;">*<<2026/02/06 updated from 0.222.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.220.3](https://zed.dev) <span style="color: red;">*<<2026/01/23 Re-installed>>*</span>
+    - [Zed 0.222.2](https://zed.dev) <span style="color: red;">*<<2026/02/05 updated from 0.220.3>>*</span>
 
-- [Cursor 2.3.41](https://www.cursor.com/) <span style="color: red;">*<<2026/01/21 installed>>*</span>
+- [Cursor 2.4.28](https://www.cursor.com/) <span style="color: red;">*<<2026/02/05 updated from 2.4.23>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
@@ -122,9 +125,13 @@ OS/言語を問わず利用するツールの情報
     - 3.4.2 -> 3.4.5 NG
 
 - [GitHub CLI 2.85](https://cli.github.com/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
-  - インストール
+  - インストール@Windows
     ```
     winget install --id GitHub.cli
+    ```
+  - インストール@macOS
+    ```
+    brew install gh
     ```
 
 - [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download) <span style="color: red;">*<<2026/01/30 Auto Updated from 1.0.2339 >>*</span>
@@ -145,6 +152,9 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
+- [Codex 260204.1342](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/05 updated from 260202.859>>*</span>
+  ![Codex](/images/macOS/20260203_macOS_Codex.png)
+
 - Xcode
   - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
   - iOS Simulatorの更新
@@ -162,7 +172,7 @@ OS/言語を問わず利用するツールの情報
     - [Xcode 16.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/05/31 Updated from 16.3>>*</span>
       ![iOS 18.5 Simulator](/images/macOS/20250531_Download_iOS18.5_Simulator.png)
 - Homebrew 5.0.5 <span style="color: red;">*<<2025/12/09 Updated>>*</span>
-- [CocoaPods 1.16.2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2025/01/09 Updated from 1.16.1>>*</span>
+- [CocoaPods 1.16.2_2](https://github.com/CocoaPods/CocoaPods) <span style="color: red;">*<<2026/02/01 Updated from 1.16.2_1>>*</span>
   - Homebrew / CocoaPodsのインストール
     ```
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

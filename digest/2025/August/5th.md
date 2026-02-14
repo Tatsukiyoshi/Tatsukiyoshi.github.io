@@ -26,10 +26,10 @@ sidebar:
 - **＜Kotlin＞**  **[macOS]**Kotlin Multiplatform Mobile に取り組むために導入したAndroid Studioを[Android Studio Narwhal 3 2025.1.3に更新](https://developer.android.com/studio)
 
 ##  【9/4】
-- **＜OS＞**  [Chrome OS Flex 139.0.7258.164にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞**  [ChromeOS Flex 139.0.7258.164にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜Rust＞**  [Tauri 2.8.5に更新](https://tauri.app/)
-  - **[Chrome OS Flex]**Vite 7.1.4に対応に合わせ、[Node.JSを最新化（24.7）](https://nodejs.org/en)
+  - **[ChromeOS Flex]**Vite 7.1.4に対応に合わせ、[Node.JSを最新化（24.7）](https://nodejs.org/en)
 
 ##  【9/5】
 - **＜開発ツール＞**  [Xcode 26 Beta 7に更新](https://developer.apple.com/jp/xcode/)

@@ -55,7 +55,7 @@ sidebar:
 
 - **＜OS＞**  [macOS Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)にアップデート
 
-- **＜OS＞**  [Chrome OS Flex 140.0.7339.242](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 140.0.7339.242](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 - **＜.NET＞**  [Visual Studio Community 2026 18.0.0 Insidersを 11109.219](https://learn.microsoft.com/en-us/visualstudio/releases/vs18/release-notes-insiders)に更新
 

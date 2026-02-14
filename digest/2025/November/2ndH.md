@@ -15,7 +15,7 @@ sidebar:
 # Daily
 
 ##  【11/16】
-- **＜OS＞**  [Chrome OS Flex 142.0.7444.147](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 142.0.7444.147](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
   - **＜Database＞**  PostgreSQL 18.1に更新
 
 ##  【11/18】
@@ -29,7 +29,7 @@ sidebar:
 ##  【11/22】
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26220.7271 (Quality Update)](https://aka.ms/DevLatest)が配信されたので、アップデート
 
-- **＜OS＞**  [Chrome OS Flex 142.0.7444.181](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
+- **＜OS＞**  [ChromeOS Flex 142.0.7444.181](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 
 ##  【11/23】
 - **＜OS＞**  [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download)のカーネルを**6.17.0-6**にアップデート

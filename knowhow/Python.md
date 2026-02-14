@@ -14,7 +14,7 @@ sidebar:
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Chrome OS       |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
+  |ChromeOS       |[Python 3.13.2](#python-1) |[2025/03/08](https://www.python.org/downloads/)
   |                |pip 25.2                   |2025/09/21
   |                |Django 5.1.7               |[2025/03/08](https://www.djangoproject.com/)
   |                |TkEasyGUI 1.0.38           |[2025/09/21](https://github.com/kujirahand/tkeasygui-python)
@@ -23,7 +23,7 @@ sidebar:
 
 ##  ノウハウ
 ### Python
-  - install on Debian 12 @ Chrome OS Flex
+  - install on Debian 12 @ ChromeOS Flex
     - [Install Python 3.11 on Debian 12 / Debian 11](https://cloudspinx.com/how-to-install-python-on-debian/)
 
     - パッケージのインストール

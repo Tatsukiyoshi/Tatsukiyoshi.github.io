@@ -31,11 +31,11 @@ sidebar:
 - **＜開発ツール＞** [Visual Studio CodeをJuly 2025 Recovery 1(1.103.1)に更新](https://code.visualstudio.com/)  
 
 ##  【8/15】
-- **＜OS＞** [Chrome OS FlexをM-138系(138.0.7204.232)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+- **＜OS＞** [ChromeOS FlexをM-138系(138.0.7204.232)にアップデート](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 
 - **＜Rust＞** [RustRoverを2025.2に更新](https://www.jetbrains.com/rust/) 
 
-- **＜Database＞** [PostgreSQLを17.6に更新](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)＠Chrome OS Flex
+- **＜Database＞** [PostgreSQLを17.6に更新](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)＠ChromeOS Flex
 
 ##  【8/16】
 - **＜OS＞**  [Windows 11 Insider Preview (Dev Channel) Build 26200.5751 が配信されたので、アップデート](https://aka.ms/DevLatest)
@@ -63,6 +63,6 @@ sidebar:
   - markdownで貼り付けできるように出力してください
 
 ##  活用成果
-- "OS"という指示だけだったためか、WindowsやChrome OS Flexのアップデート作業が抽出できず
+- "OS"という指示だけだったためか、WindowsやChromeOS Flexのアップデート作業が抽出できず
 - 一方、"開発ツール"という指示だけで、Visual Studio CodeやXCodeの更新作業を抽出するという一貫性のなさが判明
 - 次回以降、プロンプトの内容を見直していくこととする
