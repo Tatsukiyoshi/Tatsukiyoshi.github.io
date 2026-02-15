@@ -387,8 +387,9 @@ sidebar:
           ```
   - Android
     - Android Canary
-      - API 36 Canary
-        ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+      ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+    - Android 17 (Cinnamon Bun Preview) (*2026/02/15* <span style="color: red;">Checked!</span>)
+      ![Resizable](/images/Android/20260215_Resizable_Devices.png)
     - Android 16 (API 36.1)
       ![MyApplication](/images/Android/20250928_MyApplication_API36.1.png)
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
