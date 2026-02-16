@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code January 2026 Recovery 2(1.109.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/11 updated from 1.109.1>>*</span>
+- [Visual Studio Code January 2026 Recovery 3(1.109.3)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/16 updated from 1.109.2>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -58,7 +58,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 0.222.4](https://zed.dev/windows) <span style="color: red;">*<<2026/02/06 updated from 0.222.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.222.2](https://zed.dev) <span style="color: red;">*<<2026/02/05 updated from 0.220.3>>*</span>
+    - [Zed 0.223.3](https://zed.dev) <span style="color: red;">*<<2026/02/16 updated from 0.222.2>>*</span>
 
 - [Cursor 2.4.28](https://www.cursor.com/) <span style="color: red;">*<<2026/02/05 updated from 2.4.23>>*</span>
   ```
