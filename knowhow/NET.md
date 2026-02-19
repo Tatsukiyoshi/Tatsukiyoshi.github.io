@@ -22,9 +22,9 @@ sidebar:
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.3.0               |[2026/02/14](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |Windows Insider |Visual Studio Community 2026 18.3.1               |[2026/02/19](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   |                |- .NET 10.0.3                                     |[2026/02/14](https://dotnet.microsoft.com/ja-jp/download/dotnet)
-  |                |  - [MAUI 10.0.30](#maui)                         |[2026/01/16](https://github.com/dotnet/maui)
+  |                |  - [MAUI 10.0.41](#maui)                         |[2026/02/19](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
@@ -35,8 +35,8 @@ sidebar:
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  - 2月 2026 機能更新プログラム(18.3.0) <span style="color: red;">*<<2026/02/14 updated from 18.2.1>>*</span>
-    ![VS2026 18.3.0](/images/VisualStudio/20260214_Update_VS2026_18.3.0.png)
+  - 2月 2026 機能更新プログラム(18.3.1) <span style="color: red;">*<<2026/02/19 updated from 18.3.0>>*</span>
+    ![VS2026 18.3.1](/images/VisualStudio/20260219_Update_VS2022_17.14.27_VS2026_18.3.1.png)
   - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
   - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
     - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
@@ -127,27 +127,27 @@ sidebar:
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11505.172
+      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11512.155
       マニフェストのバージョン:    36.1.2/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.2\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11505.172
+      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11512.155
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.1.10494\WorkloadManifest.json   
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11505.172
+      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11512.155
       マニフェストのバージョン:    26.1.10494/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json   
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.1.10494\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11505.172
+      インストール ソース: SDK 10.0.100, VS 17.14.36930.0, VS 18.3.11512.155
       マニフェストのバージョン:    10.0.0/10.0.100
-      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.0\WorkloadManifest.json      
       インストールの種類:              Msi
 
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
@@ -309,6 +309,8 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
+      - 18.3.1 / MAUI 10.0.41 / Resizable (Android 16)
+        ![MAUI - Resizable](/images/VisualStudio/20260219_VS2026_18.3.1_MAUI10.0.41_AndroidResizable.png)
       - 18.2.1 / MAUI Blazor / Pixel 9a (Android 16)
         ![MAUI Blazor](/images/VisualStudio/20260131_VS2026_18.2.1_MAUI_Blazor_Android16.png)
       - 18.2.0 / MAUI 10.0.30 / Pixel 9a (Android 16)
