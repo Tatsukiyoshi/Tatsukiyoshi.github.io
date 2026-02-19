@@ -32,7 +32,7 @@ Tools               |Win|mac|Chr|Updated   |Detail
 Git                 | * | * | * |2025/12/09|[2.52.0](https://git-scm.com/download)
 Visual Studio Code  | * | * | * |2026/02/17|[1.109.4](https://code.visualstudio.com/)
 Antigravity         | * | - | * |2026/02/05|[1.16.5](https://antigravity.google/)
-Zed                 | * | * | - |2026/02/16|[0.223.3](https://zed.dev)
+Zed                 | * | * | - |2026/02/19|[0.224.6](https://zed.dev)
 Claude Code         | * | * | - |2026/02/11|[2.1.39](https://claude.ai/)
 Cursor              | * | - | - |2026/02/05|[2.4.28](https://www.cursor.com/)
 Codex               |   | * |   |2026/02/16|[26.212.1823](https://openai.com/ja-JP/codex/)

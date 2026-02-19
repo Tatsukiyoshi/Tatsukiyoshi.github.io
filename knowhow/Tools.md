@@ -58,7 +58,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 0.222.4](https://zed.dev/windows) <span style="color: red;">*<<2026/02/06 updated from 0.222.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.223.3](https://zed.dev) <span style="color: red;">*<<2026/02/16 updated from 0.222.2>>*</span>
+    - [Zed 0.224.6](https://zed.dev) <span style="color: red;">*<<2026/02/19 updated from 0.223.3>>*</span>
 
 - [Cursor 2.4.28](https://www.cursor.com/) <span style="color: red;">*<<2026/02/05 updated from 2.4.23>>*</span>
   ```
