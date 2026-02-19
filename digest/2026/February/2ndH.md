@@ -12,8 +12,9 @@ sidebar:
 
 - macOS Tahoe 26.3へのアップデート
 - 開発ツールのアップデート（VS Code 1.109.4, Zed 0.224.6, Claude Code 2.1.47等）
-- .NET / Visual Studio Community 2026 18.3.0への更新
+- Visual Studio Community 2026 18.3.0 → 18.3.1 / .NET MAUI 10.0.41への更新
 - Flutter 3.41.1への更新
+- Android Studio Panda 2025.3.2 Canary 4への更新
 
 ## 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -43,3 +44,6 @@ sidebar:
 
 - **＜開発ツール＞** macOSで、[Zed 0.224.6](https://zed.dev)に更新
 - **＜MCP＞** macOSで、[Claude Code 2.1.47](https://claude.ai/)に更新
+- **＜.NET＞** [.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066) 第5回 .NET MAUI Blazorで生成した画像を保存する。ネイティブ機能との連携 完了
+- **＜.NET＞** [Visual Studio Community 2026 18.3.1](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes) / .NET MAUI 10.0.41 に更新
+- **＜Kotlin＞** [Android Studio Panda 2025.3.2 Canary 4](https://developer.android.com/studio) / Android Emulator v.36.5.4 に更新
