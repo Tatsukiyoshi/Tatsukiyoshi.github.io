@@ -16,7 +16,7 @@ sidebar:
 
   |Contents                                                    |Date      |Status
   |------------------------------------------------------------|----------|---
-  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2026/01/31|第４回 .NET MAUI Blazorで構築したアプリを、モバイル環境に適用しよう<span style="color: red;">*finished*</span>
+  |[.NET 9のテンプレート「.NET MAUI Blazor」を学ぼう。マルチターゲットアプリ開発の新しいアプローチ](https://codezine.jp/article/corner/1066)|2026/02/19|第５回 .NET MAUI Blazorで生成した画像を保存する。ネイティブ機能との連携<span style="color: red;">*finished*</span>
 
 ##  環境
 
@@ -309,6 +309,12 @@ sidebar:
 ### MAUI
   - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
     - Visual Studio Community 2026
+      - 18.3.1 / MAUI Blazor / Web (*2026/02/19* <span style="color: red;">Tried!</span>)
+        - Mobileでは生成エラーとなり、確認できず（次回連載にて、セキュアな実装になる予定）
+        - アプリ画面
+          ![MAUI Web](/images/VisualStudio/20260219_VS2026_18.3.1_MAUI_Blazor_Web.png)
+        - 生成画像をダウンロード
+          ![Saved Image](/images/VisualStudio/generated_20260219_222133.png)
       - 18.3.1 / MAUI 10.0.41 / Resizable (Android 16)
         ![MAUI - Resizable](/images/VisualStudio/20260219_VS2026_18.3.1_MAUI10.0.41_AndroidResizable.png)
       - 18.2.1 / MAUI Blazor / Pixel 9a (Android 16)
