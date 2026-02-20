@@ -73,9 +73,9 @@ sidebar:
       |                |        |- Bun 1.2.15                       |2025/05/22
       |                |        |- Vite 6.3.5                       |2025/05/21
       |                |Test FW |[Playwright 1.56.0](#pw)           |[2025/10/07](https://Playwright.dev/)
-      |                |Mobile  |[React Native 0.81](#rn)           |2025/08/16
-      |                |        |- Expo 53.0.20                     |2025/08/16
-      |                |        |- Bun 1.2.20                       |2025/08/16
+      |                |Mobile  |[React Native 0.83.2](#rn)         |2026/02/20
+      |                |        |- Expo 55.0.0-preview.11           |2026/02/20
+      |                |        |- Bun 1.3.8                        |2026/02/07
       |                |Gen AI  |[Genkit JS 1.21.0](#genkit)        |[2025/10/16](https://genkit.dev/)
 
   1.  macOS
@@ -386,6 +386,9 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+        - React Native 0.83.2 / Expo SDK 55.0.0-preview.11 / Pixel 9 Pro
+          - React 19.2.0
+            ![React Native 0.83.2 Android](/images/JavaScript/20260220_ReactNative_0.83.2_Pixel_9_Pro.png)
         - React Native 0.81.4 / Expo SDK 54.0.1 / iOS 26 / iPhone Air
           - React 19.1.0
             ![React Native 0.81.4 iOS](/images/macOS/20250916_ReactNative_0.81.4.png)
