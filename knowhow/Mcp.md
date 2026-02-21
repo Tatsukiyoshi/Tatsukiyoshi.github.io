@@ -154,7 +154,7 @@ AIエージェントを活用した開発スタイルの修得
     claude update
     ```
   - 不具合報告
-    [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347)
+    [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
