@@ -140,7 +140,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### Claude AI
-- [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
+- [Claude Code 2.1.47](https://claude.ai/) <span style="color: red;">*<<2026/02/11 updated from 2.1.39>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -153,6 +153,8 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
+  - 不具合報告
+    [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347)
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く

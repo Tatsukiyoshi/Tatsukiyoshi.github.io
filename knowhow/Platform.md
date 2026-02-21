@@ -45,6 +45,8 @@ OS                                 |Hardware            |Language
       ![Quality Update](/images/Windows/20260221_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260221_Windows11_Build26300.png)
+    - Two Copilots in System Tray
+      ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
