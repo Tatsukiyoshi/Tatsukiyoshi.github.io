@@ -20,7 +20,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [Antigravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
+- [AntiGravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -49,6 +49,8 @@ OS/言語を問わず利用するツールの情報
   - 更新
     - Visual Studio Codeのクローンですけど！
       ![Updating](/images/Antigravity/20260205_Antigravity_Updating.png)
+  - 不具合報告
+    - [[Critical Bug] Windows Issues: UI Clipping (Hidden Buttons) and Text Encoding Corruption](https://discuss.ai.google.dev/t/critical-bug-windows-issues-ui-clipping-hidden-buttons-and-text-encoding-corruption/125030) <span style="color: red;">*<<2026/02/21 posted>>*</span>
 
 - [Zed](https://zed.dev)
   ```
