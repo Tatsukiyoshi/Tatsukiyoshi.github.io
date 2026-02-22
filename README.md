@@ -31,7 +31,7 @@ Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2025/12/09|[2.52.0](https://git-scm.com/download)
 Visual Studio Code  | * | * | * |2026/02/20|[1.109.5](https://code.visualstudio.com/)
-AntiGravity         | * | - | * |2026/02/05|[1.16.5](https://antigravity.google/)
+AntiGravity         | * | - | * |2026/02/22|[1.18.4](https://antigravity.google/)
 Zed                 | * | * | - |2026/02/19|[0.224.6](https://zed.dev)
 Claude Code         | * | * | - |2026/02/19|[2.1.47](https://claude.ai/)
 Cursor              | * | - | - |2026/02/05|[2.4.28](https://www.cursor.com/)
@@ -66,7 +66,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[Database & SQL](/knowhow/Database)    |2026/02/02|Update: Postgres Best Practices
+[Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
 [Model Context Protocol](/knowhow/Mcp) |2026/02/08|Add: tsx 4.19.4
 [Documentation](/knowhow/Documentation)|-
