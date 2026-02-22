@@ -162,10 +162,15 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 143.0.7499.203 <span style="color: red;">*<<2026/01/23 updated from 143.0.7499.196>>*</span>
-    ![ChromeOS Flexバージョン情報](/images/Chrome/20260123_ChromeOS_Flex_143.0.7499.203.png)
-      - 更新中
-        ![Updating](/images/Chrome/20260123_ChromeOS_Flex_Updating143.0.7499.203.png)
+  - バージョン 144.0.7559.221 <span style="color: red;">*<<2026/02/22 updated from 143.0.7499.203>>*</span>
+    - 144系にアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260222_ChromeOS_Flex_144.0.7559.172.png)
+        - 更新中
+          ![Updating](/images/Chrome/20260222_ChromeOS_Flex_Updating144.0.7559.172.png)
+    - パッチアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260222_ChromeOS_Flex_144.0.7559.221.png)
+        - 更新中
+          ![Updating](/images/Chrome/20260222_ChromeOS_Flex_Updating144.0.7559.221.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -209,6 +214,7 @@ OS                                 |Hardware            |Language
         sudo apt install gcc
         ```
       - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+      - [ChromeOS Flex での VS Code 日本語入力環境構築](/knowhow/sub/Chrome/vscode_japanese_input) <span style="color: red;">*<<2026/02/22 added>>*</span>
       - Debianのバージョンを確認する方法
         ```
         cat /etc/debian_version
