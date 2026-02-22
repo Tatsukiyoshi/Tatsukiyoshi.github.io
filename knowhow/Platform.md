@@ -21,7 +21,7 @@ OS                                 |Hardware            |Language
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
-  - Windows 11 25H2 Build 26200.7705 <span style="color: red;">*<<2026/01/30 auto updated from 25H2>>*</span>
+  - Windows 11 25H2 Build 26200.7840 <span style="color: red;">*<<2026/02/11 auto updated from 25H2 Build 26200.7705>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
       - バージョン情報
