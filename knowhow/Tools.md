@@ -20,7 +20,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
+- [AntiGravity 1.18.4](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 re-setuped>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
