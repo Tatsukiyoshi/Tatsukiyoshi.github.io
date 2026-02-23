@@ -37,9 +37,28 @@ YYYY年M月上期/下期（YYYY/M/D～YYYY/M/D）に[リスキリング（プロ
 ##  【M/D】
 - **＜カテゴリ＞**  [ツール名 バージョン](URL)に更新/導入
   - 補足情報（必要に応じて）
-- OSアップデートや環境個別更新の表記：
-  - 例：macOSで、[Flutter 3.41.0-1.0.pre-388](https://flutter.dev/)に更新
-  - 例：macOSおよびChromeOS Flexで、Rust 1.93に更新
+```
+
+#### OS アップデートとツール更新の表記ルール
+
+**OS 自体のアップデート**（カテゴリ：OS）は OS 名をリンクテキストに含める：
+```
+- **＜OS＞** [macOS Tahoe 26.3](URL)にアップデート
+- **＜OS＞** [ChromeOS Flex 144.0.7559.221](URL)にアップデート
+- **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.7877 (Quality Update)](URL)にアップデート
+```
+
+**特定 OS でのツール更新**は「OS名で、」を前置する：
+```
+- **＜開発ツール＞** macOSで、[Zed 0.224.6](URL)に更新
+- **＜開発ツール＞** ChromeOS Flexで、[AntiGravity 1.18.4](URL)に更新
+- **＜Flutter＞** Windows Insiderで、[Flutter 3.41.1](URL)に更新
+- **＜TypeScript＞** macOSおよびChromeOS Flexで、Rust 1.93に更新
+```
+
+全 OS 共通の更新は「OS名で、」を省略する：
+```
+- **＜開発ツール＞** [Visual Studio Code 1.109.5](URL)に更新
 ```
 
 ## カテゴリ一覧

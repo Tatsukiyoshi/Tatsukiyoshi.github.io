@@ -10,7 +10,7 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|-------
   |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/18|第10章 MCPエージェントを作る <span style="color: red;">*finished*</span>
-  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/02/01|Chapter 4 並行処理とサブエージェントを使った開発手法 <span style="color: red;">*started*</span>
+  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/02/15|Chapter 4 並行処理とサブエージェントを使った開発手法 <span style="color: red;">*finished*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
@@ -50,7 +50,7 @@ AIエージェントを活用した開発スタイルの修得
   Chapter 1 Claude Code入門と開発環境構築          |2026/01/24
   Chapter 2 Claude CodeによるAI駆動開発の基礎       |2026/01/25
   Chapter 3 MCPを活用したAIチャットボット開発        |2026/01/30
-  Chapter 4 並行処理とサブエージェントを使った開発手法 |
+  Chapter 4 並行処理とサブエージェントを使った開発手法 |2026/02/15
 
   - TODOアプリ作成
     - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
@@ -62,6 +62,8 @@ AIエージェントを活用した開発スタイルの修得
 
   - 営業日報システム
     - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
+    - 基本実装 <span style="color: red;">*<<2026/02/15 finished>>*</span>
+    - 残課題対応
 
 ##  環境
 ### 基本環境
