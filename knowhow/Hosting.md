@@ -9,6 +9,7 @@ sidebar:
   |Machine        |Env / FW                |Last Updated
   |---------------|------------------------|----------
   |Windows Insider|Google Cloud SDK 554.0.0|2026/01/30
+  |               |Vercel CLI 50.22.1      |2026/02/23
 
 ##  ノウハウ
 
@@ -16,6 +17,7 @@ sidebar:
 
   |Verify                   |FW              |Last Updated
   |-------------------------|----------------|----------
+  |MorningStatusApp         |Next.js 16.1.6  |[2026/02/23](https://morning-status-app.vercel.app/)
   |ReactGrid / ChartJs      |Next.js 16.0.0  |[2025/10/22](https://next-grid-chart.vercel.app/)
   |                         |Astro 5.14.1    |[2025/09/27](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.2.0    |[2025/10/18](https://graph-libraries.vercel.app/)
