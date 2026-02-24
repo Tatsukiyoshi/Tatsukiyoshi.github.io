@@ -70,7 +70,7 @@ AIエージェントを活用した開発スタイルの修得
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.47         |[2026/02/19](https://claude.ai/)
+  |Windows Insider |Claude Code 2.1.49         |[2026/02/24](https://claude.ai/)
   |macOS           |Claude Code 2.1.47         |2026/02/19
 
 ### MCP入門
@@ -142,7 +142,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### Claude AI
-- [Claude Code 2.1.47](https://claude.ai/) <span style="color: red;">*<<2026/02/11 updated from 2.1.39>>*</span>
+- [Claude Code 2.1.49](https://claude.ai/) <span style="color: red;">*<<2026/02/24 updated from 2.1.47>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -157,6 +157,8 @@ AIエージェントを活用した開発スタイルの修得
     ```
   - 不具合報告
     [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
+    - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
+      - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
