@@ -142,7 +142,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### Claude AI
-- [Claude Code 2.1.52](https://claude.ai/) <span style="color: red;">*<<2026/02/24 updated from 2.1.49>>*</span>
+- [Claude Code 2.1.56](https://claude.ai/) <span style="color: red;">*<<2026/02/25 updated from 2.1.52>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
