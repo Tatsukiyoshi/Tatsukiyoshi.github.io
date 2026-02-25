@@ -159,6 +159,7 @@ AIエージェントを活用した開発スタイルの修得
     [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
     - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
       - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
+    - macOSで日時を取得する際、currentDateを参照し、時刻まで取得しない不具合あり(2.1.56)
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く
