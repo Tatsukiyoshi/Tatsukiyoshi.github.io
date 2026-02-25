@@ -37,7 +37,7 @@ sidebar:
   - Windows
     - Git 2.53.0 <span style="color: red;">*<<2026/02/26 updated from 2.51.1>>*</span>
   - macOS
-    - Git 2.52.0 <span style="color: red;">*<<2025/12/09 updated from 2.51.1>>*</span>
+    - Git 2.53.0 <span style="color: red;">*<<2026/02/26 updated from 2.52.0>>*</span>
   - ユーザ設定
     ```
     $ git config --global user.name "John Doe"
