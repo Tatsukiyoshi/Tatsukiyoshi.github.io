@@ -11,12 +11,13 @@ sidebar:
 # Topic
 
 - macOS Tahoe 26.3へのアップデート
-- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.224.6, Claude Code 2.1.47等）
+- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.224.6, Claude Code 2.1.56等）
 - Visual Studio Community 2026 18.3.0 → 18.3.1 / .NET MAUI 10.0.41への更新
 - Flutter 3.41.1への更新
 - Android Studio Panda 2025.3.2 Canary 4への更新
 - Windows Insider Dev Channel Build 26300.7877 / ChromeOS Flex 144.0.7559.221へのアップデート
 - React Native 0.83.2 / PostgreSQL 18.2 等の更新
+- Vercel CLI 50.22.1の導入
 
 ## 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -66,3 +67,17 @@ sidebar:
 - **＜OS＞** [ChromeOS Flex 144.0.7559.221](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 - **＜開発ツール＞** ChromeOS Flexで、[AntiGravity 1.18.4](https://antigravity.google/)に更新
 - **＜開発ツール＞** ChromeOS Flexで、[PostgreSQL 18.2](https://www.postgresql.org/)に更新
+
+## 【2/23】
+
+- **＜開発ツール＞** Windowsで、[AntiGravity 1.18.4](https://antigravity.google/)を再セットアップ
+- **＜TypeScript＞** Windows Insiderで、[Vercel CLI 50.22.1](https://vercel.com/)を導入
+
+## 【2/24】
+
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.52](https://claude.ai/)に更新
+  - 2.1.51で起動できない不具合のため、2.1.49へのダウングレード後、2.1.52に更新
+
+## 【2/25】
+
+- **＜MCP＞** [Claude Code 2.1.56](https://claude.ai/)に更新
