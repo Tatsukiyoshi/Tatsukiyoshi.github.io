@@ -35,7 +35,7 @@ sidebar:
     ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
 - [Git](https://git-scm.com/download)
   - Windows
-    - Git 2.51.1 <span style="color: red;">*<<2025/10/21 updated from 2.50.0>>*</span>
+    - Git 2.53.0 <span style="color: red;">*<<2026/02/26 updated from 2.51.1>>*</span>
   - macOS
     - Git 2.52.0 <span style="color: red;">*<<2025/12/09 updated from 2.51.1>>*</span>
   - ユーザ設定

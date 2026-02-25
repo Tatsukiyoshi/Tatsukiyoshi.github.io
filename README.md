@@ -29,7 +29,7 @@ Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
-Git                 | * | * | * |2025/12/09|[2.52.0](https://git-scm.com/download)
+Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
 Visual Studio Code  | * | * | * |2026/02/20|[1.109.5](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/02/23|[1.18.4](https://antigravity.google/)
 Zed                 | * | * | - |2026/02/25|[0.224.11](https://zed.dev)
