@@ -155,6 +155,11 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
+  - VSCode拡張機能を強制的に更新する方法
+    ```sh
+    $env:NODE_OPTIONS=""
+    code --install-extension Anthropic.claude-code --force
+    ```
   - 不具合報告
     [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
     - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
