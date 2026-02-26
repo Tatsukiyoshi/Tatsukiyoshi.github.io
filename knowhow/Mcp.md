@@ -1,5 +1,5 @@
 ---
-title:  Model Context Protocol
+title:  Model Context Protocol / Coding Agent
 layout: single
 classes:  wide
 sidebar:
@@ -70,7 +70,7 @@ AIエージェントを活用した開発スタイルの修得
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.58         |[2026/02/26](https://claude.ai/)
+  |Windows Insider |Claude Code 2.1.59         |[2026/02/26](https://claude.ai/)
   |macOS           |Claude Code 2.1.52         |2026/02/25
 
 ### MCP入門
@@ -142,7 +142,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### Claude AI
-- [Claude Code 2.1.58](https://claude.ai/) <span style="color: red;">*<<2026/02/26 updated from 2.1.56>>*</span>
+- [Claude Code 2.1.59](https://claude.ai/) <span style="color: red;">*<<2026/02/26 updated from 2.1.58>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -155,6 +155,7 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
+  - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
   - VSCode拡張機能を強制的に更新する方法
     ```sh
     $env:NODE_OPTIONS=""
