@@ -11,11 +11,11 @@ sidebar:
 # Topic
 
 - macOS Tahoe 26.3へのアップデート
-- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.224.6, Claude Code 2.1.56等）
+- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.224.11, Claude Code 2.1.63, Git 2.53.0等）
 - Visual Studio Community 2026 18.3.0 → 18.3.1 / .NET MAUI 10.0.41への更新
 - Flutter 3.41.1への更新
 - Android Studio Panda 2025.3.2 Canary 4への更新
-- Windows Insider Dev Channel Build 26300.7877 / ChromeOS Flex 144.0.7559.221へのアップデート
+- Windows Insider Dev Channel Build 26300.7939 / ChromeOS Flex 144.0.7559.221へのアップデート
 - React Native 0.83.2 / PostgreSQL 18.2 等の更新
 - Vercel CLI 50.22.1の導入
 
@@ -80,4 +80,20 @@ sidebar:
 
 ## 【2/25】
 
+- **＜開発ツール＞** macOSで、[Zed 0.224.11](https://zed.dev)に更新
+- **＜開発ツール＞** macOSで、[Codex 26.224.1209](https://openai.com/ja-JP/codex/)に更新
 - **＜MCP＞** [Claude Code 2.1.56](https://claude.ai/)に更新
+
+## 【2/26】
+
+- **＜開発ツール＞** WindowsおよびmacOSで、[Git 2.53.0](https://git-scm.com/download)に更新
+- **＜MCP＞** [Claude Code 2.1.59](https://claude.ai/)に更新
+
+## 【2/27】
+
+- **＜MCP＞** macOSで、[Claude Code 2.1.61](https://claude.ai/)に更新
+
+## 【2/28】
+
+- **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.7939 (Quality Update)](https://aka.ms/DevLatest)にアップデート
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.63](https://claude.ai/)に更新
