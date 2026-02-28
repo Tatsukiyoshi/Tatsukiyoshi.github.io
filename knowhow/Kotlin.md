@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.2 Canary 4](#AndroidStudio)    |[2026/02/19](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.3 Canary 2](#AndroidStudio)    |[2026/02/28](https://developer.android.com/studio)
       |                |- Kotlin 2.3.10                                             |[2026/02/11](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.5.4                                 |2026/02/19
+      |                |- Android Emulator v.36.5.5                                 |2026/02/28
 
   1. macOS Sequoia 15.6.1
 
@@ -305,9 +305,9 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 2 | 2025.3.2 Canary 4
+    - Android Studio Panda 3 | 2025.3.3 Canary 2
       ```
-      Build #AI-253.30387.90.2532.14877032, built on February 12, 2026
+      Build #AI-253.30387.90.2533.14944052, built on February 26, 2026
       Runtime version: 21.0.9+-14787801-b1163.94 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -317,149 +317,7 @@ sidebar:
         PropertyOverrides(cache.size=477):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
-        ServerFlagOverrides(Name: analytics/surveys/browser/STUDIO_PING
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: analytics/surveys/followup
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: analytics/surveys/sentiment/url
-              PercentEnabled: 100
-              Value: https://google.qualtrics.com/jfe/form/SV_4ZzP5RfbOtMwbxc
-              
-              Name: cxx/page_align_16kb
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: diagnostics/commit_timestamp
-              PercentEnabled: 50
-              Value: false
-              
-              Name: diagnostics/forced_gc
-              PercentEnabled: 50
-              Value: true
-              
-              Name: diagnostics/memory_usage_reporting
-              PercentEnabled: 35
-              Value: custom proto
-              
-              Name: exceptions/ClassCastException
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/ClassNotFoundException
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/PluginException-0073ff27
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/PluginException-8b332315
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_372743206
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_412486300
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_452882570
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_458923805
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: studio_flags/benchmark.survey.2026.enable
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/cloud.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/firebasetestlab.direct.access.monthly.quota
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/rundebug.adblib.migration.ddmlib.ideviceusage.tracker
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/rundebug.install.use.pm.terminate
-              PercentEnabled: 100
-              Value: false
-              
-              Name: studio_flags/studiobot.askgemini.include.build.files.in.context
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.chat.use.compose.for.ui
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.compiler.error.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.completions.per.hour
-              PercentEnabled: 100
-              Value: 36000
-              
-              Name: studio_flags/studiobot.conversations.per.hour
-              PercentEnabled: 100
-              Value: 500
-              
-              Name: studio_flags/studiobot.current.file.context
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.generations.per.hour
-              PercentEnabled: 100
-              Value: 3600
-              
-              Name: studio_flags/studiobot.inline.code.completion.file.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.npa.icon.image.generation.model.name
-              PercentEnabled: 100
-              Value: gemini-2.5-flash-image
-              
-              Name: studio_flags/studiobot.npa.mockup.image.generation.model.name
-              PercentEnabled: 100
-              Value: gemini-3-pro-image-preview
-              
-              Name: studio_flags/studiobot.project.facts.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot_gias_user_tier
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: studio_flags/studiobot_push_notifications/notification_flag_list
-              PercentEnabled: 100
-              Value: custom proto
-              
-              ):
-          rundebug.adblib.migration.ddmlib.ideviceusage.tracker=true
-          rundebug.install.use.pm.terminate=false
-          studiobot.askgemini.include.build.files.in.context=true
-          studiobot.compiler.error.context.enabled=true
-          studiobot.completions.per.hour=36000
-          studiobot.conversations.per.hour=500
-          studiobot.current.file.context=true
-          studiobot.generations.per.hour=3600
-          studiobot.inline.code.completion.file.context.enabled=true
-          studiobot.project.facts.context.enabled=true
+        ServerFlagOverrides(No server flags are enabled.):
         AgpReleaseBranchProvider(releasedWithAgp=true):
           gradle.ide.use.alongside.agp=true
         AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
@@ -471,7 +329,7 @@ sidebar:
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (502.0.0)
+        Dart (503.0.0)
         io.flutter (89.0.0)
       ```
   - macOS
@@ -547,6 +405,11 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Panda
+      - 2025.3.3
+        - Canary 2
+          - Gradle 9.4.0-rc.1
+          - Android Gradle Plugin 9.1.0-alpha09 -> 9.2.0-alpha02
+          - Android Emulator 36.5.5
       - 2025.3.2
         - Canary 4
           - Android Gradle Plugin 9.1.0-alpha08 -> 9.1.0-alpha09
