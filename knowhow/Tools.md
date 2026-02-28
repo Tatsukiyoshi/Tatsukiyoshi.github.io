@@ -20,7 +20,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.18.4](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 re-setuped>>*</span>
+- [AntiGravity 1.19.6](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 updated from 1.18.4>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -58,12 +58,12 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.222.4](https://zed.dev/windows) <span style="color: red;">*<<2026/02/06 updated from 0.222.2>>*</span>
+    - [Zed 0.225.10](https://zed.dev/windows) <span style="color: red;">*<<2026/02/28 updated from 0.222.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.224.11](https://zed.dev) <span style="color: red;">*<<2026/02/25 updated from 0.224.6>>*</span>
 
-- [Cursor 2.4.28](https://www.cursor.com/) <span style="color: red;">*<<2026/02/05 updated from 2.4.23>>*</span>
+- [Cursor 2.5.26](https://www.cursor.com/) <span style="color: red;">*<<2026/02/28 updated from 2.4.28>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
