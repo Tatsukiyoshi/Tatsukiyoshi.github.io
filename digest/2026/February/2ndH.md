@@ -11,12 +11,13 @@ sidebar:
 # Topic
 
 - macOS Tahoe 26.3へのアップデート
-- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.224.11, Claude Code 2.1.63, Git 2.53.0等）
+- 開発ツールのアップデート（VS Code 1.109.5, Zed 0.225.10, Cursor 2.5.26, Claude Code 2.1.63, Git 2.53.0等）
 - Visual Studio Community 2026 18.3.0 → 18.3.1 / .NET MAUI 10.0.41への更新
 - Flutter 3.41.1への更新
-- Android Studio Panda 2025.3.2 Canary 4への更新
-- Windows Insider Dev Channel Build 26300.7939 / ChromeOS Flex 144.0.7559.221へのアップデート
+- Android Studio Panda 2025.3.3 Canary 2 / IntelliJ IDEA 2025.3.3への更新
+- Windows Insider Dev Channel Build 26300.7939 / ChromeOS Flex 144.0.7559.221 / Ubuntu 24.04.4 LTS on WSL2へのアップデート
 - React Native 0.83.2 / PostgreSQL 18.2 等の更新
+- XCode 26.3 / Tauri 2.10.2への更新
 - Vercel CLI 50.22.1の導入
 
 ## 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
@@ -71,6 +72,7 @@ sidebar:
 ## 【2/23】
 
 - **＜開発ツール＞** Windowsで、[AntiGravity 1.18.4](https://antigravity.google/)を再セットアップ
+- **＜開発ツール＞** [AntiGravity 1.19.6](https://antigravity.google/)に更新
 - **＜TypeScript＞** Windows Insiderで、[Vercel CLI 50.22.1](https://vercel.com/)を導入
 
 ## 【2/24】
@@ -96,4 +98,13 @@ sidebar:
 ## 【2/28】
 
 - **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.7939 (Quality Update)](https://aka.ms/DevLatest)にアップデート
+- **＜OS＞** [Ubuntu 24.04.4 LTS on WSL2](https://www.releases.ubuntu.com/noble/)にアップデート
+- **＜開発ツール＞** macOSで、[Zed 0.225.10](https://zed.dev)に更新
+- **＜開発ツール＞** Windows Insiderで、[Zed 0.225.10](https://zed.dev/windows)に更新
+- **＜開発ツール＞** [Cursor 2.5.26](https://www.cursor.com/)に更新
+- **＜開発ツール＞** macOSで、[Codex 26.227.1448](https://openai.com/ja-JP/codex/)に更新
+- **＜開発ツール＞** macOSで、[Xcode 26.3](https://developer.apple.com/jp/xcode/)に更新
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.63](https://claude.ai/)に更新
+- **＜Rust＞** macOSで、[Tauri 2.10.2](https://tauri.app/) / Bun 1.3.10 に更新
+- **＜Kotlin＞** Windows Insiderで、[IntelliJ IDEA 2025.3.3](https://www.jetbrains.com/ja-jp/idea/)に更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio Panda 2025.3.3 Canary 2](https://developer.android.com/studio) / Android Emulator v.36.5.5 に更新
