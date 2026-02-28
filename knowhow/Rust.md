@@ -50,7 +50,7 @@ sidebar:
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |ChromeOS  |Rust 1.93                                 |2026/01/24
+      |ChromeOS   |Rust 1.93                                 |2026/01/24
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.9.5                               |2025/12/13
       |           |- React 19.2.3                            |2025/12/13
@@ -63,9 +63,9 @@ sidebar:
       |-----------|---------------------|----------
       |macOS      |Rust 1.93            |2026/01/23
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.9.5          |2025/12/09
+      |           |Tauri 2.10.2         |2026/02/28
       |           |- React 19.2.3       |2025/12/18
-      |           |- Bun 1.3.6          |2026/01/23
+      |           |- Bun 1.3.10         |2026/02/28
       |           |- Vite 7.3.1         |2026/01/23
 
 ##  ノウハウ
@@ -382,6 +382,11 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.10.2
+    - macOS 26.3
+      ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)
+    - iOS 26.2 / iPhone 17 Pro
+      ![On iOS 26.2](/images/rust/20260228_Tauri2.10.2_iPhone17_Pro_iOS26.2.png)
   - V2.9.5
     - Windows on Rust 1.93 + Svelte 5.48.0
       ![On Windows](/images/rust/20260123_Tauri2.9.5_Windows.png)

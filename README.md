@@ -35,12 +35,12 @@ AntiGravity         | * | - | * |2026/02/28|[1.19.6](https://antigravity.google/
 Zed                 | * | * | - |2026/02/28|[0.225.10](https://zed.dev)
 Claude Code         | * | * | - |2026/02/28|[2.1.63](https://claude.ai/)
 Cursor              | * | - | - |2026/02/28|[2.5.26](https://www.cursor.com/)
-Codex               |   | * |   |2026/02/25|[26.224.1209](https://openai.com/ja-JP/codex/)
+Codex               |   | * |   |2026/02/28|[26.227.1448](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
 mise                | * |   |   |2026/01/24|[2026.1.6](https://mise.jdx.dev/)
-Xcode               |   | * |   |2025/12/17|[26.2](https://developer.apple.com/jp/xcode/)
+Xcode               |   | * |   |2026/02/28|[26.3](https://developer.apple.com/jp/xcode/)
 CocoaPods           |   | * |   |2026/02/01|[1.16.2_2](https://github.com/CocoaPods/CocoaPods)
 GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
@@ -54,7 +54,7 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/02/19|Update: Visual Studio Community 2026 18.3.1 / .NET MAUI 10.0.41
-[Rust](/knowhow/Rust)            |2026/02/01|Update: RustRover 2025.3.3
+[Rust](/knowhow/Rust)            |2026/02/28|Update: Tauri 2.10.2
 [Kotlin](/knowhow/Kotlin)        |2026/02/28|Update: IntelliJ IDEA 2025.3.3 / Android Studio Panda 2025.3.3 Canary 2 / Android Emulator v.36.5.5
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
 [TypeScript](/knowhow/TypeScript)|2026/02/20|Update: React Native 0.83.2 / Expo 55.0.0-preview.11
