@@ -55,7 +55,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/02/19|Update: Visual Studio Community 2026 18.3.1 / .NET MAUI 10.0.41
 [Rust](/knowhow/Rust)            |2026/02/01|Update: RustRover 2025.3.3
-[Kotlin](/knowhow/Kotlin)        |2026/02/28|Update: Android Studio Panda 2025.3.3 Canary 2 / Android Emulator v.36.5.5
+[Kotlin](/knowhow/Kotlin)        |2026/02/28|Update: IntelliJ IDEA 2025.3.3 / Android Studio Panda 2025.3.3 Canary 2 / Android Emulator v.36.5.5
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
 [TypeScript](/knowhow/TypeScript)|2026/02/20|Update: React Native 0.83.2 / Expo 55.0.0-preview.11
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002

@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                    |Last Updated
       |----------------|------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.2](#intellij-idea)                    |[2026/02/01](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3.3](#intellij-idea)                    |[2026/02/28](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
@@ -36,10 +36,10 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.2 Build #IU-253.30387.90, built on January 22, 2026
+  - IntelliJ IDEA 2025.3.3 Build #IU-253.31033.145, built on February 20, 2026
     ```
-    Source revision: 61f1e2a0a8f30
-    Runtime version: 21.0.9+1-b1163.94 amd64 (JCEF 137.0.17)
+    Source revision: 212d61deaf3a8
+    Runtime version: 21.0.10+1-b1163.108 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -50,18 +50,12 @@ sidebar:
       ide.experimental.ui=true
       maven.packagesearch.enabled=false
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.30387.92)
-      org.jetbrains.completion.full.line (253.30387.90)
-      intellij.webp (253.28294.218)
-      Subversion (253.30387.154)
-      Dart (502.0.0)
-      com.intellij.spring (253.30387.154)
-      org.jetbrains.plugins.terminal (253.30387.92)
-      com.jetbrains.restClient (253.30387.92)
-      intellij.jupyter (253.30387.92)
-      org.jetbrains.android (253.30387.90)
+      org.jetbrains.completion.full.line (253.31033.145)
+      Dart (503.0.0)
+      com.intellij.ml.llm (253.31033.145)
+      org.jetbrains.android (253.31033.145)
       io.flutter (89.0.0)
-    Kotlin: 253.30387.90-IJ
+    Kotlin: 253.31033.145-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.2
