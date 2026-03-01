@@ -21,7 +21,7 @@ OS                                 |Hardware            |Language
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
-  - Windows 11 25H2 Build 26200.7705 <span style="color: red;">*<<2026/01/30 auto updated from 25H2>>*</span>
+  - Windows 11 25H2 Build 26200.7840 <span style="color: red;">*<<2026/02/11 auto updated from 25H2 Build 26200.7705>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
       - バージョン情報
@@ -41,10 +41,12 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26300.7760 (Quality Update) <span style="color: red;">*<<2026/02/11 updated from Build 26300.7733 >>*</span>
-      ![Quality Update](/images/Windows/20260211_WindowsUpdate_DevChannel.png)
+    - Build 26300.7939 (Quality Update) <span style="color: red;">*<<2026/02/28 updated from Build 26300.7877 >>*</span>
+      ![Quality Update](/images/Windows/20260228_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260211_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260228_Windows11_Build26300.png)
+    - Two Copilots in System Tray
+      ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -72,7 +74,7 @@ OS                                 |Hardware            |Language
 
       </details>
 
-    - [Ubuntu 24.04.3](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2025/08/17 updated from Ubuntu 24.04.2>>*</span>
+    - [Ubuntu 24.04.4](https://www.releases.ubuntu.com/noble/) <span style="color: red;">*<<2026/02/28 updated from Ubuntu 24.04.3>>*</span>
       - [Upgrade@2025/02/01](/knowhow/sub/Ubuntu/20250201_Upgrade)
 
       <details>
@@ -81,10 +83,10 @@ OS                                 |Hardware            |Language
       </summary>
 
       ```
-      PRETTY_NAME="Ubuntu 24.04.3 LTS"
+      PRETTY_NAME="Ubuntu 24.04.4 LTS"
       NAME="Ubuntu"
       VERSION_ID="24.04"
-      VERSION="24.04.3 LTS (Noble Numbat)"
+      VERSION="24.04.4 LTS (Noble Numbat)"
       VERSION_CODENAME=noble
       ID=ubuntu
       ID_LIKE=debian
@@ -150,21 +152,25 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Tahoe 26.2](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2025/12/17 updated from Sequoia 26.1>>*</span>
+  - [Tahoe 26.3](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/02/16 updated from Tahoe 26.2>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20251217_macOS_Tahoe26.2Update.png)
-      ![Updated](/images/macOS/20251217_macOS_Tahoe26.2Updated.png)
+      ![Update Check](/images/macOS/20260216_macOS_Tahoe26.3Update.png)
     - バージョン情報
-      ![Tahoe 26.2](/images/macOS/20251217_macOS_Tahoe26.2.png)
+      ![Tahoe 26.3](/images/macOS/20260216_macOS_Tahoe26.3.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 143.0.7499.203 <span style="color: red;">*<<2026/01/23 updated from 143.0.7499.196>>*</span>
-    ![ChromeOS Flexバージョン情報](/images/Chrome/20260123_ChromeOS_Flex_143.0.7499.203.png)
-      - 更新中
-        ![Updating](/images/Chrome/20260123_ChromeOS_Flex_Updating143.0.7499.203.png)
+  - バージョン 144.0.7559.221 <span style="color: red;">*<<2026/02/22 updated from 143.0.7499.203>>*</span>
+    - 144系にアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260222_ChromeOS_Flex_144.0.7559.172.png)
+        - 更新中
+          ![Updating](/images/Chrome/20260222_ChromeOS_Flex_Updating144.0.7559.172.png)
+    - パッチアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260222_ChromeOS_Flex_144.0.7559.221.png)
+        - 更新中
+          ![Updating](/images/Chrome/20260222_ChromeOS_Flex_Updating144.0.7559.221.png)
         <details>
         <summary>
         ディストリビューション・バージョン情報
@@ -208,6 +214,7 @@ OS                                 |Hardware            |Language
         sudo apt install gcc
         ```
       - [VS Codeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
+      - [ChromeOS Flex での VS Code 日本語入力環境構築](/knowhow/sub/Chrome/vscode_japanese_input) <span style="color: red;">*<<2026/02/22 added>>*</span>
       - Debianのバージョンを確認する方法
         ```
         cat /etc/debian_version

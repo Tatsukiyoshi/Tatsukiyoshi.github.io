@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code January 2026 Recovery 2(1.109.2)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/11 updated from 1.109.1>>*</span>
+- [Visual Studio Code January 2026 Recovery 5(1.109.5)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/20 updated from 1.109.4>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -20,7 +20,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [Antigravity 1.16.5](https://antigravity.google/) <span style="color: red;">*<<2026/02/05 updated from 1.15.8 >>*</span>
+- [AntiGravity 1.19.6](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 updated from 1.18.4>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -28,6 +28,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
+    - [Antigravity 1.18.4](https://antigravity.google/) <span style="color: red;">*<<2026/02/22 updated from 1.15.8 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -49,18 +50,20 @@ OS/言語を問わず利用するツールの情報
   - 更新
     - Visual Studio Codeのクローンですけど！
       ![Updating](/images/Antigravity/20260205_Antigravity_Updating.png)
+  - 不具合報告
+    - [[Critical Bug] Windows Issues: UI Clipping (Hidden Buttons) and Text Encoding Corruption](https://discuss.ai.google.dev/t/critical-bug-windows-issues-ui-clipping-hidden-buttons-and-text-encoding-corruption/125030) <span style="color: red;">*<<2026/02/21 posted>>*</span>
 
 - [Zed](https://zed.dev)
   ```
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.222.4](https://zed.dev/windows) <span style="color: red;">*<<2026/02/06 updated from 0.222.2>>*</span>
+    - [Zed 0.225.10](https://zed.dev/windows) <span style="color: red;">*<<2026/02/28 updated from 0.222.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.222.2](https://zed.dev) <span style="color: red;">*<<2026/02/05 updated from 0.220.3>>*</span>
+    - [Zed 0.225.10](https://zed.dev) <span style="color: red;">*<<2026/02/28 updated from 0.224.11>>*</span>
 
-- [Cursor 2.4.28](https://www.cursor.com/) <span style="color: red;">*<<2026/02/05 updated from 2.4.23>>*</span>
+- [Cursor 2.5.26](https://www.cursor.com/) <span style="color: red;">*<<2026/02/28 updated from 2.4.28>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
@@ -152,11 +155,11 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
-- [Codex 260204.1342](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/05 updated from 260202.859>>*</span>
+- [Codex 26.227.1448](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/28 updated from 26.224.1209>>*</span>
   ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 - Xcode
-  - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
+  - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
   - iOS Simulatorの更新
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
@@ -164,6 +167,7 @@ OS/言語を問わず利用するツールの情報
       ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
       ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>
     - [Xcode 26.1 RC](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/10/31 Updated from 26>>*</span>

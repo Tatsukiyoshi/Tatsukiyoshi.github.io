@@ -1,5 +1,5 @@
 ---
-title:  Model Context Protocol
+title:  Model Context Protocol / Coding Agent
 layout: single
 classes:  wide
 sidebar:
@@ -10,7 +10,7 @@ sidebar:
   |Text                                                                          |Date      |Status
   |------------------------------------------------------------------------------|----------|-------
   |[MCP入門](https://gihyo.jp/book/2025/978-4-297-15295-6)                        |2026/01/18|第10章 MCPエージェントを作る <span style="color: red;">*finished*</span>
-  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/02/01|Chapter 4 並行処理とサブエージェントを使った開発手法 <span style="color: red;">*started*</span>
+  |[Calude CodeによるAI駆動開発入門](https://gihyo.jp/book/2025/978-4-297-15275-8)  |2026/02/15|Chapter 4 並行処理とサブエージェントを使った開発手法 <span style="color: red;">*finished*</span>
   |[MCPサーバー開発大全](https://gihyo.jp/book/2025/978-4-297-15327-4)              |          |not started
   |[MCP&A2Aプログラミング入門](https://book.mynavi.jp/ec/products/detail/id=148859) |          |not started
   |[AIエディタCursor完全ガイド](https://www.ohmsha.co.jp/book/9784274232428/)       |2026/01/21|第1章 Cursorの導入 <span style="color: red;">*finished*</span>
@@ -50,7 +50,7 @@ AIエージェントを活用した開発スタイルの修得
   Chapter 1 Claude Code入門と開発環境構築          |2026/01/24
   Chapter 2 Claude CodeによるAI駆動開発の基礎       |2026/01/25
   Chapter 3 MCPを活用したAIチャットボット開発        |2026/01/30
-  Chapter 4 並行処理とサブエージェントを使った開発手法 |
+  Chapter 4 並行処理とサブエージェントを使った開発手法 |2026/02/15
 
   - TODOアプリ作成
     - [GitHub Pages](https://tatsukiyoshi.github.io/TodoApp/)
@@ -62,14 +62,16 @@ AIエージェントを活用した開発スタイルの修得
 
   - 営業日報システム
     - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
+    - 基本実装 <span style="color: red;">*<<2026/02/15 finished>>*</span>
+    - 残課題対応
 
 ##  環境
 ### 基本環境
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.39         |[2026/02/11](https://claude.ai/)
-  |macOS           |Claude Code 2.1.31         |2026/02/04
+  |Windows Insider |Claude Code 2.1.63         |[2026/02/28](https://github.com/anthropics/claude-code)
+  |macOS           |Claude Code 2.1.63         |2026/02/28
 
 ### MCP入門
 
@@ -139,8 +141,8 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
-### Claude AI
-- [Claude Code 2.1.19](https://claude.ai/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
+### [Claude AI](https://claude.ai/)
+- [Claude Code 2.1.63](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/02/28 updated from 2.1.61>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -153,6 +155,17 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
+  - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
+  - VSCode拡張機能を強制的に更新する方法
+    ```sh
+    $env:NODE_OPTIONS=""
+    code --install-extension Anthropic.claude-code --force
+    ```
+  - 不具合報告
+    [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
+    - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
+      - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
+    - macOSで日時を取得する際、currentDateを参照し、時刻まで取得しない不具合あり(2.1.56)
 
 - Claude Desktopの設定
   - 「ファイル」ー「設定」メニューから設定画面を開く

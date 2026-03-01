@@ -16,7 +16,7 @@ sidebar:
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MySQL Community Server 9.4.0                         |[2025/08/24](https://dev.mysql.com/downloads/mysql/)
   |               |SQLite 3.50.4                                        |[2025/10/07](https://www.sqlite.org/download.html)
-  |ChromeOS Flex |PostgreSQL 18.1                                      |2025/11/16
+  |ChromeOS Flex |PostgreSQL 18.2                                      |2026/02/22
 
 ##  ノウハウ
 ### データベース全般
@@ -127,9 +127,9 @@ sidebar:
 ### PostgreSQL
 - [Postgres Best Practices](https://github.com/supabase/agent-skills) <span style="color: red;">*<<2026/02/02 applied>>*</span>
 
-- PostgreSQL 18.0@ChromeOS Flex
+- PostgreSQL 18.2@ChromeOS Flex <span style="color: red;">*<<2026/02/22 updated from 18.1>>*</span>
   ```
-  psql (PostgreSQL) 18.0 (Debian 18.0-1.pgdg12+3)
+  psql (PostgreSQL) 18.2 (Debian 18.2-1.pgdg12+1)
   ```
 - PostgreSQL@Windows  (postgres/pgsuper)
   - PgAdmin対応表

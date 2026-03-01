@@ -18,14 +18,14 @@ sidebar:
 
       |Machine         |Env / FW                                                    |Last Updated
       |----------------|------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.2](#intellij-idea)                    |[2026/02/01](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3.3](#intellij-idea)                    |[2026/02/28](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.2 Canary 3](#AndroidStudio)    |[2026/02/11](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.3 Canary 2](#AndroidStudio)    |[2026/02/28](https://developer.android.com/studio)
       |                |- Kotlin 2.3.10                                             |[2026/02/11](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.5.3                                 |2026/02/11
+      |                |- Android Emulator v.36.5.5                                 |2026/02/28
 
   1. macOS Sequoia 15.6.1
 
@@ -36,10 +36,10 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.2 Build #IU-253.30387.90, built on January 22, 2026
+  - IntelliJ IDEA 2025.3.3 Build #IU-253.31033.145, built on February 20, 2026
     ```
-    Source revision: 61f1e2a0a8f30
-    Runtime version: 21.0.9+1-b1163.94 amd64 (JCEF 137.0.17)
+    Source revision: 212d61deaf3a8
+    Runtime version: 21.0.10+1-b1163.108 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -50,18 +50,12 @@ sidebar:
       ide.experimental.ui=true
       maven.packagesearch.enabled=false
     Non-Bundled Plugins:
-      com.intellij.notebooks.core (253.30387.92)
-      org.jetbrains.completion.full.line (253.30387.90)
-      intellij.webp (253.28294.218)
-      Subversion (253.30387.154)
-      Dart (502.0.0)
-      com.intellij.spring (253.30387.154)
-      org.jetbrains.plugins.terminal (253.30387.92)
-      com.jetbrains.restClient (253.30387.92)
-      intellij.jupyter (253.30387.92)
-      org.jetbrains.android (253.30387.90)
+      org.jetbrains.completion.full.line (253.31033.145)
+      Dart (503.0.0)
+      com.intellij.ml.llm (253.31033.145)
+      org.jetbrains.android (253.31033.145)
       io.flutter (89.0.0)
-    Kotlin: 253.30387.90-IJ
+    Kotlin: 253.31033.145-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.2
@@ -305,16 +299,16 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 2 | 2025.3.2 Canary 3
+    - Android Studio Panda 3 | 2025.3.3 Canary 2
       ```
-      Build #AI-253.30387.90.2532.14838564, built on February 5, 2026
+      Build #AI-253.30387.90.2533.14944052, built on February 26, 2026
       Runtime version: 21.0.9+-14787801-b1163.94 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=478):
+        PropertyOverrides(cache.size=477):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -329,7 +323,7 @@ sidebar:
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (502.0.0)
+        Dart (503.0.0)
         io.flutter (89.0.0)
       ```
   - macOS
@@ -387,8 +381,10 @@ sidebar:
           ```
   - Android
     - Android Canary
-      - API 36 Canary
-        ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+      ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+    - Android 17 (Cinnamon Bun Preview) (*2026/02/15* <span style="color: red;">Checked!</span>)
+      - Phone / Tablet / Foldableを切り替えるResizableエミュレータは便利かも！
+        ![Resizable](/images/Android/20260215_Resizable_Devices.png)
     - Android 16 (API 36.1)
       ![MyApplication](/images/Android/20250928_MyApplication_API36.1.png)
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
@@ -403,7 +399,15 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Panda
+      - 2025.3.3
+        - Canary 2
+          - Gradle 9.4.0-rc.1
+          - Android Gradle Plugin 9.1.0-alpha09 -> 9.2.0-alpha02
+          - Android Emulator 36.5.5
       - 2025.3.2
+        - Canary 4
+          - Android Gradle Plugin 9.1.0-alpha08 -> 9.1.0-alpha09
+          - Android Emulator 36.5.4
         - Canary 3
           - Gradle 9.3.1
           - Android Gradle Plugin 9.1.0-alpha07 -> 9.1.0-alpha08

@@ -5,14 +5,27 @@ sidebar:
   nav: main
 ---
 - Update History
+  - [Tahoe 26.3](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/02/16 updated from Tahoe 26.2>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20260216_macOS_Tahoe26.3Update.png)
+    - バージョン情報
+      ![Tahoe 26.3](/images/macOS/20260216_macOS_Tahoe26.3.png)
+  - [Tahoe 26.2](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2025/12/17 updated from Tahoe 26.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20251217_macOS_Tahoe26.2Update.png)
+      ![Updated](/images/macOS/20251217_macOS_Tahoe26.2Updated.png)
+    - バージョン情報
+      ![Tahoe 26.2](/images/macOS/20251217_macOS_Tahoe26.2.png)
   - [Tahoe 26.1](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2025/11/08 updated from Sequoia 26.0.1>>*</span>
+    <span style="color: red;">*<<2025/11/08 updated from Tahoe 26.0.1>>*</span>
     - ソフトウェアアップデート
       ![Update Check](/images/macOS/20251108_macOS_Tahoe26.1Update.png)
     - バージョン情報
       ![Tahoe 26.1](/images/macOS/20251108_macOS_Tahoe26.1.png)
   - [Tahoe 26.0.1](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2025/10/11 updated from Sequoia 26.0>>*</span>
+    <span style="color: red;">*<<2025/10/11 updated from Tahoe 26.0>>*</span>
     - ソフトウェアアップデート
       ![Update Check](/images/macOS/20251011_macOS_Tahoe26.0.1Update.png)
     - バージョン情報
