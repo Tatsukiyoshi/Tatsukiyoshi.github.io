@@ -155,7 +155,7 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
-- [Codex 26.228.1430](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/03 updated from 26.227.1448>>*</span>
+- [Codex 26.303.1606](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 updated from 26.228.1430>>*</span>
   ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 - Xcode
