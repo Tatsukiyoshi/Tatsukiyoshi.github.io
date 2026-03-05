@@ -5,6 +5,15 @@ sidebar:
   nav: programming
 ---
 
+- React Native 0.83.2 / Expo SDK 55.0.0-preview.11 / Pixel 9 Pro
+  - React 19.2.0
+    ![React Native 0.83.2 Android](/images/JavaScript/20260220_ReactNative_0.83.2_Pixel_9_Pro.png)
+- React Native 0.81.4 / Expo SDK 54.0.1 / iOS 26 / iPhone Air
+  - React 19.1.0
+    ![React Native 0.81.4 iOS](/images/macOS/20250916_ReactNative_0.81.4.png)
+- React Native 0.81.4 / Expo SDK 54.0.1
+  - React 19.1.0
+    ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
 - React Native 0.81.4 / Expo SDK 54.0.1
   - React 19.1.0
     ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)

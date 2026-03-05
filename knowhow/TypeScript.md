@@ -342,7 +342,7 @@ sidebar:
 
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
-    - [Lynx](https://lynxjs.org)/([履歴](/history/Lynx)) <a id="lynx"></a>
+    - [Lynx](https://lynxjs.org)/([履歴](/history/javascript/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
         ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
         - Lynxのバージョンを動的表示するように改修
@@ -386,19 +386,10 @@ sidebar:
               bunx expo install --fix
               bunx expo-doctor
               ```
-      - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+      - React Nativeで開発したアプリの実行/([履歴](/history/javascript/ReactNative))
         - React Native 0.83.2 / Expo SDK 55.0.5 / Pixel 9 Pro
           - React 19.2.0
             ![React Native 0.83.2 Android](/images/JavaScript/20260305_ReactNative_0.83.2_Pixel_9_Pro.png)
-        - React Native 0.83.2 / Expo SDK 55.0.0-preview.11 / Pixel 9 Pro
-          - React 19.2.0
-            ![React Native 0.83.2 Android](/images/JavaScript/20260220_ReactNative_0.83.2_Pixel_9_Pro.png)
-        - React Native 0.81.4 / Expo SDK 54.0.1 / iOS 26 / iPhone Air
-          - React 19.1.0
-            ![React Native 0.81.4 iOS](/images/macOS/20250916_ReactNative_0.81.4.png)
-        - React Native 0.81.4 / Expo SDK 54.0.1
-          - React 19.1.0
-            ![React Native 0.81.4 iOS](/images/macOS/20250911_ReactNative_0.81.4.png)
         - Expo SDKは、React Native リビジョン２つごとにバージョンアップする模様
           - 例）Expo 54は、React Native 0.81に対応し、Expo 55は、React Native 0.83に対応する
         - iOS
