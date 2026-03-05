@@ -57,7 +57,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/02/28|Update: Tauri 2.10.2
 [Kotlin](/knowhow/Kotlin)        |2026/02/28|Update: IntelliJ IDEA 2025.3.3 / Android Studio Panda 2025.3.3 Canary 2 / Android Emulator v.36.5.5
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
-[TypeScript](/knowhow/TypeScript)|2026/02/20|Update: React Native 0.83.2 / Expo 55.0.0-preview.11
+[TypeScript](/knowhow/TypeScript)|2026/03/05|Update: React Native 0.83.2 / Expo 55.0.5 / Bun 1.3.10
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0

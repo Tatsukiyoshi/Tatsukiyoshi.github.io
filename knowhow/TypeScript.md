@@ -28,7 +28,7 @@ sidebar:
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.8](#bun)                  |[2026/02/07](https://bun.sh/)
+      |                |        |[Bun 1.3.10](#bun)                 |[2026/03/05](https://bun.sh/)
       |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -74,8 +74,9 @@ sidebar:
       |                |        |- Vite 6.3.5                       |2025/05/21
       |                |Test FW |[Playwright 1.56.0](#pw)           |[2025/10/07](https://Playwright.dev/)
       |                |Mobile  |[React Native 0.83.2](#rn)         |2026/02/20
-      |                |        |- Expo 55.0.0-preview.11           |2026/02/20
-      |                |        |- Bun 1.3.8                        |2026/02/07
+      |                |        |- Expo 55.0.5                      |2026/03/05
+      |                |        |- Bun 1.3.10                       |2026/03/05
+      |                |        |- Expo Go 55.0.3                   |2026/03/05
       |                |Gen AI  |[Genkit JS 1.21.0](#genkit)        |[2025/10/16](https://genkit.dev/)
 
   1.  macOS
@@ -386,6 +387,9 @@ sidebar:
               bunx expo-doctor
               ```
       - React Nativeで開発したアプリの実行/([履歴](/history/ReactNative))
+        - React Native 0.83.2 / Expo SDK 55.0.5 / Pixel 9 Pro
+          - React 19.2.0
+            ![React Native 0.83.2 Android](/images/JavaScript/20260305_ReactNative_0.83.2_Pixel_9_Pro.png)
         - React Native 0.83.2 / Expo SDK 55.0.0-preview.11 / Pixel 9 Pro
           - React 19.2.0
             ![React Native 0.83.2 Android](/images/JavaScript/20260220_ReactNative_0.83.2_Pixel_9_Pro.png)
