@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code January 2026 Recovery 5(1.109.5)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/20 updated from 1.109.4>>*</span>
+- [Visual Studio Code February 2026(1.110.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/05 updated from 1.109.5>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -67,6 +67,18 @@ OS/言語を問わず利用するツールの情報
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
+- Codex
+  - Windows
+    - [Codex 26.304.1528](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 installed>>*</span>
+      - ダウンローダをダウンロードして、ストアから本体をダウンロード
+        ![Download](/images/OpenAI/20260305_Windows_Codex.png)
+      - 起動後、OpenAIにサインイン
+        ![Signed](/images/OpenAI/20260305_Windows_Codex_Signed.png)
+        - 3/5に3/2までご利用いただけますって！？
+
+  - macOS
+    - [Codex 26.303.1606](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 updated from 26.228.1430>>*</span>
+      ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 ### その他
 - [Git](/knowhow/sub/Git)
@@ -155,9 +167,6 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
-- [Codex 26.303.1606](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 updated from 26.228.1430>>*</span>
-  ![Codex](/images/macOS/20260203_macOS_Codex.png)
-
 - Xcode
   - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
   - iOS Simulatorの更新
