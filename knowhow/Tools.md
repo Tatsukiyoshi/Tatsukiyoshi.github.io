@@ -16,6 +16,8 @@ OS/言語を問わず利用するツールの情報
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
+  - 更新モジュールの存在を伝えるメッセージが出るようになった
+    ![Update Message](/images/VisualStudioCode/20250308_Update_Message.png)
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
