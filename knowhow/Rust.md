@@ -50,11 +50,11 @@ sidebar:
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |ChromeOS   |Rust 1.93                                 |2026/01/24
+      |ChromeOS   |Rust 1.94                                 |2026/03/08
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.9.5                               |2025/12/13
-      |           |- React 19.2.3                            |2025/12/13
-      |           |- Bun 1.3.6                               |2026/01/24
+      |           |Tauri 2.10.3                               |2026/03/08
+      |           |- React 19.2.4                            |2026/03/08
+      |           |- Bun 1.3.10                              |2026/03/08
       |           |- Vite 7.3.1                              |2026/01/24
 
   1. macOS Tahoe 26.2
@@ -382,6 +382,9 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.10.3
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20260308_Tauri2.10.3_ChromeOS_Flex.png)
   - V2.10.2
     - macOS 26.3
       ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)
