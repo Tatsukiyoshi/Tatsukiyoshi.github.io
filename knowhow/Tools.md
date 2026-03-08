@@ -72,7 +72,7 @@ OS/言語を問わず利用するツールの情報
   ![Update](/images/Cursor/20260308_Update.png)
 - Codex
   - Windows
-    - [Codex 26.304.1528](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 installed>>*</span>
+    - [Codex 26.305.950](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/08 auto updated from 26.304.1528>>*</span>
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
         ![Download](/images/OpenAI/20260305_Windows_Codex.png)
       - 起動後、OpenAIにサインイン
