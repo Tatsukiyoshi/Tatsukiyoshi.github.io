@@ -65,10 +65,11 @@ OS/言語を問わず利用するツールの情報
   - macOS
     - [Zed 0.226.5](https://zed.dev) <span style="color: red;">*<<2026/03/06 updated from 0.225.10>>*</span>
 
-- [Cursor 2.5.26](https://www.cursor.com/) <span style="color: red;">*<<2026/02/28 updated from 2.4.28>>*</span>
+- [Cursor 2.6.13](https://www.cursor.com/) <span style="color: red;">*<<2026/03/08 updated from 2.5.26>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
+  ![Update](/images/Cursor/20260308_Update.png)
 - Codex
   - Windows
     - [Codex 26.304.1528](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/05 installed>>*</span>
