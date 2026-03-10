@@ -68,7 +68,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/03/04|Update: Claude Code 2.1.68
+[Model Context Protocol](/knowhow/Mcp) |2026/03/10|Add: lucide-react 0.577.0
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
