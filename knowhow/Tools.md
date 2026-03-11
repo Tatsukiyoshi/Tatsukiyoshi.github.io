@@ -66,12 +66,12 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.225.10](https://zed.dev/windows) <span style="color: red;">*<<2026/02/28 updated from 0.222.4>>*</span>
+    - [Zed 0.226.5](https://zed.dev/windows) <span style="color: red;">*<<2026/03/11 updated from 0.225.10>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.226.5](https://zed.dev) <span style="color: red;">*<<2026/03/06 updated from 0.225.10>>*</span>
 
-- [Cursor 2.6.13](https://www.cursor.com/) <span style="color: red;">*<<2026/03/08 updated from 2.5.26>>*</span>
+- [Cursor 2.6.14](https://www.cursor.com/) <span style="color: red;">*<<2026/03/11 updated from 2.6.13>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
