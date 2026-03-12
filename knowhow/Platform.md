@@ -45,6 +45,11 @@ OS                                 |Hardware            |Language
       ![Quality Update](/images/Windows/20260308_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260308_Windows11_Build26300.png)
+    - 2026-03 Standalone Insider Preview Update(KB5082257) <span style="color: red;">*<<2026/03/12 applied >>*</span>
+      ```
+      This update does not include anything new and is designed to test our servicing pipeline for builds in the Dev Channel.
+      ```
+      ![Standalone Insider Preview Update](/images/Windows/20260312_WindowsUpdate_DevChannel.png)
     - Two Copilots in System Tray
       ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
     - Updated to Windows Insider Dev Channel
