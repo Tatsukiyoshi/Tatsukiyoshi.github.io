@@ -78,6 +78,7 @@ sidebar:
       |                |        |- Bun 1.3.10                       |2026/03/05
       |                |        |- Expo Go 55.0.3                   |2026/03/05
       |                |Gen AI  |[Genkit JS 1.21.0](#genkit)        |[2025/10/16](https://genkit.dev/)
+      |                |Search  |Exa-js 2.8.0                       |[2026/03/13](https://dashboard.exa.ai/home)
 
   1.  macOS
 
