@@ -23,6 +23,15 @@ sidebar:
   - [データベースを作成し、テーブルを追加する](https://docs.microsoft.com/ja-jp/visualstudio/data-tools/create-a-sql-database-by-using-a-designer?view=vs-2019)
   - [大量データの作成、日付の加工](https://www.excellence-blog.com/2017/06/01/sql-server%E3%81%B8%E5%A4%A7%E9%87%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E9%AB%98%E9%80%9F%E3%81%A7%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/)
 
+### SaaS
+- [neon](https://neon.com/)
+  ```
+  Serverless PostgreSQL
+  ```
+  - セットアップ
+    - GitHub認証でサインイン
+    - DB作成(on AWS or Azure)
+
 ### SQLite
   - [インストール](https://www.sqlite.org/download.html)
   - CLIツール
@@ -47,7 +56,11 @@ sidebar:
     DATABASE_URL=sqlite:./database.db
     ```
 ### MongoDB
-  - インストール
+  - MongoDB Atlas
+    ```
+    MongoDB SaaS
+    ```
+  - 環境構築（インストール）
     1.  Scoopのインストール
         ```sh
         Set-ExecutionPolicy RemoteSigned -scope CurrentUser
@@ -62,47 +75,47 @@ sidebar:
         scoop bucket add extras
         scoop install mongosh
         ```
-    1.  MongoDB起動
-        ```sh
-        mongod
-        ```
-    1.  接続文字列
-        ```
-        mongodb://localhost:27017
-        ```
-    1.  バックアップとリストア
-        - バックアップは実行時のカレントディレクトリのdumpディレクトリに作成される
-        - バックアップ
+  - MongoDB起動
+    ```sh
+    mongod
+    ```
+  - 接続文字列
+    ```
+    mongodb://localhost:27017
+    ```
+  - バックアップとリストア
+    - バックアップは実行時のカレントディレクトリのdumpディレクトリに作成される
+    - バックアップ
+      ```
+      mongodump
+      ```
+    - リストア
+      ```
+      mongorestore
+      ```
+  - アップデート
+    ```sh
+    scoop update mongodb
+    ```
+    1.  [8.1.0への移行](https://zenn.dev/tatsukiyoshi/articles/46cd0e6d8b462e)
+        - 8.1では、"featureCompatibilityVersion"が8.0である必要あり
+          - mongoshを起動し、下記を実行する
+            ```js
+            db.adminCommand({ setFeatureCompatibilityVersion: "8.0" })
+            ```
+          - 一旦移行すると、戻すことができないため、下記に変更して実行する
+            ```js
+            db.adminCommand({ setFeatureCompatibilityVersion: "8.0", confirm: true })
+            ```
+    1.  8.0 への移行
+        - 8.0 で互換性を保証するバージョンは、"7.0","7.3","8.0"であるため、"featureCompatibilityVersion"はそのいずれかにしておく必要あり
+          ```json
+          {
+            "_id": "featureCompatibilityVersion",
+            "version": "7.0"
+          }
           ```
-          mongodump
-          ```
-        - リストア
-          ```
-          mongorestore
-          ```
-    1.  MongoDBのアップデート
-        ```sh
-        scoop update mongodb
-        ```
-        1.  [8.1.0への移行](https://zenn.dev/tatsukiyoshi/articles/46cd0e6d8b462e)
-            - 8.1では、"featureCompatibilityVersion"が8.0である必要あり
-              - mongoshを起動し、下記を実行する
-                ```js
-                db.adminCommand({ setFeatureCompatibilityVersion: "8.0" })
-                ```
-              - 一旦移行すると、戻すことができないため、下記に変更して実行する
-                ```js
-                db.adminCommand({ setFeatureCompatibilityVersion: "8.0", confirm: true })
-                ```
-        1.  8.0 への移行
-            - 8.0 で互換性を保証するバージョンは、"7.0","7.3","8.0"であるため、"featureCompatibilityVersion"はそのいずれかにしておく必要あり
-              ```json
-              {
-                "_id": "featureCompatibilityVersion",
-                "version": "7.0"
-              }
-              ```
-              - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
+          - 今回、7.1.1から移行する際、上述の"featureCompatibilityVersion"が"7.1"となっており、8.0を起動できなかった。
   - MongoDB for VS Codeをインストールしておくとよい
     ![VSCode](/images/MongoDB/20231216_MongoDB_VSCode.png)
 

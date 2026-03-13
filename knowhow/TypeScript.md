@@ -201,6 +201,10 @@ sidebar:
         ```
         powershell -c "~/.bun/uninstall.ps1"
         ```
+    - JWT_SECRETの生成
+      ```
+      bun -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
+      ```
   - [Deno](https://deno.land/) <a id="deno"></a>
     - Denoを試してみる
       - インストール
