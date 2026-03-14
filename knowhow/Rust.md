@@ -21,13 +21,13 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|[Rust 1.93](#rust-1)                           |[2026/01/23](https://www.rust-lang.org/)
+      |Windows Insider|[Rust 1.94.0](#rust-1)                         |[2026/03/15](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.9.5](#tauridesktop-framework)         |[2025/12/13](https://tauri.app/)
-      |               |- Svelte 5.48.0                                |2026/01/23
-      |               |- Bun 1.3.6                                    |2026/01/23
-      |               |- Vite 7.3.1                                   |2026/01/23
+      |               |[Tauri 2.10.3](#tauridesktop-framework)        |[2026/03/15](https://tauri.app/)
+      |               |- Svelte 5.53.12                               |2026/03/15
+      |               |- Bun 1.3.10                                   |2026/03/05
+      |               |- Vite 8.0.0                                   |2026/03/15
       |               |[Dioxus 0.7.3](#dioxus)                        |[2026/01/23](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |Rust 1.93                                      |2026/01/23
@@ -382,6 +382,9 @@ sidebar:
   - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.10.3
+    - Windows on Rust 1.94 + Svelte 5.53.12
+      ![On Windows](/images/rust/20260315_Tauri2.10.3_Windows.png)
   - V2.10.2
     - macOS 26.3
       ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)
