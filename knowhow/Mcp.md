@@ -157,6 +157,18 @@ AIエージェントを活用した開発スタイルの修得
     claude update
     ```
   - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
+  - スキル実践例
+    - 次に取り組むべき作業
+      ![Next-Issue](/images/ClaudeCode/20260314_NextIssue_Example.png)
+    - 実装作業
+      - 開発ノート確認
+        ![Implement-Issue1](/images/ClaudeCode/20260314_ImplementIssue_Example.png)
+      - 実装内容把握
+        ![Implement-Issue2](/images/ClaudeCode/20260314_ImplementIssue_Example2.png)
+      - 完了後の振り返り
+        ![Implement-Issue3](/images/ClaudeCode/20260314_ImplementIssue_Example3.png)
+    - レビュー作業 / 結果報告
+      ![Review-PR](/images/ClaudeCode/20260314_ReviewPr_Example.png)
   - VSCode拡張機能を強制的に更新する方法
     ```sh
     $env:NODE_OPTIONS=""
