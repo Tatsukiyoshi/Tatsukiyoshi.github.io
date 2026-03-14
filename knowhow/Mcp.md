@@ -70,8 +70,8 @@ AIエージェントを活用した開発スタイルの修得
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.63         |[2026/02/28](https://github.com/anthropics/claude-code)
-  |macOS           |Claude Code 2.1.63         |2026/02/28
+  |Windows Insider |Claude Code 2.1.76         |[2026/03/14](https://github.com/anthropics/claude-code)
+  |macOS           |Claude Code 2.1.71         |2026/03/07
 
 ### MCP入門
 
@@ -92,7 +92,7 @@ AIエージェントを活用した開発スタイルの修得
   |----------------|---------------------------|----------
   |Windows Insider |Next.js 16.1.6             |2026/02/02
   |                |- React 19.2.4             |2026/02/02
-  |                |- Bun 1.3.8                |2026/02/07
+  |                |- Bun 1.3.10               |2026/03/05
   |                |- Prisma 6.19.2            |2026/02/02
   |                |- husky 9.1.7              |2026/02/02
   |                |- zod 4.3.6                |2026/02/02
@@ -100,6 +100,7 @@ AIエージェントを活用した開発スタイルの修得
   |                |- jose 5.10.0              |2026/02/03
   |                |- clsx 2.1.1               |2026/02/07
   |                |- tsx 4.19.4               |2026/02/08
+  |                |- lucide-react 0.577.0     |2026/03/10
 
   - AIチャットボット
 
@@ -142,7 +143,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### [Claude AI](https://claude.ai/)
-- [Claude Code 2.1.63](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/02/28 updated from 2.1.61>>*</span>
+- [Claude Code 2.1.76](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/14 updated from 2.1.74>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -156,6 +157,18 @@ AIエージェントを活用した開発スタイルの修得
     claude update
     ```
   - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
+  - スキル実践例
+    - 次に取り組むべき作業
+      ![Next-Issue](/images/ClaudeCode/20260314_NextIssue_Example.png)
+    - 実装作業
+      - 開発ノート確認
+        ![Implement-Issue1](/images/ClaudeCode/20260314_ImplementIssue_Example.png)
+      - 実装内容把握
+        ![Implement-Issue2](/images/ClaudeCode/20260314_ImplementIssue_Example2.png)
+      - 完了後の振り返り
+        ![Implement-Issue3](/images/ClaudeCode/20260314_ImplementIssue_Example3.png)
+    - レビュー作業 / 結果報告
+      ![Review-PR](/images/ClaudeCode/20260314_ReviewPr_Example.png)
   - VSCode拡張機能を強制的に更新する方法
     ```sh
     $env:NODE_OPTIONS=""

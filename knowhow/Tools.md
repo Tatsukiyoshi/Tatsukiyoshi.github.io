@@ -12,15 +12,23 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code January 2026 Recovery 5(1.109.5)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/02/20 updated from 1.109.4>>*</span>
+- [Visual Studio Code March 2026(1.111.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/10 updated from 1.110.1>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
+  - 更新モジュールの存在を伝えるメッセージが出るようになった
+    ![Update Message](/images/VisualStudioCode/20250308_Update_Message.png)
+  - ChromeOS Flex
+    - X11で起動するため、ショートカットを変更する
+      ```
+      sudo sed -i 's|Exec=/usr/share/code/code|Exec=/usr/share/code/code --ozone-platform=x11|g' /usr/share/applications/code.desktop
+      ```
+      - こうすることでウィンドウが描画でき、日本語入力も問題なくできる
   - [以前の新機能](/history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.19.6](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 updated from 1.18.4>>*</span>
+- [AntiGravity 1.20.5](https://antigravity.google/) <span style="color: red;">*<<2026/03/14 updated from 1.19.6>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -28,7 +36,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [Antigravity 1.18.4](https://antigravity.google/) <span style="color: red;">*<<2026/02/22 updated from 1.15.8 >>*</span>
+    - [Antigravity 1.20.4](https://antigravity.google/) <span style="color: red;">*<<2026/03/08 updated from 1.18.4 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -58,15 +66,28 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.225.10](https://zed.dev/windows) <span style="color: red;">*<<2026/02/28 updated from 0.222.4>>*</span>
+    - [Zed 0.227.1](https://zed.dev/windows) <span style="color: red;">*<<2026/03/14 updated from 0.226.5>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.225.10](https://zed.dev) <span style="color: red;">*<<2026/02/28 updated from 0.224.11>>*</span>
+    - [Zed 0.226.5](https://zed.dev) <span style="color: red;">*<<2026/03/06 updated from 0.225.10>>*</span>
 
-- [Cursor 2.5.26](https://www.cursor.com/) <span style="color: red;">*<<2026/02/28 updated from 2.4.28>>*</span>
+- [Cursor 2.6.19](https://www.cursor.com/) <span style="color: red;">*<<2026/03/14 updated from 2.6.14>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
+  ![Update](/images/Cursor/20260308_Update.png)
+- Codex
+  - Windows
+    - [Codex 26.311.2262](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/13 auto updated from 26.305.950>>*</span>
+      - ダウンローダをダウンロードして、ストアから本体をダウンロード
+        ![Download](/images/OpenAI/20260305_Windows_Codex.png)
+      - 起動後、OpenAIにサインイン
+        ![Signed](/images/OpenAI/20260305_Windows_Codex_Signed.png)
+        - 3/5に3/2までご利用いただけますって！？
+
+  - macOS
+    - [Codex 26.305.950](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/06 updated from 26.303.1606>>*</span>
+      ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 ### その他
 - [Git](/knowhow/sub/Git)
@@ -155,9 +176,6 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  macOS <a id="macOS"></a>
-- [Codex 26.227.1448](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/02/28 updated from 26.224.1209>>*</span>
-  ![Codex](/images/macOS/20260203_macOS_Codex.png)
-
 - Xcode
   - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
   - iOS Simulatorの更新
