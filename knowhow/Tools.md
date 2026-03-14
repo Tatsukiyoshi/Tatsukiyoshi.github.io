@@ -28,7 +28,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.19.6](https://antigravity.google/) <span style="color: red;">*<<2026/02/23 updated from 1.18.4>>*</span>
+- [AntiGravity 1.20.5](https://antigravity.google/) <span style="color: red;">*<<2026/03/14 updated from 1.19.6>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -66,7 +66,7 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.226.5](https://zed.dev/windows) <span style="color: red;">*<<2026/03/11 updated from 0.225.10>>*</span>
+    - [Zed 0.227.1](https://zed.dev/windows) <span style="color: red;">*<<2026/03/14 updated from 0.226.5>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.226.5](https://zed.dev) <span style="color: red;">*<<2026/03/06 updated from 0.225.10>>*</span>
@@ -78,7 +78,7 @@ OS/言語を問わず利用するツールの情報
   ![Update](/images/Cursor/20260308_Update.png)
 - Codex
   - Windows
-    - [Codex 26.305.950](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/08 auto updated from 26.304.1528>>*</span>
+    - [Codex 26.311.2262](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/13 auto updated from 26.305.950>>*</span>
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
         ![Download](/images/OpenAI/20260305_Windows_Codex.png)
       - 起動後、OpenAIにサインイン
