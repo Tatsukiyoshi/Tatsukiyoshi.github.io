@@ -179,6 +179,8 @@ OS/言語を問わず利用するツールの情報
 - Xcode
   - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
   - iOS Simulatorの更新
+    - 追加した直後は検証される
+      ![Runtime検証](/images/iOS/20260316_iPhone17_Pro_iOS26.3.1_Init.png)
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
