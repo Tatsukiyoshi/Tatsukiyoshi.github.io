@@ -10,7 +10,8 @@ sidebar:
 # Topic
 
 ## [リスキリング](#リスキリング-1)
-- Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider）
+- Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider・macOS）
+- macOSおよびiOS 26.3.1（iPhone 17 Pro）でのTauriアプリ動作確認
 
 ## [営業日報システム](#営業日報システム-1)
 - CI/CD: Node.js 24早期対応・PR時の自動テストワークフロー追加、E2Eテストのブラウザ分離・bunキャッシュ追加
@@ -19,6 +20,7 @@ sidebar:
 
 ## [近況確認アプリ](#近況確認アプリ-1)
 - v0.2.3以降: Activeメンバー優先検索・GitHub Actions のNode.js 24移行
+- v0.3.0: トップ画面にリリース一覧・ナビゲーションリンク追加、リリース一覧をカテゴリ別・新しい順に再構成
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -30,6 +32,11 @@ sidebar:
 
 - **＜Rust＞** Windows Insiderで、[Rust 1.94.0](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
   - Svelte 5.53.12 / Vite 8.0.0 との組み合わせで、Windows上でのTauriアプリの動作を確認
+
+###  【3/16】
+
+- **＜Rust＞** macOSで、[Rust 1.94](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
+  - React 19.2.4 / Vite 8.0.0 との組み合わせで、macOS Tahoe 26.3.1 および iOS 26.3.1（iPhone 17 Pro）上でのTauriアプリの動作を確認
 
 ## 営業日報システム
 
@@ -56,3 +63,7 @@ sidebar:
 ### v0.2.3以降（3/14）
 - Activeメンバーを先にバッチ処理しOGメンバーは後回しにする優先検索を実装（#315）
 - 全GitHub Actionsワークフローを Node.js 24 に早期移行（#310）
+
+### v0.3.0（3/16）
+- トップ画面にリリース一覧・現役/OGセクションへのナビゲーションリンクを追加（#320）
+- リリース一覧をカテゴリ別（シングル/アルバム/EP/その他）・新しい順に再構成し、カテゴリ間アンカーナビを追加
