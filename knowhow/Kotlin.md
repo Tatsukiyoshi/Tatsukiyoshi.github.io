@@ -22,10 +22,10 @@ sidebar:
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.3 Canary 2](#AndroidStudio)    |[2026/02/28](https://developer.android.com/studio)
-      |                |- Kotlin 2.3.10                                             |[2026/02/11](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Panda 2025.3.3 Canary 4](#AndroidStudio)    |[2026/03/19](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.5.5                                 |2026/02/28
+      |                |- Android Emulator v.36.5.8                                 |2026/03/19
 
   1. macOS Sequoia 15.6.1
 
@@ -299,16 +299,16 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 3 | 2025.3.3 Canary 2
+    - Android Studio Panda 3 | 2025.3.3 Canary 4
       ```
-      Build #AI-253.30387.90.2533.14944052, built on February 26, 2026
-      Runtime version: 21.0.9+-14787801-b1163.94 amd64
+      Build #AI-253.31033.145.2533.15016459, built on March 12, 2026
+      Runtime version: 21.0.10+-14961533-b1163.108 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=477):
+        PropertyOverrides(cache.size=488):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -324,7 +324,7 @@ sidebar:
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
         Dart (503.0.0)
-        io.flutter (89.0.0)
+        io.flutter (90.0.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -400,6 +400,10 @@ sidebar:
   - 対応履歴
     - Panda
       - 2025.3.3
+        - Canary 4
+          - Gradle 9.5.0-milestone-5
+          - Android Gradle Plugin 9.2.0-alpha02 -> 9.2.0-alpha04
+          - Android Emulator 36.5.8
         - Canary 2
           - Gradle 9.4.0-rc.1
           - Android Gradle Plugin 9.1.0-alpha09 -> 9.2.0-alpha02
