@@ -12,15 +12,21 @@ sidebar:
 ## [リスキリング](#リスキリング-1)
 - Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider・macOS）
 - macOSおよびiOS 26.3.1（iPhone 17 Pro）でのTauriアプリ動作確認
+- Claude Code 2.1.76（macOS）・2.1.79（Windows Insider）への更新
+- macOSで Zed 0.227.1 / Codex 26.309.31024 に更新
+- AI駆動開発入門 営業日報システムの残課題対応が完了
 
 ## [営業日報システム](#営業日報システム-1)
 - CI/CD: Node.js 24早期対応・PR時の自動テストワークフロー追加、E2Eテストのブラウザ分離・bunキャッシュ追加
 - バグ修正: システム管理者の営業マスタ編集不可・report_date のdate-only処理・visit_time nullスキーマ対応など複数修正
 - テスト: 全APIテストへのテスト仕様書ID付与・未実装テストケース92件追加、E2E多ブラウザ対応（Firefox/WebKit）・テストIDのCST-xxx/SLS-xxx形式統一
+- インフラ: Prisma v7へのバージョンアップ・seedコマンドのprisma.config.tsへの移行
 
 ## [近況確認アプリ](#近況確認アプリ-1)
 - v0.2.3以降: Activeメンバー優先検索・GitHub Actions のNode.js 24移行
 - v0.3.0: トップ画面にリリース一覧・ナビゲーションリンク追加、リリース一覧をカテゴリ別・新しい順に再構成
+- v0.4.0: sync-statusの検索戦略をActive/OGで分離、OGメンバーのバッチ実行頻度を環境変数で制御
+- v0.4.1: SNS検索エラー判定の誤動作修正・画面設計書/バッチ設計書/テスト設計書追加
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -37,6 +43,16 @@ sidebar:
 
 - **＜Rust＞** macOSで、[Rust 1.94](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
   - React 19.2.4 / Vite 8.0.0 との組み合わせで、macOS Tahoe 26.3.1 および iOS 26.3.1（iPhone 17 Pro）上でのTauriアプリの動作を確認
+- **＜MCP＞** macOSで、[Claude Code 2.1.76](https://github.com/anthropics/claude-code) に更新
+
+###  【3/17】
+
+- **＜開発ツール＞** macOSで、[Zed 0.227.1](https://zed.dev) に更新
+- **＜MCP＞** macOSで、[Codex 26.309.31024](https://openai.com/ja-JP/codex/) に更新
+
+###  【3/19】
+
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.79](https://github.com/anthropics/claude-code) に更新
 
 ## 営業日報システム
 
@@ -57,6 +73,13 @@ sidebar:
 - テスト: 営業マスタAPIテストIDをSLS-xxx形式に統一（#281, #285）（3/16）
 - ドキュメント: Prismaスキーマ変更後のprisma generate必要性を開発ノートに追記（#272）（3/16）
 - ドキュメント: POST/PUT /customersの誤った409仕様をAPI仕様書から削除（#286）（3/16）
+- 依存関係: Prisma をv6系からv7系へバージョンアップ（#290）（3/17）
+- テスト: seed.tsの副作用実行を防ぐためseed定数をseed-constants.tsに分離（#292）（3/17）
+- CI/CD: Prisma v7対応で型チェック前にprisma generateを追加（3/17）
+- インフラ: seedコマンドをprisma.config.tsのmigrations.seedに移動（3/18）
+- インフラ: cleanup-dbとseedにPrismaPgアダプターを追加（3/18）
+- CI/CD: 全ジョブにprisma generateを追加（3/18）
+- ドキュメント: DEVELOPMENT_NOTESにseed設定先の変更を追記（3/18）
 
 ## 近況確認アプリ
 
@@ -67,3 +90,18 @@ sidebar:
 ### v0.3.0（3/16）
 - トップ画面にリリース一覧・現役/OGセクションへのナビゲーションリンクを追加（#320）
 - リリース一覧をカテゴリ別（シングル/アルバム/EP/その他）・新しい順に再構成し、カテゴリ間アンカーナビを追加
+
+### v0.4.0（3/17）
+- sync-statusの検索戦略・実行頻度をActive/OGで分離。officialSnsあり→SNS専用（Webフォールバックなし）、officialSnsなし→Web専用（#321）
+- OGメンバーはOG_SYNC_WEEKDAYS環境変数で実行頻度を制御（デフォルト週1回・月曜）
+
+### v0.4.1（3/18）
+- SNS検索エラー判定の誤動作を修正。SNSコンテンツ取得失敗時のactive: false自動変更を廃止し「更新なし」として扱う（#326）
+- Web検索でコンテンツ取得できた場合はsnsCheck.hasRecentUpdate=trueを反映
+- 画面設計書・バッチ設計書・テスト設計書を追加（#305）
+
+### v0.4.1以降（3/19）
+- SalesReportの知見を開発ノートに吸収（#352）
+- Release型定義にTrackインターフェースとtracksフィールドを追加（#339）
+- リリース収録曲（トラックリスト）のデータ設計書・ER図・ドキュメント一覧を追加（#338）
+- 保存成功後のlastUpdated表示テストの競合状態を修正
