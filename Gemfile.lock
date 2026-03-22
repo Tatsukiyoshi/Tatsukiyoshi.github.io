@@ -29,6 +29,7 @@ GEM
       net-http (>= 0.5.0)
     ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86_64-linux-gnu)
+    fiddle (1.1.6)
     forwardable-extended (2.6.0)
     google-protobuf (4.31.1-x64-mingw-ucrt)
       bigdecimal
@@ -131,6 +132,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
+  fiddle
   jekyll (~> 4.4.1)
   jekyll-include-cache (~> 0.2)
   jekyll-remote-theme (~> 0.4.3)

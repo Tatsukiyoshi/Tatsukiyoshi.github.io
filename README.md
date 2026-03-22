@@ -55,7 +55,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/03/11|Update: Visual Studio Community 2026 18.4.0 / .NET MAUI 10.0.50 / .NET 10.0.4 / .NET 9.0.14 / .NET 8.0.25
 [Rust](/knowhow/Rust)            |2026/03/16|Update: Rust 1.94.0 / Tauri 2.10.3@macOS
-[Kotlin](/knowhow/Kotlin)        |2026/03/19|Update: Android Studio Panda 2025.3.3 Canary 4 / Android Emulator v.36.5.8
+[Kotlin](/knowhow/Kotlin)        |2026/03/22|Update: Android Studio Panda 2025.3.4 Canary 1
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
 [TypeScript](/knowhow/TypeScript)|2026/03/13|Add: Exa-js 2.8.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002

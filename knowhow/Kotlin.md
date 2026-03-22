@@ -22,7 +22,7 @@ sidebar:
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.3 Canary 4](#AndroidStudio)    |[2026/03/19](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.4 Canary 1](#AndroidStudio)    |[2026/03/22](https://developer.android.com/studio)
       |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
       |                |- Android Emulator v.36.5.8                                 |2026/03/19
@@ -299,16 +299,16 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 3 | 2025.3.3 Canary 4
+    - Android Studio Panda 4 | 2025.3.4 Canary 1
       ```
-      Build #AI-253.31033.145.2533.15016459, built on March 12, 2026
+      Build #AI-253.32098.37.2534.15052363, built on March 19, 2026
       Runtime version: 21.0.10+-14961533-b1163.108 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=488):
+        PropertyOverrides(cache.size=490):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -399,6 +399,9 @@ sidebar:
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Panda
+      - 2025.3.4
+        - Canary 1
+          - Android Gradle Plugin 9.2.0-alpha04 -> 9.2.0-alpha05
       - 2025.3.3
         - Canary 4
           - Gradle 9.5.0-milestone-5

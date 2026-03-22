@@ -19,6 +19,8 @@ sidebar:
 - Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
 - AI駆動開発入門 営業日報システムの残課題対応が完了
 
+詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
+
 ## [営業日報システム](#営業日報システム-1)
 - CI/CD: Node.js 24早期対応・PR時の自動テストワークフロー追加、E2Eテストのブラウザ分離・bunキャッシュ追加
 - バグ修正: システム管理者の営業マスタ編集不可・report_date のdate-only処理・visit_time nullスキーマ対応など複数修正
@@ -32,8 +34,6 @@ sidebar:
 - v0.5.0-v0.5.4: YouTube Data API v3を活用したMV URL自動取得・収録曲一覧・Track単位外部リンク取得
 - v0.6.0-v0.6.7: 曲詳細画面実装・プレイリスト機能の基盤整備・各種修正
 - v0.7.0-v0.7.3: プレイリスト管理機能リリース・ナビゲーション改善・共通コンポーネント整理
-
-詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
 # Daily
 
