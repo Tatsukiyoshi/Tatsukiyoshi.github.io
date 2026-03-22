@@ -12,8 +12,11 @@ sidebar:
 ## [リスキリング](#リスキリング-1)
 - Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider・macOS）
 - macOSおよびiOS 26.3.1（iPhone 17 Pro）でのTauriアプリ動作確認
-- Claude Code 2.1.76（macOS）・2.1.79（Windows Insider）への更新
+- Claude Code 2.1.81（Windows Insider・macOS）への更新
 - macOSで Zed 0.227.1 / Codex 26.309.31024 に更新
+- Visual Studio Code 1.112.0 / AntiGravity 1.20.6 / Zed 0.228.0（Windows Insider）への更新
+- Windows Insiderで Android Studio Panda 2025.3.3 Canary 4 / Kotlin 2.3.20 に更新
+- Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
 - AI駆動開発入門 営業日報システムの残課題対応が完了
 
 ## [営業日報システム](#営業日報システム-1)
@@ -24,9 +27,11 @@ sidebar:
 
 ## [近況確認アプリ](#近況確認アプリ-1)
 - v0.2.3以降: Activeメンバー優先検索・GitHub Actions のNode.js 24移行
-- v0.3.0: トップ画面にリリース一覧・ナビゲーションリンク追加、リリース一覧をカテゴリ別・新しい順に再構成
-- v0.4.0: sync-statusの検索戦略をActive/OGで分離、OGメンバーのバッチ実行頻度を環境変数で制御
-- v0.4.1: SNS検索エラー判定の誤動作修正・画面設計書/バッチ設計書/テスト設計書追加
+- v0.3.0: トップ画面にリリース一覧・ナビゲーションリンク追加
+- v0.4.0-v0.4.1: SNS検索戦略改善・各種バグ修正・設計書追加
+- v0.5.0-v0.5.4: YouTube Data API v3を活用したMV URL自動取得・収録曲一覧・Track単位外部リンク取得
+- v0.6.0-v0.6.7: 曲詳細画面実装・プレイリスト機能の基盤整備・各種修正
+- v0.7.0-v0.7.3: プレイリスト管理機能リリース・ナビゲーション改善・共通コンポーネント整理
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -52,7 +57,19 @@ sidebar:
 
 ###  【3/19】
 
+- **＜開発ツール＞** [Visual Studio Code 1.112.0](https://code.visualstudio.com/)に更新
+- **＜開発ツール＞** [AntiGravity 1.20.6](https://antigravity.google/)に更新
+- **＜開発ツール＞** Windows Insiderで、[Zed 0.228.0](https://zed.dev/windows)に更新
+- **＜開発ツール＞** [Cursor 2.6.20](https://www.cursor.com/)に更新
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.79](https://github.com/anthropics/claude-code) に更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio Panda 2025.3.3 Canary 4](https://developer.android.com/studio) / Android Emulator v.36.5.8 に更新
+  - Kotlin 2.3.20 との組み合わせで動作確認
+
+###  【3/21】
+
+- **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.8085 (Quality Update)](https://blogs.windows.com/windows-insider/)にアップデート
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.81](https://github.com/anthropics/claude-code) に更新
+- **＜MCP＞** macOSで、[Claude Code 2.1.81](https://github.com/anthropics/claude-code) に更新
 
 ## 営業日報システム
 
@@ -101,7 +118,28 @@ sidebar:
 - 画面設計書・バッチ設計書・テスト設計書を追加（#305）
 
 ### v0.4.1以降（3/19）
-- SalesReportの知見を開発ノートに吸収（#352）
-- Release型定義にTrackインターフェースとtracksフィールドを追加（#339）
-- リリース収録曲（トラックリスト）のデータ設計書・ER図・ドキュメント一覧を追加（#338）
-- 保存成功後のlastUpdated表示テストの競合状態を修正
+- SalesReportの知見を開発ノートに吸収（#352 @3/19）
+- Release型定義にTrackインターフェースとtracksフィールドを追加（#339 @3/19）
+- リリース収録曲（トラックリスト）のデータ設計書・ER図・ドキュメント一覧を追加（#338 @3/19）
+- 保存成功後のlastUpdated表示テストの競合状態を修正（@3/19）
+
+### v0.5.0〜v0.5.4（3/20〜3/21）
+- v0.5.0: YouTube Data API v3を活用したMV URL自動取得機能を追加し、リリース詳細画面にリンクを表示。ExternalLink共通型・トラックリスト同期スクリプトを追加（#350, #348, #347, #340 @3/20）
+- v0.5.1: リリース詳細画面に収録曲一覧セクションを追加。M:SS形式の再生時間・マルチディスク対応（#360 @3/20）
+- v0.5.2: sync-discographyにTrack単位のYouTube・Spotify URL自動取得機能を追加（#363 @3/21）
+- v0.5.3: Track単位外部リンク取得をSpotifyからYouTube Musicに変更（#363 @3/21）
+- v0.5.4: メンバー選択ドロップダウンの暗色テーマ視認性を修正（#374 @3/21）
+
+### v0.6.0〜v0.6.7（3/21〜3/22）
+- v0.6.0: 曲詳細画面（/songs/[id]）を実装。収録リリース一覧・外部リンク・プレイリスト掲載情報を表示（#366 @3/21）
+- v0.6.1: sync-playlists-to-blobのデータ形式不一致を修正（#382 @3/21）
+- v0.6.2: PlaylistEntry.memberIdを省略可能に変更しグループ曲プレイリストに対応（#384 @3/21）
+- v0.6.5: メンバー・プレイリスト追加後のBlob上書きアップロード対応（#389 @3/21）
+- v0.6.6: upload-members実行時にBlobの既存メンバーデータを保持するよう修正（#391 @3/21）
+- v0.6.7: プレイリスト掲載情報の表示先をリリース詳細から曲詳細画面に移動（#402, #400, #401 @3/22）
+
+### v0.7.0〜v0.7.3（3/22）
+- v0.7.0: プレイリスト管理機能（一覧・詳細ページ、各画面への掲載情報セクション）をリリース（#336 @3/22）
+- v0.7.1: PlaylistEntryへのreleaseId/trackId自動紐付けスクリプト追加、syncTrackLinksのvideoIdキャッシュ追加（#411, #372, #373 @3/22）
+- v0.7.2: メンバー一覧画面のナビゲーション改善・曲詳細の戻るリンクをブラウザ履歴ベースに変更（#393, #394 @3/22）
+- v0.7.3: BackLinkフォールバック追加・外部リンクバッジ共通化・formatTrackLength共通化（#415, #399, #381 @3/22）
