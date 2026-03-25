@@ -15,8 +15,9 @@ sidebar:
 - Claude Code 2.1.81（Windows Insider・macOS）への更新
 - macOSで Zed 0.227.1 / Codex 26.309.31024 に更新
 - Visual Studio Code 1.112.0 / AntiGravity 1.20.6 / Zed 0.228.0（Windows Insider）への更新
-- Windows Insiderで Android Studio Panda 2025.3.3 Canary 4 / Kotlin 2.3.20 に更新
+- Windows InsiderでAndroid Studio Panda 2025.3.4 Canary 1 / Kotlin 2.3.20 に更新
 - Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
+- Cursor 2.6.21 に更新
 - AI駆動開発入門 営業日報システムの残課題対応が完了
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
@@ -34,6 +35,8 @@ sidebar:
 - v0.5.0-v0.5.4: YouTube Data API v3を活用したMV URL自動取得・収録曲一覧・Track単位外部リンク取得
 - v0.6.0-v0.6.7: 曲詳細画面実装・プレイリスト機能の基盤整備・各種修正
 - v0.7.0-v0.7.3: プレイリスト管理機能リリース・ナビゲーション改善・共通コンポーネント整理
+- v0.7.4-v0.7.8: プレイリストリンク管理CLI追加・YouTube API上限検出・リンク構造改善・バグ修正
+- v0.7.9-v0.7.11: Next.js 16.2.1更新・メンバー詳細ソートトグル追加・曲詳細YouTube MVインライン表示
 
 # Daily
 
@@ -70,6 +73,16 @@ sidebar:
 - **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.8085 (Quality Update)](https://blogs.windows.com/windows-insider/)にアップデート
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.81](https://github.com/anthropics/claude-code) に更新
 - **＜MCP＞** macOSで、[Claude Code 2.1.81](https://github.com/anthropics/claude-code) に更新
+
+###  【3/22】
+
+- **＜Kotlin＞** Windows Insiderで、[Android Studio Panda 2025.3.4 Canary 1](https://developer.android.com/studio) に更新
+  - Android Gradle Plugin 9.2.0-alpha04 → 9.2.0-alpha05
+  - 動作検証に至らず！
+
+###  【3/24】
+
+- **＜開発ツール＞** [Cursor 2.6.21](https://www.cursor.com/)に更新
 
 ## 営業日報システム
 
@@ -143,3 +156,17 @@ sidebar:
 - v0.7.1: PlaylistEntryへのreleaseId/trackId自動紐付けスクリプト追加、syncTrackLinksのvideoIdキャッシュ追加（#411, #372, #373 @3/22）
 - v0.7.2: メンバー一覧画面のナビゲーション改善・曲詳細の戻るリンクをブラウザ履歴ベースに変更（#393, #394 @3/22）
 - v0.7.3: BackLinkフォールバック追加・外部リンクバッジ共通化・formatTrackLength共通化（#415, #399, #381 @3/22）
+
+### v0.7.4（3/22）
+- プレイリストリンク管理CLIスクリプト（scripts/playlist-link.ts）を追加。YouTube検索・プレイリスト一覧・エントリ表示・リンク修正の各モードに対応（#413）
+
+### v0.7.5〜v0.7.7（3/23）
+- v0.7.5: YouTube APIのデイリー上限超過（quotaExceeded / userRateLimitExceeded）を検出して処理を中断。1回の実行あたり最大100件に制限（#427）
+- v0.7.6: プレイリストのYouTubeリンクを楽曲単位で管理するよう内部構造を変更。リリース選択ロジックをシングル優先に改善（#424, #425, #426）
+- v0.7.7: syncPlaylistTrackIdsで楽曲へのtrackId自動補完がスキップされるバグを修正（#435, #434）
+
+### v0.7.8〜v0.7.11（3/24〜3/25）
+- v0.7.8: プレイリスト楽曲のreleaseId/trackIdペア不整合バグ修正。ディスコグラフィー同期でプレイリスト掲載曲へのYouTubeリンクを優先取得（#439, #437）
+- v0.7.9: Next.js を 16.1.6 から 16.2.1 に更新（#375）
+- v0.7.10: メンバー詳細画面の「選曲した楽曲」セクションに並び替えトグルを追加（#410）
+- v0.7.11: 曲詳細画面のYouTube MVをインライン iframe 表示に変更。外部リンクバッジ共通コンポーネント化（#452, #454）Vite 8.0.2 / Vitest 4.1.1 に更新 （#441）TypeScript 6.0への更新は保留（#443）
