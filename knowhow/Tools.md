@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code March 2026(1.112.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/19 updated from 1.111.0>>*</span>
+- [Visual Studio Code March 2026(1.113.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/26 updated from 1.112.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -69,7 +69,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 0.228.0](https://zed.dev/windows) <span style="color: red;">*<<2026/03/19 updated from 0.227.1>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.227.1](https://zed.dev) <span style="color: red;">*<<2026/03/17 updated from 0.226.5>>*</span>
+    - [Zed 0.229.0](https://zed.dev) <span style="color: red;">*<<2026/03/26 updated from 0.227.1>>*</span>
 
 - [Cursor 2.6.21](https://www.cursor.com/) <span style="color: red;">*<<2026/03/24 updated from 2.6.20>>*</span>
   ```
@@ -86,7 +86,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.309.31024](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/17 updated from 26.305.950>>*</span>
+    - [Codex 26.324.21641](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/26 updated from 26.309.31024>>*</span>
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 ### その他
