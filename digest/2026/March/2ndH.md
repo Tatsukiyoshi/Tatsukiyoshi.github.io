@@ -12,9 +12,11 @@ sidebar:
 ## [リスキリング](#リスキリング-1)
 - Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider・macOS）
 - macOSおよびiOS 26.3.1（iPhone 17 Pro）でのTauriアプリ動作確認
-- Claude Code 2.1.81（Windows Insider・macOS）への更新
+- Claude Code 2.1.81（Windows Insider・macOS）→ 2.1.85（Windows Insider）への更新
 - macOSで Zed 0.227.1 / Codex 26.309.31024 に更新
 - Visual Studio Code 1.112.0 / AntiGravity 1.20.6 / Zed 0.228.0（Windows Insider）への更新
+- Visual Studio Code March 2026(1.113.0) / AntiGravity 1.21.6 / Zed 0.229.0 への更新
+- Codex 26.325.21211 に更新（macOS・Windows Insider）
 - Windows InsiderでAndroid Studio Panda 2025.3.4 Canary 1 / Kotlin 2.3.20 に更新
 - Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
 - Cursor 2.6.21 に更新
@@ -37,6 +39,8 @@ sidebar:
 - v0.7.0-v0.7.3: プレイリスト管理機能リリース・ナビゲーション改善・共通コンポーネント整理
 - v0.7.4-v0.7.8: プレイリストリンク管理CLI追加・YouTube API上限検出・リンク構造改善・バグ修正
 - v0.7.9-v0.7.11: Next.js 16.2.1更新・メンバー詳細ソートトグル追加・曲詳細YouTube MVインライン表示
+- v0.8.0: リリース・プレイリスト詳細に前後ナビゲーション追加・プレイリスト選曲のリリース紐付け改善・Vite 8.0更新
+- v1.0.0-v1.0.2: 曲名・期間による検索機能追加・検索フォーム URL state 永続化
 
 # Daily
 
@@ -83,6 +87,24 @@ sidebar:
 ###  【3/24】
 
 - **＜開発ツール＞** [Cursor 2.6.21](https://www.cursor.com/)に更新
+
+###  【3/26】
+
+- **＜開発ツール＞** [Visual Studio Code March 2026(1.113.0)](https://code.visualstudio.com/)に更新
+- **＜開発ツール＞** macOSで、[Zed 0.229.0](https://zed.dev)に更新
+- **＜開発ツール＞** macOSで、[Codex 26.324.21641](https://openai.com/ja-JP/codex/)に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.84](https://github.com/anthropics/claude-code) に更新
+
+###  【3/27】
+
+- **＜開発ツール＞** macOSで、[Codex 26.325.21211](https://openai.com/ja-JP/codex/)に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.85](https://github.com/anthropics/claude-code) に更新
+
+###  【3/28】
+
+- **＜開発ツール＞** [AntiGravity 1.21.6](https://antigravity.google/)に更新
+- **＜開発ツール＞** Windows Insiderで、[Zed 0.229.0](https://zed.dev/windows)に更新
+- **＜開発ツール＞** Windows Insiderで、[Codex 26.325.21211](https://openai.com/ja-JP/codex/)に更新
 
 ## 営業日報システム
 
@@ -170,3 +192,14 @@ sidebar:
 - v0.7.9: Next.js を 16.1.6 から 16.2.1 に更新（#375）
 - v0.7.10: メンバー詳細画面の「選曲した楽曲」セクションに並び替えトグルを追加（#410）
 - v0.7.11: 曲詳細画面のYouTube MVをインライン iframe 表示に変更。外部リンクバッジ共通コンポーネント化（#452, #454）Vite 8.0.2 / Vitest 4.1.1 に更新 （#441）TypeScript 6.0への更新は保留（#443）
+
+### v0.8.0（3/26〜3/27）
+- リリース・プレイリスト詳細に前後ナビゲーションを追加（#462）
+- プレイリスト選曲のリリース紐付けをシングル優先で自動解決、メンバー詳細の選曲セクションのレイアウトを調整（#461）
+- Vite 8.0 に更新（#441）
+- findPreferredRelease 型整理・buildMemberPlaylistIndex 統合テスト追加（#471, #472）
+
+### v1.0.0〜v1.0.2（3/27）
+- v1.0.0: 曲名キーワード・リリース期間による曲検索機能を追加。ヘッダー右上に検索アイコンを配置（#473）
+- v1.0.1: 検索フォームを form 要素化・URL state 永続化で検索条件を維持（#479, #480）
+- v1.0.2: 検索時の履歴スタック重複を防止（router.replace化）（#482）
