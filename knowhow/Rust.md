@@ -61,12 +61,12 @@ sidebar:
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.94            |2026/03/16
+      |macOS      |Rust 1.94.1          |2026/03/28
       |           |Node 22.6.0          |2024/08/17
       |           |Tauri 2.10.3         |2026/03/16
       |           |- React 19.2.4       |2026/03/16
-      |           |- Bun 1.3.10         |2026/02/28
-      |           |- Vite 8.0.0         |2026/03/16
+      |           |- Bun 1.3.11         |2026/03/28
+      |           |- Vite 8.0.3         |2026/03/28
 
 ##  ノウハウ
 ### Rust
@@ -96,6 +96,18 @@ sidebar:
       rustup default <version>
       ```
     - 1.94.0 -> 1.94.1 の更新が爆速だった！
+      ```sh
+      info: downloading 9 components
+      rust-std installed                       27.00 MiB
+      rust-std installed                       25.23 MiB
+      rust-std installed                       25.66 MiB
+          cargo installed                        8.28 MiB
+        clippy installed                        2.79 MiB
+      rust-docs installed                       20.62 MiB
+      rust-std installed                       26.13 MiB
+          rustc installed                       61.27 MiB
+        rustfmt installed                        1.45 MiB                                                                 
+      ```
   - プロジェクト作成
     ```
     cargo new --bin <プロジェクト名>
@@ -389,7 +401,7 @@ sidebar:
     - Ubuntu 24.04.4 on WSL2
       ![On Ubuntu 24.04.4](/images/rust/20260328_Tauri2.10.3_Ubuntu24.04.4.png)
     - macOS 26.3.1
-      ![On macOS](/images/rust/20260316_Tauri2.10.3_macOS26.3.1.png)
+      ![On macOS](/images/rust/20260328_Tauri2.10.3_macOS26.3.1.png)
     - ChromeOS Flex
       ![On ChromeOS Flex](/images/rust/20260328_Tauri2.10.3_ChromeOS_Flex.png)
     - iOS 26.3.1 / iPhone 17 Pro
