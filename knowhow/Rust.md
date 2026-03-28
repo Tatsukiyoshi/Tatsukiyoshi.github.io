@@ -50,7 +50,7 @@ sidebar:
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |ChromeOS   |Rust 1.94                                 |2026/03/08
+      |ChromeOS   |Rust 1.94.1                               |2026/03/28
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
       |           |Tauri 2.10.3                               |2026/03/08
       |           |- React 19.2.4                            |2026/03/08
@@ -391,7 +391,7 @@ sidebar:
     - macOS 26.3.1
       ![On macOS](/images/rust/20260316_Tauri2.10.3_macOS26.3.1.png)
     - ChromeOS Flex
-      ![On ChromeOS Flex](/images/rust/20260308_Tauri2.10.3_ChromeOS_Flex.png)
+      ![On ChromeOS Flex](/images/rust/20260328_Tauri2.10.3_ChromeOS_Flex.png)
     - iOS 26.3.1 / iPhone 17 Pro
       ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
     - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
