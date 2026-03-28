@@ -21,13 +21,13 @@ sidebar:
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|[Rust 1.94.0](#rust-1)                         |[2026/03/15](https://www.rust-lang.org/)
+      |Windows Insider|[Rust 1.94.1](#rust-1)                         |[2026/03/28](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
       |               |[Tauri 2.10.3](#tauridesktop-framework)        |[2026/03/15](https://tauri.app/)
-      |               |- Svelte 5.53.12                               |2026/03/15
-      |               |- Bun 1.3.10                                   |2026/03/05
-      |               |- Vite 8.0.0                                   |2026/03/15
+      |               |- Svelte 5.55.0                                |2026/03/28
+      |               |- Bun 1.3.11                                   |2026/03/28
+      |               |- Vite 8.0.3                                   |2026/03/28
       |               |[Dioxus 0.7.3](#dioxus)                        |[2026/01/23](https://dioxuslabs.com/)
       |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |Windows        |Rust 1.93                                      |2026/01/23
@@ -36,14 +36,14 @@ sidebar:
       |               |[Bevy 0.18.0](#game-engine)                    |[2026/01/23](https://bevyengine.org/)
       |               |[Slint 1.14.1](#slint)                         |[2026/01/23](https://slint.dev/)
 
-  1. Ubuntu 24.04.3 on Windows 11
+  1. Ubuntu 24.04.4 on Windows 11
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.93       |2026/01/23
-      |                |Tauri 2.9.5     |2025/12/13
-      |                |- React 19.2.3  |2025/12/13
-      |                |- Bun 1.3.6     |2026/01/23
+      |Windows Insider |Rust 1.94.1     |2026/03/28
+      |                |Tauri 2.10.3    |2026/03/28
+      |                |- React 19.2.4  |2026/03/28
+      |                |- Bun 1.3.11    |2026/03/28
       |                |- Vite 7.3.1    |2026/01/23
 
   1. ChromeOS Flex 142.0.7444.234 (Official Build)
@@ -95,6 +95,7 @@ sidebar:
       ```
       rustup default <version>
       ```
+    - 1.94.0 -> 1.94.1 の更新が爆速だった！
   - プロジェクト作成
     ```
     cargo new --bin <プロジェクト名>
@@ -383,14 +384,18 @@ sidebar:
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.10.3
-    - Windows on Rust 1.94 + Svelte 5.53.12
-      ![On Windows](/images/rust/20260315_Tauri2.10.3_Windows.png)
+    - Windows on Rust 1.94.1 + Svelte 5.55.0
+      ![On Windows](/images/rust/20260328_Tauri2.10.3_Windows.png)
+    - Ubuntu 24.04.4 on WSL2
+      ![On Ubuntu 24.04.4](/images/rust/20260328_Tauri2.10.3_Ubuntu24.04.4.png)
     - macOS 26.3.1
       ![On macOS](/images/rust/20260316_Tauri2.10.3_macOS26.3.1.png)
     - ChromeOS Flex
       ![On ChromeOS Flex](/images/rust/20260308_Tauri2.10.3_ChromeOS_Flex.png)
     - iOS 26.3.1 / iPhone 17 Pro
       ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
+    - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
+      ![On Android Canary](/images/rust/20260123_Tauri2.9.5_Pixel_9a_Android36.1.png)
   - V2.10.2
     - macOS 26.3
       ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)
