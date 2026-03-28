@@ -10,13 +10,12 @@ sidebar:
 # Topic
 
 ## [リスキリング](#リスキリング-1)
-- Rust 1.94.0 / Tauri 2.10.3 への更新（Windows Insider・macOS）
-- macOSおよびiOS 26.3.1（iPhone 17 Pro）でのTauriアプリ動作確認
+- macOS Tahoe 26.4 / ChromeOS Flex 145.0.7632.216 へのアップデート、Xcode 26.4 更新
+- Rust 1.94.1 / Tauri 2.10.3 への更新（Windows Insider・ChromeOS Flex・macOS）
+- macOS Tahoe 26.4・iOS 26.4（iPhone 17 Pro）・ChromeOS Flex 上でのTauriアプリ動作確認
 - Claude Code 2.1.81（Windows Insider・macOS）→ 2.1.85（Windows Insider）への更新
-- macOSで Zed 0.227.1 / Codex 26.309.31024 に更新
-- Visual Studio Code 1.112.0 / AntiGravity 1.20.6 / Zed 0.228.0（Windows Insider）への更新
 - Visual Studio Code March 2026(1.113.0) / AntiGravity 1.21.6 / Zed 0.229.0 への更新
-- Codex 26.325.21211 に更新（macOS・Windows Insider）
+- Codex 26.325.31654（macOS）・26.325.21211（Windows Insider）に更新
 - Windows InsiderでAndroid Studio Panda 2025.3.4 Canary 1 / Kotlin 2.3.20 に更新
 - Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
 - Cursor 2.6.21 に更新
@@ -41,6 +40,7 @@ sidebar:
 - v0.7.9-v0.7.11: Next.js 16.2.1更新・メンバー詳細ソートトグル追加・曲詳細YouTube MVインライン表示
 - v0.8.0: リリース・プレイリスト詳細に前後ナビゲーション追加・プレイリスト選曲のリリース紐付け改善・Vite 8.0更新
 - v1.0.0-v1.0.2: 曲名・期間による検索機能追加・検索フォーム URL state 永続化
+- v1.1.0: 曲名前方一致によるオリジナル/リメイク対比機能追加（対比一覧・詳細ページ）
 
 # Daily
 
@@ -102,9 +102,20 @@ sidebar:
 
 ###  【3/28】
 
+- **＜OS＞** [macOS Tahoe 26.4](https://www.apple.com/jp/os/macos/)にアップデート
+- **＜OS＞** [ChromeOS Flex 145.0.7632.216](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)にアップデート
 - **＜開発ツール＞** [AntiGravity 1.21.6](https://antigravity.google/)に更新
+- **＜開発ツール＞** ChromeOS Flexで、[AntiGravity 1.21.6](https://antigravity.google/)に更新
 - **＜開発ツール＞** Windows Insiderで、[Zed 0.229.0](https://zed.dev/windows)に更新
 - **＜開発ツール＞** Windows Insiderで、[Codex 26.325.21211](https://openai.com/ja-JP/codex/)に更新
+- **＜開発ツール＞** macOSで、[Codex 26.325.31654](https://openai.com/ja-JP/codex/)に更新
+- **＜開発ツール＞** macOSで、[Xcode 26.4](https://developer.apple.com/jp/xcode/)に更新
+- **＜Rust＞** Windows Insiderで、[Rust 1.94.1](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
+  - Svelte 5.55.0 / Bun 1.3.11 / Vite 8.0.3 との組み合わせで、Windows および Ubuntu 24.04.4（WSL2）上でのTauriアプリの動作を確認
+- **＜Rust＞** ChromeOS Flexで、[Rust 1.94.1](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
+  - React 19.2.4 との組み合わせで、ChromeOS Flex上でのTauriアプリの動作を確認
+- **＜Rust＞** macOSで、[Rust 1.94.1](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
+  - React 19.2.4 / Bun 1.3.11 / Vite 8.0.3 との組み合わせで、macOS Tahoe 26.4 および iOS 26.4（iPhone 17 Pro）上でのTauriアプリの動作を確認
 
 ## 営業日報システム
 
@@ -203,3 +214,8 @@ sidebar:
 - v1.0.0: 曲名キーワード・リリース期間による曲検索機能を追加。ヘッダー右上に検索アイコンを配置（#473）
 - v1.0.1: 検索フォームを form 要素化・URL state 永続化で検索条件を維持（#479, #480）
 - v1.0.2: 検索時の履歴スタック重複を防止（router.replace化）（#482）
+
+### v1.1.0（3/28）
+- 曲名の前方一致で同名曲のオリジナルとリメイクを対比できる曲対比機能を追加。対比一覧・対比詳細ページ、曲詳細への対比リンクを実装（#474）
+- 曲対比の後処理：型共有・全角スペース対応・設計書更新（#486 #487 #488 #489）
+- 型再エクスポート削除と画面遷移図への曲検索経路追加（#491 #492）
