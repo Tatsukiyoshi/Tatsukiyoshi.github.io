@@ -165,11 +165,10 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 145.0.7632.165 <span style="color: red;">*<<2026/03/08 updated from 144.0.7559.221>>*</span>
+  - バージョン 145.0.7632.216 <span style="color: red;">*<<2026/03/28 updated from 145.0.7632.165>>*</span>
     - 145系にアップデート
-      ![ChromeOS Flexバージョン情報](/images/Chrome/20260308_ChromeOS_Flex_145.0.7632.165.png)
-        - 更新中
-          ![Updating](/images/Chrome/20260308_ChromeOS_Flex_Updating145.0.7632.165.png)
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260328_ChromeOS_Flex_145.0.7632.216.png)
+
         <details>
         <summary>
         ディストリビューション・バージョン情報
