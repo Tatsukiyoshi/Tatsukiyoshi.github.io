@@ -46,7 +46,7 @@ sidebar:
       |                |- Bun 1.3.11    |2026/03/28
       |                |- Vite 7.3.1    |2026/01/23
 
-  1. ChromeOS Flex 142.0.7444.234 (Official Build)
+  1. ChromeOS Flex 145.0.7632.216 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
@@ -57,7 +57,7 @@ sidebar:
       |           |- Bun 1.3.10                              |2026/03/08
       |           |- Vite 7.3.1                              |2026/01/24
 
-  1. macOS Tahoe 26.3.1
+  1. macOS Tahoe 26.4
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
@@ -400,10 +400,14 @@ sidebar:
       ![On Windows](/images/rust/20260328_Tauri2.10.3_Windows.png)
     - Ubuntu 24.04.4 on WSL2
       ![On Ubuntu 24.04.4](/images/rust/20260328_Tauri2.10.3_Ubuntu24.04.4.png)
+    - macOS 26.4
+      ![On macOS](/images/rust/20260328_Tauri2.10.3_macOS26.4.png)
     - macOS 26.3.1
       ![On macOS](/images/rust/20260328_Tauri2.10.3_macOS26.3.1.png)
     - ChromeOS Flex
       ![On ChromeOS Flex](/images/rust/20260328_Tauri2.10.3_ChromeOS_Flex.png)
+    - iOS 26.4 / iPhone 17 Pro
+      ![On iOS 26.4](/images/rust/20260328_Tauri2.10.3_iPhone17_Pro_iOS26.4.png)
     - iOS 26.3.1 / iPhone 17 Pro
       ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
     - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
