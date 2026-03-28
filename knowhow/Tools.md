@@ -179,7 +179,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  macOS <a id="macOS"></a>
 - Xcode
-  - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
+  - [Xcode 26.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/03/28 Updated from 26.3>>*</span>
   - iOS Simulatorの更新
     - 追加した直後は検証される
       ![Runtime検証](/images/iOS/20260316_iPhone17_Pro_iOS26.3.1_Init.png)
@@ -189,6 +189,7 @@ OS/言語を問わず利用するツールの情報
       ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
       ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
     - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>
