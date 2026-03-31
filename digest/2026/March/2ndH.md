@@ -13,12 +13,12 @@ sidebar:
 - macOS Tahoe 26.4 / ChromeOS Flex 145.0.7632.216 へのアップデート、Xcode 26.4 更新
 - Rust 1.94.1 / Tauri 2.10.3 への更新（Windows Insider・ChromeOS Flex・macOS）
 - macOS Tahoe 26.4・iOS 26.4（iPhone 17 Pro）・ChromeOS Flex 上でのTauriアプリ動作確認
-- Claude Code 2.1.81（Windows Insider・macOS）→ 2.1.85（Windows Insider）への更新
+- Claude Code 2.1.81（Windows Insider・macOS）→ 2.1.88（Windows Insider）/ 2.1.87（macOS）への更新
 - Visual Studio Code March 2026(1.113.0) / AntiGravity 1.21.6 / Zed 0.229.0 への更新
 - Codex 26.325.31654（macOS）・26.325.21211（Windows Insider）に更新
 - Windows InsiderでAndroid Studio Panda 2025.3.4 Canary 1 / Kotlin 2.3.20 に更新
-- Windows Insider Preview Build 26300.8085（Dev Channel）にアップデート
-- Cursor 2.6.21 に更新
+- Windows Insider Preview Build 26300.8142（Dev Channel）にアップデート
+- Cursor 2.6.22 に更新
 - AI駆動開発入門 営業日報システムの残課題対応が完了
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
@@ -41,6 +41,9 @@ sidebar:
 - v0.8.0: リリース・プレイリスト詳細に前後ナビゲーション追加・プレイリスト選曲のリリース紐付け改善・Vite 8.0更新
 - v1.0.0-v1.0.2: 曲名・期間による検索機能追加・検索フォーム URL state 永続化
 - v1.1.0: 曲名前方一致によるオリジナル/リメイク対比機能追加（対比一覧・詳細ページ）
+- v1.1.1: 曲対比機能を改善（除外パターン・リリースフォーマット記録・UI刷新）
+- v1.3.0〜v1.3.2: 対比インデックス生成にエイリアス・表記ゆれ検出追加・バグ修正
+- v1.4.0: リリース一覧・メンバー詳細にフォーマットバッジ追加・関連リリース抽出ロジック改善
 
 # Daily
 
@@ -116,6 +119,20 @@ sidebar:
   - React 19.2.4 との組み合わせで、ChromeOS Flex上でのTauriアプリの動作を確認
 - **＜Rust＞** macOSで、[Rust 1.94.1](https://www.rust-lang.org/) / [Tauri 2.10.3](https://tauri.app/) に更新
   - React 19.2.4 / Bun 1.3.11 / Vite 8.0.3 との組み合わせで、macOS Tahoe 26.4 および iOS 26.4（iPhone 17 Pro）上でのTauriアプリの動作を確認
+
+###  【3/29】
+
+- **＜開発ツール＞** [Cursor 2.6.22](https://www.cursor.com/)に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.87](https://github.com/anthropics/claude-code) に更新
+
+###  【3/30】
+
+- **＜MCP＞** macOSで、[Claude Code 2.1.87](https://github.com/anthropics/claude-code) に更新
+
+###  【3/31】
+
+- **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.8142 (Quality Update)](https://blogs.windows.com/windows-insider/)にアップデート
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.88](https://github.com/anthropics/claude-code) に更新
 
 ## 営業日報システム
 
@@ -219,3 +236,12 @@ sidebar:
 - 曲名の前方一致で同名曲のオリジナルとリメイクを対比できる曲対比機能を追加。対比一覧・対比詳細ページ、曲詳細への対比リンクを実装（#474）
 - 曲対比の後処理：型共有・全角スペース対応・設計書更新（#486 #487 #488 #489）
 - 型再エクスポート削除と画面遷移図への曲検索経路追加（#491 #492）
+
+### v1.1.1〜v1.3.1（3/29）
+- v1.1.1: 曲対比機能を改善。除外パターン設定とリリースフォーマット記録を追加し、対比一覧をシンプルなリスト表示・対比詳細でシングルとその他を区別表示（#494）
+- v1.3.0: 対比インデックス生成にエイリアス・表記ゆれ自動検出機能を追加。除外条件を部分一致化し、ライブアルバム・サウンドトラックを対比対象から除外（#509 #510 #511 #541 #508）
+- v1.3.1: 対比インデックス生成スクリプトのWindows環境でのENOENTクラッシュを修正（#543）
+
+### v1.3.2〜v1.4.0（3/30）
+- v1.3.2: 対比インデックス生成でトラック単位のサフィックス除外（Instrumental・Video等）に対応（#546）
+- v1.4.0: リリース一覧・メンバー詳細にフォーマットバッジを追加し、ライブアルバム・サウンドトラック等を新たに表示対応。関連リリース抽出ロジックを改善（#512 #548 #514）
