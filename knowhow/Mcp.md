@@ -63,15 +63,15 @@ AIエージェントを活用した開発スタイルの修得
   - 営業日報システム
     - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
     - 基本実装 <span style="color: red;">*<<2026/02/15 finished>>*</span>
-    - 残課題対応
+    - 残課題対応 <span style="color: red;">*<<2026/03/17 finished>>*</span>
 
 ##  環境
 ### 基本環境
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.76         |[2026/03/14](https://github.com/anthropics/claude-code)
-  |macOS           |Claude Code 2.1.71         |2026/03/07
+  |Windows Insider |Claude Code 2.1.88         |[2026/03/31](https://github.com/anthropics/claude-code)
+  |macOS           |Claude Code 2.1.87         |2026/03/30
 
 ### MCP入門
 
@@ -93,7 +93,7 @@ AIエージェントを活用した開発スタイルの修得
   |Windows Insider |Next.js 16.1.6             |2026/02/02
   |                |- React 19.2.4             |2026/02/02
   |                |- Bun 1.3.10               |2026/03/05
-  |                |- Prisma 6.19.2            |2026/02/02
+  |                |- Prisma 7.5.0             |2026/03/17
   |                |- husky 9.1.7              |2026/02/02
   |                |- zod 4.3.6                |2026/02/02
   |                |- bcryptjs 3.0.3           |2026/02/03
@@ -143,7 +143,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### [Claude AI](https://claude.ai/)
-- [Claude Code 2.1.76](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/14 updated from 2.1.74>>*</span>
+- [Claude Code 2.1.88](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/31 updated from 2.1.87>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex

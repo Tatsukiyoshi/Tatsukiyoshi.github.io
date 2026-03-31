@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code March 2026(1.111.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/10 updated from 1.110.1>>*</span>
+- [Visual Studio Code March 2026(1.113.0)](https://code.visualstudio.com/) <span style="color: red;">*<<2026/03/26 updated from 1.112.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -28,7 +28,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.20.5](https://antigravity.google/) <span style="color: red;">*<<2026/03/14 updated from 1.19.6>>*</span>
+- [AntiGravity 1.21.6](https://antigravity.google/) <span style="color: red;">*<<2026/03/28 updated from 1.20.6>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [Antigravity 1.20.4](https://antigravity.google/) <span style="color: red;">*<<2026/03/08 updated from 1.18.4 >>*</span>
+    - [AntiGravity 1.21.6](https://antigravity.google/) <span style="color: red;">*<<2026/03/28 updated from 1.20.4 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -66,19 +66,21 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.227.1](https://zed.dev/windows) <span style="color: red;">*<<2026/03/14 updated from 0.226.5>>*</span>
+    - [Zed 0.229.0](https://zed.dev/windows) <span style="color: red;">*<<2026/03/28 updated from 0.228.0>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.226.5](https://zed.dev) <span style="color: red;">*<<2026/03/06 updated from 0.225.10>>*</span>
+    - [Zed 0.229.0](https://zed.dev) <span style="color: red;">*<<2026/03/26 updated from 0.227.1>>*</span>
 
-- [Cursor 2.6.19](https://www.cursor.com/) <span style="color: red;">*<<2026/03/14 updated from 2.6.14>>*</span>
+- [Cursor 2.6.22](https://www.cursor.com/) <span style="color: red;">*<<2026/03/29 updated from 2.6.21>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
   ![Update](/images/Cursor/20260308_Update.png)
 - Codex
   - Windows
-    - [Codex 26.311.2262](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/13 auto updated from 26.305.950>>*</span>
+    - [Codex 26.325.21211](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/28 auto updated from 26.313.41514>>*</span>
+      - 新機能
+        ![New Feature](/images/OpenAI/20260328_Codex_New_Feature.png)
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
         ![Download](/images/OpenAI/20260305_Windows_Codex.png)
       - 起動後、OpenAIにサインイン
@@ -86,7 +88,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.305.950](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/06 updated from 26.303.1606>>*</span>
+    - [Codex 26.325.31654](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/03/28 updated from 26.325.21211>>*</span>
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 ### その他
@@ -177,14 +179,17 @@ OS/言語を問わず利用するツールの情報
 
 ##  macOS <a id="macOS"></a>
 - Xcode
-  - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
+  - [Xcode 26.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/03/28 Updated from 26.3>>*</span>
   - iOS Simulatorの更新
+    - 追加した直後は検証される
+      ![Runtime検証](/images/iOS/20260316_iPhone17_Pro_iOS26.3.1_Init.png)
     - [Xcodeを使用してiOS simulatorを追加する方法](https://qiita.com/shint_1/items/656044190516a3926364)
     - XCodeで新しいバージョンをダウンロードする
     - XCodeで古いバージョンは削除し、単一のバージョンのみとすること（複数存在するとシミュレータでの実行時にエラーとなる模様）
       ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
       ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
     - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
     - [Xcode 26.1](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1 RC>>*</span>

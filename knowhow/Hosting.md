@@ -32,6 +32,9 @@ sidebar:
 
   & $env:Temp\GoogleCloudSDKInstaller.exe
   ```
+- YouTube
+  - YouTubeの各動画へのリンク取得
+    ![YouTube Data API V3](/images/Google/20260320_Youtube_Data_API_V3.png)
 
 ### Azure
 - [Azureポータル](https://portal.azure.com/#home)

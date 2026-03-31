@@ -5,6 +5,9 @@ sidebar:
   nav: environment
 ---
 
+##  [Figma](https://www.figma.com/ja-jp/)
+- Claude Code等コーディングエージェントとの連携
+
 ##  [Jules](https://jules.google.com/)
 
 - Gemini 2.5によるエージェントサービス

@@ -10,6 +10,9 @@ sidebar:
     - フィルタ設定は、PCとモバイルで異なるため、設定はPCで行うべき。(2025/08/26現在)
   - GitHub Copilot Free
     ![GitHub Copilot Free](/images/GitHub/20241220_GitHub_Copilot_Free.png)
+    - Privacy
+      - AI学習へのコード利用に関して、設定変更が必要（～2026/04/24）
+        ![Privacy Settings](/images/GitHub/20260327_Privacy_Settings.png)
   - GitHub Pages
     - コンテンツを更新したにもかかわらず、更新した内容を表示できない
       - ビルドエラーとなっていることが考えられるので、GitHub Actionsが完了しているかを確認する

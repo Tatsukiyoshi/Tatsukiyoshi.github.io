@@ -41,12 +41,15 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26300.8068 (Quality Update) <span style="color: red;">*<<2026/03/14 updated from Build 26300.7965 >>*</span>
-      ![Quality Update](/images/Windows/20260314_WindowsUpdate_DevChannel.png)
+    - Build 26300.8142 (Quality Update) <span style="color: red;">*<<2026/03/31 updated from Build 26300.8085 >>*</span>
+      ![Quality Update](/images/Windows/20260331_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260314_Windows11_Build26300.png)
-    - Two Copilots in System Tray
-      ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
+        ![Version Information](/images/Windows/20260331_Windows11_Build26300.png)
+    - Two Copilots in System Tray Became the Search Bar!
+      - Before
+        ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
+      - After
+        ![SearchBar](/images/Windows/20260331_SearchBar.png)
     - Updated to Windows Insider Dev Channel
       - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
         ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
@@ -152,24 +155,24 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Tahoe 26.3.1](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/03/06 updated from Tahoe 26.3>>*</span>
-    - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20260306_macOS_Tahoe26.3.1Update.png)
+  - [Tahoe 26.4](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/03/28 updated from Tahoe 26.3.1>>*</span>
+    - ダウンロード中
+      ![Updating](/images/macOS/20260328_macOS_Tahoe26.4Update.png)
     - アップデート完了
-      ![Updated](/images/macOS/20260306_macOS_Tahoe26.3.1Updated.png)
-      - iCloudの再設定実施
-    - アップデート後ログイン
-      ![After Updated](/images/macOS/20260306_macOS_Tahoe26.3.1After.png)
+      ![Updated](/images/macOS/20260328_macOS_Tahoe26.4Updated.png)
+    - XCodeも更新？
+      ![Updated and XCode](/images/macOS/20260328_macOS_Tahoe26.4Updated2.png)
+    - 最終確認
+      ![End Update](/images/macOS/20260328_macOS_Tahoe26.4Updated3.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
-  - バージョン 145.0.7632.165 <span style="color: red;">*<<2026/03/08 updated from 144.0.7559.221>>*</span>
+  - バージョン 145.0.7632.216 <span style="color: red;">*<<2026/03/28 updated from 145.0.7632.165>>*</span>
     - 145系にアップデート
-      ![ChromeOS Flexバージョン情報](/images/Chrome/20260308_ChromeOS_Flex_145.0.7632.165.png)
-        - 更新中
-          ![Updating](/images/Chrome/20260308_ChromeOS_Flex_Updating145.0.7632.165.png)
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260328_ChromeOS_Flex_145.0.7632.216.png)
+
         <details>
         <summary>
         ディストリビューション・バージョン情報

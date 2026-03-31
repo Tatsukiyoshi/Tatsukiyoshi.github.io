@@ -10,7 +10,7 @@ sidebar:
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/3/1～2026/3/14）](/digest/2026/March/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/3/14～2026/3/31）](/digest/2026/March/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -20,27 +20,27 @@ sidebar:
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/03/14|[Build 26300.8068](https://aka.ms/DevLatest)
+Windows Insider             |2026/03/31|[Build 26300.8142](https://aka.ms/DevLatest)
 Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/03/06|[Tahoe 26.3.1](https://www.apple.com/jp/os/macos/)
-ChromeOS Flex               |2026/03/08|[145.0.7632.165](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+macOS                       |2026/03/28|[Tahoe 26.4](https://www.apple.com/jp/os/macos/)
+ChromeOS Flex               |2026/03/28|[145.0.7632.216](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 [Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/03/10|[1.111.0](https://code.visualstudio.com/)
-AntiGravity         | * | - | * |2026/03/14|[1.20.5](https://antigravity.google/)
-Zed                 | * | * | - |2026/03/14|[0.227.1](https://zed.dev)
-Claude Code         | * | * | - |2026/03/14|[2.1.76](https://github.com/anthropics/claude-code)
-Cursor              | * | - | - |2026/03/14|[2.6.19](https://www.cursor.com/)
-Codex               | * | * |   |2026/03/13|[26.311.2262](https://openai.com/ja-JP/codex/)
+Visual Studio Code  | * | * | * |2026/03/26|[1.113.0](https://code.visualstudio.com/)
+AntiGravity         | * | - | * |2026/03/28|[1.21.6](https://antigravity.google/)
+Zed                 | * | * | - |2026/03/26|[0.229.0](https://zed.dev)
+Claude Code         | * | * | - |2026/03/31|[2.1.88](https://github.com/anthropics/claude-code)
+Cursor              | * | - | - |2026/03/29|[2.6.22](https://www.cursor.com/)
+Codex               | * | * |   |2026/03/28|[26.325.31654](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
 mise                | * |   |   |2026/01/24|[2026.1.6](https://mise.jdx.dev/)
-Xcode               |   | * |   |2026/02/28|[26.3](https://developer.apple.com/jp/xcode/)
+Xcode               |   | * |   |2026/03/28|[26.4](https://developer.apple.com/jp/xcode/)
 CocoaPods           |   | * |   |2026/02/01|[1.16.2_2](https://github.com/CocoaPods/CocoaPods)
 GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
@@ -54,8 +54,8 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/03/11|Update: Visual Studio Community 2026 18.4.0 / .NET MAUI 10.0.50 / .NET 10.0.4 / .NET 9.0.14 / .NET 8.0.25
-[Rust](/knowhow/Rust)            |2026/03/08|Update: Rust 1.94.0 / Tauri 2.10.3@ChromeOS Flex
-[Kotlin](/knowhow/Kotlin)        |2026/02/28|Update: IntelliJ IDEA 2025.3.3 / Android Studio Panda 2025.3.3 Canary 2 / Android Emulator v.36.5.5
+[Rust](/knowhow/Rust)            |2026/03/28|Update: Rust 1.94.1 / Tauri 2.10.3
+[Kotlin](/knowhow/Kotlin)        |2026/03/22|Update: Android Studio Panda 2025.3.4 Canary 1
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
 [TypeScript](/knowhow/TypeScript)|2026/03/13|Add: Exa-js 2.8.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
@@ -68,7 +68,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/03/14|Update: Claude Code 2.1.76
+[Model Context Protocol](/knowhow/Mcp) |2026/03/31|Update: Claude Code 2.1.88
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
