@@ -70,7 +70,7 @@ AIエージェントを活用した開発スタイルの修得
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.87         |[2026/03/29](https://github.com/anthropics/claude-code)
+  |Windows Insider |Claude Code 2.1.88         |[2026/03/31](https://github.com/anthropics/claude-code)
   |macOS           |Claude Code 2.1.87         |2026/03/30
 
 ### MCP入門
@@ -143,7 +143,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### [Claude AI](https://claude.ai/)
-- [Claude Code 2.1.87](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/29 updated from 2.1.85>>*</span>
+- [Claude Code 2.1.88](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/31 updated from 2.1.87>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
