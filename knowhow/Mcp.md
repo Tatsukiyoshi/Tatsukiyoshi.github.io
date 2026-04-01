@@ -103,6 +103,7 @@ AIエージェントを活用した開発スタイルの修得
   |                |- tsx 4.19.4               |2026/02/08
   |                |- lucide-react 0.577.0     |2026/03/10
   |                |- Playwright 1.59.0        |[2026/04/01](https://Playwright.dev/)
+  |                |Neon(PostgreSQL 17)        |[2026/03/13](https://neon.com/)
 
   - AIチャットボット
 
@@ -112,9 +113,9 @@ AIエージェントを活用した開発スタイルの修得
   |                |- React 19.2.4             |2026/01/29
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Prisma 6.19.2            |2026/01/29
-  |                |- MongoDB Atlas            |[2026/01/28](https://cloud.mongodb.com/)
   |                |- Playwright 1.58.0        |2026/01/30
   |                |- Lighthouse CLI 0.15.1    |2026/01/30
+  |                |MongoDB Atlas              |[2026/01/28](https://cloud.mongodb.com/)
 
   - TODOアプリ
 
