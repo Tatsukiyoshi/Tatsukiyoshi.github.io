@@ -64,6 +64,7 @@ AIエージェントを活用した開発スタイルの修得
     - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
     - 基本実装 <span style="color: red;">*<<2026/02/15 finished>>*</span>
     - 残課題対応 <span style="color: red;">*<<2026/03/17 finished>>*</span>
+    - Playwright対応 <span style="color: red;">*<<2026/04/01 started>>*</span>
 
 ##  環境
 ### 基本環境
@@ -101,6 +102,7 @@ AIエージェントを活用した開発スタイルの修得
   |                |- clsx 2.1.1               |2026/02/07
   |                |- tsx 4.19.4               |2026/02/08
   |                |- lucide-react 0.577.0     |2026/03/10
+  |                |- Playwright 1.59.0        |[2026/04/01](https://Playwright.dev/)
 
   - AIチャットボット
 
@@ -111,7 +113,7 @@ AIエージェントを活用した開発スタイルの修得
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Prisma 6.19.2            |2026/01/29
   |                |- MongoDB Atlas            |[2026/01/28](https://cloud.mongodb.com/)
-  |                |- Playwright 1.58.0        |[2026/01/30](https://Playwright.dev/)
+  |                |- Playwright 1.58.0        |2026/01/30
   |                |- Lighthouse CLI 0.15.1    |2026/01/30
 
   - TODOアプリ
