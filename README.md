@@ -20,7 +20,7 @@ sidebar:
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/03/31|[Build 26300.8142](https://aka.ms/DevLatest)
+Windows Insider             |2026/04/05|[Build 26300.8155](https://aka.ms/DevLatest)
 Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/03/28|[Tahoe 26.4](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/03/28|[145.0.7632.216](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
