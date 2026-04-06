@@ -18,7 +18,7 @@ sidebar:
 
       |Machine         |Env / FW                                                    |Last Updated
       |----------------|------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.3](#intellij-idea)                    |[2026/02/28](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2025.3.4](#intellij-idea)                    |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
@@ -36,10 +36,10 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.3 Build #IU-253.31033.145, built on February 20, 2026
+  - IntelliJ IDEA 2025.3.4 Build #IU-253.32098.37, built on March 17, 2026
     ```
-    Source revision: 212d61deaf3a8
-    Runtime version: 21.0.10+1-b1163.108 amd64 (JCEF 137.0.17)
+    Source revision: a1f2bc0e0d733
+    Runtime version: 21.0.10+1-b1163.110 amd64 (JCEF 137.0.17)
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -48,14 +48,27 @@ sidebar:
     Cores: 8
     Registry:
       ide.experimental.ui=true
+      llm.chat.agent.codex.install.acp.server.version=0.0.31
+      llm.chat.agent.codex.install.codex.version=0.114.0
       maven.packagesearch.enabled=false
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (253.31033.145)
-      Dart (503.0.0)
-      com.intellij.ml.llm (253.31033.145)
-      org.jetbrains.android (253.31033.145)
-      io.flutter (89.0.0)
-    Kotlin: 253.31033.145-IJ
+      com.intellij.notebooks.core (253.32098.37)
+      com.intellij.java (253.32098.37)
+      org.jetbrains.completion.full.line (253.32098.37)
+      Subversion (253.32098.60)
+      com.intellij.kubernetes (253.32098.40)
+      Dart (504.0.0)
+      com.jetbrains.restClient (253.32098.37)
+      intellij.jupyter (253.32098.37)
+      Docker (253.32098.40)
+      com.intellij.ml.llm (253.32098.66)
+      tanvd.grazi (253.32098.37)
+      com.intellij.settingsSync (253.32098.37)
+      org.jetbrains.idea.maven (253.32098.37)
+      org.jetbrains.android (253.32098.37)
+      io.flutter (91.0.0)
+      PerforceDirectPlugin (253.32098.39)
+    Kotlin: 253.32098.37-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.2
