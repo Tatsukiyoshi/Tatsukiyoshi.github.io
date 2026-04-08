@@ -24,7 +24,7 @@ Windows Insider             |2026/04/05|[Build 26300.8155](https://aka.ms/DevLat
 Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/03/28|[Tahoe 26.4](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/04/08|[146.0.7680.184](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
+Ubuntu Desktop              |2026/04/09|[26.04(development branch)](https://jp.ubuntu.com/download)
 [Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
 Tools               |Win|mac|Chr|Updated   |Detail

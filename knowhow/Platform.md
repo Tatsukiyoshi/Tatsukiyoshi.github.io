@@ -242,9 +242,8 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20251019_Ubuntu25.10.png)
-  - [Upgrade Log](/knowhow/sub/Ubuntu/20251019_Upgrade)
+- [Ubuntu Desktop 26.04(development branch)](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/08 updated from 25.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+  ![Version Information](/images/Ubuntu/20260409_Ubuntu26.04_Development.png)
 
     <details>
     <summary>
@@ -256,7 +255,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2026-04-08 20:55:54
+    - **Date generated:**                              2026-04-09 00:34:40
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -267,13 +266,13 @@ OS                                 |Hardware            |Language
 
     ## Software Information:
     - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu 25.10
+    - **OS Name:**                                     Ubuntu Resolute Raccoon (development branch)
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
     - **GNOME Version:**                               49
     - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 6.17.0-20-generic
-   ```
+    - **Kernel Version:**                              Linux 7.0.0-12-generic
+    ```
     </details>
 
     <details>
@@ -282,25 +281,25 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu 25.10"
+    PRETTY_NAME="Ubuntu Resolute Raccoon (development branch)"
     NAME="Ubuntu"
-    VERSION_ID="25.10"
-    VERSION="25.10 (Questing Quokka)"
-    VERSION_CODENAME=questing
+    VERSION_ID="26.04"
+    VERSION="26.04 (Resolute Raccoon)"
+    VERSION_CODENAME=resolute
     ID=ubuntu
     ID_LIKE=debian
     HOME_URL="https://www.ubuntu.com/"
     SUPPORT_URL="https://help.ubuntu.com/"
     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=questing
+    UBUNTU_CODENAME=resolute
     LOGO=ubuntu-logo
     ```
 
     </details>
 
   - カーネルバージョン
-    - 6.17.0-20 / Ubuntu 25.10 <span style="color: red;">*<<2026/04/08 Updated from 6.17.0-6>>*</span>
+    - 7.0.0-12-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/09 Updated from 6.17.0-20>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
