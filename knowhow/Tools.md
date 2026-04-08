@@ -12,7 +12,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.114.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/04/02 updated from 1.113.0>>*</span>
+- [Visual Studio Code 1.115.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/04/08 updated from 1.114.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [AntiGravity 1.21.6](https://antigravity.google/) <span style="color: red;">*<<2026/03/28 updated from 1.20.4 >>*</span>
+    - [AntiGravity 1.22.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/08 updated from 1.21.6 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings

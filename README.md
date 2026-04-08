@@ -23,15 +23,15 @@ Platform                    |Updated   |Detail
 Windows Insider             |2026/04/05|[Build 26300.8155](https://aka.ms/DevLatest)
 Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/03/28|[Tahoe 26.4](https://www.apple.com/jp/os/macos/)
-ChromeOS Flex               |2026/03/28|[145.0.7632.216](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+ChromeOS Flex               |2026/04/08|[146.0.7680.184](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2025/10/19|[25.10](https://jp.ubuntu.com/download)
 [Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/04/02|[1.114.0](https://code.visualstudio.com/)
-AntiGravity         | * | - | * |2026/04/04|[1.21.9](https://antigravity.google/)
+Visual Studio Code  | * | * | * |2026/04/08|[1.115.0](https://code.visualstudio.com/)
+AntiGravity         | * | - | * |2026/04/08|[1.22.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/04/04|[0.230.1](https://zed.dev)
 Claude Code         | * | * | - |2026/04/04|[2.1.92](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/04/03|[3.0.9](https://www.cursor.com/)
