@@ -33,8 +33,8 @@ Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/downloa
 Visual Studio Code  | * | * | * |2026/04/08|[1.115.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/08|[1.22.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/04/10|[0.231.2](https://zed.dev)
-Claude Code         | * | * | - |2026/04/10|[2.1.98](https://github.com/anthropics/claude-code)
-Cursor              | * | - | - |2026/04/03|[3.0.9](https://www.cursor.com/)
+Claude Code         | * | * | - |2026/04/10|[2.1.100](https://github.com/anthropics/claude-code)
+Cursor              | * | - | - |2026/04/10|[3.0.16](https://www.cursor.com/)
 Codex               | * | * |   |2026/04/10|[26.406.31014](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
@@ -68,7 +68,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/04/10|Update: Claude Code 2.1.98
+[Model Context Protocol](/knowhow/Mcp) |2026/04/10|Update: Claude Code 2.1.100
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
