@@ -41,10 +41,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
   - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26300.8155 (Quality Update) <span style="color: red;">*<<2026/04/05 updated from Build 26300.8142 >>*</span>
-      - 夜間に更新されたため、更新中の動き確認はなし
+    - Build 26300.8170 (Quality Update) <span style="color: red;">*<<2026/04/11 updated from Build 26300.8155 >>*</span>
+      ![Quality Update](/images/Windows/20260411_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260405_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260411_Windows11_Build26300.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
