@@ -18,14 +18,14 @@ sidebar:
 
       |Machine         |Env / FW                                                    |Last Updated
       |----------------|------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2025.3.3](#intellij-idea)                    |[2026/02/28](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2026.1](#intellij-idea)                      |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.4 Canary 1](#AndroidStudio)    |[2026/03/22](https://developer.android.com/studio)
+      |                |[Android Studio Panda 2025.3.4 Canary 2](#AndroidStudio)    |[2026/04/03](https://developer.android.com/studio)
       |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.5.8                                 |2026/03/19
+      |                |- Android Emulator v.36.6.2                                 |2026/04/03
 
   1. macOS Sequoia 15.6.1
 
@@ -36,26 +36,38 @@ sidebar:
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2025.3.3 Build #IU-253.31033.145, built on February 20, 2026
+  - IntelliJ IDEA 2026.1 Build #IU-261.22158.277, built on March 25, 2026
     ```
-    Source revision: 212d61deaf3a8
-    Runtime version: 21.0.10+1-b1163.108 amd64 (JCEF 137.0.17)
+    Source revision: 89c647576f1d2
+    Runtime version: 25.0.2+1-b329.72 amd64137.0.17-261-b65
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
+    例外報告ツール ID: 1611241559804c2-b55d-4dcd-9d23-5588708255db
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
     Memory: 2048M
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      maven.packagesearch.enabled=false
+      trace.state.event.service.url=https://api.jetbrains.cloud/trace-status
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (253.31033.145)
-      Dart (503.0.0)
-      com.intellij.ml.llm (253.31033.145)
-      org.jetbrains.android (253.31033.145)
-      io.flutter (89.0.0)
-    Kotlin: 253.31033.145-IJ
+      intellij.jupyter (261.22158.354)
+      JavaScript (261.22158.277)
+      com.intellij.java (261.22158.277)
+      org.jetbrains.completion.full.line (261.22158.277)
+      com.intellij.spring (261.22158.354)
+      Subversion (261.22158.354)
+      hg4idea (261.22158.185)
+      Dart (504.0.0)
+      PerforceDirectPlugin (261.22158.185)
+      org.jetbrains.kotlin (261.22158.277-IJ)
+      com.intellij.spring.boot (261.22158.277)
+      org.jetbrains.idea.maven (261.22158.277)
+      com.intellij.ml.llm (261.22158.366)
+      Docker (261.22158.299)
+      org.jetbrains.android (261.22158.277)
+      io.flutter (91.0.0)
+    Kotlin: 261.22158.277-IJ
     ```
 - History
   - IntelliJ IDEA 2025.3.2
@@ -299,16 +311,16 @@ sidebar:
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 4 | 2025.3.4 Canary 1
+    - Android Studio Panda 4 | 2025.3.4 Canary 2
       ```
-      Build #AI-253.32098.37.2534.15052363, built on March 19, 2026
+      Build #AI-253.32098.37.2534.15100028, built on March 27, 2026
       Runtime version: 21.0.10+-14961533-b1163.108 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=490):
+        PropertyOverrides(cache.size=492):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -323,8 +335,8 @@ sidebar:
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (503.0.0)
-        io.flutter (90.0.0)
+        Dart (504.0.0)
+        io.flutter (91.0.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -382,11 +394,19 @@ sidebar:
   - Android
     - Android Canary
       ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+    - Android 17 (API 37.0) (*2026/04/03* <span style="color: red;">Checked!</span>)
+      ![Janken](/images/Android/20260403_Janken_API37.0.png)
+      ![Resizable](/images/Android/20260403_Janken_Resizable_API37.0.png)
+      ![Foldable](/images/Android/20260403_Janken_Foldable_API37.0.png)
     - Android 17 (Cinnamon Bun Preview) (*2026/02/15* <span style="color: red;">Checked!</span>)
       - Phone / Tablet / Foldableを切り替えるResizableエミュレータは便利かも！
         ![Resizable](/images/Android/20260215_Resizable_Devices.png)
     - Android 16 (API 36.1)
       ![MyApplication](/images/Android/20250928_MyApplication_API36.1.png)
+      - Android Emulator 更新で動作しない
+        - GraphicsをAutomaticからSoftwareに変更 -> 起動するも、その後異常終了
+        - Wipe Data（データ削除）-> 起動および動作正常
+          ![Janken](/images/Android/20260403_Janken_API36.1.png)
     - Android 16 QPR2 Beta 1(Android Baklava Preview)
       - Android Studio Narwhal Feature Drop 2025.1.4 Canary 2
         ![MyApplication](/images/Android/20250822_MyApplication_BaklavaPreview.png)
@@ -400,8 +420,12 @@ sidebar:
   - 対応履歴
     - Panda
       - 2025.3.4
+        - Canary 2
+          - Android Gradle Plugin 9.2.0-alpha05 -> 9.2.0-alpha06
+          - Android Emulator 36.6.2
         - Canary 1
           - Android Gradle Plugin 9.2.0-alpha04 -> 9.2.0-alpha05
+          - Android Emulator 36.5.9
       - 2025.3.3
         - Canary 4
           - Gradle 9.5.0-milestone-5

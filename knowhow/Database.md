@@ -31,6 +31,7 @@ sidebar:
   - セットアップ
     - GitHub認証でサインイン
     - DB作成(on AWS or Azure)
+  - Google Cloud SQL有償対応のため、移行（※Cloud SQL Deleted@2026/04/01）
 
 ### SQLite
   - [インストール](https://www.sqlite.org/download.html)

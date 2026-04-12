@@ -60,10 +60,10 @@ sidebar:
       |                |        |- Vite 7.1.9                       |2025/10/03
       |                |        |[React 19.2.0](#react)             |[2025/10/08](https://react.dev/)
       |                |        |- Bun 1.2.21                       |2025/08/30
-      |                |        |[React Native Windows 0.81.0](#rnw)|[2025/12/25](https://microsoft.github.io/react-native-windows/)
-      |                |        |- Bun 1.3.5                        |2025/12/25
-      |                |        |- React Native 0.81.5              |2025/12/25
-      |                |        |- React 19.2.3                     |2025/12/25
+      |                |        |[React Native Windows 0.82.3](#rnw)|[2026/04/04](https://microsoft.github.io/react-native-windows/)
+      |                |        |- Bun 1.3.11                       |2026/03/28
+      |                |        |- React Native 0.82.1              |2026/04/04
+      |                |        |- React 19.2.4                     |2026/04/04
       |                |        |- Windows SDK 10.0.26100           |2025/01/18
       |                |        |[Svelte 5.48.1](#svelte)           |[2026/01/24](https://svelte.dev/)
       |                |        |- Bun 1.3.6                        |2026/01/23
@@ -434,10 +434,10 @@ sidebar:
           ```sh
           bun windows
           ```
-        - React Native Windows 0.81.0
-          - React Native 0.81.5
-          - React 19.2.3
-            ![React Native Windows 0.81.0](/images/JavaScript/20251225_ReactNativeWindows0.81.0.png)
+        - React Native Windows 0.82.3
+          - React Native 0.82.1
+          - React 19.2.4
+            ![React Native Windows 0.82.3](/images/JavaScript/20260404_ReactNativeWindows0.82.3.png)
       - モノレポ構成でのWebとモバイル共有化
         ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)
         ![React Native](/images/JavaScript/20251030_Sharing_ReactNative.png)

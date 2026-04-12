@@ -411,7 +411,8 @@ sidebar:
     - iOS 26.3.1 / iPhone 17 Pro
       ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
     - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
-      ![On Android Canary](/images/rust/20260123_Tauri2.9.5_Pixel_9a_Android36.1.png)
+      - Gradle 8.14.4 ＋ Kotlin 2.0.21の組み合わせしかない
+        ![On Android Canary](/images/rust/20260328_Tauri2.10.3_Pixel_9_Pro_Android36.1.png)
   - V2.10.2
     - macOS 26.3
       ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)

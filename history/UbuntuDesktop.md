@@ -5,7 +5,66 @@ sidebar:
   nav: environment
 ---
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span><a id="UbuntuDesktop"></a>
+- [Ubuntu Desktop 26.04(development branch)](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/08 updated from 25.10>>*</span>
+  ![Version Information](/images/Ubuntu/20260409_Ubuntu26.04_Development.png)
+
+    <details>
+    <summary>
+    System Details
+    </summary>
+
+    ```
+    # System Details Report
+    ---
+
+    ## Report details
+    - **Date generated:**                              2026-04-09 00:34:40
+
+    ## Hardware Information:
+    - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
+    - **Memory:**                                      4.0 GiB
+    - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
+    - **Graphics:**                                    Intel® HD Graphics (CHV)
+    - **Disk Capacity:**                               125.1 GB
+
+    ## Software Information:
+    - **Firmware Version:**                            T103HAF.307
+    - **OS Name:**                                     Ubuntu Resolute Raccoon (development branch)
+    - **OS Build:**                                    (null)
+    - **OS Type:**                                     64-bit
+    - **GNOME Version:**                               49
+    - **Windowing System:**                            Wayland
+    - **Kernel Version:**                              Linux 7.0.0-12-generic
+    ```
+    </details>
+
+    <details>
+    <summary>
+    ディストリビューション・バージョン情報
+    </summary>
+
+    ```
+    PRETTY_NAME="Ubuntu Resolute Raccoon (development branch)"
+    NAME="Ubuntu"
+    VERSION_ID="26.04"
+    VERSION="26.04 (Resolute Raccoon)"
+    VERSION_CODENAME=resolute
+    ID=ubuntu
+    ID_LIKE=debian
+    HOME_URL="https://www.ubuntu.com/"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    UBUNTU_CODENAME=resolute
+    LOGO=ubuntu-logo
+    ```
+
+    </details>
+
+  - カーネルバージョン
+    - 7.0.0-12-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/09 Updated from 6.17.0-20>>*</span>
+
+- [Ubuntu Desktop 25.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/10/19 updated from 25.04>>*</span>
   ![Version Information](/images/Ubuntu/20251019_Ubuntu25.10.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20251019_Upgrade)
 
@@ -68,7 +127,7 @@ sidebar:
     - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>
       ![Startup](/images/Ubuntu/20250630_Plasma.png)
       - Visual Studio Codeが起動できないため、継続利用を断念
-- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span><a id="UbuntuDesktop"></a>
+- [Ubuntu Desktop 25.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2025/04/23 updated from 24.10>>*</span>
   ![Version Information](/images/Ubuntu/20250423_Ubuntu25.04.png)
   - [Upgrade Log](/knowhow/sub/Ubuntu/20250423_Upgrade)
 

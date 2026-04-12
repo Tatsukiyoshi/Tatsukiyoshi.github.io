@@ -64,14 +64,15 @@ AIエージェントを活用した開発スタイルの修得
     - 開発環境サーバ構築 <span style="color: red;">*<<2026/02/08 finished>>*</span>
     - 基本実装 <span style="color: red;">*<<2026/02/15 finished>>*</span>
     - 残課題対応 <span style="color: red;">*<<2026/03/17 finished>>*</span>
+    - Playwright対応 <span style="color: red;">*<<2026/04/01 started>>*</span>
 
 ##  環境
 ### 基本環境
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.88         |[2026/03/31](https://github.com/anthropics/claude-code)
-  |macOS           |Claude Code 2.1.87         |2026/03/30
+  |Windows Insider |Claude Code 2.1.101        |[2026/04/11](https://github.com/anthropics/claude-code)
+  |macOS           |Claude Code 2.1.98         |2026/04/10
 
 ### MCP入門
 
@@ -101,6 +102,8 @@ AIエージェントを活用した開発スタイルの修得
   |                |- clsx 2.1.1               |2026/02/07
   |                |- tsx 4.19.4               |2026/02/08
   |                |- lucide-react 0.577.0     |2026/03/10
+  |                |- Playwright 1.59.0        |[2026/04/01](https://Playwright.dev/)
+  |                |Neon(PostgreSQL 17)        |[2026/03/13](https://neon.com/)
 
   - AIチャットボット
 
@@ -110,9 +113,9 @@ AIエージェントを活用した開発スタイルの修得
   |                |- React 19.2.4             |2026/01/29
   |                |- Bun 1.3.6                |2026/01/24
   |                |- Prisma 6.19.2            |2026/01/29
-  |                |- MongoDB Atlas            |[2026/01/28](https://cloud.mongodb.com/)
-  |                |- Playwright 1.58.0        |[2026/01/30](https://Playwright.dev/)
+  |                |- Playwright 1.58.0        |2026/01/30
   |                |- Lighthouse CLI 0.15.1    |2026/01/30
+  |                |MongoDB Atlas              |[2026/01/28](https://cloud.mongodb.com/)
 
   - TODOアプリ
 
@@ -143,7 +146,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### [Claude AI](https://claude.ai/)
-- [Claude Code 2.1.88](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/03/31 updated from 2.1.87>>*</span>
+- [Claude Code 2.1.101](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/04/11 updated from 2.1.100>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
