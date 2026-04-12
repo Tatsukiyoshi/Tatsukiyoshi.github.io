@@ -100,6 +100,7 @@ a:hover { color: var(--color-link-hover); }
 .sidebar__nav li a:hover { color: var(--color-link); }
 
 /* Content typography */
+.main-content img { max-width: 100%; height: auto; }
 .main-content h1 { font-size: 1.8rem; margin-top: 0; }
 .main-content h2 { font-size: 1.4rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.3rem; }
 .main-content h3 { font-size: 1.15rem; }
