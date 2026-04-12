@@ -1,0 +1,134 @@
+---
+layout: ../../layouts/DigestLayout.astro
+title: ダイジェスト
+---
+- 2026年
+  - 4月
+    - [上期（2026/4/1～2026/4/12）](2026/April/1stH)
+  - 3月
+    - [下期（2026/3/14～2026/3/31）](2026/March/2ndH)
+    - [上期（2026/3/1～2026/3/14）](2026/March/1stH)
+  - 2月
+    - [下期（2026/2/14～2026/2/28）](2026/February/2ndH)
+    - [上期（2026/2/1～2026/2/14）](2026/February/1stH)
+  - 1月
+    - [下期（2026/1/18～2026/1/31）](2026/January/2ndH)
+    - [上期（2026/1/1～2026/1/17）](2026/January/1stH)
+- 2025年
+  - 12月
+    - [後半（2025/12/14～2025/12/31）](2025/December/2ndH)
+    - [前半（2025/11/30～2025/12/13）](2025/December/1stH)
+  - 11月
+    - [後半（2025/11/16～2025/11/29）](2025/November/2ndH)
+    - [前半（2025/11/2～2025/11/15）](2025/November/1stH)
+  - 10月
+    - [第４週（2025/10/26～2025/11/1）](2025/October/4th)
+    - [第３週（2025/10/19～2025/10/25）](2025/October/3rd)
+    - [第２週（2025/10/12～2025/10/18）](2025/October/2nd)
+    - [第１週（2025/10/5～2025/10/11）](2025/October/1st)
+  - 9月
+    - [第４週（2025/9/28～2025/10/4）](2025/September/4th)
+    - [第３週（2025/9/21～2025/9/27）](2025/September/3rd)
+    - [第２週（2025/9/14～2025/9/20）](2025/September/2nd)
+    - [第１週（2025/9/7～2025/9/13）](2025/September/1st)
+  - 8月
+    - [第５週（2025/8/31～2025/9/6）](2025/August/5th)
+    - [第４週（2025/8/24～2025/8/30）](2025/August/4th)
+    - [第３週（2025/8/17～2025/8/23）](2025/August/3rd)
+    - [第２週（2025/8/10～2025/8/16）](2025/August/2nd)
+    - [第１週（2025/8/3～2025/8/9）](2025/August/1st)
+  - 7月
+    - [第４週（2025/7/27～2025/8/2）](2025/July/4th)
+    - [第３週（2025/7/20～2025/7/26）](2025/July/3rd)
+    - [第２週（2025/7/13～2025/7/19）](2025/July/2nd)
+    - [第１週（2025/7/6～2025/7/12）](2025/July/1st)
+  - 6月
+    - [第５週（2025/6/29～2025/7/5）](2025/June/5th)
+    - [第４週（2025/6/22～2025/6/28）](2025/June/4th)
+    - [第３週（2025/6/15～2025/6/21）](2025/June/3rd)
+    - [第２週（2025/6/8～2025/6/14）](2025/June/2nd)
+    - [第１週（2025/6/1～2025/6/7）](2025/June/1st)
+  - 5月
+    - [第４週（2025/5/25～2025/5/31）](2025/May/4th)
+    - [第３週（2025/5/18～2025/5/24）](2025/May/3rd)
+    - 第２週（2025/5/11～2025/5/17）<[GitHub](2025/May/2nd) | [Zenn](https://zenn.dev/tatsukiyoshi/articles/534ba7d9ae5efc)>
+    - [第１週（2025/5/4～2025/5/10）](https://zenn.dev/tatsukiyoshi/articles/cfb41ea3f24b24)
+  - [4月](https://zenn.dev/tatsukiyoshi/articles/ca721a62cbc949)
+    - [第４週（2025/4/27～2025/5/3）](https://zenn.dev/tatsukiyoshi/articles/fa2faa4233f049)
+    - [第３週（2025/4/20～2025/4/26）](https://zenn.dev/tatsukiyoshi/articles/4d81837ab85765)
+    - [第２週（2025/4/13～2025/4/19）](https://zenn.dev/tatsukiyoshi/articles/68d12c763905ff)
+    - [第１週（2025/4/6～2025/4/12）](https://zenn.dev/tatsukiyoshi/articles/ad9ee4ad0fe4d4)
+  - [3月](https://zenn.dev/tatsukiyoshi/articles/48fed28f88451a)
+    - [第５週（2025/3/30～2025/4/5）](https://zenn.dev/tatsukiyoshi/articles/ac06f0e031cda7)
+    - [第４週（2025/3/23～2025/3/29）](https://zenn.dev/tatsukiyoshi/articles/cdf3415487fac8)
+    - [第３週（2025/3/16～2025/3/22）](https://zenn.dev/tatsukiyoshi/articles/3b57e4ca1db456)
+    - [第２週（2025/3/9～2025/3/15）](https://zenn.dev/tatsukiyoshi/articles/8c3efc852cb590)
+    - [第１週（2025/3/2～2025/3/8）](https://zenn.dev/tatsukiyoshi/articles/846747df7ae1bf)
+  - [2月](https://zenn.dev/tatsukiyoshi/articles/de86867cff3bf7)
+    - [第４週（2025/2/23～2025/3/1）](https://zenn.dev/tatsukiyoshi/articles/5a130c0af4373e)
+    - [第３週（2025/2/16～2025/2/22）](https://zenn.dev/tatsukiyoshi/articles/3ca77a7029b5bd)
+    - [第２週（2025/2/9～2025/2/15）](https://zenn.dev/tatsukiyoshi/articles/2b0dab1693ba32)
+    - [第１週（2025/2/2～2025/2/8）](https://zenn.dev/tatsukiyoshi/articles/33948f6f81be6c)
+  - [1月](https://zenn.dev/tatsukiyoshi/articles/7d2b99c4180347)
+    - [第４週（2025/1/26～2025/2/1）](https://zenn.dev/tatsukiyoshi/articles/2101d480413ee2)
+    - [第３週（2025/1/19～2025/1/25）](https://zenn.dev/tatsukiyoshi/articles/f4305b2895eafa)
+    - [第２週（2025/1/12～2025/1/18）](https://zenn.dev/tatsukiyoshi/articles/07af1ff37b5b07)
+    - [第１週（2025/1/5～2025/1/11）](https://zenn.dev/tatsukiyoshi/articles/84c4ea56ccb5bb)
+- 2024年
+  - 12月
+    - [第５週（2024/12/30～2025/01/04）](https://zenn.dev/tatsukiyoshi/articles/f6ecbca2728202)
+    - [第４週（2024/12/23～12/29）](https://zenn.dev/tatsukiyoshi/articles/44b52a73607999)
+    - [第３週（2024/12/16～12/22）](https://zenn.dev/tatsukiyoshi/articles/137b5f277afb88)
+    - [第２週（2024/12/9～12/15）](https://zenn.dev/tatsukiyoshi/articles/a1023363452f87)
+    - [第１週（2024/12/2～12/8）](https://note.com/taishow2020/n/n5e41614dce2c)
+  - 11月
+    - [第４週（2024/11/25～12/1）](https://note.com/taishow2020/n/n312b50cfbc72)
+    - [第３週（2024/11/18～11/24）](https://note.com/taishow2020/n/n80147abdbc1e)
+    - [第２週（2024/11/11～11/17）](https://note.com/taishow2020/n/na77bc5c54340)
+    - [第１週（2024/11/4～11/10）](https://note.com/taishow2020/n/n83db7eef3b7f)
+  - 10月
+    - [第５週（2024/10/28～11/03）](https://note.com/taishow2020/n/ne01cbf8a80e3)
+    - [第４週（2024/10/21～10/27）](https://note.com/taishow2020/n/n332cf0bbd7c9)
+    - [第３週（2024/10/15～10/20）](https://note.com/taishow2020/n/n256f74c724ff)
+    - [第２週（2024/10/7～10/14）](https://note.com/taishow2020/n/n988fdab26133)
+    - [第１週（2024/9/30～10/6）](https://note.com/taishow2020/n/n0079e465ebae)
+
+  - 9月
+    - [第４週（2024/9/24～9/29）](https://note.com/taishow2020/n/naf647b1181ab)
+    - [第３週（2024/9/17～9/23）](https://note.com/taishow2020/n/ndd1f511ea8dd)
+    - [第２週（2024/9/9～9/16）](https://note.com/taishow2020/n/n69588d7b6972)
+    - [第１週（2024/9/2～9/8）](https://note.com/taishow2020/n/n24e062e3d208)
+
+  - 8月
+    - [第５週（2024/8/26～9/1）](https://note.com/taishow2020/n/n6ceacc4c2ce5)
+    - [第４週（2024/8/19～8/25）](https://note.com/taishow2020/n/n2d82d2ab2efe)
+    - [第３週（2024/8/12～8/18）](https://note.com/taishow2020/n/n1c07dc882dba)
+    - [第２週（2024/8/5～8/11）](https://note.com/taishow2020/n/ne117ba78f542)
+    - [第１週（2024/7/29～8/4）](https://note.com/taishow2020/n/n86f2c0db40f3)
+  - 7月  
+    - [第４週（2024/7/22～7/28）](https://note.com/taishow2020/n/n42130b512659)
+    - [第３週（2024/7/15～7/21）](https://note.com/taishow2020/n/ndfdf8cf32cb9)
+    - [第２週（2024/7/8～7/14）](https://note.com/taishow2020/n/n46c7250f2a6f)
+    - [第１週（2024/7/1～7/7）](https://note.com/taishow2020/n/n7e017b1cfcbf)
+  - 6月
+    - [第５週（2024/6/24～6/30）](https://note.com/taishow2020/n/n15c710629c86)
+    - [突然の充電タイム（2024/6/23）](https://note.com/taishow2020/n/n632d4310f0fc)
+    - [第１週（2024/5/27～6/2）](https://note.com/taishow2020/n/n0f9d50a873bd)
+  - 5月
+    - [第４週（2024/5/20～5/26）](https://note.com/taishow2020/n/ncccfe63af8f3)
+    - [第３週（2024/5/13～5/19）](https://note.com/taishow2020/n/n3e5c83f6130a)
+    - [第２週（2024/5/6～5/12）](https://note.com/taishow2020/n/n9637af4cb020)
+    - [第１週（2024/4/29～5/5）](https://note.com/taishow2020/n/n96df21872cf3)
+  - 4月
+    - [第４週（2024/4/22～4/28）](https://note.com/taishow2020/n/n32576806941d)
+    - [第３週（2024/4/15～4/21）](https://note.com/taishow2020/n/nf8d7db72432c)
+    - [第２週（2024/4/8～4/14）](https://note.com/taishow2020/n/nbdee027ec3f4)
+    - [第１週（2024/4/1～4/7）](https://note.com/taishow2020/n/n6b658c6cfe75)
+  - 3月
+    - [第５週（2024/3/25～3/31）](https://note.com/taishow2020/n/ne6dade977146)
+    - [第４週（2024/3/18～3/24）](https://note.com/taishow2020/n/n0aa1d7326546)
+    - [第３週（2024/3/11～3/17）](https://note.com/taishow2020/n/n524826153c94)
+
+##  履歴
+- Noteに投稿していたものの、技術に特化したサイトではないため、Zennに投稿するように変更
+- Zennでは、連続投稿を制約するように変更となったため、GitHub Pages内にまとめるように変更

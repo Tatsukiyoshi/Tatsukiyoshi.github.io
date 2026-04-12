@@ -1,0 +1,18 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+export interface Props {
+  frontmatter: {
+    title: string;
+    nav?: 'programming' | 'environment';
+  };
+}
+
+const { frontmatter } = Astro.props;
+const nav = frontmatter.nav ?? 'programming';
+---
+
+<BaseLayout title={frontmatter.title} nav={nav}>
+  <h1>{frontmatter.title}</h1>
+  <slot />
+</BaseLayout>

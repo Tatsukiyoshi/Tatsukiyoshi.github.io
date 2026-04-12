@@ -1,0 +1,117 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  nav?: 'main' | 'programming' | 'environment' | 'digest';
+  wide?: boolean;
+}
+
+const { title, nav, wide = false } = Astro.props;
+
+const navItems: Record<string, { title: string; url: string }[]> = {
+  main: [
+    { title: 'Home', url: '/' },
+    { title: 'Environment', url: '/#Environment' },
+    { title: 'Programming', url: '/#ProgrammingLanguage' },
+  ],
+  programming: [
+    { title: 'MCP', url: '/knowhow/Mcp' },
+    { title: '.NET', url: '/knowhow/NET' },
+    { title: 'Rust', url: '/knowhow/Rust' },
+    { title: 'Kotlin', url: '/knowhow/Kotlin' },
+    { title: 'Java', url: '/knowhow/Java' },
+    { title: 'Flutter', url: '/knowhow/Flutter' },
+    { title: 'TypeScript', url: '/knowhow/TypeScript' },
+    { title: 'Python', url: '/knowhow/Python' },
+    { title: 'Carbon', url: '/knowhow/Carbon' },
+  ],
+  environment: [
+    { title: 'Platform', url: '/knowhow/Platform' },
+    { title: 'Tools', url: '/knowhow/Tools' },
+    { title: 'Services', url: '/knowhow/Services' },
+    { title: 'Hosting', url: '/knowhow/Hosting' },
+  ],
+  digest: [
+    { title: 'All Posts', url: '/digest/list' },
+  ],
+};
+
+const sidebarNavTitles: Record<string, string> = {
+  main: 'Site',
+  programming: 'Programming',
+  environment: 'Environment',
+  digest: 'Digest',
+};
+
+const currentNav = nav ? navItems[nav] : null;
+const sidebarTitle = nav ? sidebarNavTitles[nav] : null;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | リスキリング（プログラミング）</title>
+    <meta name="description" content="独学プログラミング演習" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a href="/" class="masthead__title">リスキリング（プログラミング）</a>
+      <nav aria-label="main">
+        <ul class="masthead__nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/#Environment">Environment</a></li>
+          <li><a href="/#ProgrammingLanguage">Programming</a></li>
+          <li><a href="/digest/list">Digest</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class={`page-wrapper${wide ? ' wide' : ''}`}>
+      {currentNav && (
+        <aside class="sidebar">
+          <nav class="sidebar__nav" aria-label="sidebar">
+            <div class="sidebar__nav-title">{sidebarTitle}</div>
+            <ul>
+              {currentNav.map((item) => (
+                <li><a href={item.url}>{item.title}</a></li>
+              ))}
+            </ul>
+          </nav>
+        </aside>
+      )}
+      <main class="main-content">
+        <slot />
+      </main>
+    </div>
+
+    <footer class="page-footer">
+      <p>&copy; {new Date().getFullYear()} Tatsukiyoshi. Powered by <a href="https://astro.build">Astro</a>.</p>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('pre').forEach((pre) => {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'code-wrapper';
+          const button = document.createElement('button');
+          button.className = 'copy-code-button';
+          button.type = 'button';
+          button.innerText = 'Copy';
+          pre.parentNode!.insertBefore(wrapper, pre);
+          wrapper.appendChild(pre);
+          wrapper.appendChild(button);
+          button.addEventListener('click', async () => {
+            const code = pre.querySelector('code')?.innerText ?? pre.innerText;
+            await navigator.clipboard.writeText(code);
+            button.innerText = 'Copied!';
+            setTimeout(() => { button.innerText = 'Copy'; }, 2000);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
