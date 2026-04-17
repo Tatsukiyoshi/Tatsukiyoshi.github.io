@@ -82,8 +82,8 @@ Other                            |Updated   |Detail
 - 全角入力対応コンポーネント
   - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
   - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)
-- [Tauriデスクトップアプリケーション](/design/tauriApp/index)
-- [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
+- [Tauriデスクトップアプリケーション](/design/tauriApp/)
+- [Reactアプリ](/design/reactApp/) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
 - [近況確認アプリ](/design/MorningStatusApp/specification) <span style="color: red;">*<<2026/02/21 fixed >>*</span>
 
