@@ -13,7 +13,7 @@ title: リスキリング トップページ
 ```
 独学環境の情報
 ```
-[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services)
+[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services) | [ホスティング](/knowhow/Hosting)
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
@@ -22,7 +22,6 @@ Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft
 macOS                       |2026/04/13|[Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/04/08|[146.0.7680.184](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/09|[26.04(development branch)](https://jp.ubuntu.com/download)
-[Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
