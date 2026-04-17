@@ -43,3 +43,8 @@ bun run build # 静的ビルド（dist/ に出力）
 ノウハウページ: `src/pages/knowhow/*.md`
 ダイジェスト: `src/pages/digest/YYYY/Month/1stH.md` または `2ndH.md`
 トップページ: `src/pages/index.md`
+
+## 変更履歴
+
+- v0.0.2 — Astro移行漏れコンテンツ（history/・design/・sub/・docs/）を移行。(#763)
+- v0.0.1 — JekyllからAstroへの移行。(#756)
