@@ -7,7 +7,7 @@ nav: programming
 
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
-  |Windows        |[SQL Server 2022 Developer 16.0.4212.1](#sql-server) |[2025/09/10](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |Windows        |[SQL Server 2022 Developer 16.0.4250.1](#sql-server) |[2026/04/15](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.5.14               |[2025/09/10](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |MongoDB 8.2.3                                        |[2026/01/23](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
