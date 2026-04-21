@@ -314,4 +314,3 @@ OS                                 |Hardware            |Language
           ```
           xrandr --output DSI-1 --rotate right
           ```
-- [Oracle Cloud](/knowhow/OracleCloud)
