@@ -432,6 +432,8 @@ nav: programming
           ```sh
           bun windows
           ```
+        - VS2026 / Windows 11 SDK 10.0.26100
+          ![React Native Windows 0.82.3](/images/JavaScript/20260421_ReactNativeWindows0.82.3.png)
         - React Native Windows 0.82.3
           - React Native 0.82.1
           - React 19.2.4
