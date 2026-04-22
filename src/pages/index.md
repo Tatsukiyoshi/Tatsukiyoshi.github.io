@@ -26,7 +26,7 @@ Ubuntu Desktop              |2026/04/09|[26.04(development branch)](https://jp.u
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/04/15|[1.116.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/04/22|[1.117.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/08|[1.22.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/04/16|[0.232.2](https://zed.dev)
 Claude Code         | * | * | - |2026/04/21|[2.1.116](https://github.com/anthropics/claude-code)
@@ -64,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/04/21|Update: Claude Code 2.1.116
+[Model Context Protocol](/knowhow/Mcp) |2026/04/22|Update: Claude Code 2.1.117
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
