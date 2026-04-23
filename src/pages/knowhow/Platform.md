@@ -301,8 +301,8 @@ OS                                 |Hardware            |Language
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
   - KDE Plasma 6.6.4 <span style="color: red;">*<<2026/04/23 Updated from 6.4.5>>*</span>
-    ![Information](/images/Ubuntu/20260423_Plasma6.6.png)
-    - 
+    ![Updated](/images/Ubuntu/20260423_Plasma6.6_Updated.png)
+    ![Information](/images/Ubuntu/20260424_Plasma_6.6.4.png)
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
