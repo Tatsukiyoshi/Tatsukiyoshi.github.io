@@ -239,8 +239,8 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04(development branch)](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/08 updated from 25.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20260409_Ubuntu26.04_Development.png)
+- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+  ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
 
     <details>
     <summary>
@@ -252,7 +252,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2026-04-09 00:34:40
+    - **Date generated:**                              2026-04-23 19:57:42
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -263,12 +263,12 @@ OS                                 |Hardware            |Language
 
     ## Software Information:
     - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu Resolute Raccoon (development branch)
+    - **OS Name:**                                     Ubuntu 26.04 LTS
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
     - **GNOME Version:**                               49
     - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 7.0.0-12-generic
+    - **Kernel Version:**                              Linux 7.0.0-14-generic
     ```
     </details>
 
@@ -278,7 +278,7 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu Resolute Raccoon (development branch)"
+    PRETTY_NAME="Ubuntu 26.04 LTS"
     NAME="Ubuntu"
     VERSION_ID="26.04"
     VERSION="26.04 (Resolute Raccoon)"
@@ -296,12 +296,12 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 7.0.0-12-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/09 Updated from 6.17.0-20>>*</span>
+    - 7.0.0-14-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/23 Updated from 7.0.0-12>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
-  - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
-    ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
+  - KDE Plasma 6.6.4 <span style="color: red;">*<<2026/04/23 Updated from 6.4.5>>*</span>
+    ![Information](/images/Ubuntu/20260423_Plasma6.6.png)
     - 
   - ノウハウ
     - ISOイメージを作成する
