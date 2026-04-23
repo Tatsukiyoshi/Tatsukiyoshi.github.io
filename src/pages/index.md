@@ -28,10 +28,10 @@ Tools               |Win|mac|Chr|Updated   |Detail
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
 Visual Studio Code  | * | * | * |2026/04/22|[1.117.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/08|[1.22.2](https://antigravity.google/)
-Zed                 | * | * | - |2026/04/16|[0.232.2](https://zed.dev)
-Claude Code         | * | * | - |2026/04/21|[2.1.116](https://github.com/anthropics/claude-code)
+Zed                 | * | * | - |2026/04/23|[0.233.7](https://zed.dev)
+Claude Code         | * | * | - |2026/04/23|[2.1.118](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/04/20|[3.1.15](https://www.cursor.com/)
-Codex               | * | * |   |2026/04/19|[26.415.40636](https://openai.com/ja-JP/codex/)
+Codex               | * | * |   |2026/04/23|[26.417.41555](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
@@ -64,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/04/22|Update: Claude Code 2.1.117
+[Model Context Protocol](/knowhow/Mcp) |2026/04/23|Update: Claude Code 2.1.118
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
