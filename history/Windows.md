@@ -5,7 +5,13 @@ sidebar:
   nav: environment
 ---
 - Windows Insider History
-  - [Dev Channel](https://aka.ms/DevLatest)
+  - Experimental
+    - [This build is Experimental (including Dev Channel)](https://blogs.windows.com/windows-insider/2026/04/24/were-moving-to-experimental-and-beta-announcing-new-builds/)
+    - Build 26300.8289 (Quality Update) <span style="color: red;">*<<2026/04/25 updated from Build 26300.8276 >>*</span>
+      ![Quality Update](/images/Windows/20260425_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260425_Windows11_Build26300.png)
+  - Dev Channel
     - for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)
       - Build 26300.8276 (Quality Update) <span style="color: red;">*<<2026/04/18 updated from Build 26300.8170 >>*</span>
         ![Quality Update](/images/Windows/20260418_WindowsUpdate_DevChannel.png)
