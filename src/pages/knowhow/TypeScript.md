@@ -93,6 +93,17 @@ nav: programming
       |           |        |- Bun 1.2.22             |2025/09/16
       |           |        |- Expo Go 54.0.4         |2025/09/11
 
+##  創作物
+### 近況確認アプリ
+
+  |Machine         |Env / FW            |Last Updated
+  |----------------|--------------------|----------
+  |Windows Insider |Next.js 16.2.1      |2026/04/13
+  |                |- Bun 1.3.11        |2026/03/28
+  |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
+  |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
+  |                |- electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
+
 ##  ノウハウ
 ### TypeScript
   - アーキテクチャを理解する <span style="color: red;">**Checked Out! 2024/08/25**</span>
