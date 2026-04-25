@@ -70,7 +70,7 @@ AIエージェントを活用した開発スタイルの修得
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
   |Windows Insider |Claude Code 2.1.120        |[2026/04/25](https://github.com/anthropics/claude-code)
-  |macOS           |Claude Code 2.1.118         |2026/04/23
+  |macOS           |Claude Code 2.1.120        |2026/04/25
 
 ### MCP入門
 
