@@ -104,6 +104,12 @@ nav: programming
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
   |                |- electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
 
+  - アイコン
+    - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
+  - Bunでのデスクトップアプリ化
+    - Inno Setupでインストーラまで実現
+    - デスクトップアプリはBunのランチャなので、アイコン設定は不可
+
 ##  ノウハウ
 ### TypeScript
   - アーキテクチャを理解する <span style="color: red;">**Checked Out! 2024/08/25**</span>
