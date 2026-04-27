@@ -7,12 +7,13 @@ title: 2026年4月下期
 # Topic
 
 ## [リスキリング](#リスキリング-1)
-- OS: Windows 11 25H2 Build 26200.8246に自動更新。Windows Insider Preview Build 26300.8276にアップデート。macOS Tahoe 26.4.1にアップデート
-- 開発ツール: Visual Studio Code 1.117.0・Codex 26.417.41555（macOS）・26.409.61251（Windows）・Zed 0.232.2（Windows）・0.233.7（macOS）・Cursor 3.1.15@Windowsに更新
-- MCP: Claude Code 2.1.118@Windows Insider・2.1.118@macOSに更新
+- OS: Windows 11 25H2 Build 26200.8246に自動更新。Windows Insider Preview Build 26300.8276→8289（Experimental Channel）にアップデート。macOS Tahoe 26.4.1にアップデート。Ubuntu Desktop 26.04 LTS（Resolute Raccoon）が正式リリース。KDE Plasma 6.6.4に更新
+- 開発ツール: Visual Studio Code 1.117.0・Codex 26.417.41555→26.422.30944（macOS）・26.409.61251（Windows）・Zed 0.232.2（Windows）・0.233.7→0.233.10（macOS）・Cursor 3.1.15@Windowsに更新
+- MCP: Claude Code 2.1.118→2.1.120@Windows Insider・macOSに更新
 - .NET: Visual Studio Community 2026 18.5.0・.NET MAUI SR5.1（10.0.51）・.NET 10.0.6/9.0.15/8.0.26に更新
 - Kotlin: Android Studio Quail 2026.1.1 Canary 1・Panda 2025.3.4 Canary 4に更新
 - Flutter: VS2022アンインストール後のFlutter環境に無影響であることを確認（Android SDK 37.0.0・エミュレータ 36.6.4.0はAndroid Studio更新の影響）
+- Rust: Windows Insiderで、Dioxus 0.7.6に更新
 - TypeScript: React Native Windows 0.82.3をVS2026 18.5.0 + Windows 11 SDK 10.0.26100環境で動作確認
 
 ## [営業日報システム](#営業日報システム-1)
@@ -23,6 +24,10 @@ title: 2026年4月下期
 - v3.0.0〜v3.0.5: ライブ一覧機能 - ライブ一覧・詳細ページ実装、地域ブロックマップ・都道府県別公演ページ実装、メンバー詳細への関連ライブセクション追加・ライブアルバムとライブ詳細の相互リンク、ご当地ライブバッジ追加、各種バグ修正
 - v3.1.0〜v3.1.4: ライブ一覧を年別・地域別ページに分割、Amebaブログの近況取得をRSSフィードに切り替え、グループブログ投稿のメンバー別振り分け修正、デスクトップモードCSS修正
 - v3.2.0〜v3.2.2: Windows向けInno Setupインストーラスクリプト追加、AppId GUID形式変更、リリース詳細のサブユニット名表示改善
+- v3.2.3〜v3.2.5: タンポポ関連リリース修正・YouTubeリンク編集機能追加・デスクトップアプリ起動バグ修正
+- v3.3.0: デスクトップ専用の同期状況ページ追加・macOSデスクトップアプリ対応
+- v3.4.0〜v3.4.2: 海外3ブロック（アジア/ヨーロッパ/北中米）追加、ライブ詳細・ユニット詳細・曲詳細のメンバー表示改善
+- v3.5.0: Instagram投稿閲覧機能実装（収集スクリプト・認証状態保存・メンバー詳細/トップ画面への投稿セクション追加）
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -76,10 +81,21 @@ title: 2026年4月下期
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.117](https://github.com/anthropics/claude-code) に更新
 
 ##  【4/23】
+- **＜OS＞** [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download)（Resolute Raccoon）が正式リリース。開発版から安定版に移行
+- **＜OS＞** Ubuntu Desktop上のKDE Plasma 6.6.4 に更新
 - **＜開発ツール＞** macOSで、[Zed 0.233.7](https://zed.dev) に更新
 - **＜開発ツール＞** macOSで、[Codex 26.417.41555](https://openai.com/ja-JP/codex/) に更新
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.118](https://github.com/anthropics/claude-code) に更新
 - **＜MCP＞** macOSで、[Claude Code 2.1.118](https://github.com/anthropics/claude-code) に更新
+- **＜Rust＞** Windows Insiderで、[Dioxus 0.7.6](https://dioxuslabs.com/) に更新
+
+##  【4/25】
+- **＜OS＞** [Windows 11 Insider Preview (Experimental Channel) Build 26300.8289 (Quality Update)](https://blogs.windows.com/windows-insider/2026/04/24/were-moving-to-experimental-and-beta-announcing-new-builds/) にアップデート
+  - Dev ChannelがExperimental Channelに名称変更
+- **＜開発ツール＞** macOSで、[Zed 0.233.10](https://zed.dev) に更新
+- **＜開発ツール＞** macOSで、[Codex 26.422.30944](https://openai.com/ja-JP/codex/) に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.120](https://github.com/anthropics/claude-code) に更新
+- **＜MCP＞** macOSで、[Claude Code 2.1.120](https://github.com/anthropics/claude-code) に更新
 
 ## 営業日報システム
 
@@ -119,3 +135,21 @@ title: 2026年4月下期
 - v3.2.0: Windows向けInno Setupインストーラスクリプトを追加。バージョンはroot package.jsonから自動取得、build-installer.ps1でISSC.exeを自動検出してビルド（#684, 4/21）
 - v3.2.1: installer.issのAppIdをGUID形式に変更し、アプリリネーム時のアンインストール情報引き継ぎとWindowsレジストリキーの衝突リスクを解消（#690, 4/21）
 - v3.2.2: リリース詳細で上位ユニットに紐づく場合もリリース年に一致するサブユニット名を表示（#607, 4/21）
+
+### v3.2.3〜v3.2.5
+- v3.2.3: タンポポ詳細の関連リリース未表示・同一録音の重複検索結果修正、Blobデータ（unitId）修正（#693, #695, #702, 4/24）
+- v3.2.4: 曲詳細にYouTubeリンク編集機能追加（URL変更・削除）、リリース詳細の「リリース一覧に戻る」をBackLinkに改善（#696, #694, 4/24）
+- v3.2.5: インストール済みデスクトップアプリ起動時に接続できないバグを修正。ElectrobunワーカーでNext.js standaloneサーバーを自動起動するよう改善（#705, 4/25）
+
+### v3.3.0
+- デスクトップ専用の同期状況ページ（/sync-status）を追加。近況・ディスコグラフィー同期の最終実行状況と日次スナップショットの積み上げ棒グラフを実装。Recharts 3.8.1を導入（#617, 4/25）
+- macOSデスクトップアプリ対応とアイコン付与（#711, #712, 4/25）
+
+### v3.4.0〜v3.4.2
+- v3.4.0: 地域ブロックマップにアジア・ヨーロッパ・北中米の海外3ブロックを追加。海外拡張コード（50/60/70）を導入（#673, #674, 4/26）
+- v3.4.1: ライブ詳細でmember_lives未登録時に在籍期間から出演メンバーを導出して表示するよう改善（#686, #687, 4/26）
+- v3.4.2: ユニット詳細でmemberIds未設定時に活動期間から在籍メンバーを推定して表示。曲詳細に関連メンバーセクションを追加（#698, #699, 4/26）
+
+### v3.5.0
+- Instagram投稿収集スクリプト・認証状態保存スクリプト・投稿チェックワークフローを追加（#718, #720, 4/26）
+- メンバー詳細にInstagram投稿サムネイルセクションを追加し、同期状況画面でチェック状況確認を実装。トップ画面に当日新着Instagram投稿セクションを追加（#719, #721, 4/27）
