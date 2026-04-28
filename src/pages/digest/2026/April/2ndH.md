@@ -8,8 +8,8 @@ title: 2026年4月下期
 
 ## [リスキリング](#リスキリング-1)
 - OS: Windows 11 25H2 Build 26200.8246に自動更新。Windows Insider Preview Build 26300.8276→8289（Experimental Channel）にアップデート。macOS Tahoe 26.4.1にアップデート。Ubuntu Desktop 26.04 LTS（Resolute Raccoon）が正式リリース。KDE Plasma 6.6.4に更新
-- 開発ツール: Visual Studio Code 1.117.0・Codex 26.417.41555→26.422.30944（macOS）・26.409.61251（Windows）・Zed 0.232.2（Windows）・0.233.7→0.233.10（macOS）・Cursor 3.1.15@Windowsに更新
-- MCP: Claude Code 2.1.118→2.1.120@Windows Insider・macOSに更新
+- 開発ツール: Visual Studio Code 1.117.0・Codex 26.417.41555→26.422.30944（macOS）・26.409.61251（Windows）・AntiGravity 1.23.2・Zed 0.232.2→0.233.10（Windows）・0.233.7→0.233.10（macOS）・Cursor 3.1.15→3.2.11@Windowsに更新
+- MCP: Claude Code 2.1.118→2.1.121@Windows Insider・2.1.118→2.1.120@macOSに更新
 - .NET: Visual Studio Community 2026 18.5.0・.NET MAUI SR5.1（10.0.51）・.NET 10.0.6/9.0.15/8.0.26に更新
 - Kotlin: Android Studio Quail 2026.1.1 Canary 1・Panda 2025.3.4 Canary 4に更新
 - Flutter: VS2022アンインストール後のFlutter環境に無影響であることを確認（Android SDK 37.0.0・エミュレータ 36.6.4.0はAndroid Studio更新の影響）
@@ -27,7 +27,7 @@ title: 2026年4月下期
 - v3.2.3〜v3.2.5: タンポポ関連リリース修正・YouTubeリンク編集機能追加・デスクトップアプリ起動バグ修正
 - v3.3.0: デスクトップ専用の同期状況ページ追加・macOSデスクトップアプリ対応
 - v3.4.0〜v3.4.2: 海外3ブロック（アジア/ヨーロッパ/北中米）追加、ライブ詳細・ユニット詳細・曲詳細のメンバー表示改善
-- v3.5.0: Instagram投稿閲覧機能実装（収集スクリプト・認証状態保存・メンバー詳細/トップ画面への投稿セクション追加）
+- v3.5.0〜v3.5.1: Instagram投稿閲覧機能実装（収集スクリプト・認証状態保存・メンバー詳細/トップ画面への投稿セクション追加）、Instagram投稿収集の信頼性向上・リール形式対応
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -97,6 +97,12 @@ title: 2026年4月下期
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.120](https://github.com/anthropics/claude-code) に更新
 - **＜MCP＞** macOSで、[Claude Code 2.1.120](https://github.com/anthropics/claude-code) に更新
 
+##  【4/28】
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.121](https://github.com/anthropics/claude-code) に更新
+- **＜開発ツール＞** Windowsで、[Zed 0.233.10](https://zed.dev/windows) に更新
+- **＜開発ツール＞** Windowsで、[AntiGravity 1.23.2](https://antigravity.google/) に更新
+- **＜開発ツール＞** [Cursor 3.2.11](https://www.cursor.com/) に更新
+
 ## 営業日報システム
 
 - 対象期間中の更新なし
@@ -153,3 +159,6 @@ title: 2026年4月下期
 ### v3.5.0
 - Instagram投稿収集スクリプト・認証状態保存スクリプト・投稿チェックワークフローを追加（#718, #720, 4/26）
 - メンバー詳細にInstagram投稿サムネイルセクションを追加し、同期状況画面でチェック状況確認を実装。トップ画面に当日新着Instagram投稿セクションを追加（#719, #721, 4/27）
+
+### v3.5.1
+- Instagram投稿収集の信頼性を向上。SPAのレンダリング完了待機を追加し、リール形式（/reel/）の投稿取得にも対応。取得失敗時の診断ログを強化（#740, 4/28）
