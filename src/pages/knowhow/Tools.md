@@ -87,7 +87,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.422.30944](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/25 updated from 26.417.41555>>*</span>
+    - [Codex 26.422.62136](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/28 updated from 26.422.30944>>*</span>
       ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
@@ -158,6 +158,10 @@ OS/言語を問わず利用するツールの情報
   - インストール@macOS
     ```
     brew install gh
+    ```
+  - 更新@macOS
+    ```
+    brew upgrade gh
     ```
 
 - [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download) <span style="color: red;">*<<2026/01/30 Auto Updated from 1.0.2339 >>*</span>
