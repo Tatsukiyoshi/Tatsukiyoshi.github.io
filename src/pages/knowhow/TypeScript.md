@@ -102,13 +102,13 @@ nav: programming
   |                |- Bun 1.3.11        |2026/03/28
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
-  |                |- electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
+  |                |- Electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
+
+  ![Now](/images/JavaScript/20260429_MorningStatusApp.png)
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
-  - Bunでのデスクトップアプリ化
-    - Inno Setupでインストーラまで実現
-    - デスクトップアプリはBunのランチャなので、アイコン設定は不可
+  - [Genius API](https://genius.com/developers)
 
 ##  ノウハウ
 ### TypeScript
@@ -362,6 +362,10 @@ nav: programming
 
 ### Framework
   - マルチプラットフォーム（モバイル/デスクトップ）
+    - [Electrobun](https://github.com/blackboardsh/electrobun)
+      - Bunでのデスクトップアプリ化
+        - Inno Setupでインストーラまで実現
+        - デスクトップアプリはBunのランチャなので、アイコン設定は不可
     - [Lynx](https://lynxjs.org)/([履歴](/history/javascript/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
         ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
