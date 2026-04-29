@@ -29,7 +29,7 @@ Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/downloa
 Visual Studio Code  | * | * | * |2026/04/22|[1.117.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/04/25|[0.233.10](https://zed.dev)
-Claude Code         | * | * | - |2026/04/29|[2.1.122](https://github.com/anthropics/claude-code)
+Claude Code         | * | * | - |2026/04/29|[2.1.123](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/04/28|[3.2.11](https://www.cursor.com/)
 Codex               | * | * |   |2026/04/28|[26.422.62136](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
@@ -64,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/04/29|Update: Claude Code 2.1.122
+[Model Context Protocol](/knowhow/Mcp) |2026/04/29|Update: Claude Code 2.1.123
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
