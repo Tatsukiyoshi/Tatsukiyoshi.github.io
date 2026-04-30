@@ -12,6 +12,10 @@ export default defineConfig({
         targets: [
           { src: 'images', dest: '.' },
           { src: 'captures', dest: '.' },
+          { src: 'design', dest: '.' },
+          { src: 'docs', dest: '.' },
+          { src: 'history', dest: '.' },
+          { src: 'sub', dest: '.' },
         ],
       }),
     ],

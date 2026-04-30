@@ -15,6 +15,16 @@
 | ホスティング | GitHub Pages |
 | CI/CD | GitHub Actions (`.github/workflows/deploy.yml`) |
 
+## デプロイ設定
+
+GitHub Pages で Astro サイトを正しく表示するには、リポジトリの設定で **GitHub Actions** をソースとして選択する必要があります。
+
+1. GitHub リポジトリの **Settings** タブを開く
+2. 左サイドバーの **Pages** をクリック
+3. **Build and deployment** > **Source** で **GitHub Actions** を選択
+
+※ 「Deploy from a branch」が選択されていると、Astro のビルド結果ではなく `README.md` が表示されてしまいます。
+
 ## ディレクトリ構成
 
 ```
