@@ -6,6 +6,12 @@ sidebar:
 ---
 
 # .NET MAUI 10
+##  .NET MAUI 10.0.51
+- 18.5.0 / MAUI 10.0.51 / Pixel 10 Pro (Android 16)
+  ![MAUI - Pixel 10 Pro](/images/VisualStudio/20260419_VS2026_18.5.0_MAUI10.0.51_Android16.png)
+##  .NET MAUI 10.0.50
+- 18.4.0 / MAUI 10.0.50 / Pixel 9 Pro (Android 16)
+  ![MAUI - Pixel 9 Pro](/images/VisualStudio/20260311_VS2026_18.4.0_MAUI10.0.50_Android16.png)
 ##  .NET MAUI 10.0.30
 - 18.2.0 / MAUI 10.0.30 / Pixel 9a (Android 16)
   ![MAUI - Pixel 9a](/images/VisualStudio/20260116_VS2026_18.2.0_MAUI10.0.30_Android16.png)

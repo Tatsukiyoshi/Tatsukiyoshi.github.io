@@ -21,10 +21,10 @@ nav: programming
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Panda 2025.3.4 Canary 2](#AndroidStudio)    |[2026/04/03](https://developer.android.com/studio)
+      |                |[Android Studio Quail 2026.1.1 Canary 1](#AndroidStudio)    |[2026/04/19](https://developer.android.com/studio)
       |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.6.2                                 |2026/04/03
+      |                |- Android Emulator v.36.6.4                                 |2026/04/16
 
   1. macOS Sequoia 15.6.1
 
@@ -310,16 +310,17 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Panda 4 | 2025.3.4 Canary 2
+    - Android Studio Quail 1 | 2026.1.1 Canary 1
       ```
-      Build #AI-253.32098.37.2534.15100028, built on March 27, 2026
-      Runtime version: 21.0.10+-14961533-b1163.108 amd64
+      Build #AI-261.22158.277.2611.15218332, built on April 16, 2026
+      Runtime version: 21.0.10+-14961533-b1163.108 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
+      Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=492):
+        PropertyOverrides(cache.size=489):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -334,7 +335,9 @@ nav: programming
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
+        Subversion (261.22158.354)
         Dart (504.0.0)
+        PerforceDirectPlugin (261.22158.185)
         io.flutter (91.0.0)
       ```
   - macOS
@@ -393,6 +396,8 @@ nav: programming
   - Android
     - Android Canary
       ![API Canary Preview](/images/Android/20250808_AndroidAPICanaryPreview.png)
+    - Android 17 (API 37.0 Revision 4) (*2026/04/19* <span style="color: red;">Checked!</span>)
+      ![Resizable](/images/Android/20260419_Janken_Resizable_API37_Rev4.png)
     - Android 17 (API 37.0) (*2026/04/03* <span style="color: red;">Checked!</span>)
       ![Janken](/images/Android/20260403_Janken_API37.0.png)
       ![Resizable](/images/Android/20260403_Janken_Resizable_API37.0.png)
@@ -417,8 +422,24 @@ nav: programming
       - レイアウトが崩れる事象
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
+    - Quail
+      - 2026.1.1
+        - Canary 1
+          - Android Gradle Plugin 9.2.0-alpha08 -> 9.3.0-alpha01
+          - Gradle 9.5.0-milestone-7
     - Panda
       - 2025.3.4
+        - Canary 4
+          - Android Gradle Plugin 9.2.0-alpha06 -> 9.2.0-alpha08
+          - Android Emulator 36.6.4
+          - Gradle 9.5.0-milestone-5 -> Gradle 9.4.1 (Downgrade) 
+            - On Gradle 9.5.0-milestone 5
+              ```
+              Unable to load class 'org.gradle.api.internal.plugins.ProjectTypeBinding'
+              org.gradle.api.internal.plugins.ProjectTypeBinding
+
+              Gradle's dependency cache may be corrupt (this sometimes occurs after a network connection timeout.)
+              ```
         - Canary 2
           - Android Gradle Plugin 9.2.0-alpha05 -> 9.2.0-alpha06
           - Android Emulator 36.6.2

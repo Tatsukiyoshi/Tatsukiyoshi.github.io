@@ -7,7 +7,7 @@ nav: programming
 
   |Machine        |Env / FW                                             |Last Updated
   |---------------|-----------------------------------------------------|----------
-  |Windows        |[SQL Server 2022 Developer 16.0.4212.1](#sql-server) |[2025/09/10](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
+  |Windows        |[SQL Server 2022 Developer 16.0.4250.1](#sql-server) |[2026/04/15](https://www.sqlserverversions.com/2021/07/sql-server-2022-versions.html)
   |               |- SQL Server Management Studio 21.5.14               |[2025/09/10](https://learn.microsoft.com/ja-jp/sql/ssms/ssms-21/release-notes-21?view=sql-server-ver16)
   |               |MongoDB 8.2.3                                        |[2026/01/23](https://www.mongodb.com/ja-jp)
   |               |- Mongosh 2.5.1                                      |2025/05/14
@@ -17,12 +17,20 @@ nav: programming
   |               |SQLite 3.50.4                                        |[2025/10/07](https://www.sqlite.org/download.html)
   |ChromeOS Flex |PostgreSQL 18.2                                      |2026/02/22
 
+### Cloud
+
+  |Project          |DB                  |Last Updated
+  |-----------------|--------------------|----------
+  |AIChat           |MongoDB Atlas       |[2026/01/28](https://cloud.mongodb.com/)
+  |SelesReport      |Neon(PostgreSQL 17) |[2026/03/13](https://neon.com/)
+  |MorningStatusApp |Neon(PostgreSQL 17) |2026/04/13
+
 ##  ノウハウ
 ### データベース全般
   - [データベースを作成し、テーブルを追加する](https://docs.microsoft.com/ja-jp/visualstudio/data-tools/create-a-sql-database-by-using-a-designer?view=vs-2019)
   - [大量データの作成、日付の加工](https://www.excellence-blog.com/2017/06/01/sql-server%E3%81%B8%E5%A4%A7%E9%87%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E9%AB%98%E9%80%9F%E3%81%A7%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/)
 
-### SaaS
+### Cloud
 - [neon](https://neon.com/)
   ```
   Serverless PostgreSQL

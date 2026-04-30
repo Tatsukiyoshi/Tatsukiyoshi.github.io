@@ -7,32 +7,31 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/4/1～2026/4/12）](/digest/2026/April/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/4/13～2026/4/30）](/digest/2026/April/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
 独学環境の情報
 ```
-[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services)
+[OS](/knowhow/Platform) | [ツール](/knowhow/Tools) | [サービス](/knowhow/Services) | [ホスティング](/knowhow/Hosting)
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/04/11|[Build 26300.8170](https://aka.ms/DevLatest)
-Windows                     |2026/02/11|[25H2(26200.7840)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/03/28|[Tahoe 26.4](https://www.apple.com/jp/os/macos/)
+Windows Insider             |2026/04/25|Build 26300.8289
+Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
+macOS                       |2026/04/13|[Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/04/08|[146.0.7680.184](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-Ubuntu Desktop              |2026/04/09|[26.04(development branch)](https://jp.ubuntu.com/download)
-[Hosting](/knowhow/Hosting) |2026/01/30|Install: Google Cloud SDK 554.0.0
+Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/04/08|[1.115.0](https://code.visualstudio.com/)
-AntiGravity         | * | - | * |2026/04/08|[1.22.2](https://antigravity.google/)
-Zed                 | * | * | - |2026/04/10|[0.231.2](https://zed.dev)
-Claude Code         | * | * | - |2026/04/11|[2.1.101](https://github.com/anthropics/claude-code)
-Cursor              | * | - | - |2026/04/10|[3.0.16](https://www.cursor.com/)
-Codex               | * | * |   |2026/04/10|[26.406.31014](https://openai.com/ja-JP/codex/)
+Visual Studio Code  | * | * | * |2026/04/30|[1.118.1](https://code.visualstudio.com/)
+AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
+Zed                 | * | * | - |2026/04/25|[0.233.10](https://zed.dev)
+Claude Code         | * | * | - |2026/04/29|[2.1.123](https://github.com/anthropics/claude-code)
+Cursor              | * | - | - |2026/04/28|[3.2.11](https://www.cursor.com/)
+Codex               | * | * |   |2026/04/29|[26.422.71525](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
@@ -50,11 +49,11 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/03/11|Update: Visual Studio Community 2026 18.4.0 / .NET MAUI 10.0.50 / .NET 10.0.4 / .NET 9.0.14 / .NET 8.0.25
-[Rust](/knowhow/Rust)            |2026/03/28|Update: Rust 1.94.1 / Tauri 2.10.3
-[Kotlin](/knowhow/Kotlin)        |2026/04/06|Update: IntelliJ IDEA 2026.1
+[.NET](/knowhow/NET)             |2026/04/19|Update: Visual Studio Community 2026 18.5.0 / .NET MAUI SR5.1(10.0.51) / .NET 10.0.6 / .NET 9.0.15 / .NET 8.0.26
+[Rust](/knowhow/Rust)            |2026/04/23|Update: Dioxus 0.7.6
+[Kotlin](/knowhow/Kotlin)        |2026/04/19|Update: Android Studio Quail 2026.1.1 Canary 1
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
-[TypeScript](/knowhow/TypeScript)|2026/04/04|Update: React Native Windows 0.82.3
+[TypeScript](/knowhow/TypeScript)|2026/04/25|Update: Recharts 3.8.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
@@ -65,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/04/11|Update: Claude Code 2.1.101
+[Model Context Protocol](/knowhow/Mcp) |2026/04/29|Update: Claude Code 2.1.123
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
@@ -83,8 +82,8 @@ Other                            |Updated   |Detail
 - 全角入力対応コンポーネント
   - [React用](https://github.com/Tatsukiyoshi/YaFullWidthInputField/blob/main/README.md)
   - [Vue.js用](https://github.com/Tatsukiyoshi/YaFullWidthInputFieldForVue/blob/main/README.md)
-- [Tauriデスクトップアプリケーション](/design/tauriApp/index)
-- [Reactアプリ](/design/reactApp/index) / [詳細検討](/design/reactApp/detail)
+- [Tauriデスクトップアプリケーション](/design/tauriApp/)
+- [Reactアプリ](/design/reactApp/) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
 - [近況確認アプリ](/design/MorningStatusApp/specification) <span style="color: red;">*<<2026/02/21 fixed >>*</span>
 

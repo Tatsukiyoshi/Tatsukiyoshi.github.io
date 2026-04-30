@@ -20,7 +20,7 @@ OS                                 |Hardware            |Language
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
-  - Windows 11 25H2 Build 26200.7840 <span style="color: red;">*<<2026/02/11 auto updated from 25H2 Build 26200.7705>>*</span>
+  - Windows 11 25H2 Build 26200.8246 <span style="color: red;">*<<2026/04/15 auto updated from 25H2 Build 26200.7840>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
       - バージョン情報
@@ -39,11 +39,12 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
-  - [Dev Channel for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)](https://aka.ms/DevLatest)
-    - Build 26300.8170 (Quality Update) <span style="color: red;">*<<2026/04/11 updated from Build 26300.8155 >>*</span>
-      ![Quality Update](/images/Windows/20260411_WindowsUpdate_DevChannel.png)
+  - Experimental for Windows 11 Next (Build 26300 / Next of Windows 11 25H2)
+    - [This build is Experimental (including Dev Channel)](https://blogs.windows.com/windows-insider/2026/04/24/were-moving-to-experimental-and-beta-announcing-new-builds/)
+    - Build 26300.8289 (Quality Update) <span style="color: red;">*<<2026/04/25 updated from Build 26300.8276 >>*</span>
+      ![Quality Update](/images/Windows/20260425_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260411_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260425_Windows11_Build26300.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
@@ -154,16 +155,14 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
-  - [Tahoe 26.4](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/03/28 updated from Tahoe 26.3.1>>*</span>
-    - ダウンロード中
-      ![Updating](/images/macOS/20260328_macOS_Tahoe26.4Update.png)
+  - [Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/04/13 updated from Tahoe 26.4>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20260413_macOS_Tahoe26.4.1Update.png)
     - アップデート完了
-      ![Updated](/images/macOS/20260328_macOS_Tahoe26.4Updated.png)
-    - XCodeも更新？
-      ![Updated and XCode](/images/macOS/20260328_macOS_Tahoe26.4Updated2.png)
-    - 最終確認
-      ![End Update](/images/macOS/20260328_macOS_Tahoe26.4Updated3.png)
+      ![Updated](/images/macOS/20260413_macOS_Tahoe26.4.1Updated.png)
+    - バージョン情報
+      ![Tahoe 26.4.1](/images/macOS/20260413_macOS_Tahoe26.4.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
@@ -241,8 +240,8 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04(development branch)](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/08 updated from 25.10>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20260409_Ubuntu26.04_Development.png)
+- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+  ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
 
     <details>
     <summary>
@@ -254,7 +253,7 @@ OS                                 |Hardware            |Language
     ---
 
     ## Report details
-    - **Date generated:**                              2026-04-09 00:34:40
+    - **Date generated:**                              2026-04-23 19:57:42
 
     ## Hardware Information:
     - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
@@ -265,12 +264,12 @@ OS                                 |Hardware            |Language
 
     ## Software Information:
     - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu Resolute Raccoon (development branch)
+    - **OS Name:**                                     Ubuntu 26.04 LTS
     - **OS Build:**                                    (null)
     - **OS Type:**                                     64-bit
     - **GNOME Version:**                               49
     - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 7.0.0-12-generic
+    - **Kernel Version:**                              Linux 7.0.0-14-generic
     ```
     </details>
 
@@ -280,7 +279,7 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu Resolute Raccoon (development branch)"
+    PRETTY_NAME="Ubuntu 26.04 LTS"
     NAME="Ubuntu"
     VERSION_ID="26.04"
     VERSION="26.04 (Resolute Raccoon)"
@@ -298,13 +297,13 @@ OS                                 |Hardware            |Language
     </details>
 
   - カーネルバージョン
-    - 7.0.0-12-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/09 Updated from 6.17.0-20>>*</span>
+    - 7.0.0-14-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/23 Updated from 7.0.0-12>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
-  - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
-    ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
-    - 
+  - KDE Plasma 6.6.4 <span style="color: red;">*<<2026/04/23 Updated from 6.4.5>>*</span>
+    ![Updated](/images/Ubuntu/20260423_Plasma6.6_Updated.png)
+    ![Information](/images/Ubuntu/20260424_Plasma_6.6.4.png)
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
@@ -316,4 +315,3 @@ OS                                 |Hardware            |Language
           ```
           xrandr --output DSI-1 --rotate right
           ```
-- [Oracle Cloud](/knowhow/OracleCloud)

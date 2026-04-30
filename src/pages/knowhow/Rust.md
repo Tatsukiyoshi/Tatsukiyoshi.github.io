@@ -27,8 +27,9 @@ nav: programming
       |               |- Svelte 5.55.0                                |2026/03/28
       |               |- Bun 1.3.11                                   |2026/03/28
       |               |- Vite 8.0.3                                   |2026/03/28
-      |               |[Dioxus 0.7.3](#dioxus)                        |[2026/01/23](https://dioxuslabs.com/)
-      |               |- Visual Studio Community 2022 17.14.22        |[2025/12/10](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
+      |               |[Dioxus 0.7.6](#dioxus)                        |[2026/04/23](https://dioxuslabs.com/)
+      |               |- wasm-bindgen-cli 0.2.106                     |2026/04/23
+      |               |- esbuild 0.27.3                               |2026/04/23
       |Windows        |Rust 1.93                                      |2026/01/23
       |               |- Visual Studio Community 2022 17.14.21        |[2025/12/13](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
       |               |[RustRover 2025.3.3](#rustrover)               |[2026/02/01](https://www.jetbrains.com/rust/)
@@ -684,8 +685,7 @@ nav: programming
 
 ### Dioxus(Cross Platform Library) <a id="dioxus"></a>
   - [Fullstack, crossplatform, lightning fast, fully typed.](https://dioxuslabs.com/)
-    - cmakeクレートのビルドには、Visual Studio 2022が必要
-  - V0.7.3 / V0.7.2 / V0.7.0
+  - V0.7.6 / V0.7.3 / V0.7.2 / V0.7.0
     ```
     cargo install dioxus-cli --locked --bins
     ```

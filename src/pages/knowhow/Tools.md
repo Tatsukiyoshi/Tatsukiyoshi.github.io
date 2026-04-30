@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.115.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/04/08 updated from 1.114.0>>*</span>
+- [Visual Studio Code 1.118.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/04/30 updated from 1.118.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -27,7 +27,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.22.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/10 updated from 1.21.9>>*</span>
+- [AntiGravity 1.23.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/28 updated from 1.22.2>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
@@ -65,19 +65,19 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.231.2](https://zed.dev/windows) <span style="color: red;">*<<2026/04/10 updated from 0.230.1>>*</span>
+    - [Zed 0.233.10](https://zed.dev/windows) <span style="color: red;">*<<2026/04/28 updated from 0.232.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.231.2](https://zed.dev) <span style="color: red;">*<<2026/04/10 updated from 0.229.0>>*</span>
+    - [Zed 0.233.10](https://zed.dev) <span style="color: red;">*<<2026/04/25 updated from 0.232.7>>*</span>
 
-- [Cursor 3.0.16](https://www.cursor.com/) <span style="color: red;">*<<2026/04/10 updated from 3.0.9>>*</span>
+- [Cursor 3.2.11](https://www.cursor.com/) <span style="color: red;">*<<2026/04/28 updated from 3.1.15>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
   ![Update](/images/Cursor/20260308_Update.png)
 - Codex
   - Windows
-    - [Codex 26.406.31014](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/09 auto updated from 26.325.21211>>*</span>
+    - [Codex 26.422.62136](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/28 auto updated from 26.409.61251>>*</span>
       - 新機能
         ![New Feature](/images/OpenAI/20260328_Codex_New_Feature.png)
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
@@ -87,7 +87,8 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.406.31014](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/10 updated from 26.325.31654>>*</span>
+    - [Codex 26.422.71525](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/29 updated from 26.422.62136>>*</span>
+      ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
 ### その他
@@ -157,6 +158,10 @@ OS/言語を問わず利用するツールの情報
   - インストール@macOS
     ```
     brew install gh
+    ```
+  - 更新@macOS
+    ```
+    brew upgrade gh
     ```
 
 - [Claude Desktop 1.1.1520](https://claude.com/ja-jp/download) <span style="color: red;">*<<2026/01/30 Auto Updated from 1.0.2339 >>*</span>

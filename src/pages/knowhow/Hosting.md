@@ -10,13 +10,11 @@ nav: environment
   |Windows Insider|Google Cloud SDK 554.0.0|2026/01/30
   |               |Vercel CLI 50.22.1      |2026/02/23
 
-##  ノウハウ
+### [Vercel](https://vercel.com/)
 
-##  [Vercel](https://vercel.com/)
-
-  |Verify                   |FW              |Last Updated
+  |Project                  |FW              |Last Updated
   |-------------------------|----------------|----------
-  |MorningStatusApp         |Next.js 16.1.6  |[2026/02/23](https://morning-status-app.vercel.app/)
+  |MorningStatusApp         |Next.js 16.2.1  |[2026/04/28](https://morning-status-app.vercel.app/)
   |ReactGrid / ChartJs      |Next.js 16.0.0  |[2025/10/22](https://next-grid-chart.vercel.app/)
   |                         |Astro 5.14.1    |[2025/09/27](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.2.0    |[2025/10/18](https://graph-libraries.vercel.app/)
@@ -25,6 +23,14 @@ nav: environment
   |InputField(AutoComplete) |React 19.1.1    |[2025/08/07](https://auto-complete-input-field.vercel.app/)
 
 ### [Google Cloud](https://console.cloud.google.com/)
+
+  |Project     |FW              |Last Updated
+  |------------|----------------|----------
+  |AIChat      |Next.js 16.1.6  |2026/01/29
+  |SalesReport |Next.js 16.1.6  |2026/02/02
+
+##  ノウハウ
+### Google Cloud
 - [Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=ja)
   ```
   (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")

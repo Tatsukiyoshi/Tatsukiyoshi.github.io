@@ -5,6 +5,14 @@ sidebar:
   nav: main
 ---
 - Update History
+  - [Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/04/13 updated from Tahoe 26.4>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20260413_macOS_Tahoe26.4.1Update.png)
+    - アップデート完了
+      ![Updated](/images/macOS/20260413_macOS_Tahoe26.4.1Updated.png)
+    - バージョン情報
+      ![Tahoe 26.4.1](/images/macOS/20260413_macOS_Tahoe26.4.1.png)
   - [Tahoe 26.4](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2026/03/28 updated from Tahoe 26.3.1>>*</span>
     - ダウンロード中
