@@ -35,7 +35,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [AntiGravity 1.22.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/08 updated from 1.21.6 >>*</span>
+    - [AntiGravity 1.23.2](https://antigravity.google/) <span style="color: red;">*<<2026/05/01 updated from 1.22.2 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings

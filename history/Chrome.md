@@ -4,6 +4,11 @@ layout: single
 sidebar:
   nav: main
 ---
+- バージョン 147.0.7727.142 <span style="color: red;">*<<2026/05/01 updated from 146.0.7680.184>>*</span>
+  - 147系にアップデート
+    ![ChromeOS Flexバージョン情報](/images/Chrome/20260501_ChromeOS_Flex_147.0.7727.142.png)
+      - 更新中
+        ![Updating](/images/Chrome/20260501_ChromeOS_Flex_Updating147.0.7727.142.png)
 - バージョン 146.0.7680.184 <span style="color: red;">*<<2026/03/28 updated from 145.0.7632.216>>*</span>
   - 146系にアップデート
     ![ChromeOS Flexバージョン情報](/images/Chrome/20260408_ChromeOS_Flex_146.0.7680.184.png)
