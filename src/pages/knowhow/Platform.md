@@ -191,6 +191,7 @@ OS                                 |Hardware            |Language
         ```
 
         </details>
+
       - ロック画面の温度表示
         ![Weather](/images/Chrome/20260112_ChromeOS_Flex_Weather.png)
       - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
