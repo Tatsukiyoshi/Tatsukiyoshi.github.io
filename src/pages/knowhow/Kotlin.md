@@ -21,10 +21,10 @@ nav: programming
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2026.1.1 Canary 1](#AndroidStudio)    |[2026/04/19](https://developer.android.com/studio)
+      |                |[Android Studio Quail 2026.1.1 Canary 3](#AndroidStudio)    |[2026/05/02](https://developer.android.com/studio)
       |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.6.4                                 |2026/04/16
+      |                |- Android Emulator v.36.6.6                                 |2026/05/02
 
   1. macOS Sequoia 15.6.1
 
@@ -310,9 +310,9 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 1 | 2026.1.1 Canary 1
+    - Android Studio Quail 1 | 2026.1.1 Canary 3
       ```
-      Build #AI-261.22158.277.2611.15218332, built on April 16, 2026
+      Build #AI-261.23567.138.2611.15319090, built on April 30, 2026
       Runtime version: 21.0.10+-14961533-b1163.108 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -320,7 +320,7 @@ nav: programming
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=489):
+        PropertyOverrides(cache.size=500):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -335,9 +335,9 @@ nav: programming
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Subversion (261.22158.354)
+        Subversion (261.23567.176)
         Dart (504.0.0)
-        PerforceDirectPlugin (261.22158.185)
+        PerforceDirectPlugin (261.23567.28)
         io.flutter (91.0.0)
       ```
   - macOS
@@ -423,6 +423,10 @@ nav: programming
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Quail
+      - 2026.1.1
+        - Canary 3
+          - Android Gradle Plugin 9.3.0-alpha01 -> 9.3.0-alpha03
+          - Android Emulator 36.6.6
       - 2026.1.1
         - Canary 1
           - Android Gradle Plugin 9.2.0-alpha08 -> 9.3.0-alpha01
