@@ -1,8 +1,7 @@
 ---
-title:  Update History of ChromeOS Flex
-layout: single
-sidebar:
-  nav: main
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History of ChromeOS Flex
+nav: main
 ---
 - バージョン 147.0.7727.142 <span style="color: red;">*<<2026/05/01 updated from 146.0.7680.184>>*</span>
   - 147系にアップデート

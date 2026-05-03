@@ -1,8 +1,7 @@
 ---
-title:  Update Historys
-layout: single
-sidebar:
-  nav: environment
+layout: ../../layouts/KnowhowLayout.astro
+title: Update Historys
+nav: environment
 ---
 - Windows Insider History
   - Experimental
