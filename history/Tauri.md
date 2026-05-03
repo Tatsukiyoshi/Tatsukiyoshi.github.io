@@ -1,9 +1,9 @@
 ---
+layout: ../../layouts/KnowhowLayout.astro
 title: Update History of Tauri
-layout: single
-sidebar:
-  nav: programming
+nav: programming
 ---
+
 ##  Tauri
   - V2.9.5
     - Windows on Rust 1.92 + Svelte 5.46.0

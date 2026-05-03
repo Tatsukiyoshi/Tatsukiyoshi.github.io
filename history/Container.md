@@ -1,9 +1,9 @@
 ---
-title:  History of Container
-layout: single
-sidebar:
-  nav: programming
+layout: ../../layouts/KnowhowLayout.astro
+title: History of Container
+nav: programming
 ---
+
 ##  履歴
 - Rancher Desktop 1.21.0 <span style="color: red;">**Updated 2025/12/26 from 1.20.1**</span>
 

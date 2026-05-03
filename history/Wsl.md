@@ -1,9 +1,9 @@
 ---
-title:  Update History of WSL
-layout: single
-sidebar:
-  nav: environment
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History of WSL
+nav: environment
 ---
+
 -   Ubuntu 24.04.1 <span style="color: red;">*<<2024/08/23 updated from 24.04>>*</span>
     <details>
     <summary>ディストリビューション・バージョン情報</summary>

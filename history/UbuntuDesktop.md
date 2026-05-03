@@ -1,69 +1,10 @@
 ---
-title:  Update History of Ubuntu Desktop
-layout: single
-sidebar:
-  nav: environment
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History of Ubuntu Desktop
+nav: environment
 ---
+
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span>
-  ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
-
-    <details>
-    <summary>
-    System Details
-    </summary>
-
-    ```
-    # System Details Report
-    ---
-
-    ## Report details
-    - **Date generated:**                              2026-04-23 19:57:42
-
-    ## Hardware Information:
-    - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
-    - **Memory:**                                      4.0 GiB
-    - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
-    - **Graphics:**                                    Intel® HD Graphics (CHV)
-    - **Disk Capacity:**                               125.1 GB
-
-    ## Software Information:
-    - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu 26.04 LTS
-    - **OS Build:**                                    (null)
-    - **OS Type:**                                     64-bit
-    - **GNOME Version:**                               49
-    - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 7.0.0-14-generic
-    ```
-    </details>
-
-    <details>
-    <summary>
-    ディストリビューション・バージョン情報
-    </summary>
-
-    ```
-    PRETTY_NAME="Ubuntu 26.04 LTS"
-    NAME="Ubuntu"
-    VERSION_ID="26.04"
-    VERSION="26.04 (Resolute Raccoon)"
-    VERSION_CODENAME=resolute
-    ID=ubuntu
-    ID_LIKE=debian
-    HOME_URL="https://www.ubuntu.com/"
-    SUPPORT_URL="https://help.ubuntu.com/"
-    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=resolute
-    LOGO=ubuntu-logo
-    ```
-
-    </details>
-
-  - カーネルバージョン
-    - 7.0.0-14-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/23 Updated from 7.0.0-12>>*</span>
-
 - [Ubuntu Desktop 26.04(development branch)](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/08 updated from 25.10>>*</span>
   ![Version Information](/images/Ubuntu/20260409_Ubuntu26.04_Development.png)
 
@@ -181,8 +122,6 @@ sidebar:
     </details>
 
   - KDE Plasma
-    - KDE Plasma 6.6.4 <span style="color: red;">*<<2026/04/23 Updated from 6.4.5>>*</span>
-      ![Information](/images/Ubuntu/20260423_Plasma6.6.png)
     - KDE Plasma 6.4.5 <span style="color: red;">*<<2025/11/23 Re-Installed>>*</span>
       ![Information](/images/Ubuntu/20251123_Plasma6.4.5.png)
     - KDE Plasma <span style="color: Ired;">*<<2025/06/30 Installed>>*</span>

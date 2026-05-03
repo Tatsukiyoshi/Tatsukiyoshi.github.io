@@ -1,9 +1,9 @@
 ---
-title:  Update History of macOS
-layout: single
-sidebar:
-  nav: main
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History of macOS
+nav: main
 ---
+
 - Update History
   - [Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2026/04/13 updated from Tahoe 26.4>>*</span>

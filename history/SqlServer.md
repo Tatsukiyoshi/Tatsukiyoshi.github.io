@@ -1,9 +1,9 @@
 ---
+layout: ../../layouts/KnowhowLayout.astro
 title: Update History of SQL Server and SQL Server Management Studio
-layout: single
-sidebar:
-  nav: programming
+nav: programming
 ---
+
 ##  SQLServer
 ##  SQLServer Management Studio
 - SSMS 21.0.73 Preview 2.1

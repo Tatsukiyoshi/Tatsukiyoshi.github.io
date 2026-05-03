@@ -1,9 +1,9 @@
 ---
-title:  Update History
-layout: single
-sidebar:
-  nav: programming
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History
+nav: programming
 ---
+
 ##  Visual Studio Community 2026 Insiders
 - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
   ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)

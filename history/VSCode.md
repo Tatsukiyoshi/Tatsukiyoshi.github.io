@@ -1,9 +1,9 @@
 ---
-title:	Visual Studio Code
-layout: single
-sidebar:
-  nav: environment
+layout: ../../layouts/KnowhowLayout.astro
+title: Visual Studio Code
+nav: environment
 ---
+
 - 新機能(1.97)
 	- GitHub Copilot
 		- モデルとして、新たにGeminiも選択可能になる<BR />

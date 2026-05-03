@@ -230,7 +230,7 @@ nav: main
   ![Updating](/images/Chrome/20241108_ChromeOS_Flex_Updating130.0.6723.84.png)
   - 新機能
     - 画面分割
-      ![SplitWindow](./images/Chrome/20241108_ChromeOS_Flex_130_SplitWindow.png)
+      ![SplitWindow](/images/Chrome/20241108_ChromeOS_Flex_130_SplitWindow.png)
 - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
   ![ChromeOS Flexバージョン情報](/images/Chrome/20241101_ChromeOS_Flex_129.0.6668.112.png)
   - 更新中

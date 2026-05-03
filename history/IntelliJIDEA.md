@@ -1,9 +1,9 @@
 ---
+layout: ../../layouts/KnowhowLayout.astro
 title: Update History of IntelliJ IDEA
-layout: single
-sidebar:
-  nav: programming
+nav: programming
 ---
+
 - IntelliJ IDEA 2023.3
     ![Intellij IDEA 2023.3](/images/Kotlin/20231208_IntelliJ_IDEA_2023.3.png)
 - IntelliJ IDEA 2023.2

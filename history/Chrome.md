@@ -1,8 +1,7 @@
 ---
-title:  Update History of ChromeOS Flex
-layout: single
-sidebar:
-  nav: main
+layout: ../../layouts/KnowhowLayout.astro
+title: Update History of ChromeOS Flex
+nav: main
 ---
 - バージョン 147.0.7727.142 <span style="color: red;">*<<2026/05/01 updated from 146.0.7680.184>>*</span>
   - 147系にアップデート
@@ -231,7 +230,7 @@ sidebar:
   ![Updating](/images/Chrome/20241108_ChromeOS_Flex_Updating130.0.6723.84.png)
   - 新機能
     - 画面分割
-      ![SplitWindow](./images/Chrome/20241108_ChromeOS_Flex_130_SplitWindow.png)
+      ![SplitWindow](/images/Chrome/20241108_ChromeOS_Flex_130_SplitWindow.png)
 - バージョン 129.0.6668.112 <span style="color: red;">*<<2024/11/01 updated from 129.0.6668.110>>*</span>
   ![ChromeOS Flexバージョン情報](/images/Chrome/20241101_ChromeOS_Flex_129.0.6668.112.png)
   - 更新中
