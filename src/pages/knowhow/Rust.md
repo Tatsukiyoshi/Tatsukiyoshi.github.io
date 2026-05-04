@@ -146,7 +146,7 @@ nav: programming
       ```
 
 ### RustRover
-  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](./history/RustRover)
     ```
     Source revision: c3a2fac393b13
     ライセンス対象: Shinya Watanabe
@@ -392,7 +392,7 @@ nav: programming
       </details>
 
 ### Tauri(Desktop Framework)
-  - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
+  - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](./history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
   - V2.11.0

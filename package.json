@@ -1,14 +1,12 @@
 {
   "name": "tatsukiyoshi-github-io",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
     "dev": "astro dev",
-    "copy-files": "shx cp -r ./history/*.md ./src/pages/history/",
-    "prebuild": "npm run copy-files",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -17,7 +15,6 @@
     "astro": "^5.18.1"
   },
   "devDependencies": {
-    "shx": "^0.4.0",
     "vite-plugin-static-copy": "^4.0.1"
   }
 }

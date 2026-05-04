@@ -31,12 +31,12 @@ nav: programming
   |                |Visual Studio Community 2022 17.14.24             |2026/01/16
   |Windows         |Visual Studio Community 2022 17.14.30             |[2026/04/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
-##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](/history/VisualStudio)
+##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](./history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   - 4月 2026 機能更新プログラム(18.5.0) <span style="color: red;">*<<2026/04/19 updated from 18.4.0>>*</span>
     ![VS2026 18.5.0](/images/VisualStudio/20260419_Update_VS2026_18.5.0.png)
   - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
-  - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](/history/VisualStudioInsiders)
+  - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](./history/VisualStudioInsiders)
     - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
       ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
 - Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
@@ -305,24 +305,10 @@ nav: programming
     </details>
 
 ### MAUI
-  - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](/history/MAUI)
+  - [.NET MAUI 10](https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-9.0) / [履歴](./history/MAUI)
     - Visual Studio Community 2026
       - 18.5.0 / MAUI 10.0.51 / Pixel 10 Pro (Android 16)
         ![MAUI - Pixel 10 Pro](/images/VisualStudio/20260419_VS2026_18.5.0_MAUI10.0.51_Android16.png)
-      - 18.4.0 / MAUI 10.0.50 / Pixel 9 Pro (Android 16)
-        ![MAUI - Pixel 9 Pro](/images/VisualStudio/20260311_VS2026_18.4.0_MAUI10.0.50_Android16.png)
-      - 18.3.1 / MAUI Blazor / Web (*2026/02/19* <span style="color: red;">Tried!</span>)
-        - Mobileでは生成エラーとなり、確認できず（次回連載にて、セキュアな実装になる予定）
-        - アプリ画面
-          ![MAUI Web](/images/VisualStudio/20260219_VS2026_18.3.1_MAUI_Blazor_Web.png)
-        - 生成画像をダウンロード
-          ![Saved Image](/images/VisualStudio/generated_20260219_222133.png)
-      - 18.3.1 / MAUI 10.0.41 / Resizable (Android 16)
-        ![MAUI - Resizable](/images/VisualStudio/20260219_VS2026_18.3.1_MAUI10.0.41_AndroidResizable.png)
-      - 18.2.1 / MAUI Blazor / Pixel 9a (Android 16)
-        ![MAUI Blazor](/images/VisualStudio/20260131_VS2026_18.2.1_MAUI_Blazor_Android16.png)
-      - 18.2.0 / MAUI 10.0.30 / Pixel 9a (Android 16)
-        ![MAUI - Pixel 9a](/images/VisualStudio/20260116_VS2026_18.2.0_MAUI10.0.30_Android16.png)
     - MAUIワークロードの更新
       ```
       dotnet workload update

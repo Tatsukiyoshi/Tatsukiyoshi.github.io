@@ -9,7 +9,7 @@ OS                                 |Hardware            |Language
 [Windows](#Windows)                |Mini-S12            |.NET / Rust / TypeScript
 [Windows on Arm](#WindowsArm)      |OmniBook X          |
 [Windows Insider](#WindowsInsider) |OmniBook Ultra Flip |.NET / Rust / Kotlin / Java / Flutter / TypeScript
-[macOS](#Mac)                      |MacBook Air         |Rust / Flutter
+[macOS](#mac)                      |MacBook Air         |Rust / Flutter
 [ChromeOS Flex](#ChromeOSFlex)     |IdeaPad             |Rust / Flutter / Python / Go / PHP 
 [Ubuntu Desktop](#UbuntuDesktop)   |TransBook           |Carbon
 
@@ -19,7 +19,7 @@ OS                                 |Hardware            |Language
   - (v) ChromeOS Flex環境を IdeaPad に再構築
   - (v) Ubuntu Desktop環境を構築
 
-##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](/history/Windows))
+##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](./history/Windows))
   - Windows 11 25H2 Build 26200.8246 <span style="color: red;">*<<2026/04/15 auto updated from 25H2 Build 26200.7840>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
@@ -38,7 +38,7 @@ OS                                 |Hardware            |Language
 - Windows 11 on Arm 24H2 Build 26100.3476 <span style="color: red;">*<<2025/03/13 updated>>*</span><a id="WindowsArm"></a>
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
-##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](/history/Windows))
+##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental Preview Build (Build 26300)
     - [Announcing new builds for 1 May 2026 and extending ISO support](https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/)
     - [Build 26300.8346 (Quality Update)](https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26300-8346) <span style="color: red;">*<<2026/05/02 updated from Build 26300.8289 >>*</span>
@@ -57,7 +57,7 @@ OS                                 |Hardware            |Language
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
 ### WSL
-- [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](/history/Wsl))
+- [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install) ([履歴](./history/Wsl))
     - [WSL 2.7.0.0](https://github.com/microsoft/WSL) <span style="color: red;">*<<2025/12/13 updated from 2.6.2.0>>*</span>
 
       <details>
@@ -154,7 +154,7 @@ OS                                 |Hardware            |Language
       - [Ubuntu Upgrade to 24.04 Noble Numbat: A step by step howto guide](https://linuxconfig.org/ubuntu-upgrade-to-24-04-noble-numbat-a-step-by-step-howto-guide)
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
-##  [macOS](https://www.apple.com/jp/macos/)<a id="Mac"></a> ([履歴](/history/macOS))
+##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
   - [Tahoe 26.4.1](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2026/04/13 updated from Tahoe 26.4>>*</span>
     - ソフトウェアアップデート
@@ -166,7 +166,7 @@ OS                                 |Hardware            |Language
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
-##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](/history/Chrome))
+##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](./history/Chrome))
   - バージョン 147.0.7727.142 <span style="color: red;">*<<2026/05/01 updated from 146.0.7680.184>>*</span>
     - 147系にアップデート
       ![ChromeOS Flexバージョン情報](/images/Chrome/20260501_ChromeOS_Flex_147.0.7727.142.png)
@@ -241,7 +241,7 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a> ([履歴](/history/UbuntuDesktop))
+- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
   ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
 
     <details>

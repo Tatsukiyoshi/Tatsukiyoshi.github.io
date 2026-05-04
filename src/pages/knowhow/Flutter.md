@@ -198,7 +198,7 @@ nav: programming
     ```
     </details>
 ### 機能
-  - flutter gpu ([履歴](/history/flutter/flutter_gpu))
+  - flutter gpu ([履歴](./history/flutter/flutter_gpu))
     - [Getting Started](https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11)
     - 設定
       - native-assetsを有効にする（開発中のチャネル（masterチャネル）でのサポート）

@@ -11,7 +11,7 @@ nav: programming
   |               |Docker 29.1.4-rd        |
 
 ##  ノウハウ
-- [Rancher Desktop 1.22.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2026/01/28 from 1.21.0**</span> / [履歴](/history/Container)
+- [Rancher Desktop 1.22.0](https://rancherdesktop.io/) <span style="color: red;">**Updated 2026/01/28 from 1.21.0**</span> / [履歴](./history/Container)
   - 導入
     - Docker Desktopをアンインストールし、Rancher Desktopをセットアップ
   - MySQL公式イメージでコンテナ化

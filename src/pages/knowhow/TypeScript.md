@@ -366,7 +366,7 @@ nav: programming
       - Bunでのデスクトップアプリ化
         - Inno Setupでインストーラまで実現
         - デスクトップアプリはBunのランチャなので、アイコン設定は不可
-    - [Lynx](https://lynxjs.org)/([履歴](/history/javascript/Lynx)) <a id="lynx"></a>
+    - [Lynx](https://lynxjs.org)/([履歴](./history/javascript/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
         ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
         - Lynxのバージョンを動的表示するように改修
@@ -410,7 +410,7 @@ nav: programming
               bunx expo install --fix
               bunx expo-doctor
               ```
-      - React Nativeで開発したアプリの実行/([履歴](/history/javascript/ReactNative))
+      - React Nativeで開発したアプリの実行/([履歴](./history/javascript/ReactNative))
         - React Native 0.83.2 / Expo SDK 55.0.5 / Pixel 9 Pro
           - React 19.2.0
             ![React Native 0.83.2 Android](/images/JavaScript/20260305_ReactNative_0.83.2_Pixel_9_Pro.png)
@@ -432,7 +432,7 @@ nav: programming
             ```sh
             react-native run-android
             ```
-      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows) / [履歴](/history/javascript/ReactNativeWindows) <a id="rnw"></a>
+      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows) / [履歴](./history/javascript/ReactNativeWindows) <a id="rnw"></a>
         - 前提条件
           - Node.js development
           - .NET Desktop development
@@ -453,11 +453,10 @@ nav: programming
           ```sh
           bun windows
           ```
-        - VS2026 / Windows 11 SDK 10.0.26100
-          ![React Native Windows 0.82.3](/images/JavaScript/20260421_ReactNativeWindows0.82.3.png)
         - React Native Windows 0.82.3
-          - React Native 0.82.1
-          - React 19.2.4
+          - React Native 0.82.1 / React 19.2.4 / VS2026 / Windows 11 SDK 10.0.26100
+            ![React Native Windows 0.82.3](/images/JavaScript/20260421_ReactNativeWindows0.82.3.png)
+          - React Native 0.82.1 / React 19.2.4
             ![React Native Windows 0.82.3](/images/JavaScript/20260404_ReactNativeWindows0.82.3.png)
       - モノレポ構成でのWebとモバイル共有化
         ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)

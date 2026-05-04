@@ -23,7 +23,7 @@ OS/言語を問わず利用するツールの情報
       sudo sed -i 's|Exec=/usr/share/code/code|Exec=/usr/share/code/code --ozone-platform=x11|g' /usr/share/applications/code.desktop
       ```
       - こうすることでウィンドウが描画でき、日本語入力も問題なくできる
-  - [以前の新機能](/history/VSCode)
+  - [以前の新機能](./history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
