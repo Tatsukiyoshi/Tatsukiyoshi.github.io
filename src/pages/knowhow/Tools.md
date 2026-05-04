@@ -68,7 +68,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 1.0.0](https://zed.dev/windows) <span style="color: red;">*<<2026/05/04 updated from 0.233.10>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.233.10](https://zed.dev) <span style="color: red;">*<<2026/04/25 updated from 0.232.7>>*</span>
+    - [Zed 1.0.0](https://zed.dev) <span style="color: red;">*<<2026/05/04 updated from 0.233.10>>*</span>
 
 - [Cursor 3.2.21](https://www.cursor.com/) <span style="color: red;">*<<2026/05/04 updated from 3.2.11>>*</span>
   ```
@@ -88,7 +88,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.422.71525](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/29 updated from 26.422.62136>>*</span>
+    - [Codex 26.429.30905](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/04 updated from 26.422.71525>>*</span>
       ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
