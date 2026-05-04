@@ -65,19 +65,20 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.233.10](https://zed.dev/windows) <span style="color: red;">*<<2026/04/28 updated from 0.232.2>>*</span>
+    - [Zed 1.0.0](https://zed.dev/windows) <span style="color: red;">*<<2026/05/04 updated from 0.233.10>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 0.233.10](https://zed.dev) <span style="color: red;">*<<2026/04/25 updated from 0.232.7>>*</span>
 
-- [Cursor 3.2.11](https://www.cursor.com/) <span style="color: red;">*<<2026/04/28 updated from 3.1.15>>*</span>
+- [Cursor 3.2.21](https://www.cursor.com/) <span style="color: red;">*<<2026/05/04 updated from 3.2.11>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
   ![Update](/images/Cursor/20260308_Update.png)
+
 - Codex
   - Windows
-    - [Codex 26.422.62136](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/28 auto updated from 26.409.61251>>*</span>
+    - [Codex 26.429.30905](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/02 auto updated from 26.422.62136>>*</span>
       - 新機能
         ![New Feature](/images/OpenAI/20260328_Codex_New_Feature.png)
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
