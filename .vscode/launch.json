@@ -8,7 +8,15 @@
     {
       "type": "msedge",
       "request": "launch",
-      "name": "Github Pages Preview",
+      "name": "Github Pages Preview(Edge)",
+      "url": "http://localhost:4321",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "astro dev"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Github Pages Preview(Chrome)",
       "url": "http://localhost:4321",
       "webRoot": "${workspaceFolder}",
       "preLaunchTask": "astro dev"
