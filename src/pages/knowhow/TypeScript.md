@@ -104,7 +104,11 @@ nav: programming
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
   |                |- Electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
 
-  ![Now](/images/JavaScript/20260429_MorningStatusApp.png)
+  - 履歴
+    - v3.5.2
+      ![Now](/images/JavaScript/20260429_MorningStatusApp.png)
+    - v3.7.10
+      ![Now](/images/JavaScript/20260505_MorningStatusApp.png)
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
