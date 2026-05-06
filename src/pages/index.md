@@ -26,7 +26,7 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/04/30|[1.118.1](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/05/06|[1.119.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/05/04|[1.0.0](https://zed.dev)
 Claude Code         | * | * | - |2026/05/06|[2.1.129](https://github.com/anthropics/claude-code)
