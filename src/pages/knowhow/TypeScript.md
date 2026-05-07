@@ -102,9 +102,11 @@ nav: programming
   |                |- Bun 1.3.13        |2026/04/26
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
-  |                |- Electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
+  |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v3.8.4
+      ![Top](/images/JavaScript/20260508_MorningStatusApp.png)
     - v3.8.1
       ![Top](/images/JavaScript/20260506_MorningStatusApp.png)
       ![Shorts](/images/JavaScript/20260506_MorningStatusApp_YouTubeShorts.png)
