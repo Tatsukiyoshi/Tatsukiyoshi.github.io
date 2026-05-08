@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/KnowhowLayout.astro
-title: Model Context Protocol / Coding Agent
+title: AI (Coding Agent / Model Context Protocol)
 nav: programming
 ---
 ##  独学書
