@@ -26,10 +26,10 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/04/30|[1.118.1](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/05/06|[1.119.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/05/08|[1.1.6](https://zed.dev)
-Claude Code         | * | * | - |2026/05/06|[2.1.129](https://github.com/anthropics/claude-code)
+Claude Code         | * | * | - |2026/05/07|[2.1.131](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
 Codex               | * | * |   |2026/05/02|[26.429.30905](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2025/09/12|[7.5.3](https://github.com/PowerShell/PowerShell)
@@ -53,7 +53,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/05/02|Update: Android Studio Quail 2026.1.1 Canary 3
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
-[TypeScript](/knowhow/TypeScript)|2026/04/25|Update: Recharts 3.8.1
+[TypeScript](/knowhow/TypeScript)|2026/05/08|Update: Electrobun 1.18.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
@@ -64,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
-[Model Context Protocol](/knowhow/Mcp) |2026/05/06|Update: Claude Code 2.1.129
+[Model Context Protocol](/knowhow/Mcp) |2026/05/07|Update: Claude Code 2.1.131
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
