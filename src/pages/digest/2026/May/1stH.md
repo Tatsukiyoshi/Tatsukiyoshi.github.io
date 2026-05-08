@@ -8,9 +8,10 @@ title: 2026年5月上期
 
 ## リスキリング
 - OS: ChromeOS Flex 147.0.7727.142にアップデート。Windows 11 Insider Preview (Experimental Channel) Build 26300.8346にアップデート
-- 開発ツール: ChromeOS FlexでAntiGravity 1.23.2に更新。Zed 1.0.0（Windows Insider・macOS）・Cursor 3.2.21・Codex 26.429.30905に更新
-- MCP: Claude Code 2.1.126@Windows Insider・macOSに更新
+- 開発ツール: ChromeOS FlexでAntiGravity 1.23.2に更新。Zed 1.0.0〜1.1.6（Windows Insider・macOS）・Cursor 3.2.21・Codex 26.429.30905〜26.506.21252（macOS）に更新。Visual Studio Code 1.119.0に更新。ZedにClaude Agent Integrationが追加された
+- MCP: Claude Code 2.1.126〜2.1.131@Windows Insider・2.1.129@macOSに更新。2.1.129でWindows起動不可の不具合が発生し2.1.131で解消
 - Rust: Rust 1.95.0・Tauri 2.11.0をWindows Insider・ChromeOS Flex・macOSの全環境に更新
+- TypeScript: Electrobun 1.18.1に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -22,7 +23,9 @@ title: 2026年5月上期
 - v3.7.1〜v3.7.2: Instagram通知メール改善（メンバーソート・本文修正・SNS状態修正）
 - v3.7.3: 近況をMarkdownでレンダリング
 - v3.7.4〜v3.7.5: メール通知送信修正・Ameba共有ブログ投稿者特定改善
-- v3.7.6〜v3.7.7: 新着投稿セクション拡張・Geniusリンク同期マッチング精度向上
+- v3.7.6〜v3.7.10: 新着投稿セクション拡張・Genius/DiscographyのBlob URL自動導出・同期状況UI改善
+- v3.8.0〜v3.8.3: YouTube Shorts埋め込み・リンク管理機能追加
+- v3.8.4〜v3.9.0: Shorts進捗グラフ追加・ユニット名修正・Geniusエラーハンドリング・フェス機能追加
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -48,6 +51,21 @@ title: 2026年5月上期
 - **＜開発ツール＞** macOSで、[Zed 1.0.0](https://zed.dev) に更新
 - **＜開発ツール＞** [Cursor 3.2.21](https://www.cursor.com/) に更新
 - **＜開発ツール＞** macOSで、[Codex 26.429.30905](https://openai.com/ja-JP/codex/) に更新
+
+##  【5/6】
+- **＜開発ツール＞** [Visual Studio Code 1.119.0](https://code.visualstudio.com/) に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.129](https://github.com/anthropics/claude-code) に更新（起動できない不具合が発生し、2.1.126にダウングレード）
+- **＜MCP＞** macOSで、[Claude Code 2.1.129](https://github.com/anthropics/claude-code) に更新
+
+##  【5/7】
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.131](https://github.com/anthropics/claude-code) に更新
+
+##  【5/8】
+- **＜開発ツール＞** Windows Insiderで、[Zed 1.1.6](https://zed.dev/windows) に更新
+  - Claude Agent Integrationが追加された
+- **＜開発ツール＞** macOSで、[Zed 1.1.6](https://zed.dev) に更新
+- **＜開発ツール＞** macOSで、[Codex 26.506.21252](https://openai.com/ja-JP/codex/) に更新
+- **＜TypeScript＞** [Electrobun 1.18.1](https://github.com/blackboardsh/electrobun) に更新
 
 ## 営業日報システム
 
@@ -80,3 +98,20 @@ title: 2026年5月上期
 ### v3.7.6〜v3.7.7
 - v3.7.6: 新着Instagram投稿セクションを「新着投稿」に拡張し、ブログ・SNS更新もメンバーごとにグループ化して表示（5/4）
 - v3.7.7: Geniusリンク同期のマッチング精度を向上（normalizeTextの改善・完全一致優先マッチング実装・GENIUS_LINKS_STATUS_BLOB_URLの自動導出）（5/4）
+
+### v3.7.8〜v3.7.10
+- v3.7.8: 新着投稿セクションをAmeba・Instagram限定に変更し、種別ごとにまとめて表示（5/5）
+- v3.7.9: 同期状況画面の視認性を向上。グラフの最小1件表示・サマリーセクション追加・Blob URL自動導出フォールバック実装（5/5）
+- v3.7.10: 新着投稿セクション改良。Instagram投稿をメンバー順でソート、Ameba投稿を公式SNS設定メンバーのみに限定（5/5）
+
+### v3.8.0〜v3.8.3
+- v3.8.0: シングル曲詳細にYouTube Shorts埋め込み追加。MV/Shorts切り替え動画セレクターを実装し、バッチで公式チャンネルからShortsを自動収集（#774, 5/6）
+- v3.8.1: デスクトップモードの曲詳細画面にYouTube Shortsリンク編集機能追加。個別削除・再取得フラグ編集・処理中状態の視覚的表示（#824, #825, 5/6）
+- v3.8.2: YouTube Shorts取得上限を3件から10件に拡大。Instrumental除外・ドロップダウンUI・フラグ駆動再取得（#828, #823, 5/6）
+- v3.8.3: YouTube Shortsの検索クエリに「Shorts」キーワード追加で誤登録防止。同期状況にShortsリンク取得率を追加（#830, 5/7）
+
+### v3.8.4〜v3.9.0
+- v3.8.4: 同期状況画面のディスコグラフィーチャートにShortsの取得進捗グラフ追加（#832, #834, 5/8）
+- v3.8.5: リリース詳細・曲詳細でサブユニット直接紐づき楽曲のユニット名を正しく表示するよう修正（#826, 5/8）
+- v3.8.6: Geniusリンク同期で補助的なスナップショット保存失敗時のエラーハンドリング追加（#767, 5/8）
+- v3.9.0: フェス機能を追加。参加フェスの開催情報（フェス名・日程・会場）を一覧・詳細ページで閲覧可能（#776, 5/8）
