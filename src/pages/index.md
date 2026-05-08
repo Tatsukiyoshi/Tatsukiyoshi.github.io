@@ -62,7 +62,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[AI](/knowhow/Mcp)                     |2026/05/07|Update: Claude Code 2.1.131
+[AI](/knowhow/Mcp)                     |2026/05/09|Update: Claude Code 2.1.133
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/01/28|Update: Rancher Desktop 1.22.0
 [Documentation](/knowhow/Documentation)|-
