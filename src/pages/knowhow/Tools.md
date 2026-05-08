@@ -65,10 +65,15 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.0.0](https://zed.dev/windows) <span style="color: red;">*<<2026/05/04 updated from 0.233.10>>*</span>
+    - [Zed 1.1.6](https://zed.dev/windows) <span style="color: red;">*<<2026/05/08 updated from 1.0.0>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 1.1.6](https://zed.dev) <span style="color: red;">*<<2026/05/08 updated from 1.0.0>>*</span>
+  - Claude Agent Integration
+    - Install
+      ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
+    - Select 
+      ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
 - [Cursor 3.2.21](https://www.cursor.com/) <span style="color: red;">*<<2026/05/04 updated from 3.2.11>>*</span>
   ```
