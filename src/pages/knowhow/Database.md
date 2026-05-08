@@ -40,6 +40,9 @@ nav: programming
     - DB作成(on AWS or Azure)
   - Google Cloud SQL有償対応のため、移行（※Cloud SQL Deleted@2026/04/01）
 
+  - Neonへのデータ投入は、Webで実施する
+    （VSCodeの拡張機能でも可能ではあるが、Date/TimeがUTCで登録されてしまう）
+
 ### SQLite
   - [インストール](https://www.sqlite.org/download.html)
   - CLIツール

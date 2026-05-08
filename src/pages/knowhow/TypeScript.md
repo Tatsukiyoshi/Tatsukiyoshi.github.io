@@ -105,6 +105,8 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v3.9.1
+      ![Top](/images/JavaScript/20260508_MorningStatusApp_Festival.png)
     - v3.8.4
       ![Top](/images/JavaScript/20260508_MorningStatusApp.png)
     - v3.8.1
