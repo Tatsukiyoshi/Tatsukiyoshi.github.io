@@ -5,6 +5,10 @@ nav: environment
 ---
 - Windows Insider History
   - Experimental
+    - [Build 26300.8376 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/08/announcing-new-builds-for-8-may-2026/) <span style="color: red;">*<<2026/05/09 updated from Build 26300.8346 >>*</span>
+      ![Quality Update](/images/Windows/20260509_WindowsUpdate_DevChannel.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260509_Windows11_Build26300.png)
     - [Announcing new builds for 1 May 2026 and extending ISO support](https://blogs.windows.com/windows-insider/2026/05/01/announcing-new-builds-for-1-may-2026-and-extending-iso-support/)
     - [Build 26300.8346 (Quality Update)](https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26300-8346) <span style="color: red;">*<<2026/05/02 updated from Build 26300.8289 >>*</span>
       ![Quality Update](/images/Windows/20260502_WindowsUpdate_DevChannel.png)
