@@ -21,8 +21,8 @@ nav: programming
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2026.1.1 Canary 3](#AndroidStudio)    |[2026/05/02](https://developer.android.com/studio)
-      |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Quail 2026.1.1 Canary 4](#AndroidStudio)    |[2026/05/10](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.21                                             |[2026/05/02](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
       |                |- Android Emulator v.36.6.6                                 |2026/05/02
 
@@ -308,10 +308,13 @@ nav: programming
   - 対応履歴
     - Quail
       - 2026.1.1
+        - Canary 4
+          - Android Gradle Plugin 9.3.0-alpha03 -> 9.3.0-alpha04
         - Canary 3
+          - Kotlin 2.3.21
           - Android Gradle Plugin 9.3.0-alpha01 -> 9.3.0-alpha03
           - Android Emulator 36.6.6
-      - 2026.1.1
+          - Gradle 9.5.0
         - Canary 1
           - Android Gradle Plugin 9.2.0-alpha08 -> 9.3.0-alpha01
           - Gradle 9.5.0-milestone-7
