@@ -53,7 +53,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/05/10|Update: Android Studio Quail 2026.1.1 Canary 4
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows
-[TypeScript](/knowhow/TypeScript)|2026/05/08|Update: Electrobun 1.18.1
+[TypeScript](/knowhow/TypeScript)|2026/05/11|Update: Prisma 7.8.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0

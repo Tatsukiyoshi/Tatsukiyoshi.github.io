@@ -100,6 +100,7 @@ nav: programming
   |----------------|--------------------|----------
   |Windows Insider |Next.js 16.2.1      |2026/04/13
   |                |- Bun 1.3.13        |2026/04/26
+  |                |- Prisma 7.8.0      |[2026/05/11](https://www.prisma.io/)
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
