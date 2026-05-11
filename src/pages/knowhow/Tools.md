@@ -68,7 +68,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 1.1.7](https://zed.dev/windows) <span style="color: red;">*<<2026/05/09 updated from 1.1.6>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.1.6](https://zed.dev) <span style="color: red;">*<<2026/05/08 updated from 1.0.0>>*</span>
+    - [Zed 1.1.7](https://zed.dev) <span style="color: red;">*<<2026/05/11 updated from 1.1.6>>*</span>
   - Claude Agent Integration
     - Install
       ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
@@ -93,7 +93,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.506.21252](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/08 updated from 26.429.30905>>*</span>
+    - [Codex 26.506.31421](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/11 updated from 26.506.21252>>*</span>
       ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
