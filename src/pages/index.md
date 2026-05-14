@@ -49,7 +49,7 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/04/19|Update: Visual Studio Community 2026 18.5.0 / .NET MAUI SR5.1(10.0.51) / .NET 10.0.6 / .NET 9.0.15 / .NET 8.0.26
+[.NET](/knowhow/NET)             |2026/05/14|Update: Visual Studio Community 2026 18.5.3
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/05/10|Update: Android Studio Quail 2026.1.1 Canary 4
 [Flutter](/knowhow/Flutter)      |2026/02/15|Update: Flutter 3.41.1@Windows

@@ -5,6 +5,8 @@ nav: programming
 ---
 
 ##  Visual Studio 2026
+  - 4月 2026 機能更新プログラム(18.5.3) <span style="color: red;">*<<2026/05/14 updated from 18.5.0>>*</span>
+    ![VS2026 18.5.3](/images/VisualStudio/20260514_Update_VS2026_18.5.3.png)
   - 4月 2026 機能更新プログラム(18.5.0) <span style="color: red;">*<<2026/04/19 updated from 18.4.0>>*</span>
     ![VS2026 18.5.0](/images/VisualStudio/20260419_Update_VS2026_18.5.0.png)
   - 3月 2026 機能更新プログラム(18.4.0) <span style="color: red;">*<<2026/03/11 updated from 18.3.1>>*</span>
