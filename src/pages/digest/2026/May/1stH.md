@@ -7,11 +7,13 @@ title: 2026年5月上期
 # Topic
 
 ## リスキリング
-- OS: ChromeOS Flex 147.0.7727.142にアップデート。Windows 11 Insider Preview (Experimental Channel) Build 26300.8346にアップデート
-- 開発ツール: ChromeOS FlexでAntiGravity 1.23.2に更新。Zed 1.0.0〜1.1.6（Windows Insider・macOS）・Cursor 3.2.21・Codex 26.429.30905〜26.506.21252（macOS）に更新。Visual Studio Code 1.119.0に更新。ZedにClaude Agent Integrationが追加された
-- MCP: Claude Code 2.1.126〜2.1.131@Windows Insider・2.1.129@macOSに更新。2.1.129でWindows起動不可の不具合が発生し2.1.131で解消
+- OS: ChromeOS Flex 147.0.7727.142・Windows Insider Build 26300.8346〜26300.8376にアップデート。macOS Tahoe 26.5にアップデート
+- 開発ツール: ChromeOS FlexでAntiGravity 1.23.2に更新。Zed 1.0.0〜1.2.3（Windows Insider・macOS）・Cursor 3.2.21・Codex 26.429.30905〜26.506.31421（macOS）に更新。Visual Studio Code 1.119.0〜1.120.0に更新。PowerShell 7.6.1に更新。ZedにClaude Agent Integrationが追加された
+- MCP: Claude Code 2.1.126〜2.1.141@Windows Insider・2.1.129〜2.1.138@macOSに更新。2.1.129でWindows起動不可の不具合が発生し2.1.131で解消
 - Rust: Rust 1.95.0・Tauri 2.11.0をWindows Insider・ChromeOS Flex・macOSの全環境に更新
-- TypeScript: Electrobun 1.18.1に更新
+- Kotlin: Android Studio Quail 2026.1.1 Canary 4に更新
+- TypeScript: Electrobun 1.18.1に更新。近況確認アプリのPrisma 7.8.0に更新
+- .NET: Visual Studio Community 2026 18.6.0・.NET 10.0.8に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -26,6 +28,11 @@ title: 2026年5月上期
 - v3.7.6〜v3.7.10: 新着投稿セクション拡張・Genius/DiscographyのBlob URL自動導出・同期状況UI改善
 - v3.8.0〜v3.8.3: YouTube Shorts埋め込み・リンク管理機能追加
 - v3.8.4〜v3.9.0: Shorts進捗グラフ追加・ユニット名修正・Geniusエラーハンドリング・フェス機能追加
+- v3.9.1: 地域別公演マップにフェスを追加
+- v4.0.0: セットリスト表示機能を追加
+- v4.0.1〜v4.0.4: Instagramサムネイル改善・曲検索レイアウト改善・モバイル修正
+- v4.1.0〜v4.1.1: ディスコグラフィーデータのNeon移行・Instagram CORP修正
+- v4.2.0〜v4.2.1: TikTok投稿リンク追加・新着投稿Suspenseストリーミング分離
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -66,6 +73,30 @@ title: 2026年5月上期
 - **＜開発ツール＞** macOSで、[Zed 1.1.6](https://zed.dev) に更新
 - **＜開発ツール＞** macOSで、[Codex 26.506.21252](https://openai.com/ja-JP/codex/) に更新
 - **＜TypeScript＞** [Electrobun 1.18.1](https://github.com/blackboardsh/electrobun) に更新
+
+##  【5/9】
+- **＜OS＞** [Windows 11 Insider Preview (Experimental Channel) Build 26300.8376 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/08/announcing-new-builds-for-8-may-2026/) にアップデート
+
+##  【5/10】
+- **＜Kotlin＞** Windows Insiderで、[Android Studio Quail 2026.1.1 Canary 4](https://developer.android.com/studio) に更新
+
+##  【5/11】
+- **＜開発ツール＞** macOSで、[Codex 26.506.31421](https://openai.com/ja-JP/codex/) に更新
+- **＜MCP＞** macOSで、[Claude Code 2.1.138](https://github.com/anthropics/claude-code) に更新
+- **＜TypeScript＞** Windows Insiderで、近況確認アプリの[Prisma 7.8.0](https://www.prisma.io/) に更新
+
+##  【5/13】
+- **＜開発ツール＞** [Visual Studio Code 1.120.0](https://code.visualstudio.com/) に更新
+
+##  【5/14】
+- **＜OS＞** [macOS Tahoe 26.5](https://www.apple.com/jp/os/macos/) にアップデート
+- **＜開発ツール＞** Windows Insiderで、[Zed 1.2.3](https://zed.dev/windows) に更新
+- **＜開発ツール＞** macOSで、[Zed 1.2.3](https://zed.dev) に更新
+- **＜開発ツール＞** [PowerShell 7.6.1](https://github.com/PowerShell/PowerShell) に更新
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.141](https://github.com/anthropics/claude-code) に更新
+- **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026 18.6.0](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes) に更新
+  - 18.5.3への更新確認中に18.6.0への通知があり、18.6.0に更新
+  - .NET 10.0.8 / .NET 9.0.16 / .NET 8.0.27 に更新
 
 ## 営業日報システム
 
@@ -115,3 +146,23 @@ title: 2026年5月上期
 - v3.8.5: リリース詳細・曲詳細でサブユニット直接紐づき楽曲のユニット名を正しく表示するよう修正（#826, 5/8）
 - v3.8.6: Geniusリンク同期で補助的なスナップショット保存失敗時のエラーハンドリング追加（#767, 5/8）
 - v3.9.0: フェス機能を追加。参加フェスの開催情報（フェス名・日程・会場）を一覧・詳細ページで閲覧可能（#776, 5/8）
+
+### v3.9.1
+- 地域別公演マップにフェスを追加。都道府県別公演ページにフェスセクションを追加し、地図マーカーにフェス会場も含めるよう改善（#843, 5/8）
+
+### v4.0.0
+- セットリスト表示機能を追加。フェス詳細ページに演奏曲リストを表示し、ライブ詳細・フェス詳細から専用のセットリストページにアクセスできるようになった（#775, 5/9）
+
+### v4.0.1〜v4.0.4
+- v4.0.1: Instagram投稿のサムネイル表示を改善。安定したリダイレクトURL（/media/?size=m）と実行時検証（403/404フィルタリング）を導入（5/12）
+- v4.0.2: スマートフォンでの曲検索画面のレイアウトを改善（#869, 5/13）
+- v4.0.3: モバイル端末でライブリストのドロップダウンが過度に幅広になる問題を修正（#863, 5/13）
+- v4.0.4: フェス一覧ページにローディング表示を追加（#872, 5/13）
+
+### v4.1.0〜v4.1.1
+- v4.1.0: ディスコグラフィーデータの保存先をVercel BlobからNeon PostgreSQLに移行。テーブル設計・一括移行・アプリ読み取り切り替え・同期ワークフロー再開を順次対応（#853, #854, #855, #856, #851, 5/14）
+- v4.1.1: InstagramサムネイルがCORPポリシーでブロックされる問題を修正。Next.js Imageプロキシ経由のサーバーサイド取得に切り替え（#878, 5/14）
+
+### v4.2.0〜v4.2.1
+- v4.2.0: TikTok投稿リンク機能を追加。公式アカウント（@morningmusume_uf）の投稿を定期収集し、キャプションからメンバーを自動判定してトップ画面・メンバー詳細・一覧ページ（/tiktok）で閲覧可能（#805, 5/14）
+- v4.2.1: トップページの新着投稿セクションをSuspenseでストリーミング分離。ヘッダー・ナビゲーション部分が即座に表示されるよう改善（#881, 5/14）
