@@ -20,13 +20,13 @@ nav: programming
 
       |Machine        |Env / FW                                       |Last Updated
       |---------------|-----------------------------------------------|----------
-      |Windows Insider|[Rust 1.94.1](#rust-1)                         |[2026/03/28](https://www.rust-lang.org/)
+      |Windows Insider|[Rust 1.95.0](#rust-1)                         |[2026/05/01](https://www.rust-lang.org/)
       |               |- cargo-generate 0.23.5                        |2025/10/06
       |               |- wasm-pack 0.13.1                             |2025/10/06
-      |               |[Tauri 2.10.3](#tauridesktop-framework)        |[2026/03/15](https://tauri.app/)
-      |               |- Svelte 5.55.0                                |2026/03/28
-      |               |- Bun 1.3.11                                   |2026/03/28
-      |               |- Vite 8.0.3                                   |2026/03/28
+      |               |[Tauri 2.11.0](#tauridesktop-framework)        |[2026/05/01](https://tauri.app/)
+      |               |- Svelte 5.55.5                                |2026/05/01
+      |               |- Bun 1.3.13                                   |2026/04/26
+      |               |- Vite 8.0.10                                  |2026/05/01
       |               |[Dioxus 0.7.6](#dioxus)                        |[2026/04/23](https://dioxuslabs.com/)
       |               |- wasm-bindgen-cli 0.2.106                     |2026/04/23
       |               |- esbuild 0.27.3                               |2026/04/23
@@ -40,33 +40,33 @@ nav: programming
 
       |Machine         |Env / FW        |Last Updated
       |----------------|----------------|----------
-      |Windows Insider |Rust 1.94.1     |2026/03/28
-      |                |Tauri 2.10.3    |2026/03/28
-      |                |- React 19.2.4  |2026/03/28
-      |                |- Bun 1.3.11    |2026/03/28
-      |                |- Vite 7.3.1    |2026/01/23
+      |Windows Insider |Rust 1.95.0     |2026/05/01
+      |                |Tauri 2.11.0    |2026/05/01
+      |                |- React 19.2.5  |2026/05/01
+      |                |- Bun 1.3.13    |2026/05/01
+      |                |- Vite 8.0.10   |2026/05/01
 
-  1. ChromeOS Flex 145.0.7632.216 (Official Build)
+  1. ChromeOS Flex 147.0.7727.142 (Official Build)
 
       |Machine    |Env / FW                                  |Last Updated
       |-----------|------------------------------------------|----------
-      |ChromeOS   |Rust 1.94.1                               |2026/03/28
+      |ChromeOS   |Rust 1.95.0                               |2026/05/01
       |           |[Node.js 25.0.0](TypeScript#typescript)   |[2025/10/18](https://nodejs.org/en)
-      |           |Tauri 2.10.3                               |2026/03/08
-      |           |- React 19.2.4                            |2026/03/08
-      |           |- Bun 1.3.10                              |2026/03/08
-      |           |- Vite 7.3.1                              |2026/01/24
+      |           |Tauri 2.11.0                               |2026/05/01
+      |           |- React 19.2.5                            |2026/05/01
+      |           |- Bun 1.3.13                              |2026/05/01
+      |           |- Vite 8.0.10                             |2026/05/01
 
-  1. macOS Tahoe 26.4
+  1. macOS Tahoe 26.4.1
 
       |Machine    |Env / FW             |Last Updated
       |-----------|---------------------|----------
-      |macOS      |Rust 1.94.1          |2026/03/28
+      |macOS      |Rust 1.95.0          |2026/05/01
       |           |Node 22.6.0          |2024/08/17
-      |           |Tauri 2.10.3         |2026/03/16
-      |           |- React 19.2.4       |2026/03/16
-      |           |- Bun 1.3.11         |2026/03/28
-      |           |- Vite 8.0.3         |2026/03/28
+      |           |Tauri 2.11.0         |2026/05/01
+      |           |- React 19.2.5       |2026/05/01
+      |           |- Bun 1.3.13         |2026/05/01
+      |           |- Vite 8.0.10        |2026/05/01
 
 ##  ノウハウ
 ### Rust
@@ -146,7 +146,7 @@ nav: programming
       ```
 
 ### RustRover
-  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](/history/RustRover)
+  - RustRover 2025.3.3 Build #RR-253.30387.122, built on January 27, 2026 <span style="color: red;">**Updated 2026/02/01**</span> / [履歴](./history/RustRover)
     ```
     Source revision: c3a2fac393b13
     ライセンス対象: Shinya Watanabe
@@ -392,9 +392,23 @@ nav: programming
       </details>
 
 ### Tauri(Desktop Framework)
-  - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](/history/Tauri))
+  - [Build smaller, faster, and more secure desktop applications with a web frontend](https://tauri.studio/) ([履歴](./history/Tauri))
   - Document
     - [SplashScreen](#Splashscreen)
+  - V2.11.0
+    - Windows on Rust 1.95.0 + Svelte 5.55.5
+      ![On Windows](/images/rust/20260501_Tauri2.11.0_Windows.png)
+    - Ubuntu 24.04.4 on WSL2
+      ![On Ubuntu 24.04.4](/images/rust/20260501_Tauri2.11.0_Ubuntu24.04.4.png)
+    - macOS 26.4.1
+      ![On macOS](/images/rust/20260501_Tauri2.11.0_macOS26.4.1.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20260501_Tauri2.11.0_ChromeOS_Flex.png)
+    - iOS 26.4 / iPhone 17 Pro
+      ![On iOS 26.4](/images/rust/20260501_Tauri2.11.0_iPhone17_Pro_iOS26.4.png)
+    - Android 37.0 / Pixel 10 Pro / Rust 1.95.0 + React 19.2.5
+      - Gradle 8.14.4 ＋ Kotlin 2.0.21の組み合わせしかない
+        ![On Android 37](/images/rust/20260501_Tauri2.11.0_Pixel_10_Pro_Android37.0.png)
   - V2.10.3
     - Windows on Rust 1.94.1 + Svelte 5.55.0
       ![On Windows](/images/rust/20260328_Tauri2.10.3_Windows.png)
@@ -412,7 +426,7 @@ nav: programming
       ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
     - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
       - Gradle 8.14.4 ＋ Kotlin 2.0.21の組み合わせしかない
-        ![On Android Canary](/images/rust/20260328_Tauri2.10.3_Pixel_9_Pro_Android36.1.png)
+        ![On Android 36](/images/rust/20260328_Tauri2.10.3_Pixel_9_Pro_Android36.1.png)
   - V2.10.2
     - macOS 26.3
       ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)

@@ -21,10 +21,10 @@ nav: programming
       |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2026.1.1 Canary 1](#AndroidStudio)    |[2026/04/19](https://developer.android.com/studio)
-      |                |- Kotlin 2.3.20                                             |[2026/03/19](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Quail 2026.1.1 Canary 4](#AndroidStudio)    |[2026/05/10](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.21                                             |[2026/05/02](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.6.4                                 |2026/04/16
+      |                |- Android Emulator v.36.6.6                                 |2026/05/02
 
   1. macOS Sequoia 15.6.1
 
@@ -68,123 +68,7 @@ nav: programming
       io.flutter (91.0.0)
     Kotlin: 261.22158.277-IJ
     ```
-- History
-  - IntelliJ IDEA 2025.3.2
-    - 省略時動作が厳格化されたことを受け、明示的にインメモリを使用することを指定するように修正
-      ```yaml
-      spring:
-        datasource:
-          url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-          driver-class-name: org.h2.Driver
-          username: sa
-          password:
-        h2:
-          console:
-            enabled: true
-        batch:
-          ...
-          jdbc:
-            initialize-schema: always
-      ```
-  - IntelliJ IDEA 2025.3.1
-    - Update Kotlin 2.3.0 for Java 25
-      ```
-      plugins {
-        ...
-        kotlin("jvm") version "2.3.0"
-        kotlin("plugin.spring") version "2.3.0"
-      }
-      ...
-      java.sourceCompatibility = JavaVersion.VERSION_25
-      ...
-      tasks.named("compileKotlin", org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java) {
-        compilerOptions {
-          ...
-          apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3)
-        }
-      }
-      ```
-  - IntelliJ IDEA 2024.3.4.1
-    - Update PostgreSQL JDBC Driver
-      ```kts
-      dependencies {
-        ...
-        runtimeOnly("org.postgresql:postgresql:42.7.5")
-        ...
-      }
-      ```
-  - IntelliJ IDEA 2024.3.2.2
-    - Mockito as agent over jdk 21
-      - [Support configuring Mockito java agent in java 21+](https://github.com/spring-io/initializr/issues/1590)
-        ```kts
-        var mockitoAgent = configurations.create("mockitoAgent")
-
-        dependencies {
-          ...
-          testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
-          mockitoAgent("org.mockito:mockito-core") { isTransitive = false }
-        }
-
-        tasks {
-          test {
-            jvmArgs("-javaagent:${mockitoAgent.asPath}")
-          }
-        }
-        ```
-  - IntelliJ IDEA 2024.3
-    - Kotlin 2.1.0
-      ```kts
-      plugins {
-        ...
-        kotlin("jvm") version "2.1.0"
-        ...
-      }
-      ```
-  - IntelliJ IDEA 2024.2.3
-    - Kotlin 2.0.20
-      - kotlinOptions Deprecated - https://kotlinlang.org/docs/gradle-compiler-options.html#target-the-jvm
-        ```kts
-        tasks.named("compileKotlin", org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java) {
-          compilerOptions {
-            freeCompilerArgs.add("-Xjsr305=strict")
-            apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_0)
-          }
-        }
-        ```
-  - IntelliJ IDEA 2024.2.0.2
-    - PostgreSQL 16.4
-    - Gradle 8.8
-  - Kotlin 2.0.0
-    - Compose Multiplatform
-      ![Compose for Desktop](/images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
-  - Intellij IDEA 2024.1.1
-    - Kotlin 1.9.24
-  - Intellij IDEA 2023.3.6
-    - Kotlin 1.9.23
-      ```
-      plugins {
-        ...
-        kotlin("jvm") version "1.9.23"
-        ...
-      }
-      ```
-  - Intellij IDEA 2023.3.4
-    - Kotlin 1.9.22
-      ![Kotlinコンパイラ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinSetting.png)
-      ![デバッグ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinDebug.png)
-      - kotlinc.xml
-        ```xml
-        <?xml version="1.0" encoding="UTF-8"?>
-        <project version="4">
-          <component name="Kotlin2JvmCompilerArguments">
-            <option name="jvmTarget" value="21" />
-          </component>
-          <component name="KotlinJpsPluginSettings">
-            <option name="version" value="1.9.22-release-704" />
-          </component>
-        </project>
-        ```
-  - [履歴](/history/IntelliJIDEA)
+- [履歴](./history/IntelliJIDEA)
 
 ###	Visual Studio Code
   - 環境は、Android Studioをインストールし、同時にインストールしたkotlinを利用する
@@ -310,9 +194,9 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 1 | 2026.1.1 Canary 1
+    - Android Studio Quail 1 | 2026.1.1 Canary 4
       ```
-      Build #AI-261.22158.277.2611.15218332, built on April 16, 2026
+      Build #AI-261.23567.138.2611.15364863, built on May 7, 2026
       Runtime version: 21.0.10+-14961533-b1163.108 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -320,10 +204,165 @@ nav: programming
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=489):
+        PropertyOverrides(cache.size=490):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
-        ServerFlagOverrides(No server flags are enabled.):
+        ServerFlagOverrides(Name: analytics/surveys/browser/STUDIO_PING
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: analytics/surveys/followup
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: analytics/surveys/sentiment/url
+              PercentEnabled: 100
+              Value: https://google.qualtrics.com/jfe/form/SV_4ZzP5RfbOtMwbxc
+              
+              Name: cxx/page_align_16kb
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: diagnostics/commit_timestamp
+              PercentEnabled: 50
+              Value: true
+              
+              Name: diagnostics/forced_gc
+              PercentEnabled: 50
+              Value: true
+              
+              Name: exceptions/ClassCastException
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/ClassNotFoundException
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-0073ff27
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-722647e2
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-8b332315
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_372743206
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_412486300
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_452882570
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_458923805
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: studio_flags/benchmark.survey.2026.enable
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/cloud.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/firebasetestlab.direct.access.monthly.quota
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/gradle.ide.enable.adv.in.signed.build.feature
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/playpolicyinsights.play.policy.insights.holdout.ratio
+              PercentEnabled: 100
+              Value: 1.0
+              
+              Name: studio_flags/rundebug.adblib.migration.ddmlib.ideviceusage.tracker
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/rundebug.install.use.pm.terminate
+              PercentEnabled: 100
+              Value: false
+              
+              Name: studio_flags/studiobot.askgemini.include.build.files.in.context
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.chat.use.compose.for.ui
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.compiler.error.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.completions.per.hour
+              PercentEnabled: 100
+              Value: 36000
+              
+              Name: studio_flags/studiobot.conversations.per.hour
+              PercentEnabled: 100
+              Value: 500
+              
+              Name: studio_flags/studiobot.current.file.context
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.dac.skills.limit
+              PercentEnabled: 100
+              Value: 0
+              
+              Name: studio_flags/studiobot.generations.per.hour
+              PercentEnabled: 100
+              Value: 3600
+              
+              Name: studio_flags/studiobot.inline.code.completion.file.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.npa.icon.image.generation.model.name
+              PercentEnabled: 100
+              Value: gemini-2.5-flash-image
+              
+              Name: studio_flags/studiobot.npa.mockup.image.generation.model.name
+              PercentEnabled: 100
+              Value: gemini-3-pro-image-preview
+              
+              Name: studio_flags/studiobot.project.facts.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot_gias_user_tier
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: studio_flags/studiobot_push_notifications/notification_flag_list
+              PercentEnabled: 100
+              Value: custom proto
+              
+              ):
+          gradle.ide.enable.adv.in.signed.build.feature=true
+          rundebug.adblib.migration.ddmlib.ideviceusage.tracker=true
+          rundebug.install.use.pm.terminate=false
+          studiobot.askgemini.include.build.files.in.context=true
+          studiobot.compiler.error.context.enabled=true
+          studiobot.completions.per.hour=36000
+          studiobot.conversations.per.hour=500
+          studiobot.current.file.context=true
+          studiobot.generations.per.hour=3600
+          studiobot.inline.code.completion.file.context.enabled=true
+          studiobot.project.facts.context.enabled=true
         AgpReleaseBranchProvider(releasedWithAgp=true):
           gradle.ide.use.alongside.agp=true
         AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
@@ -335,10 +374,11 @@ nav: programming
         ide.experimental.ui=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Subversion (261.22158.354)
-        Dart (504.0.0)
-        PerforceDirectPlugin (261.22158.185)
-        io.flutter (91.0.0)
+        Subversion (261.23567.176)
+        PerforceDirectPlugin (261.23567.28)
+        com.redhat.devtools.lsp4ij (0.19.3)
+        Dart (505.0.0)
+        io.flutter (92.0.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -424,6 +464,13 @@ nav: programming
   - 対応履歴
     - Quail
       - 2026.1.1
+        - Canary 4
+          - Android Gradle Plugin 9.3.0-alpha03 -> 9.3.0-alpha04
+        - Canary 3
+          - Kotlin 2.3.21
+          - Android Gradle Plugin 9.3.0-alpha01 -> 9.3.0-alpha03
+          - Android Emulator 36.6.6
+          - Gradle 9.5.0
         - Canary 1
           - Android Gradle Plugin 9.2.0-alpha08 -> 9.3.0-alpha01
           - Gradle 9.5.0-milestone-7

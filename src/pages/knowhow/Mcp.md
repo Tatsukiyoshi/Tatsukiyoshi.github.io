@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/KnowhowLayout.astro
-title: Model Context Protocol / Coding Agent
+title: AI (Coding Agent / Model Context Protocol)
 nav: programming
 ---
 ##  独学書
@@ -69,8 +69,8 @@ AIエージェントを活用した開発スタイルの修得
 
   |Machine         |Env / FW                   |Last Updated
   |----------------|---------------------------|----------
-  |Windows Insider |Claude Code 2.1.123        |[2026/04/29](https://github.com/anthropics/claude-code)
-  |macOS           |Claude Code 2.1.121        |2026/04/28
+  |Windows Insider |Claude Code 2.1.142        |[2026/05/15](https://github.com/anthropics/claude-code)
+  |macOS           |Claude Code 2.1.138        |2026/05/11
 
 ### MCP入門
 
@@ -144,7 +144,7 @@ AIエージェントを活用した開発スタイルの修得
     ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
 ### [Claude AI](https://claude.ai/)
-- [Claude Code 2.1.123](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/04/29 updated from 2.1.121>>*</span>
+- [Claude Code 2.1.142](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/05/15 updated from 2.1.141>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -177,6 +177,8 @@ AIエージェントを活用した開発スタイルの修得
     ```
   - 不具合報告
     [[BUG] Claude generates unnatural Japanese compound words by literal translation from English](https://github.com/anthropics/claude-code/issues/27347) <span style="color: red;">*<<2026/02/21 posted>>*</span>
+    - Windowsで起動できない不具合再発(2.1.129) <span style="color: red;">*<<2026/05/06 happened>>*</span>
+      -> 2.1.126にダウングレード
     - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
       - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
     - macOSで日時を取得する際、currentDateを参照し、時刻まで取得しない不具合あり(2.1.56)

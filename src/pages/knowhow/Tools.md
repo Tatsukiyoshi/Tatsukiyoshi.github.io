@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.118.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/04/30 updated from 1.118.0>>*</span>
+- [Visual Studio Code 1.120.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/05/13 updated from 1.119.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -23,7 +23,7 @@ OS/言語を問わず利用するツールの情報
       sudo sed -i 's|Exec=/usr/share/code/code|Exec=/usr/share/code/code --ozone-platform=x11|g' /usr/share/applications/code.desktop
       ```
       - こうすることでウィンドウが描画でき、日本語入力も問題なくできる
-  - [以前の新機能](/history/VSCode)
+  - [以前の新機能](./history/VSCode)
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
@@ -35,7 +35,7 @@ OS/言語を問わず利用するツールの情報
     ![Setup](/images/Antigravity/20251120_Antigravity.png)
     ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
   - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [AntiGravity 1.22.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/08 updated from 1.21.6 >>*</span>
+    - [AntiGravity 1.23.2](https://antigravity.google/) <span style="color: red;">*<<2026/05/01 updated from 1.22.2 >>*</span>
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -65,19 +65,25 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 0.233.10](https://zed.dev/windows) <span style="color: red;">*<<2026/04/28 updated from 0.232.2>>*</span>
+    - [Zed 1.2.5](https://zed.dev/windows) <span style="color: red;">*<<2026/05/15 updated from 1.2.4>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 0.233.10](https://zed.dev) <span style="color: red;">*<<2026/04/25 updated from 0.232.7>>*</span>
+    - [Zed 1.2.3](https://zed.dev) <span style="color: red;">*<<2026/05/14 updated from 1.1.8>>*</span>
+  - Claude Agent Integration
+    - Install
+      ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
+    - Select 
+      ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
-- [Cursor 3.2.11](https://www.cursor.com/) <span style="color: red;">*<<2026/04/28 updated from 3.1.15>>*</span>
+- [Cursor 3.2.21](https://www.cursor.com/) <span style="color: red;">*<<2026/05/04 updated from 3.2.11>>*</span>
   ```
   元祖AIエディタ（Visual Studio Codeクローン）
   ```
   ![Update](/images/Cursor/20260308_Update.png)
+
 - Codex
   - Windows
-    - [Codex 26.422.62136](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/28 auto updated from 26.409.61251>>*</span>
+    - [Codex 26.429.30905](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/02 auto updated from 26.422.62136>>*</span>
       - 新機能
         ![New Feature](/images/OpenAI/20260328_Codex_New_Feature.png)
       - ダウンローダをダウンロードして、ストアから本体をダウンロード
@@ -87,7 +93,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.422.71525](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/04/29 updated from 26.422.62136>>*</span>
+    - [Codex 26.506.31421](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/11 updated from 26.506.21252>>*</span>
       ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
@@ -110,7 +116,7 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  Windows <a id="Windows"></a>
-- [PowerShell 7.5.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2025/09/12 auto updated from 7.5.2>>*</span>
+- [PowerShell 7.6.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/05/14 auto updated from 7.5.5>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget

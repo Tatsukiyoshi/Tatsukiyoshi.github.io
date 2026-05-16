@@ -3,6 +3,8 @@ layout: ../../layouts/DigestLayout.astro
 title: ダイジェスト
 ---
 - 2026年
+  - 5月
+    - [上期（2026/4/30～2026/5/14）](/digest/2026/May/1stH)
   - 4月
     - [下期（2026/4/13～2026/4/30）](/digest/2026/April/2ndH)
     - [上期（2026/4/1～2026/4/12）](/digest/2026/April/1stH)

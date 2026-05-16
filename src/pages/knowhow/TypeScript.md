@@ -26,7 +26,7 @@ nav: programming
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.10](#bun)                 |[2026/03/05](https://bun.sh/)
+      |                |        |[Bun 1.3.13](#bun)                 |[2026/04/26](https://bun.sh/)
       |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -99,12 +99,28 @@ nav: programming
   |Machine         |Env / FW            |Last Updated
   |----------------|--------------------|----------
   |Windows Insider |Next.js 16.2.1      |2026/04/13
-  |                |- Bun 1.3.11        |2026/03/28
+  |                |- Bun 1.3.13        |2026/04/26
+  |                |- Prisma 7.8.0      |[2026/05/11](https://www.prisma.io/)
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
-  |                |- Electrobun 1.16.0 |[2026/04/20](https://github.com/blackboardsh/electrobun)
+  |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
-  ![Now](/images/JavaScript/20260429_MorningStatusApp.png)
+  - 履歴
+    - v4.2.0
+      ![TikTok](/images/JavaScript/20260515_MorningStatusApp_TikTok.png)
+      ![OnAirList](/images/JavaScript/20260515_MorningStatusApp_RadioList.png)
+      ![OnAirDetail](/images/JavaScript/20260515_MorningStatusApp_RadioDetail.png)
+    - v3.9.1
+      ![Top](/images/JavaScript/20260508_MorningStatusApp_Festival.png)
+    - v3.8.4
+      ![Top](/images/JavaScript/20260508_MorningStatusApp.png)
+    - v3.8.1
+      ![Top](/images/JavaScript/20260506_MorningStatusApp.png)
+      ![Shorts](/images/JavaScript/20260506_MorningStatusApp_YouTubeShorts.png)
+    - v3.7.10
+      ![Now](/images/JavaScript/20260505_MorningStatusApp.png)
+    - v3.5.2
+      ![Now](/images/JavaScript/20260429_MorningStatusApp.png)
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
@@ -366,7 +382,7 @@ nav: programming
       - Bunでのデスクトップアプリ化
         - Inno Setupでインストーラまで実現
         - デスクトップアプリはBunのランチャなので、アイコン設定は不可
-    - [Lynx](https://lynxjs.org)/([履歴](/history/javascript/Lynx)) <a id="lynx"></a>
+    - [Lynx](https://lynxjs.org)/([履歴](./history/javascript/Lynx)) <a id="lynx"></a>
       - Lynx 3.4.0
         ![LynxApp](/images/macOS/20250830_ReactLynxApp3.4.0.png)
         - Lynxのバージョンを動的表示するように改修
@@ -410,7 +426,7 @@ nav: programming
               bunx expo install --fix
               bunx expo-doctor
               ```
-      - React Nativeで開発したアプリの実行/([履歴](/history/javascript/ReactNative))
+      - React Nativeで開発したアプリの実行/([履歴](./history/javascript/ReactNative))
         - React Native 0.83.2 / Expo SDK 55.0.5 / Pixel 9 Pro
           - React 19.2.0
             ![React Native 0.83.2 Android](/images/JavaScript/20260305_ReactNative_0.83.2_Pixel_9_Pro.png)
@@ -432,7 +448,7 @@ nav: programming
             ```sh
             react-native run-android
             ```
-      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows) / [履歴](/history/javascript/ReactNativeWindows) <a id="rnw"></a>
+      - [React Native for Windows](https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/react-native-for-windows) / [履歴](./history/javascript/ReactNativeWindows) <a id="rnw"></a>
         - 前提条件
           - Node.js development
           - .NET Desktop development
@@ -453,11 +469,10 @@ nav: programming
           ```sh
           bun windows
           ```
-        - VS2026 / Windows 11 SDK 10.0.26100
-          ![React Native Windows 0.82.3](/images/JavaScript/20260421_ReactNativeWindows0.82.3.png)
         - React Native Windows 0.82.3
-          - React Native 0.82.1
-          - React 19.2.4
+          - React Native 0.82.1 / React 19.2.4 / VS2026 / Windows 11 SDK 10.0.26100
+            ![React Native Windows 0.82.3](/images/JavaScript/20260421_ReactNativeWindows0.82.3.png)
+          - React Native 0.82.1 / React 19.2.4
             ![React Native Windows 0.82.3](/images/JavaScript/20260404_ReactNativeWindows0.82.3.png)
       - モノレポ構成でのWebとモバイル共有化
         ![Next.js](/images/JavaScript/20251030_Sharing_Next.js.png)
