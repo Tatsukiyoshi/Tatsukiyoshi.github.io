@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/KnowhowLayout.astro
+layout: ../../../layouts/KnowhowLayout.astro
 title: Update History of SQL Server and SQL Server Management Studio
 nav: programming
 ---
