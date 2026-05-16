@@ -106,6 +106,10 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v4.2.0
+      ![TikTok](/images/JavaScript/20260515_MorningStatusApp_TikTok.png)
+      ![OnAirList](/images/JavaScript/20260515_MorningStatusApp_RadioList.png)
+      ![OnAirDetail](/images/JavaScript/20260515_MorningStatusApp_RadioDetail.png)
     - v3.9.1
       ![Top](/images/JavaScript/20260508_MorningStatusApp_Festival.png)
     - v3.8.4
