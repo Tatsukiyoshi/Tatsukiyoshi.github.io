@@ -40,10 +40,12 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental Preview Build (Build 26300)
-    - [Build 26300.8376 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/08/announcing-new-builds-for-8-may-2026/) <span style="color: red;">*<<2026/05/09 updated from Build 26300.8346 >>*</span>
-      ![Quality Update](/images/Windows/20260509_WindowsUpdate_DevChannel.png)
+    - [Build 26300.8493 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/15/announcing-new-builds-for-15-may-2026/) <span style="color: red;">*<<2026/05/16 updated from Build 26300.8376 >>*</span>
+      - 更新一覧でインストールしましたとなっていたのに、またダウンロードが始まった！？->ダウンロード／インストールで再起動！
+        ![Finshed](/images/Windows/20260516_WindowsUpdate_DevChannel_fin.png)
+        ![Quality Update](/images/Windows/20260516_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260509_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260516_Windows11_Build26300.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
