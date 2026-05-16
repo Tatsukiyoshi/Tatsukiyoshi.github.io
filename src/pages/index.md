@@ -29,7 +29,7 @@ Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/downloa
 Visual Studio Code  | * | * | * |2026/05/13|[1.120.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/05/15|[1.2.5](https://zed.dev)
-Claude Code         | * | * | - |2026/05/15|[2.1.142](https://github.com/anthropics/claude-code)
+Claude Code         | * | * | - |2026/05/16|[2.1.143](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
 Codex               | * | * |   |2026/05/11|[26.506.31421](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2026/05/14|[7.6.1](https://github.com/PowerShell/PowerShell)
