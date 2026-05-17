@@ -124,7 +124,15 @@ nav: programming
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
-  - [Genius API](https://genius.com/developers)
+
+  - コンテンツ取得
+
+    Contents    | API / URL
+    ------------|------------------
+    Discography | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API)
+    Lyrics      | [Genius API](https://genius.com/developers)
+    YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
+    TikTok      | [RapidAPI](https://rapidapi.com/)
 
 ##  ノウハウ
 ### TypeScript

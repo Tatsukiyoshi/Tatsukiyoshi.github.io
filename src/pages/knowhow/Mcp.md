@@ -130,20 +130,32 @@ AIエージェントを活用した開発スタイルの修得
 
 ##  ノウハウ
 
-### 基本構成
-![技術要素構成](/images/mcp/architecture.png)
+### 共通
 
-### Gemini
-- [依頼用プロンプト例](/sub/Gemini/Prompt1)
+- 基本構成
+  ![技術要素構成](/images/mcp/architecture.png)
 
-### [Open AI](https://platform.openai.com/)
-- Open AI API利用
-  - APIキーの作成
-    ![CreateAPIKey1](/images/OpenAI/20251020_CreateAPIKey.png)
-    ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
-    ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
+- [Open AI](https://platform.openai.com/)
+  - Open AI API利用
+    - APIキーの作成
+      ![CreateAPIKey1](/images/OpenAI/20251020_CreateAPIKey.png)
+      ![CreateAPIKey2](/images/OpenAI/20251020_CreateAPIKey2.png)
+      ![CreateAPIKey3](/images/OpenAI/20251020_CreateAPIKey3.png)
 
-### [Claude AI](https://claude.ai/)
+- [Claude AI](https://claude.ai/)
+  - Claude Desktopの設定
+    - 「ファイル」ー「設定」メニューから設定画面を開く
+    - 設定画面の「設定」ー「開発者」タブの「設定を編集」から行う
+      ![ローカルMCPサーバの設定](/images/python/20251212_claude_setting.png)
+    - 設定を反映するために、システムトレイに常駐するClaude Desktopを終了し、再起動する
+    - Web検索の無効化
+      ![Web Off](/images/python/20260117_claude_web_off.png)
+
+- Gemini
+  - [依頼用プロンプト例](/sub/Gemini/Prompt1)
+
+### Coding Agent
+
 - [Claude Code 2.1.143](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/05/16 updated from 2.1.142>>*</span>
   - インストール
     ```
@@ -157,19 +169,6 @@ AIエージェントを活用した開発スタイルの修得
     ```
     claude update
     ```
-  - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
-  - スキル実践例
-    - 次に取り組むべき作業
-      ![Next-Issue](/images/ClaudeCode/20260314_NextIssue_Example.png)
-    - 実装作業
-      - 開発ノート確認
-        ![Implement-Issue1](/images/ClaudeCode/20260314_ImplementIssue_Example.png)
-      - 実装内容把握
-        ![Implement-Issue2](/images/ClaudeCode/20260314_ImplementIssue_Example2.png)
-      - 完了後の振り返り
-        ![Implement-Issue3](/images/ClaudeCode/20260314_ImplementIssue_Example3.png)
-    - レビュー作業 / 結果報告
-      ![Review-PR](/images/ClaudeCode/20260314_ReviewPr_Example.png)
   - VSCode拡張機能を強制的に更新する方法
     ```sh
     $env:NODE_OPTIONS=""
@@ -182,14 +181,31 @@ AIエージェントを活用した開発スタイルの修得
     - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
       - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
     - macOSで日時を取得する際、currentDateを参照し、時刻まで取得しない不具合あり(2.1.56)
+  - Claude Codeスキル
+    - スキルとは、Claude Codeで繰り返し使用するワークフローをカスタムコマンドとして定義する機能
+    - 作成手順
+      1. プロジェクトルートに `.claude/skills` ディレクトリを作成
+      2. スキルファイル（Markdown形式）を作成
+        - ファイル名がスキル名になる（例: `update-digest.md` → `/update-digest`）
+      3. Claude Codeで `/スキル名` と入力して実行
+    - 指示ファイル
+      - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
+      - [instructions.md](/knowhow/sub/Generative/instructions)
+    - [共通スキル管理手順](/knowhow/sub/Claude/SkillManagement)
+    - スキル実践例
+      - 次に取り組むべき作業
+        ![Next-Issue](/images/ClaudeCode/20260314_NextIssue_Example.png)
+      - 実装作業
+        - 開発ノート確認
+          ![Implement-Issue1](/images/ClaudeCode/20260314_ImplementIssue_Example.png)
+        - 実装内容把握
+          ![Implement-Issue2](/images/ClaudeCode/20260314_ImplementIssue_Example2.png)
+        - 完了後の振り返り
+          ![Implement-Issue3](/images/ClaudeCode/20260314_ImplementIssue_Example3.png)
+      - レビュー作業 / 結果報告
+        ![Review-PR](/images/ClaudeCode/20260314_ReviewPr_Example.png)
 
-- Claude Desktopの設定
-  - 「ファイル」ー「設定」メニューから設定画面を開く
-  - 設定画面の「設定」ー「開発者」タブの「設定を編集」から行う
-    ![ローカルMCPサーバの設定](/images/python/20251212_claude_setting.png)
-  - 設定を反映するために、システムトレイに常駐するClaude Desktopを終了し、再起動する
-  - Web検索の無効化
-    ![Web Off](/images/python/20260117_claude_web_off.png)
+### MCP
 
 - MCPサーバの作成(fastmcp)
   ```
@@ -339,15 +355,3 @@ AIエージェントを活用した開発スタイルの修得
   - [Tavily](https://tavily.com)
     - API Keyは下記画面に表示のキーを使用する
       ![API Key](/images/python/20260117_mcp_tavily_api_key.png)
-
-- 指示ファイル
-  - [CLAUDE.md](/knowhow/sub/Generative/CLAUDE)
-  - [instructions.md](/knowhow/sub/Generative/instructions)
-
-- Claude Codeスキル
-  - スキルとは、Claude Codeで繰り返し使用するワークフローをカスタムコマンドとして定義する機能
-  - 作成手順
-    1. プロジェクトルートに `.claude/skills` ディレクトリを作成
-    2. スキルファイル（Markdown形式）を作成
-       - ファイル名がスキル名になる（例: `update-digest.md` → `/update-digest`）
-    3. Claude Codeで `/スキル名` と入力して実行
