@@ -26,10 +26,10 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/05/13|[1.120.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/05/20|[1.121.0](https://code.visualstudio.com/)
 AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/)
 Zed                 | * | * | - |2026/05/20|[1.2.7](https://zed.dev)
-Claude Code         | * | * | - |2026/05/16|[2.1.143](https://github.com/anthropics/claude-code)
+Claude Code         | * | * | - |2026/05/20|[2.1.145](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
 Codex               | * | * |   |2026/05/11|[26.506.31421](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2026/05/14|[7.6.1](https://github.com/PowerShell/PowerShell)
@@ -62,7 +62,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[AI](/knowhow/Mcp)                     |2026/05/15|Update: Claude Code 2.1.142
+[AI](/knowhow/Mcp)                     |2026/05/20|Update: Claude Code 2.1.145
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/05/16|Update: Rancher Desktop 1.22.3
 [Documentation](/knowhow/Documentation)|-
