@@ -68,7 +68,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 1.3.5](https://zed.dev/windows) <span style="color: red;">*<<2026/05/21 updated from 1.2.7>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.2.7](https://zed.dev) <span style="color: red;">*<<2026/05/20 updated from 1.2.6>>*</span>
+    - [Zed 1.3.5](https://zed.dev) <span style="color: red;">*<<2026/05/21 updated from 1.2.7>>*</span>
   - Claude Agent Integration
     - Install
       ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
