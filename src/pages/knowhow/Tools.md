@@ -93,7 +93,7 @@ OS/言語を問わず利用するツールの情報
         - 3/5に3/2までご利用いただけますって！？
 
   - macOS
-    - [Codex 26.506.31421](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/11 updated from 26.506.21252>>*</span>
+    - [Codex 26.519.22136](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/22 updated from 26.506.31421>>*</span>
       ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
       ![Codex](/images/macOS/20260203_macOS_Codex.png)
 
