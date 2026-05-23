@@ -34,6 +34,17 @@ nav: environment
         ![SubIssue Not Manually Sort](/images/GitHub/20250301_GitHub_SubIssue_NotManuallySort.png)
   - GitHub ProjectsでBoard作成してみた
     ![GitHub Projects Board](/images/GitHub/20250301_GitHub_Projects_Board.png)
+  - GitHub Actions
+    - 修正マージ前のワークフローの動作確認について
+
+      **手順**（`workflow_dispatch` が設定されているため、マージ前でも PR ブランチで実行可能）:
+
+      ```bash
+      gh workflow run <対象ワークフロー名> --ref <対象ブランチ名>
+      gh workflow run <対象ワークフロー名> --ref <対象ブランチ名>
+      ```
+
+      または GitHub Web UI: Actions タブ → 対象ワークフロー → **Run workflow** → ブランチを「対象ブランチ」に変更して実行。
 - [Git](https://git-scm.com/download)
   - Windows
     - Git 2.53.0 <span style="color: red;">*<<2026/02/26 updated from 2.51.1>>*</span>
