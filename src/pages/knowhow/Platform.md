@@ -43,7 +43,7 @@ OS                                 |Hardware            |Language
     - [Build 26300.8497 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/22/announcing-new-builds-for-22-may-2026/) <span style="color: red;">*<<2026/05/23 updated from Build 26300.8493 >>*</span>
       ![Quality Update](/images/Windows/20260523_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260516_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260523_Windows11_Build26300.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
