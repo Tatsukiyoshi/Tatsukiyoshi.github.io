@@ -65,7 +65,7 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.3.6](https://zed.dev/windows) <span style="color: red;">*<<2026/05/22 updated from 1.3.5>>*</span>
+    - [Zed 1.3.7](https://zed.dev/windows) <span style="color: red;">*<<2026/05/26 updated from 1.3.6>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 1.3.6](https://zed.dev) <span style="color: red;">*<<2026/05/22 updated from 1.3.5>>*</span>
