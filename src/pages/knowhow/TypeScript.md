@@ -106,6 +106,9 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v4.6.0
+      ![OnAirPast](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir1.png)
+      ![TikTok](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir2.png)
     - v4.2.0
       ![TikTok](/images/JavaScript/20260515_MorningStatusApp_TikTok.png)
       ![OnAirList](/images/JavaScript/20260515_MorningStatusApp_RadioList.png)
@@ -133,6 +136,7 @@ nav: programming
     Lyrics      | [Genius API](https://genius.com/developers)
     YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
     TikTok      | [RapidAPI](https://rapidapi.com/)
+    X(Twitter)  | [TwitterAPI](https://api.twitterapi.io)
 
 ##  ノウハウ
 ### TypeScript
