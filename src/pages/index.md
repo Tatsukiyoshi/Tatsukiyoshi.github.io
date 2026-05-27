@@ -31,7 +31,7 @@ AntiGravity         | * | - | * |2026/04/28|[1.23.2](https://antigravity.google/
 Zed                 | * | * | - |2026/05/26|[1.3.7](https://zed.dev)
 Claude Code         | * | * | - |2026/05/24|[2.1.150](https://github.com/anthropics/claude-code)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
-Codex               | * | * |   |2026/05/22|[26.519.22136](https://openai.com/ja-JP/codex/)
+Codex               | * | * |   |2026/05/27|[26.519.81530](https://openai.com/ja-JP/codex/)
 PowerShell          | * |   |   |2026/05/14|[7.6.1](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
