@@ -106,6 +106,9 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v5.2.0
+      ![New Member](/images/JavaScript/20260528_MorningStatusApp_NewMember1.png)
+      ![Hiroshima](/images/JavaScript/20260528_MorningStatusApp_NewMember2.png)
     - v5.1.3
       - PostgreSQL 18@Neon <span style="color: red;">**Updated from PostgreSQL 17 2026/05/28**</span>
     - v4.6.0
