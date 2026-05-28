@@ -106,6 +106,8 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v5.1.3
+      - PostgreSQL 18@Neon <span style="color: red;">**Updated from PostgreSQL 17 2026/05/28**</span>
     - v4.6.0
       ![OnAirPast](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir1.png)
       ![TikTok](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir2.png)
@@ -136,7 +138,7 @@ nav: programming
     Lyrics      | [Genius API](https://genius.com/developers)
     YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
     TikTok      | [RapidAPI](https://rapidapi.com/)
-    X(Twitter)  | [TwitterAPI](https://api.twitterapi.io)
+    X(Twitter)  | [TwitterAPI](https://www.twitterapi.io)
 
 ##  ノウハウ
 ### TypeScript
