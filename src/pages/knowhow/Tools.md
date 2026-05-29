@@ -27,15 +27,11 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 1.23.2](https://antigravity.google/) <span style="color: red;">*<<2026/04/28 updated from 1.22.2>>*</span>
+- [AntiGravity 2.0.3](https://antigravity.google/)  for ChromeOS Flex / Linux(Debian/Ubuntu) <span style="color: red;">*<<2026/05/29 updated from 2.0.38>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
-  - セットアップ
-    ![Setup](/images/Antigravity/20251120_Antigravity.png)
-    ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
-  - for ChromeOS Flex / Linux(Debian/Ubuntu) 
-    - [AntiGravity 1.23.2](https://antigravity.google/) <span style="color: red;">*<<2026/05/01 updated from 1.22.2 >>*</span>
+  - インストール@ChromeOS Flex / Linux(Debian/Ubuntu)
     1.  Add the repository to sources.list.d
         ```
         sudo mkdir -p /etc/apt/keyrings
@@ -59,6 +55,9 @@ OS/言語を問わず利用するツールの情報
       ![Updating](/images/Antigravity/20260205_Antigravity_Updating.png)
   - 不具合報告
     - [[Critical Bug] Windows Issues: UI Clipping (Hidden Buttons) and Text Encoding Corruption](https://discuss.ai.google.dev/t/critical-bug-windows-issues-ui-clipping-hidden-buttons-and-text-encoding-corruption/125030) <span style="color: red;">*<<2026/02/21 posted>>*</span>
+  - セットアップ@Windows
+    ![Setup](/images/Antigravity/20251120_Antigravity.png)
+    ![Google Authenticated](/images/Antigravity/20251120_Antigravity2.png)
 
 - [Zed](https://zed.dev)
   ```
