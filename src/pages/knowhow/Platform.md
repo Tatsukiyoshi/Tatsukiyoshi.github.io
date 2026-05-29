@@ -166,11 +166,11 @@ OS                                 |Hardware            |Language
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](./history/Chrome))
-  - バージョン 147.0.7727.142 <span style="color: red;">*<<2026/05/01 updated from 146.0.7680.184>>*</span>
-    - 147系にアップデート
-      ![ChromeOS Flexバージョン情報](/images/Chrome/20260501_ChromeOS_Flex_147.0.7727.142.png)
+  - バージョン 148.0.7778.214 <span style="color: red;">*<<2026/05/29 updated from 147.0.7727.142>>*</span>
+    - 148系にアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260529_ChromeOS_Flex_148.0.7778.214.png)
         - 更新中
-          ![Updating](/images/Chrome/20260501_ChromeOS_Flex_Updating147.0.7727.142.png)
+          ![Updating](/images/Chrome/20260529_ChromeOS_Flex_Updating148.0.7778.214.png)
 
         <details>
         <summary>
@@ -193,7 +193,7 @@ OS                                 |Hardware            |Language
 
       - ロック画面の温度表示
         ![Weather](/images/Chrome/20260112_ChromeOS_Flex_Weather.png)
-      - Debian 12.13 <span style="color: red;">*<<2026/01/12 updated from 12.12>>*</span>
+      - Debian 12.14 <span style="color: red;">*<<2026/05/29 updated from 12.13>>*</span>
         ```
         cat /etc/debian_version
         ```

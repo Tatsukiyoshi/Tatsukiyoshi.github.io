@@ -20,7 +20,7 @@ Platform                    |Updated   |Detail
 Windows Insider             |2026/05/23|[Build 26300.8497](https://blogs.windows.com/windows-insider/2026/05/15/announcing-new-builds-for-15-may-2026/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/05/14|[Tahoe 26.5](https://www.apple.com/jp/os/macos/)
-ChromeOS Flex               |2026/05/01|[147.0.7727.142](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
