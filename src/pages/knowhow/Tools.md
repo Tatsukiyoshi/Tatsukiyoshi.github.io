@@ -27,7 +27,7 @@ OS/言語を問わず利用するツールの情報
   - 開発環境は、Visual Studio Codeを中心に使っている。
   - インストールしている拡張機能の一覧は、[VSCode拡張機能](/knowhow/sub/vscodeExtensions)にまとめている。<BR />
 
-- [AntiGravity 2.0.3](https://antigravity.google/)  for ChromeOS Flex / Linux(Debian/Ubuntu) <span style="color: red;">*<<2026/05/29 updated from 2.0.38>>*</span>
+- [AntiGravity 2.0.3](https://antigravity.google/)  for ChromeOS Flex / Linux(Debian/Ubuntu) <span style="color: red;">*<<2026/05/29 updated from 1.23.2>>*</span>
   ```
   GoogleによるAIエディタ（Visual Studio Codeクローン）
   ```
