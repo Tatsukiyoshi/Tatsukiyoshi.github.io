@@ -8,7 +8,7 @@ title: 2026年5月下期
 
 ## リスキリング
 - OS: Windows InsiderでBuild 26300にQuality Updateを3回適用、ChromeOS Flexを148系にアップデート
-- 開発ツール: VS Code 1.122.0・Zed 1.4.2 (Windows)・Zed 1.4.4 (macOS)・AntiGravity 2.0.3 (ChromeOS Flex)に更新
+- 開発ツール: VS Code 1.122.1・Zed 1.4.2 (Windows)・Zed 1.4.4 (macOS)・Codex 26.527.31326 (macOS)・AntiGravity 2.0.3 (ChromeOS Flex)に更新
 - MCP: Windows InsiderでClaude Code 2.1.158に更新
 - Container: Windows InsiderでRancher Desktop 1.22.3に更新
 
@@ -73,6 +73,8 @@ title: 2026年5月下期
 - **＜OS＞** [Windows 11 Insider Preview (Dev Channel) Build 26300.8553 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/29/announcing-new-builds-for-29-may-2026/) にアップデート
 
 ##  【5/31】
+- **＜開発ツール＞** [Visual Studio Code 1.122.1](https://code.visualstudio.com/) に更新
+- **＜開発ツール＞** macOSで、[Codex 26.527.31326](https://openai.com/ja-JP/codex/) に更新
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.158](https://github.com/anthropics/claude-code) に更新
 
 ## 営業日報システム
