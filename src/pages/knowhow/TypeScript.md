@@ -106,6 +106,16 @@ nav: programming
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - 履歴
+    - v5.3.0
+      ![TimeLine](/images/JavaScript/20260530_MorningStatusApp_TimeLine.png)
+    - v5.2.0
+      ![New Member](/images/JavaScript/20260528_MorningStatusApp_NewMember1.png)
+      ![Hiroshima](/images/JavaScript/20260528_MorningStatusApp_NewMember2.png)
+    - v5.1.3
+      - PostgreSQL 18@Neon <span style="color: red;">**Updated from PostgreSQL 17 2026/05/28**</span>
+    - v4.6.0
+      ![OnAirPast](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir1.png)
+      ![TikTok](/images/JavaScript/20260525_MorningStatusApp_RadioOnAir2.png)
     - v4.2.0
       ![TikTok](/images/JavaScript/20260515_MorningStatusApp_TikTok.png)
       ![OnAirList](/images/JavaScript/20260515_MorningStatusApp_RadioList.png)
@@ -124,7 +134,16 @@ nav: programming
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
-  - [Genius API](https://genius.com/developers)
+
+  - コンテンツ取得
+
+    Contents    | API / URL
+    ------------|------------------
+    Discography | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API)
+    Lyrics      | [Genius API](https://genius.com/developers)
+    YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
+    TikTok      | [RapidAPI](https://rapidapi.com/)
+    X(Twitter)  | [TwitterAPI](https://www.twitterapi.io)
 
 ##  ノウハウ
 ### TypeScript

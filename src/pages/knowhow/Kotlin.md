@@ -15,22 +15,22 @@ nav: programming
 
   1. Windows 11
 
-      |Machine         |Env / FW                                                    |Last Updated
-      |----------------|------------------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2026.1](#intellij-idea)                      |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.3.0                                              |[2025/12/25](https://kotlinlang.org/docs/home.html)
-      |                |- Oracle JDK 25                                             |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
-      |                |- PostgreSQL JDBC Driver 42.7.7                             |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2026.1.1 Canary 4](#AndroidStudio)    |[2026/05/10](https://developer.android.com/studio)
-      |                |- Kotlin 2.3.21                                             |[2026/05/02](https://kotlinlang.org/docs/home.html)
-      |                |- Android SDK Command-line Tools v.20                       |2026/01/30
-      |                |- Android Emulator v.36.6.6                                 |2026/05/02
+      |Machine         |Env / FW                                           |Last Updated
+      |----------------|---------------------------------------------------|----------
+      |Windows Insider |[IntelliJ IDEA 2026.1](#intellij-idea)             |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.3.0                                     |[2025/12/25](https://kotlinlang.org/docs/home.html)
+      |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
+      |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+      |                |[Android Studio Quail 2 Canary 2](#AndroidStudio)  |[2026/05/23](https://developer.android.com/studio)
+      |                |- Kotlin 2.3.21                                    |[2026/05/02](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Command-line Tools v.20              |2026/01/30
+      |                |- Android Emulator v.36.6.9                        |2026/05/23
 
   1. macOS Sequoia 15.6.1
 
-      |Machine         |Env / FW                                                    |Last Updated
-      |----------------|------------------------------------------------------------|----------
-      |macOS           |Android Studio Narwhal 4 2025.1.4                           |[2025/10/18](https://developer.android.com/studio)
+      |Machine         |Env / FW                                           |Last Updated
+      |----------------|---------------------------------------------------|----------
+      |macOS           |Android Studio Narwhal 4 2025.1.4                  |[2025/10/18](https://developer.android.com/studio)
 
 ##  ノウハウ
 ### IntelliJ IDEA
@@ -194,9 +194,9 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 1 | 2026.1.1 Canary 4
+    - Android Studio Quail 2 | 2026.1.2 Canary 2
       ```
-      Build #AI-261.23567.138.2611.15364863, built on May 7, 2026
+      Build #AI-261.23567.138.2612.15467455, built on May 21, 2026
       Runtime version: 21.0.10+-14961533-b1163.108 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -204,7 +204,7 @@ nav: programming
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=490):
+        PropertyOverrides(cache.size=493):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(Name: analytics/surveys/browser/STUDIO_PING
@@ -264,6 +264,10 @@ nav: programming
               Value: custom proto
               
               Name: exceptions/b_458923805
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_500401440
               PercentEnabled: 100
               Value: custom proto
               
@@ -343,6 +347,10 @@ nav: programming
               PercentEnabled: 100
               Value: true
               
+              Name: studio_flags/studiobot.show.on.first.open
+              PercentEnabled: 50
+              Value: true
+              
               Name: studio_flags/studiobot_gias_user_tier
               PercentEnabled: 100
               Value: custom proto
@@ -363,6 +371,7 @@ nav: programming
           studiobot.generations.per.hour=3600
           studiobot.inline.code.completion.file.context.enabled=true
           studiobot.project.facts.context.enabled=true
+          studiobot.show.on.first.open=true
         AgpReleaseBranchProvider(releasedWithAgp=true):
           gradle.ide.use.alongside.agp=true
         AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
@@ -376,7 +385,7 @@ nav: programming
       Non-Bundled Plugins:
         Subversion (261.23567.176)
         PerforceDirectPlugin (261.23567.28)
-        com.redhat.devtools.lsp4ij (0.19.3)
+        com.redhat.devtools.lsp4ij (0.19.4)
         Dart (505.0.0)
         io.flutter (92.0.0)
       ```
@@ -463,7 +472,13 @@ nav: programming
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Quail
+      - 2026.1.2
+        - Canary 2
+          - Android Gradle Plugin 9.3.0-alpha05 -> 9.3.0-alpha07
+          - Android Emulator v.36.6.9
       - 2026.1.1
+        - Canary 5
+          - Android Gradle Plugin 9.3.0-alpha04 -> 9.3.0-alpha05
         - Canary 4
           - Android Gradle Plugin 9.3.0-alpha03 -> 9.3.0-alpha04
         - Canary 3

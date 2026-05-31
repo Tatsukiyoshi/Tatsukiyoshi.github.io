@@ -15,7 +15,7 @@ nav: programming
   |Windows Insider|[PostgreSQL 17.6](#postgresql)                       |[2025/09/24](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
   |               |MySQL Community Server 9.4.0                         |[2025/08/24](https://dev.mysql.com/downloads/mysql/)
   |               |SQLite 3.50.4                                        |[2025/10/07](https://www.sqlite.org/download.html)
-  |ChromeOS Flex |PostgreSQL 18.2                                      |2026/02/22
+  |ChromeOS Flex  |PostgreSQL 18.2                                      |2026/02/22
 
 ### Cloud
 
@@ -23,7 +23,7 @@ nav: programming
   |-----------------|--------------------|----------
   |AIChat           |MongoDB Atlas       |[2026/01/28](https://cloud.mongodb.com/)
   |SelesReport      |Neon(PostgreSQL 17) |[2026/03/13](https://neon.com/)
-  |MorningStatusApp |Neon(PostgreSQL 17) |2026/04/13
+  |MorningStatusApp |Neon(PostgreSQL 18) |2026/05/28
 
 ##  ノウハウ
 ### データベース全般
@@ -42,6 +42,18 @@ nav: programming
 
   - Neonへのデータ投入は、Webで実施する
     （VSCodeの拡張機能でも可能ではあるが、Date/TimeがUTCで登録されてしまう）
+  - バージョン移行
+    ```
+    pg_dump "$env:OLD_DIRECT_URL" `
+      --data-only `
+      --no-acl `
+      --no-owner `
+      --no-privileges `
+      --file backup.sql
+    ```
+    ```
+    psql "$env:NEW_DIRECT_URL" --file backup.sql
+    ```
 
 ### SQLite
   - [インストール](https://www.sqlite.org/download.html)
