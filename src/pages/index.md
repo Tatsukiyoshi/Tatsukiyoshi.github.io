@@ -26,10 +26,10 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/05/28|[1.122.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/05/31|[1.122.1](https://code.visualstudio.com/)
 Zed                 | * | * | - |2026/05/29|[1.4.4](https://zed.dev)
 Claude Code         | * | * | - |2026/05/31|[2.1.158](https://github.com/anthropics/claude-code)
-Codex               | - | * |   |2026/05/27|[26.519.81530](https://openai.com/ja-JP/codex/)
+Codex               | - | * |   |2026/05/31|[26.527.31326](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
 PowerShell          | * |   |   |2026/05/14|[7.6.1](https://github.com/PowerShell/PowerShell)
