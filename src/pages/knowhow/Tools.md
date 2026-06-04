@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.122.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/05/31 updated from 1.122.0>>*</span>
+- [Visual Studio Code 1.123.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/06/04 updated from 1.122.1>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
