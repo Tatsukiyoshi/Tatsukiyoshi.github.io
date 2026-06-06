@@ -42,8 +42,9 @@ OS/言語を問わず利用するツールの情報
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
-- [Codex 26.527.31326](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/05/31 updated from 26.519.81530>>*</span>
-  ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
+- [Codex 26.602.40724](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/06 updated from 26.527.31326>>*</span>
+  - バージョン情報のダイアログが大きくなった？
+    ![Update](/images/OpenAI/20260606_Codex_macOS26.602.40724.png)
   ![Codex](/images/macOS/20260203_macOS_Codex.png)
   - on Windows
     - [Codex 26.429.30905](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/02 auto updated from 26.422.62136>>*</span>
