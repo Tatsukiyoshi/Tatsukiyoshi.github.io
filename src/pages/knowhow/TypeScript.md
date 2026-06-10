@@ -118,13 +118,13 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
-    - v5.8.0
-      - ツアー中の加入・卒業はツアーブロックに／ツアーもテキストアートで
-        ![New Member](/images/JavaScript/20260607_MorningStatusApp_NewMember.png)
-      - ライブツアーも最終段階／最終公演でブロックを締める
-        ![Live](/images/JavaScript/20260607_MorningStatusApp_Tour2026.png)
-      - 今後の予定（メンバー追加および卒業公演）／テキストアートで分かりやすく
-        ![Future](/images/JavaScript/20260607_MorningStatusApp_Future.png)
+    - v6.0.0
+      - TikTok投稿
+        ![TikTok](/images/MorningStatusApp/20260608_MorningStatusApp_TikTok.png)
+      - 楽曲のTikTok
+        ![TikTok](/images/MorningStatusApp/20260609_MorningStatusApp_TikTok.png)
+      - 過去のこの日
+        ![Today](/images/MorningStatusApp/20260609_MorningStatusApp_Today.png)
 
 ##  ノウハウ
 ### TypeScript
