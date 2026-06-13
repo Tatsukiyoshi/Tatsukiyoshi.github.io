@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.122.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/05/31 updated from 1.122.0>>*</span>
+- [Visual Studio Code 1.124.2](https://code.visualstudio.com/) <span style="color: red;">*<<2026/06/12 updated from 1.123.2>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,18 +32,21 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.4.2](https://zed.dev/windows) <span style="color: red;">*<<2026/05/28 updated from 1.3.7>>*</span>
+    - [Zed 1.5.5](https://zed.dev/windows) <span style="color: red;">*<<2026/06/04 updated from 1.5.3>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.4.4](https://zed.dev) <span style="color: red;">*<<2026/05/29 updated from 1.4.2>>*</span>
+    - [Zed 1.5.4](https://zed.dev) <span style="color: red;">*<<2026/06/06 updated from 1.5.3>>*</span>
+  - New Claude LLM "Fable 5"
+    ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
     - Install
       ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
-- [Codex 26.527.31326](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/05/31 updated from 26.519.81530>>*</span>
-  ![Update](/images/OpenAI/20260418_Codex_macOS26.416.32059.png)
+- [Codex 26.602.40724](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/06 updated from 26.527.31326>>*</span>
+  - バージョン情報のダイアログが大きくなった？
+    ![Update](/images/OpenAI/20260606_Codex_macOS26.602.40724.png)
   ![Codex](/images/macOS/20260203_macOS_Codex.png)
   - on Windows
     - [Codex 26.429.30905](https://openai.com/ja-JP/codex/)<span style="color: red;">*<<2026/05/02 auto updated from 26.422.62136>>*</span>
