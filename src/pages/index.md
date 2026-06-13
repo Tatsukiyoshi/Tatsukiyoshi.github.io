@@ -17,7 +17,7 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/05/30|[Build 26300.8553](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/06/13|[Build 26300.8687](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/06/06|[Tahoe 26.5.1](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
