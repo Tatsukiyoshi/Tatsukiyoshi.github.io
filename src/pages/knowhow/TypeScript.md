@@ -118,6 +118,10 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - 新メンバ加入
+      ![Yasuda](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember1.png)
+      ![Ooita](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember2.png)
+      ![Events](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember3.png)
     - v6.0.0
       - TikTok投稿
         ![TikTok](/images/MorningStatusApp/20260608_MorningStatusApp_TikTok.png)
