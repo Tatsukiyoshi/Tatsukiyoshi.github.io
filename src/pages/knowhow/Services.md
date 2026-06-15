@@ -7,6 +7,9 @@ nav: environment
 ##  [Figma](https://www.figma.com/ja-jp/)
 - Claude Code等コーディングエージェントとの連携
 
+- [Figma Desktop 126.5.6](https://zed.dev/windows) <span style="color: red;">*<<2026/06/13 updated>>*</span>
+  - UI定義をJSON出力し、Figmaへインポートすることで可視化できる
+
 ##  [Jules](https://jules.google.com/)
 
 - Gemini 2.5によるエージェントサービス

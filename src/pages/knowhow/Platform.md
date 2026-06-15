@@ -40,10 +40,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental Preview Build (Build 26300)
-    - [Build 26300.8553 (Quality Update)](https://blogs.windows.com/windows-insider/2026/05/29/announcing-new-builds-for-29-may-2026/) <span style="color: red;">*<<2026/05/30 updated from Build 26300.8497 >>*</span>
-      ![Quality Update](/images/Windows/20260530_WindowsUpdate_DevChannel.png)
+    - [Build 26300.8687 (Quality Update)](https://blogs.windows.com/windows-insider/2026/06/12/announcing-new-builds-for-12-june-2026/) <span style="color: red;">*<<2026/06/13 updated from Build 26300.8553 >>*</span>
+      ![Quality Update](/images/Windows/20260613_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260530_Windows11_Build26300.png)
+        ![Version Information](/images/Windows/20260613_Windows11_Build26300.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
@@ -154,14 +154,14 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
-  - [Tahoe 26.5](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/05/14 updated from Tahoe 26.4.1>>*</span>
+  - [Tahoe 26.5.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/06/06 updated from Tahoe 26.5>>*</span>
     - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20260513_macOS_Tahoe26.5Update.png)
+      ![Update Check](/images/macOS/20260606_macOS_Tahoe26.5.1Update.png)
     - アップデート完了
-      ![Updated](/images/macOS/20260514_macOS_Tahoe26.5Updated.png)
+      ![Updated](/images/macOS/20260606_macOS_Tahoe26.5.1Updated.png)
     - バージョン情報
-      ![Tahoe 26.5](/images/macOS/20260514_macOS_Tahoe26.5.png)
+      ![Tahoe 26.5.1](/images/macOS/20260606_macOS_Tahoe26.5.1.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
