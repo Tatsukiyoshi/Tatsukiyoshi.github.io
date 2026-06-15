@@ -8,7 +8,7 @@ title: 2026年6月上期
 
 ## リスキリング
 - macOS Tahoe 26.5.1 および Windows Insider Build 26300.8687 でOSを更新
-- Visual Studio Code 1.123.0→1.124.2・Zed 1.5.3→1.5.5 で開発ツールを更新
+- Visual Studio Code 1.123.0→1.124.2・Zed 1.5.3→1.6.3 で開発ツールを更新・Figma Desktop 126.5.6 を導入
 - Claude Code 2.1.162→2.1.167 を Windows で更新
 - Android Studio Quail 2 Canary 5・Kotlin 2.4.0 で Android 開発環境を更新
 
@@ -20,6 +20,7 @@ title: 2026年6月上期
 - v5.7.0〜v5.9.0: TikTok一覧改良・タイムラインイベントカード画像強化・新着投稿セクション改良
 - v6.0.0〜v6.0.5: 「過去のこの日」セクション新設と各種修正
 - v6.5.0〜v6.5.3: YouTube投稿一覧機能追加と各種修正
+- v7.0.0〜v7.0.1: タイムラインV2の追加と各種改善
 - 18期新メンバーのデータ登録
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
@@ -46,11 +47,16 @@ title: 2026年6月上期
 - **＜開発ツール＞** Windowsで、[Zed 1.5.5](https://zed.dev/windows)に更新
   - New Claude LLM "Fable 5" が利用可能に
 
+##  【6/11】
+- **＜開発ツール＞** Windowsで、[Zed 1.6.3](https://zed.dev/windows)に更新
+
 ##  【6/12】
 - **＜開発ツール＞** Windowsで、[Visual Studio Code 1.124.2](https://code.visualstudio.com/)に更新
 
 ##  【6/13】
 - **＜OS＞** [Windows 11 Insider Experimental Preview Build 26300.8687 (Quality Update)](https://blogs.windows.com/windows-insider/2026/06/12/announcing-new-builds-for-12-june-2026/)にアップデート
+- **＜開発ツール＞** Windowsで、[Figma Desktop 126.5.6](https://www.figma.com/ja-jp/)を導入
+  - UI定義をJSON出力し、Figmaへインポートすることで可視化できる
 
 ## 営業日報システム
 
@@ -97,7 +103,14 @@ title: 2026年6月上期
 - v6.5.2: メイボンソワのパーソナリティ「グループ名 メンバー名」形式対応（#1125, 6/13）
 - v6.5.3: メンバー詳細のYouTubeチャンネル名閲覧モード表示バグ修正（#1124, 6/13）
 
+### v7.0.0
+- v7.0.0: タイムラインV2の追加（フェスイベントの統合、タグシステム（Birthday・Solo・Unit等）の導入、年/週/日ビュー切り替え、メンバーフィルタ（現役/OG・複数選択）、種別フィルタ（type・tags）、イベントカードへのタグチップ表示と媒体別色分け）（#1107, 6/14）
+
+### v7.0.1
+- v7.0.1: タイムライン年遷移時フィルタ条件リセットバグの修正・誕生日バッジに🎂が表示されないバグの修正（#1138, #1136, 6/14）
+
 ### データ更新
 - 18期メンバーのデータを登録（6/2）
 - 追加メンバ発表イベントを登録（6/3）
 - 18期新メンバーのデータを登録（6/11）
+- SNS Annotations を更新（6/14）
