@@ -6,6 +6,12 @@ nav: programming
 
 - 過去のこの日
   ![Graduation@0620](/images/MorningStatusApp/20260620_MorningStatusApp_Today.png)
+  ![Birthday@0619](/images/MorningStatusApp/20260619_MorningStatusApp_Birthday.png)
+  ![Birthday@0617](/images/MorningStatusApp/20260617_MorningStatusApp_Birthday.png)
+- 活動履歴
+  ![ActivityChart](/images/MorningStatusApp/20260617_MorningStatusApp_ActivityChart.png)
+- YouTube投稿収集追加
+  ![YouTubeLink](/images/MorningStatusApp/20260614_MorningStatusApp_YouTubeLink1.png)
 - 新メンバ加入
   ![Yasuda](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember1.png)
   ![Ooita](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember2.png)
