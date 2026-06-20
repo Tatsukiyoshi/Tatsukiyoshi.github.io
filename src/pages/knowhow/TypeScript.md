@@ -118,17 +118,8 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
-    - 新メンバ加入
-      ![Yasuda](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember1.png)
-      ![Ooita](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember2.png)
-      ![Events](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember3.png)
-    - v6.0.0
-      - TikTok投稿
-        ![TikTok](/images/MorningStatusApp/20260608_MorningStatusApp_TikTok.png)
-      - 楽曲のTikTok
-        ![TikTok](/images/MorningStatusApp/20260609_MorningStatusApp_TikTok.png)
-      - 過去のこの日
-        ![Today](/images/MorningStatusApp/20260609_MorningStatusApp_Today.png)
+    - 過去のこの日
+      ![Graduation@0620](/images/MorningStatusApp/20260620_MorningStatusApp_Today.png)
 
 ##  ノウハウ
 ### TypeScript

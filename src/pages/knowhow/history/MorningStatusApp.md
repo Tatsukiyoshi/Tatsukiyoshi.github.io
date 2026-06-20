@@ -4,6 +4,8 @@ title: History of Morning Status App
 nav: programming
 ---
 
+- 過去のこの日
+  ![Graduation@0620](/images/MorningStatusApp/20260620_MorningStatusApp_Today.png)
 - 新メンバ加入
   ![Yasuda](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember1.png)
   ![Ooita](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember2.png)
