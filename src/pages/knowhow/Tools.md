@@ -189,6 +189,8 @@ OS/言語を問わず利用するツールの情報
 ##  macOS <a id="macOS"></a>
 - Xcode
   - [Xcode 27.0 Beta 2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/06/26 Updated from 26.4>>*</span>
+  - Device Hubに刷新
+    ![Device Hub](/images/macOS/20260627_Device_Hub_XCode27.0Beta2.png)
   - iOS Simulatorの更新
     - 追加した直後は検証される
       ![Runtime検証](/images/iOS/20260316_iPhone17_Pro_iOS26.3.1_Init.png)
