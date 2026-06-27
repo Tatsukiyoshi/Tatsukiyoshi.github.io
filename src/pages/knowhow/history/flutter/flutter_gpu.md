@@ -4,6 +4,8 @@ title: Update History of flutter GPU
 nav: programming
 ---
 
+- iOS 27.0 Beta
+    ![gpu on iOS 27.0 Beta](/images/flutter/20260627_gpu_iOS27.0Beta.png)
 - iOS 26.2 Beta
     ![gpu on iOS 26.2 Beta](/images/flutter/20251115_gpu_iOS26.2Beta.png)
 - iOS 26
