@@ -4,6 +4,8 @@ title: History of Morning Status App
 nav: programming
 ---
 
+- 関係性マップ
+  ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
 - 過去のこの日
   ![Graduation@0620](/images/MorningStatusApp/20260620_MorningStatusApp_Today.png)
   ![Birthday@0619](/images/MorningStatusApp/20260619_MorningStatusApp_Birthday.png)
