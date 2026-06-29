@@ -10,6 +10,7 @@ title: 2026年6月下期
 - Windows Insiderで、Claude Code 2.1.177 に更新
 - Visual Studio Code 1.126.0・Zed 1.8.2（Windows/macOS）・Codex 26.616.81150（macOS）・Xcode 27.0 Beta 2（macOS）で開発ツールを更新
 - Windows Insider Build 26300.8758 でOSを更新
+- GitHub PagesのフレームワークをAstro 7.0.3に移行
 - React Flow 12.11.1 を近況確認アプリに導入
 - Flutter 3.44.4（macOS）に更新
 
@@ -68,6 +69,7 @@ title: 2026年6月下期
 
 ##  【6/28】
 - **＜OS＞** [Windows 11 Insider Experimental Preview Build 26300.8758 (Quality Update)](https://blogs.windows.com/windows-insider/2026/06/26/announcing-new-builds-for-26-june-2026-retail-launch-of-new-wip-improvements/)にアップデート
+- **＜TypeScript＞** GitHub Pagesのフレームワークを[Astro 7.0.3](https://astro.build/)に移行
 
 ## 営業日報システム
 
