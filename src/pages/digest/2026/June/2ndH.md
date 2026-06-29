@@ -11,6 +11,7 @@ title: 2026年6月下期
 - Visual Studio Code 1.126.0・Zed 1.8.2（Windows/macOS）・Codex 26.616.81150（macOS）・Xcode 27.0 Beta 2（macOS）で開発ツールを更新
 - Windows Insider Build 26300.8758 でOSを更新
 - React Flow 12.11.1 を近況確認アプリに導入
+- Flutter 3.44.4（macOS）に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -23,7 +24,7 @@ title: 2026年6月下期
 - v7.5.1〜v7.7.1: TikTokスライドショー対応・ミニモちゃん公式Instagram追加・最新の近況複数投稿表示・キャッシュ自動破棄
 - v7.8.0〜v7.9.0: タイムラインに年表ビュー追加・公式Instagram投稿履歴一覧とReelラベル追加
 - v7.9.1〜v7.10.1: モーニング女学院曲名抽出改善・近況履歴制限・表示順統一・教育係/愛弟子セクション追加
-- v8.0.0〜v8.1.0: React Flowベースのメンバー関係性マップ追加（フィルタ/グルーピング対応）
+- v8.0.0〜v8.3.0: React Flowベースのメンバー関係性マップ追加（フィルタ/グルーピング対応）・ノード配置ドラッグ永続化・表示品質改善
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -63,6 +64,7 @@ title: 2026年6月下期
 ##  【6/27】
 - **＜開発ツール＞** Windowsで、[Zed 1.8.2](https://zed.dev/windows)に更新
 - **＜TypeScript＞** [React Flow 12.11.1](https://reactflow.dev/)を近況確認アプリに導入
+- **＜Flutter＞** macOSで、[Flutter 3.44.4](https://docs.flutter.dev/release/release-notes)に更新
 
 ##  【6/28】
 - **＜OS＞** [Windows 11 Insider Experimental Preview Build 26300.8758 (Quality Update)](https://blogs.windows.com/windows-insider/2026/06/26/announcing-new-builds-for-26-june-2026-retail-launch-of-new-wip-improvements/)にアップデート
@@ -136,3 +138,7 @@ title: 2026年6月下期
 ### v8.0.0〜v8.1.0
 - v8.0.0: React Flowを使ったメンバー関係性マップ画面を追加。同期・同郷・師弟・リーダー継承などの関係を対話型グラフで可視化（#1209, 6/27）
 - v8.1.0: メンバー関係性マップにフィルタ・グルーピング機能を追加。期・出身地・関係種別でノードを絞り込み・グループ化表示（#1211, 6/28）
+
+### v8.2.0〜v8.3.0
+- v8.2.0: メンバー関係性マップにノードのドラッグ配置変更と永続化機能を追加。メンバー追加時は円形配置（#1210, 6/28）
+- v8.3.0: メンバー関係性マップの表示品質を改善。フィルタ時の非アクティブエッジラベル非表示・グルーピング時のグループ枠重なり解消・複数関係ノード間のエッジ分離表示。現役マップを同期・同郷・師弟・リーダー継承の関係に絞り込み（#1242, 6/29）
