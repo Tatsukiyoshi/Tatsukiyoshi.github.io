@@ -102,6 +102,7 @@ nav: programming
   |                |- Prisma 7.8.0      |[2026/05/11](https://www.prisma.io/)
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
+  |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
@@ -118,17 +119,8 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
-    - 新メンバ加入
-      ![Yasuda](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember1.png)
-      ![Ooita](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember2.png)
-      ![Events](/images/MorningStatusApp/20260611_MorningStatusApp_NewMember3.png)
-    - v6.0.0
-      - TikTok投稿
-        ![TikTok](/images/MorningStatusApp/20260608_MorningStatusApp_TikTok.png)
-      - 楽曲のTikTok
-        ![TikTok](/images/MorningStatusApp/20260609_MorningStatusApp_TikTok.png)
-      - 過去のこの日
-        ![Today](/images/MorningStatusApp/20260609_MorningStatusApp_Today.png)
+    - 関係性マップ
+      ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
 
 ##  ノウハウ
 ### TypeScript

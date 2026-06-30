@@ -141,7 +141,8 @@ TypeScript / Kotlin / Rust / Flutter 等の言語系カテゴリで更新があ�
 - MCP - Claude Desktop, Claude Code, MCP関連
 - .NET - .NET, MAUI, Blazor
 - Rust - Rust言語、RustRover、Rust製ツール
-- TypeScript - Node.js, Bun, React, Svelte等
+- TypeScript - Node.js, Bun, React, Svelte, **Astro（GitHub Pages）**等
+- Flutter - Flutter/Dart（iOS/Android/macOS等）
 - Kotlin - Android Studio, IntelliJ IDEA, Kotlin
 - Container - Docker, Rancher Desktop等
 
@@ -155,7 +156,17 @@ TypeScript / Kotlin / Rust / Flutter 等の言語系カテゴリで更新があ�
 - `src/pages/knowhow/Rust.md` - Rust関連の詳細
 - `src/pages/knowhow/TypeScript.md` - JavaScript/TypeScript関連の詳細
 - `src/pages/knowhow/Kotlin.md` - Kotlin/Android Studio/IntelliJ IDEA関連の詳細
+- `src/pages/knowhow/Flutter.md` - Flutter/Dart関連の詳細
 - `src/pages/knowhow/Container.md` - Docker/コンテナ関連の詳細
+
+### GitHub Pages（このリポジトリ自体）
+**Astroのバージョンアップはknowhowファイルには記録されず、このリポジトリのコミット履歴に現れる**：
+```bash
+git log --after="YYYY-MM-DD" --before="YYYY-MM-DD" --format="%ad %s" --date=short | grep -i astro
+```
+- `package.json` の `astro` フィールドで現在バージョンを確認できる
+- カテゴリは `TypeScript`、URLは `https://astro.build/`
+- 通常の更新は「更新」、メジャー移行は「移行」を動詞に使い分ける
 
 ### アプリ開発（外部リポジトリ）
 OSによってパスが異なる：
@@ -178,6 +189,14 @@ git log --after="YYYY-MM-DD" --before="YYYY-MM-DD" --format="%ad %s" --date=shor
 ```
 - knowhowファイルの日付とコミット日付が食い違う場合は、knowhowファイル内の日付（実際の更新日）を優先する
 - コミット日付はツールのインストールや確認作業を行った翌日以降になることがある
+
+### GitHub Pages（Astroバージョン）
+Astroのアップデートはknowhowファイルに記録されないため、このリポジトリのコミット履歴を**必ず**確認する：
+```bash
+git log --after="YYYY-MM-DD" --before="YYYY-MM-DD" --format="%ad %s" --date=short | grep -i astro
+```
+- マージコミット（"Merge pull request"）ではなく、実際の変更コミットの日付を使用する
+- `package.json` の `astro` フィールドで現在バージョンを確認できる
 
 ### アプリ開発
 外部リポジトリのコミット履歴から対象期間の活動を抽出する。実行環境に合わせてパスを使い分ける：
@@ -222,11 +241,12 @@ git -C /Users/taishow2024/Documents/Repository/MorningStatusApp log --after="YYY
    - 「knowhow配下を参照して収集」の場合: 参照すべきファイルを読み込み、対象期間の更新を自動収集
    - 個別の更新内容を提供された場合: その内容をもとに更新
 
-5. knowhowファイルから更新情報を収集（リスキリング）
+5. knowhowファイルおよびこのリポジトリから更新情報を収集（リスキリング）
    - 各knowhowファイルを読み込む
    - 対象期間（上期: 第1週〜第2週、下期: 第3週以降）の更新を抽出
    - バージョン番号、公式URL、補足説明を確認
    - Windows InsiderなどのOSアップデートは、Build番号を詳細に記載する（例：Build 26300.7733）
+   - **Astroのアップデート**: このリポジトリのコミット履歴を `grep -i astro` で確認し、`package.json` でバージョンを確定する（カテゴリ: `TypeScript`）
 
 6. 外部リポジトリからアプリ開発の活動を収集
    - `git -C` でSalesReport・morning-status-appのコミット履歴を取得

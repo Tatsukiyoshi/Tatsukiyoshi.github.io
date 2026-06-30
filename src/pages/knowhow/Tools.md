@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.124.2](https://code.visualstudio.com/) <span style="color: red;">*<<2026/06/12 updated from 1.123.2>>*</span>
+- [Visual Studio Code 1.126.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/06/25 updated from 1.125.1>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,10 +32,10 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.6.3](https://zed.dev/windows) <span style="color: red;">*<<2026/06/11 updated from 1.5.5>>*</span>
+    - [Zed 1.8.2](https://zed.dev/windows) <span style="color: red;">*<<2026/06/27 updated from 1.7.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.5.4](https://zed.dev) <span style="color: red;">*<<2026/06/06 updated from 1.5.3>>*</span>
+    - [Zed 1.8.2](https://zed.dev) <span style="color: red;">*<<2026/06/25 updated from 1.7.2>>*</span>
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
@@ -44,7 +44,7 @@ OS/言語を問わず利用するツールの情報
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
-- [Codex 26.602.40724](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/06 updated from 26.527.31326>>*</span>
+- [Codex 26.616.81150](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/24 updated from 26.616.41845>>*</span>
   - バージョン情報のダイアログが大きくなった？
     ![Update](/images/OpenAI/20260606_Codex_macOS26.602.40724.png)
   ![Codex](/images/macOS/20260203_macOS_Codex.png)
@@ -188,7 +188,9 @@ OS/言語を問わず利用するツールの情報
 
 ##  macOS <a id="macOS"></a>
 - Xcode
-  - [Xcode 26.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/03/28 Updated from 26.3>>*</span>
+  - [Xcode 27.0 Beta 2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/06/26 Updated from 26.4>>*</span>
+  - Device Hubに刷新
+    ![Device Hub](/images/macOS/20260627_Device_Hub_XCode27.0Beta2.png)
   - iOS Simulatorの更新
     - 追加した直後は検証される
       ![Runtime検証](/images/iOS/20260316_iPhone17_Pro_iOS26.3.1_Init.png)
@@ -198,6 +200,7 @@ OS/言語を問わず利用するツールの情報
       ![Components Update](/images/macOS/20250301_XCode_Components_Update.png)
       ![Components Updating](/images/macOS/20250301_XCode_Components_Updating.png)
   - 履歴
+    - [Xcode 26.4](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/03/28 Updated from 26.3>>*</span>
     - [Xcode 26.3](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2026/02/28 Updated from 26.2>>*</span>
     - [Xcode 26.2](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/12/17 Updated from 26.2 Beta>>*</span>
     - [Xcode 26.2 Beta](https://developer.apple.com/jp/xcode/) <span style="color: red;">*<<2025/11/08 Updated from 26.1>>*</span>
