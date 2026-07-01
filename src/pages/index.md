@@ -91,7 +91,7 @@ Other                            |Updated   |Detail
 
 Platform            |Updated
 --------------------|----------
-Astro 5.x           |2026/04/12
+Astro 7.0.3         |2026/06/28
 
 ---
 [ダイジェスト更新手順書](/docs/update-digest)
