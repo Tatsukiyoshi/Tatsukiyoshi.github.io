@@ -35,7 +35,7 @@ OS/言語を問わず利用するツールの情報
     - [Zed 1.9.0](https://zed.dev/windows) <span style="color: red;">*<<2026/07/03 updated from 1.8.2>>*</span>
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.9.0](https://zed.dev) <span style="color: red;">*<<2026/07/02 updated from 1.8.2>>*</span>
+    - [Zed 1.10.0](https://zed.dev) <span style="color: red;">*<<2026/07/09 updated from 1.9.0>>*</span>
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
