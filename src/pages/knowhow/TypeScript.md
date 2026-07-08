@@ -1236,6 +1236,10 @@ nav: programming
     ```
 
 ### Others
+- トークン生成
+  ```
+  openssl rand -hex 32
+  ```
 - electron
   - [Electronでアプリケーションを作ってみよう](https://qiita.com/Quramy/items/a4be32769366cfe55778)
 - ml5 - 日経ソフトウェア 2019年5月号

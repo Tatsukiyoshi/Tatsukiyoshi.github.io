@@ -26,7 +26,7 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/07/02|[1.127.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/07/08|[1.128.0](https://code.visualstudio.com/)
 Zed                 | * | * | - |2026/07/02|[1.9.0](https://zed.dev)
 Claude Code         | * | * | - |2026/06/15|[2.1.177](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
