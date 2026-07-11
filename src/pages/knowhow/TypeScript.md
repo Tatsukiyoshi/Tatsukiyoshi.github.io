@@ -109,6 +109,7 @@ nav: programming
 
     Contents    | API / URL
     ------------|------------------
+    Search      | [Exa AI](https://dashboard.exa.ai/home)
     Discography | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API)
     Lyrics      | [Genius API](https://genius.com/developers)
     YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
@@ -119,6 +120,7 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
     - 関係性マップ
       ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
 
