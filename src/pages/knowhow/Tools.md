@@ -32,10 +32,11 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.10.2](https://zed.dev/windows) <span style="color: red;">*<<2026/07/11 updated from 1.9.0>>*</span>
+    - [Zed 1.10.3](https://zed.dev/windows) <span style="color: red;">*<<2026/07/13 updated from 1.10.2>>*</span>
+      ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.10.2](https://zed.dev) <span style="color: red;">*<<2026/07/10 updated from 1.10.1>>*</span>
+    - [Zed 1.10.3](https://zed.dev) <span style="color: red;">*<<2026/07/13 updated from 1.10.2>>*</span>
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
