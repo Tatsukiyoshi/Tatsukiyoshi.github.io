@@ -5,6 +5,10 @@ nav: environment
 ---
 - Windows Insider History
   - Experimental
+    - [Build 26300.8772 (Quality Update)](https://blogs.windows.com/windows-insider/2026/07/06/announcing-new-builds-for-july-6-2026/) <span style="color: red;">*<<2026/07/07 updated from Build 26300.8758 >>*</span>
+      ![Quality Update](/images/Windows/20260707_WindowsUpdate_Experimental.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260707_Windows11_Build26300.png)
     - [Build 26300.8758 (Quality Update)](https://blogs.windows.com/windows-insider/2026/06/26/announcing-new-builds-for-26-june-2026-retail-launch-of-new-wip-improvements/) <span style="color: red;">*<<2026/06/28 updated from Build 26300.8697 >>*</span>
       ![Quality Update](/images/Windows/20260627_WindowsUpdate_DevChannel.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活

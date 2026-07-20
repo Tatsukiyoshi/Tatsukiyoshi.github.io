@@ -23,7 +23,7 @@ nav: programming
   |-----------------|--------------------|----------
   |AIChat           |MongoDB Atlas       |[2026/01/28](https://cloud.mongodb.com/)
   |SelesReport      |Neon(PostgreSQL 17) |[2026/03/13](https://neon.com/)
-  |MorningStatusApp |Neon(PostgreSQL 18) |2026/05/28
+  |MorningStatusApp |Neon(PostgreSQL 18) |2026/07/11
 
 ##  ノウハウ
 ### データベース全般

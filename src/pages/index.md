@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/6/15～2026/6/30）](/digest/2026/June/2ndH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/7/1～2026/7/17）](/digest/2026/July/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,17 +17,17 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/06/28|[Build 26300.8758](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/07/07|[Build 26300.8772](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/06/06|[Tahoe 26.5.1](https://www.apple.com/jp/os/macos/)
+macOS                       |2026/07/01|[Tahoe 26.5.2](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/06/25|[1.126.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/06/25|[1.8.2](https://zed.dev)
+Visual Studio Code  | * | * | * |2026/07/17|[1.129.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/07/17|[1.11.3](https://zed.dev)
 Claude Code         | * | * | - |2026/06/15|[2.1.177](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
@@ -91,7 +91,7 @@ Other                            |Updated   |Detail
 
 Platform            |Updated
 --------------------|----------
-Astro 5.x           |2026/04/12
+Astro 7.0.3         |2026/06/28
 
 ---
 [ダイジェスト更新手順書](/docs/update-digest)

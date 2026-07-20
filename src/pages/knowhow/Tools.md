@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.126.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/06/25 updated from 1.125.1>>*</span>
+- [Visual Studio Code 1.129.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/07/17 updated from 1.128.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,10 +32,11 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.8.2](https://zed.dev/windows) <span style="color: red;">*<<2026/06/27 updated from 1.7.2>>*</span>
+    - [Zed 1.11.3](https://zed.dev/windows) <span style="color: red;">*<<2026/07/17 updated from 1.10.3>>*</span>
+      ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.8.2](https://zed.dev) <span style="color: red;">*<<2026/06/25 updated from 1.7.2>>*</span>
+    - [Zed 1.10.3](https://zed.dev) <span style="color: red;">*<<2026/07/13 updated from 1.10.2>>*</span>
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
