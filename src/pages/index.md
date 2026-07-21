@@ -64,7 +64,7 @@ Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
 [AI](/knowhow/Mcp)                     |2026/06/15|Update: Claude Code 2.1.177
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
-[Container](/knowhow/Container)        |2026/05/16|Update: Rancher Desktop 1.22.3
+[Container](/knowhow/Container)        |2026/07/21|Update: Rancher Desktop 1.23.1
 [Documentation](/knowhow/Documentation)|-
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
