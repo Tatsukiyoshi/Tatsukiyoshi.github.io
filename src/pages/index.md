@@ -32,7 +32,7 @@ Claude Code         | * | * | - |2026/06/15|[2.1.177](https://github.com/anthrop
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
-PowerShell          | * |   |   |2026/05/14|[7.6.1](https://github.com/PowerShell/PowerShell)
+PowerShell          | * |   |   |2026/07/25|[7.6.3](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
 mise                | * |   |   |2026/01/24|[2026.1.6](https://mise.jdx.dev/)

@@ -116,7 +116,7 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  Windows <a id="Windows"></a>
-- [PowerShell 7.6.1](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/05/14 auto updated from 7.5.5>>*</span>
+- [PowerShell 7.6.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/07/25 updated from 7.6.1>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget
