@@ -83,7 +83,7 @@ nav: programming
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.21               |2025/08/30
+      |           |        |Bun 1.3.14               |2026/07/31
       |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)

@@ -19,14 +19,14 @@ Platform                    |Updated   |Detail
 ----------------------------|----------|--------
 Windows Insider             |2026/07/21|[Build 26300.8935](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/07/01|[Tahoe 26.5.2](https://www.apple.com/jp/os/macos/)
+macOS                       |2026/07/30|[Tahoe 26.6](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/07/25|[1.130.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/07/30|[1.131.0](https://code.visualstudio.com/)
 Zed                 | * | * | - |2026/07/30|[1.13.1](https://zed.dev)
 Claude Code         | * | * | - |2026/06/15|[2.1.177](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
@@ -53,7 +53,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/06/06|Update: Android Studio Quail 2 Canary 5 / Kotlin 2.4.0 / Android Emulator 37.1.2
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/06/27|Add: React Flow 12.11.1
+[TypeScript](/knowhow/TypeScript)|2026/07/31|Update: Bun 1.3.14@macOS
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0

@@ -153,14 +153,12 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
-  - [Tahoe 26.5.2](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/07/01 updated from Tahoe 26.5.1>>*</span>
-    - ソフトウェアアップデート
-      ![Update Check](/images/macOS/20260701_macOS_Tahoe26.5.2Update.png)
+  - [Tahoe 26.6](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/07/30 updated from Tahoe 26.5.2>>*</span>
     - アップデート完了
-      ![Updated](/images/macOS/20260701_macOS_Tahoe26.5.2Updated.png)
+      ![Updated](/images/macOS/20260730_macOS_Tahoe26.6_Updated.png)
     - バージョン情報
-      ![Tahoe 26.5.2](/images/macOS/20260701_macOS_Tahoe26.5.2.png)
+      ![Tahoe 26.6](/images/macOS/20260730_macOS_Tahoe26.6.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
