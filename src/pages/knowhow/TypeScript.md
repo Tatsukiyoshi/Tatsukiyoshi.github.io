@@ -83,7 +83,7 @@ nav: programming
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.2.21               |2025/08/30
+      |           |        |Bun 1.3.14               |2026/07/31
       |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
@@ -103,6 +103,7 @@ nav: programming
   |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
   |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
   |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
+  |                |- Inno Setup 7.0.2  |[2026/07/25](https://jrsoftware.org/)
   |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
