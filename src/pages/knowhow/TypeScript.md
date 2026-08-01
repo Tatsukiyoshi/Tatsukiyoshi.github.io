@@ -95,17 +95,26 @@ nav: programming
 ##  創作物
 ### 近況確認アプリ
 
-  |Machine         |Env / FW            |Last Updated
-  |----------------|--------------------|----------
-  |Windows Insider |Next.js 16.2.1      |2026/04/13
-  |                |- Bun 1.3.13        |2026/04/26
-  |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
-  |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
-  |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
-  |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
-  |                |- Inno Setup 7.0.2  |[2026/07/25](https://jrsoftware.org/)
-  |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
-  |                |- Blume 1.2.0       |[2026/07/27](https://useblume.dev/)
+  - 設計書等ドキュメント
+
+    |Machine         |Env / FW            |Last Updated
+    |----------------|--------------------|----------
+    |Windows Insider |Next.js 16.2.1      |2026/04/13
+    |                |- Bun 1.3.13        |2026/04/26
+    |                |- Blume 1.2.0       |[2026/07/27](https://useblume.dev/)
+
+  - アプリケーション本体
+
+    |Machine         |Env / FW            |Last Updated
+    |----------------|--------------------|----------
+    |Windows Insider |Next.js 16.2.1      |2026/04/13
+    |                |- Bun 1.3.13        |2026/04/26
+    |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
+    |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
+    |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
+    |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
+    |                |- Inno Setup 7.0.2  |[2026/07/25](https://jrsoftware.org/)
+    |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
 
