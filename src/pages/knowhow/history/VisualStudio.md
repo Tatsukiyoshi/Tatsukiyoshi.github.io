@@ -5,6 +5,8 @@ nav: programming
 ---
 
 ##  Visual Studio 2026
+  - 7月 2026 機能更新プログラム(18.8.2) <span style="color: red;">*<<2026/08/02 updated from 18.7.4>>*</span>
+    Windows Updateにおいて、容量不足のため、一旦アンインストールし、再インストール実施
   - 5月 2026 機能更新プログラム(18.6.0) <span style="color: red;">*<<2026/05/14 updated from 18.5.3>>*</span>
     - 18.5.3への更新を確認するために起動したところ、18.6.0への更新通知！
       ![VS2026 18.6.0 Notice](/images/VisualStudio/20260514_Update_VS2026_18.6.0Update.png)
@@ -30,6 +32,11 @@ nav: programming
     ![VS2026 18.0.2](/images/VisualStudio/20251125_Update_VS2026_18.0.2.png)
   - 11月 2025 機能更新プログラム(18.0.1)
     ![VS2026 18.0.1](/images/VisualStudio/20251120_Update_VS2026_18.0.1.png)
+
+##  Visual Studio Insiders
+  - [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/?rwnlp=ja) / [履歴](./history/VisualStudioInsiders)
+    - Visual Studio Community 2026 18.0.0 Insiders [11201.2]
+      ![VS2026 18.0.0 Insiders](/images/VisualStudio/20251104_Update_VS2026_18.0.0_Insiders.png)
 
 ##  Visual Studio 2022
   - Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
