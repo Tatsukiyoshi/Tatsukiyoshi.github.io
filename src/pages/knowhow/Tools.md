@@ -32,7 +32,7 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.13.2](https://zed.dev/windows) <span style="color: red;">*<<2026/08/04 updated from 1.13.1>>*</span>
+    - [Zed 1.14.2](https://zed.dev/windows) <span style="color: red;">*<<2026/08/06 updated from 1.13.2>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
