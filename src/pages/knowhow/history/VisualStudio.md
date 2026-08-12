@@ -5,6 +5,7 @@ nav: programming
 ---
 
 ##  Visual Studio 2026
+  - 7月 2026 機能更新プログラム(18.8.3) <span style="color: red;">*<<2026/08/12 updated from 18.8.2>>*</span>
   - 7月 2026 機能更新プログラム(18.8.2) <span style="color: red;">*<<2026/08/02 updated from 18.7.4>>*</span>
     Windows Updateにおいて、容量不足のため、一旦アンインストールし、再インストール実施
   - 5月 2026 機能更新プログラム(18.6.0) <span style="color: red;">*<<2026/05/14 updated from 18.5.3>>*</span>

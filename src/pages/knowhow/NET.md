@@ -20,7 +20,7 @@ nav: programming
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.8.2               |[2026/08/02](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |Windows Insider |Visual Studio Community 2026 18.8.3               |[2026/08/12](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
   |                |- .NET 10.0.10                                    |[2026/08/02](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.90](#maui)                         |[2026/08/02](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
@@ -31,8 +31,7 @@ nav: programming
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](./history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  - 7月 2026 機能更新プログラム(18.8.2) <span style="color: red;">*<<2026/08/02 updated from 18.7.4>>*</span>
-    Windows Updateにおいて、容量不足のため、一旦アンインストールし、再インストール実施
+  - 7月 2026 機能更新プログラム(18.8.3) <span style="color: red;">*<<2026/08/12 updated from 18.8.2>>*</span>
   - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
 
 - Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
