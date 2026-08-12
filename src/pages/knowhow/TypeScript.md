@@ -101,13 +101,13 @@ nav: programming
     |----------------|--------------------|----------
     |Windows Insider |Next.js 16.2.1      |2026/04/13
     |                |- Bun 1.3.13        |2026/04/26
-    |                |- Blume 1.2.0       |[2026/07/27](https://useblume.dev/)
+    |                |- Blume 1.4.3       |[2026/08/12](https://useblume.dev/)
 
   - アプリケーション本体
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Next.js 16.2.1      |2026/04/13
+    |Windows Insider |Next.js 16.3.0      |2026/08/04
     |                |- Bun 1.3.13        |2026/04/26
     |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
