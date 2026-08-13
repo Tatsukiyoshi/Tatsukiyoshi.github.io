@@ -51,7 +51,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/08/12|Update: Visual Studio Community 2026 18.8.3
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
-[Kotlin](/knowhow/Kotlin)        |2026/06/06|Update: Android Studio Quail 2 Canary 5 / Kotlin 2.4.0 / Android Emulator 37.1.2
+[Kotlin](/knowhow/Kotlin)        |2026/08/13|Update: Android Studio Quail 4 Canary 3
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
 [TypeScript](/knowhow/TypeScript)|2026/08/12|Update: Bun 1.4.3@macOS
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002

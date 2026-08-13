@@ -21,11 +21,11 @@ nav: programming
       |                |- Kotlin 2.3.0                                     |[2025/12/25](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2 Canary 5](#AndroidStudio)  |[2026/06/06](https://developer.android.com/studio)
-      |                |- Kotlin 2.4.0                                     |[2026/06/06](https://kotlinlang.org/docs/home.html)
-      |                |- Android SDK Platform 37.0 revision 2             |2026/06/06
-      |                |- Android SDK Command-line Tools v.20              |2026/01/30
-      |                |- Android Emulator v.37.1.2                        |2026/06/06
+      |                |[Android Studio Quail 4 Canary 3](#AndroidStudio)  |[2026/08/13](https://developer.android.com/studio)
+      |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Platform 37.0.1                      |2026/08/13
+      |                |- Android SDK Command-line Tools v.22              |2026/08/13
+      |                |- Android Emulator v.37.2.4                        |2026/08/13
 
   1. macOS Sequoia 15.6.1
 
@@ -195,17 +195,17 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 2 | 2026.1.2 Canary 5
+    - Android Studio Quail 4 | 2026.1.4 Canary 3
       ```
-      Build #AI-261.24374.151.2612.15561891, built on June 4, 2026
-      Runtime version: 21.0.10+-14961533-b1163.108 amd64null
+      Build #AI-261.26222.65.2614.15978069, built on July 30, 2026
+      Runtime version: 25.0.3+-15898627-b508.16 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=500):
+        PropertyOverrides(cache.size=478):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -218,15 +218,15 @@ nav: programming
       Cores: 8
       Registry:
         ide.experimental.ui=true
+        gradle.phased.sync.bridge.disabled=true
         gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
-        gradle.phased.sync.bridge.disabled=true
       Non-Bundled Plugins:
         Subversion (261.24374.185)
-        PerforceDirectPlugin (261.24374.185)
-        com.redhat.devtools.lsp4ij (0.19.4)
-        Dart (505.0.0)
-        io.flutter (92.0.0)
+        Dart (508.0.0)
+        PerforceDirectPlugin (261.25134.10)
+        com.redhat.devtools.lsp4ij (0.20.1)
+        io.flutter (95.0.0)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
@@ -311,6 +311,12 @@ nav: programming
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Quail
+      - 2026.1.4
+        - Canary 3
+          - Android Gradle Plugin 9.3.0-alpha10 -> 9.3.1
+          - Kotlin 2.4.10
+          - Android Emulator 37.2.4
+          - Gradle 9.7.0
       - 2026.1.2
         - Canary 5
           - Android Gradle Plugin 9.3.0-alpha07 -> 9.3.0-alpha10
