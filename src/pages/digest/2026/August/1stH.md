@@ -9,6 +9,7 @@ title: 2026年8月上期
 ## リスキリング
 - **＜OS＞** Windows Insiderで、[Windows 11 Insider Experimental Preview Build 26300.9032 (Feature Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/)にアップデート。容量不足のためVisual Studio 2026をアンインストールして領域確保
 - **＜開発ツール＞** Windowsで、[Zed](https://zed.dev/windows)を1.13.1→1.13.2→1.14.2と順次更新。[Visual Studio Code](https://code.visualstudio.com/)も1.132.1→1.133.0と順次更新
+- **＜MCP＞** Windows Insiderで、[Claude Code](https://github.com/anthropics/claude-code)を2.1.177から2.1.232へ大幅アップデート
 - **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)を18.8.2→18.8.3→18.9.0と順次更新（.NET 10.0.11 / .NET 8.0.30等も更新）
 - **＜Kotlin＞** Windowsで、[Android Studio](https://developer.android.com/studio)をQuail 2 Canary 5からQuail 4 Canary 4へ大幅アップデート（Kotlin 2.4.10 / Android Emulator 37.2.4等も更新）。[IntelliJ IDEA](https://www.jetbrains.com/ja-jp/idea/)も2026.1から2026.2.1へ大幅アップデート
 - **＜TypeScript＞** 近況確認アプリの開発環境で、設計書サイト構築ツール[Blume](https://useblume.dev/)を1.2.0から1.4.3に更新。[Bun](https://bun.sh/)も1.3.13から1.3.14に更新
@@ -52,6 +53,7 @@ title: 2026年8月上期
   - Kotlin 2.4.10 / Android SDK Platform 37.0.1 / Android SDK Command-line Tools v.22 / Android Emulator v.37.2.4に更新。Quail 2 Canary 5からの大幅アップデート
 
 ##  【8/14】
+- **＜MCP＞** Windows Insiderで、[Claude Code 2.1.232](https://github.com/anthropics/claude-code)に更新
 - **＜Kotlin＞** [IntelliJ IDEA 2026.1.5](https://www.jetbrains.com/ja-jp/idea/)→[2026.2.1](https://www.jetbrains.com/ja-jp/idea/)と順次更新
   - Kotlin 2.4.10に更新。2026.1（4/6更新）からの大幅アップデート
 
