@@ -17,8 +17,8 @@ nav: programming
 
       |Machine         |Env / FW                                           |Last Updated
       |----------------|---------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2026.1](#intellij-idea)             |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.3.0                                     |[2025/12/25](https://kotlinlang.org/docs/home.html)
+      |Windows Insider |[IntelliJ IDEA 2026.1.5](#intellij-idea)           |[2026/08/14](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
       |                |[Android Studio Quail 4 Canary 4](#AndroidStudio)  |[2026/08/13](https://developer.android.com/studio)
@@ -36,10 +36,10 @@ nav: programming
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2026.1 Build #IU-261.22158.277, built on March 25, 2026
+  - IntelliJ IDEA 2026.1.5 Build #IU-261.27258.48, built on August 12, 2026
     ```
-    Source revision: 89c647576f1d2
-    Runtime version: 25.0.2+1-b329.72 amd64137.0.17-261-b65
+    Source revision: 576a087624e91
+    Runtime version: 25.0.4+1-b329.128 amd64137.0.17-261-b89
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
@@ -49,26 +49,22 @@ nav: programming
     Cores: 8
     Registry:
       ide.experimental.ui=true
+      llm.chat.agent.codex.install.acp.server.version=0.0.46
+      llm.chat.agent.codex.install.codex.version=0.137.0
       trace.state.event.service.url=https://api.jetbrains.cloud/trace-status
     Non-Bundled Plugins:
-      intellij.jupyter (261.22158.354)
-      JavaScript (261.22158.277)
-      com.intellij.java (261.22158.277)
-      org.jetbrains.completion.full.line (261.22158.277)
-      com.intellij.spring (261.22158.354)
-      Subversion (261.22158.354)
-      hg4idea (261.22158.185)
-      Dart (504.0.0)
-      PerforceDirectPlugin (261.22158.185)
-      org.jetbrains.kotlin (261.22158.277-IJ)
-      com.intellij.spring.boot (261.22158.277)
-      org.jetbrains.idea.maven (261.22158.277)
-      com.intellij.ml.llm (261.22158.366)
-      Docker (261.22158.299)
-      org.jetbrains.android (261.22158.277)
-      io.flutter (91.0.0)
-    Kotlin: 261.22158.277-IJ
+      org.jetbrains.completion.full.line (261.27258.48)
+      Subversion (261.27258.54)
+      hg4idea (261.23567.28)
+      Dart (508.0.0)
+      PerforceDirectPlugin (261.25134.10)
+      com.intellij.ml.llm (261.27258.48)
+      org.jetbrains.android (261.27258.48)
+      io.flutter (95.0.0)
+    Kotlin: 261.27258.48-IJ
     ```
+	-	Gradle 9.7.0
+	-	Kotlin 2.4.10
 - [履歴](./history/IntelliJIDEA)
 
 ###	Visual Studio Code
