@@ -4,8 +4,11 @@ title: Update History of IntelliJ IDEA
 nav: programming
 ---
 
+- IntelliJ IDEA 2026.1.5 Build #IU-261.27258.48, built on August 12, 2026
+	-	Gradle 9.7.0
+	-	Kotlin 2.4.10
 - IntelliJ IDEA 2025.3.2
-- 省略時動作が厳格化されたことを受け、明示的にインメモリを使用することを指定するように修正
+	- 省略時動作が厳格化されたことを受け、明示的にインメモリを使用することを指定するように修正
     ```yaml
     spring:
     datasource:
@@ -22,7 +25,7 @@ nav: programming
         initialize-schema: always
     ```
 - IntelliJ IDEA 2025.3.1
-- Update Kotlin 2.3.0 for Java 25
+	- Update Kotlin 2.3.0 for Java 25
     ```
     plugins {
     ...
@@ -40,7 +43,7 @@ nav: programming
     }
     ```
 - IntelliJ IDEA 2024.3.4.1
-- Update PostgreSQL JDBC Driver
+	- Update PostgreSQL JDBC Driver
     ```kts
     dependencies {
     ...
@@ -49,7 +52,7 @@ nav: programming
     }
     ```
 - IntelliJ IDEA 2024.3.2.2
-- Mockito as agent over jdk 21
+	- Mockito as agent over jdk 21
     - [Support configuring Mockito java agent in java 21+](https://github.com/spring-io/initializr/issues/1590)
     ```kts
     var mockitoAgent = configurations.create("mockitoAgent")
@@ -67,7 +70,7 @@ nav: programming
     }
     ```
 - IntelliJ IDEA 2024.3
-- Kotlin 2.1.0
+	- Kotlin 2.1.0
     ```kts
     plugins {
     ...
@@ -76,7 +79,7 @@ nav: programming
     }
     ```
 - IntelliJ IDEA 2024.2.3
-- Kotlin 2.0.20
+	- Kotlin 2.0.20
     - kotlinOptions Deprecated - https://kotlinlang.org/docs/gradle-compiler-options.html#target-the-jvm
     ```kts
     tasks.named("compileKotlin", org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask::class.java) {
@@ -87,15 +90,15 @@ nav: programming
     }
     ```
 - IntelliJ IDEA 2024.2.0.2
-- PostgreSQL 16.4
-- Gradle 8.8
-- Kotlin 2.0.0
-- Compose Multiplatform
+	- PostgreSQL 16.4
+	- Gradle 8.8
+	- Kotlin 2.0.0
+	- Compose Multiplatform
     ![Compose for Desktop](/images/Kotlin/20240529_Kotlin_Compose_Desktop.png)
 - Intellij IDEA 2024.1.1
-- Kotlin 1.9.24
+	- Kotlin 1.9.24
 - Intellij IDEA 2023.3.6
-- Kotlin 1.9.23
+	- Kotlin 1.9.23
     ```
     plugins {
     ...
@@ -104,7 +107,7 @@ nav: programming
     }
     ```
 - Intellij IDEA 2023.3.4
-- Kotlin 1.9.22
+	- Kotlin 1.9.22
     ![Kotlinコンパイラ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinSetting.png)
     ![デバッグ](/images/Kotlin/20240223_IntelliJ_IDEA_2023.3.4_KotlinDebug.png)
     - kotlinc.xml

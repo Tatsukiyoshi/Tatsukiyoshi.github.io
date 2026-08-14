@@ -15,6 +15,7 @@ nav: environment
   |Project                  |FW              |Last Updated
   |-------------------------|----------------|----------
   |MorningStatusApp         |Next.js 16.2.1  |[2026/04/28](https://morning-status-app.vercel.app/)
+  |- 設計書サイト             |Blume 1.2.0     |[2026/07/27](https://morning-status-blume.vercel.app/)
   |ReactGrid / ChartJs      |Next.js 16.0.0  |[2025/10/22](https://next-grid-chart.vercel.app/)
   |                         |Astro 5.14.1    |[2025/09/27](https://astro-react-grid-chart.vercel.app/)
   |D3 / ChartJS / Recharts  |React 19.2.0    |[2025/10/18](https://graph-libraries.vercel.app/)

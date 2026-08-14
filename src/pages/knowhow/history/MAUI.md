@@ -5,6 +5,9 @@ nav: programming
 ---
 
 # .NET MAUI 10
+##  .NET MAUI 10.0.90
+- 18.8.2 / MAUI 10.0.90 / Pixel 10 Pro (Android 16)
+  ![MAUI - Pixel 10 Pro](/images/VisualStudio/20260802_VS2026_18.8.2_MAUI10.0.90_Android16.png)
 ##  .NET MAUI 10.0.50
 - 18.4.0 / MAUI 10.0.50 / Pixel 9 Pro (Android 16)
   ![MAUI - Pixel 9 Pro](/images/VisualStudio/20260311_VS2026_18.4.0_MAUI10.0.50_Android16.png)

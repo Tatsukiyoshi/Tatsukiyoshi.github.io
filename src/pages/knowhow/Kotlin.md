@@ -17,15 +17,15 @@ nav: programming
 
       |Machine         |Env / FW                                           |Last Updated
       |----------------|---------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2026.1](#intellij-idea)             |[2026/04/06](https://www.jetbrains.com/ja-jp/idea/)
-      |                |- Kotlin 2.3.0                                     |[2025/12/25](https://kotlinlang.org/docs/home.html)
+      |Windows Insider |[IntelliJ IDEA 2026.2.1](#intellij-idea)           |[2026/08/14](https://www.jetbrains.com/ja-jp/idea/)
+      |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 2 Canary 5](#AndroidStudio)  |[2026/06/06](https://developer.android.com/studio)
-      |                |- Kotlin 2.4.0                                     |[2026/06/06](https://kotlinlang.org/docs/home.html)
-      |                |- Android SDK Platform 37.0 revision 2             |2026/06/06
-      |                |- Android SDK Command-line Tools v.20              |2026/01/30
-      |                |- Android Emulator v.37.1.2                        |2026/06/06
+      |                |[Android Studio Quail 4 Canary 4](#AndroidStudio)  |[2026/08/13](https://developer.android.com/studio)
+      |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
+      |                |- Android SDK Platform 37.0.1                      |2026/08/13
+      |                |- Android SDK Command-line Tools v.22              |2026/08/13
+      |                |- Android Emulator v.37.2.4                        |2026/08/13
 
   1. macOS Sequoia 15.6.1
 
@@ -36,39 +36,50 @@ nav: programming
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2026.1 Build #IU-261.22158.277, built on March 25, 2026
+  - IntelliJ IDEA 2026.2.1 Build #IU-262.9437.185, built on August 9, 2026
     ```
-    Source revision: 89c647576f1d2
-    Runtime version: 25.0.2+1-b329.72 amd64137.0.17-261-b65
+    Source revision: 5ced7b0cd2861
+    Runtime version: 25.0.3+9-b508.16 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
     例外報告ツール ID: 1611241559804c2-b55d-4dcd-9d23-5588708255db
+    JCEF バージョン: 144.0.15-262-b37
+    StudioFlags with current overrides:
+      LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
+      PropertyOverrides(cache.size=474):
+      MendelOverrides(MendelFlagsProvider count=0):
+      ServerFlagOverrides(No server flags are enabled.):
+      AgpReleaseBranchProvider(releasedWithAgp=true):
+        gradle.ide.use.alongside.agp=true
+      AgpTestSuitesProvider(journeysWithGeminiEnabled=false):
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
-    Memory: 2048M
+    Memory: 2048MiB
     Cores: 8
     Registry:
       ide.experimental.ui=true
       trace.state.event.service.url=https://api.jetbrains.cloud/trace-status
     Non-Bundled Plugins:
-      intellij.jupyter (261.22158.354)
-      JavaScript (261.22158.277)
-      com.intellij.java (261.22158.277)
-      org.jetbrains.completion.full.line (261.22158.277)
-      com.intellij.spring (261.22158.354)
-      Subversion (261.22158.354)
-      hg4idea (261.22158.185)
-      Dart (504.0.0)
-      PerforceDirectPlugin (261.22158.185)
-      org.jetbrains.kotlin (261.22158.277-IJ)
-      com.intellij.spring.boot (261.22158.277)
-      org.jetbrains.idea.maven (261.22158.277)
-      com.intellij.ml.llm (261.22158.366)
-      Docker (261.22158.299)
-      org.jetbrains.android (261.22158.277)
-      io.flutter (91.0.0)
-    Kotlin: 261.22158.277-IJ
+      org.jetbrains.android (262.9437.185)
+      Docker (262.9437.196)
+      Dart (508.0.0)
+      io.flutter (95.0.0)
+      org.jetbrains.completion.full.line (262.9437.185)
+      com.intellij.java (262.9437.185)
+      intellij.jupyter (262.9437.161)
+      org.jetbrains.plugins.kotlin.jupyter (262.9437.185)
+      com.intellij.mcpServer (262.9437.214)
+      com.intellij.ml.llm (262.9437.233)
+      com.intellij.notebooks.core (262.8665.270)
+      intellij.prettierJS (262.9437.195)
+      com.intellij.tasks (262.8665.173)
+      hg4idea (262.8665.173)
+      PerforceDirectPlugin (262.8665.176)
+      Subversion (262.9437.214)
+    Kotlin: 262.9437.185-IJ
     ```
+	-	Gradle 9.7.0
+	-	Kotlin 2.4.10
 - [履歴](./history/IntelliJIDEA)
 
 ###	Visual Studio Code
@@ -195,20 +206,200 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 2 | 2026.1.2 Canary 5
+    - Android Studio Quail 4 | 2026.1.4 Canary 4
+      <details>
+      <summary>
+      Build Info
+      </summary>
+
       ```
-      Build #AI-261.24374.151.2612.15561891, built on June 4, 2026
-      Runtime version: 21.0.10+-14961533-b1163.108 amd64null
+      Build #AI-261.26222.65.2614.16027044, built on August 6, 2026
+      Runtime version: 25.0.3+-15898627-b508.16 amd64null
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=500):
+        PropertyOverrides(cache.size=477):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
-        ServerFlagOverrides(No server flags are enabled.):
+        ServerFlagOverrides(Name: analytics/surveys/browser/STUDIO_PING
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: analytics/surveys/followup
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: analytics/surveys/sentiment/url
+              PercentEnabled: 100
+              Value: https://google.qualtrics.com/jfe/form/SV_4ZzP5RfbOtMwbxc
+              
+              Name: cxx/page_align_16kb
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: diagnostics/commit_timestamp
+              PercentEnabled: 50
+              Value: true
+              
+              Name: diagnostics/forced_gc
+              PercentEnabled: 50
+              Value: true
+              
+              Name: diagnostics/jfr
+              PercentEnabled: 20
+              Value: true
+              
+              Name: exceptions/ClassCastException
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/ClassNotFoundException
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-0073ff27
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-722647e2
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/PluginException-8b332315
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_372743206
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_392056649
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_412486300
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_452882570
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_458923805
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: exceptions/b_500401440
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: studio_flags/benchmark.survey.2026.enable
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/cloud.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/firebasetestlab.direct.access.monthly.quota
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/gradle.ide.enable.adv.in.signed.build.feature
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/playpolicyinsights.play.policy.insights.holdout.ratio
+              PercentEnabled: 100
+              Value: 0.5
+              
+              Name: studio_flags/rundebug.adblib.migration.ddmlib.ideviceusage.tracker
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/rundebug.install.use.pm.terminate
+              PercentEnabled: 100
+              Value: false
+              
+              Name: studio_flags/studiobot.askgemini.include.build.files.in.context
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.chat.use.compose.for.ui
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.compiler.error.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.completions.per.hour
+              PercentEnabled: 100
+              Value: 36000
+              
+              Name: studio_flags/studiobot.conversations.per.hour
+              PercentEnabled: 100
+              Value: 500
+              
+              Name: studio_flags/studiobot.current.file.context
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.dac.skills.limit
+              PercentEnabled: 100
+              Value: 0
+              
+              Name: studio_flags/studiobot.generations.per.hour
+              PercentEnabled: 100
+              Value: 3600
+              
+              Name: studio_flags/studiobot.inline.code.completion.file.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.npa.icon.image.generation.model.name
+              PercentEnabled: 100
+              Value: gemini-2.5-flash-image
+              
+              Name: studio_flags/studiobot.npa.mockup.image.generation.model.name
+              PercentEnabled: 100
+              Value: gemini-3-pro-image-preview
+              
+              Name: studio_flags/studiobot.project.facts.context.enabled
+              PercentEnabled: 100
+              Value: true
+              
+              Name: studio_flags/studiobot.show.on.first.open
+              PercentEnabled: 50
+              Value: true
+              
+              Name: studio_flags/studiobot_gias_user_tier
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: studio_flags/studiobot_push_notifications/create_with_ai_promotion_notification_CTA
+              PercentEnabled: 100
+              Value: custom proto
+              
+              Name: studio_flags/studiobot_push_notifications/notification_flag_list
+              PercentEnabled: 100
+              Value: custom proto
+              
+              ):
+          gradle.ide.enable.adv.in.signed.build.feature=true
+          rundebug.adblib.migration.ddmlib.ideviceusage.tracker=true
+          rundebug.install.use.pm.terminate=false
+          studiobot.askgemini.include.build.files.in.context=true
+          studiobot.compiler.error.context.enabled=true
+          studiobot.completions.per.hour=36000
+          studiobot.conversations.per.hour=500
+          studiobot.generations.per.hour=3600
+          studiobot.inline.code.completion.file.context.enabled=true
+          studiobot.project.facts.context.enabled=true
+          studiobot.show.on.first.open=true
         AgpReleaseBranchProvider(releasedWithAgp=true):
           gradle.ide.use.alongside.agp=true
         AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
@@ -218,16 +409,17 @@ nav: programming
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
+        gradle.phased.sync.enabled=true
         gradle.phased.sync.bridge.disabled=true
       Non-Bundled Plugins:
         Subversion (261.24374.185)
-        PerforceDirectPlugin (261.24374.185)
-        com.redhat.devtools.lsp4ij (0.19.4)
-        Dart (505.0.0)
-        io.flutter (92.0.0)
+        Dart (508.0.0)
+        PerforceDirectPlugin (261.25134.10)
+        com.redhat.devtools.lsp4ij (0.20.1)
+        io.flutter (95.0.0)
       ```
+      </details>
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
       ```
@@ -311,6 +503,12 @@ nav: programming
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Quail
+      - 2026.1.4
+        - Canary 3
+          - Android Gradle Plugin 9.3.0-alpha10 -> 9.3.1
+          - Kotlin 2.4.10
+          - Android Emulator 37.2.4
+          - Gradle 9.7.0
       - 2026.1.2
         - Canary 5
           - Android Gradle Plugin 9.3.0-alpha07 -> 9.3.0-alpha10

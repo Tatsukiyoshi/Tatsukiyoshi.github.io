@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/7/18～2026/7/31）](/digest/2026/July/2ndH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/8/1～2026/8/14）](/digest/2026/August/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,7 +17,7 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/07/21|[Build 26300.8935](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/08/02|[Build 26300.9032](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/07/30|[Tahoe 26.6](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
@@ -26,9 +26,9 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/07/30|[1.131.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/07/30|[1.13.1](https://zed.dev)
-Claude Code         | * | * | - |2026/06/15|[2.1.177](https://github.com/anthropics/claude-code)
+Visual Studio Code  | * | * | * |2026/08/13|[1.133.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/08/06|[1.14.2](https://zed.dev)
+Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
@@ -49,11 +49,11 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/05/14|Update: Visual Studio Community 2026 18.6.0 / .NET 10.0.8 / .NET 9.0.16 / .NET 8.0.27
+[.NET](/knowhow/NET)             |2026/08/13|Update: Visual Studio Community 2026 18.9.0
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
-[Kotlin](/knowhow/Kotlin)        |2026/06/06|Update: Android Studio Quail 2 Canary 5 / Kotlin 2.4.0 / Android Emulator 37.1.2
+[Kotlin](/knowhow/Kotlin)        |2026/08/14|Update: IntelliJ IDEA 2026.2.1 / Gradle 9.7.0 / Kotlin 2.4.10
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/07/31|Update: Bun 1.3.14@macOS
+[TypeScript](/knowhow/TypeScript)|2026/08/13|Update: Bun 1.3.14
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
@@ -62,10 +62,10 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[AI](/knowhow/Mcp)                     |2026/06/15|Update: Claude Code 2.1.177
+[AI](/knowhow/Mcp)                     |2026/08/14|Update: Claude Code 2.1.232
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/07/21|Update: Rancher Desktop 1.23.1
-[Documentation](/knowhow/Documentation)|-
+[Documentation](/knowhow/Documentation)|2026/07/27|Update: Blume 1.2.0
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
 Other                            |Updated   |Detail
@@ -86,12 +86,13 @@ Other                            |Updated   |Detail
 - [Reactアプリ](/design/reactApp/) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
 - [近況確認アプリ](/design/MorningStatusApp/specification) <span style="color: red;">*<<2026/02/21 fixed >>*</span>
+  - 最新は、[設計書サイト](https://morning-status-blume.vercel.app/)を参照ください
 
 ##  GitHub Pages環境
 
 Platform            |Updated
 --------------------|----------
-Astro 7.0.3         |2026/06/28
+Astro 7.2.2         |2026/08/14
 
 ---
 [ダイジェスト更新手順書](/docs/update-digest)

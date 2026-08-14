@@ -12,6 +12,7 @@ title: 2026年7月下期
 - **＜OS＞** [macOS Tahoe 26.6](https://www.apple.com/jp/os/macos/)にアップデート
 - **＜開発ツール＞** macOSで、[Zed](https://zed.dev)を1.11.3→1.12.1→1.13.1と順次更新
 - **＜TypeScript＞** macOSで、Bun 1.3.14に更新
+- **＜TypeScript＞** 近況確認アプリの開発環境で、Prisma 7.9.0に更新し、設計書サイト構築ツール[Blume 1.2.0](https://useblume.dev/)を新規導入
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -36,6 +37,13 @@ title: 2026年7月下期
 ##  【7/25】
 - **＜開発ツール＞** [Visual Studio Code 1.130.0](https://code.visualstudio.com/)に更新
 - **＜開発ツール＞** [PowerShell 7.6.3](https://github.com/PowerShell/PowerShell)に更新
+
+##  【7/26】
+- **＜TypeScript＞** 近況確認アプリの開発環境で、Prisma 7.9.0に更新
+
+##  【7/27】
+- **＜TypeScript＞** 近況確認アプリの開発環境に、設計書サイト構築ツール[Blume 1.2.0](https://useblume.dev/)を新規導入
+  - Markdownベースの設計書サイトを構築。AIエージェント向けMCPサーバを提供するが、日本語は未サポートのためページ取得のみ有効
 
 ##  【7/29】
 - **＜開発ツール＞** macOSで、[Zed 1.11.3](https://zed.dev)に更新
