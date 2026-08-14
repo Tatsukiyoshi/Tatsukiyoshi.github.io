@@ -207,6 +207,11 @@ nav: programming
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
     - Android Studio Quail 4 | 2026.1.4 Canary 4
+      <details>
+      <summary>
+      Build Info
+      </summary>
+
       ```
       Build #AI-261.26222.65.2614.16027044, built on August 6, 2026
       Runtime version: 25.0.3+-15898627-b508.16 amd64null
@@ -414,6 +419,7 @@ nav: programming
         com.redhat.devtools.lsp4ij (0.20.1)
         io.flutter (95.0.0)
       ```
+      </details>
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
       ```
