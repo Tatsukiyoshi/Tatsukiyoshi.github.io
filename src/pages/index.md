@@ -86,12 +86,13 @@ Other                            |Updated   |Detail
 - [Reactアプリ](/design/reactApp/) / [詳細検討](/design/reactApp/detail)
 - [課題整理 with Dioxus](/design/dioxusApp/system)
 - [近況確認アプリ](/design/MorningStatusApp/specification) <span style="color: red;">*<<2026/02/21 fixed >>*</span>
+  - 最新は、[設計書サイト](https://morning-status-blume.vercel.app/)を参照ください
 
 ##  GitHub Pages環境
 
 Platform            |Updated
 --------------------|----------
-Astro 7.0.3         |2026/06/28
+Astro 7.2.2         |2026/08/14
 
 ---
 [ダイジェスト更新手順書](/docs/update-digest)
