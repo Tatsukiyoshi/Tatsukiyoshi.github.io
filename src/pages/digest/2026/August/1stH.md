@@ -13,6 +13,7 @@ title: 2026年8月上期
 - **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)を18.8.2→18.8.3→18.9.0と順次更新（.NET 10.0.11 / .NET 8.0.30等も更新）
 - **＜Kotlin＞** Windowsで、[Android Studio](https://developer.android.com/studio)をQuail 2 Canary 5からQuail 4 Canary 4へ大幅アップデート（Kotlin 2.4.10 / Android Emulator 37.2.4等も更新）。[IntelliJ IDEA](https://www.jetbrains.com/ja-jp/idea/)も2026.1から2026.2.1へ大幅アップデート
 - **＜TypeScript＞** 近況確認アプリの開発環境で、設計書サイト構築ツール[Blume](https://useblume.dev/)を1.2.0から1.4.3に更新。[Bun](https://bun.sh/)も1.3.13から1.3.14に更新
+- **＜TypeScript＞** GitHub Pagesのフレームワークを[Astro 7.2.2](https://astro.build/)に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -54,6 +55,7 @@ title: 2026年8月上期
 
 ##  【8/14】
 - **＜MCP＞** Windows Insiderで、[Claude Code 2.1.232](https://github.com/anthropics/claude-code)に更新
+- **＜TypeScript＞** GitHub Pagesのフレームワークを[Astro 7.0.3](https://astro.build/)から[7.2.2](https://astro.build/)に更新
 - **＜Kotlin＞** [IntelliJ IDEA 2026.1.5](https://www.jetbrains.com/ja-jp/idea/)→[2026.2.1](https://www.jetbrains.com/ja-jp/idea/)と順次更新
   - Kotlin 2.4.10に更新。2026.1（4/6更新）からの大幅アップデート
 
