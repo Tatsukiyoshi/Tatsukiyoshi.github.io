@@ -17,7 +17,7 @@ nav: programming
 
       |Machine         |Env / FW                                           |Last Updated
       |----------------|---------------------------------------------------|----------
-      |Windows Insider |[IntelliJ IDEA 2026.1.5](#intellij-idea)           |[2026/08/14](https://www.jetbrains.com/ja-jp/idea/)
+      |Windows Insider |[IntelliJ IDEA 2026.2.1](#intellij-idea)           |[2026/08/14](https://www.jetbrains.com/ja-jp/idea/)
       |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
@@ -36,32 +36,47 @@ nav: programming
 ##  ノウハウ
 ### IntelliJ IDEA
 - Latest Version
-  - IntelliJ IDEA 2026.1.5 Build #IU-261.27258.48, built on August 12, 2026
+  - IntelliJ IDEA 2026.2.1 Build #IU-262.9437.185, built on August 9, 2026
     ```
-    Source revision: 576a087624e91
-    Runtime version: 25.0.4+1-b329.128 amd64137.0.17-261-b89
+    Source revision: 5ced7b0cd2861
+    Runtime version: 25.0.3+9-b508.16 amd64
     VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
     Toolkit: sun.awt.windows.WToolkit
     Windows 11.0
     例外報告ツール ID: 1611241559804c2-b55d-4dcd-9d23-5588708255db
+    JCEF バージョン: 144.0.15-262-b37
+    StudioFlags with current overrides:
+      LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
+      PropertyOverrides(cache.size=474):
+      MendelOverrides(MendelFlagsProvider count=0):
+      ServerFlagOverrides(No server flags are enabled.):
+      AgpReleaseBranchProvider(releasedWithAgp=true):
+        gradle.ide.use.alongside.agp=true
+      AgpTestSuitesProvider(journeysWithGeminiEnabled=false):
     GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
-    Memory: 2048M
+    Memory: 2048MiB
     Cores: 8
     Registry:
       ide.experimental.ui=true
-      llm.chat.agent.codex.install.acp.server.version=0.0.46
-      llm.chat.agent.codex.install.codex.version=0.137.0
       trace.state.event.service.url=https://api.jetbrains.cloud/trace-status
     Non-Bundled Plugins:
-      org.jetbrains.completion.full.line (261.27258.48)
-      Subversion (261.27258.54)
-      hg4idea (261.23567.28)
+      org.jetbrains.android (262.9437.185)
+      Docker (262.9437.196)
       Dart (508.0.0)
-      PerforceDirectPlugin (261.25134.10)
-      com.intellij.ml.llm (261.27258.48)
-      org.jetbrains.android (261.27258.48)
       io.flutter (95.0.0)
-    Kotlin: 261.27258.48-IJ
+      org.jetbrains.completion.full.line (262.9437.185)
+      com.intellij.java (262.9437.185)
+      intellij.jupyter (262.9437.161)
+      org.jetbrains.plugins.kotlin.jupyter (262.9437.185)
+      com.intellij.mcpServer (262.9437.214)
+      com.intellij.ml.llm (262.9437.233)
+      com.intellij.notebooks.core (262.8665.270)
+      intellij.prettierJS (262.9437.195)
+      com.intellij.tasks (262.8665.173)
+      hg4idea (262.8665.173)
+      PerforceDirectPlugin (262.8665.176)
+      Subversion (262.9437.214)
+    Kotlin: 262.9437.185-IJ
     ```
 	-	Gradle 9.7.0
 	-	Kotlin 2.4.10
