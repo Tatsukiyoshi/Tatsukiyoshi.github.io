@@ -4,6 +4,9 @@ title: Update History of IntelliJ IDEA
 nav: programming
 ---
 
+- IntelliJ IDEA 2026.2.1 Build #IU-262.9437.185, built on August 9, 2026
+	-	Gradle 9.7.0
+	-	Kotlin 2.4.10
 - IntelliJ IDEA 2026.1.5 Build #IU-261.27258.48, built on August 12, 2026
 	-	Gradle 9.7.0
 	-	Kotlin 2.4.10

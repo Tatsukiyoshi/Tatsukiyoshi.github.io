@@ -574,6 +574,12 @@ nav: environment
       - メモ帳にタブがついた！
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
 - Windows History
+  - Windows 11 25H2 Build 26200.8246 <span style="color: red;">*<<2026/04/15 auto updated from 25H2 Build 26200.7840>>*</span>
+    - アップデート(2025-10)
+      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+      - バージョン情報
+        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
+  - Windows 11 25H2 Build 26200.7840 <span style="color: red;">*<<2026/02/11 auto updated from 25H2 Build 26200.7705>>*</span>
   - Windows 11 25H2 Build 26200.7705 <span style="color: red;">*<<2026/01/30 auto updated from 25H2>>*</span>
   - Windows 11 25H2 <span style="color: red;">*<<2025/10/12 auto updated from 24H2>>*</span>
     - アップデート(2025-10)

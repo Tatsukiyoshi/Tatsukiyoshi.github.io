@@ -5,6 +5,43 @@ nav: programming
 ---
 
 ##  Tauri
+  - V2.11.0
+    - Windows on Rust 1.95.0 + Svelte 5.55.5
+      ![On Windows](/images/rust/20260501_Tauri2.11.0_Windows.png)
+    - Ubuntu 24.04.4 on WSL2
+      ![On Ubuntu 24.04.4](/images/rust/20260501_Tauri2.11.0_Ubuntu24.04.4.png)
+    - macOS 26.4.1
+      ![On macOS](/images/rust/20260501_Tauri2.11.0_macOS26.4.1.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20260501_Tauri2.11.0_ChromeOS_Flex.png)
+    - iOS 26.4 / iPhone 17 Pro
+      ![On iOS 26.4](/images/rust/20260501_Tauri2.11.0_iPhone17_Pro_iOS26.4.png)
+    - Android 37.0 / Pixel 10 Pro / Rust 1.95.0 + React 19.2.5
+      - Gradle 8.14.4 ＋ Kotlin 2.0.21の組み合わせしかない
+        ![On Android 37](/images/rust/20260501_Tauri2.11.0_Pixel_10_Pro_Android37.0.png)
+  - V2.10.3
+    - Windows on Rust 1.94.1 + Svelte 5.55.0
+      ![On Windows](/images/rust/20260328_Tauri2.10.3_Windows.png)
+    - Ubuntu 24.04.4 on WSL2
+      ![On Ubuntu 24.04.4](/images/rust/20260328_Tauri2.10.3_Ubuntu24.04.4.png)
+    - macOS 26.4
+      ![On macOS](/images/rust/20260328_Tauri2.10.3_macOS26.4.png)
+    - macOS 26.3.1
+      ![On macOS](/images/rust/20260328_Tauri2.10.3_macOS26.3.1.png)
+    - ChromeOS Flex
+      ![On ChromeOS Flex](/images/rust/20260328_Tauri2.10.3_ChromeOS_Flex.png)
+    - iOS 26.4 / iPhone 17 Pro
+      ![On iOS 26.4](/images/rust/20260328_Tauri2.10.3_iPhone17_Pro_iOS26.4.png)
+    - iOS 26.3.1 / iPhone 17 Pro
+      ![On iOS 26.3.1](/images/rust/20260316_Tauri2.10.3_iPhone17_Pro_iOS26.3.1.png)
+    - Android 36.0 / Pixel 9 Pro / Rust 1.94.1 + React 19.2.4
+      - Gradle 8.14.4 ＋ Kotlin 2.0.21の組み合わせしかない
+        ![On Android 36](/images/rust/20260328_Tauri2.10.3_Pixel_9_Pro_Android36.1.png)
+  - V2.10.2
+    - macOS 26.3
+      ![On macOS](/images/rust/20260228_Tauri2.10.2_macOS26.3.png)
+    - iOS 26.2 / iPhone 17 Pro
+      ![On iOS 26.2](/images/rust/20260228_Tauri2.10.2_iPhone17_Pro_iOS26.2.png)
   - V2.9.5
     - Windows on Rust 1.92 + Svelte 5.46.0
       ![On Windows](/images/rust/20251221_Tauri2.9.5_Windows.png)

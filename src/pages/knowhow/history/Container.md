@@ -5,6 +5,12 @@ nav: programming
 ---
 
 ##  履歴
+- Rancher Desktop 1.23.1 <span style="color: red;">**Updated 2026/07/21 from 1.22.3**</span>
+
+- Rancher Desktop 1.22.3 <span style="color: red;">**Updated 2026/05/16 from 1.22.0**</span>
+
+- Rancher Desktop 1.22.0 <span style="color: red;">**Updated 2026/01/28 from 1.21.0**</span>
+
 - Rancher Desktop 1.21.0 <span style="color: red;">**Updated 2025/12/26 from 1.20.1**</span>
 
 - Rancher Desktop 1.20.1 <span style="color: red;">**Updated 2025/11/01 from 1.20.0**</span>
