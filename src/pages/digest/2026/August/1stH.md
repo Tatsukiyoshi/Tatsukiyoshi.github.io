@@ -8,6 +8,7 @@ title: 2026年8月上期
 
 ## リスキリング
 - **＜OS＞** Windows Insiderで、[Windows 11 Insider Experimental Preview Build 26300.9032 (Feature Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/)にアップデート。容量不足のためVisual Studio 2026をアンインストールして領域確保
+- **＜OS＞** [macOS Tahoe 26.6.1](https://www.apple.com/jp/os/macos/)にアップデート
 - **＜開発ツール＞** Windowsで、[Zed](https://zed.dev/windows)を1.13.1→1.13.2→1.14.2と順次更新。[Visual Studio Code](https://code.visualstudio.com/)も1.132.1→1.133.0と順次更新
 - **＜MCP＞** Windows Insiderで、[Claude Code](https://github.com/anthropics/claude-code)を2.1.177から2.1.232へ大幅アップデート
 - **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)を18.8.2→18.8.3→18.9.0と順次更新（.NET 10.0.11 / .NET 8.0.30等も更新）
@@ -39,6 +40,9 @@ title: 2026年8月上期
 
 ##  【8/6】
 - **＜開発ツール＞** Windowsで、[Zed 1.14.2](https://zed.dev/windows)に更新
+
+##  【8/8】
+- **＜OS＞** [macOS Tahoe 26.6.1](https://www.apple.com/jp/os/macos/)にアップデート
 
 ##  【8/12】
 - **＜開発ツール＞** [Visual Studio Code 1.132.1](https://code.visualstudio.com/)に更新

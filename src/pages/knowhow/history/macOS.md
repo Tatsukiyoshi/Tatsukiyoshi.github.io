@@ -5,6 +5,26 @@ nav: main
 ---
 
 - Update History
+  - [Tahoe 26.6.1](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/08/08 updated from Tahoe 26.6>>*</span>
+    - アップデート完了
+      ![Updated](/images/macOS/20260808_macOS_Tahoe26.6.1_Updated.png)
+    - バージョン情報
+      ![Tahoe 26.6](/images/macOS/20260808_macOS_Tahoe26.6.1.png)
+  - [Tahoe 26.6](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/07/30 updated from Tahoe 26.5.2>>*</span>
+    - アップデート完了
+      ![Updated](/images/macOS/20260730_macOS_Tahoe26.6_Updated.png)
+    - バージョン情報
+      ![Tahoe 26.6](/images/macOS/20260730_macOS_Tahoe26.6.png)
+  - [Tahoe 26.5.2](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/07/01 updated from Tahoe 26.5.1>>*</span>
+    - ソフトウェアアップデート
+      ![Update Check](/images/macOS/20260701_macOS_Tahoe26.5.2Update.png)
+    - アップデート完了
+      ![Updated](/images/macOS/20260701_macOS_Tahoe26.5.2Updated.png)
+    - バージョン情報
+      ![Tahoe 26.5.2](/images/macOS/20260701_macOS_Tahoe26.5.2.png)
   - [Tahoe 26.5.1](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2026/06/06 updated from Tahoe 26.5>>*</span>
     - ソフトウェアアップデート
