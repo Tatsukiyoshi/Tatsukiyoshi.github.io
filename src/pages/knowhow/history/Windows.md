@@ -4,12 +4,22 @@ title: Update Historys
 nav: environment
 ---
 - Windows Insider History
+  - Windows 11 Insider Experimental Preview Build (Build 26340)
+    - [Build 26340.9212 (Feature Update)](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/) <span style="color: red;">*<<2026/08/18 updated from Build 26300.9032 >>*</span>
+      ![Quality Update](/images/Windows/20260818_WindowsUpdate_Experimental.png)
+      ![Quality Update](/images/Windows/20260818_WindowsUpdate_Experimental2.png)
+      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
+        ![Version Information](/images/Windows/20260818_Windows11_Build26340.png)
   - Windows 11 Insider Experimental Preview Build (Build 26300)
     - [Build 26300.9032 (Feature Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/) <span style="color: red;">*<<2026/08/02 updated from Build 26300.8935 >>*</span>
       ![Quality Update](/images/Windows/20260801_WindowsUpdate_Experimental.png)
       - **容量不足**のため、Visual Studio 2026をアンインストールして**領域確保**
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260802_Windows11_Build26300.png)
+    - 旧バージョンを削除しますか？が復活（確かにWindwos.oldフォルダがある！）
+      ![Windows.old](/images/Windows/20260803_WindowsOld_Folder.png)
+      - 実際、削除しようとすると、項目数がプロパティでの表示と食い違っている（削除に時間かかるので、放置したら削除でき、空き容量がぐっと増えた！）
+      ![Deleting Windows.old](/images/Windows/20260803_WindowsOld_Folder_ToRecycled.png)
     - [Certificate Renewal](https://learn.microsoft.com/en-us/answers/questions/5940858/windows-insider-preview-certificate-renewal-expira)
       ![Expired](/images/Windows/20260801_WindowsBuild_Expired.png)
     - [Build 26300.8935 (Quality Update)](https://blogs.windows.com/windows-insider/2026/07/20/announcing-new-builds-for-20-july-2026/) <span style="color: red;">*<<2026/07/21 updated from Build 26300.8772 >>*</span>
