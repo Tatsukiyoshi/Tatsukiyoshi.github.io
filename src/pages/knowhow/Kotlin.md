@@ -21,11 +21,11 @@ nav: programming
       |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Quail 4 Canary 4](#AndroidStudio)  |[2026/08/13](https://developer.android.com/studio)
+      |                |[Android Studio Rabbit 1 Canary 1](#AndroidStudio) |[2026/08/19](https://developer.android.com/studio)
       |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Platform 37.0.1                      |2026/08/13
-      |                |- Android SDK Command-line Tools v.22              |2026/08/13
-      |                |- Android Emulator v.37.2.4                        |2026/08/13
+      |                |- Android SDK Command-line Tools 23.0              |2026/08/19
+      |                |- Android Emulator v.37.2.5                        |2026/08/19
 
   1. macOS Sequoia 15.6.1
 
@@ -206,220 +206,38 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Quail 4 | 2026.1.4 Canary 4
-      <details>
-      <summary>
-      Build Info
-      </summary>
-
+    - Android Studio Rabbit 1 | 2026.2.1 Canary 1
       ```
-      Build #AI-261.26222.65.2614.16027044, built on August 6, 2026
-      Runtime version: 25.0.3+-15898627-b508.16 amd64null
+      Build #AI-262.9437.185.2621.16076543, built on August 13, 2026
+      Runtime version: 25.0.3+-15898627-b508.16 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=477):
+        PropertyOverrides(cache.size=480):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
-        ServerFlagOverrides(Name: analytics/surveys/browser/STUDIO_PING
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: analytics/surveys/followup
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: analytics/surveys/sentiment/url
-              PercentEnabled: 100
-              Value: https://google.qualtrics.com/jfe/form/SV_4ZzP5RfbOtMwbxc
-              
-              Name: cxx/page_align_16kb
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: diagnostics/commit_timestamp
-              PercentEnabled: 50
-              Value: true
-              
-              Name: diagnostics/forced_gc
-              PercentEnabled: 50
-              Value: true
-              
-              Name: diagnostics/jfr
-              PercentEnabled: 20
-              Value: true
-              
-              Name: exceptions/ClassCastException
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/ClassNotFoundException
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/PluginException-0073ff27
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/PluginException-722647e2
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/PluginException-8b332315
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_372743206
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_392056649
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_412486300
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_452882570
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_458923805
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: exceptions/b_500401440
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: studio_flags/benchmark.survey.2026.enable
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/cloud.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/firebasetestlab.direct.access.monthly.quota
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/gradle.ide.enable.adv.in.signed.build.feature
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/playpolicyinsights.play.policy.insights.holdout.ratio
-              PercentEnabled: 100
-              Value: 0.5
-              
-              Name: studio_flags/rundebug.adblib.migration.ddmlib.ideviceusage.tracker
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/rundebug.install.use.pm.terminate
-              PercentEnabled: 100
-              Value: false
-              
-              Name: studio_flags/studiobot.askgemini.include.build.files.in.context
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.chat.use.compose.for.ui
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.compiler.error.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.completions.per.hour
-              PercentEnabled: 100
-              Value: 36000
-              
-              Name: studio_flags/studiobot.conversations.per.hour
-              PercentEnabled: 100
-              Value: 500
-              
-              Name: studio_flags/studiobot.current.file.context
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.dac.skills.limit
-              PercentEnabled: 100
-              Value: 0
-              
-              Name: studio_flags/studiobot.generations.per.hour
-              PercentEnabled: 100
-              Value: 3600
-              
-              Name: studio_flags/studiobot.inline.code.completion.file.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.npa.icon.image.generation.model.name
-              PercentEnabled: 100
-              Value: gemini-2.5-flash-image
-              
-              Name: studio_flags/studiobot.npa.mockup.image.generation.model.name
-              PercentEnabled: 100
-              Value: gemini-3-pro-image-preview
-              
-              Name: studio_flags/studiobot.project.facts.context.enabled
-              PercentEnabled: 100
-              Value: true
-              
-              Name: studio_flags/studiobot.show.on.first.open
-              PercentEnabled: 50
-              Value: true
-              
-              Name: studio_flags/studiobot_gias_user_tier
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: studio_flags/studiobot_push_notifications/create_with_ai_promotion_notification_CTA
-              PercentEnabled: 100
-              Value: custom proto
-              
-              Name: studio_flags/studiobot_push_notifications/notification_flag_list
-              PercentEnabled: 100
-              Value: custom proto
-              
-              ):
-          gradle.ide.enable.adv.in.signed.build.feature=true
-          rundebug.adblib.migration.ddmlib.ideviceusage.tracker=true
-          rundebug.install.use.pm.terminate=false
-          studiobot.askgemini.include.build.files.in.context=true
-          studiobot.compiler.error.context.enabled=true
-          studiobot.completions.per.hour=36000
-          studiobot.conversations.per.hour=500
-          studiobot.generations.per.hour=3600
-          studiobot.inline.code.completion.file.context.enabled=true
-          studiobot.project.facts.context.enabled=true
-          studiobot.show.on.first.open=true
+        ServerFlagOverrides(No server flags are enabled.):
         AgpReleaseBranchProvider(releasedWithAgp=true):
           gradle.ide.use.alongside.agp=true
         AgpTestSuitesProvider(journeysWithGeminiEnabled=true):
           agp.test.suites.enabled=true
       GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
-      Memory: 2048M
+      Memory: 2048MiB
       Cores: 8
       Registry:
         ide.experimental.ui=true
-        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
         gradle.phased.sync.enabled=true
         gradle.phased.sync.bridge.disabled=true
+        com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Subversion (261.24374.185)
         Dart (508.0.0)
-        PerforceDirectPlugin (261.25134.10)
-        com.redhat.devtools.lsp4ij (0.20.1)
         io.flutter (95.0.0)
+        com.redhat.devtools.lsp4ij (0.20.1)
+        Subversion (262.9437.214)
       ```
-      </details>
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
       ```
