@@ -27,7 +27,7 @@ Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
 Visual Studio Code  | * | * | * |2026/08/19|[1.134.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/08/19|[1.15.1](https://zed.dev)
+Zed                 | * | * | - |2026/08/20|[1.16.1](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
