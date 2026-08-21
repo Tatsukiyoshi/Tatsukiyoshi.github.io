@@ -19,7 +19,7 @@ Platform                    |Updated   |Detail
 ----------------------------|----------|--------
 Windows Insider             |2026/08/18|[Build 26340.9212](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/08/08|[Tahoe 26.6.1](https://www.apple.com/jp/os/macos/)
+macOS                       |2026/08/21|[Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
