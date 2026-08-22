@@ -26,7 +26,7 @@ nav: programming
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.14](#bun)                 |[2026/08/13](https://bun.sh/)
+      |                |        |[Bun 1.4.0](#bun)                  |[2026/08/22](https://bun.sh/)
       |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -99,15 +99,15 @@ nav: programming
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Blume 1.4.3         |[2026/08/12](https://useblume.dev/)
-    |                |- Bun 1.3.14        |2026/08/13
+    |Windows Insider |Blume 1.5.1         |[2026/08/17](https://useblume.dev/)
+    |                |- Bun 1.4.0         |2026/08/22
 
   - アプリケーション本体
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
     |Windows Insider |Next.js 16.3.0      |2026/08/04
-    |                |- Bun 1.3.14        |2026/08/13
+    |                |- Bun 1.4.0         |2026/08/22
     |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
