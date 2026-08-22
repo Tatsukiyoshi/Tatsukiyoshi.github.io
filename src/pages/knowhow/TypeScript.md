@@ -83,7 +83,7 @@ nav: programming
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.3.14               |2026/07/31
+      |           |        |Bun 1.4.0                |2026/08/22
       |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
@@ -125,6 +125,7 @@ nav: programming
     YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
     TikTok      | [RapidAPI](https://rapidapi.com/)
     X(Twitter)  | [TwitterAPI](https://www.twitterapi.io)
+    Geocoding   | [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/guides-v3/overview?hl=ja)
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
