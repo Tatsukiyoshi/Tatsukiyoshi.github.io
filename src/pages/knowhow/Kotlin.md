@@ -21,7 +21,7 @@ nav: programming
       |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Rabbit 1 Canary 1](#AndroidStudio) |[2026/08/19](https://developer.android.com/studio)
+      |                |[c](#AndroidStudio) |[2026/08/22](https://developer.android.com/studio)
       |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Platform 37.0.1                      |2026/08/13
       |                |- Android SDK Command-line Tools 23.0              |2026/08/19
@@ -206,9 +206,9 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Rabbit 1 | 2026.2.1 Canary 1
+    - Android Studio Rabbit 1 | 2026.2.1 Canary 2
       ```
-      Build #AI-262.9437.185.2621.16076543, built on August 13, 2026
+      Build #AI-262.9437.185.2621.16128175, built on August 20, 2026
       Runtime version: 25.0.3+-15898627-b508.16 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
@@ -216,7 +216,7 @@ nav: programming
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=480):
+        PropertyOverrides(cache.size=481):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -233,10 +233,10 @@ nav: programming
         gradle.phased.sync.bridge.disabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
       Non-Bundled Plugins:
-        Dart (508.0.0)
+        Dart (508.1.0)
         io.flutter (95.0.0)
         com.redhat.devtools.lsp4ij (0.20.1)
-        Subversion (262.9437.214)
+        Subversion (262.9437.286)
       ```
   - macOS
     - Android Studio Narwhal 3 Feature Drop | 2025.1.3
