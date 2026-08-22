@@ -5,17 +5,17 @@ nav: environment
 ---
 - Windows Insider History
   - Windows 11 Insider Experimental Preview Build (Build 26340)
-    - [Build 26340.9233 (Feature Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
+    - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
       ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260822_Windows11_Build26340.png)
     - [Build 26340.9212 (Feature Update)](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/) <span style="color: red;">*<<2026/08/18 updated from Build 26300.9032 >>*</span>
-      ![Quality Update](/images/Windows/20260818_WindowsUpdate_Experimental.png)
-      ![Quality Update](/images/Windows/20260818_WindowsUpdate_Experimental2.png)
+      ![Feature Update](/images/Windows/20260818_WindowsUpdate_Experimental.png)
+      ![Feature Update](/images/Windows/20260818_WindowsUpdate_Experimental2.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260818_Windows11_Build26340.png)
   - Windows 11 Insider Experimental Preview Build (Build 26300)
-    - [Build 26300.9032 (Feature Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/) <span style="color: red;">*<<2026/08/02 updated from Build 26300.8935 >>*</span>
+    - [Build 26300.9032 (Quality Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/) <span style="color: red;">*<<2026/08/02 updated from Build 26300.8935 >>*</span>
       ![Quality Update](/images/Windows/20260801_WindowsUpdate_Experimental.png)
       - **容量不足**のため、Visual Studio 2026をアンインストールして**領域確保**
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活

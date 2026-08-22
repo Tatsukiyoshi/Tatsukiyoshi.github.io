@@ -40,7 +40,7 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental Preview Build (Build 26340)
-    - [Build 26340.9233 (Feature Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
+    - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
       ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
         ![Version Information](/images/Windows/20260822_Windows11_Build26340.png)
