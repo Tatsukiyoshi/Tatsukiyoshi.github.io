@@ -106,7 +106,7 @@ nav: programming
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Next.js 16.3.0      |2026/08/04
+    |Windows Insider |Next.js 16.3.2      |2026/08/23
     |                |- Bun 1.4.0         |2026/08/22
     |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
