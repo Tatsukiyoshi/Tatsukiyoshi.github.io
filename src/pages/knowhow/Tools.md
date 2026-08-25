@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.15.0](https://zed.dev) <span style="color: red;">*<<2026/08/15 updated from 1.13.2>>*</span>
+    - [Zed 1.16.2](https://zed.dev) <span style="color: red;">*<<2026/08/15 updated from 1.15.0>>*</span>
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
