@@ -8,9 +8,9 @@ title: 2026年8月下期
 
 ## リスキリング
 - **＜OS＞** [ChromeOS Flex 151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)、[macOS Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)にアップデート。Windows Insiderも[Build 26340.9212](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/)→[26340.9233](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/)と順次更新
-- **＜開発ツール＞** macOSで[Zed 1.15.0](https://zed.dev)に更新。Windowsでも[Zed](https://zed.dev/windows)を1.15.1→1.16.1と更新し、[Visual Studio Code 1.134.0](https://code.visualstudio.com/)・[PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)にも更新
-- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をQuail 4 Canary 4からRabbit 1 Canary 1へ更新
-- **＜TypeScript＞** 近況確認アプリの開発環境で、[Blume 1.5.1](https://useblume.dev/)に更新。[Bun](https://bun.sh/)もWindows Insider・macOSともに1.4.0に更新
+- **＜開発ツール＞** [Zed](https://zed.dev)がWindows・macOSともに活発に更新（macOS: 1.15.0→1.17.2、Windows: 1.15.1→1.16.3）。[Visual Studio Code 1.134.0](https://code.visualstudio.com/)・[PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)にも更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をQuail 4 Canary 4からRabbit 1 Canary 2へ順次更新
+- **＜TypeScript＞** 近況確認アプリの開発環境で、[Blume 1.5.1](https://useblume.dev/)に更新。[Bun](https://bun.sh/)もWindows Insider・macOSともに1.4.0に更新。[Next.js](https://nextjs.org/)も16.3.0から16.3.2に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -18,6 +18,7 @@ title: 2026年8月下期
 ## 近況確認アプリ
 - v9.16.4〜v9.19.0: メンバー詳細画面の近況履歴・最新の近況表示を改善し、過去投稿の新着誤表示・Amebaブログ投稿日時保存の不具合を修正。後半はTikTok新着投稿セクションへのアカウント別見出し追加、TikTok公式アカウント（モーニング娘。公式・ミニモちゃん）向け詳細画面の新設を実施
 - v9.20.0〜v9.22.6: メンバー詳細・新着投稿セクションのSNS表示順を新着順に統一し、新着投稿は公式/現役/OGの3ブロック構成へ再編。フェス・ツアーの登録一括バッチを新設したほか、都道府県別公演画面のフェスリンク不具合修正、デスクトップアプリ同梱Bunバイナリの更新（macOS起動不具合の修正含む）等を実施
+- v9.23.0〜v9.24.2: TikTok・YouTube収集ワークフローを統合し実行時刻を後ろ倒し。Next.js 16.3.2への更新、過去のこの日データ取得のキャッシュ化、ハイフン・波ダッシュ表記ゆれによる誤紐づけ修正を実施。後半はデスクトップモードでの会場・日時訂正/セットリスト編集機能を追加し、再ビルド後の古いバージョン表示不具合・launcher.exe異常終了時の孤児プロセス化不具合を修正
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -51,8 +52,18 @@ title: 2026年8月下期
 - **＜OS＞** [macOS Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)にアップデート
 
 ##  【8/22】
-- **＜OS＞** Windows Insiderで、[Windows 11 Insider Experimental Preview Build 26340.9233 (Feature Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/)にアップデート
+- **＜OS＞** Windows Insiderで、[Windows 11 Insider Experimental Preview Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/)にアップデート
 - **＜TypeScript＞** Windows Insiderで、[Bun 1.4.0](https://bun.sh/)に更新。macOSでも、Bunを1.3.14から[1.4.0](https://bun.sh/)に更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をRabbit 1 Canary 1からRabbit 1 Canary 2へ更新
+
+##  【8/23】
+- **＜TypeScript＞** Windows Insiderで、[Next.js 16.3.2](https://nextjs.org/)に更新
+
+##  【8/25】
+- **＜開発ツール＞** macOSで、[Zed 1.16.2](https://zed.dev)に更新
+
+##  【8/27】
+- **＜開発ツール＞** Windowsで、[Zed 1.16.3](https://zed.dev/windows)に更新。macOSでも、Zedを1.16.2から[1.17.2](https://zed.dev)に更新
 
 ## 営業日報システム
 
@@ -84,3 +95,14 @@ title: 2026年8月下期
 - v9.22.4: 都道府県別公演画面のフェス一覧リンク修正時に検出した、フェスの自動採番IDが不正な形式になっていた既存データを是正するパッチスクリプトを追加（#1538, 8/22）
 - v9.22.5: トップページ「過去のこの日」セクションで、ライブの時刻が0:00の場合も表示されていた不具合を修正（#1531, 8/22）
 - v9.22.6: macOSデスクトップアプリ起動時、同梱Bunバイナリのパス解決に失敗しNext.jsサーバーへ接続できない不具合を修正（#1535, 8/22）
+
+### v9.23.0〜v9.23.3
+- v9.23.0: TikTok・YouTubeの投稿収集を公式/OGそれぞれ1本のワークフローに統合。あわせて収集系ワークフロー全体の実行時刻を、投稿時刻の実態調査に基づき23時開始へ後ろ倒し（従来は投稿のピーク帯より前に収集していたため翌日への持ち越しが多かった）（#1546, 8/22）
+- v9.23.1: Next.js を 16.3.2 へ更新（バグ修正のみのパッチリリース）（#1540, 8/23）
+- v9.23.2: トップページで「新着投稿」セクションが「過去のこの日」セクションより先に表示されてしまう不具合を修正。「過去のこの日」のデータ取得にキャッシュが効いておらず毎回データベースへ問い合わせていたことが原因で、タイムラインページの年一覧取得もあわせて高速化（#1551, 8/23）
+- v9.23.3: ハイフン・波ダッシュの表記ゆれにより、ラジオオンエア曲・TikTok投稿がシングルではなく後発のライブアルバム等に誤って紐づく不具合を修正。曲名マッチングの正規化処理をラジオ・YouTube・セットリスト・TikTokで共通化（#1552, 8/24）
+
+### v9.24.0〜v9.24.2
+- v9.24.0: デスクトップモードでの会場・日時訂正、セットリスト編集機能を追加。ライブ・フェス詳細画面で公演の会場・日時を訂正でき、同画面に埋め込まれたセットリスト編集で楽曲の追加・削除・順序変更が可能（#1522, 8/25）
+- v9.24.1: デスクトップモードで再ビルド・再インストールしても古いバージョンの画面が表示される不具合を修正。Next.jsサーバーの子プロセス残留とWebViewのHTTPキャッシュ残留が原因（#1561, 8/26）
+- v9.24.2: デスクトップアプリ（Windows）でランチャーが異常終了した際、Electrobunランタイム本体の孤児プロセス化とそれに伴うゾンビウィンドウの残留、インストーラの上書き失敗が起こりうる不具合を修正（#1563, 8/27）
