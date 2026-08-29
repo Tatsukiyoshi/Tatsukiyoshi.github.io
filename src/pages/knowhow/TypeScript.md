@@ -112,8 +112,7 @@ nav: programming
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
     |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
-    |                |- Inno Setup 7.0.2  |[2026/07/25](https://jrsoftware.org/)
-    |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
+    |                |- Electrobun 2.0.1  |[2026/08/27](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
 
@@ -131,6 +130,7 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - Electrobun 2.0.1にバージョンアップしたことにより、実行方式がへんこうになったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
     - Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
     - 関係性マップ
       ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
