@@ -32,11 +32,14 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.16.3](https://zed.dev/windows) <span style="color: red;">*<<2026/08/27 updated from 1.16.1>>*</span>
+    - [Zed 1.17.2](https://zed.dev/windows) <span style="color: red;">*<<2026/08/29 updated from 1.16.3>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
     - [Zed 1.17.2](https://zed.dev) <span style="color: red;">*<<2026/08/27 updated from 1.16.3>>*</span>
+  - 解消されたバグ
+    - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
+      - 直近の1.17.2で解消された模様
   - 既知の未修正バグ
     - 現象
 
