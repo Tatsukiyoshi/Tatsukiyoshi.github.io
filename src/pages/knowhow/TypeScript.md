@@ -26,7 +26,7 @@ nav: programming
       |                |        |[Bun 1.2.4](#bun)                  |[2025/03/01](https://bun.sh/)
       |                |        |Vite 6.2.1                         |[2025/03/08](https://vitejs.dev/)
       |Windows Insider |Common  |Node.js 24.1.0                     |[2025/06/01](https://nodejs.org/en)
-      |                |        |[Bun 1.3.14](#bun)                 |[2026/08/13](https://bun.sh/)
+      |                |        |[Bun 1.4.0](#bun)                  |[2026/08/22](https://bun.sh/)
       |                |        |Vite 7.3.1                         |[2026/01/23](https://vitejs.dev/)
       |                |Library |[TypeORM 0.3.26](#typeorm)         |[2025/08/24](https://typeorm.io/)
       |                |        |[Prisma 6.16.2](#prisma)           |[2025/09/25](https://www.prisma.io/)
@@ -83,7 +83,7 @@ nav: programming
       |-----------|--------|-------------------------|----------
       |macOS      |Common  |Node.js 22.15.0          |2025/04/26
       |           |        |- nodebrew 1.2.0         |2025/04/26
-      |           |        |Bun 1.3.14               |2026/07/31
+      |           |        |Bun 1.4.0                |2026/08/22
       |           |Mobile  |[Lynx 3.4.1](#lynx)      |[2025/09/09](https://lynxjs.org)
       |           |        |- Bun 1.2.21             |2025/08/30
       |           |        |React Native 0.81.4      |[2025/09/11](https://reactnative.dev/)
@@ -99,21 +99,20 @@ nav: programming
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Blume 1.4.3         |[2026/08/12](https://useblume.dev/)
-    |                |- Bun 1.3.14        |2026/08/13
+    |Windows Insider |Blume 1.5.1         |[2026/08/17](https://useblume.dev/)
+    |                |- Bun 1.4.0         |2026/08/22
 
   - アプリケーション本体
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Next.js 16.3.0      |2026/08/04
-    |                |- Bun 1.3.14        |2026/08/13
+    |Windows Insider |Next.js 16.3.2      |2026/08/23
+    |                |- Bun 1.4.0         |2026/08/22
     |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
     |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
-    |                |- Inno Setup 7.0.2  |[2026/07/25](https://jrsoftware.org/)
-    |                |- Electrobun 1.18.1 |[2026/05/08](https://github.com/blackboardsh/electrobun)
+    |                |- Electrobun 2.0.1  |[2026/08/27](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
 
@@ -125,11 +124,13 @@ nav: programming
     YouTube     | [YouTube API](https://developers.google.com/youtube/v3?hl=ja)
     TikTok      | [RapidAPI](https://rapidapi.com/)
     X(Twitter)  | [TwitterAPI](https://www.twitterapi.io)
+    Geocoding   | [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/guides-v3/overview?hl=ja)
 
   - アイコン
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - Electrobun 2.0.1にバージョンアップしたことにより、実行方式が変更になったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
     - Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
     - 関係性マップ
       ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)

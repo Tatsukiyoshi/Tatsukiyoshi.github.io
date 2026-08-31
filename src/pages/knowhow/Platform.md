@@ -39,18 +39,11 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
-  - Windows 11 Insider Experimental Preview Build (Build 26300)
-    - [Build 26300.9032 (Feature Update)](https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/) <span style="color: red;">*<<2026/08/02 updated from Build 26300.8935 >>*</span>
-      ![Quality Update](/images/Windows/20260801_WindowsUpdate_Experimental.png)
-      - **容量不足**のため、Visual Studio 2026をアンインストールして**領域確保**
+  - Windows 11 Insider Experimental Preview Build (Build 26340)
+    - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
+      ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
       - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260802_Windows11_Build26300.png)
-    - 旧バージョンを削除しますか？が復活（確かにWindwos.oldフォルダがある！）
-      ![Windows.old](/images/Windows/20260803_WindowsOld_Folder.png)
-      - 実際、削除しようとすると、項目数がプロパティでの表示と食い違っている（削除に時間かかるので、放置したら削除でき、空き容量がぐっと増えた！）
-      ![Deleting Windows.old](/images/Windows/20260803_WindowsOld_Folder_ToRecycled.png)
-    - [Certificate Renewal](https://learn.microsoft.com/en-us/answers/questions/5940858/windows-insider-preview-certificate-renewal-expira)
-      ![Expired](/images/Windows/20260801_WindowsBuild_Expired.png)
+        ![Version Information](/images/Windows/20260822_Windows11_Build26340.png)
     - Two Copilots in System Tray Became the Search Bar!
       - Before
         ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
@@ -161,21 +154,21 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
-  - [Tahoe 26.6](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/07/30 updated from Tahoe 26.5.2>>*</span>
+  - [Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/08/21 updated from Tahoe 26.6.1>>*</span>
     - アップデート完了
-      ![Updated](/images/macOS/20260730_macOS_Tahoe26.6_Updated.png)
+      ![Updated](/images/macOS/20260821_macOS_Tahoe26.6.2_Updated.png)
     - バージョン情報
-      ![Tahoe 26.6](/images/macOS/20260730_macOS_Tahoe26.6.png)
+      ![Tahoe 26.6.2](/images/macOS/20260821_macOS_Tahoe26.6.2.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
 ##  [ChromeOS Flex](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)<a id="ChromeOSFlex"></a> ([履歴](./history/Chrome))
-  - バージョン 148.0.7778.214 <span style="color: red;">*<<2026/05/29 updated from 147.0.7727.142>>*</span>
-    - 148系にアップデート
-      ![ChromeOS Flexバージョン情報](/images/Chrome/20260529_ChromeOS_Flex_148.0.7778.214.png)
+  - バージョン 151.0.7922.141 <span style="color: red;">*<<2026/08/16 updated from 148.0.7778.214>>*</span>
+    - 151系にアップデート
+      ![ChromeOS Flexバージョン情報](/images/Chrome/20260816_ChromeOS_Flex_151.0.7922.141.png)
         - 更新中
-          ![Updating](/images/Chrome/20260529_ChromeOS_Flex_Updating148.0.7778.214.png)
+          ![Updating](/images/Chrome/20260816_ChromeOS_Flex_Updating151.0.7922.141.png)
 
         <details>
         <summary>
@@ -198,7 +191,7 @@ OS                                 |Hardware            |Language
 
       - ロック画面の温度表示
         ![Weather](/images/Chrome/20260112_ChromeOS_Flex_Weather.png)
-      - Debian 12.14 <span style="color: red;">*<<2026/05/29 updated from 12.13>>*</span>
+      - Debian 12.15 <span style="color: red;">*<<2026/08/16 updated from 12.14>>*</span>
         ```
         cat /etc/debian_version
         ```

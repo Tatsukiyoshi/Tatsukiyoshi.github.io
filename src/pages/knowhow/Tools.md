@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.133.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/08/13 updated from 1.132.1>>*</span>
+- [Visual Studio Code 1.135.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/08/28 updated from 1.134.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,11 +32,100 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.14.2](https://zed.dev/windows) <span style="color: red;">*<<2026/08/06 updated from 1.13.2>>*</span>
+    - [Zed 1.17.2](https://zed.dev/windows) <span style="color: red;">*<<2026/08/29 updated from 1.16.3>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.13.2](https://zed.dev) <span style="color: red;">*<<2026/08/04 updated from 1.13.1>>*</span>
+    - [Zed 1.17.2](https://zed.dev) <span style="color: red;">*<<2026/08/27 updated from 1.16.3>>*</span>
+  - 解消されたバグ
+    - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
+      - 直近の1.17.2で解消された模様
+  - 既知の未修正バグ
+    - 現象
+
+      Zed利用中にアプリが異常終了（クラッシュ）する
+
+      再起動後、Agent Panelでスレッドを開く（または新規スレッド作成）と Resource not found エラーが発生し、応答なしになる
+
+      新しいスレッドを作っても同じ現象が再発することがある
+
+      ログ（zed: open log で確認可能）には以下のような行が出る
+
+      ```
+      ERROR [gpui::app] timed out waiting on app_will_quit
+      ...
+      WARN  [agent_servers::acp] agent stderr: [session/query] sessionId=<uuid> resume=<uuid> apiType=native baseUrl=native
+      ```
+    - 原因
+
+      Zedの「Claude」Agent Panelは agent_servers.claude-acp（agentclientprotocol/claude-agent-acp パッケージ、Zedのregistry経由）を使っている。これはあくまでCLI/SDKバックエンドを叩く正規のアダプタであり、「native接続だから壊れる」わけではない（apiType=native は認証方式を示すだけで、正常に動くセッションでも同じ表示になる）。
+
+      実際の原因は claude-agent-acp 側の未解決の既知バグ。Zedクラッシュ→アダプタのワーカープロセスも道連れで異常終了→再起動時にワーカーが実体のない新しいセッションIDでresumeしようとし、Resource not found を返し続ける、という挙動。
+
+    - 関連する既知Issue（agentclientprotocol/claude-agent-acp）
+      #906 conversation_reset drops new_conversation_id, causing stale session resume after worker restart — Open。ワーカー再起動後に古い/実体のないセッションIDでresumeしてしまう。今回の直接原因と推測。
+      #1011 Orphaned claude subprocess children accumulate under a long-lived agent across repeated session/load resumes — Open。resumeを繰り返すと孤立サブプロセスが溜まる。
+      #1019 Resuming a native claude --session-id conversation silently completes without its history instead of loading it or failing — Open。resumeが履歴なしで“成功”してしまう類似症状。
+      #363 fix: throw resourceNotFound when loadSession fails to resume — Closed。「Resource not found」というエラー文言自体は、resume失敗時に意図的に投げる設計であることが確認できる。
+      #338 Claude CLI subprocess death leaves session permanently broken — Closed。クラッシュでサブプロセスが死ぬとセッションが恒久的に壊れる、という過去の類似バグ（一部修正済み）。
+
+    - Zed本体側の関連Issue:
+      - zed-industries/zed #50304 Claude Code Agent Panel Has Frequent Errors and Bugs in Recent Update
+      - zed-industries/zed #54327 Claude Agent inaccessible
+      - zed-industries/zed #50807 claude-acp agent server not registered after every Zed restart
+
+      設定（settings.json の agent_servers）側で回避できる項目は見当たらない。アダプタのアップデートで直る可能性はあるが、2026-08-27時点では未修正。
+
+    - 対応策
+      1. 壊れたスレッドをZedの内部DBでアーカイブする（自動resumeループを止める）
+      Zedはスレッド履歴を %LOCALAPPDATA%\Zed\db\0-stable\db.sqlite の sidebar_threads テーブルで管理している。壊れたセッションを archived = 1 にすると、Zedがそれを再度開こうとしなくなる。
+
+          手順:
+
+          - Zedを完全に終了する（プロセスが残っていないか Get-Process -Name "Zed*" で確認）
+
+          - DBをバックアップする（.sqlite 本体に加えて -wal / -shm ファイルも一式コピーしておく）
+
+            ```sh
+            Copy-Item "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite"     "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite.bak-YYYYMMDD"
+            Copy-Item "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite-wal" "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite-wal.bak-YYYYMMDD"
+            Copy-Item "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite-shm" "$env:LOCALAPPDATA\Zed\db\0-stable\db.sqlite-shm.bak-YYYYMMDD"
+            ```
+
+          - 該当スレッドを確認・アーカイブする（sqlite3 CLIが必要）
+
+            ```sh
+            # 直近の未アーカイブスレッド一覧を確認
+            sqlite3 -separator "|" "C:/Users/<user>/AppData/Local/Zed/db/0-stable/db.sqlite" \
+            "SELECT session_id, title, updated_at, archived FROM sidebar_threads WHERE archived = 0 ORDER BY updated_at DESC LIMIT 5;"
+
+            # 壊れているセッションIDをアーカイブ
+            sqlite3 "C:/Users/<user>/AppData/Local/Zed/db/0-stable/db.sqlite" \
+            "UPDATE sidebar_threads SET archived = 1 WHERE session_id = '<壊れたsession_id>';"
+            ```
+
+            Zedを再起動し、直近の未アーカイブスレッドが正常なもの（実体のある .jsonl を持つセッション）になっているか確認する
+
+        1. ターミナルからClaude Code CLIで直接resumeする（確実な復旧手段）
+
+            Zed経由の復旧が失敗する場合、Zedを介さず claude コマンドで直接resumeするのが最も確実。
+
+            ```sh
+            # 必ず該当プロジェクトのディレクトリに移動してから実行する
+            # （--resume はカレントディレクトリに紐づくプロジェクト単位でセッションを探すため）
+            cd <対象プロジェクトのディレクトリ>
+            claude --resume <session-id>
+            ```
+            セッションの実体ファイルは ~/.claude/projects/<プロジェクトディレクトリ名>/<session-id>.jsonl にある
+            ファイルが存在し、末尾が正常に完結した形（途中で切れていない）であれば、まず復旧できる
+            違うディレクトリで実行すると No conversation found with session ID: ... になるので注意
+            resume成功後、「これまでの作業内容を要約して」のように聞いてみると、文脈が正しく読み込まれているか確認できる
+            起動時に「Try the new fullscreen renderer?」と聞かれることがあるが、これはCLIのUI機能案内で本題とは無関係（2. Not now で進めてよい）
+
+        1. その他の気づき
+
+            CLIから直接 claude を使うと、アカウント連携しているスマートフォン（Claudeアプリ）に通知が飛ぶことがある（セッションの origin.kind が task-notification の場合）。Zed/VSCode埋め込みのAgent Panel経由では通知は来ない。不要なら端末側の通知設定でオフにできる。
+
   - New Claude LLM "Fable 5"
     ![Fable 5](/images/Zed/20260610_Zed_Claude_Fable.png)
   - Claude Agent Integration
@@ -116,7 +205,7 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  Windows <a id="Windows"></a>
-- [PowerShell 7.6.3](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/07/25 updated from 7.6.1>>*</span>
+- [PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/08/18 updated from 7.6.3>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget

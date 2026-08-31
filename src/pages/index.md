@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/8/1～2026/8/14）](/digest/2026/August/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/8/14～2026/8/31）](/digest/2026/August/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,22 +17,22 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/08/02|[Build 26300.9032](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/08/22|[Build 26340.9233](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/07/30|[Tahoe 26.6](https://www.apple.com/jp/os/macos/)
-ChromeOS Flex               |2026/05/29|[148.0.7778.214](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
+macOS                       |2026/08/21|[Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)
+ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/08/13|[1.133.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/08/06|[1.14.2](https://zed.dev)
+Visual Studio Code  | * | * | * |2026/08/28|[1.135.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/08/27|[1.17.2](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
-PowerShell          | * |   |   |2026/07/25|[7.6.3](https://github.com/PowerShell/PowerShell)
+PowerShell          | * |   |   |2026/08/18|[7.6.5](https://github.com/PowerShell/PowerShell)
 GitHub Desktop      | * |   |   |2025/06/18|[3.5.0](https://desktop.github.com/release-notes/)
 Claude Desktop      | * |   |   |2026/01/30|[1.1.1520](https://claude.com/)
 mise                | * |   |   |2026/01/24|[2026.1.6](https://mise.jdx.dev/)
@@ -49,11 +49,11 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/08/13|Update: Visual Studio Community 2026 18.9.0
+[.NET](/knowhow/NET)             |2026/08/30|Update: Visual Studio Community 2026 18.9.2
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
-[Kotlin](/knowhow/Kotlin)        |2026/08/14|Update: IntelliJ IDEA 2026.2.1 / Gradle 9.7.0 / Kotlin 2.4.10
+[Kotlin](/knowhow/Kotlin)        |2026/08/30|Update: Android Studio Rabbit 1 Canary 3
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/08/13|Update: Bun 1.3.14
+[TypeScript](/knowhow/TypeScript)|2026/08/27|Update: Electrobun 2.0.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0

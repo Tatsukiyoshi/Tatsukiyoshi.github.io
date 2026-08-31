@@ -3,6 +3,13 @@ layout: ../../../layouts/KnowhowLayout.astro
 title: Update History of ChromeOS Flex
 nav: main
 ---
+
+- バージョン 151.0.7922.141 <span style="color: red;">*<<2026/08/16 updated from 148.0.7778.214>>*</span>
+  - 151系にアップデート
+    ![ChromeOS Flexバージョン情報](/images/Chrome/20260816_ChromeOS_Flex_151.0.7922.141.png)
+      - 更新中
+        ![Updating](/images/Chrome/20260816_ChromeOS_Flex_Updating151.0.7922.141.png)
+  - Debian 12.15 <span style="color: red;">*<<2026/08/16 updated from 12.14>>*</span>
 - バージョン 148.0.7778.214 <span style="color: red;">*<<2026/05/29 updated from 147.0.7727.142>>*</span>
   - 148系にアップデート
     ![ChromeOS Flexバージョン情報](/images/Chrome/20260529_ChromeOS_Flex_148.0.7778.214.png)
