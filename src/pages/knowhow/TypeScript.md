@@ -130,7 +130,7 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
-    - Electrobun 2.0.1にバージョンアップしたことにより、実行方式がへんこうになったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
+    - Electrobun 2.0.1にバージョンアップしたことにより、実行方式が変更になったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
     - Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
     - 関係性マップ
       ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)

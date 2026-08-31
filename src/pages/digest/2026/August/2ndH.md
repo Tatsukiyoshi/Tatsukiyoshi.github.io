@@ -8,9 +8,10 @@ title: 2026年8月下期
 
 ## リスキリング
 - **＜OS＞** [ChromeOS Flex 151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)、[macOS Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)にアップデート。Windows Insiderも[Build 26340.9212](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/)→[26340.9233](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/)と順次更新
-- **＜開発ツール＞** [Zed](https://zed.dev)がWindows・macOSともに活発に更新（macOS: 1.15.0→1.17.2、Windows: 1.15.1→1.16.3）。[Visual Studio Code 1.134.0](https://code.visualstudio.com/)・[PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)にも更新
-- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をQuail 4 Canary 4からRabbit 1 Canary 2へ順次更新
-- **＜TypeScript＞** 近況確認アプリの開発環境で、[Blume 1.5.1](https://useblume.dev/)に更新。[Bun](https://bun.sh/)もWindows Insider・macOSともに1.4.0に更新。[Next.js](https://nextjs.org/)も16.3.0から16.3.2に更新
+- **＜開発ツール＞** [Zed](https://zed.dev)がWindows・macOSともに活発に更新（macOS: 1.15.0→1.17.2、Windows: 1.15.1→1.17.2）。クラッシュ後にAgent Panelが応答不能になる既知バグの原因調査も実施。[Visual Studio Code 1.135.0](https://code.visualstudio.com/)・[PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)にも更新
+- **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026 18.9.2](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をQuail 4 Canary 4からRabbit 1 Canary 3へ順次更新
+- **＜TypeScript＞** 近況確認アプリの開発環境で、[Blume 1.5.1](https://useblume.dev/)・[Electrobun 2.0.1](https://github.com/blackboardsh/electrobun)に更新。[Bun](https://bun.sh/)もWindows Insider・macOSともに1.4.0に更新。[Next.js](https://nextjs.org/)も16.3.0から16.3.2に更新
 
 ## 営業日報システム
 - 対象期間中の更新なし
@@ -19,6 +20,8 @@ title: 2026年8月下期
 - v9.16.4〜v9.19.0: メンバー詳細画面の近況履歴・最新の近況表示を改善し、過去投稿の新着誤表示・Amebaブログ投稿日時保存の不具合を修正。後半はTikTok新着投稿セクションへのアカウント別見出し追加、TikTok公式アカウント（モーニング娘。公式・ミニモちゃん）向け詳細画面の新設を実施
 - v9.20.0〜v9.22.6: メンバー詳細・新着投稿セクションのSNS表示順を新着順に統一し、新着投稿は公式/現役/OGの3ブロック構成へ再編。フェス・ツアーの登録一括バッチを新設したほか、都道府県別公演画面のフェスリンク不具合修正、デスクトップアプリ同梱Bunバイナリの更新（macOS起動不具合の修正含む）等を実施
 - v9.23.0〜v9.24.2: TikTok・YouTube収集ワークフローを統合し実行時刻を後ろ倒し。Next.js 16.3.2への更新、過去のこの日データ取得のキャッシュ化、ハイフン・波ダッシュ表記ゆれによる誤紐づけ修正を実施。後半はデスクトップモードでの会場・日時訂正/セットリスト編集機能を追加し、再ビルド後の古いバージョン表示不具合・launcher.exe異常終了時の孤児プロセス化不具合を修正
+- v9.25.0〜v9.26.4: デスクトップアプリ（Windows）のビルド基盤をElectrobun 2.0.1に更新しアイコン埋め込み不具合を修正。ラジオオンエア曲・セットリストの楽曲登録用フォーマットを統一し、1曲が複数トラックに該当しうるケースに対応。後半はscripts/配下を型チェック対象に追加し、検出された型不備・アルバム曲の誤紐づけ不具合を順次修正
+- v9.27.0: 手動イベント登録が会場（venueName）・楽曲（songs）指定に対応。会場はジオコーディングで自動解決、楽曲はトラックへ自動紐付け
 
 詳細は、[GitHub](https://tatsukiyoshi.github.io/)を参照ください
 
@@ -64,6 +67,20 @@ title: 2026年8月下期
 
 ##  【8/27】
 - **＜開発ツール＞** Windowsで、[Zed 1.16.3](https://zed.dev/windows)に更新。macOSでも、Zedを1.16.2から[1.17.2](https://zed.dev)に更新
+- **＜TypeScript＞** 近況確認アプリの開発環境で、[Electrobun 2.0.1](https://github.com/blackboardsh/electrobun)に更新
+  - 実行方式の変更に加え、インストーラが独自インストーラに変更となったためInno Setupが不要に
+
+##  【8/28】
+- **＜開発ツール＞** [Visual Studio Code 1.135.0](https://code.visualstudio.com/)に更新
+- **＜開発ツール＞** Zedのクラッシュ後にAgent Panelが「Resource not found」で応答不能になる既知バグを調査。原因はclaude-agent-acp側の未解決Issue（ワーカー再起動後に実体のないセッションIDでresumeしてしまう挙動）と特定
+
+##  【8/29】
+- **＜開発ツール＞** Windowsで、[Zed 1.17.2](https://zed.dev/windows)に更新
+
+##  【8/30】
+- **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026 18.9.2](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
+- **＜Kotlin＞** Windows Insiderで、[Android Studio](https://developer.android.com/studio)をRabbit 1 Canary 2からRabbit 1 Canary 3へ更新
+  - Android Emulator v.37.2.6に更新
 
 ## 営業日報システム
 
@@ -106,3 +123,16 @@ title: 2026年8月下期
 - v9.24.0: デスクトップモードでの会場・日時訂正、セットリスト編集機能を追加。ライブ・フェス詳細画面で公演の会場・日時を訂正でき、同画面に埋め込まれたセットリスト編集で楽曲の追加・削除・順序変更が可能（#1522, 8/25）
 - v9.24.1: デスクトップモードで再ビルド・再インストールしても古いバージョンの画面が表示される不具合を修正。Next.jsサーバーの子プロセス残留とWebViewのHTTPキャッシュ残留が原因（#1561, 8/26）
 - v9.24.2: デスクトップアプリ（Windows）でランチャーが異常終了した際、Electrobunランタイム本体の孤児プロセス化とそれに伴うゾンビウィンドウの残留、インストーラの上書き失敗が起こりうる不具合を修正（#1563, 8/27）
+
+### v9.25.0
+- v9.25.0: デスクトップアプリ（Windows）のビルド基盤をElectrobun 2.0.1に更新。実行ファイル・インストーラへのアイコン埋め込みが失敗する不具合を修正し、インストーラの表示言語を日本語から英語に変更（#1548, 8/28）
+
+### v9.26.0〜v9.26.4
+- v9.26.0: ラジオオンエア曲・セットリストの楽曲登録用フォーマットを統一。入力JSONのフィールド名をsongTitle・seqに統一し共有スキーマ化。同一タイトルのCD盤・配信版シングル等、1曲が複数トラックに正しく該当しうるケースに対応（該当する全トラックへの紐付け・複数リンク表示）（#1529, #1558, 8/29）
+- v9.26.1: 本番データを操作するscripts/配下を型チェックの対象に追加。これまで型チェックの対象外だったため長期間気づかれずにいた型不備を今後の変更で早期検出できる体制を整備（#1572, 8/30）
+- v9.26.2: scripts/配下の型エラー23件を修正（#1573, 8/30）
+- v9.26.3: scripts/配下テストのモック・フィクスチャの型不備56件を修正。テストの実行結果に変更はなく、型チェックの正確性が向上（#1574, 8/30）
+- v9.26.4: ラジオオンエア曲の楽曲紐づけで、アルバム曲が複数のライブアルバム等に誤って紐づく不具合を修正（#1575, 8/30）
+
+### v9.27.0
+- v9.27.0: 手動イベント登録が会場（`venueName`）・楽曲（`songs`）指定に対応。会場はジオコーディングで自動解決、楽曲はトラックへ自動紐付け（#1533, 8/31）
