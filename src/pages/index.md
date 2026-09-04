@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/8/14～2026/8/31）](/digest/2026/August/2ndH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/9/1～2026/9/14）](/digest/2026/September/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -26,8 +26,8 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/08/28|[1.135.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/08/27|[1.17.2](https://zed.dev)
+Visual Studio Code  | * | * | * |2026/09/04|[1.136.1](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/09/05|[1.18.1](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
