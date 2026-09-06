@@ -39,19 +39,12 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
-  - Windows 11 Insider Experimental Preview Build (Build 26340)
-    - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
-      ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
-      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260822_Windows11_Build26340.png)
-    - Two Copilots in System Tray Became the Search Bar!
-      - Before
-        ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
-      - After
-        ![SearchBar](/images/Windows/20260331_SearchBar.png)
-    - Updated to Windows Insider Dev Channel
-      - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-        ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+  - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
+    - [Build 29648.1000](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/) <span style="color: red;">*<<2026/09/06 updated from Build 26340.9233 >>*</span>
+      ![Windows Update](/images/Windows/20260906_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20260906_Windows11_Build29648.png)
+      - 26H2に採用されたタスクバーの配置がなくなっている（下固定）
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 

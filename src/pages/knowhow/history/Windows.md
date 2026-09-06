@@ -4,6 +4,12 @@ title: Update Historys
 nav: environment
 ---
 - Windows Insider History
+  - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
+    - [Build 29648.1000](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/) <span style="color: red;">*<<2026/09/06 updated from Build 26340.9233 >>*</span>
+      ![Windows Update](/images/Windows/20260906_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20260906_Windows11_Build29648.png)
+      - 26H2に採用されたタスクバーの配置がなくなっている（下固定）
   - Windows 11 Insider Experimental Preview Build (Build 26340)
     - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
       ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
