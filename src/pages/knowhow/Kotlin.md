@@ -21,11 +21,11 @@ nav: programming
       |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Rabbit 1 Canary 3](#AndroidStudio) |[2026/08/30](https://developer.android.com/studio)
+      |                |[Android Studio Rabbit 1 Canary 4](#AndroidStudio) |[2026/09/06](https://developer.android.com/studio)
       |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Platform 37.0.1                      |2026/08/13
       |                |- Android SDK Command-line Tools 23.0              |2026/08/19
-      |                |- Android Emulator v.37.2.6                        |2026/08/30
+      |                |- Android Emulator v.37.2.7                        |2026/09/06
 
   1. macOS Sequoia 15.6.1
 
@@ -322,6 +322,9 @@ nav: programming
   - 対応履歴
     - Rabbit
       - 2026.2.1
+        - Canary 4
+          - Android Gradle Plugin 9.3.2 -> 9.4.0
+          - Android Emulator 37.2.7
         - Canary 3
           - Android Gradle Plugin 9.3.1 -> 9.3.2
           - Android Emulator 37.2.6
