@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.136.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/09/04 updated from 1.135.0>>*</span>
+- [Visual Studio Code 1.137.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/09/10 updated from 1.136.1>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.18.0](https://zed.dev) <span style="color: red;">*<<2026/09/04 updated from 1.17.2>>*</span>
+    - [Zed 1.19.2](https://zed.dev) <span style="color: red;">*<<2026/09/10 updated from 1.18.0>>*</span>
   - 解消されたバグ
     - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
       - 直近の1.17.2で解消された模様
