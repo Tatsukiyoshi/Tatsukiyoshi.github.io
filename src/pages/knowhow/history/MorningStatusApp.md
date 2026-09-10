@@ -4,6 +4,11 @@ title: History of Morning Status App
 nav: programming
 ---
 
+- 秋ツアー開始時にファイナル公演が告知された
+  ![Final](/images/MorningStatusApp/20260906_Heartful11List.png)
+  ![FirstDay](/images/MorningStatusApp/20260906_Heartful11.png)
+- Electrobun 2.0.1にバージョンアップしたことにより、実行方式が変更になったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
+- Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
 - 関係性マップ
   ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
 - 過去のこの日
