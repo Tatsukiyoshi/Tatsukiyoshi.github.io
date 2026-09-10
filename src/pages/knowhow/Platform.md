@@ -40,11 +40,11 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
-    - [Build 29648.1000](https://blogs.windows.com/windows-insider/2026/08/17/announcing-new-builds-for-17-august-2026/) <span style="color: red;">*<<2026/09/06 updated from Build 26340.9233 >>*</span>
-      ![Windows Update](/images/Windows/20260906_WindowsUpdate_ExperimentalFuture.png)
+    - [Build 29661.1000](https://blogs.windows.com/windows-insider/2026/09/08/announcing-new-builds-for-8-september-2026/) <span style="color: red;">*<<2026/09/10 updated from Build 29648.1000 >>*</span>
+      ![Windows Update](/images/Windows/20260910_WindowsUpdate_ExperimentalFuture.png)
       - ウォーターマーク（右下のバージョン情報）
-        ![Version Information](/images/Windows/20260906_Windows11_Build29648.png)
-      - 26H2に採用されたタスクバーの配置がなくなっている（下固定）
+        ![Version Information](/images/Windows/20260910_Windows11_Build29661.png)
+      - 26H2に採用されたタスクバーの配置が反映されている（配置は上）
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
