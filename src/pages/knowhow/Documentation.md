@@ -15,10 +15,9 @@ nav: programming
 
 ##  ノウハウ
   - 設計書サイト構築 Blume
-    - Blume 1.2.0 <span style="color: red;">*<<2026/07/27 updated >>*</span>
+    - Blume 1.6.6 <span style="color: red;">*<<2026/09/14 updated >>*</span>
     - Markdownベースの設計書サイトの構築
     - AIエージェント向けMCPサーバ提供
-      - 現状、日本語は未サポートのため、ページ取得しか有効ではない（Claude調査結果）
   - TeX
     - [TeX Live 2023](https://www.tug.org/texlive/) 
     - [LaTeX Workshopって何？](https://qiita.com/moinslut/items/bc1d1b1e13cb38377406)

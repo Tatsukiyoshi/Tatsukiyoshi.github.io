@@ -99,7 +99,7 @@ nav: programming
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Blume 1.5.1         |[2026/08/17](https://useblume.dev/)
+    |Windows Insider |Blume 1.6.6         |[2026/09/14](https://useblume.dev/)
     |                |- Bun 1.4.0         |2026/08/22
 
   - アプリケーション本体
