@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/9/1～2026/9/14）](/digest/2026/September/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/9/15～）](/digest/2026/September/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
