@@ -99,16 +99,17 @@ nav: programming
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Blume 1.5.1         |[2026/08/17](https://useblume.dev/)
+    |Windows Insider |Blume 1.6.6         |[2026/09/14](https://useblume.dev/)
     |                |- Bun 1.4.0         |2026/08/22
 
   - アプリケーション本体
 
     |Machine         |Env / FW            |Last Updated
     |----------------|--------------------|----------
-    |Windows Insider |Next.js 16.3.2      |2026/08/23
+    |Windows Insider |Next.js 16.3.3      |2026/09/11
     |                |- Bun 1.4.0         |2026/08/22
     |                |- Prisma 7.9.0      |[2026/07/26](https://www.prisma.io/)
+    |                |- React 19.3.0      |[2026/09/11](https://react.dev/)
     |                |- leaflet 5.0.0     |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1    |[2026/04/25](https://recharts.github.io/)
     |                |- React Flow 12.11.1|[2026/06/27](https://reactflow.dev/)
@@ -130,10 +131,9 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
-    - Electrobun 2.0.1にバージョンアップしたことにより、実行方式が変更になったことに加え、インストーラが独自インストーラに変更となったため、Inno Setupは不要になった（アイコンも無事コーヒーカップを埋め込めた）
-    - Neon DatabaseのAzureリージョン廃止に伴い、AWSリージョンへ移行
-    - 関係性マップ
-      ![RelationsMap](/images/MorningStatusApp/20260628_MorningStatusApp_RelationsMap_Filtering.png)
+    - 秋ツアー開始時にファイナル公演が告知された
+      ![Final](/images/MorningStatusApp/20260906_Heartful11List.png)
+      ![FirstDay](/images/MorningStatusApp/20260906_Heartful11.png)
 
 ##  ノウハウ
 ### TypeScript

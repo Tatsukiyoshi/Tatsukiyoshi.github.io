@@ -39,19 +39,11 @@ OS                                 |Hardware            |Language
   ![Version Information](/images/Windows/20250318_OmniBookX_WindowsVersion.png)
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
-  - Windows 11 Insider Experimental Preview Build (Build 26340)
-    - [Build 26340.9233 (Quality Update)](https://blogs.windows.com/windows-insider/2026/08/21/announcing-new-builds-for-21-august-2026/) <span style="color: red;">*<<2026/08/22 updated from Build 26340.9212 >>*</span>
-      ![Quality Update](/images/Windows/20260822_WindowsUpdate_Experimental.png)
-      - ウォーターマーク（右下のバージョン情報）がBuild 26300から復活
-        ![Version Information](/images/Windows/20260822_Windows11_Build26340.png)
-    - Two Copilots in System Tray Became the Search Bar!
-      - Before
-        ![Two Copilots](/images/Windows/20260221_Copilot_Duplicate.png)
-      - After
-        ![SearchBar](/images/Windows/20260331_SearchBar.png)
-    - Updated to Windows Insider Dev Channel
-      - Windows 11 24H2 <span style="color: red;">*<<2024/11/14 setup>>*</span>
-        ![Version Information](/images/Windows/20241114_OmniBookUF_WindowsVersion.png)
+  - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
+    - [Build 29667.1000](https://blogs.windows.com/windows-insider/2026/09/11/announcing-new-builds-for-11-september-2026/) <span style="color: red;">*<<2026/09/12 updated from Build 29661.1000 >>*</span>
+      ![Windows Update](/images/Windows/20260912_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20260912_Windows11_Build29667.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -154,12 +146,14 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
-  - [Tahoe 26.6.2](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/08/21 updated from Tahoe 26.6.1>>*</span>
-    - アップデート完了
-      ![Updated](/images/macOS/20260821_macOS_Tahoe26.6.2_Updated.png)
+  - [Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/09/15 updated from Tahoe 26.6.2>>*</span>
+    - アップグレード
+      ![Upgrade](/images/macOS/20260915_macOS_Golden_Gate27.0Upgrade.png)
     - バージョン情報
-      ![Tahoe 26.6.2](/images/macOS/20260821_macOS_Tahoe26.6.2.png)
+      ![Golden Gate 27.0](/images/macOS/20260915_macOS_Golden_Gate27.0.png)
+    - 壁紙
+      ![WallPaper](/images/macOS/20260915_macOS_Golden_Gate27.0WallPaper.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
