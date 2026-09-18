@@ -20,13 +20,13 @@ nav: programming
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.9.2               |[2026/08/30](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  |                |- .NET 10.0.11                                    |[2026/08/13](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |Windows Insider |Visual Studio Community 2026 18.10.0              |[2026/09/11](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |                |- .NET 10.0.12                                    |[2026/09/11](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.90](#maui)                         |[2026/08/02](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |                |- .NET 8.0.30                                     |2026/08/13
+  |                |- .NET 8.0.31                                     |2026/09/11
   |Windows         |Visual Studio Community 2022 17.14.30             |[2026/04/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](./history/VisualStudio)
@@ -505,39 +505,39 @@ nav: programming
 
     ```
     .NET SDK:
-    Version:           10.0.400
-    Commit:            14fbf8d527
+    Version:           10.0.401
+    Commit:            e34a38d2ae
     Workload version:  10.0.400.1
-    MSBuild version:   18.9.6+14fbf8d52
+    MSBuild version:   18.9.11+e34a38d2a
 
     ランタイム環境:
     OS Name:     Windows
-    OS Version:  10.0.26340
+    OS Version:  10.0.29667
     OS Platform: Windows
     RID:         win-x64
-    Base Path:   C:\Program Files\dotnet\sdk\10.0.400\
+    Base Path:   C:\Program Files\dotnet\sdk\10.0.401\
 
     インストール済みの .NET ワークロード:
     [android]
-      インストール ソース: SDK 10.0.400, VS 18.9.12120.119
+      インストール ソース: SDK 10.0.400, VS 18.10.12201.205
       マニフェストのバージョン:    36.1.69/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.69\WorkloadManifest.json
       インストールの種類:              Msi
 
     [ios]
-      インストール ソース: SDK 10.0.400, VS 18.9.12120.119
+      インストール ソース: SDK 10.0.400, VS 18.10.12201.205
       マニフェストのバージョン:    26.5.10315/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.5.10315\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maccatalyst]
-      インストール ソース: SDK 10.0.400, VS 18.9.12120.119
+      インストール ソース: SDK 10.0.400, VS 18.10.12201.205
       マニフェストのバージョン:    26.5.10315/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.5.10315\WorkloadManifest.json
       インストールの種類:              Msi
 
     [maui-windows]
-      インストール ソース: SDK 10.0.400, VS 18.9.12120.119
+      インストール ソース: SDK 10.0.400, VS 18.10.12201.205
       マニフェストのバージョン:    10.0.20/10.0.100
       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.20\WorkloadManifest.json
       インストールの種類:              Msi
@@ -545,21 +545,21 @@ nav: programming
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
 
     Host:
-      Version:      10.0.11
+      Version:      10.0.12
       Architecture: x64
-      Commit:       e2f47b0110
+      Commit:       95017c711e
 
     .NET SDKs installed:
       10.0.100-rc.1.25451.107 [C:\Program Files\dotnet\sdk]
-      10.0.400 [C:\Program Files\dotnet\sdk]
+      10.0.401 [C:\Program Files\dotnet\sdk]
 
     .NET runtimes installed:
-      Microsoft.AspNetCore.App 8.0.30 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.AspNetCore.App 10.0.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.NETCore.App 8.0.30 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.NETCore.App 10.0.11 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.WindowsDesktop.App 8.0.30 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-      Microsoft.WindowsDesktop.App 10.0.11 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.AspNetCore.App 8.0.31 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 10.0.12 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.NETCore.App 8.0.31 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 10.0.12 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.WindowsDesktop.App 8.0.31 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 10.0.12 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
 
     Other architectures found:
       x86   [C:\Program Files (x86)\dotnet]
