@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/9/1～2026/9/14）](/digest/2026/September/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/9/15～）](/digest/2026/September/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,7 +17,7 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/09/12|[Build 29667.1000](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/09/19|[Build 29671.1000](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/09/15|[Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
@@ -26,8 +26,8 @@ Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/downlo
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/09/10|[1.137.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/09/10|[1.19.2](https://zed.dev)
+Visual Studio Code  | * | * | * |2026/09/17|[1.138.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/09/17|[1.20.2](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
@@ -49,11 +49,11 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/08/30|Update: Visual Studio Community 2026 18.9.2
+[.NET](/knowhow/NET)             |2026/09/11|Update: Visual Studio Community 2026 18.10.0
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/09/06|Update: Android Studio Rabbit 1 Canary 4
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/09/14|Update: Blume 1.6.6
+[TypeScript](/knowhow/TypeScript)|2026/09/17|Add: @TanStack/React-Query 5.103.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
@@ -65,7 +65,7 @@ Common                                 |Updated   |Detail
 [AI](/knowhow/Mcp)                     |2026/08/14|Update: Claude Code 2.1.232
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/07/21|Update: Rancher Desktop 1.23.1
-[Documentation](/knowhow/Documentation)|2026/09/14|Update: Blume 1.6.6
+[Documentation](/knowhow/Documentation)|2026/09/16|Update: Blume 1.7.0
 [Exercism](/knowhow/Exercism)          |2024/08/03|tournament@Rust
 
 Other                            |Updated   |Detail
