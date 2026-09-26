@@ -112,6 +112,7 @@ nav: programming
     |                |- React 19.3.0        |[2026/09/11](https://react.dev/)
     |                |- tanstack/           |[2026/09/17](https://tanstack.com/)
     |                |  react-query 5.103.1 |
+    |                |- @pandacss/dev 1.12.1|[2026/09/27](https://github.com/chakra-ui/panda)
     |                |- leaflet 5.0.0       |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1      |[2026/04/25](https://recharts.github.io/)
     |                |- React Flow 12.11.1  |[2026/06/27](https://reactflow.dev/)
