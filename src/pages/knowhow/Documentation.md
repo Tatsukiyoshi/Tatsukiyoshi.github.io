@@ -15,7 +15,7 @@ nav: programming
 
 ##  ノウハウ
   - 設計書サイト構築 Blume
-    - Blume 1.6.6 <span style="color: red;">*<<2026/09/14 updated >>*</span>
+    - Blume 1.7.1 <span style="color: red;">*<<2026/09/19 updated from 1.7.0>>*</span>
     - Markdownベースの設計書サイトの構築
     - AIエージェント向けMCPサーバ提供
   - TeX

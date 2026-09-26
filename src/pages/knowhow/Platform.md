@@ -40,10 +40,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
-    - [Build 29667.1000](https://blogs.windows.com/windows-insider/2026/09/11/announcing-new-builds-for-11-september-2026/) <span style="color: red;">*<<2026/09/12 updated from Build 29661.1000 >>*</span>
-      ![Windows Update](/images/Windows/20260912_WindowsUpdate_ExperimentalFuture.png)
+    - [Build 29671.1000](https://blogs.windows.com/windows-insider/2026/09/18/announcing-new-builds-for-18-september-2026/) <span style="color: red;">*<<2026/09/19 updated from Build 29667.1000 >>*</span>
+      ![Windows Update](/images/Windows/20260919_WindowsUpdate_ExperimentalFuture.png)
       - ウォーターマーク（右下のバージョン情報）
-        ![Version Information](/images/Windows/20260912_Windows11_Build29667.png)
+        ![Version Information](/images/Windows/20260919_Windows11_Build29671.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
@@ -232,38 +232,8 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
-  ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
-
-    <details>
-    <summary>
-    System Details
-    </summary>
-
-    ```
-    # System Details Report
-    ---
-
-    ## Report details
-    - **Date generated:**                              2026-04-23 19:57:42
-
-    ## Hardware Information:
-    - **Hardware Model:**                              ASUSTeK COMPUTER INC. T103HAF
-    - **Memory:**                                      4.0 GiB
-    - **Processor:**                                   Intel® Atom™ x5-Z8350  × 4
-    - **Graphics:**                                    Intel® HD Graphics (CHV)
-    - **Disk Capacity:**                               125.1 GB
-
-    ## Software Information:
-    - **Firmware Version:**                            T103HAF.307
-    - **OS Name:**                                     Ubuntu 26.04 LTS
-    - **OS Build:**                                    (null)
-    - **OS Type:**                                     64-bit
-    - **GNOME Version:**                               49
-    - **Windowing System:**                            Wayland
-    - **Kernel Version:**                              Linux 7.0.0-14-generic
-    ```
-    </details>
+- [Ubuntu Desktop 26.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
+    ![Discover](/images/Ubuntu/20260926_Discover.png)
 
     <details>
     <summary>
@@ -271,10 +241,10 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    PRETTY_NAME="Ubuntu 26.04 LTS"
+    RETTY_NAME="Ubuntu 26.04.1 LTS"
     NAME="Ubuntu"
     VERSION_ID="26.04"
-    VERSION="26.04 (Resolute Raccoon)"
+    VERSION="26.04.1 LTS (Resolute Raccoon)"
     VERSION_CODENAME=resolute
     ID=ubuntu
     ID_LIKE=debian
@@ -285,17 +255,15 @@ OS                                 |Hardware            |Language
     UBUNTU_CODENAME=resolute
     LOGO=ubuntu-logo
     ```
-
     </details>
 
+    ![Kubuntu Information](/images/Ubuntu/20260926_Kubuntu.png)
   - カーネルバージョン
-    - 7.0.0-14-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/04/23 Updated from 7.0.0-12>>*</span>
+    - 7.0.0-34-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/09/26 Updated from 7.0.0-14>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
-  - KDE Plasma 6.6.4 <span style="color: red;">*<<2026/04/23 Updated from 6.4.5>>*</span>
-    ![Updated](/images/Ubuntu/20260423_Plasma6.6_Updated.png)
-    ![Information](/images/Ubuntu/20260424_Plasma_6.6.4.png)
+  - KDE Plasma 6.6.6 <span style="color: red;">*<<2026/09/26 Updated from 6.6.4>>*</span>
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
