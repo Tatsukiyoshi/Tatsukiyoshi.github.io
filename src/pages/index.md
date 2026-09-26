@@ -21,12 +21,12 @@ Windows Insider             |2026/09/19|[Build 29671.1000](https://blogs.windows
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/09/15|[Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-Ubuntu Desktop              |2026/04/23|[26.04 LTS](https://jp.ubuntu.com/download)
+Ubuntu Desktop              |2026/09/26|[26.04.1 LTS](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/09/17|[1.138.0](https://code.visualstudio.com/)
+Visual Studio Code  | * | * | * |2026/09/26|[1.139.1](https://code.visualstudio.com/)
 Zed                 | * | * | - |2026/09/24|[1.21.0](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)

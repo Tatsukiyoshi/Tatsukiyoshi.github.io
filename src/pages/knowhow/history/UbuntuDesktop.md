@@ -5,6 +5,38 @@ nav: environment
 ---
 
 ##  Ubuntu Desktop
+- [Ubuntu Desktop 26.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
+    ![Discover](/images/Ubuntu/20260926_Discover.png)
+
+    <details>
+    <summary>
+    ディストリビューション・バージョン情報
+    </summary>
+
+    ```
+    RETTY_NAME="Ubuntu 26.04.1 LTS"
+    NAME="Ubuntu"
+    VERSION_ID="26.04"
+    VERSION="26.04.1 LTS (Resolute Raccoon)"
+    VERSION_CODENAME=resolute
+    ID=ubuntu
+    ID_LIKE=debian
+    HOME_URL="https://www.ubuntu.com/"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    UBUNTU_CODENAME=resolute
+    LOGO=ubuntu-logo
+    ```
+    </details>
+
+    ![Kubuntu Information](/images/Ubuntu/20260926_Kubuntu.png)
+  - カーネルバージョン
+    - 7.0.0-34-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/09/26 Updated from 7.0.0-14>>*</span>
+
+  - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
+    ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
+  - KDE Plasma 6.6.6 <span style="color: red;">*<<2026/09/26 Updated from 6.6.4>>*</span>
 - [Ubuntu Desktop 26.04](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/04/23 updated from 26.04(development branch)>>*</span><a id="UbuntuDesktop"></a>
   ![Version Information](/images/Ubuntu/20260423_Ubuntu26.04.png)
 
