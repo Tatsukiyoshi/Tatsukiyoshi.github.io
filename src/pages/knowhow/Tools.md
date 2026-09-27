@@ -245,7 +245,7 @@ OS/言語を問わず利用するツールの情報
     - 3.4.0 -> 3.4.5 OK
     - 3.4.2 -> 3.4.5 NG
 
-- [GitHub CLI 2.85](https://cli.github.com/) <span style="color: red;">*<<2026/01/24 Installed>>*</span>
+- [GitHub CLI 2.101.0](https://cli.github.com/) <span style="color: red;">*<<2026/09/27 updated from 2.100.0>>*</span>
   - インストール@Windows
     ```
     winget install --id GitHub.cli
