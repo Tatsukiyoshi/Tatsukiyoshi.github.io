@@ -7,7 +7,7 @@ title: 2026年9月上期
 # Topic
 
 ## リスキリング
-- **＜開発ツール＞** [Visual Studio Code 1.137.0](https://code.visualstudio.com/)、Zed 1.19.2（Windows/macOS共通）に更新
+- **＜開発ツール＞** [Visual Studio Code 1.137.0](https://code.visualstudio.com/)、Zed 1.19.2（Windows/macOS共通）、[Visual Studio Community 2026 18.10.0](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
 - **＜OS＞** Windows Insiderのビルド系統がBuild 26340系からBuild 29xxx系（Experimental Future Platforms）へ切り替わり、[Build 29667.1000](https://blogs.windows.com/windows-insider/2026/09/11/announcing-new-builds-for-11-september-2026/)まで順次更新
 - **＜Kotlin＞** Windows Insiderで、Android Studio Rabbit 1をCanary 4に更新
 - **＜TypeScript＞** Windows Insiderで、近況確認アプリの開発環境の[Next.js 16.3.3](https://nextjs.org/)に更新（未認証リモートコード実行の脆弱性を修正するセキュリティアップデート）。あわせてReact 19.3.0に更新
@@ -46,6 +46,8 @@ title: 2026年9月上期
 - **＜開発ツール＞** macOSで、[Zed 1.19.2](https://zed.dev)に更新
 
 ##  【9/11】
+- **＜.NET＞** Windows Insiderで、[Visual Studio Community 2026 18.10.0](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)に更新
+  - あわせて.NET 10.0.12、.NET 8.0.31に更新
 - **＜TypeScript＞** Windows Insiderで、近況確認アプリの開発環境の[Next.js 16.3.3](https://nextjs.org/)に更新（未認証リモートコード実行の脆弱性を修正するセキュリティアップデート）。あわせてReact 19.3.0に更新
 
 ##  【9/12】
