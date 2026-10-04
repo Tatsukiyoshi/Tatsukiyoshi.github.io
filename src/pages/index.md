@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/9/15～）](/digest/2026/September/2ndH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/10/1～）](/digest/2026/October/1stH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,7 +17,7 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/09/19|[Build 29671.1000](https://blogs.windows.com/windows-insider/)
+Windows Insider             |2026/10/03|[Build 29680.1000](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
 macOS                       |2026/09/15|[Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
@@ -26,8 +26,8 @@ Ubuntu Desktop              |2026/09/26|[26.04.1 LTS](https://jp.ubuntu.com/down
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/09/26|[1.139.1](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/09/24|[1.21.0](https://zed.dev)
+Visual Studio Code  | * | * | * |2026/10/03|[1.140.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/10/02|[1.22.0](https://zed.dev)
 Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
