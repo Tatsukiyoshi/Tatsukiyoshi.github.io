@@ -280,7 +280,7 @@ git -C /Users/taishow2024/Documents/Repository/MorningStatusApp log --after="YYY
 11. 更新可能なツールのチェック（`/check-versions` を実行）
    - ダイジェスト本文（Topic/Daily）には含めない
    - チャットでの報告に加え、対象期間のIssue本文を更新する
-     - Issue番号は、作業ブランチ名（`update/<Issue番号>-environment-for-re-skilling-...`）またはPRの「Refs #xxx」から特定する
+     - Issue番号は、作業ブランチ名（`update/<Issue番号>-environment-for-re-skilling-...`）またはPRの「Refs #xxx」「Closes #xxx」から特定する
      - 本文に `## 更新したほうがいいツール一覧` セクションが無ければ末尾に追加し、既にあれば内容を今回の結果で丸ごと置き換える（過去の一覧は残さない）
      - セクション冒頭に調査日時と凡例を明記する: `` `/check-versions` による調査結果（YYYY/M/D時点）。⚠️はメジャーバージョンアップ（互換性リスクあり）。 ``
      - 本文全体をローカルの一時ファイルに組み立ててから `gh issue edit <番号> --body-file <一時ファイル>` で更新する
