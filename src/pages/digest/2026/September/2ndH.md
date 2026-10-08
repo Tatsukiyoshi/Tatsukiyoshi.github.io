@@ -2,7 +2,7 @@
 layout: ../../../../layouts/DigestLayout.astro
 title: 2026年9月下期
 ---
-2026年9月下期（2026/9/15～）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
+2026年9月下期（2026/9/15～2026/9/30）に[リスキリング（プログラミング）](https://tatsukiyoshi.github.io/)として取り組んだことをまとめました。
 
 # Topic
 

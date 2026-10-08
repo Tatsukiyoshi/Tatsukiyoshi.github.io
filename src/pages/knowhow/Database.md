@@ -22,7 +22,7 @@ nav: programming
   |Project          |DB                  |Last Updated
   |-----------------|--------------------|----------
   |AIChat           |MongoDB Atlas       |[2026/01/28](https://cloud.mongodb.com/)
-  |SelesReport      |Neon(PostgreSQL 17) |[2026/03/13](https://neon.com/)
+  |SelesReport      |Neon(PostgreSQL 17) |[2026/10/04](https://neon.com/)
   |MorningStatusApp |Neon(PostgreSQL 18) |2026/07/11
 
 ##  ノウハウ
@@ -54,6 +54,9 @@ nav: programming
     ```
     psql "$env:NEW_DIRECT_URL" --file backup.sql
     ```
+  - NeonがAzureリージョン廃止に伴い、AWSリージョンへ順次移行
+    - MorningStatusApp
+    - SalesReport
 
 ### SQLite
   - [インストール](https://www.sqlite.org/download.html)

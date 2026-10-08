@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.139.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/09/26 updated from 1.138.0>>*</span>
+- [Visual Studio Code 1.141.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/10/08 updated from 1.140.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,11 +32,11 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.21.0](https://zed.dev/windows) <span style="color: red;">*<<2026/09/24 updated from 1.20.2>>*</span>
+    - [Zed 1.23.2](https://zed.dev/windows) <span style="color: red;">*<<2026/10/08 updated from 1.22.0>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.20.2](https://zed.dev) <span style="color: red;">*<<2026/09/17 updated from 1.20.1>>*</span>
+    - [Zed 1.23.2](https://zed.dev) <span style="color: red;">*<<2026/10/08 updated from 1.22.0>>*</span>
   - 解消されたバグ
     - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
       - 直近の1.17.2で解消された模様
@@ -133,6 +133,9 @@ OS/言語を問わず利用するツールの情報
       ![Install](/images/Zed/20260508_Zed_Claude_Agent.png)
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
+
+- [Delta 0.18.2](https://delta.dev/) <span style="color: red;">*<<2026/10/05 updated>>*</span>
+  - Claude Code未対応のため、対応待ち
 
 - [Codex 26.616.81150](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/24 updated from 26.616.41845>>*</span>
   - バージョン情報のダイアログが大きくなった？
