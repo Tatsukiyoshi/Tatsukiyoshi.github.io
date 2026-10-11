@@ -134,8 +134,16 @@ OS/言語を問わず利用するツールの情報
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
-- [Delta 0.18.2](https://delta.dev/) <span style="color: red;">*<<2026/10/05 updated>>*</span>
-  - Claude Code未対応のため、対応待ち
+- Delta
+  ```
+  Zedチームによる、AIエージェントとのマルチプレイヤー開発環境（ベータ版）
+  ```
+  - Windows
+    - [Delta 0.18.2](https://delta.dev/) <span style="color: red;">*<<2026/10/05 installed>>*</span>
+  - macOS
+    - [Delta 0.19.2](https://delta.dev/) <span style="color: red;">*<<2026/10/11 installed>>*</span>
+  - Zed Pro以外ではLLMプロバイダーの選択が必要だが、SubscriptionsのClaude Codeは「Coming Soon」で選択できないため、対応待ち
+    ![LLM Provider](/images/Zed/20261011_Delta_LLM_Provider.png)
 
 - [Codex 26.616.81150](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/24 updated from 26.616.41845>>*</span>
   - バージョン情報のダイアログが大きくなった？
