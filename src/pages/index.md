@@ -29,7 +29,7 @@ Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/downloa
 Visual Studio Code  | * | * | * |2026/10/08|[1.141.0](https://code.visualstudio.com/)
 Zed                 | * | * | - |2026/10/08|[1.23.2](https://zed.dev)
 Delta               | * | * |   |2026/10/11|[0.19.2](https://delta.dev/)
-Claude Code         | * | * | - |2026/08/14|[2.1.232](https://github.com/anthropics/claude-code)
+Claude Code         | * | * | - |2026/10/11|[2.1.296](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
 Cursor              | * | - | - |2026/05/04|[3.2.21](https://www.cursor.com/)
@@ -63,7 +63,7 @@ Language                         |Updated   |Detail
 
 Common                                 |Updated   |Detail
 ---------------------------------------|----------|--------
-[AI](/knowhow/Mcp)                     |2026/08/14|Update: Claude Code 2.1.232
+[AI](/knowhow/Mcp)                     |2026/10/11|Update: Claude Code 2.1.296
 [Database & SQL](/knowhow/Database)    |2026/02/22|Update: PostgreSQL 18.2@ChromeOS Flex
 [Container](/knowhow/Container)        |2026/07/21|Update: Rancher Desktop 1.23.1
 [Documentation](/knowhow/Documentation)|2026/10/07|Update: Blume 2.2.0
