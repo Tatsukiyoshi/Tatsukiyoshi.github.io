@@ -52,7 +52,7 @@ Language                         |Updated   |Detail
 ---------------------------------|----------|--------
 [.NET](/knowhow/NET)             |2026/09/11|Update: Visual Studio Community 2026 18.10.0
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
-[Kotlin](/knowhow/Kotlin)        |2026/09/06|Update: Android Studio Rabbit 1 Canary 4
+[Kotlin](/knowhow/Kotlin)        |2026/10/12|Update: Android Studio Rabbit 2 Canary 4
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
 [TypeScript](/knowhow/TypeScript)|2026/10/08|Update: Next.js 16.4.0
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
