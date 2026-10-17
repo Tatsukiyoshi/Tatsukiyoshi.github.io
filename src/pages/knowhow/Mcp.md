@@ -156,7 +156,7 @@ AIエージェントを活用した開発スタイルの修得
 
 ### Coding Agent
 
-- [Claude Code 2.1.177](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/06/15 updated from 2.1.167>>*</span>
+- [Claude Code 2.1.296](https://github.com/anthropics/claude-code) <span style="color: red;">*<<2026/10/11 updated from 2.1.247>>*</span>
   - インストール
     ```
     irm https://claude.ai/install.ps1 | iex
@@ -181,6 +181,7 @@ AIエージェントを活用した開発スタイルの修得
     - Windowsで起動できない不具合あり(2.1.51) <span style="color: red;">*<<2026/02/24 happened>>*</span>
       - Claude Desktopでの調査の結果、Linux依存のパスが含まれていたためと判明 -> 2.1.49にダウングレード
     - macOSで日時を取得する際、currentDateを参照し、時刻まで取得しない不具合あり(2.1.56)
+  - Mod開発
   - Claude Codeスキル
     - スキルとは、Claude Codeで繰り返し使用するワークフローをカスタムコマンドとして定義する機能
     - 作成手順

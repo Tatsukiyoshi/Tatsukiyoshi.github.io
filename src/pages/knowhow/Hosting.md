@@ -28,7 +28,7 @@ nav: environment
   |Project     |FW              |Last Updated
   |------------|----------------|----------
   |AIChat      |Next.js 16.1.6  |2026/01/29
-  |SalesReport |Next.js 16.1.6  |2026/02/02
+  |SalesReport |Next.js 16.1.6  |2026/10/04
 
 ##  ノウハウ
 ### Google Cloud

@@ -5,8 +5,8 @@ knowhowファイルおよびアプリ開発リポジトリから更新情報を�
 ## ダイジェストの構造
 
 ### ファイル配置
-- `src/pages/digest/YYYY/Month/1stH.md` - 上期（第1週〜第2週）
-- `src/pages/digest/YYYY/Month/2ndH.md` - 下期（第3週以降）
+- `src/pages/digest/YYYY/Month/1stH.md` - 上期（月初〜期間Issueに記載の上期終了日。目安は14日前後）
+- `src/pages/digest/YYYY/Month/2ndH.md` - 下期（上期終了日の翌日〜月末）
 - 月名は英語（January, February, March, ...）
 
 ### フォーマット
@@ -216,10 +216,13 @@ git -C /Users/taishow2024/Documents/Repository/MorningStatusApp log --after="YYY
 
 ## 更新手順
 
-1. 今日の日付から対象のダイジェストファイルを特定
-   - 第1週〜第2週: 1stH.md
-   - 第3週以降: 2ndH.md
-   - 判定は週単位（日付ではなく、その月の第何週目かで判定）
+1. 対象期間とダイジェストファイルを特定
+   - 期間は、作業ブランチ名（`update/<Issue番号>-environment-for-re-skilling-YYYYMM-1st-half` / `-2nd-half`）から特定したIssueの本文冒頭に記載された期間を正とする
+     - 例: `リスキリング環境更新（2026年10月上期：10/1～10/16）`
+   - Issueに期間の記載がない場合は、ユーザーに上期終了日を確認する（目安は14日前後。週単位の機械的な判定はしない）
+     - 確定した期間は、Issue本文冒頭の1行目に `（YYYY年M月上期：M/D～M/D）` の形式で追記する
+   - 1st-half: 1stH.md / 2nd-half: 2ndH.md
+   - ダイジェスト本文の期間（`（YYYY/M/D～YYYY/M/D）`）の終了日は、期間中は最後に取り込んだ更新日とし、期間終了後の最終更新で期間終了日に揃える
 
 2. 対象ファイルの存在確認
    - ファイルが存在しない場合は、ディレクトリとファイルを新規作成
@@ -243,7 +246,7 @@ git -C /Users/taishow2024/Documents/Repository/MorningStatusApp log --after="YYY
 
 5. knowhowファイルおよびこのリポジトリから更新情報を収集（リスキリング）
    - 各knowhowファイルを読み込む
-   - 対象期間（上期: 第1週〜第2週、下期: 第3週以降）の更新を抽出
+   - 対象期間（手順1で特定した期間）の更新を抽出
    - バージョン番号、公式URL、補足説明を確認
    - Windows InsiderなどのOSアップデートは、Build番号を詳細に記載する（例：Build 26300.7733）
    - **Astroのアップデート**: このリポジトリのコミット履歴を `grep -i astro` で確認し、`package.json` でバージョンを確定する（カテゴリ: `TypeScript`）
@@ -280,7 +283,7 @@ git -C /Users/taishow2024/Documents/Repository/MorningStatusApp log --after="YYY
 11. 更新可能なツールのチェック（`/check-versions` を実行）
    - ダイジェスト本文（Topic/Daily）には含めない
    - チャットでの報告に加え、対象期間のIssue本文を更新する
-     - Issue番号は、作業ブランチ名（`update/<Issue番号>-environment-for-re-skilling-...`）またはPRの「Refs #xxx」から特定する
+     - Issue番号は、作業ブランチ名（`update/<Issue番号>-environment-for-re-skilling-...`）またはPRの「Refs #xxx」「Closes #xxx」から特定する
      - 本文に `## 更新したほうがいいツール一覧` セクションが無ければ末尾に追加し、既にあれば内容を今回の結果で丸ごと置き換える（過去の一覧は残さない）
      - セクション冒頭に調査日時と凡例を明記する: `` `/check-versions` による調査結果（YYYY/M/D時点）。⚠️はメジャーバージョンアップ（互換性リスクあり）。 ``
      - 本文全体をローカルの一時ファイルに組み立ててから `gh issue edit <番号> --body-file <一時ファイル>` で更新する

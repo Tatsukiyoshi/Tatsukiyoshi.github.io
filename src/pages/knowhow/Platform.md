@@ -40,10 +40,9 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
-    - [Build 29671.1000](https://blogs.windows.com/windows-insider/2026/09/18/announcing-new-builds-for-18-september-2026/) <span style="color: red;">*<<2026/09/19 updated from Build 29667.1000 >>*</span>
-      ![Windows Update](/images/Windows/20260919_WindowsUpdate_ExperimentalFuture.png)
+    - [Build 29683.1000](https://blogs.windows.com/windows-insider/2026/10/07/announcing-new-builds-for-7-october-2026/) <span style="color: red;">*<<2026/10/08 updated from Build 29680.1000 >>*</span>
       - ウォーターマーク（右下のバージョン情報）
-        ![Version Information](/images/Windows/20260919_Windows11_Build29671.png)
+        ![Version Information](/images/Windows/20261008_Windows11_Build29683.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 

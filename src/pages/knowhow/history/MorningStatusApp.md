@@ -4,6 +4,8 @@ title: History of Morning Status App
 nav: programming
 ---
 
+- トップページに当日のイベントが表示できるようにした
+  ![今日の予定](/images/MorningStatusApp/20261010_Heartful11Live.png)
 - 秋ツアー開始時にファイナル公演が告知された
   ![Final](/images/MorningStatusApp/20260906_Heartful11List.png)
   ![FirstDay](/images/MorningStatusApp/20260906_Heartful11.png)

@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.139.1](https://code.visualstudio.com/) <span style="color: red;">*<<2026/09/26 updated from 1.138.0>>*</span>
+- [Visual Studio Code 1.142.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/10/15 updated from 1.141.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,11 +32,11 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.21.0](https://zed.dev/windows) <span style="color: red;">*<<2026/09/24 updated from 1.20.2>>*</span>
+    - [Zed 1.24.2](https://zed.dev/windows) <span style="color: red;">*<<2026/10/15 updated from 1.23.2>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.20.2](https://zed.dev) <span style="color: red;">*<<2026/09/17 updated from 1.20.1>>*</span>
+    - [Zed 1.23.2](https://zed.dev) <span style="color: red;">*<<2026/10/08 updated from 1.22.0>>*</span>
   - 解消されたバグ
     - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
       - 直近の1.17.2で解消された模様
@@ -134,6 +134,17 @@ OS/言語を問わず利用するツールの情報
     - Select 
       ![Select](/images/Zed/20260508_Zed_Claude_Agent_Select.png)
 
+- Delta
+  ```
+  Zedチームによる、AIエージェントとのマルチプレイヤー開発環境（ベータ版）
+  ```
+  - Windows
+    - [Delta 0.18.2](https://delta.dev/) <span style="color: red;">*<<2026/10/05 installed>>*</span>
+  - macOS
+    - [Delta 0.19.2](https://delta.dev/) <span style="color: red;">*<<2026/10/11 installed>>*</span>
+  - Zed Pro以外ではLLMプロバイダーの選択が必要だが、SubscriptionsのClaude Codeは「Coming Soon」で選択できないため、対応待ち
+    ![LLM Provider](/images/Zed/20261011_Delta_LLM_Provider.png)
+
 - [Codex 26.616.81150](https://openai.com/ja-JP/codex/) for macOS <span style="color: red;">*<<2026/06/24 updated from 26.616.41845>>*</span>
   - バージョン情報のダイアログが大きくなった？
     ![Update](/images/OpenAI/20260606_Codex_macOS26.602.40724.png)
@@ -205,7 +216,7 @@ OS/言語を問わず利用するツールの情報
       ```
 
 ##  Windows <a id="Windows"></a>
-- [PowerShell 7.6.5](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/08/18 updated from 7.6.3>>*</span>
+- [PowerShell 7.6.7](https://github.com/PowerShell/PowerShell)<span style="color: red;">*<<2026/10/16 updated from 7.6.5>>*</span>
   - インストール
     ```
     winget install --id Microsoft.Powershell --source winget
