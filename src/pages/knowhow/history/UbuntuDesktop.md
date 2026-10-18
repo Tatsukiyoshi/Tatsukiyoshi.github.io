@@ -5,6 +5,40 @@ nav: environment
 ---
 
 ##  Ubuntu Desktop
+- [Ubuntu Desktop 26.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
+  - [Update](./sub/Ubuntu/20261018_Upgrade.md)
+
+    <details>
+    <summary>
+    ディストリビューション・バージョン情報
+    </summary>
+
+    ```
+    PRETTY_NAME="Ubuntu 26.10"
+    NAME="Ubuntu"
+    VERSION_ID="26.10"
+    VERSION="26.10 (Stonking Stingray)"
+    VERSION_CODENAME=stonking
+    RELEASE_TYPE=stable
+    ID=ubuntu
+    ID_LIKE=debian
+    HOME_URL="https://www.ubuntu.com/"
+    DOCUMENTATION_URL="https://docs.ubuntu.com"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    LOGO=ubuntu-logo
+    VENDOR_NAME="Canonical"
+    VENDOR_URL="https://canonical.com/"
+    UBUNTU_CODENAME=stonking
+    ```
+    </details>
+
+    ![Kubuntu Information](/images/Ubuntu/20260926_Kubuntu.png)
+  - カーネルバージョン
+    - 7.3.0-9-generic / Ubuntu 26.10 <span style="color: red;">*<<2026/10/19 Updated from 7.0.0-34-generic / Ubuntu 26.04>>*</span>
+  - KDE Plasma 6.7 <span style="color: red;">*<<2026/10/19 Updated from 6.6.6>>*</span>
+    ![Updated](/images/Ubuntu/20261019_Plasma_6.7.png) 
 - [Ubuntu Desktop 26.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
     ![Discover](/images/Ubuntu/20260926_Discover.png)
 

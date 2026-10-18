@@ -226,8 +226,8 @@ OS                                 |Hardware            |Language
         - 起動できた後、安易にEnroll all Factory Default Keys しないほうが良い。
 
 ##  Ubuntu Desktop
-- [Ubuntu Desktop 26.04.1](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
-    ![Discover](/images/Ubuntu/20260926_Discover.png)
+- [Ubuntu Desktop 26.10](https://jp.ubuntu.com/download) <span style="color: red;">*<<2026/09/26 updated from 26.04>>*</span><a id="UbuntuDesktop"></a> ([履歴](./history/UbuntuDesktop))
+  - [Update](./sub/Ubuntu/20261018_Upgrade.md)
 
     <details>
     <summary>
@@ -235,29 +235,34 @@ OS                                 |Hardware            |Language
     </summary>
 
     ```
-    RETTY_NAME="Ubuntu 26.04.1 LTS"
+    PRETTY_NAME="Ubuntu 26.10"
     NAME="Ubuntu"
-    VERSION_ID="26.04"
-    VERSION="26.04.1 LTS (Resolute Raccoon)"
-    VERSION_CODENAME=resolute
+    VERSION_ID="26.10"
+    VERSION="26.10 (Stonking Stingray)"
+    VERSION_CODENAME=stonking
+    RELEASE_TYPE=stable
     ID=ubuntu
     ID_LIKE=debian
     HOME_URL="https://www.ubuntu.com/"
+    DOCUMENTATION_URL="https://docs.ubuntu.com"
     SUPPORT_URL="https://help.ubuntu.com/"
     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-    UBUNTU_CODENAME=resolute
     LOGO=ubuntu-logo
+    VENDOR_NAME="Canonical"
+    VENDOR_URL="https://canonical.com/"
+    UBUNTU_CODENAME=stonking
     ```
     </details>
 
     ![Kubuntu Information](/images/Ubuntu/20260926_Kubuntu.png)
   - カーネルバージョン
-    - 7.0.0-34-generic / Ubuntu 26.04 <span style="color: red;">*<<2026/09/26 Updated from 7.0.0-14>>*</span>
+    - 7.3.0-9-generic / Ubuntu 26.10 <span style="color: red;">*<<2026/10/19 Updated from 7.0.0-34-generic / Ubuntu 26.04>>*</span>
 
   - Ubuntu Budgie 10.9.2 <span style="color: red;">*<<2025/05/30 Installed>>*</span>
     ![Desktop](/images/Ubuntu/20250530_Budgie.png) 
-  - KDE Plasma 6.6.6 <span style="color: red;">*<<2026/09/26 Updated from 6.6.4>>*</span>
+  - KDE Plasma 6.7 <span style="color: red;">*<<2026/10/19 Updated from 6.6.6>>*</span>
+    ![Updated](/images/Ubuntu/20261019_Plasma_6.7.png) 
   - ノウハウ
     - ISOイメージを作成する
       - [balenaEtcher - Flash OS images to SD cards & USB drives](https://etcher.balena.io/)
