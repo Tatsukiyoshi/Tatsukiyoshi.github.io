@@ -20,11 +20,10 @@ OS                                 |Hardware            |Language
   - (v) Ubuntu Desktop環境を構築
 
 ##  [Windows 11](https://www.microsoft.com/ja-jp/windows/?r=1)<a id="Windows"></a> ([履歴](./history/Windows))
-  - Windows 11 25H2 Build 26200.8246 <span style="color: red;">*<<2026/04/15 auto updated from 25H2 Build 26200.7840>>*</span>
-    - アップデート(2025-10)
-      ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)
+  - Windows 11 26H2 Build 26300.9711 <span style="color: red;">*<<2026/10/14 auto updated from 25H2 Build 26200.9550>>*</span>
+    - アップデート(2026-10)
       - バージョン情報
-        ![Version Information](/images/Windows/20251015_MiniS12_WindowsVersion.png)
+        ![Version Information](/images/Windows/20261018_Windows11_26H2_Build26300.9711.png)
   - [Moralerspace 2.0.0](https://github.com/yuru7/moralerspace) <span style="color: red;">*<<2025/07/31 installed>>*</span>
     ![Moralerspace](/images/Windows/20250731_Moralerspace.png)
   - ノウハウ
