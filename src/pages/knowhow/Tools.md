@@ -11,7 +11,7 @@ OS/言語を問わず利用するツールの情報
 
 ##  共通 <a id="Common"></a>
 ### エディタ
-- [Visual Studio Code 1.142.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/10/15 updated from 1.141.0>>*</span>
+- [Visual Studio Code 1.143.0](https://code.visualstudio.com/) <span style="color: red;">*<<2026/10/21 updated from 1.142.0>>*</span>
   ```
   Atomをベースに開発された業界標準エディタ（Electonで実装）
   ```
@@ -32,7 +32,7 @@ OS/言語を問わず利用するツールの情報
   Atom開発者によるエディタ（Rustで実装）
   ```
   - Windows
-    - [Zed 1.24.2](https://zed.dev/windows) <span style="color: red;">*<<2026/10/15 updated from 1.23.2>>*</span>
+    - [Zed 1.24.4](https://zed.dev/windows) <span style="color: red;">*<<2026/10/21 updated from 1.24.2>>*</span>
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
