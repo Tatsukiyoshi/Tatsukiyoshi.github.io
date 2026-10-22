@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.23.2](https://zed.dev) <span style="color: red;">*<<2026/10/08 updated from 1.22.0>>*</span>
+    - [Zed 1.25.2](https://zed.dev) <span style="color: red;">*<<2026/10/22 updated from 1.23.2>>*</span>
   - 解消されたバグ
     - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
       - 直近の1.17.2で解消された模様
@@ -141,7 +141,7 @@ OS/言語を問わず利用するツールの情報
   - Windows
     - [Delta 0.18.2](https://delta.dev/) <span style="color: red;">*<<2026/10/05 installed>>*</span>
   - macOS
-    - [Delta 0.19.2](https://delta.dev/) <span style="color: red;">*<<2026/10/11 installed>>*</span>
+    - [Delta 0.21.0](https://delta.dev/) <span style="color: red;">*<<2026/10/11 updated from 0.19.2>>*</span>
   - Zed Pro以外ではLLMプロバイダーの選択が必要だが、SubscriptionsのClaude Codeは「Coming Soon」で選択できないため、対応待ち
     ![LLM Provider](/images/Zed/20261011_Delta_LLM_Provider.png)
 
