@@ -19,7 +19,7 @@ Platform                    |Updated   |Detail
 ----------------------------|----------|--------
 Windows Insider             |2026/10/25|[Build 29695.1000](https://blogs.windows.com/windows-insider/)
 Windows                     |2026/10/14|[26H2(26300.9711)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/09/15|[Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
+macOS                       |2026/10/28|[Golden Gate 27.2](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
 Ubuntu Desktop              |2026/10/19|[26.10](https://jp.ubuntu.com/download)
 

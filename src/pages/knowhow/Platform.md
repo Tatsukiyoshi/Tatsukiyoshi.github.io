@@ -145,10 +145,12 @@ OS                                 |Hardware            |Language
       - [【WSL2】Ubuntu 20.04.4 LTS を 22.04 LTS へアップグレードした](https://zenn.dev/ryuu/articles/upgrade-ubuntu2204-wsl)
 
 ##  [macOS](https://www.apple.com/jp/macos/)<a id="mac"></a> ([履歴](./history/macOS))
-  - [Golden Gate 27.0.1](https://www.apple.com/jp/os/macos/)
-    <span style="color: red;">*<<2026/09/29 updated from Tahoe 27.0>>*</span>
+  - [Golden Gate 27.2](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/10/28 updated from Tahoe 27.0.1>>*</span>
+    - アップデート
+      ![Update](/images/macOS/20261028_macOS_Golden_Gate27.2Upgrade.png)
     - バージョン情報
-      ![Golden Gate 27.0.1](/images/macOS/20260929_macOS_Golden_Gate27.0.1.png)
+      ![Golden Gate 27.2](/images/macOS/20261028_macOS_Golden_Gate27.2.png)
   - ノウハウ
     - [開発ツール](/knowhow/Tools#macos)
 
