@@ -20,18 +20,18 @@ nav: programming
 
   |Machine         |Env / FW                                          |Last Updated
   |----------------|--------------------------------------------------|----------
-  |Windows Insider |Visual Studio Community 2026 18.11.1              |[2026/10/21](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  |                |- .NET 10.0.13                                    |[2026/10/21](https://dotnet.microsoft.com/ja-jp/download/dotnet)
+  |Windows Insider |Visual Studio Community 2026 18.11.3              |[2026/10/30](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
+  |                |- .NET 10.0.14                                    |[2026/10/30](https://dotnet.microsoft.com/ja-jp/download/dotnet)
   |                |  - [MAUI 10.0.90](#maui)                         |[2026/08/02](https://github.com/dotnet/maui)
   |                |  - Android Emulator v.36.3.3                     |2025/10/17
   |                |- [Windows App SDK 1.8.3](#windows-app-sdk)       |[2025/11/15](https://learn.microsoft.com/ja-jp/windows/apps/windows-app-sdk/downloads)
   |                |- [Math.NET 6.0.0-beta2](#mathnet)                |[2025/10/02](https://numerics.mathdotnet.com/)
-  |                |- .NET 8.0.32                                     |2026/10/21
+  |                |- .NET 8.0.33                                     |2026/10/30
   |Windows         |Visual Studio Community 2022 17.14.30             |[2026/04/15](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes)
 
 ##  [Visual Studio](https://visualstudio.microsoft.com/ja/vs/) / [履歴](./history/VisualStudio)
 - [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes)
-  - 10月 2026 機能更新プログラム(18.11.1) <span style="color: red;">*<<2026/10/21 updated from 18.10.0>>*</span>
+  - 10月 2026 機能更新プログラム(18.11.3) <span style="color: red;">*<<2026/10/30 updated from 18.11.1>>*</span>
   - [VS2026 Release List](/knowhow/sub/VS2026_Comparison)
 
 - Visual Studio 2022 17.14.24 <span style="color: red;">*<<2026/01/16 updated from 17.14.23>>*</span>
@@ -505,75 +505,75 @@ nav: programming
 
     ```
     .NET SDK:
-     Version:           10.0.402
-     Commit:            a8dd0577c5
-     Workload version:  10.0.400.1
-     MSBuild version:   18.9.15+a8dd0577c
-    
+    Version:           10.0.403
+    Commit:            5a2162bea6
+    Workload version:  10.0.400.1
+    MSBuild version:   18.9.15+5a2162bea
+
     ランタイム環境:
-     OS Name:     Windows
-     OS Version:  10.0.29683
-     OS Platform: Windows
-     RID:         win-x64
-     Base Path:   C:\Program Files\dotnet\sdk\10.0.402\
-    
+    OS Name:     Windows
+    OS Version:  10.0.29695
+    OS Platform: Windows
+    RID:         win-x64
+    Base Path:   C:\Program Files\dotnet\sdk\10.0.403\
+
     インストール済みの .NET ワークロード:
-     [android]
-       インストール ソース: SDK 10.0.400, VS 18.11.12315.225
-       マニフェストのバージョン:    36.1.69/10.0.100
-       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.69\WorkloadManifest.json
-       インストールの種類:              Msi
-    
-     [ios]
-       インストール ソース: SDK 10.0.400, VS 18.11.12315.225
-       マニフェストのバージョン:    26.5.10315/10.0.100
-       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.5.10315\WorkloadManifest.json
-       インストールの種類:              Msi
-    
-     [maccatalyst]
-       インストール ソース: SDK 10.0.400, VS 18.11.12315.225
-       マニフェストのバージョン:    26.5.10315/10.0.100
-       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.5.10315\WorkloadManifest.json
-       インストールの種類:              Msi
-    
-     [maui-windows]
-       インストール ソース: SDK 10.0.400, VS 18.11.12315.225
-       マニフェストのバージョン:    10.0.20/10.0.100
-       マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.20\WorkloadManifest.json
-       インストールの種類:              Msi
-    
+    [android]
+      インストール ソース: SDK 10.0.400, VS 18.11.12328.437
+      マニフェストのバージョン:    36.1.69/10.0.100
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.android\36.1.69\WorkloadManifest.json
+      インストールの種類:              Msi
+
+    [ios]
+      インストール ソース: SDK 10.0.400, VS 18.11.12328.437
+      マニフェストのバージョン:    26.5.10315/10.0.100
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.ios\26.5.10315\WorkloadManifest.json
+      インストールの種類:              Msi
+
+    [maccatalyst]
+      インストール ソース: SDK 10.0.400, VS 18.11.12328.437
+      マニフェストのバージョン:    26.5.10315/10.0.100
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maccatalyst\26.5.10315\WorkloadManifest.json
+      インストールの種類:              Msi
+
+    [maui-windows]
+      インストール ソース: SDK 10.0.400, VS 18.11.12328.437
+      マニフェストのバージョン:    10.0.20/10.0.100
+      マニフェスト パス:       C:\Program Files\dotnet\sdk-manifests\10.0.100\microsoft.net.sdk.maui\10.0.20\WorkloadManifest.json
+      インストールの種類:              Msi
+
     新しいマニフェストをインストールするときに workload sets を使用するように構成されています。
-    
+
     Host:
-      Version:      10.0.13
+      Version:      10.0.14
       Architecture: x64
-      Commit:       4099f83977
-    
+      Commit:       0427b9abbe
+
     .NET SDKs installed:
       10.0.100-rc.1.25451.107 [C:\Program Files\dotnet\sdk]
-      10.0.402 [C:\Program Files\dotnet\sdk]
-    
+      10.0.403 [C:\Program Files\dotnet\sdk]
+
     .NET runtimes installed:
-      Microsoft.AspNetCore.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.AspNetCore.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
-      Microsoft.NETCore.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.NETCore.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
-      Microsoft.WindowsDesktop.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-      Microsoft.WindowsDesktop.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
-    
+      Microsoft.AspNetCore.App 8.0.33 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.AspNetCore.App 10.0.14 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+      Microsoft.NETCore.App 8.0.33 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.NETCore.App 10.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+      Microsoft.WindowsDesktop.App 8.0.33 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+      Microsoft.WindowsDesktop.App 10.0.14 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
     Other architectures found:
       x86   [C:\Program Files (x86)\dotnet]
         registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
-    
+
     Environment variables:
       Not set
-    
+
     global.json file:
       Not found
-    
+
     Learn more:
       https://aka.ms/dotnet/info
-    
+
     Download .NET:
       https://aka.ms/dotnet/download
     ```
