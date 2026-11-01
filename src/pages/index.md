@@ -7,7 +7,7 @@ title: リスキリング トップページ
 ```
 隔週日曜日に更新（2025年11月より）
 ```
-[最新ダイジェスト（2026/10/1～2026/10/16）](/digest/2026/October/1stH) / [一覧](/digest/list)
+[最新ダイジェスト（2026/10/17～2026/10/31）](/digest/2026/October/2ndH) / [一覧](/digest/list)
 
 ##  環境 <a id="Environment"></a>
 ```
@@ -17,18 +17,18 @@ title: リスキリング トップページ
 
 Platform                    |Updated   |Detail
 ----------------------------|----------|--------
-Windows Insider             |2026/10/08|[Build 29683.1000](https://blogs.windows.com/windows-insider/)
-Windows                     |2026/04/15|[25H2(26200.8246)](https://www.microsoft.com/ja-jp/windows/?r=1)
-macOS                       |2026/09/15|[Golden Gate 27.0](https://www.apple.com/jp/os/macos/)
+Windows Insider             |2026/10/31|[Build 29698.1000](https://blogs.windows.com/windows-insider/)
+Windows                     |2026/10/14|[26H2(26300.9711)](https://www.microsoft.com/ja-jp/windows/?r=1)
+macOS                       |2026/10/28|[Golden Gate 27.2](https://www.apple.com/jp/os/macos/)
 ChromeOS Flex               |2026/08/16|[151.0.7922.141](https://chromereleases.googleblog.com/search/label/ChromeOS%20Flex)
-Ubuntu Desktop              |2026/09/26|[26.04.1 LTS](https://jp.ubuntu.com/download)
+Ubuntu Desktop              |2026/10/19|[26.10](https://jp.ubuntu.com/download)
 
 Tools               |Win|mac|Chr|Updated   |Detail
 --------------------|---|---|---|----------|--------
 Git                 | * | * | * |2026/02/26|[2.53.0](https://git-scm.com/download)
-Visual Studio Code  | * | * | * |2026/10/15|[1.142.0](https://code.visualstudio.com/)
-Zed                 | * | * | - |2026/10/15|[1.24.2](https://zed.dev)
-Delta               | * | * |   |2026/10/11|[0.19.2](https://delta.dev/)
+Visual Studio Code  | * | * | * |2026/10/29|[1.144.0](https://code.visualstudio.com/)
+Zed                 | * | * | - |2026/10/29|[1.26.2](https://zed.dev)
+Delta               | * | * |   |2026/10/22|[0.21.0](https://delta.dev/)
 Claude Code         | * | * | - |2026/10/11|[2.1.296](https://github.com/anthropics/claude-code)
 Codex               | - | * |   |2026/06/24|[26.616.81150](https://openai.com/ja-JP/codex/)
 AntiGravity         | - | - | * |2026/05/29|[2.0.3](https://antigravity.google/)
@@ -50,11 +50,11 @@ GIMP                |   | * |   |2025/03/18|[3.0](https://www.gimp.org/)
 
 Language                         |Updated   |Detail
 ---------------------------------|----------|--------
-[.NET](/knowhow/NET)             |2026/09/11|Update: Visual Studio Community 2026 18.10.0
+[.NET](/knowhow/NET)             |2026/10/30|Update: Visual Studio Community 2026 18.11.3
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/10/12|Update: Android Studio Rabbit 2 Canary 4
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/10/16|Update: Bun 1.4.3
+[TypeScript](/knowhow/TypeScript)|2026/10/24|Update: Next.js 16.4.3
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0

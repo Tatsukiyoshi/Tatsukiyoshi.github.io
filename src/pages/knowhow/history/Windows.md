@@ -5,6 +5,14 @@ nav: environment
 ---
 - Windows Insider History
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
+    - [Build 29698.1000](https://blogs.windows.com/windows-insider/2026/10/30/announcing-new-builds-for-30-october-2026/) <span style="color: red;">*<<2026/10/31 updated from Build 29695.1000 >>*</span>
+      ![Windows Update](/images/Windows/20261031_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20261031_Windows11_Build29698.png)
+    - [Build 29695.1000](https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/) <span style="color: red;">*<<2026/10/25 updated from Build 29683.1000 >>*</span>
+      ![Windows Update](/images/Windows/20261025_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20261026_Windows11_Build29695.png)
     - [Build 29683.1000](https://blogs.windows.com/windows-insider/2026/10/07/announcing-new-builds-for-7-october-2026/) <span style="color: red;">*<<2026/10/08 updated from Build 29680.1000 >>*</span>
       - ウォーターマーク（右下のバージョン情報）
         ![Version Information](/images/Windows/20261008_Windows11_Build29683.png)
@@ -614,6 +622,10 @@ nav: environment
       - メモ帳にタブがついた！
       ![メモ帳](/images/Windows/20230121_Notepad_with_Tab.png)
 - Windows History
+  - Windows 11 26H2 Build 26300.9711 <span style="color: red;">*<<2026/10/14 auto updated from 25H2 Build 26200.9550>>*</span>
+    - アップデート(2026-10)
+      - バージョン情報
+        ![Version Information](/images/Windows/20261018_Windows11_26H2_Build26300.9711.png)
   - Windows 11 25H2 Build 26200.8246 <span style="color: red;">*<<2026/04/15 auto updated from 25H2 Build 26200.7840>>*</span>
     - アップデート(2025-10)
       ![Update](/images/Windows/20251015_MiniS12_WindowsUpdate.png)

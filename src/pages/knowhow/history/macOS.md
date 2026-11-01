@@ -5,6 +5,12 @@ nav: main
 ---
 
 - Update History
+  - [Golden Gate 27.2](https://www.apple.com/jp/os/macos/)
+    <span style="color: red;">*<<2026/10/28 updated from Tahoe 27.0.1>>*</span>
+    - アップデート
+      ![Update](/images/macOS/20261028_macOS_Golden_Gate27.2Upgrade.png)
+    - バージョン情報
+      ![Golden Gate 27.2](/images/macOS/20261028_macOS_Golden_Gate27.2.png)
   - [Golden Gate 27.0.1](https://www.apple.com/jp/os/macos/)
     <span style="color: red;">*<<2026/09/29 updated from Tahoe 27.0>>*</span>
     - バージョン情報
