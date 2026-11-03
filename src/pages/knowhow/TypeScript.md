@@ -134,6 +134,9 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - PandaaCSS 2.3.0で配色トークン活用推進
+      ![トップページ](/images/MorningStatusApp/20261103_MorningStatusApp.png)
+      ![メンバー一覧](/images/MorningStatusApp/20261103_MemberList.png)
     - トップページに当日のイベントが表示できるようにした
       ![今日の予定](/images/MorningStatusApp/20261010_Heartful11Live.png)
 
