@@ -116,6 +116,7 @@ nav: programming
     |                |- leaflet 5.0.0       |[2026/04/13](https://react-leaflet.js.org/)
     |                |- Recharts 3.8.1      |[2026/04/25](https://recharts.github.io/)
     |                |- React Flow 12.11.1  |[2026/06/27](https://reactflow.dev/)
+    |                |- Playwright 1.64.1   |[2026/11/08](https://Playwright.dev/)
     |                |- Electrobun 2.0.2    |[2026/10/01](https://github.com/blackboardsh/electrobun)
 
   - コンテンツ取得
@@ -134,6 +135,8 @@ nav: programming
     - [コーヒーカップ](https://icons8.com/icon/115642/cafe)アイコン by [Icons8](https://icons8.com)
 
   - [履歴](./history/MorningStatusApp)
+    - Playwright 1.64.1にアップデート
+      - Instagram収集時のUbuntuが26.04.1になったため、それまでの1.59.0がサポート外に！
     - PandaaCSS 2.3.0で配色トークン活用推進
       ![トップページ](/images/MorningStatusApp/20261103_MorningStatusApp.png)
       ![メンバー一覧](/images/MorningStatusApp/20261103_MemberList.png)

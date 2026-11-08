@@ -54,7 +54,7 @@ Language                         |Updated   |Detail
 [Rust](/knowhow/Rust)            |2026/05/01|Update: Rust 1.95.0 / Tauri 2.11.0
 [Kotlin](/knowhow/Kotlin)        |2026/11/03|Update: Android Studio Rabbit 3 Canary 2
 [Flutter](/knowhow/Flutter)      |2026/06/27|Update: Flutter 3.44.4@macOS
-[TypeScript](/knowhow/TypeScript)|2026/10/24|Update: Next.js 16.4.3
+[TypeScript](/knowhow/TypeScript)|2026/11/08|Update: Playwright 1.64.1
 [Java](/knowhow/Java)            |2025/10/24|Update: Pleiades 2025-09.20251002
 [Swift](/knowhow/Swift)          |2025/09/23|Setup: Swift 6.2.0@Windows
 [Python](/knowhow/Python)        |2026/01/17|Update: fastmcp 2.14.3 / openai 2.15.0
