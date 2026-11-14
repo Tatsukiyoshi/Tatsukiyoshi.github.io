@@ -39,11 +39,10 @@ OS                                 |Hardware            |Language
 
 ##  [Windows Insider](https://blogs.windows.com/windows-insider/)<a id="WindowsInsider"></a> ([履歴](./history/Windows))
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
-    - Build 29704.1010 <span style="color: red;">*<<2026/11/10 updated from Build 29704.1000 >>*</span>
-    - [Build 29704.1000](https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/) <span style="color: red;">*<<2026/11/07 updated from Build 29698.1000 >>*</span>
-      ![Windows Update](/images/Windows/20261107_WindowsUpdate_ExperimentalFuture.png)
-      - ウォーターマーク（右下のバージョン情報）←一度更新したはずが再度ダウンロードからのインストールで再起動！更新されました
-        ![Version Information](/images/Windows/20261107_Windows11_Build29704.png)
+    - [Build 29708.1003](https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/) <span style="color: red;">*<<2026/11/14 updated from Build 29704.1010 >>*</span>
+      ![Windows Update](/images/Windows/20261114_WindowsUpdated.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20261114_Windows11_Build29708.png)
   - [Canary Channel](https://aka.ms/CanaryLatest)
   - [Dev Channelへの変更](https://mitomoha.hatenablog.com/entry/2023/08/11/010623)
 
