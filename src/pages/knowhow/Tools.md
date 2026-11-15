@@ -36,7 +36,7 @@ OS/言語を問わず利用するツールの情報
       ![Claude Tasks](/images/ClaudeCode/20260711_Claude_Task_on_Zed.png)
       ![On boarding](/images/Zed/20251018_Zed_On_boarding.png)
   - macOS
-    - [Zed 1.25.2](https://zed.dev) <span style="color: red;">*<<2026/10/22 updated from 1.23.2>>*</span>
+    - [Zed 1.28.1](https://zed.dev) <span style="color: red;">*<<2026/11/16 updated from 1.25.2>>*</span>
   - 解消されたバグ
     - Claude Agentが提示するAskUserQuestionダイアログで、SubmitするとAgent Panelが閉じてしまう
       - 直近の1.17.2で解消された模様
