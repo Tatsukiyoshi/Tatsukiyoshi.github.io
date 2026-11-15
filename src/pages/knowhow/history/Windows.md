@@ -5,6 +5,15 @@ nav: environment
 ---
 - Windows Insider History
   - Windows 11 Insider Experimental (Future Platforms) Preview Build (Build 29xxx)
+    - [Build 29708.1003](https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/) <span style="color: red;">*<<2026/11/14 updated from Build 29704.1010 >>*</span>
+      ![Windows Update](/images/Windows/20261114_WindowsUpdated.png)
+      - ウォーターマーク（右下のバージョン情報）
+        ![Version Information](/images/Windows/20261114_Windows11_Build29708.png)
+    - Build 29704.1010 <span style="color: red;">*<<2026/11/10 updated from Build 29704.1000 >>*</span>
+    - [Build 29704.1000](https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/) <span style="color: red;">*<<2026/11/07 updated from Build 29698.1000 >>*</span>
+      ![Windows Update](/images/Windows/20261107_WindowsUpdate_ExperimentalFuture.png)
+      - ウォーターマーク（右下のバージョン情報）←再起動通知なし。再起動しても、更新されていない
+        ![Version Information](/images/Windows/20261031_Windows11_Build29698.png)
     - [Build 29698.1000](https://blogs.windows.com/windows-insider/2026/10/30/announcing-new-builds-for-30-october-2026/) <span style="color: red;">*<<2026/10/31 updated from Build 29695.1000 >>*</span>
       ![Windows Update](/images/Windows/20261031_WindowsUpdate_ExperimentalFuture.png)
       - ウォーターマーク（右下のバージョン情報）

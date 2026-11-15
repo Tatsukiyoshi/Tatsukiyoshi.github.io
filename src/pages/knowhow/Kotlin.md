@@ -21,11 +21,11 @@ nav: programming
       |                |- Kotlin 2.4.10                                    |[2026/08/14](https://kotlinlang.org/docs/home.html)
       |                |- Oracle JDK 25                                    |[2025/12/25](https://www.oracle.com/jp/java/technologies/downloads/)
       |                |- PostgreSQL JDBC Driver 42.7.7                    |[2025/12/07](https://mvnrepository.com/artifact/org.postgresql/postgresql)
-      |                |[Android Studio Rabbit 2 Canary 4](#AndroidStudio) |[2026/10/12](https://developer.android.com/studio)
-      |                |- Kotlin 2.4.10                                    |[2026/08/13](https://kotlinlang.org/docs/home.html)
+      |                |[Android Studio Rabbit 3 Canary 2](#AndroidStudio) |[2026/11/03](https://developer.android.com/studio)
+      |                |- Kotlin 2.4.21                                    |[2026/11/03](https://kotlinlang.org/docs/home.html)
       |                |- Android SDK Platform 37.0.1                      |2026/08/13
       |                |- Android SDK Command-line Tools 23.0              |2026/08/19
-      |                |- Android Emulator v.37.3.3                        |2026/10/12
+      |                |- Android Emulator v.37.3.6                        |2026/11/03
 
   1. macOS Sequoia 15.6.1
 
@@ -206,17 +206,17 @@ nav: programming
 
 ### Android / Android Studio <a id="AndroidStudio"></a>
   - Windows
-    - Android Studio Rabbit 2 | 2026.2.2 Canary 4
+    - Android Studio Rabbit 3 | 2026.2.3 Canary 2
       ```
-      Build #AI-262.10968.63.2622.16548196, built on October 8, 2026
-      Runtime version: 25.0.4+-16339643-b508.27 amd64
+      Build #AI-262.10968.63.2623.16736312, built on October 27, 2026
+      Runtime version: 25.0.4+-16680714-b508.27 amd64
       VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
       Toolkit: sun.awt.windows.WToolkit
       Windows 11.0
       Exception reporter ID: 231124159ef5845-c0a6-48bf-9751-9a420bd718e3
       StudioFlags with current overrides:
         LazyStudioFlagSettings(StudioFlagSettings(data.size=0)):
-        PropertyOverrides(cache.size=500):
+        PropertyOverrides(cache.size=490):
           flags.configuration.level=PREVIEW
         MendelOverrides(MendelFlagsProvider count=1):
         ServerFlagOverrides(No server flags are enabled.):
@@ -229,9 +229,9 @@ nav: programming
       Cores: 8
       Registry:
         ide.experimental.ui=true
+        gradle.phased.sync.bridge.disabled=true
         gradle.phased.sync.enabled=true
         com.android.studio.ml.activeModel=com.android.studio.ml.AidaModel
-        gradle.phased.sync.bridge.disabled=true
       Non-Bundled Plugins:
         Dart (510.0.0)
         io.flutter (97.0.0)
@@ -324,6 +324,11 @@ nav: programming
         - [Behavior changes: Apps targeting Android 15 or higher](https://developer.android.com/about/versions/15/behavior-changes-15) を参照のうえ、見直す
   - 対応履歴
     - Rabbit
+      - 2026.2.3
+        - Canary 2
+          - Android Gradle Plugin 9.4.1 -> 9.5.0
+          - Kotlin 2.4.21
+          - Android Emulator 37.3.6
       - 2026.2.2
         - Canary 4
           - Android Gradle Plugin 9.4.0 -> 9.4.1
