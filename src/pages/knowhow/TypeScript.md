@@ -106,7 +106,7 @@ nav: programming
 
     |Machine         |Env / FW              |Last Updated
     |----------------|----------------------|----------
-    |Windows Insider |Next.js 16.4.3        |2026/10/24
+    |Windows Insider |Next.js 16.4.5        |2026/11/17
     |                |- Bun 1.4.3           |2026/10/16
     |                |- Prisma 7.10.0       |[2026/09/07](https://www.prisma.io/)
     |                |- React 19.3.0        |[2026/09/11](https://react.dev/)
